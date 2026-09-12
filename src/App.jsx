@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-import genesisQuestions from "./data/oldTestament/genesis";
-import exodusQuestions from "./data/oldTestament/exodus";
-import leviticusQuestions from "./data/oldTestament/leviticus";
-import numbersQuestions from "./data/oldTestament/numbers";
-import deuteronomyQuestions from "./data/oldTestament/deuteronomy";
+import genesisQuestions from "./data/oldtestament/genesis";
+import exodusQuestions from "./data/oldtestament/exodus";
+import leviticusQuestions from "./data/oldtestament/leviticus";
+import numbersQuestions from "./data/oldtestament/numbers";
+import deuteronomyQuestions from "./data/oldtestament/deuteronomy";
 import joshuaQuestions from "./data/oldtestament/joshua";
 import judgesQuestions from "./data/oldtestament/judges";
 import ruthQuestions from "./data/oldtestament/ruth";
