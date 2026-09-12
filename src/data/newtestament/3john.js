@@ -1,0 +1,842 @@
+const thirdJohnQuestions = [
+  // OPENING AND GAIUS
+  {
+    question: "How does the writer identify himself at the beginning of the letter?",
+    options: [
+      "The elder",
+      "The apostle",
+      "The prophet",
+      "The servant",
+    ],
+    answer: "The elder",
+    reference: "3 John 1",
+  },
+  {
+    question: "To whom is the letter addressed?",
+    options: [
+      "Gaius",
+      "Diotrephes",
+      "Demetrius",
+      "Timothy",
+    ],
+    answer: "Gaius",
+    reference: "3 John 1",
+  },
+  {
+    question: "How does the elder describe Gaius?",
+    options: [
+      "Dear friend whom he loves in the truth",
+      "A fellow prisoner",
+      "A false teacher",
+      "A traveling apostle",
+    ],
+    answer: "Dear friend whom he loves in the truth",
+    reference: "3 John 1",
+  },
+  {
+    question: "What does the elder pray concerning Gaius?",
+    options: [
+      "That he may enjoy good health and that all may go well with him",
+      "That he may become wealthy",
+      "That he may become an apostle",
+      "That he may move to Jerusalem",
+    ],
+    answer: "That he may enjoy good health and that all may go well with him",
+    reference: "3 John 2",
+  },
+  {
+    question: "What comparison does the elder make when praying for Gaius's well-being?",
+    options: [
+      "That his physical well-being may correspond with the well-being of his soul",
+      "That his wealth may match his influence",
+      "That his knowledge may match his age",
+      "That his travels may match his ministry",
+    ],
+    answer: "That his physical well-being may correspond with the well-being of his soul",
+    reference: "3 John 2",
+  },
+  {
+    question: "What brought the elder great joy concerning Gaius?",
+    options: [
+      "Believers testified about his faithfulness to the truth",
+      "He had gained wealth",
+      "He had become a church ruler",
+      "He had moved to another city",
+    ],
+    answer: "Believers testified about his faithfulness to the truth",
+    reference: "3 John 3",
+  },
+  {
+    question: "How was Gaius living according to the testimony others gave?",
+    options: [
+      "He was walking in the truth",
+      "He was living in fear",
+      "He was pursuing wealth",
+      "He was avoiding other believers",
+    ],
+    answer: "He was walking in the truth",
+    reference: "3 John 3",
+  },
+  {
+    question: "What does the elder say gives him no greater joy?",
+    options: [
+      "Hearing that his children are walking in the truth",
+      "Seeing churches become wealthy",
+      "Receiving many letters",
+      "Traveling to new cities",
+    ],
+    answer: "Hearing that his children are walking in the truth",
+    reference: "3 John 4",
+  },
+  {
+    question: "What relationship does the elder's phrase 'my children' suggest?",
+    options: [
+      "A spiritual relationship with believers under his care",
+      "Only a biological relationship",
+      "A political relationship",
+      "A financial relationship",
+    ],
+    answer: "A spiritual relationship with believers under his care",
+    reference: "3 John 4",
+  },
+
+  // HOSPITALITY AND SUPPORT OF WORKERS
+  {
+    question: "What does the elder praise Gaius for doing faithfully?",
+    options: [
+      "Serving fellow believers, even those who were strangers to him",
+      "Building a church",
+      "Teaching in Jerusalem",
+      "Collecting money",
+    ],
+    answer: "Serving fellow believers, even those who were strangers to him",
+    reference: "3 John 5",
+  },
+  {
+    question: "What kind of believers had Gaius helped?",
+    options: [
+      "Brothers and sisters who were strangers to him",
+      "Only his relatives",
+      "Only church leaders",
+      "Only wealthy believers",
+    ],
+    answer: "Brothers and sisters who were strangers to him",
+    reference: "3 John 5",
+  },
+  {
+    question: "Where had the visiting believers testified about Gaius's love?",
+    options: [
+      "Before the church",
+      "Before Roman officials",
+      "Before the synagogue",
+      "Before the marketplace",
+    ],
+    answer: "Before the church",
+    reference: "3 John 6",
+  },
+  {
+    question: "What does the elder encourage Gaius to do for traveling believers?",
+    options: [
+      "Send them on their way in a manner worthy of God",
+      "Turn them away",
+      "Charge them for lodging",
+      "Ask them to remain permanently",
+    ],
+    answer: "Send them on their way in a manner worthy of God",
+    reference: "3 John 6",
+  },
+  {
+    question: "For whose sake had the traveling workers gone out?",
+    options: [
+      "For the sake of the Name",
+      "For financial profit",
+      "For Roman citizenship",
+      "For political influence",
+    ],
+    answer: "For the sake of the Name",
+    reference: "3 John 7",
+  },
+  {
+    question: "What had the traveling workers refused to accept from unbelievers?",
+    options: [
+      "Help or support",
+      "Food of any kind",
+      "Conversation",
+      "Entrance into cities",
+    ],
+    answer: "Help or support",
+    reference: "3 John 7",
+  },
+  {
+    question: "Why should believers support such workers?",
+    options: [
+      "So they may work together for the truth",
+      "So they may become wealthy",
+      "So they may gain social status",
+      "So they may control the church",
+    ],
+    answer: "So they may work together for the truth",
+    reference: "3 John 8",
+  },
+  {
+    question: "What does supporting faithful workers make believers?",
+    options: [
+      "Fellow workers for the truth",
+      "Apostles",
+      "Prophets",
+      "Judges",
+    ],
+    answer: "Fellow workers for the truth",
+    reference: "3 John 8",
+  },
+  {
+    question: "What principle about mission support is expressed in the letter?",
+    options: [
+      "Those who support faithful workers share in the work of the truth",
+      "Only traveling workers participate in ministry",
+      "Financial support has no spiritual significance",
+      "Believers should never help strangers",
+    ],
+    answer: "Those who support faithful workers share in the work of the truth",
+    reference: "3 John 5-8",
+  },
+
+  // DIOTREPHES
+  {
+    question: "Whom does the elder identify as loving to be first?",
+    options: [
+      "Diotrephes",
+      "Gaius",
+      "Demetrius",
+      "Timothy",
+    ],
+    answer: "Diotrephes",
+    reference: "3 John 9",
+  },
+  {
+    question: "What attitude of Diotrephes is criticized?",
+    options: [
+      "He loves to be first",
+      "He is too generous",
+      "He is too humble",
+      "He travels too often",
+    ],
+    answer: "He loves to be first",
+    reference: "3 John 9",
+  },
+  {
+    question: "What does Diotrephes refuse to do regarding the elder and his authority?",
+    options: [
+      "Acknowledge them",
+      "Write to them",
+      "Travel with them",
+      "Give them money",
+    ],
+    answer: "Acknowledge them",
+    reference: "3 John 9",
+  },
+  {
+    question: "What had the elder previously written to the church?",
+    options: [
+      "A letter concerning the situation",
+      "A financial report",
+      "A list of elders",
+      "A prophecy",
+    ],
+    answer: "A letter concerning the situation",
+    reference: "3 John 9",
+  },
+  {
+    question: "What does Diotrephes do with malicious words?",
+    options: [
+      "Spreads malicious nonsense about the elder and others",
+      "Encourages traveling workers",
+      "Teaches the truth faithfully",
+      "Praises Gaius",
+    ],
+    answer: "Spreads malicious nonsense about the elder and others",
+    reference: "3 John 10",
+  },
+  {
+    question: "What does Diotrephes refuse to do personally?",
+    options: [
+      "Welcome the brothers and sisters",
+      "Attend church gatherings",
+      "Teach",
+      "Pray",
+    ],
+    answer: "Welcome the brothers and sisters",
+    reference: "3 John 10",
+  },
+  {
+    question: "What does Diotrephes do to believers who want to welcome traveling workers?",
+    options: [
+      "He tries to stop them",
+      "He rewards them",
+      "He joins them",
+      "He sends them money",
+    ],
+    answer: "He tries to stop them",
+    reference: "3 John 10",
+  },
+  {
+    question: "What further action does Diotrephes take against those who welcome the workers?",
+    options: [
+      "He puts them out of the church",
+      "He appoints them as leaders",
+      "He sends them to another city",
+      "He asks them to teach",
+    ],
+    answer: "He puts them out of the church",
+    reference: "3 John 10",
+  },
+  {
+    question: "What does the elder say he will do if he comes?",
+    options: [
+      "Call attention to what Diotrephes is doing",
+      "Ignore Diotrephes completely",
+      "Make Diotrephes the leader",
+      "Leave immediately",
+    ],
+    answer: "Call attention to what Diotrephes is doing",
+    reference: "3 John 10",
+  },
+  {
+    question: "Which combination best summarizes Diotrephes's conduct?",
+    options: [
+      "Pride, rejection of authority, malicious speech, refusal of hospitality, and exclusion of others",
+      "Humility, hospitality, and truth",
+      "Faithfulness, generosity, and love",
+      "Patience, gentleness, and mercy",
+    ],
+    answer: "Pride, rejection of authority, malicious speech, refusal of hospitality, and exclusion of others",
+    reference: "3 John 9-10",
+  },
+
+  // IMITATING GOOD
+  {
+    question: "What does the elder tell Gaius not to imitate?",
+    options: [
+      "What is evil",
+      "What is good",
+      "Hospitality",
+      "Truth",
+    ],
+    answer: "What is evil",
+    reference: "3 John 11",
+  },
+  {
+    question: "What does the elder tell Gaius to imitate?",
+    options: [
+      "What is good",
+      "What is popular",
+      "What is profitable",
+      "What is easy",
+    ],
+    answer: "What is good",
+    reference: "3 John 11",
+  },
+  {
+    question: "What does doing good reveal about a person?",
+    options: [
+      "They are from God",
+      "They are wealthy",
+      "They are influential",
+      "They are a church leader",
+    ],
+    answer: "They are from God",
+    reference: "3 John 11",
+  },
+  {
+    question: "What does doing evil reveal according to the elder?",
+    options: [
+      "The person has not seen God",
+      "The person lacks education",
+      "The person is poor",
+      "The person has never traveled",
+    ],
+    answer: "The person has not seen God",
+    reference: "3 John 11",
+  },
+  {
+    question: "What contrast does the elder establish between good and evil?",
+    options: [
+      "Doing good reflects relationship with God, while doing evil reveals failure to truly know Him",
+      "Good and evil are only social categories",
+      "Doing evil has no spiritual meaning",
+      "Doing good automatically removes every sin",
+    ],
+    answer: "Doing good reflects relationship with God, while doing evil reveals failure to truly know Him",
+    reference: "3 John 11",
+  },
+
+  // DEMETRIUS
+  {
+    question: "Who receives a good testimony from everyone?",
+    options: [
+      "Demetrius",
+      "Diotrephes",
+      "Gaius",
+      "The elder",
+    ],
+    answer: "Demetrius",
+    reference: "3 John 12",
+  },
+  {
+    question: "What else gives testimony in favor of Demetrius?",
+    options: [
+      "The truth itself",
+      "His wealth",
+      "His social status",
+      "His family",
+    ],
+    answer: "The truth itself",
+    reference: "3 John 12",
+  },
+  {
+    question: "Who joins everyone and the truth in testifying about Demetrius?",
+    options: [
+      "The elder and his companions",
+      "Roman officials",
+      "Diotrephes",
+      "Only Gaius",
+    ],
+    answer: "The elder and his companions",
+    reference: "3 John 12",
+  },
+  {
+    question: "What does the elder say Gaius knows about their testimony concerning Demetrius?",
+    options: [
+      "It is true",
+      "It is uncertain",
+      "It is exaggerated",
+      "It is private",
+    ],
+    answer: "It is true",
+    reference: "3 John 12",
+  },
+  {
+    question: "How many sources of positive testimony are associated with Demetrius?",
+    options: [
+      "Everyone, the truth itself, and the elder's testimony",
+      "Only the elder",
+      "Only Gaius and Diotrephes",
+      "Only strangers",
+    ],
+    answer: "Everyone, the truth itself, and the elder's testimony",
+    reference: "3 John 12",
+  },
+  {
+    question: "Whose character is presented as the strongest contrast to Diotrephes?",
+    options: [
+      "Demetrius",
+      "A Roman ruler",
+      "A false teacher",
+      "An unnamed stranger",
+    ],
+    answer: "Demetrius",
+    reference: "3 John 9-12",
+  },
+
+  // CLOSING
+  {
+    question: "Did the elder have more to write to Gaius?",
+    options: [
+      "Yes",
+      "No",
+      "Only about Diotrephes",
+      "Only about money",
+    ],
+    answer: "Yes",
+    reference: "3 John 13",
+  },
+  {
+    question: "What writing materials does the elder say he does not want to continue using?",
+    options: [
+      "Pen and ink",
+      "Paper and charcoal",
+      "Stone and iron",
+      "Wax and wood",
+    ],
+    answer: "Pen and ink",
+    reference: "3 John 13",
+  },
+  {
+    question: "What does the elder hope to do soon?",
+    options: [
+      "See Gaius",
+      "Send Gaius away",
+      "Appoint Gaius as an apostle",
+      "Visit Rome",
+    ],
+    answer: "See Gaius",
+    reference: "3 John 14",
+  },
+  {
+    question: "How does the elder hope to communicate with Gaius personally?",
+    options: [
+      "Face to face",
+      "Only through letters",
+      "Through Diotrephes",
+      "Through Roman officials",
+    ],
+    answer: "Face to face",
+    reference: "3 John 14",
+  },
+  {
+    question: "What blessing does the elder give Gaius near the close?",
+    options: [
+      "Peace to you",
+      "Wealth to you",
+      "Power to you",
+      "Victory to you",
+    ],
+    answer: "Peace to you",
+    reference: "3 John 14",
+  },
+  {
+    question: "Who sends greetings to Gaius?",
+    options: [
+      "The friends",
+      "Roman officials",
+      "Only Demetrius",
+      "Only the elder",
+    ],
+    answer: "The friends",
+    reference: "3 John 14",
+  },
+  {
+    question: "How does the elder tell Gaius to greet the friends?",
+    options: [
+      "By name",
+      "As a group only",
+      "Through another letter",
+      "Only if they visit",
+    ],
+    answer: "By name",
+    reference: "3 John 14",
+  },
+
+  // WHOLE-LETTER REASONING
+  {
+    question: "What is the strongest evidence in the letter that Gaius's faith is practical rather than merely verbal?",
+    options: [
+      "He faithfully shows hospitality to believers, including strangers",
+      "He writes many letters",
+      "He holds a church title",
+      "He argues against Diotrephes",
+    ],
+    answer: "He faithfully shows hospitality to believers, including strangers",
+    reference: "3 John 5-8",
+  },
+  {
+    question: "What connection does the letter make between truth and daily conduct?",
+    options: [
+      "Walking in truth is demonstrated through faithful actions",
+      "Truth is mainly intellectual knowledge",
+      "Truth has no connection to behavior",
+      "Truth matters only for teachers",
+    ],
+    answer: "Walking in truth is demonstrated through faithful actions",
+    reference: "3 John 3-6",
+  },
+  {
+    question: "Why does the elder praise Gaius's hospitality so strongly?",
+    options: [
+      "It supports people who have gone out for the sake of Christ and makes Gaius a coworker for the truth",
+      "It guarantees Gaius wealth",
+      "It gives him authority over traveling workers",
+      "It makes him an apostle",
+    ],
+    answer: "It supports people who have gone out for the sake of Christ and makes Gaius a coworker for the truth",
+    reference: "3 John 5-8",
+  },
+  {
+    question: "What does the phrase 'fellow workers for the truth' imply?",
+    options: [
+      "People can participate meaningfully in ministry by supporting those actively carrying it out",
+      "Only preachers participate in ministry",
+      "Hospitality has no spiritual value",
+      "Truth is spread only through public speaking",
+    ],
+    answer: "People can participate meaningfully in ministry by supporting those actively carrying it out",
+    reference: "3 John 8",
+  },
+  {
+    question: "What is the central leadership failure seen in Diotrephes?",
+    options: [
+      "He seeks personal preeminence rather than serving the truth and the community",
+      "He lacks speaking ability",
+      "He travels too little",
+      "He refuses to become wealthy",
+    ],
+    answer: "He seeks personal preeminence rather than serving the truth and the community",
+    reference: "3 John 9-10",
+  },
+  {
+    question: "How does Diotrephes's desire to be first affect his behavior?",
+    options: [
+      "It leads him to reject authority, attack others, refuse hospitality, and control the church",
+      "It makes him more generous",
+      "It causes him to support traveling workers",
+      "It makes him imitate Demetrius",
+    ],
+    answer: "It leads him to reject authority, attack others, refuse hospitality, and control the church",
+    reference: "3 John 9-10",
+  },
+  {
+    question: "What does the contrast between Gaius and Diotrephes teach about Christian leadership?",
+    options: [
+      "Faithful service welcomes and supports others, while selfish leadership seeks control and prominence",
+      "Strong leadership requires excluding others",
+      "Hospitality weakens leadership",
+      "Leadership is mainly about rank",
+    ],
+    answer: "Faithful service welcomes and supports others, while selfish leadership seeks control and prominence",
+    reference: "3 John 5-10",
+  },
+  {
+    question: "What does Demetrius's reputation demonstrate about genuine character?",
+    options: [
+      "A good life can be confirmed consistently by others and by the truth itself",
+      "Reputation matters more than truth",
+      "Only leaders can have a good testimony",
+      "Public opinion is always correct",
+    ],
+    answer: "A good life can be confirmed consistently by others and by the truth itself",
+    reference: "3 John 12",
+  },
+  {
+    question: "Why does the elder place the command to imitate good immediately after discussing Diotrephes?",
+    options: [
+      "Gaius must choose which pattern of conduct to follow",
+      "The elder wants Gaius to imitate Diotrephes",
+      "The issue of Diotrephes is unrelated to behavior",
+      "The elder is changing the subject completely",
+    ],
+    answer: "Gaius must choose which pattern of conduct to follow",
+    reference: "3 John 9-11",
+  },
+  {
+    question: "Who most clearly represents the example Gaius should not imitate?",
+    options: [
+      "Diotrephes",
+      "Demetrius",
+      "The traveling believers",
+      "The elder",
+    ],
+    answer: "Diotrephes",
+    reference: "3 John 9-11",
+  },
+  {
+    question: "Who most clearly represents a positive example after the command to imitate good?",
+    options: [
+      "Demetrius",
+      "Diotrephes",
+      "A false teacher",
+      "An unnamed ruler",
+    ],
+    answer: "Demetrius",
+    reference: "3 John 11-12",
+  },
+  {
+    question: "What three characters form the main moral contrast in the letter?",
+    options: [
+      "Gaius, Diotrephes, and Demetrius",
+      "Peter, Paul, and John",
+      "Cain, Abel, and Noah",
+      "Moses, Aaron, and Joshua",
+    ],
+    answer: "Gaius, Diotrephes, and Demetrius",
+    reference: "3 John 1-12",
+  },
+  {
+    question: "Which description correctly distinguishes the three main individuals?",
+    options: [
+      "Gaius is hospitable, Diotrephes is self-seeking, and Demetrius has a good testimony",
+      "Gaius is self-seeking, Diotrephes is hospitable, and Demetrius is condemned",
+      "Gaius and Diotrephes are both false teachers, while Demetrius is the elder",
+      "All three are criticized equally",
+    ],
+    answer: "Gaius is hospitable, Diotrephes is self-seeking, and Demetrius has a good testimony",
+    reference: "3 John 5-12",
+  },
+  {
+    question: "What does the letter suggest about ambition for prominence in church leadership?",
+    options: [
+      "Desire to be first can corrupt leadership and harm fellowship",
+      "It is necessary for effective ministry",
+      "It proves spiritual maturity",
+      "It guarantees authority from God",
+    ],
+    answer: "Desire to be first can corrupt leadership and harm fellowship",
+    reference: "3 John 9-10",
+  },
+  {
+    question: "What does the elder's willingness to confront Diotrephes show?",
+    options: [
+      "Harmful leadership behavior should not simply be ignored",
+      "Church conflict should always be hidden",
+      "False accusations are acceptable",
+      "Leaders are never accountable",
+    ],
+    answer: "Harmful leadership behavior should not simply be ignored",
+    reference: "3 John 10",
+  },
+  {
+    question: "What does the letter teach about hospitality toward faithful Christian workers?",
+    options: [
+      "It is an active way of participating in the spread of truth",
+      "It is unrelated to ministry",
+      "It should be restricted to close relatives",
+      "It should only be offered for payment",
+    ],
+    answer: "It is an active way of participating in the spread of truth",
+    reference: "3 John 5-8",
+  },
+  {
+    question: "Why is Gaius's hospitality especially notable?",
+    options: [
+      "He serves believers faithfully even when they are strangers to him",
+      "He helps only people he knows well",
+      "He helps only wealthy visitors",
+      "He receives payment from everyone",
+    ],
+    answer: "He serves believers faithfully even when they are strangers to him",
+    reference: "3 John 5",
+  },
+  {
+    question: "What does the letter suggest should guide hospitality and support?",
+    options: [
+      "Commitment to the truth and faithful service",
+      "Popularity alone",
+      "Wealth alone",
+      "Social rank",
+    ],
+    answer: "Commitment to the truth and faithful service",
+    reference: "3 John 5-8",
+  },
+  {
+    question: "Which action most directly makes someone a fellow worker for the truth in this letter?",
+    options: [
+      "Supporting faithful workers who have gone out for Christ's sake",
+      "Seeking the highest position",
+      "Removing hospitable believers from the church",
+      "Spreading accusations",
+    ],
+    answer: "Supporting faithful workers who have gone out for Christ's sake",
+    reference: "3 John 7-8",
+  },
+  {
+    question: "What is the strongest contrast between Gaius and Diotrephes regarding other believers?",
+    options: [
+      "Gaius welcomes and supports them, while Diotrephes refuses and prevents others from doing so",
+      "Both refuse strangers",
+      "Gaius removes people from the church while Diotrephes welcomes them",
+      "Neither is concerned with hospitality",
+    ],
+    answer: "Gaius welcomes and supports them, while Diotrephes refuses and prevents others from doing so",
+    reference: "3 John 5-10",
+  },
+  {
+    question: "What does the letter indicate about spiritual health?",
+    options: [
+      "The elder recognizes Gaius's soul as prospering while praying for his wider well-being",
+      "Physical health is the only important concern",
+      "Material prosperity proves spiritual maturity",
+      "Spiritual health cannot be observed",
+    ],
+    answer: "The elder recognizes Gaius's soul as prospering while praying for his wider well-being",
+    reference: "3 John 2-3",
+  },
+  {
+    question: "What gives the elder greater joy than personal success?",
+    options: [
+      "Seeing people under his spiritual care continue walking in truth",
+      "Receiving honor from churches",
+      "Winning arguments",
+      "Gaining wealth",
+    ],
+    answer: "Seeing people under his spiritual care continue walking in truth",
+    reference: "3 John 4",
+  },
+  {
+    question: "What does the letter imply about Christian reputation?",
+    options: [
+      "A person's conduct can produce testimony either for or against them",
+      "Reputation has no connection with behavior",
+      "Only teachers need a good testimony",
+      "A good reputation depends on wealth",
+    ],
+    answer: "A person's conduct can produce testimony either for or against them",
+    reference: "3 John 3,6,10,12",
+  },
+  {
+    question: "Which two individuals receive clearly positive testimony?",
+    options: [
+      "Gaius and Demetrius",
+      "Gaius and Diotrephes",
+      "Diotrephes and Demetrius",
+      "Diotrephes and the elder",
+    ],
+    answer: "Gaius and Demetrius",
+    reference: "3 John 3-6,12",
+  },
+  {
+    question: "What major theme connects walking in truth, supporting workers, and imitating good?",
+    options: [
+      "Truth must be expressed through practical conduct",
+      "Truth is mainly a private belief",
+      "Truth requires no relationships",
+      "Truth is separate from good works",
+    ],
+    answer: "Truth must be expressed through practical conduct",
+    reference: "3 John 3-12",
+  },
+  {
+    question: "Which statement best summarizes the elder's view of Christian service?",
+    options: [
+      "Faithful service may include personally supporting others who labor for the truth",
+      "Only public preaching counts as service",
+      "Hospitality is less important than status",
+      "Service requires holding the highest office",
+    ],
+    answer: "Faithful service may include personally supporting others who labor for the truth",
+    reference: "3 John 5-8",
+  },
+  {
+    question: "What warning about power can be drawn directly from Diotrephes's example?",
+    options: [
+      "A desire for control can lead someone to reject accountability and mistreat others",
+      "Power always produces faithfulness",
+      "Church authority should never be questioned",
+      "Excluding others proves strong leadership",
+    ],
+    answer: "A desire for control can lead someone to reject accountability and mistreat others",
+    reference: "3 John 9-10",
+  },
+  {
+    question: "What does the elder value more than merely communicating by writing?",
+    options: [
+      "Personal face-to-face fellowship",
+      "Longer letters",
+      "Public debates",
+      "Written rules",
+    ],
+    answer: "Personal face-to-face fellowship",
+    reference: "3 John 13-14",
+  },
+  {
+    question: "Which sequence best summarizes 3 John?",
+    options: [
+      "Praise Gaius for walking in truth and showing hospitality, condemn Diotrephes for selfish leadership, commend Demetrius, and encourage continued faithful conduct",
+      "Warn against false teaching, explain Christ's return, and describe final judgment",
+      "Teach about spiritual gifts, resurrection, and church discipline",
+      "Describe missionary journeys, imprisonment, and shipwreck",
+    ],
+    answer: "Praise Gaius for walking in truth and showing hospitality, condemn Diotrephes for selfish leadership, commend Demetrius, and encourage continued faithful conduct",
+    reference: "3 John 1-14",
+  },
+];
+
+export default thirdJohnQuestions;
