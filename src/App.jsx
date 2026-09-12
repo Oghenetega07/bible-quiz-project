@@ -9,7 +9,7 @@ import deuteronomyQuestions from "./data/oldtestament/deuteronomy";
 import joshuaQuestions from "./data/oldtestament/joshua";
 import judgesQuestions from "./data/oldtestament/judges";
 import ruthQuestions from "./data/oldtestament/ruth";
-import firstSamuelQuestions from "./data/oldtestament/1samuel";
+import firstSamuelQuestions from "./data/oldtestament/1Samuel";
 import secondSamuelQuestions from "./data/oldtestament/2Samuel";
 import firstKingsQuestions from "./data/oldtestament/1kings";
 import secondKingsQuestions from "./data/oldtestament/2kings";
