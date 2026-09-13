@@ -334,6 +334,10 @@ function App() {
   }
 
   function selectAnswer(answer) {
+    if (answers[currentQuestion] !== null) {
+      return;
+    }
+
     const updatedAnswers = [...answers];
     updatedAnswers[currentQuestion] = answer;
     setAnswers(updatedAnswers);
@@ -553,10 +557,10 @@ function App() {
 
             {selectedBook && (
               <div className="book-selected-box">
-
-                <p>You selected</p>
-
-                <h3>{selectedBook}</h3>
+                <div className="selected-book-info">
+                  <p>You selected</p>
+                  <h3>{selectedBook}</h3>
+                </div>
 
                 <button
                   className="continue-button"
@@ -564,7 +568,6 @@ function App() {
                 >
                   Continue
                 </button>
-
               </div>
             )}
           </>
@@ -763,34 +766,81 @@ function App() {
                 <div className="options">
 
                   {currentQuizQuestion.options.map(
-                    (option, index) => (
+                    (option, index) => {
+                      const selectedAnswer =
+                        answers[currentQuestion];
 
-                      <button
-                        key={option}
-                        className={
-                          answers[currentQuestion] === option
-                            ? "selected"
-                            : ""
-                        }
-                        onClick={() =>
-                          selectAnswer(option)
-                        }
-                      >
+                      const hasAnswered =
+                        selectedAnswer !== null;
 
-                        <span className="option-letter">
-                          {String.fromCharCode(
-                            65 + index
-                          )}
-                        </span>
+                      const isCorrectOption =
+                        option ===
+                        currentQuizQuestion.answer;
 
-                        <span>{option}</span>
+                      const isWrongSelectedOption =
+                        hasAnswered &&
+                        selectedAnswer === option &&
+                        selectedAnswer !==
+                          currentQuizQuestion.answer;
 
-                      </button>
+                      let optionClass = "";
 
-                    )
+                      if (
+                        hasAnswered &&
+                        isCorrectOption
+                      ) {
+                        optionClass = "correct-answer";
+                      } else if (
+                        isWrongSelectedOption
+                      ) {
+                        optionClass = "wrong-answer";
+                      } else if (
+                        selectedAnswer === option
+                      ) {
+                        optionClass = "selected";
+                      }
+
+                      return (
+                        <button
+                          key={option}
+                          className={optionClass}
+                          onClick={() =>
+                            selectAnswer(option)
+                          }
+                          disabled={hasAnswered}
+                        >
+
+                          <span className="option-letter">
+                            {String.fromCharCode(
+                              65 + index
+                            )}
+                          </span>
+
+                          <span>{option}</span>
+
+                        </button>
+                      );
+                    }
                   )}
 
                 </div>
+
+                {answers[currentQuestion] !== null &&
+                  answers[currentQuestion] !==
+                    currentQuizQuestion.answer && (
+                    <div className="answer-feedback wrong-feedback">
+                      <strong>Correct answer:</strong>{" "}
+                      {currentQuizQuestion.answer}
+                    </div>
+                  )}
+
+                {answers[currentQuestion] !== null &&
+                  answers[currentQuestion] ===
+                    currentQuizQuestion.answer && (
+                    <div className="answer-feedback correct-feedback">
+                      Correct answer.
+                    </div>
+                  )}
 
                 <div className="quiz-navigation">
 
