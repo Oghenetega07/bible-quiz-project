@@ -1,1630 +1,2172 @@
 const danielQuestions = [
   {
-    question: "During whose reign did Nebuchadnezzar come against Jerusalem?",
-    options: [
-      "Jehoiakim",
-      "Zedekiah",
-      "Josiah",
-      "Jehoiachin",
-    ],
+    question:
+      "In whose third year of reign did Nebuchadnezzar come to Jerusalem and besiege it?",
+    options: ["Jehoiakim", "Jehoiachin", "Zedekiah", "Josiah"],
     answer: "Jehoiakim",
     reference: "Daniel 1:1",
   },
   {
-    question: "What did Nebuchadnezzar take from the temple in Jerusalem?",
-    options: [
-      "Some of the temple vessels",
-      "The ark of the covenant",
-      "The bronze altar",
-      "The high priest's garments",
-    ],
-    answer: "Some of the temple vessels",
+    question:
+      "Into the treasury of whose temple did Nebuchadnezzar place vessels taken from the house of God?",
+    options: ["His god", "Marduk", "Bel", "Nebo"],
+    answer: "His god",
     reference: "Daniel 1:2",
   },
   {
-    question: "Into whose treasury were the temple vessels placed?",
-    options: [
-      "The treasury of Nebuchadnezzar's god",
-      "The royal treasury of Judah",
-      "The temple treasury in Jerusalem",
-      "The treasury of Egypt",
-    ],
-    answer: "The treasury of Nebuchadnezzar's god",
-    reference: "Daniel 1:2",
+    question:
+      "Which official was ordered to bring selected Israelites from the royal family and nobility?",
+    options: ["Ashpenaz", "Arioch", "Melzar", "Hamor"],
+    answer: "Ashpenaz",
+    reference: "Daniel 1:3",
   },
   {
-    question: "What qualities were required of the young men selected for Babylonian service?",
+    question:
+      "Which quality was NOT among the stated requirements for the young Israelites selected for royal service?",
     options: [
-      "Without physical defect, handsome, intelligent, and quick to understand",
-      "Experienced soldiers and priests",
-      "Only descendants of kings",
-      "Older men skilled in warfare",
+      "Previous military experience",
+      "Physical soundness",
+      "Aptitude for learning",
+      "Being well informed",
     ],
-    answer: "Without physical defect, handsome, intelligent, and quick to understand",
+    answer: "Previous military experience",
     reference: "Daniel 1:4",
   },
   {
-    question: "For how many years were the selected young men to be trained?",
+    question:
+      "What were the selected young men to learn during their preparation?",
     options: [
-      "Three years",
-      "Seven years",
-      "One year",
-      "Ten years",
+      "The language and literature of the Babylonians",
+      "Egyptian mathematics and astronomy",
+      "Persian law and administration",
+      "Assyrian military strategy",
     ],
+    answer: "The language and literature of the Babylonians",
+    reference: "Daniel 1:4",
+  },
+  {
+    question:
+      "How long were Daniel and the other selected young men to be trained before entering the king's service?",
+    options: ["Three years", "Seven years", "Two years", "One year"],
     answer: "Three years",
     reference: "Daniel 1:5",
   },
   {
-    question: "What Babylonian name was given to Daniel?",
+    question:
+      "Which set correctly gives the Hebrew names of Daniel's three companions?",
     options: [
-      "Belteshazzar",
-      "Shadrach",
-      "Meshach",
-      "Abednego",
+      "Hananiah, Mishael, and Azariah",
+      "Hananiah, Michael, and Azariah",
+      "Mishael, Azariah, and Eliakim",
+      "Hananiah, Mishael, and Jehozadak",
     ],
+    answer: "Hananiah, Mishael, and Azariah",
+    reference: "Daniel 1:6",
+  },
+  {
+    question:
+      "What Babylonian name was given to Daniel?",
+    options: ["Belteshazzar", "Shadrach", "Meshach", "Abednego"],
     answer: "Belteshazzar",
     reference: "Daniel 1:7",
   },
   {
-    question: "What Babylonian name was given to Hananiah?",
-    options: [
-      "Shadrach",
-      "Meshach",
-      "Abednego",
-      "Belteshazzar",
-    ],
+    question:
+      "What Babylonian name was given to Hananiah?",
+    options: ["Shadrach", "Meshach", "Abednego", "Belteshazzar"],
     answer: "Shadrach",
     reference: "Daniel 1:7",
   },
   {
-    question: "What Babylonian name was given to Mishael?",
-    options: [
-      "Meshach",
-      "Shadrach",
-      "Abednego",
-      "Belteshazzar",
-    ],
+    question:
+      "What Babylonian name was given to Mishael?",
+    options: ["Meshach", "Shadrach", "Belteshazzar", "Abednego"],
     answer: "Meshach",
     reference: "Daniel 1:7",
   },
   {
-    question: "What Babylonian name was given to Azariah?",
-    options: [
-      "Abednego",
-      "Meshach",
-      "Shadrach",
-      "Belteshazzar",
-    ],
+    question:
+      "What Babylonian name was given to Azariah?",
+    options: ["Abednego", "Meshach", "Shadrach", "Belteshazzar"],
     answer: "Abednego",
     reference: "Daniel 1:7",
   },
   {
-    question: "What did Daniel resolve not to do?",
+    question:
+      "What did Daniel resolve not to do with the king's food and wine?",
     options: [
-      "Defile himself with the royal food and wine",
-      "Learn Babylonian literature",
-      "Serve the king",
-      "Speak the Babylonian language",
+      "Defile himself",
+      "Share it with his companions",
+      "Eat it before sunset",
+      "Take it outside the palace",
     ],
-    answer: "Defile himself with the royal food and wine",
+    answer: "Defile himself",
     reference: "Daniel 1:8",
   },
   {
-    question: "What test did Daniel request instead of eating the royal food?",
+    question:
+      "What concern did the chief official express about allowing Daniel's requested diet?",
     options: [
-      "Ten days of vegetables and water",
-      "Seven days of bread and water",
-      "Forty days of fasting",
-      "Three days without food",
+      "Daniel and his companions might look worse than the other young men",
+      "The king would discover that food had been stolen",
+      "The vegetables might make them sick",
+      "They would become too weak to study",
     ],
-    answer: "Ten days of vegetables and water",
+    answer:
+      "Daniel and his companions might look worse than the other young men",
+    reference: "Daniel 1:10",
+  },
+  {
+    question:
+      "For how many days did Daniel ask that he and his companions be tested on vegetables and water?",
+    options: ["Ten days", "Seven days", "Twenty-one days", "Three days"],
+    answer: "Ten days",
     reference: "Daniel 1:12",
   },
   {
-    question: "How did Daniel and his friends appear after the ten-day test?",
+    question:
+      "How did Daniel and his companions appear after their dietary test?",
     options: [
-      "Healthier and better nourished",
-      "Weak and thin",
-      "No different from the others",
-      "Sickly",
+      "Healthier and better nourished than those eating the royal food",
+      "Weaker but mentally sharper",
+      "No different from the other young men",
+      "Thinner but physically stronger",
     ],
-    answer: "Healthier and better nourished",
+    answer:
+      "Healthier and better nourished than those eating the royal food",
     reference: "Daniel 1:15",
   },
   {
-    question: "What special ability did God give Daniel?",
+    question:
+      "What special ability did God give Daniel in addition to knowledge and understanding?",
     options: [
-      "Understanding visions and dreams",
-      "Military leadership",
-      "Healing diseases",
+      "Understanding visions and dreams of all kinds",
       "Speaking every language",
+      "Predicting military victories",
+      "Reading hidden inscriptions",
     ],
-    answer: "Understanding visions and dreams",
+    answer: "Understanding visions and dreams of all kinds",
     reference: "Daniel 1:17",
   },
   {
-    question: "How much better did the king find Daniel and his friends than his magicians and enchanters?",
+    question:
+      "How did the king judge Daniel and his three companions compared with the magicians and enchanters in his kingdom?",
     options: [
       "Ten times better",
-      "Seven times better",
-      "Twice as good",
-      "One hundred times better",
+      "Seven times wiser",
+      "Twice as knowledgeable",
+      "Four times more capable",
     ],
     answer: "Ten times better",
     reference: "Daniel 1:20",
   },
-
   {
-    question: "What troubled Nebuchadnezzar during the night?",
-    options: [
-      "Dreams",
-      "An assassination attempt",
-      "A military defeat",
-      "A famine",
-    ],
-    answer: "Dreams",
+    question:
+      "Until the first year of which king does Daniel's service explicitly continue?",
+    options: ["Cyrus", "Darius", "Xerxes", "Belshazzar"],
+    answer: "Cyrus",
+    reference: "Daniel 1:21",
+  },
+  {
+    question:
+      "In what year of Nebuchadnezzar's reign did the king have dreams that troubled him?",
+    options: ["Second year", "Third year", "Seventh year", "First year"],
+    answer: "Second year",
     reference: "Daniel 2:1",
   },
   {
-    question: "What impossible demand did Nebuchadnezzar make of his wise men?",
+    question:
+      "What extraordinary demand did Nebuchadnezzar make of his wise men concerning his dream?",
     options: [
       "Tell him both the dream and its interpretation",
-      "Interpret a dream written on a wall",
-      "Predict the exact date of his death",
-      "Name every future king",
+      "Interpret the dream without receiving payment",
+      "Write the dream in several languages",
+      "Prove the dream had come from a god",
     ],
     answer: "Tell him both the dream and its interpretation",
-    reference: "Daniel 2:5-6",
+    reference: "Daniel 2:5-9",
   },
   {
-    question: "What punishment did the king threaten if the wise men failed?",
+    question:
+      "What punishment did the king threaten if the wise men could not reveal the dream and its interpretation?",
     options: [
-      "They would be cut to pieces and their houses destroyed",
-      "They would be exiled",
+      "They would be cut into pieces and their houses reduced to rubble",
+      "They would be thrown into a furnace",
+      "They would be exiled from Babylon",
       "They would be imprisoned for life",
-      "They would lose their positions only",
     ],
-    answer: "They would be cut to pieces and their houses destroyed",
+    answer:
+      "They would be cut into pieces and their houses reduced to rubble",
     reference: "Daniel 2:5",
   },
   {
-    question: "Who informed Daniel about the king's decree against the wise men?",
-    options: [
-      "Arioch",
-      "Ashpenaz",
-      "Darius",
-      "Belshazzar",
-    ],
+    question:
+      "Who was the commander of the king's guard sent to execute Babylon's wise men?",
+    options: ["Arioch", "Ashpenaz", "Nebuzaradan", "Aspatha"],
     answer: "Arioch",
-    reference: "Daniel 2:14-15",
+    reference: "Daniel 2:14",
   },
   {
-    question: "What did Daniel ask his friends to do concerning the mystery?",
+    question:
+      "What did Daniel ask his companions to plead for concerning the king's mystery?",
     options: [
-      "Plead for mercy from God",
-      "Escape Babylon",
-      "Confront the king",
-      "Consult other wise men",
+      "Mercy from the God of heaven",
+      "Protection from Arioch",
+      "More time from Nebuchadnezzar",
+      "Wisdom from Babylon's scholars",
     ],
-    answer: "Plead for mercy from God",
-    reference: "Daniel 2:17-18",
+    answer: "Mercy from the God of heaven",
+    reference: "Daniel 2:18",
   },
   {
-    question: "How was the mystery revealed to Daniel?",
+    question:
+      "How was the mystery of Nebuchadnezzar's dream revealed to Daniel?",
     options: [
       "In a vision during the night",
-      "Through a written scroll",
-      "By an angel at the temple",
-      "Through the king himself",
+      "Through a written message",
+      "By an angel at noon",
+      "Through another dream of Nebuchadnezzar",
     ],
     answer: "In a vision during the night",
     reference: "Daniel 2:19",
   },
   {
-    question: "Who did Daniel say changes times and seasons?",
+    question:
+      "According to Daniel's praise, what does God change?",
     options: [
-      "God",
-      "Kings",
-      "Angels",
-      "Wise men",
+      "Times and seasons",
+      "Kings and kingdoms only",
+      "Heaven and earth",
+      "Dreams and visions",
     ],
-    answer: "God",
+    answer: "Times and seasons",
     reference: "Daniel 2:21",
   },
   {
-    question: "Who does Daniel say removes kings and raises up kings?",
+    question:
+      "According to Daniel's praise, what does God do with kings?",
     options: [
-      "God",
-      "Armies",
-      "Nations",
-      "Priests",
+      "He deposes kings and raises up others",
+      "He allows every dynasty to remain",
+      "He judges kings only after death",
+      "He gives every king equal power",
     ],
-    answer: "God",
+    answer: "He deposes kings and raises up others",
     reference: "Daniel 2:21",
   },
   {
-    question: "What was the head of Nebuchadnezzar's statue made of?",
-    options: [
-      "Gold",
-      "Silver",
-      "Bronze",
-      "Iron",
-    ],
-    answer: "Gold",
+    question:
+      "What was the material of the head of the enormous statue in Nebuchadnezzar's dream?",
+    options: ["Pure gold", "Silver", "Bronze", "Iron"],
+    answer: "Pure gold",
     reference: "Daniel 2:32",
   },
   {
-    question: "What were the chest and arms of the statue made of?",
-    options: [
-      "Silver",
-      "Gold",
-      "Bronze",
-      "Iron",
-    ],
+    question:
+      "What materials formed the chest and arms of the statue?",
+    options: ["Silver", "Bronze", "Gold", "Iron"],
     answer: "Silver",
     reference: "Daniel 2:32",
   },
   {
-    question: "What were the belly and thighs of the statue made of?",
-    options: [
-      "Bronze",
-      "Silver",
-      "Iron",
-      "Gold",
-    ],
+    question:
+      "What material formed the belly and thighs of the statue?",
+    options: ["Bronze", "Silver", "Iron", "Gold"],
     answer: "Bronze",
     reference: "Daniel 2:32",
   },
   {
-    question: "What were the legs of the statue made of?",
-    options: [
-      "Iron",
-      "Bronze",
-      "Silver",
-      "Gold",
-    ],
+    question:
+      "What material formed the legs of the statue?",
+    options: ["Iron", "Bronze", "Silver", "Clay"],
     answer: "Iron",
     reference: "Daniel 2:33",
   },
   {
-    question: "What materials made up the feet of the statue?",
+    question:
+      "What materials formed the statue's feet?",
     options: [
-      "Iron and baked clay",
-      "Gold and silver",
+      "Partly iron and partly baked clay",
       "Bronze and iron",
-      "Stone and clay",
+      "Silver and clay",
+      "Gold and iron",
     ],
-    answer: "Iron and baked clay",
+    answer: "Partly iron and partly baked clay",
     reference: "Daniel 2:33",
   },
   {
-    question: "What struck the statue and shattered it?",
+    question:
+      "What struck the statue and broke it to pieces?",
     options: [
-      "A stone cut out without human hands",
-      "A bolt of lightning",
-      "A great sword",
-      "A falling star",
+      "A rock cut out without human hands",
+      "A bolt of fire",
+      "A giant hammer",
+      "A mountain falling from heaven",
     ],
-    answer: "A stone cut out without human hands",
+    answer: "A rock cut out without human hands",
     reference: "Daniel 2:34",
   },
   {
-    question: "What happened to the stone after it struck the statue?",
+    question:
+      "Which part of the statue did the rock strike first?",
+    options: ["Its feet", "Its head", "Its chest", "Its legs"],
+    answer: "Its feet",
+    reference: "Daniel 2:34",
+  },
+  {
+    question:
+      "What happened to the rock after it destroyed the statue?",
     options: [
-      "It became a huge mountain filling the whole earth",
-      "It disappeared",
-      "It became a golden statue",
-      "It split into four stones",
+      "It became a huge mountain and filled the whole earth",
+      "It divided into twelve stones",
+      "It returned to heaven",
+      "It became a throne",
     ],
-    answer: "It became a huge mountain filling the whole earth",
+    answer: "It became a huge mountain and filled the whole earth",
     reference: "Daniel 2:35",
   },
   {
-    question: "Whom did Daniel identify as the golden head?",
-    options: [
-      "Nebuchadnezzar",
-      "Cyrus",
-      "Darius",
-      "Belshazzar",
-    ],
-    answer: "Nebuchadnezzar",
+    question:
+      "Which part of the statue did Daniel explicitly identify with Nebuchadnezzar?",
+    options: ["The head of gold", "The chest of silver", "The legs of iron", "The feet of clay"],
+    answer: "The head of gold",
     reference: "Daniel 2:37-38",
   },
   {
-    question: "What does the stone kingdom represent?",
+    question:
+      "What would God establish during the days of the kings represented in the dream?",
     options: [
-      "A kingdom God will establish that will never be destroyed",
-      "Babylon's permanent empire",
-      "A temporary kingdom of Judah",
-      "The kingdom of Egypt",
+      "A kingdom that will never be destroyed",
+      "A restored Babylonian empire",
+      "A kingdom ruled by Daniel",
+      "A temporary kingdom of priests",
     ],
-    answer: "A kingdom God will establish that will never be destroyed",
+    answer: "A kingdom that will never be destroyed",
     reference: "Daniel 2:44",
   },
   {
-    question: "What did Nebuchadnezzar do after Daniel revealed the dream and interpretation?",
+    question:
+      "What position did Nebuchadnezzar give Daniel after the dream was interpreted?",
     options: [
-      "Fell prostrate before Daniel",
-      "Ordered Daniel imprisoned",
-      "Sent Daniel away",
-      "Called Daniel a traitor",
+      "Ruler over the entire province of Babylon and chief over its wise men",
+      "Commander of the Babylonian army",
+      "Governor of Jerusalem",
+      "Chief priest of Babylon",
     ],
-    answer: "Fell prostrate before Daniel",
-    reference: "Daniel 2:46",
-  },
-
-  {
-    question: "What did Nebuchadnezzar erect on the plain of Dura?",
-    options: [
-      "A golden image",
-      "A temple",
-      "A bronze altar",
-      "A royal palace",
-    ],
-    answer: "A golden image",
-    reference: "Daniel 3:1",
+    answer:
+      "Ruler over the entire province of Babylon and chief over its wise men",
+    reference: "Daniel 2:48",
   },
   {
-    question: "How high was Nebuchadnezzar's image?",
+    question:
+      "At Daniel's request, who were appointed administrators over the province of Babylon?",
     options: [
-      "Sixty cubits",
-      "Thirty cubits",
-      "Ninety cubits",
-      "Twelve cubits",
+      "Shadrach, Meshach, and Abednego",
+      "Hananiah, Daniel, and Azariah",
+      "Arioch, Ashpenaz, and Shadrach",
+      "Mishael, Arioch, and Belteshazzar",
     ],
+    answer: "Shadrach, Meshach, and Abednego",
+    reference: "Daniel 2:49",
+  },
+  {
+    question:
+      "Where did Daniel remain after his companions were appointed over Babylon's affairs?",
+    options: [
+      "At the royal court",
+      "At the city gate",
+      "In the temple of Bel",
+      "In the province of Elam",
+    ],
+    answer: "At the royal court",
+    reference: "Daniel 2:49",
+  },
+  {
+    question:
+      "How high was Nebuchadnezzar's golden image?",
+    options: ["Sixty cubits", "Thirty cubits", "Ninety cubits", "Twelve cubits"],
     answer: "Sixty cubits",
     reference: "Daniel 3:1",
   },
   {
-    question: "What were people commanded to do when they heard the musical instruments?",
-    options: [
-      "Fall down and worship the golden image",
-      "Sing to Nebuchadnezzar",
-      "Leave the plain",
-      "Offer sacrifices to God",
-    ],
-    answer: "Fall down and worship the golden image",
-    reference: "Daniel 3:5",
+    question:
+      "How wide was Nebuchadnezzar's golden image?",
+    options: ["Six cubits", "Ten cubits", "Twelve cubits", "Three cubits"],
+    answer: "Six cubits",
+    reference: "Daniel 3:1",
   },
   {
-    question: "What punishment awaited those who refused to worship the image?",
+    question:
+      "On which plain did Nebuchadnezzar set up the golden image?",
+    options: ["Dura", "Shinar", "Megiddo", "Jezreel"],
+    answer: "Dura",
+    reference: "Daniel 3:1",
+  },
+  {
+    question:
+      "What was the signal for the assembled people to fall down and worship the golden image?",
     options: [
-      "They would be thrown into a blazing furnace",
-      "They would be beheaded",
-      "They would be exiled",
-      "They would be thrown to lions",
+      "The sound of various musical instruments",
+      "A command from a herald without music",
+      "The lighting of the furnace",
+      "The sounding of one silver trumpet",
     ],
-    answer: "They would be thrown into a blazing furnace",
+    answer: "The sound of various musical instruments",
+    reference: "Daniel 3:4-5",
+  },
+  {
+    question:
+      "What punishment was announced for anyone who refused to worship the image?",
+    options: [
+      "Immediate casting into a blazing furnace",
+      "Death by lions",
+      "Beheading",
+      "Permanent exile",
+    ],
+    answer: "Immediate casting into a blazing furnace",
     reference: "Daniel 3:6",
   },
   {
-    question: "Which three men refused to worship Nebuchadnezzar's image?",
+    question:
+      "Who accused Shadrach, Meshach, and Abednego before Nebuchadnezzar?",
     options: [
-      "Shadrach, Meshach, and Abednego",
-      "Daniel, Hananiah, and Mishael",
-      "Daniel, Shadrach, and Arioch",
-      "Belteshazzar, Arioch, and Ashpenaz",
+      "Certain astrologers",
+      "The provincial governors",
+      "The king's guards",
+      "Jewish exiles",
     ],
-    answer: "Shadrach, Meshach, and Abednego",
+    answer: "Certain astrologers",
+    reference: "Daniel 3:8",
+  },
+  {
+    question:
+      "What two accusations were made against Shadrach, Meshach, and Abednego?",
+    options: [
+      "They neither served Nebuchadnezzar's gods nor worshiped the golden image",
+      "They refused taxes and insulted the king",
+      "They destroyed an idol and fled the province",
+      "They worshiped only at night and refused royal food",
+    ],
+    answer:
+      "They neither served Nebuchadnezzar's gods nor worshiped the golden image",
     reference: "Daniel 3:12",
   },
   {
-    question: "What did the three men say God was able to do?",
-    options: [
-      "Deliver them from the blazing furnace",
-      "Destroy Babylon immediately",
-      "Remove Nebuchadnezzar from the throne that day",
-      "Turn the image into stone",
-    ],
-    answer: "Deliver them from the blazing furnace",
-    reference: "Daniel 3:17",
-  },
-  {
-    question: "What did the three men say they would do even if God did not rescue them?",
-    options: [
-      "Refuse to worship the image",
-      "Escape the city",
-      "Ask for another trial",
-      "Serve Babylon's gods privately",
-    ],
-    answer: "Refuse to worship the image",
-    reference: "Daniel 3:18",
-  },
-  {
-    question: "How much hotter did Nebuchadnezzar order the furnace to be heated?",
-    options: [
-      "Seven times hotter",
-      "Ten times hotter",
-      "Three times hotter",
-      "Twice as hot",
-    ],
-    answer: "Seven times hotter",
+    question:
+      "How much hotter than usual did Nebuchadnezzar order the furnace to be heated?",
+    options: ["Seven times", "Ten times", "Three times", "Twelve times"],
+    answer: "Seven times",
     reference: "Daniel 3:19",
   },
   {
-    question: "What happened to the soldiers who threw the three men into the furnace?",
+    question:
+      "What happened to the soldiers who threw the three men into the furnace?",
     options: [
       "The flames killed them",
       "They were promoted",
-      "They were unharmed",
-      "They were imprisoned",
+      "They were also thrown inside",
+      "They survived but were badly burned",
     ],
     answer: "The flames killed them",
     reference: "Daniel 3:22",
   },
   {
-    question: "How many figures did Nebuchadnezzar see walking inside the furnace?",
-    options: [
-      "Four",
-      "Three",
-      "Five",
-      "Seven",
-    ],
+    question:
+      "How many men did Nebuchadnezzar see walking unharmed inside the furnace?",
+    options: ["Four", "Three", "Seven", "Five"],
     answer: "Four",
     reference: "Daniel 3:25",
   },
   {
-    question: "How did Nebuchadnezzar describe the appearance of the fourth figure?",
+    question:
+      "How did Nebuchadnezzar describe the appearance of the fourth figure in the furnace?",
     options: [
       "Like a son of the gods",
-      "Like Daniel",
-      "Like an angel with six wings",
-      "Like a king",
+      "Like the Ancient of Days",
+      "Like a mighty warrior",
+      "Like an angel clothed in linen",
     ],
     answer: "Like a son of the gods",
     reference: "Daniel 3:25",
   },
   {
-    question: "What evidence showed that the fire had not harmed the three men?",
+    question:
+      "What evidence showed that the fire had no power over the three men?",
     options: [
-      "Not even the smell of fire was on them",
-      "Their clothes had turned white",
-      "They had no ropes",
-      "Their hair had grown",
+      "Their hair was not singed, their robes were unharmed, and there was no smell of fire",
+      "Only their ropes were burned and their clothes became white",
+      "Their skin was cool but their clothes were scorched",
+      "They emerged with only their sandals burned",
     ],
-    answer: "Not even the smell of fire was on them",
+    answer:
+      "Their hair was not singed, their robes were unharmed, and there was no smell of fire",
     reference: "Daniel 3:27",
   },
-
   {
-    question: "What did Nebuchadnezzar see standing in the middle of the earth in another dream?",
+    question:
+      "What happened to the bonds that had restrained the three men?",
     options: [
-      "A huge tree",
-      "A mountain",
-      "A golden statue",
-      "A river",
+      "They were no longer bound",
+      "They turned to gold",
+      "The king personally removed them",
+      "They remained around their wrists",
     ],
-    answer: "A huge tree",
-    reference: "Daniel 4:10",
+    answer: "They were no longer bound",
+    reference: "Daniel 3:23-25",
   },
   {
-    question: "What did the tree provide for living creatures?",
+    question:
+      "What penalty did Nebuchadnezzar decree against anyone speaking against the God of Shadrach, Meshach, and Abednego?",
     options: [
-      "Food, shade, and shelter",
-      "Gold and silver",
-      "Weapons",
-      "Water only",
+      "They would be cut into pieces and their houses turned into rubble",
+      "They would be cast into the furnace",
+      "They would be thrown to lions",
+      "They would lose all their property",
     ],
-    answer: "Food, shade, and shelter",
-    reference: "Daniel 4:12",
+    answer:
+      "They would be cut into pieces and their houses turned into rubble",
+    reference: "Daniel 3:29",
   },
   {
-    question: "What did the heavenly messenger command concerning the tree?",
+    question:
+      "What kind of tree did Nebuchadnezzar see in his later dream?",
     options: [
-      "Cut it down but leave the stump",
-      "Burn it completely",
-      "Move it to another land",
-      "Water it",
+      "An enormous tree visible to the ends of the earth",
+      "A cedar growing from the temple",
+      "A vine covering Babylon",
+      "An olive tree with twelve branches",
     ],
-    answer: "Cut it down but leave the stump",
-    reference: "Daniel 4:14-15",
+    answer: "An enormous tree visible to the ends of the earth",
+    reference: "Daniel 4:10-11",
   },
   {
-    question: "What was to bind the stump?",
+    question:
+      "Who descended from heaven and ordered that the tree be cut down?",
+    options: [
+      "A holy one, a messenger",
+      "Gabriel",
+      "Michael",
+      "An unnamed king",
+    ],
+    answer: "A holy one, a messenger",
+    reference: "Daniel 4:13-14",
+  },
+  {
+    question:
+      "What part of the tree was ordered to remain in the ground?",
+    options: [
+      "The stump and its roots",
+      "One branch",
+      "The trunk without roots",
+      "Its seed",
+    ],
+    answer: "The stump and its roots",
+    reference: "Daniel 4:15",
+  },
+  {
+    question:
+      "With what was the remaining stump to be bound?",
     options: [
       "Iron and bronze",
       "Gold and silver",
-      "Rope and leather",
-      "Wood and stone",
+      "Iron and clay",
+      "Bronze and leather",
     ],
     answer: "Iron and bronze",
     reference: "Daniel 4:15",
   },
   {
-    question: "What did Daniel say the great tree represented?",
+    question:
+      "What change was decreed concerning the mind of the person represented in the dream?",
     options: [
-      "Nebuchadnezzar",
-      "Babylon itself only",
-      "Daniel",
-      "Cyrus",
+      "His human mind would be changed to the mind of an animal",
+      "His memory would disappear",
+      "His wisdom would increase",
+      "His mind would become like a child's",
     ],
-    answer: "Nebuchadnezzar",
-    reference: "Daniel 4:20-22",
+    answer: "His human mind would be changed to the mind of an animal",
+    reference: "Daniel 4:16",
   },
   {
-    question: "What would happen to Nebuchadnezzar because of his pride?",
-    options: [
-      "He would live with wild animals and eat grass",
-      "He would be killed immediately",
-      "He would become a prisoner in Jerusalem",
-      "He would lose his wealth but remain king",
-    ],
-    answer: "He would live with wild animals and eat grass",
-    reference: "Daniel 4:25",
+    question:
+      "How many 'times' were to pass over the person represented by the tree?",
+    options: ["Seven", "Three", "Ten", "Forty"],
+    answer: "Seven",
+    reference: "Daniel 4:16",
   },
   {
-    question: "How long would Nebuchadnezzar's period of humiliation last?",
+    question:
+      "What lesson was the decree intended to teach the living?",
     options: [
-      "Seven times",
-      "Three years",
-      "Forty days",
-      "Ten years",
+      "The Most High is sovereign over all kingdoms and gives them to anyone He wishes",
+      "Babylon would remain forever",
+      "Kings should never trust advisers",
+      "Wisdom is greater than military power",
     ],
-    answer: "Seven times",
-    reference: "Daniel 4:25",
+    answer:
+      "The Most High is sovereign over all kingdoms and gives them to anyone He wishes",
+    reference: "Daniel 4:17",
   },
   {
-    question: "What truth was Nebuchadnezzar required to acknowledge?",
+    question:
+      "What did Daniel advise Nebuchadnezzar to do after interpreting the tree dream?",
     options: [
-      "The Most High is sovereign over human kingdoms",
-      "Babylon would never fall",
-      "Daniel was greater than God",
-      "Kings rule independently of heaven",
+      "Renounce his sins by doing what is right and show kindness to the oppressed",
+      "Leave Babylon immediately",
+      "Build an altar to the Most High",
+      "Fast for seven days",
     ],
-    answer: "The Most High is sovereign over human kingdoms",
-    reference: "Daniel 4:25",
-  },
-  {
-    question: "What advice did Daniel give Nebuchadnezzar after interpreting the dream?",
-    options: [
-      "Renounce sin by doing what is right and being kind to the oppressed",
-      "Build another temple",
-      "Leave Babylon",
-      "Destroy his idols immediately and abdicate",
-    ],
-    answer: "Renounce sin by doing what is right and being kind to the oppressed",
+    answer:
+      "Renounce his sins by doing what is right and show kindness to the oppressed",
     reference: "Daniel 4:27",
   },
   {
-    question: "What boast did Nebuchadnezzar make shortly before judgment fell?",
-    options: [
-      "He had built great Babylon by his mighty power",
-      "He had defeated every god",
-      "He would rule forever",
-      "He was wiser than Daniel",
-    ],
-    answer: "He had built great Babylon by his mighty power",
-    reference: "Daniel 4:30",
+    question:
+      "How long after Daniel's interpretation did the judgment fall on Nebuchadnezzar?",
+    options: ["Twelve months", "Seven months", "Forty days", "Three years"],
+    answer: "Twelve months",
+    reference: "Daniel 4:29",
   },
   {
-    question: "What happened to Nebuchadnezzar's hair during his humiliation?",
+    question:
+      "What boast was Nebuchadnezzar making when judgment was pronounced?",
+    options: [
+      "He boasted that he had built great Babylon by his power for his glory",
+      "He claimed to have conquered every nation",
+      "He claimed to be wiser than Daniel",
+      "He declared himself immortal",
+    ],
+    answer:
+      "He boasted that he had built great Babylon by his power for his glory",
+    reference: "Daniel 4:30-31",
+  },
+  {
+    question:
+      "What happened to Nebuchadnezzar's hair during his humiliation?",
     options: [
       "It grew like the feathers of an eagle",
-      "It fell out",
-      "It turned white",
-      "It was shaved",
+      "It fell out completely",
+      "It became white as wool",
+      "It grew like a lion's mane",
     ],
     answer: "It grew like the feathers of an eagle",
     reference: "Daniel 4:33",
   },
   {
-    question: "What happened to his nails?",
+    question:
+      "What happened to Nebuchadnezzar's nails during his humiliation?",
     options: [
-      "They became like birds' claws",
-      "They broke off",
-      "They turned black",
-      "They were cut",
+      "They became like the claws of a bird",
+      "They became like bronze",
+      "They fell off",
+      "They became like lion claws",
     ],
-    answer: "They became like birds' claws",
+    answer: "They became like the claws of a bird",
     reference: "Daniel 4:33",
   },
   {
-    question: "What did Nebuchadnezzar do when his sanity was restored?",
+    question:
+      "What did Nebuchadnezzar do immediately before his sanity was restored?",
     options: [
-      "Praised and honored the Most High",
-      "Rebuilt the golden image",
-      "Punished Daniel",
-      "Invaded Jerusalem again",
+      "Raised his eyes toward heaven",
+      "Called for Daniel",
+      "Entered the palace",
+      "Offered a sacrifice",
     ],
-    answer: "Praised and honored the Most High",
-    reference: "Daniel 4:34-37",
+    answer: "Raised his eyes toward heaven",
+    reference: "Daniel 4:34",
   },
-
   {
-    question: "Who held the great banquet where sacred temple vessels were used?",
-    options: [
-      "Belshazzar",
-      "Nebuchadnezzar",
-      "Darius",
-      "Cyrus",
-    ],
+    question:
+      "Which king held the great banquet during which the mysterious handwriting appeared?",
+    options: ["Belshazzar", "Darius", "Nebuchadnezzar", "Cyrus"],
     answer: "Belshazzar",
-    reference: "Daniel 5:1-2",
+    reference: "Daniel 5:1",
   },
   {
-    question: "How many nobles attended Belshazzar's banquet?",
-    options: [
-      "One thousand",
-      "Five hundred",
-      "Three thousand",
-      "Seven hundred",
-    ],
+    question:
+      "For approximately how many nobles did Belshazzar hold his banquet?",
+    options: ["One thousand", "Five hundred", "Ten thousand", "One hundred"],
     answer: "One thousand",
     reference: "Daniel 5:1",
   },
   {
-    question: "What did Belshazzar command to be brought to the banquet?",
+    question:
+      "What sacred objects were used for drinking at Belshazzar's feast?",
     options: [
-      "The gold and silver vessels taken from Jerusalem's temple",
-      "The ark of the covenant",
-      "Daniel's scrolls",
-      "Nebuchadnezzar's crown",
+      "Gold and silver vessels taken from the temple in Jerusalem",
+      "The bronze temple altar vessels",
+      "Priestly cups from Babylon",
+      "Golden vessels from Egypt",
     ],
-    answer: "The gold and silver vessels taken from Jerusalem's temple",
-    reference: "Daniel 5:2",
+    answer:
+      "Gold and silver vessels taken from the temple in Jerusalem",
+    reference: "Daniel 5:2-3",
   },
   {
-    question: "What appeared while the guests were drinking?",
+    question:
+      "What gods did the banquet guests praise while drinking from the temple vessels?",
     options: [
-      "Fingers of a human hand writing on the wall",
-      "An angel with a sword",
-      "A blazing furnace",
-      "A golden statue",
+      "Gods of gold, silver, bronze, iron, wood, and stone",
+      "Bel and Nebo only",
+      "Gods of sun, moon, and stars",
+      "Gods of Babylon and Persia",
     ],
-    answer: "Fingers of a human hand writing on the wall",
+    answer: "Gods of gold, silver, bronze, iron, wood, and stone",
+    reference: "Daniel 5:4",
+  },
+  {
+    question:
+      "Where did the mysterious fingers write their message?",
+    options: [
+      "On the plaster of the wall near the lampstand",
+      "On the palace floor",
+      "On the king's throne",
+      "On a golden tablet",
+    ],
+    answer: "On the plaster of the wall near the lampstand",
     reference: "Daniel 5:5",
   },
   {
-    question: "How did Belshazzar react to the handwriting?",
+    question:
+      "How did Belshazzar physically react when he saw the hand writing?",
     options: [
-      "His face turned pale and his knees knocked together",
-      "He laughed",
-      "He ordered it erased",
-      "He fled the palace",
+      "His knees knocked together and his legs gave way",
+      "He fell unconscious",
+      "He tore his robe",
+      "He became unable to speak",
     ],
-    answer: "His face turned pale and his knees knocked together",
+    answer: "His knees knocked together and his legs gave way",
     reference: "Daniel 5:6",
   },
   {
-    question: "What reward did Belshazzar promise whoever could interpret the writing?",
+    question:
+      "What position did Belshazzar promise to the person who could interpret the writing?",
     options: [
-      "Purple clothing, a gold chain, and third-highest rank",
-      "Half the kingdom",
-      "A palace and army",
-      "A thousand talents of gold",
+      "Third highest ruler in the kingdom",
+      "Second highest ruler in the kingdom",
+      "Governor of Babylon",
+      "Chief of all wise men",
     ],
-    answer: "Purple clothing, a gold chain, and third-highest rank",
+    answer: "Third highest ruler in the kingdom",
     reference: "Daniel 5:7",
   },
   {
-    question: "What words appeared in the mysterious inscription?",
+    question:
+      "Who recommended that Daniel be brought before Belshazzar?",
+    options: [
+      "The queen",
+      "The chief magician",
+      "Arioch",
+      "Darius",
+    ],
+    answer: "The queen",
+    reference: "Daniel 5:10-12",
+  },
+  {
+    question:
+      "What did Daniel tell Belshazzar to do with the promised gifts and rewards?",
+    options: [
+      "Keep them or give them to someone else",
+      "Give them to the poor",
+      "Offer them to God",
+      "Give them to Daniel's companions",
+    ],
+    answer: "Keep them or give them to someone else",
+    reference: "Daniel 5:17",
+  },
+  {
+    question:
+      "What did Daniel accuse Belshazzar of failing to do despite knowing what happened to Nebuchadnezzar?",
+    options: [
+      "Humble his heart",
+      "Release the Jewish exiles",
+      "Destroy Babylon's idols",
+      "Consult Daniel earlier",
+    ],
+    answer: "Humble his heart",
+    reference: "Daniel 5:22",
+  },
+  {
+    question:
+      "What was the inscription written on the wall?",
     options: [
       "Mene, Mene, Tekel, Parsin",
-      "Holy, Holy, Holy",
-      "Babylon, Babylon, Fallen",
-      "Kingdom, Power, Glory",
+      "Mene, Tekel, Uphaz, Peres",
+      "Tekel, Tekel, Mene, Parsin",
+      "Peres, Mene, Mene, Uphaz",
     ],
     answer: "Mene, Mene, Tekel, Parsin",
     reference: "Daniel 5:25",
   },
   {
-    question: "What did 'Mene' signify?",
+    question:
+      "What did 'Mene' signify in Daniel's interpretation?",
     options: [
-      "God had numbered Belshazzar's reign and brought it to an end",
-      "Belshazzar had been weighed",
-      "Babylon would be divided",
-      "Daniel would become ruler",
+      "God had numbered the days of Belshazzar's reign and brought it to an end",
+      "Belshazzar had been weighed and found wanting",
+      "The kingdom would be divided",
+      "The Medes would conquer Babylon",
     ],
-    answer: "God had numbered Belshazzar's reign and brought it to an end",
+    answer:
+      "God had numbered the days of Belshazzar's reign and brought it to an end",
     reference: "Daniel 5:26",
   },
   {
-    question: "What did 'Tekel' signify?",
+    question:
+      "What did 'Tekel' signify?",
     options: [
-      "Belshazzar had been weighed and found wanting",
-      "Babylon's days had been numbered",
-      "The kingdom would be divided",
-      "The Medes would flee",
+      "Belshazzar had been weighed on the scales and found wanting",
+      "His kingdom had been numbered",
+      "His kingdom would be divided",
+      "His life would be spared",
     ],
-    answer: "Belshazzar had been weighed and found wanting",
+    answer: "Belshazzar had been weighed on the scales and found wanting",
     reference: "Daniel 5:27",
   },
   {
-    question: "What did 'Peres' signify?",
+    question:
+      "What did 'Peres' signify?",
     options: [
-      "The kingdom would be divided and given to the Medes and Persians",
-      "The king would regain his throne",
-      "Babylon would conquer Persia",
-      "Daniel would become king",
+      "The kingdom was divided and given to the Medes and Persians",
+      "The king had been weighed",
+      "The days of Babylon had been numbered",
+      "The temple vessels would be restored",
     ],
-    answer: "The kingdom would be divided and given to the Medes and Persians",
+    answer: "The kingdom was divided and given to the Medes and Persians",
     reference: "Daniel 5:28",
   },
   {
-    question: "What happened to Belshazzar that very night?",
+    question:
+      "What happened to Belshazzar on the same night Daniel interpreted the writing?",
     options: [
       "He was killed",
-      "He repented",
-      "He fled to Egypt",
-      "He appointed Daniel king",
+      "He fled Babylon",
+      "He became insane",
+      "He surrendered voluntarily",
     ],
     answer: "He was killed",
     reference: "Daniel 5:30",
   },
   {
-    question: "Who received the kingdom after Belshazzar's death?",
-    options: [
-      "Darius the Mede",
-      "Cyrus immediately",
-      "Nebuchadnezzar",
-      "Daniel",
-    ],
+    question:
+      "Who took over the kingdom after Belshazzar's death?",
+    options: ["Darius the Mede", "Cyrus the Persian", "Xerxes", "Nebuchadnezzar"],
     answer: "Darius the Mede",
     reference: "Daniel 5:31",
   },
-
   {
-    question: "How many satraps did Darius appoint over the kingdom?",
-    options: [
-      "One hundred and twenty",
-      "Seventy",
-      "Twelve",
-      "One hundred",
-    ],
-    answer: "One hundred and twenty",
+    question:
+      "Approximately how old was Darius when he received the kingdom?",
+    options: ["Sixty-two", "Seventy", "Forty", "Fifty-two"],
+    answer: "Sixty-two",
+    reference: "Daniel 5:31",
+  },
+  {
+    question:
+      "How many satraps did Darius appoint to rule throughout the kingdom?",
+    options: ["120", "70", "127", "12"],
+    answer: "120",
     reference: "Daniel 6:1",
   },
   {
-    question: "How many administrators were placed over the satraps?",
-    options: [
-      "Three",
-      "Seven",
-      "Twelve",
-      "Four",
-    ],
+    question:
+      "How many administrators were placed over the satraps?",
+    options: ["Three", "Seven", "Twelve", "Four"],
     answer: "Three",
     reference: "Daniel 6:2",
   },
   {
-    question: "Why did Daniel distinguish himself above the other administrators?",
+    question:
+      "Why did Darius plan to place Daniel over the entire kingdom?",
     options: [
-      "He possessed exceptional qualities",
-      "He was the oldest",
-      "He was related to Darius",
-      "He controlled the army",
+      "Daniel distinguished himself by his exceptional qualities",
+      "Daniel was the oldest administrator",
+      "Daniel interpreted another royal dream",
+      "Daniel was related to the royal family",
     ],
-    answer: "He possessed exceptional qualities",
+    answer: "Daniel distinguished himself by his exceptional qualities",
     reference: "Daniel 6:3",
   },
   {
-    question: "What fault could Daniel's opponents find in his government work?",
+    question:
+      "What weakness did Daniel's opponents conclude they would have to use against him?",
     options: [
-      "None",
-      "He collected too much tax",
-      "He favored Jews",
-      "He ignored the king",
+      "Something connected with the law of his God",
+      "His loyalty to Babylon",
+      "His management of taxes",
+      "His relationship with the king",
     ],
-    answer: "None",
-    reference: "Daniel 6:4",
+    answer: "Something connected with the law of his God",
+    reference: "Daniel 6:5",
   },
   {
-    question: "What decree did Daniel's enemies persuade Darius to issue?",
-    options: [
-      "No one could pray to any god or person except the king for thirty days",
-      "All Jews had to leave Babylon",
-      "Everyone had to worship an image",
-      "No one could read Scripture",
-    ],
-    answer: "No one could pray to any god or person except the king for thirty days",
+    question:
+      "For how many days did the proposed decree forbid petitions to anyone except the king?",
+    options: ["Thirty days", "Forty days", "Seven days", "Ten days"],
+    answer: "Thirty days",
     reference: "Daniel 6:7",
   },
   {
-    question: "How many times a day did Daniel continue praying?",
+    question:
+      "According to the officials, what feature of Median and Persian law made the decree especially dangerous?",
     options: [
-      "Three times",
-      "Seven times",
-      "Once",
-      "Twice",
+      "A royal decree could not be altered or revoked",
+      "Only priests could challenge it",
+      "It remained binding for seven years",
+      "Violation required immediate execution without trial",
     ],
-    answer: "Three times",
-    reference: "Daniel 6:10",
+    answer: "A royal decree could not be altered or revoked",
+    reference: "Daniel 6:8,12,15",
   },
   {
-    question: "Toward which city were Daniel's windows opened when he prayed?",
-    options: [
-      "Jerusalem",
-      "Babylon",
-      "Susa",
-      "Nineveh",
-    ],
+    question:
+      "Toward which city were the windows of Daniel's upstairs room opened when he prayed?",
+    options: ["Jerusalem", "Babylon", "Susa", "Bethlehem"],
     answer: "Jerusalem",
     reference: "Daniel 6:10",
   },
   {
-    question: "What punishment did Daniel receive for continuing to pray?",
-    options: [
-      "He was thrown into the lions' den",
-      "He was thrown into a furnace",
-      "He was beheaded",
-      "He was exiled",
-    ],
-    answer: "He was thrown into the lions' den",
-    reference: "Daniel 6:16",
+    question:
+      "How many times each day did Daniel continue to pray after learning of the decree?",
+    options: ["Three times", "Seven times", "Twice", "Once"],
+    answer: "Three times",
+    reference: "Daniel 6:10",
   },
   {
-    question: "What did Darius say to Daniel as he was placed in the den?",
+    question:
+      "What did Daniel do during those prayers besides asking God for help?",
     options: [
-      "May your God, whom you serve continually, rescue you",
-      "Your God cannot save you",
-      "You should have obeyed me",
-      "Tomorrow you will be released",
+      "He gave thanks to God",
+      "He burned incense",
+      "He fasted",
+      "He read the Law aloud",
     ],
-    answer: "May your God, whom you serve continually, rescue you",
-    reference: "Daniel 6:16",
+    answer: "He gave thanks to God",
+    reference: "Daniel 6:10",
   },
   {
-    question: "What did the king do during the night Daniel was in the den?",
+    question:
+      "How did Darius react when he realized the decree had trapped Daniel?",
     options: [
-      "Fasted and could not sleep",
-      "Held a banquet",
-      "Prayed to Babylonian gods",
-      "Left the city",
+      "He was greatly distressed and tried until sunset to rescue Daniel",
+      "He immediately revoked the decree",
+      "He ordered Daniel's accusers executed",
+      "He refused to enforce the decree",
     ],
-    answer: "Fasted and could not sleep",
+    answer:
+      "He was greatly distressed and tried until sunset to rescue Daniel",
+    reference: "Daniel 6:14",
+  },
+  {
+    question:
+      "What was placed over the entrance to the lions' den after Daniel was thrown inside?",
+    options: [
+      "A stone sealed with the king's signet and those of his nobles",
+      "An iron gate locked with seven seals",
+      "A wooden door guarded by soldiers",
+      "A bronze plate bearing the royal decree",
+    ],
+    answer:
+      "A stone sealed with the king's signet and those of his nobles",
+    reference: "Daniel 6:17",
+  },
+  {
+    question:
+      "What did Darius refuse during the night Daniel was in the lions' den?",
+    options: [
+      "Food and entertainment",
+      "Sleep and water",
+      "Food and prayer",
+      "Wine and royal counsel",
+    ],
+    answer: "Food and entertainment",
     reference: "Daniel 6:18",
   },
   {
-    question: "Who shut the lions' mouths?",
+    question:
+      "What did Daniel say God had done to protect him from the lions?",
     options: [
-      "An angel sent by God",
-      "Darius",
-      "Daniel himself",
-      "The guards",
+      "Sent His angel and shut the lions' mouths",
+      "Made the lions fall asleep",
+      "Removed him from the den during the night",
+      "Turned the lions into harmless animals",
     ],
-    answer: "An angel sent by God",
+    answer: "Sent His angel and shut the lions' mouths",
     reference: "Daniel 6:22",
   },
   {
-    question: "Why was Daniel found unharmed?",
+    question:
+      "Why, according to Daniel, had he been protected?",
     options: [
-      "He had trusted in God",
-      "The lions were not hungry",
-      "The den was empty",
-      "Darius secretly fed the lions",
+      "He was found innocent before God and had done no wrong before the king",
+      "He had fasted and prayed",
+      "The king had prayed for him",
+      "He was a prophet",
     ],
-    answer: "He had trusted in God",
-    reference: "Daniel 6:23",
+    answer:
+      "He was found innocent before God and had done no wrong before the king",
+    reference: "Daniel 6:22",
   },
   {
-    question: "What happened to the men who falsely accused Daniel?",
+    question:
+      "What happened to Daniel's accusers after he was rescued?",
     options: [
-      "They were thrown into the lions' den with their families",
+      "They and their families were thrown into the lions' den",
       "They were exiled",
-      "They were forgiven",
-      "They became Daniel's servants",
+      "They were imprisoned",
+      "They were stripped of office but spared",
     ],
-    answer: "They were thrown into the lions' den with their families",
+    answer: "They and their families were thrown into the lions' den",
     reference: "Daniel 6:24",
   },
   {
-    question: "What happened before Daniel's accusers reached the floor of the den?",
+    question:
+      "What happened before Daniel's accusers reached the floor of the den?",
     options: [
       "The lions overpowered them and crushed their bones",
-      "The lions fled",
-      "The guards rescued them",
-      "The den collapsed",
+      "They repented",
+      "The lions fled from them",
+      "The king stopped the execution",
     ],
     answer: "The lions overpowered them and crushed their bones",
     reference: "Daniel 6:24",
   },
-
   {
-    question: "How many great beasts did Daniel see coming out of the sea?",
-    options: [
-      "Four",
-      "Seven",
-      "Three",
-      "Ten",
-    ],
-    answer: "Four",
-    reference: "Daniel 7:3",
+    question:
+      "During whose first year did Daniel receive the vision of four great beasts?",
+    options: ["Belshazzar", "Darius", "Cyrus", "Nebuchadnezzar"],
+    answer: "Belshazzar",
+    reference: "Daniel 7:1",
   },
   {
-    question: "What was the first beast like?",
+    question:
+      "What stirred up the great sea before the four beasts emerged?",
+    options: [
+      "The four winds of heaven",
+      "A great earthquake",
+      "Seven angels",
+      "A storm from the north",
+    ],
+    answer: "The four winds of heaven",
+    reference: "Daniel 7:2",
+  },
+  {
+    question:
+      "What was the first beast in Daniel's vision like?",
     options: [
       "A lion with eagle's wings",
-      "A bear",
-      "A leopard",
+      "A bear with three ribs",
+      "A leopard with four wings",
       "A terrifying beast with iron teeth",
     ],
     answer: "A lion with eagle's wings",
     reference: "Daniel 7:4",
   },
   {
-    question: "What was the second beast like?",
+    question:
+      "What happened to the wings of the first beast?",
     options: [
-      "A bear",
-      "A lion",
-      "A leopard",
-      "An eagle",
+      "They were torn off",
+      "They multiplied",
+      "They became human arms",
+      "They turned to iron",
     ],
-    answer: "A bear",
+    answer: "They were torn off",
+    reference: "Daniel 7:4",
+  },
+  {
+    question:
+      "What transformation followed the removal of the first beast's wings?",
+    options: [
+      "It stood on two feet like a human and was given a human mind",
+      "It became a bear",
+      "It grew ten horns",
+      "It was thrown into fire",
+    ],
+    answer:
+      "It stood on two feet like a human and was given a human mind",
+    reference: "Daniel 7:4",
+  },
+  {
+    question:
+      "What was the second beast like?",
+    options: [
+      "A bear raised up on one side",
+      "A lion without wings",
+      "A leopard with four heads",
+      "An eagle with iron claws",
+    ],
+    answer: "A bear raised up on one side",
     reference: "Daniel 7:5",
   },
   {
-    question: "What did the bear have in its mouth?",
-    options: [
-      "Three ribs",
-      "Seven horns",
-      "Four wings",
-      "Ten teeth",
-    ],
-    answer: "Three ribs",
+    question:
+      "How many ribs were in the mouth of the second beast?",
+    options: ["Three", "Four", "Seven", "Two"],
+    answer: "Three",
     reference: "Daniel 7:5",
   },
   {
-    question: "What was the third beast like?",
+    question:
+      "What command was given to the bear-like beast?",
     options: [
-      "A leopard",
-      "A lion",
-      "A bear",
-      "A ram",
+      "Get up and eat your fill of flesh",
+      "Destroy the holy people",
+      "Rule over the earth",
+      "Break the other beasts",
     ],
+    answer: "Get up and eat your fill of flesh",
+    reference: "Daniel 7:5",
+  },
+  {
+    question:
+      "What was the third beast like?",
+    options: ["A leopard", "A lion", "A bear", "A ram"],
     answer: "A leopard",
     reference: "Daniel 7:6",
   },
   {
-    question: "How many wings did the leopard-like beast have?",
-    options: [
-      "Four",
-      "Two",
-      "Six",
-      "Eight",
-    ],
+    question:
+      "How many wings did the leopard-like beast have?",
+    options: ["Four", "Two", "Six", "Eight"],
     answer: "Four",
     reference: "Daniel 7:6",
   },
   {
-    question: "How many heads did the leopard-like beast have?",
-    options: [
-      "Four",
-      "Seven",
-      "Two",
-      "Ten",
-    ],
+    question:
+      "How many heads did the leopard-like beast have?",
+    options: ["Four", "Seven", "Two", "Ten"],
     answer: "Four",
     reference: "Daniel 7:6",
   },
   {
-    question: "What distinguished the fourth beast?",
-    options: [
-      "It had large iron teeth and ten horns",
-      "It had eagle's wings",
-      "It had three heads",
-      "It looked like a ram",
-    ],
-    answer: "It had large iron teeth and ten horns",
+    question:
+      "What distinctive material is associated with the teeth of the fourth beast?",
+    options: ["Iron", "Bronze", "Gold", "Stone"],
+    answer: "Iron",
     reference: "Daniel 7:7",
   },
   {
-    question: "What happened as Daniel watched the ten horns?",
+    question:
+      "How many horns did the fourth beast initially have?",
+    options: ["Ten", "Seven", "Four", "Twelve"],
+    answer: "Ten",
+    reference: "Daniel 7:7",
+  },
+  {
+    question:
+      "What happened when another little horn arose among the ten horns?",
     options: [
-      "Another little horn arose",
-      "All ten fell off",
-      "They became wings",
-      "They turned to gold",
+      "Three of the original horns were uprooted",
+      "All ten horns disappeared",
+      "Four horns grew in their place",
+      "The beast lost its iron teeth",
     ],
-    answer: "Another little horn arose",
+    answer: "Three of the original horns were uprooted",
     reference: "Daniel 7:8",
   },
   {
-    question: "What features did the little horn possess?",
+    question:
+      "What human-like features did the little horn possess?",
     options: [
-      "Eyes like human eyes and a boastful mouth",
-      "Wings and claws",
-      "Seven eyes and seven mouths",
-      "A crown and sword",
+      "Eyes like human eyes and a mouth speaking boastfully",
+      "Human hands and feet",
+      "A human face and golden crown",
+      "Human ears and a lion's mouth",
     ],
-    answer: "Eyes like human eyes and a boastful mouth",
+    answer: "Eyes like human eyes and a mouth speaking boastfully",
     reference: "Daniel 7:8",
   },
   {
-    question: "Who took His seat in Daniel's heavenly courtroom vision?",
-    options: [
-      "The Ancient of Days",
-      "Michael",
-      "Gabriel",
-      "Nebuchadnezzar",
-    ],
-    answer: "The Ancient of Days",
-    reference: "Daniel 7:9",
-  },
-  {
-    question: "What was the Ancient of Days' clothing like?",
+    question:
+      "How was the clothing of the Ancient of Days described?",
     options: [
       "White as snow",
-      "Red as blood",
-      "Blue as sapphire",
-      "Gold",
+      "Bright as lightning",
+      "Purple and scarlet",
+      "Like polished bronze",
     ],
     answer: "White as snow",
     reference: "Daniel 7:9",
   },
   {
-    question: "What was His hair compared to?",
+    question:
+      "How was the hair of the Ancient of Days described?",
     options: [
-      "Pure wool",
-      "Snow only",
-      "Gold",
-      "Flames",
+      "Like pure wool",
+      "White as snow",
+      "Like flames",
+      "Like gold",
     ],
-    answer: "Pure wool",
+    answer: "Like pure wool",
     reference: "Daniel 7:9",
   },
   {
-    question: "What flowed from before the Ancient of Days?",
+    question:
+      "What was the throne of the Ancient of Days like?",
+    options: [
+      "Flaming with fire, with wheels all ablaze",
+      "Made of sapphire",
+      "Surrounded by twelve thrones",
+      "Made of pure gold",
+    ],
+    answer: "Flaming with fire, with wheels all ablaze",
+    reference: "Daniel 7:9",
+  },
+  {
+    question:
+      "What flowed out from before the Ancient of Days?",
     options: [
       "A river of fire",
-      "A river of water",
-      "Smoke",
-      "A cloud",
+      "A river of living water",
+      "A stream of blood",
+      "A cloud of glory",
     ],
     answer: "A river of fire",
     reference: "Daniel 7:10",
   },
   {
-    question: "Who approached the Ancient of Days with the clouds of heaven?",
+    question:
+      "What was opened when the heavenly court sat in judgment?",
+    options: ["Books", "Seals", "Scrolls of prophecy", "The heavens"],
+    answer: "Books",
+    reference: "Daniel 7:10",
+  },
+  {
+    question:
+      "What happened to the fourth beast after judgment was pronounced?",
+    options: [
+      "It was slain and its body destroyed and thrown into blazing fire",
+      "It was imprisoned",
+      "It lost its horns but survived",
+      "It fled into the sea",
+    ],
+    answer:
+      "It was slain and its body destroyed and thrown into blazing fire",
+    reference: "Daniel 7:11",
+  },
+  {
+    question:
+      "What happened to the other beasts after their dominion was removed?",
+    options: [
+      "They were allowed to live for a period of time",
+      "They were immediately burned",
+      "They became human",
+      "They disappeared into the sea",
+    ],
+    answer: "They were allowed to live for a period of time",
+    reference: "Daniel 7:12",
+  },
+  {
+    question:
+      "Who approached the Ancient of Days with the clouds of heaven?",
     options: [
       "One like a son of man",
       "Michael",
       "Gabriel",
-      "Daniel",
+      "A lion-like king",
     ],
     answer: "One like a son of man",
     reference: "Daniel 7:13",
   },
   {
-    question: "What was given to the one like a son of man?",
+    question:
+      "What was given to the one like a son of man?",
     options: [
       "Authority, glory, and sovereign power",
-      "Only a priesthood",
-      "A golden crown only",
-      "The city of Babylon",
+      "A sword and crown",
+      "The books of judgment",
+      "Ten kingdoms",
     ],
     answer: "Authority, glory, and sovereign power",
     reference: "Daniel 7:14",
   },
   {
-    question: "What is distinctive about the kingdom of the one like a son of man?",
+    question:
+      "Who would ultimately receive and possess the kingdom according to the interpretation?",
     options: [
-      "It will never be destroyed",
-      "It lasts seventy years",
-      "It belongs only to Israel",
-      "It is ruled from Babylon",
+      "The holy people of the Most High",
+      "The kings of Media",
+      "Daniel and his companions",
+      "The wise men of Babylon",
     ],
-    answer: "It will never be destroyed",
-    reference: "Daniel 7:14",
+    answer: "The holy people of the Most High",
+    reference: "Daniel 7:18",
   },
-
   {
-    question: "Where was Daniel when he saw the vision of the ram and goat?",
+    question:
+      "For how long would the oppressive horn dominate the holy people?",
     options: [
-      "Susa",
-      "Jerusalem",
-      "Babylon",
-      "Ecbatana",
+      "A time, times, and half a time",
+      "Seventy weeks",
+      "Seven years exactly",
+      "Three hundred days",
     ],
+    answer: "A time, times, and half a time",
+    reference: "Daniel 7:25",
+  },
+  {
+    question:
+      "During whose third year did Daniel receive the vision of the ram and goat?",
+    options: ["Belshazzar", "Darius", "Cyrus", "Nebuchadnezzar"],
+    answer: "Belshazzar",
+    reference: "Daniel 8:1",
+  },
+  {
+    question:
+      "In which citadel did Daniel see himself during the vision of the ram and goat?",
+    options: ["Susa", "Babylon", "Ecbatana", "Persepolis"],
     answer: "Susa",
     reference: "Daniel 8:2",
   },
   {
-    question: "Beside which canal did Daniel see the vision?",
-    options: [
-      "Ulai Canal",
-      "Kebar Canal",
-      "Jordan River",
-      "Euphrates Canal",
-    ],
-    answer: "Ulai Canal",
+    question:
+      "Beside which canal was Daniel in the vision?",
+    options: ["Ulai", "Kebar", "Euphrates", "Tigris"],
+    answer: "Ulai",
     reference: "Daniel 8:2",
   },
   {
-    question: "How many horns did the ram have?",
+    question:
+      "What unusual feature distinguished the ram's two horns?",
     options: [
-      "Two",
-      "Four",
-      "One",
-      "Ten",
-    ],
-    answer: "Two",
-    reference: "Daniel 8:3",
-  },
-  {
-    question: "What was unusual about the ram's horns?",
-    options: [
-      "One was longer and grew later",
+      "One was longer than the other and grew later",
       "Both were broken",
-      "One was gold",
-      "They pointed downward",
+      "One was gold and the other silver",
+      "One pointed east and one west",
     ],
-    answer: "One was longer and grew later",
+    answer: "One was longer than the other and grew later",
     reference: "Daniel 8:3",
   },
   {
-    question: "From which direction did the goat come?",
+    question:
+      "In which three directions did the ram charge?",
     options: [
-      "The west",
-      "The east",
-      "The north",
-      "The south",
+      "West, north, and south",
+      "East, north, and west",
+      "North, east, and south",
+      "South, west, and east",
     ],
+    answer: "West, north, and south",
+    reference: "Daniel 8:4",
+  },
+  {
+    question:
+      "From which direction did the goat approach?",
+    options: ["The west", "The east", "The north", "The south"],
     answer: "The west",
     reference: "Daniel 8:5",
   },
   {
-    question: "What unusual feature did the goat have between its eyes?",
+    question:
+      "What was remarkable about the goat's movement across the earth?",
     options: [
-      "A prominent horn",
-      "A third eye",
-      "A crown",
-      "A golden mark",
+      "It crossed without touching the ground",
+      "It moved only at night",
+      "It flew with four wings",
+      "It left fire behind it",
     ],
-    answer: "A prominent horn",
+    answer: "It crossed without touching the ground",
     reference: "Daniel 8:5",
   },
   {
-    question: "What happened to the goat's great horn at the height of its power?",
+    question:
+      "Where was the goat's prominent horn located?",
+    options: [
+      "Between its eyes",
+      "On the right side of its head",
+      "On its forehead above one eye",
+      "At the back of its head",
+    ],
+    answer: "Between its eyes",
+    reference: "Daniel 8:5",
+  },
+  {
+    question:
+      "What happened to the goat's great horn at the height of its power?",
     options: [
       "It was broken",
-      "It became larger",
-      "It turned into iron",
-      "It split into two",
+      "It divided into two",
+      "It became ten horns",
+      "It struck the ram again",
     ],
     answer: "It was broken",
     reference: "Daniel 8:8",
   },
   {
-    question: "How many prominent horns arose in place of the broken horn?",
-    options: [
-      "Four",
-      "Ten",
-      "Two",
-      "Seven",
-    ],
+    question:
+      "How many prominent horns arose in place of the broken horn?",
+    options: ["Four", "Ten", "Two", "Seven"],
     answer: "Four",
     reference: "Daniel 8:8",
   },
   {
-    question: "Who was sent to explain the vision to Daniel?",
+    question:
+      "What kingdoms did the two horns of the ram represent?",
     options: [
-      "Gabriel",
-      "Michael",
-      "An unnamed priest",
-      "Jeremiah",
+      "Media and Persia",
+      "Babylon and Media",
+      "Greece and Persia",
+      "Egypt and Syria",
     ],
+    answer: "Media and Persia",
+    reference: "Daniel 8:20",
+  },
+  {
+    question:
+      "What kingdom did the shaggy goat represent?",
+    options: ["Greece", "Babylon", "Persia", "Rome"],
+    answer: "Greece",
+    reference: "Daniel 8:21",
+  },
+  {
+    question:
+      "What did the goat's first great horn represent?",
+    options: [
+      "The first king of Greece",
+      "The final king of Persia",
+      "The ruler of Babylon",
+      "The prince of Israel",
+    ],
+    answer: "The first king of Greece",
+    reference: "Daniel 8:21",
+  },
+  {
+    question:
+      "What did the four horns replacing the great horn represent?",
+    options: [
+      "Four kingdoms arising from that nation",
+      "Four Persian kings",
+      "Four heavenly powers",
+      "Four Jewish rulers",
+    ],
+    answer: "Four kingdoms arising from that nation",
+    reference: "Daniel 8:22",
+  },
+  {
+    question:
+      "Which angel was commanded to explain the vision to Daniel?",
+    options: ["Gabriel", "Michael", "Raphael", "Uriel"],
     answer: "Gabriel",
     reference: "Daniel 8:16",
   },
   {
-    question: "What did the two-horned ram represent?",
-    options: [
-      "The kings of Media and Persia",
-      "Babylon and Egypt",
-      "Israel and Judah",
-      "Greece and Rome",
-    ],
-    answer: "The kings of Media and Persia",
-    reference: "Daniel 8:20",
+    question:
+      "For how many evenings and mornings did the heavenly message say the sanctuary would be affected before being restored?",
+    options: ["2,300", "1,290", "1,335", "490"],
+    answer: "2,300",
+    reference: "Daniel 8:14",
   },
   {
-    question: "What did the goat represent?",
+    question:
+      "What happened physically to Daniel after the vision?",
     options: [
-      "Greece",
-      "Babylon",
-      "Egypt",
-      "Assyria",
+      "He was exhausted and lay ill for several days",
+      "He became blind for seven days",
+      "He could not speak for three weeks",
+      "He slept for forty days",
     ],
-    answer: "Greece",
-    reference: "Daniel 8:21",
+    answer: "He was exhausted and lay ill for several days",
+    reference: "Daniel 8:27",
   },
-
   {
-    question: "Whose prophecy prompted Daniel to understand that Jerusalem's desolation would last seventy years?",
-    options: [
-      "Jeremiah's",
-      "Isaiah's",
-      "Ezekiel's",
-      "Hosea's",
-    ],
-    answer: "Jeremiah's",
+    question:
+      "Which prophet's writings led Daniel to understand that Jerusalem's desolation would last seventy years?",
+    options: ["Jeremiah", "Isaiah", "Ezekiel", "Zechariah"],
+    answer: "Jeremiah",
     reference: "Daniel 9:2",
   },
   {
-    question: "How did Daniel seek God after understanding the prophecy?",
+    question:
+      "What did Daniel use as he sought God concerning Jerusalem?",
     options: [
-      "With prayer, fasting, sackcloth, and ashes",
-      "With sacrifice in Jerusalem",
-      "By consulting astrologers",
-      "By leaving Babylon",
+      "Prayer, petition, fasting, sackcloth, and ashes",
+      "Sacrifices and incense",
+      "A seven-day vow",
+      "Silence and isolation",
     ],
-    answer: "With prayer, fasting, sackcloth, and ashes",
+    answer: "Prayer, petition, fasting, sackcloth, and ashes",
     reference: "Daniel 9:3",
   },
   {
-    question: "What major theme dominates Daniel's prayer?",
+    question:
+      "What contrast forms a central part of Daniel's confession?",
     options: [
-      "Confession of Israel's sin and appeal for mercy",
-      "A request for personal wealth",
-      "A request to become king",
-      "A prayer for Babylon's destruction only",
+      "The Lord is righteous, but Israel is covered with shame",
+      "Israel is righteous, but its kings are wicked",
+      "Babylon is powerful, but Israel is weak",
+      "The prophets are faithful, but priests are ignorant",
     ],
-    answer: "Confession of Israel's sin and appeal for mercy",
-    reference: "Daniel 9:4-19",
+    answer: "The Lord is righteous, but Israel is covered with shame",
+    reference: "Daniel 9:7",
   },
   {
-    question: "Which angel came to Daniel while he was praying?",
+    question:
+      "Whose law does Daniel say Israel transgressed?",
     options: [
-      "Gabriel",
-      "Michael",
-      "Raphael",
-      "An unnamed cherub",
+      "The law given through Moses",
+      "The law of David",
+      "The law of Jeremiah",
+      "The law of the priests of Zadok",
     ],
-    answer: "Gabriel",
-    reference: "Daniel 9:21",
+    answer: "The law given through Moses",
+    reference: "Daniel 9:11-13",
   },
   {
-    question: "At what time did Gabriel reach Daniel?",
+    question:
+      "At what time did Gabriel reach Daniel during his prayer?",
     options: [
       "About the time of the evening sacrifice",
       "At midnight",
       "At sunrise",
-      "At noon",
+      "At the morning sacrifice",
     ],
     answer: "About the time of the evening sacrifice",
     reference: "Daniel 9:21",
   },
   {
-    question: "How many 'sevens' were decreed concerning Daniel's people and holy city?",
+    question:
+      "Why did Gabriel say he had come to Daniel?",
     options: [
-      "Seventy sevens",
-      "Seven sevens",
-      "Forty sevens",
-      "Twelve sevens",
+      "To give him insight and understanding",
+      "To protect him from enemies",
+      "To command him to leave Babylon",
+      "To reveal the king's next dream",
     ],
-    answer: "Seventy sevens",
+    answer: "To give him insight and understanding",
+    reference: "Daniel 9:22",
+  },
+  {
+    question:
+      "How many 'sevens' were decreed concerning Daniel's people and holy city?",
+    options: ["Seventy", "Seven", "Sixty-two", "Seventy-seven"],
+    answer: "Seventy",
     reference: "Daniel 9:24",
   },
-
   {
-    question: "For how long did Daniel mourn before receiving the great vision near the Tigris?",
+    question:
+      "Into what major periods are the first sixty-nine 'sevens' divided in Gabriel's message?",
     options: [
-      "Three weeks",
-      "Seven days",
-      "Forty days",
-      "Ten days",
+      "Seven sevens and sixty-two sevens",
+      "Sixty sevens and nine sevens",
+      "Forty-nine sevens and twenty sevens",
+      "Sixty-two sevens and seven individual years",
     ],
+    answer: "Seven sevens and sixty-two sevens",
+    reference: "Daniel 9:25",
+  },
+  {
+    question:
+      "What happens to the anointed one after the sixty-two 'sevens'?",
+    options: [
+      "He is put to death and has nothing",
+      "He becomes king over Babylon",
+      "He rebuilds the sanctuary",
+      "He defeats the ruler who is to come",
+    ],
+    answer: "He is put to death and has nothing",
+    reference: "Daniel 9:26",
+  },
+  {
+    question:
+      "What will the people of the coming ruler destroy?",
+    options: [
+      "The city and the sanctuary",
+      "Babylon and Susa",
+      "The altar and the palace only",
+      "The walls of Persia",
+    ],
+    answer: "The city and the sanctuary",
+    reference: "Daniel 9:26",
+  },
+  {
+    question:
+      "What happens in the middle of the final 'seven' described by Gabriel?",
+    options: [
+      "Sacrifice and offering are put to an end",
+      "Jerusalem is rebuilt",
+      "The anointed one is crowned",
+      "The exile begins",
+    ],
+    answer: "Sacrifice and offering are put to an end",
+    reference: "Daniel 9:27",
+  },
+  {
+    question:
+      "During whose third year did Daniel receive the revelation described in the final major section of the book?",
+    options: ["Cyrus king of Persia", "Darius the Mede", "Belshazzar", "Xerxes"],
+    answer: "Cyrus king of Persia",
+    reference: "Daniel 10:1",
+  },
+  {
+    question:
+      "For how long had Daniel mourned before seeing the man beside the river?",
+    options: ["Three weeks", "Seven days", "Forty days", "Ten days"],
     answer: "Three weeks",
     reference: "Daniel 10:2",
   },
   {
-    question: "What did Daniel abstain from during those weeks?",
+    question:
+      "What did Daniel abstain from during those three weeks?",
     options: [
       "Choice food, meat, wine, and lotions",
       "All food and water",
-      "Bread only",
-      "Prayer",
+      "Bread and vegetables",
+      "Only wine and oil",
     ],
     answer: "Choice food, meat, wine, and lotions",
     reference: "Daniel 10:3",
   },
   {
-    question: "Beside which river did Daniel see the heavenly figure?",
-    options: [
-      "Tigris",
-      "Euphrates",
-      "Jordan",
-      "Nile",
-    ],
+    question:
+      "On what day of the first month did Daniel see the vision by the river?",
+    options: ["Twenty-fourth day", "Twenty-first day", "Tenth day", "Fourteenth day"],
+    answer: "Twenty-fourth day",
+    reference: "Daniel 10:4",
+  },
+  {
+    question:
+      "Beside which great river was Daniel when he saw the man dressed in linen?",
+    options: ["Tigris", "Euphrates", "Ulai", "Kebar"],
     answer: "Tigris",
     reference: "Daniel 10:4",
   },
   {
-    question: "What material was the heavenly figure's clothing made from?",
+    question:
+      "What material was wrapped around the waist of the man Daniel saw?",
     options: [
-      "Linen",
-      "Wool",
-      "Purple cloth",
-      "Sackcloth",
-    ],
-    answer: "Linen",
-    reference: "Daniel 10:5",
-  },
-  {
-    question: "What was around the figure's waist?",
-    options: [
-      "A belt of fine gold",
-      "A silver chain",
+      "A belt of fine gold from Uphaz",
+      "A belt of silver from Tarshish",
+      "A linen sash",
       "A bronze belt",
-      "A linen cord",
     ],
-    answer: "A belt of fine gold",
+    answer: "A belt of fine gold from Uphaz",
     reference: "Daniel 10:5",
   },
   {
-    question: "How was the figure's face described?",
-    options: [
-      "Like lightning",
-      "Like the sun at noon",
-      "Like snow",
-      "Like fire only",
-    ],
-    answer: "Like lightning",
+    question:
+      "To what was the man's body compared?",
+    options: ["Topaz", "Sapphire", "Emerald", "Jasper"],
+    answer: "Topaz",
     reference: "Daniel 10:6",
   },
   {
-    question: "How were the figure's eyes described?",
+    question:
+      "To what was the man's face compared?",
+    options: [
+      "Lightning",
+      "The sun",
+      "Fire",
+      "Polished bronze",
+    ],
+    answer: "Lightning",
+    reference: "Daniel 10:6",
+  },
+  {
+    question:
+      "How were the man's eyes described?",
     options: [
       "Like flaming torches",
       "Like stars",
+      "Like burning coals",
       "Like pools of water",
-      "Like sapphire",
     ],
     answer: "Like flaming torches",
     reference: "Daniel 10:6",
   },
   {
-    question: "What happened to Daniel's strength when he saw the vision?",
+    question:
+      "How were the man's arms and legs described?",
     options: [
-      "It left him",
-      "It doubled",
-      "It remained unchanged",
-      "He became physically stronger",
+      "Like the gleam of burnished bronze",
+      "Like pure gold",
+      "Like polished iron",
+      "Like glowing fire",
     ],
-    answer: "It left him",
-    reference: "Daniel 10:8",
+    answer: "Like the gleam of burnished bronze",
+    reference: "Daniel 10:6",
   },
   {
-    question: "For how many days had the prince of the Persian kingdom resisted the messenger?",
+    question:
+      "To what was the man's voice compared?",
     options: [
-      "Twenty-one days",
-      "Seven days",
-      "Forty days",
-      "Seventy days",
+      "The sound of a multitude",
+      "Thunder",
+      "Rushing waters",
+      "A trumpet",
     ],
+    answer: "The sound of a multitude",
+    reference: "Daniel 10:6",
+  },
+  {
+    question:
+      "What happened to the men who were with Daniel even though they did not see the vision?",
+    options: [
+      "Terror overwhelmed them and they fled and hid",
+      "They fell asleep",
+      "They heard a voice but saw nothing",
+      "They became unable to move",
+    ],
+    answer: "Terror overwhelmed them and they fled and hid",
+    reference: "Daniel 10:7",
+  },
+  {
+    question:
+      "How long did the prince of the Persian kingdom resist the heavenly messenger?",
+    options: ["Twenty-one days", "Seven days", "Thirty days", "Three days"],
     answer: "Twenty-one days",
     reference: "Daniel 10:13",
   },
   {
-    question: "Who came to assist the heavenly messenger?",
+    question:
+      "Who came to assist the heavenly messenger against the prince of Persia?",
     options: [
-      "Michael",
+      "Michael, one of the chief princes",
       "Gabriel",
-      "Daniel",
-      "Cyrus",
+      "The Ancient of Days",
+      "A guardian cherub",
     ],
-    answer: "Michael",
+    answer: "Michael, one of the chief princes",
     reference: "Daniel 10:13",
   },
   {
-    question: "How is Michael described?",
+    question:
+      "Which spiritual prince does the messenger say will come after the prince of Persia?",
     options: [
-      "One of the chief princes",
+      "The prince of Greece",
+      "The prince of Babylon",
+      "The prince of Egypt",
+      "The prince of Media",
+    ],
+    answer: "The prince of Greece",
+    reference: "Daniel 10:20",
+  },
+  {
+    question:
+      "How is Michael described in relation to Daniel's people?",
+    options: [
+      "Your prince",
+      "Your angel",
+      "Your king",
+      "Your prophet",
+    ],
+    answer: "Your prince",
+    reference: "Daniel 10:21",
+  },
+  {
+    question:
+      "How many more kings of Persia does the messenger say will arise before a fourth king?",
+    options: ["Three", "Four", "Seven", "Two"],
+    answer: "Three",
+    reference: "Daniel 11:2",
+  },
+  {
+    question:
+      "What distinguishes the fourth Persian king mentioned in the prophecy?",
+    options: [
+      "He will be far richer than all the others",
+      "He will rule for only one year",
+      "He will conquer Babylon",
+      "He will destroy Jerusalem",
+    ],
+    answer: "He will be far richer than all the others",
+    reference: "Daniel 11:2",
+  },
+  {
+    question:
+      "Against which kingdom will the wealthy Persian king stir everyone?",
+    options: ["Greece", "Egypt", "Babylon", "Israel"],
+    answer: "Greece",
+    reference: "Daniel 11:2",
+  },
+  {
+    question:
+      "What happens to the empire of the mighty king after he arises and rules with great power?",
+    options: [
+      "It is broken up and divided toward the four winds of heaven",
+      "It passes intact to his son",
+      "It is absorbed by Persia",
+      "It divides into ten kingdoms",
+    ],
+    answer:
+      "It is broken up and divided toward the four winds of heaven",
+    reference: "Daniel 11:3-4",
+  },
+  {
+    question:
+      "Who becomes strong in the early conflict described after the mighty king's empire is divided?",
+    options: [
+      "The king of the South",
+      "The king of the North",
       "The king of Persia",
-      "A priest",
-      "The ruler of Babylon",
+      "The ruler of Israel",
     ],
-    answer: "One of the chief princes",
-    reference: "Daniel 10:13",
-  },
-
-  {
-    question: "What broad conflict dominates much of Daniel's later prophecy?",
-    options: [
-      "Struggle between kings of the North and South",
-      "War between Judah and Israel",
-      "Conflict between Babylon and Assyria only",
-      "Civil war in Jerusalem",
-    ],
-    answer: "Struggle between kings of the North and South",
-    reference: "Daniel 11",
+    answer: "The king of the South",
+    reference: "Daniel 11:5",
   },
   {
-    question: "What does the arrogant king eventually exalt himself above?",
+    question:
+      "What is attempted after some years to form an alliance between the kings of the North and South?",
     options: [
-      "Every god",
-      "Only foreign kings",
-      "Only Babylon",
-      "Only Jerusalem",
+      "The daughter of the king of the South goes to the king of the North",
+      "The king of the North sends his son south",
+      "Both kings marry sisters from Persia",
+      "They exchange royal hostages",
     ],
-    answer: "Every god",
-    reference: "Daniel 11:36",
+    answer:
+      "The daughter of the king of the South goes to the king of the North",
+    reference: "Daniel 11:6",
   },
   {
-    question: "What happens to the final arrogant ruler despite his power?",
+    question:
+      "What happens to the woman involved in the attempted alliance?",
     options: [
-      "He comes to his end with no one to help him",
-      "He rules forever",
-      "He becomes a servant of Israel",
-      "He escapes to Egypt",
+      "She does not retain her power and is handed over with her attendants",
+      "She becomes ruler of both kingdoms",
+      "She returns safely to her father",
+      "She defeats the king of the North",
     ],
-    answer: "He comes to his end with no one to help him",
-    reference: "Daniel 11:45",
+    answer:
+      "She does not retain her power and is handed over with her attendants",
+    reference: "Daniel 11:6",
   },
-
   {
-    question: "Who will arise during the time of great distress?",
+    question:
+      "What does a member of the woman's family later do?",
     options: [
-      "Michael",
+      "Attacks the forces of the king of the North and enters his fortress",
+      "Becomes king of Persia",
+      "Makes peace with the North",
+      "Captures Jerusalem",
+    ],
+    answer:
+      "Attacks the forces of the king of the North and enters his fortress",
+    reference: "Daniel 11:7",
+  },
+  {
+    question:
+      "What does the victorious southern ruler carry back to Egypt?",
+    options: [
+      "Their gods, metal images, and valuable articles of silver and gold",
+      "Only prisoners of war",
+      "The northern king's throne",
+      "The temple vessels of Jerusalem",
+    ],
+    answer:
+      "Their gods, metal images, and valuable articles of silver and gold",
+    reference: "Daniel 11:8",
+  },
+  {
+    question:
+      "What will the contemptible ruler do after invading the kingdom when its people feel secure?",
+    options: [
+      "Seize the kingdom through intrigue",
+      "Destroy it immediately by fire",
+      "Make himself king through inheritance",
+      "Withdraw without fighting",
+    ],
+    answer: "Seize the kingdom through intrigue",
+    reference: "Daniel 11:21",
+  },
+  {
+    question:
+      "What will the ruler's armed forces do to the sanctuary fortress?",
+    options: [
+      "Desecrate it and abolish the regular sacrifice",
+      "Rebuild it",
+      "Move it to another city",
+      "Turn it into a royal palace",
+    ],
+    answer: "Desecrate it and abolish the regular sacrifice",
+    reference: "Daniel 11:31",
+  },
+  {
+    question:
+      "What will be set up after the regular sacrifice is abolished?",
+    options: [
+      "The abomination that causes desolation",
+      "A golden image",
+      "A throne for the king of the North",
+      "An altar to the God of Israel",
+    ],
+    answer: "The abomination that causes desolation",
+    reference: "Daniel 11:31",
+  },
+  {
+    question:
+      "What will the people who know their God do during the crisis described?",
+    options: [
+      "Firmly resist",
+      "Flee to Egypt",
+      "Remain completely silent",
+      "Join the king of the North",
+    ],
+    answer: "Firmly resist",
+    reference: "Daniel 11:32",
+  },
+  {
+    question:
+      "What will those who are wise among the people do?",
+    options: [
+      "Instruct many",
+      "Become kings",
+      "Lead armies",
+      "Hide the sacred writings",
+    ],
+    answer: "Instruct many",
+    reference: "Daniel 11:33",
+  },
+  {
+    question:
+      "What forms of suffering are said to overtake some of the wise?",
+    options: [
+      "Sword, flame, captivity, and plunder",
+      "Famine, plague, exile, and drought",
+      "Stoning, imprisonment, hunger, and thirst",
+      "Fire, flood, wild beasts, and sword",
+    ],
+    answer: "Sword, flame, captivity, and plunder",
+    reference: "Daniel 11:33",
+  },
+  {
+    question:
+      "Why are some of the wise allowed to stumble?",
+    options: [
+      "To refine, purify, and make them spotless until the time of the end",
+      "To punish them for unbelief",
+      "To force them into exile",
+      "To reveal the identity of the king",
+    ],
+    answer:
+      "To refine, purify, and make them spotless until the time of the end",
+    reference: "Daniel 11:35",
+  },
+  {
+    question:
+      "Who arises at the beginning of Daniel's final vision of the time of distress?",
+    options: [
+      "Michael, the great prince who protects Daniel's people",
       "Gabriel",
-      "Daniel",
       "Cyrus",
+      "The king of the South",
     ],
-    answer: "Michael",
+    answer: "Michael, the great prince who protects Daniel's people",
     reference: "Daniel 12:1",
   },
   {
-    question: "How is Michael described in relation to Daniel's people?",
+    question:
+      "How is the coming time of distress described?",
     options: [
-      "The great prince who protects them",
-      "Their earthly king",
-      "Their high priest",
-      "Their prophet",
+      "A time of distress unequaled since nations began",
+      "Seven years of famine",
+      "A war greater than Babylon's invasion",
+      "A period of silence from heaven",
     ],
-    answer: "The great prince who protects them",
+    answer: "A time of distress unequaled since nations began",
     reference: "Daniel 12:1",
   },
   {
-    question: "What unprecedented event is described as occurring during the final distress?",
-    options: [
-      "A time of distress unlike any before it",
-      "A worldwide flood",
-      "The rebuilding of Babylon",
-      "The destruction of Persia only",
-    ],
-    answer: "A time of distress unlike any before it",
-    reference: "Daniel 12:1",
-  },
-  {
-    question: "Who will be delivered during that time?",
+    question:
+      "Who among Daniel's people will be delivered during that time?",
     options: [
       "Everyone whose name is found written in the book",
-      "Every resident of Babylon",
-      "Only kings",
-      "Only priests",
+      "Everyone living in Jerusalem",
+      "Only the priests",
+      "Only Daniel's descendants",
     ],
     answer: "Everyone whose name is found written in the book",
     reference: "Daniel 12:1",
   },
   {
-    question: "What happens to multitudes who sleep in the dust?",
-    options: [
-      "They awake",
-      "They disappear",
-      "They remain asleep forever",
-      "They become angels",
-    ],
-    answer: "They awake",
-    reference: "Daniel 12:2",
-  },
-  {
-    question: "What different destinies are mentioned after the resurrection?",
+    question:
+      "What two contrasting destinies are described for those who awake from the dust?",
     options: [
       "Everlasting life and shame with everlasting contempt",
-      "Wealth and poverty",
-      "Kingship and slavery",
-      "Wisdom and ignorance",
+      "Heaven and immediate destruction",
+      "Life in Jerusalem and exile",
+      "Glory and temporary punishment",
     ],
     answer: "Everlasting life and shame with everlasting contempt",
     reference: "Daniel 12:2",
   },
   {
-    question: "How will those who are wise shine?",
+    question:
+      "To what are the wise compared?",
     options: [
-      "Like the brightness of the heavens",
-      "Like gold",
-      "Like fire",
-      "Like the moon only",
+      "The brightness of the heavens",
+      "The sun at noon",
+      "Flames of fire",
+      "Pure gold",
     ],
-    answer: "Like the brightness of the heavens",
+    answer: "The brightness of the heavens",
     reference: "Daniel 12:3",
   },
   {
-    question: "How will those who lead many to righteousness shine?",
+    question:
+      "To what are those who lead many to righteousness compared?",
     options: [
-      "Like the stars forever and ever",
-      "Like the sun for one generation",
-      "Like lamps in Jerusalem",
-      "Like silver",
+      "The stars forever and ever",
+      "Angels",
+      "The moon",
+      "A river of light",
     ],
-    answer: "Like the stars forever and ever",
+    answer: "The stars forever and ever",
     reference: "Daniel 12:3",
   },
   {
-    question: "What was Daniel told to do with the words of the prophecy?",
+    question:
+      "What is Daniel instructed to do with the words of the final revelation?",
     options: [
-      "Close and seal the book until the time of the end",
-      "Burn the scroll",
-      "Read it to Nebuchadnezzar",
-      "Hide it in the temple",
+      "Close up and seal the words until the time of the end",
+      "Publish them throughout Babylon",
+      "Send them to Jerusalem",
+      "Teach them immediately to the wise men",
     ],
-    answer: "Close and seal the book until the time of the end",
+    answer: "Close up and seal the words until the time of the end",
     reference: "Daniel 12:4",
   },
   {
-    question: "What would increase as many went here and there?",
-    options: [
-      "Knowledge",
-      "War",
-      "Famine",
-      "Idolatry",
-    ],
-    answer: "Knowledge",
-    reference: "Daniel 12:4",
+    question:
+      "How many other figures does Daniel see standing beside the river?",
+    options: ["Two", "Four", "Seven", "Three"],
+    answer: "Two",
+    reference: "Daniel 12:5",
   },
   {
-    question: "What period is described as lasting a time, times, and half a time?",
+    question:
+      "Where were the two figures positioned?",
     options: [
-      "The period until the power of the holy people is finally broken",
-      "The Babylonian exile",
-      "Nebuchadnezzar's training period",
-      "Daniel's mourning",
+      "One on each bank of the river",
+      "Both on the same bank",
+      "One in the river and one above it",
+      "Both above the river",
     ],
-    answer: "The period until the power of the holy people is finally broken",
+    answer: "One on each bank of the river",
+    reference: "Daniel 12:5",
+  },
+  {
+    question:
+      "Where was the man clothed in linen positioned in relation to the river?",
+    options: [
+      "Above the waters of the river",
+      "On the northern bank",
+      "On the southern bank",
+      "Standing in the water",
+    ],
+    answer: "Above the waters of the river",
+    reference: "Daniel 12:6-7",
+  },
+  {
+    question:
+      "What did the man clothed in linen raise while swearing by Him who lives forever?",
+    options: [
+      "His right hand and his left hand toward heaven",
+      "Only his right hand",
+      "A scroll",
+      "A golden staff",
+    ],
+    answer: "His right hand and his left hand toward heaven",
     reference: "Daniel 12:7",
   },
   {
-    question: "What was Daniel told when he admitted he did not understand the final vision?",
+    question:
+      "What period is given in response to the question about when the astonishing events would be completed?",
     options: [
-      "Go your way, because the words are closed and sealed until the time of the end",
-      "Ask Nebuchadnezzar",
-      "Write another book",
-      "The vision has no meaning",
+      "A time, times, and half a time",
+      "Seventy weeks",
+      "1,290 days",
+      "2,300 evenings and mornings",
     ],
-    answer: "Go your way, because the words are closed and sealed until the time of the end",
-    reference: "Daniel 12:8-9",
+    answer: "A time, times, and half a time",
+    reference: "Daniel 12:7",
   },
   {
-    question: "What will happen to many during the period Daniel describes?",
+    question:
+      "What must happen to the power of the holy people before the events are completed?",
+    options: [
+      "It must be finally broken",
+      "It must conquer all nations",
+      "It must be transferred to Persia",
+      "It must be hidden for seven years",
+    ],
+    answer: "It must be finally broken",
+    reference: "Daniel 12:7",
+  },
+  {
+    question:
+      "What does Daniel admit after hearing the final explanation?",
+    options: [
+      "He heard but did not understand",
+      "He understood everything",
+      "He forgot the vision",
+      "He doubted the messenger",
+    ],
+    answer: "He heard but did not understand",
+    reference: "Daniel 12:8",
+  },
+  {
+    question:
+      "What answer is Daniel given when he asks what the outcome will be?",
+    options: [
+      "Go your way, because the words are closed up and sealed until the time of the end",
+      "Write another scroll",
+      "Ask Michael for the interpretation",
+      "Return immediately to Jerusalem",
+    ],
+    answer:
+      "Go your way, because the words are closed up and sealed until the time of the end",
+    reference: "Daniel 12:9",
+  },
+  {
+    question:
+      "What will happen to many before the end according to the final message?",
     options: [
       "They will be purified, made spotless, and refined",
-      "They will become kings",
-      "They will never suffer",
-      "They will leave the earth",
+      "They will become prophets",
+      "They will leave the nations",
+      "They will understand every mystery",
     ],
     answer: "They will be purified, made spotless, and refined",
     reference: "Daniel 12:10",
   },
   {
-    question: "Who will continue to act wickedly despite the prophecy?",
+    question:
+      "Who will understand the events that the wicked fail to understand?",
     options: [
-      "The wicked",
-      "The wise",
-      "Those written in the book",
-      "Michael's followers",
+      "Those who are wise",
+      "The kings",
+      "The priests",
+      "The rulers of Persia",
     ],
-    answer: "The wicked",
+    answer: "Those who are wise",
     reference: "Daniel 12:10",
   },
   {
-    question: "Who will understand the events described?",
-    options: [
-      "The wise",
-      "Everyone equally",
-      "Only kings",
-      "Only angels",
-    ],
-    answer: "The wise",
-    reference: "Daniel 12:10",
+    question:
+      "How many days are specified from the abolition of the regular sacrifice and the setting up of the abomination that causes desolation?",
+    options: ["1,290 days", "1,335 days", "2,300 days", "1,260 days"],
+    answer: "1,290 days",
+    reference: "Daniel 12:11",
   },
   {
-    question: "What final personal promise is given to Daniel?",
+    question:
+      "What longer period is associated with a blessing for the one who waits and reaches it?",
+    options: ["1,335 days", "1,290 days", "2,300 days", "1,260 days"],
+    answer: "1,335 days",
+    reference: "Daniel 12:12",
+  },
+  {
+    question:
+      "What personal promise closes the book of Daniel?",
     options: [
-      "He will rest and rise to receive his allotted inheritance",
-      "He will become king of Babylon",
-      "He will never die",
-      "He will return immediately to Jerusalem",
+      "Daniel will rest and then rise to receive his allotted inheritance at the end of the days",
+      "Daniel will return to Jerusalem and rebuild it",
+      "Daniel will become ruler of Persia",
+      "Daniel will live to see every prophecy fulfilled",
     ],
-    answer: "He will rest and rise to receive his allotted inheritance",
+    answer:
+      "Daniel will rest and then rise to receive his allotted inheritance at the end of the days",
     reference: "Daniel 12:13",
   },
 ];

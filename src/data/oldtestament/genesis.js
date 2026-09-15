@@ -1,1196 +1,1214 @@
 const genesisQuestions = [
   {
-    question: "What did God call the light when He separated it from the darkness?",
-    options: ["Day", "Morning", "Sun", "Brightness"],
-    answer: "Day",
-    reference: "Genesis 1:3-5",
-  },
-  {
-    question: "What was created to separate the waters above from the waters below?",
-    options: ["The firmament", "The earth", "The heavens", "The atmosphere"],
-    answer: "The firmament",
-    reference: "Genesis 1:6-8",
-  },
-  {
-    question: "Which appeared on the earth before the sun, moon, and stars were made?",
-    options: ["Vegetation", "Birds", "Animals", "Man"],
-    answer: "Vegetation",
-    reference: "Genesis 1:11-13",
-  },
-  {
-    question: "What purposes did God give the lights in the expanse of heaven?",
+    question:
+      "According to the creation account, on which day were the great lights and the stars appointed to govern day and night and to mark signs, seasons, days, and years?",
     options: [
-      "For signs, seasons, days, and years",
-      "For worship and sacrifice",
-      "For measuring the earth",
-      "For guiding animals"
+      "The fourth day",
+      "The third day",
+      "The fifth day",
+      "The sixth day",
     ],
-    answer: "For signs, seasons, days, and years",
-    reference: "Genesis 1:14",
+    answer: "The fourth day",
+    reference: "Genesis 1:14-19",
   },
   {
-    question: "What did God command the waters to bring forth abundantly?",
-    options: ["Living creatures", "Trees", "Birds", "Fish only"],
-    answer: "Living creatures",
-    reference: "Genesis 1:20",
+    question:
+      "Which river flowing out of Eden is specifically described as winding through the entire land of Cush?",
+    options: ["Gihon", "Pishon", "Tigris", "Euphrates"],
+    answer: "Gihon",
+    reference: "Genesis 2:10-14",
   },
   {
-    question: "What authority did God give mankind over the creatures He had made?",
+    question:
+      "What three items are specifically associated with the land of Havilah in the description of Eden?",
     options: [
-      "To have dominion over them",
-      "To worship them",
-      "To destroy them",
-      "To keep them only in the garden"
+      "Gold, bdellium, and onyx stone",
+      "Silver, cedar, and pearls",
+      "Gold, frankincense, and myrrh",
+      "Bdellium, bronze, and sapphire",
     ],
-    answer: "To have dominion over them",
-    reference: "Genesis 1:26-28",
+    answer: "Gold, bdellium, and onyx stone",
+    reference: "Genesis 2:11-12",
   },
   {
-    question: "What food did God initially give mankind?",
+    question:
+      "After pronouncing judgment following the fall, what did God make for Adam and his wife before sending them out of Eden?",
     options: [
-      "Seed-bearing plants and fruit from trees",
-      "Fish and birds",
-      "Animals and grains",
-      "Bread and fruit"
+      "Garments of skin",
+      "Garments of woven linen",
+      "Coverings of fig leaves",
+      "Coats of wool",
     ],
-    answer: "Seed-bearing plants and fruit from trees",
-    reference: "Genesis 1:29",
+    answer: "Garments of skin",
+    reference: "Genesis 3:21-24",
   },
   {
-    question: "What did God do on the seventh day after completing His work?",
-    options: ["He rested", "He created man", "He planted Eden", "He blessed Adam"],
-    answer: "He rested",
-    reference: "Genesis 2:2-3",
+    question:
+      "Which descendant of Cain is recorded as the father of those who play the harp and flute?",
+    options: ["Jubal", "Jabal", "Tubal-Cain", "Enoch"],
+    answer: "Jubal",
+    reference: "Genesis 4:20-22",
   },
   {
-    question: "What responsibility was Adam given concerning the garden?",
+    question:
+      "What was Tubal-Cain's occupation according to Cain's genealogy?",
     options: [
-      "To tend and keep it",
-      "To name only the plants",
-      "To build a house in it",
-      "To guard it from animals"
+      "An instructor of every craftsman in bronze and iron",
+      "A keeper of livestock",
+      "A musician who played harp and flute",
+      "A builder of cities",
     ],
-    answer: "To tend and keep it",
-    reference: "Genesis 2:15",
+    answer: "An instructor of every craftsman in bronze and iron",
+    reference: "Genesis 4:22",
   },
   {
-    question: "What reason did God give for making a woman for Adam?",
+    question: "How old was Jared when Enoch was born?",
+    options: ["162 years", "65 years", "187 years", "182 years"],
+    answer: "162 years",
+    reference: "Genesis 5:18",
+  },
+  {
+    question: "Which patriarch in Genesis lived 777 years?",
+    options: ["Lamech", "Methuselah", "Jared", "Enosh"],
+    answer: "Lamech",
+    reference: "Genesis 5:28-31",
+  },
+  {
+    question:
+      "What dimensions was Noah commanded to use for the ark?",
     options: [
-      "It was not good for man to be alone",
-      "Adam needed someone to name animals",
-      "Adam needed help building the garden",
-      "Adam needed another ruler"
+      "300 cubits long, 50 cubits wide, and 30 cubits high",
+      "300 cubits long, 30 cubits wide, and 50 cubits high",
+      "450 cubits long, 50 cubits wide, and 30 cubits high",
+      "300 cubits long, 60 cubits wide, and 40 cubits high",
     ],
-    answer: "It was not good for man to be alone",
-    reference: "Genesis 2:18",
+    answer: "300 cubits long, 50 cubits wide, and 30 cubits high",
+    reference: "Genesis 6:14-16",
   },
   {
-    question: "From what did Adam recognize the woman as being closely related to him?",
+    question:
+      "On what date did the floodwaters begin, according to Noah's age and the calendar given in Genesis?",
     options: [
-      "She was taken from his side",
-      "She was created from the ground",
-      "She was formed from a tree",
-      "She was brought from outside Eden"
-    ],
-    answer: "She was taken from his side",
-    reference: "Genesis 2:21-23",
-  },
-  {
-    question: "What made the serpent's question to Eve significant?",
-    options: [
-      "It questioned God's command concerning the trees",
-      "It asked Eve to leave Eden",
-      "It asked Adam to name it",
-      "It commanded Eve to eat every fruit"
-    ],
-    answer: "It questioned God's command concerning the trees",
-    reference: "Genesis 3:1",
-  },
-  {
-    question: "What did Adam and Eve use after realizing they were naked?",
-    options: ["Fig leaves", "Animal skins", "Palm leaves", "Tree bark"],
-    answer: "Fig leaves",
-    reference: "Genesis 3:7",
-  },
-  {
-    question: "Why did Adam say he hid from God?",
-    options: [
-      "He was afraid because he was naked",
-      "He was angry with Eve",
-      "He had become sick",
-      "He was searching for food"
-    ],
-    answer: "He was afraid because he was naked",
-    reference: "Genesis 3:8-10",
-  },
-  {
-    question: "When God questioned Adam about eating the forbidden fruit, whom did Adam mention first?",
-    options: ["The woman", "The serpent", "God", "Himself"],
-    answer: "The woman",
-    reference: "Genesis 3:11-12",
-  },
-  {
-    question: "What prevented mankind from accessing the tree of life after the fall?",
-    options: [
-      "Cherubim and a flaming sword",
-      "A wall of fire",
-      "An angel with a shield",
-      "A locked gate"
-    ],
-    answer: "Cherubim and a flaming sword",
-    reference: "Genesis 3:22-24",
-  },
-  {
-    question: "What occupations did Cain and Abel have?",
-    options: [
-      "Cain was a farmer and Abel was a shepherd",
-      "Cain was a shepherd and Abel was a farmer",
-      "Both were shepherds",
-      "Both were farmers"
-    ],
-    answer: "Cain was a farmer and Abel was a shepherd",
-    reference: "Genesis 4:2",
-  },
-  {
-    question: "What warning did God give Cain about sin?",
-    options: [
-      "Sin was crouching at his door and desired him",
-      "Sin would destroy his family",
-      "Sin would take away his possessions",
-      "Sin would make him unable to work"
-    ],
-    answer: "Sin was crouching at his door and desired him",
-    reference: "Genesis 4:6-7",
-  },
-  {
-    question: "What happened to the ground because of Cain's actions?",
-    options: [
-      "It would no longer yield its strength to him",
-      "It became completely barren",
-      "It was covered with water",
-      "It produced only thorns"
-    ],
-    answer: "It would no longer yield its strength to him",
-    reference: "Genesis 4:11-12",
-  },
-  {
-    question: "What happened to Enoch that was different from the usual description of death in Genesis?",
-    options: [
-      "God took him",
-      "He died in the flood",
-      "He disappeared into the wilderness",
-      "He became a priest"
-    ],
-    answer: "God took him",
-    reference: "Genesis 5:22-24",
-  },
-  {
-    question: "Why was Noah given his name according to his father Lamech?",
-    options: [
-      "He would bring relief from the painful labor caused by the cursed ground",
-      "He would build the first city",
-      "He would become a king",
-      "He would discover a new land"
+      "The seventeenth day of the second month of Noah's six hundredth year",
+      "The first day of the first month of Noah's six hundredth year",
+      "The seventeenth day of the seventh month of Noah's six hundredth year",
+      "The twenty-seventh day of the second month of Noah's six hundred and first year",
     ],
     answer:
-      "He would bring relief from the painful labor caused by the cursed ground",
-    reference: "Genesis 5:28-29",
+      "The seventeenth day of the second month of Noah's six hundredth year",
+    reference: "Genesis 7:11",
   },
   {
-    question: "What two conditions are specifically mentioned as characterizing the earth before the flood?",
+    question:
+      "For how many days did the waters prevail upon the earth during the flood?",
+    options: ["150 days", "40 days", "120 days", "190 days"],
+    answer: "150 days",
+    reference: "Genesis 7:24",
+  },
+  {
+    question:
+      "On what date did the ark come to rest on the mountains of Ararat?",
     options: [
-      "It was corrupt and filled with violence",
-      "It was dry and barren",
-      "It was dark and empty",
-      "It was divided and scattered"
+      "The seventeenth day of the seventh month",
+      "The first day of the tenth month",
+      "The twenty-seventh day of the second month",
+      "The first day of the first month",
     ],
-    answer: "It was corrupt and filled with violence",
-    reference: "Genesis 6:11-13",
+    answer: "The seventeenth day of the seventh month",
+    reference: "Genesis 8:4",
   },
   {
-    question: "How is Noah specifically described before the flood?",
+    question:
+      "How long after the mountaintops became visible did Noah open the window of the ark and send out the raven?",
+    options: ["Forty days", "Seven days", "Thirty days", "One hundred and fifty days"],
+    answer: "Forty days",
+    reference: "Genesis 8:5-7",
+  },
+  {
+    question:
+      "What command concerning blood accompanied God's permission for humans to eat animals after the flood?",
     options: [
-      "Righteous and walking with God",
-      "A mighty warrior",
-      "A king over the earth",
-      "A priest of God"
+      "They were not to eat flesh with its life, that is, its blood",
+      "They were to drain blood only from clean animals",
+      "They were to reserve blood for Noah's altar",
+      "They were forbidden to eat any animal that had blood",
     ],
-    answer: "Righteous and walking with God",
-    reference: "Genesis 6:9",
+    answer: "They were not to eat flesh with its life, that is, its blood",
+    reference: "Genesis 9:3-4",
   },
   {
-    question: "Where was Noah instructed to place the door of the ark?",
+    question:
+      "According to the Table of Nations, who was described as a mighty hunter before the LORD?",
+    options: ["Nimrod", "Cush", "Mizraim", "Canaan"],
+    answer: "Nimrod",
+    reference: "Genesis 10:8-9",
+  },
+  {
+    question:
+      "Which cities are named as the beginning of Nimrod's kingdom in the land of Shinar?",
     options: [
-      "In its side",
-      "On its roof",
-      "At the front",
-      "Underneath it"
+      "Babel, Erech, Accad, and Calneh",
+      "Nineveh, Rehoboth Ir, Calah, and Resen",
+      "Sodom, Gomorrah, Admah, and Zeboiim",
+      "Ur, Haran, Salem, and Hebron",
     ],
-    answer: "In its side",
-    reference: "Genesis 6:16",
+    answer: "Babel, Erech, Accad, and Calneh",
+    reference: "Genesis 10:10",
   },
   {
-    question: "What did God establish with Noah before the flood?",
-    options: ["A covenant", "A kingdom", "A priesthood", "A new city"],
-    answer: "A covenant",
-    reference: "Genesis 6:18",
+    question: "How old was Terah when he died in Haran?",
+    options: ["205 years", "175 years", "180 years", "200 years"],
+    answer: "205 years",
+    reference: "Genesis 11:32",
   },
   {
-    question: "How many people from Noah's family entered the ark?",
-    options: ["Eight", "Seven", "Six", "Ten"],
-    answer: "Eight",
-    reference: "Genesis 7:13",
-  },
-  {
-    question: "What did Noah first send out after the waters began to recede?",
-    options: ["A raven", "A dove", "An eagle", "A pigeon"],
-    answer: "A raven",
-    reference: "Genesis 8:6-7",
-  },
-  {
-    question: "What did the dove bring back to Noah when it returned to the ark?",
+    question:
+      "What was the first place in Canaan where Abram is specifically said to have built an altar after the LORD appeared to him?",
     options: [
-      "A freshly plucked olive leaf",
-      "A branch of fig leaves",
-      "A piece of grass",
-      "A flower"
+      "Near the great tree of Moreh at Shechem",
+      "Between Bethel and Ai",
+      "At Hebron by the oaks of Mamre",
+      "At Beersheba",
     ],
-    answer: "A freshly plucked olive leaf",
-    reference: "Genesis 8:11",
-  },
-  {
-    question: "What did Noah build after leaving the ark?",
-    options: ["An altar", "A house", "A tower", "A city"],
-    answer: "An altar",
-    reference: "Genesis 8:20",
-  },
-  {
-    question: "What did God promise never again to destroy the earth with?",
-    options: ["A flood", "Fire", "Earthquakes", "A famine"],
-    answer: "A flood",
-    reference: "Genesis 9:11",
-  },
-  {
-    question: "What sign did God place in the cloud as a reminder of His covenant?",
-    options: ["A rainbow", "A star", "A bright light", "A cloud of fire"],
-    answer: "A rainbow",
-    reference: "Genesis 9:12-17",
-  },
-  {
-    question: "What did Ham do after seeing his father's nakedness?",
-    options: [
-      "He told his two brothers",
-      "He covered Noah himself",
-      "He left the family",
-      "He built an altar"
-    ],
-    answer: "He told his two brothers",
-    reference: "Genesis 9:22",
-  },
-  {
-    question: "What did the builders of Babel want to make for themselves?",
-    options: ["A name", "A kingdom", "A temple", "A palace"],
-    answer: "A name",
-    reference: "Genesis 11:4",
-  },
-  {
-    question: "What action by God disrupted the plan at Babel?",
-    options: [
-      "He confused their language",
-      "He destroyed their houses",
-      "He caused a flood",
-      "He sent animals among them"
-    ],
-    answer: "He confused their language",
-    reference: "Genesis 11:7-9",
-  },
-  {
-    question: "What was Lot's relationship to Abram?",
-    options: ["Nephew", "Brother", "Cousin", "Son"],
-    answer: "Nephew",
-    reference: "Genesis 11:27",
-  },
-  {
-    question: "Why did Abram and Lot separate from one another?",
-    options: [
-      "Their possessions and herds had become too great for them to remain together",
-      "Lot wanted to become a king",
-      "Abram was angry with Lot",
-      "God commanded Lot to leave Canaan"
-    ],
-    answer:
-      "Their possessions and herds had become too great for them to remain together",
-    reference: "Genesis 13:5-9",
-  },
-  {
-    question: "Which area did Lot choose after separating from Abram?",
-    options: ["The Jordan Valley", "The hill country", "The Negev", "Egypt"],
-    answer: "The Jordan Valley",
-    reference: "Genesis 13:10-11",
-  },
-  {
-    question: "How did Abram rescue Lot after he was taken captive?",
-    options: [
-      "He pursued the captors with trained men from his household",
-      "He asked Pharaoh for soldiers",
-      "He gathered the kings of Canaan",
-      "He waited for Lot to escape"
-    ],
-    answer: "He pursued the captors with trained men from his household",
-    reference: "Genesis 14:14-16",
-  },
-  {
-    question: "What did Melchizedek bring out when he met Abram?",
-    options: ["Bread and wine", "Water and bread", "Oil and wine", "Meat and water"],
-    answer: "Bread and wine",
-    reference: "Genesis 14:18",
-  },
-  {
-    question: "What did Abram refuse to take from the king of Sodom?",
-    options: [
-      "The goods and possessions of Sodom",
-      "Food for his men",
-      "Land near Sodom",
-      "Gold from Melchizedek"
-    ],
-    answer: "The goods and possessions of Sodom",
-    reference: "Genesis 14:21-23",
-  },
-  {
-    question: "What did Abram's belief in the Lord result in being counted as?",
-    options: ["Righteousness", "Wisdom", "Strength", "Blessing"],
-    answer: "Righteousness",
-    reference: "Genesis 15:6",
-  },
-  {
-    question: "In the covenant ceremony, what did Abram divide?",
-    options: [
-      "A heifer, a goat, and a ram",
-      "Two lambs and a goat",
-      "A bull and two doves",
-      "A ram and two birds"
-    ],
-    answer: "A heifer, a goat, and a ram",
-    reference: "Genesis 15:9-10",
-  },
-  {
-    question: "Who was Hagar's son?",
-    options: ["Ishmael", "Isaac", "Esau", "Ephraim"],
-    answer: "Ishmael",
-    reference: "Genesis 16:15",
-  },
-  {
-    question: "What new name did God give Abram?",
-    options: ["Abraham", "Israel", "Isaac", "Abimelech"],
-    answer: "Abraham",
-    reference: "Genesis 17:5",
-  },
-  {
-    question: "What new name did God give Sarai?",
-    options: ["Sarah", "Rebekah", "Rachel", "Leah"],
-    answer: "Sarah",
-    reference: "Genesis 17:15",
-  },
-  {
-    question: "What physical sign did God establish as the sign of His covenant with Abraham's household?",
-    options: ["Circumcision", "Anointing", "A sacrifice", "A special garment"],
-    answer: "Circumcision",
-    reference: "Genesis 17:10-11",
-  },
-  {
-    question: "Why did Abraham laugh when God told him Sarah would bear a son?",
-    options: [
-      "He considered their advanced age and wondered how it could happen",
-      "He thought God was joking",
-      "He had already seen the child",
-      "He did not believe Sarah was his wife"
-    ],
-    answer:
-      "He considered their advanced age and wondered how it could happen",
-    reference: "Genesis 17:17",
-  },
-  {
-    question: "What did Sarah do when she heard that she would have a son?",
-    options: ["She laughed", "She cried", "She left the tent", "She worshiped"],
-    answer: "She laughed",
-    reference: "Genesis 18:10-12",
-  },
-  {
-    question: "Why did Abraham plead with God concerning Sodom?",
-    options: [
-      "He was concerned that righteous people might be destroyed with the wicked",
-      "He owned land in Sodom",
-      "Lot asked him to become king",
-      "He wanted Sodom's wealth"
-    ],
-    answer:
-      "He was concerned that righteous people might be destroyed with the wicked",
-    reference: "Genesis 18:23-33",
-  },
-  {
-    question: "What did Lot offer to the men of Sodom in an attempt to protect his visitors?",
-    options: [
-      "His two daughters",
-      "His servants",
-      "His animals",
-      "His house"
-    ],
-    answer: "His two daughters",
-    reference: "Genesis 19:6-8",
-  },
-  {
-    question: "What happened to Lot's wife when she looked back?",
-    options: ["She became a pillar of salt", "She became blind", "She disappeared", "She died in the fire"],
-    answer: "She became a pillar of salt",
-    reference: "Genesis 19:26",
-  },
-  {
-    question: "What name was given to Abraham and Sarah's promised son?",
-    options: ["Isaac", "Ishmael", "Jacob", "Esau"],
-    answer: "Isaac",
-    reference: "Genesis 21:3",
-  },
-  {
-    question: "Why did Sarah insist that Hagar and Ishmael be sent away?",
-    options: [
-      "She did not want Ishmael to share the inheritance with Isaac",
-      "Ishmael had left the household",
-      "Hagar wanted to marry Abraham",
-      "Ishmael refused to work"
-    ],
-    answer:
-      "She did not want Ishmael to share the inheritance with Isaac",
-    reference: "Genesis 21:9-12",
-  },
-  {
-    question: "What did Abraham find caught in a thicket when he was about to offer Isaac?",
-    options: ["A ram", "A goat", "A lamb", "A bull"],
-    answer: "A ram",
-    reference: "Genesis 22:13",
-  },
-  {
-    question: "What name did Abraham give the place where God provided the ram?",
-    options: [
-      "The Lord Will Provide",
-      "The Lord Is My Shepherd",
-      "The Lord Is There",
-      "The Lord Our Banner"
-    ],
-    answer: "The Lord Will Provide",
-    reference: "Genesis 22:14",
-  },
-  {
-    question: "What was Abraham's servant looking for when he arrived near Nahor?",
-    options: [
-      "A wife for Isaac",
-      "A servant for Abraham",
-      "A shepherd for Isaac's flock",
-      "A bride for Ishmael"
-    ],
-    answer: "A wife for Isaac",
-    reference: "Genesis 24:2-4",
-  },
-  {
-    question: "What did Rebekah offer to do after giving Abraham's servant water?",
-    options: [
-      "Draw water for his camels",
-      "Prepare food for his men",
-      "Lead him to Abraham",
-      "Give him clothing"
-    ],
-    answer: "Draw water for his camels",
-    reference: "Genesis 24:18-20",
-  },
-  {
-    question: "What did Esau receive in exchange for his birthright?",
-    options: [
-      "Bread and lentil stew",
-      "Bread and wine",
-      "Meat and fruit",
-      "Milk and honey"
-    ],
-    answer: "Bread and lentil stew",
-    reference: "Genesis 25:29-34",
-  },
-  {
-    question: "When Isaac questioned Jacob's identity, what caused him to be uncertain?",
-    options: [
-      "Jacob's voice sounded like Jacob, but his hands felt like Esau's",
-      "Jacob wore different clothes",
-      "Jacob had Esau's sandals",
-      "Jacob refused to speak"
-    ],
-    answer:
-      "Jacob's voice sounded like Jacob, but his hands felt like Esau's",
-    reference: "Genesis 27:21-23",
-  },
-  {
-    question: "What did Jacob see in his dream while traveling toward Haran?",
-    options: [
-      "A stairway with angels ascending and descending",
-      "A burning bush",
-      "A great river",
-      "A city surrounded by fire"
-    ],
-    answer: "A stairway with angels ascending and descending",
-    reference: "Genesis 28:10-12",
-  },
-  {
-    question: "What name did Jacob give the place where he had his dream?",
-    options: ["Bethel", "Peniel", "Hebron", "Beersheba"],
-    answer: "Bethel",
-    reference: "Genesis 28:18-19",
-  },
-  {
-    question: "How many years did Jacob initially agree to serve Laban for Rachel?",
-    options: ["Seven years", "Five years", "Ten years", "Fourteen years"],
-    answer: "Seven years",
-    reference: "Genesis 29:18",
-  },
-  {
-    question: "Which sister did Laban give Jacob instead of Rachel first?",
-    options: ["Leah", "Dinah", "Bilhah", "Zilpah"],
-    answer: "Leah",
-    reference: "Genesis 29:23-25",
-  },
-  {
-    question: "Who was Jacob's firstborn son?",
-    options: ["Reuben", "Simeon", "Levi", "Judah"],
-    answer: "Reuben",
-    reference: "Genesis 29:32",
-  },
-  {
-    question: "What was the name of Rachel's first son?",
-    options: ["Joseph", "Benjamin", "Dan", "Naphtali"],
-    answer: "Joseph",
-    reference: "Genesis 30:22-24",
-  },
-  {
-    question: "What unusual method did Jacob use while tending Laban's flocks?",
-    options: [
-      "He placed peeled branches before the animals at watering places",
-      "He separated all the sheep from the goats",
-      "He changed the animals' food every day",
-      "He marked every animal with his name"
-    ],
-    answer:
-      "He placed peeled branches before the animals at watering places",
-    reference: "Genesis 30:37-43",
-  },
-  {
-    question: "Why did Jacob secretly leave Laban's household?",
-    options: [
-      "He feared Laban and had been instructed by God to return to his homeland",
-      "He wanted to become king",
-      "Rachel commanded him to leave",
-      "His flocks had all died"
-    ],
-    answer:
-      "He feared Laban and had been instructed by God to return to his homeland",
-    reference: "Genesis 31:1-3, 20-21",
-  },
-  {
-    question: "What did Rachel take from her father's household?",
-    options: ["Household gods", "Gold", "Animals", "Scrolls"],
-    answer: "Household gods",
-    reference: "Genesis 31:19",
-  },
-  {
-    question: "What name did Jacob give the place where he said he had seen God face to face?",
-    options: ["Peniel", "Bethel", "Mahanaim", "Succoth"],
-    answer: "Peniel",
-    reference: "Genesis 32:30",
-  },
-  {
-    question: "What part of Jacob's body was touched during his struggle with the mysterious man?",
-    options: ["His hip", "His shoulder", "His hand", "His knee"],
-    answer: "His hip",
-    reference: "Genesis 32:25",
-  },
-  {
-    question: "What new name was Jacob given after wrestling with God?",
-    options: ["Israel", "Edom", "Judah", "Bethel"],
-    answer: "Israel",
-    reference: "Genesis 32:28",
-  },
-  {
-    question: "What made Joseph especially hated by his brothers before he was sold?",
-    options: [
-      "His dreams and his father's special love for him",
-      "His refusal to work",
-      "His desire to leave Canaan",
-      "His wealth"
-    ],
-    answer: "His dreams and his father's special love for him",
-    reference: "Genesis 37:3-11",
-  },
-  {
-    question: "What did Joseph's brothers dip his special robe in?",
-    options: ["Goat's blood", "Sheep's blood", "Wine", "Mud"],
-    answer: "Goat's blood",
-    reference: "Genesis 37:31-33",
-  },
-  {
-    question: "Who suggested selling Joseph rather than killing him?",
-    options: ["Judah", "Reuben", "Simeon", "Levi"],
-    answer: "Judah",
-    reference: "Genesis 37:26-28",
-  },
-  {
-    question: "What happened to Joseph after Potiphar's wife accused him?",
-    options: [
-      "He was put in prison",
-      "He was sent back to Canaan",
-      "He became a servant in another house",
-      "He was executed"
-    ],
-    answer: "He was put in prison",
-    reference: "Genesis 39:19-20",
-  },
-  {
-    question: "What did Joseph say was the source of the ability to interpret dreams?",
-    options: ["God", "Wisdom from Egypt", "His own intelligence", "The prison keeper"],
-    answer: "God",
-    reference: "Genesis 40:8",
-  },
-  {
-    question: "What did Pharaoh's dreams reveal about Egypt's future?",
-    options: [
-      "Seven years of abundance followed by seven years of famine",
-      "Seven years of war followed by seven years of peace",
-      "Seven years of famine followed by seven years of abundance",
-      "Three years of famine followed by seven years of abundance"
-    ],
-    answer: "Seven years of abundance followed by seven years of famine",
-    reference: "Genesis 41:25-30",
-  },
-  {
-    question: "What strategy did Joseph recommend to prepare Egypt for the coming famine?",
-    options: [
-      "Store a portion of the harvest during the years of abundance",
-      "Send the people to Canaan",
-      "Stop planting crops",
-      "Sell all the livestock"
-    ],
-    answer: "Store a portion of the harvest during the years of abundance",
-    reference: "Genesis 41:33-36",
-  },
-  {
-    question: "What Egyptian name did Pharaoh give Joseph?",
-    options: ["Zaphenath-paneah", "Abimelech", "Potiphera", "On"],
-    answer: "Zaphenath-paneah",
-    reference: "Genesis 41:45",
-  },
-  {
-    question: "What was the name of Joseph's first son?",
-    options: ["Manasseh", "Ephraim", "Benjamin", "Gershom"],
-    answer: "Manasseh",
-    reference: "Genesis 41:51",
-  },
-  {
-    question: "Why did Joseph's brothers fail to recognize him when they came to Egypt?",
-    options: [
-      "They did not know he had become the Egyptian ruler before them",
-      "Joseph had completely changed his face",
-      "Joseph refused to speak",
-      "They had never seen him before"
-    ],
-    answer:
-      "They did not know he had become the Egyptian ruler before them",
-    reference: "Genesis 42:7-8",
-  },
-  {
-    question: "How did Joseph secretly communicate with his brothers while they were speaking to him?",
-    options: [
-      "Through an interpreter",
-      "Through Benjamin",
-      "Through Pharaoh",
-      "Through a servant"
-    ],
-    answer: "Through an interpreter",
-    reference: "Genesis 42:23",
-  },
-  {
-    question: "Which brother did Joseph require them to bring back to Egypt?",
-    options: ["Benjamin", "Reuben", "Judah", "Simeon"],
-    answer: "Benjamin",
-    reference: "Genesis 42:14-20",
-  },
-  {
-    question: "What did Joseph secretly return to his brothers?",
-    options: ["Their money", "Their animals", "Their clothing", "Their weapons"],
-    answer: "Their money",
-    reference: "Genesis 42:25",
-  },
-  {
-    question: "What object did Joseph order to be placed in Benjamin's sack?",
-    options: ["A silver cup", "A gold ring", "A knife", "A scroll"],
-    answer: "A silver cup",
-    reference: "Genesis 44:1-2",
-  },
-  {
-    question: "What did Judah offer to do when Benjamin was accused of taking Joseph's cup?",
-    options: [
-      "Remain as a servant in Benjamin's place",
-      "Fight Joseph's servants",
-      "Return to Canaan alone",
-      "Pay Joseph with livestock"
-    ],
-    answer: "Remain as a servant in Benjamin's place",
-    reference: "Genesis 44:32-34",
-  },
-  {
-    question: "How did Joseph explain the purpose of God sending him ahead to Egypt?",
-    options: [
-      "To preserve life during the famine",
-      "To become king over Canaan",
-      "To punish his brothers",
-      "To build an Egyptian temple"
-    ],
-    answer: "To preserve life during the famine",
-    reference: "Genesis 45:5-8",
-  },
-  {
-    question: "What happened to Jacob when he heard that Joseph was alive?",
-    options: [
-      "His spirit revived",
-      "He immediately died",
-      "He became angry",
-      "He refused to believe it"
-    ],
-    answer: "His spirit revived",
-    reference: "Genesis 45:26-28",
-  },
-  {
-    question: "What did God tell Jacob when he was preparing to go down to Egypt?",
-    options: [
-      "Not to be afraid",
-      "To remain in Canaan",
-      "To leave his family behind",
-      "To return to Haran"
-    ],
-    answer: "Not to be afraid",
-    reference: "Genesis 46:2-4",
-  },
-  {
-    question: "What did Jacob make Joseph swear concerning his burial?",
-    options: [
-      "That he would bury him in Canaan",
-      "That he would bury him in Egypt",
-      "That he would cremate him",
-      "That he would bury him beside Joseph"
-    ],
-    answer: "That he would bury him in Canaan",
-    reference: "Genesis 47:29-31",
-  },
-  {
-    question: "Which of Joseph's two sons received Jacob's right-hand blessing?",
-    options: ["Ephraim", "Manasseh", "Both equally", "Neither"],
-    answer: "Ephraim",
-    reference: "Genesis 48:13-20",
-  },
-  {
-    question: "Which son of Jacob was associated with the future scepter and ruler's staff?",
-    options: ["Judah", "Reuben", "Joseph", "Levi"],
-    answer: "Judah",
-    reference: "Genesis 49:8-10",
-  },
-  {
-    question: "What did Joseph tell his brothers about their evil actions against him?",
-    options: [
-      "God used what they meant for evil for good",
-      "Their actions had ruined God's plan",
-      "He would repay them for everything",
-      "God had forgotten what they did"
-    ],
-    answer: "God used what they meant for evil for good",
-    reference: "Genesis 50:15-20",
-  },
-  {
-    question: "What did Joseph request concerning his bones before his death?",
-    options: [
-      "That they be carried out of Egypt when God brought Israel out",
-      "That they be buried beside Pharaoh",
-      "That they be buried in Egypt",
-      "That they be placed in the ark"
-    ],
-    answer:
-      "That they be carried out of Egypt when God brought Israel out",
-    reference: "Genesis 50:24-26",
-  },
-
-  // Additional whole-book questions
-
-  {
-    question: "Which two trees were specifically identified as being in the midst of the garden?",
-    options: [
-      "The tree of life and the tree of the knowledge of good and evil",
-      "The olive tree and the fig tree",
-      "The cedar tree and the palm tree",
-      "The tree of wisdom and the tree of strength"
-    ],
-    answer:
-      "The tree of life and the tree of the knowledge of good and evil",
-    reference: "Genesis 2:9",
-  },
-  {
-    question: "What did God say would happen to Adam on the day he ate from the forbidden tree?",
-    options: [
-      "He would surely die",
-      "He would lose his name",
-      "He would become blind",
-      "He would be unable to have children"
-    ],
-    answer: "He would surely die",
-    reference: "Genesis 2:16-17",
-  },
-  {
-    question: "What was the first thing Adam did after God brought the animals to him?",
-    options: [
-      "He gave them names",
-      "He separated them into groups",
-      "He offered sacrifices",
-      "He built shelters for them"
-    ],
-    answer: "He gave them names",
-    reference: "Genesis 2:19-20",
-  },
-  {
-    question: "What did Cain say would happen if someone found him after he was sent away?",
-    options: [
-      "They might kill him",
-      "They would make him king",
-      "They would forgive him",
-      "They would take his possessions"
-    ],
-    answer: "They might kill him",
-    reference: "Genesis 4:13-14",
-  },
-  {
-    question: "How many sons of Noah were specifically named?",
-    options: ["Three", "Two", "Four", "Five"],
-    answer: "Three",
-    reference: "Genesis 6:10",
-  },
-  {
-    question: "What did the waters of the flood do to the mountains?",
-    options: [
-      "They covered even the high mountains",
-      "They surrounded only the lowlands",
-      "They stopped below the mountains",
-      "They destroyed the mountains completely"
-    ],
-    answer: "They covered even the high mountains",
-    reference: "Genesis 7:19-20",
-  },
-  {
-    question: "What did Noah do after the flood before planting a vineyard?",
-    options: [
-      "He became a farmer",
-      "He built a city",
-      "He returned to Mesopotamia",
-      "He separated from his sons"
-    ],
-    answer: "He became a farmer",
-    reference: "Genesis 9:20",
-  },
-  {
-    question: "Which son of Noah was the father of Canaan?",
-    options: ["Ham", "Shem", "Japheth", "None of them"],
-    answer: "Ham",
-    reference: "Genesis 9:18-22",
-  },
-  {
-    question: "What did Abram do when he arrived at Shechem in Canaan?",
-    options: [
-      "He built an altar to the Lord",
-      "He built a city",
-      "He dug a well",
-      "He planted a vineyard"
-    ],
-    answer: "He built an altar to the Lord",
+    answer: "Near the great tree of Moreh at Shechem",
     reference: "Genesis 12:6-7",
   },
   {
-    question: "Why did Abram and Sarai go down to Egypt?",
+    question:
+      "When Abram went down to Egypt because of famine, what did Pharaoh give him because of Sarai?",
     options: [
-      "There was a severe famine in the land",
-      "God commanded them to settle there permanently",
-      "They wanted to trade their livestock",
-      "Lot had moved there"
-    ],
-    answer: "There was a severe famine in the land",
-    reference: "Genesis 12:10",
-  },
-  {
-    question: "What did Pharaoh do after discovering that Sarai was Abram's wife?",
-    options: [
-      "He sent Abram and Sarai away",
-      "He imprisoned Abram",
-      "He gave Sarai to another ruler",
-      "He kept them in Egypt"
-    ],
-    answer: "He sent Abram and Sarai away",
-    reference: "Genesis 12:17-20",
-  },
-  {
-    question: "What did Abram give Lot the freedom to choose when they separated?",
-    options: [
-      "Which land he wanted",
-      "Which servants he wanted",
-      "Which city he wanted to rule",
-      "Which animals he wanted"
-    ],
-    answer: "Which land he wanted",
-    reference: "Genesis 13:8-12",
-  },
-  {
-    question: "What did Abraham name the well at Beersheba after making a covenant with Abimelech?",
-    options: [
-      "Beersheba",
-      "Beer-lahai-roi",
-      "Rehoboth",
-      "Esek"
-    ],
-    answer: "Beersheba",
-    reference: "Genesis 21:22-31",
-  },
-  {
-    question: "What did Isaac do after Rebekah became his wife?",
-    options: [
-      "He loved her and was comforted after his mother's death",
-      "He immediately left Canaan",
-      "He built an altar in Egypt",
-      "He separated from Abraham"
+      "Sheep, cattle, male and female donkeys, male and female servants, and camels",
+      "Only silver, gold, and cattle",
+      "Sheep, goats, horses, and armed servants",
+      "Land in Goshen and one hundred camels",
     ],
     answer:
-      "He loved her and was comforted after his mother's death",
-    reference: "Genesis 24:67",
+      "Sheep, cattle, male and female donkeys, male and female servants, and camels",
+    reference: "Genesis 12:16",
   },
   {
-    question: "What did Esau's wives cause for Isaac and Rebekah?",
+    question:
+      "After Abram and Lot separated, where did Abram move his tents and build an altar?",
     options: [
-      "They brought grief to them",
-      "They increased their wealth",
-      "They caused them to leave Canaan",
-      "They became servants in their household"
+      "By the oaks of Mamre at Hebron",
+      "Near Bethel",
+      "At Beersheba",
+      "In the Valley of Siddim",
     ],
-    answer: "They brought grief to them",
-    reference: "Genesis 26:34-35",
+    answer: "By the oaks of Mamre at Hebron",
+    reference: "Genesis 13:18",
   },
   {
-    question: "What did Jacob place under his head when he slept at Bethel?",
-    options: ["A stone", "A piece of wood", "A bundle of clothes", "A branch"],
-    answer: "A stone",
-    reference: "Genesis 28:10-11",
+    question:
+      "How many trained men born in Abram's household did he take in pursuit of the kings who had captured Lot?",
+    options: ["318", "300", "400", "318 plus Lot's servants"],
+    answer: "318",
+    reference: "Genesis 14:14",
   },
   {
-    question: "What did Jacob do after waking from his dream at Bethel?",
+    question:
+      "To what place did Abram pursue the defeated kings after attacking them by night?",
     options: [
-      "He set up the stone as a pillar and poured oil on it",
-      "He destroyed the stone",
-      "He buried the stone",
-      "He carried the stone back to Canaan"
+      "Hobah, north of Damascus",
+      "Dan, south of Damascus",
+      "Salem, west of the Jordan",
+      "Mamre, near Hebron",
+    ],
+    answer: "Hobah, north of Damascus",
+    reference: "Genesis 14:15",
+  },
+  {
+    question:
+      "What title is given to Melchizedek when he blesses Abram?",
+    options: [
+      "Priest of God Most High",
+      "King of the Most High alone",
+      "Prophet of Salem",
+      "Priest of the LORD of hosts",
+    ],
+    answer: "Priest of God Most High",
+    reference: "Genesis 14:18-20",
+  },
+  {
+    question:
+      "What did Abram say he would not take from the king of Sodom, using an expression that emphasized even the smallest items?",
+    options: [
+      "A thread or a sandal strap",
+      "A coin or a garment",
+      "A loaf or a wineskin",
+      "A sheep or a goat",
+    ],
+    answer: "A thread or a sandal strap",
+    reference: "Genesis 14:22-23",
+  },
+  {
+    question:
+      "In Abram's covenant vision, how long did God say his descendants would be strangers and afflicted in a land not their own?",
+    options: [
+      "Four hundred years",
+      "Four hundred and thirty years",
+      "Three hundred years",
+      "Seventy years",
+    ],
+    answer: "Four hundred years",
+    reference: "Genesis 15:13",
+  },
+  {
+    question:
+      "Which animals did Abram cut in two during the covenant ceremony, while leaving the birds undivided?",
+    options: [
+      "A three-year-old heifer, a three-year-old female goat, and a three-year-old ram",
+      "A bull, a ram, and a male goat",
+      "A heifer, a lamb, and a male goat",
+      "A three-year-old bull, a female goat, and a ram",
     ],
     answer:
-      "He set up the stone as a pillar and poured oil on it",
-    reference: "Genesis 28:18",
+      "A three-year-old heifer, a three-year-old female goat, and a three-year-old ram",
+    reference: "Genesis 15:9-10",
   },
   {
-    question: "Why did Jacob love Rachel more than Leah?",
+    question:
+      "What two visible manifestations passed between the pieces of Abram's sacrifice after sunset?",
     options: [
-      "Rachel was the woman he had originally agreed to serve for",
-      "Rachel was the older sister",
-      "Rachel owned more livestock",
-      "Leah had refused to marry him"
+      "A smoking firepot and a blazing torch",
+      "A pillar of cloud and a pillar of fire",
+      "A flame and a whirlwind",
+      "A burning bush and a cloud",
+    ],
+    answer: "A smoking firepot and a blazing torch",
+    reference: "Genesis 15:17",
+  },
+  {
+    question: "How old was Abram when Hagar bore Ishmael?",
+    options: ["86 years", "85 years", "99 years", "100 years"],
+    answer: "86 years",
+    reference: "Genesis 16:16",
+  },
+  {
+    question:
+      "By what name did Hagar refer to the LORD after the angel spoke with her in the wilderness?",
+    options: [
+      "The God who sees me",
+      "The LORD who provides",
+      "The Everlasting God",
+      "The God of Bethel",
+    ],
+    answer: "The God who sees me",
+    reference: "Genesis 16:13",
+  },
+  {
+    question:
+      "How old was Abraham when he and the males of his household were circumcised?",
+    options: ["99 years", "100 years", "86 years", "75 years"],
+    answer: "99 years",
+    reference: "Genesis 17:23-27",
+  },
+  {
+    question: "How old was Ishmael when he was circumcised?",
+    options: ["13 years", "12 years", "14 years", "17 years"],
+    answer: "13 years",
+    reference: "Genesis 17:25",
+  },
+  {
+    question:
+      "When Abraham hosted the three visitors by the oaks of Mamre, how much fine flour did he tell Sarah to knead for cakes?",
+    options: ["Three seahs", "One ephah", "Two seahs", "Five measures"],
+    answer: "Three seahs",
+    reference: "Genesis 18:6",
+  },
+  {
+    question:
+      "What food did Abraham personally set before his visitors besides the cakes Sarah prepared?",
+    options: [
+      "A tender calf, curds, and milk",
+      "A lamb, bread, and wine",
+      "Goat meat, cheese, and water",
+      "A calf, dates, and wine",
+    ],
+    answer: "A tender calf, curds, and milk",
+    reference: "Genesis 18:7-8",
+  },
+  {
+    question:
+      "At what number of righteous people did Abraham stop bargaining with the LORD over Sodom?",
+    options: ["Ten", "Twenty", "Five", "Fifty"],
+    answer: "Ten",
+    reference: "Genesis 18:22-33",
+  },
+  {
+    question:
+      "What did the men of Sodom accuse Lot of doing when he tried to restrain them?",
+    options: [
+      "Acting as a judge",
+      "Hiding foreign spies",
+      "Stealing their property",
+      "Breaking their city laws",
+    ],
+    answer: "Acting as a judge",
+    reference: "Genesis 19:9",
+  },
+  {
+    question:
+      "What reason did Lot give for asking to flee to Zoar instead of the mountains?",
+    options: [
+      "He feared disaster would overtake him before he reached the mountains",
+      "He wanted to remain near his livestock",
+      "His daughters refused to go farther",
+      "The angels told him Zoar was already safe",
     ],
     answer:
-      "Rachel was the woman he had originally agreed to serve for",
-    reference: "Genesis 29:18-20, 30",
+      "He feared disaster would overtake him before he reached the mountains",
+    reference: "Genesis 19:17-22",
   },
   {
-    question: "What did Jacob call his first six sons born to Leah collectively in his later journey?",
+    question:
+      "What names did Lot's daughters give the sons born from their father?",
     options: [
-      "His sons",
-      "The tribes of Israel",
-      "The sons of Rachel",
-      "The house of Joseph"
+      "Moab and Ben-Ammi",
+      "Ammon and Edom",
+      "Moab and Ishmael",
+      "Ben-Ammi and Midian",
     ],
-    answer: "His sons",
-    reference: "Genesis 30:17-21",
+    answer: "Moab and Ben-Ammi",
+    reference: "Genesis 19:36-38",
   },
   {
-    question: "What did Jacob discover after secretly leaving Laban?",
+    question:
+      "What explanation did Abraham give Abimelech for calling Sarah his sister?",
     options: [
-      "Laban pursued him with his relatives",
-      "Esau had entered his camp",
-      "Joseph had disappeared",
-      "The famine had begun"
+      "She was in fact his half-sister, the daughter of his father but not of his mother",
+      "She was his cousin and was customarily called sister",
+      "Sarah had suggested the deception on their wedding day",
+      "The LORD had commanded him to conceal the marriage",
     ],
-    answer: "Laban pursued him with his relatives",
-    reference: "Genesis 31:22-23",
+    answer:
+      "She was in fact his half-sister, the daughter of his father but not of his mother",
+    reference: "Genesis 20:11-13",
   },
   {
-    question: "What did Jacob send ahead of himself when preparing to meet Esau?",
+    question:
+      "What did Abimelech give Abraham in addition to sheep, cattle, and servants after returning Sarah?",
     options: [
-      "Large groups of livestock as gifts",
-      "Armed soldiers only",
-      "His youngest children",
-      "His household gods"
+      "One thousand pieces of silver",
+      "Four hundred shekels of silver",
+      "A hundred pieces of gold",
+      "Seven ewe lambs",
     ],
-    answer: "Large groups of livestock as gifts",
-    reference: "Genesis 32:13-21",
+    answer: "One thousand pieces of silver",
+    reference: "Genesis 20:14-16",
   },
   {
-    question: "What was Jacob's emotional response when he saw Esau approaching?",
+    question:
+      "What unusual gift did Abraham give Abimelech separately when they made a covenant at Beersheba?",
     options: [
-      "He was greatly afraid and distressed",
-      "He became angry",
-      "He laughed",
-      "He immediately returned to Laban"
+      "Seven ewe lambs",
+      "Seven rams",
+      "A silver cup",
+      "A hundred sheep",
     ],
-    answer: "He was greatly afraid and distressed",
+    answer: "Seven ewe lambs",
+    reference: "Genesis 21:27-31",
+  },
+  {
+    question:
+      "What tree did Abraham plant at Beersheba after making a covenant with Abimelech?",
+    options: [
+      "A tamarisk tree",
+      "An olive tree",
+      "A terebinth tree",
+      "A fig tree",
+    ],
+    answer: "A tamarisk tree",
+    reference: "Genesis 21:33",
+  },
+  {
+    question:
+      "After the binding of Isaac, which of Nahor's descendants was identified as the father of Rebekah?",
+    options: ["Bethuel", "Kemuel", "Huz", "Buz"],
+    answer: "Bethuel",
+    reference: "Genesis 22:20-23",
+  },
+  {
+    question:
+      "How much silver did Abraham weigh out to Ephron for the field and cave of Machpelah?",
+    options: [
+      "400 shekels",
+      "300 shekels",
+      "500 shekels",
+      "1,000 shekels",
+    ],
+    answer: "400 shekels",
+    reference: "Genesis 23:14-16",
+  },
+  {
+    question:
+      "Who is specifically named as the owner of the field of Machpelah before Abraham purchased it?",
+    options: [
+      "Ephron son of Zohar",
+      "Mamre the Amorite",
+      "Abimelech of Gerar",
+      "Bethuel son of Nahor",
+    ],
+    answer: "Ephron son of Zohar",
+    reference: "Genesis 23:8-18",
+  },
+  {
+    question:
+      "What sign did Abraham's servant ask God to use to identify the woman chosen for Isaac?",
+    options: [
+      "She would offer water to him and also volunteer to water his camels",
+      "She would invite him to her father's house before being asked",
+      "She would identify Abraham by name",
+      "She would offer bread to his men and grain to his camels",
+    ],
+    answer:
+      "She would offer water to him and also volunteer to water his camels",
+    reference: "Genesis 24:12-14",
+  },
+  {
+    question:
+      "What jewelry did Abraham's servant give Rebekah after the camels had finished drinking?",
+    options: [
+      "A gold nose ring and two gold bracelets",
+      "A silver necklace and two gold bracelets",
+      "A gold ring and a silver anklet",
+      "Two gold earrings and a necklace",
+    ],
+    answer: "A gold nose ring and two gold bracelets",
+    reference: "Genesis 24:22",
+  },
+  {
+    question:
+      "How much did the nose ring and bracelets given to Rebekah weigh?",
+    options: [
+      "The nose ring was half a shekel and the bracelets ten shekels of gold",
+      "The nose ring was one shekel and the bracelets five shekels",
+      "The nose ring was two shekels and the bracelets twenty shekels",
+      "The nose ring was half a shekel and the bracelets five shekels",
+    ],
+    answer:
+      "The nose ring was half a shekel and the bracelets ten shekels of gold",
+    reference: "Genesis 24:22",
+  },
+  {
+    question:
+      "Where was Isaac living when Rebekah was brought to him?",
+    options: [
+      "In the Negev, after coming from Beer Lahai Roi",
+      "At Hebron beside the cave of Machpelah",
+      "At Beersheba beside Abraham's tamarisk tree",
+      "Near Bethel between Bethel and Ai",
+    ],
+    answer: "In the Negev, after coming from Beer Lahai Roi",
+    reference: "Genesis 24:62",
+  },
+  {
+    question:
+      "Which sons of Abraham buried him in the cave of Machpelah?",
+    options: [
+      "Isaac and Ishmael",
+      "Isaac and Midian",
+      "Ishmael and Zimran",
+      "Isaac and Jacob",
+    ],
+    answer: "Isaac and Ishmael",
+    reference: "Genesis 25:9",
+  },
+  {
+    question: "How old was Abraham when he died?",
+    options: ["175 years", "180 years", "147 years", "160 years"],
+    answer: "175 years",
+    reference: "Genesis 25:7",
+  },
+  {
+    question: "How old was Isaac when Esau and Jacob were born?",
+    options: ["60 years", "40 years", "100 years", "75 years"],
+    answer: "60 years",
+    reference: "Genesis 25:26",
+  },
+  {
+    question:
+      "What two descriptions distinguish Esau and Jacob at birth?",
+    options: [
+      "Esau was red and hairy, while Jacob came out grasping Esau's heel",
+      "Esau was dark-haired, while Jacob was red and smooth",
+      "Esau grasped Jacob's heel, while Jacob was covered with hair",
+      "Esau was smooth-skinned, while Jacob was red and hairy",
+    ],
+    answer:
+      "Esau was red and hairy, while Jacob came out grasping Esau's heel",
+    reference: "Genesis 25:24-26",
+  },
+  {
+    question:
+      "Which wells dug by Isaac's servants were named because of disputes with the herdsmen of Gerar?",
+    options: [
+      "Esek and Sitnah",
+      "Rehoboth and Shibah",
+      "Beer Lahai Roi and Beersheba",
+      "Gerar and Rehoboth",
+    ],
+    answer: "Esek and Sitnah",
+    reference: "Genesis 26:19-22",
+  },
+  {
+    question:
+      "What did Isaac name the well over which there was finally no quarrel?",
+    options: ["Rehoboth", "Esek", "Sitnah", "Shibah"],
+    answer: "Rehoboth",
+    reference: "Genesis 26:22",
+  },
+  {
+    question:
+      "What were the names and ethnic identities of Esau's first two wives mentioned in Genesis 26?",
+    options: [
+      "Judith daughter of Beeri the Hittite and Basemath daughter of Elon the Hittite",
+      "Adah daughter of Elon the Hittite and Oholibamah daughter of Anah",
+      "Basemath daughter of Ishmael and Mahalath daughter of Beeri",
+      "Judith daughter of Zibeon and Basemath daughter of Ishmael",
+    ],
+    answer:
+      "Judith daughter of Beeri the Hittite and Basemath daughter of Elon the Hittite",
+    reference: "Genesis 26:34",
+  },
+  {
+    question:
+      "What did Rebekah put on Jacob's hands and the smooth part of his neck so that Isaac would mistake him for Esau?",
+    options: [
+      "The skins of the young goats",
+      "Sheepskins",
+      "Esau's hunting gloves",
+      "A hairy garment woven by servants",
+    ],
+    answer: "The skins of the young goats",
+    reference: "Genesis 27:15-16",
+  },
+  {
+    question:
+      "What blessing did Isaac give Esau after realizing Jacob had already received the primary blessing?",
+    options: [
+      "His dwelling would be away from the earth's richness, he would live by the sword, serve his brother, and eventually break the yoke",
+      "He would receive the same blessing but without authority over nations",
+      "He would inherit Canaan while Jacob would live in Haran",
+      "He would rule his brother after seven years",
+    ],
+    answer:
+      "His dwelling would be away from the earth's richness, he would live by the sword, serve his brother, and eventually break the yoke",
+    reference: "Genesis 27:39-40",
+  },
+  {
+    question:
+      "What did Jacob promise to give God after his dream at Bethel if God kept him and brought him safely home?",
+    options: [
+      "A tenth of everything God gave him",
+      "One-fifth of all his flocks",
+      "The stone pillar and all its surrounding land",
+      "Seven rams every year",
+    ],
+    answer: "A tenth of everything God gave him",
+    reference: "Genesis 28:20-22",
+  },
+  {
+    question:
+      "What reason did Laban give Jacob for substituting Leah for Rachel?",
+    options: [
+      "It was not customary in their place to give the younger daughter before the firstborn",
+      "Rachel had not yet reached marriageable age",
+      "Leah had already been promised to Jacob by Bethuel",
+      "Jacob had not completed seven full years of service",
+    ],
+    answer:
+      "It was not customary in their place to give the younger daughter before the firstborn",
+    reference: "Genesis 29:25-26",
+  },
+  {
+    question:
+      "Which son did Leah name because she said, 'This time I will praise the LORD'?",
+    options: ["Judah", "Levi", "Simeon", "Reuben"],
+    answer: "Judah",
+    reference: "Genesis 29:35",
+  },
+  {
+    question:
+      "Which of Jacob's sons was born after Leah said, 'God has endowed me with a good endowment'?",
+    options: ["Zebulun", "Issachar", "Levi", "Gad"],
+    answer: "Zebulun",
+    reference: "Genesis 30:19-20",
+  },
+  {
+    question:
+      "What plant did Reuben find during wheat harvest that Rachel wanted from Leah?",
+    options: ["Mandrakes", "Barley heads", "Wild figs", "Balm plants"],
+    answer: "Mandrakes",
+    reference: "Genesis 30:14",
+  },
+  {
+    question:
+      "What arrangement did Jacob propose for his wages from Laban's flocks?",
+    options: [
+      "Every speckled and spotted sheep and goat, and every dark-colored lamb",
+      "Every firstborn male animal",
+      "One-tenth of every newborn animal",
+      "All white goats and black sheep",
+    ],
+    answer:
+      "Every speckled and spotted sheep and goat, and every dark-colored lamb",
+    reference: "Genesis 30:31-33",
+  },
+  {
+    question:
+      "Which three kinds of branches did Jacob peel and place before the flocks?",
+    options: [
+      "Poplar, almond, and plane",
+      "Cedar, olive, and fig",
+      "Tamarisk, acacia, and almond",
+      "Poplar, oak, and pomegranate",
+    ],
+    answer: "Poplar, almond, and plane",
+    reference: "Genesis 30:37",
+  },
+  {
+    question:
+      "How many times did Jacob say Laban had changed his wages?",
+    options: ["Ten times", "Seven times", "Twelve times", "Twenty times"],
+    answer: "Ten times",
+    reference: "Genesis 31:7, 41",
+  },
+  {
+    question:
+      "Where did Rachel hide the household gods she had stolen from Laban?",
+    options: [
+      "Inside a camel's saddle, on which she sat",
+      "Inside a tent cushion",
+      "Under Leah's bedding",
+      "Among Jacob's peeled branches",
+    ],
+    answer: "Inside a camel's saddle, on which she sat",
+    reference: "Genesis 31:34",
+  },
+  {
+    question:
+      "What two names were given to the heap of stones marking the covenant between Jacob and Laban?",
+    options: [
+      "Jegar Sahadutha and Galeed",
+      "Mizpah and Bethel",
+      "Galeed and Mahanaim",
+      "Jegar Sahadutha and Peniel",
+    ],
+    answer: "Jegar Sahadutha and Galeed",
+    reference: "Genesis 31:47",
+  },
+  {
+    question:
+      "What did Jacob call the place where angels of God met him after he separated from Laban?",
+    options: ["Mahanaim", "Peniel", "Succoth", "Galeed"],
+    answer: "Mahanaim",
+    reference: "Genesis 32:1-2",
+  },
+  {
+    question:
+      "Into how many camps did Jacob divide his people and possessions when he heard Esau was approaching with four hundred men?",
+    options: ["Two camps", "Three camps", "Four camps", "Seven camps"],
+    answer: "Two camps",
     reference: "Genesis 32:6-8",
   },
   {
-    question: "What did Joseph's brothers first do with him before selling him?",
-    options: [
-      "They threw him into a pit",
-      "They took him to Egypt",
-      "They locked him in a house",
-      "They tied him to a tree"
-    ],
-    answer: "They threw him into a pit",
-    reference: "Genesis 37:23-24",
+    question:
+      "How many female camels with their young were included in Jacob's gift to Esau?",
+    options: ["Thirty", "Twenty", "Forty", "Ten"],
+    answer: "Thirty",
+    reference: "Genesis 32:13-15",
   },
   {
-    question: "Who pulled Joseph out of the pit with the intention of rescuing him?",
-    options: ["Reuben", "Judah", "Simeon", "Benjamin"],
-    answer: "Reuben",
-    reference: "Genesis 37:21-22",
+    question:
+      "After wrestling through the night, what physical consequence remained with Jacob as he crossed Penuel?",
+    options: [
+      "He limped because of his hip",
+      "His right hand was weakened",
+      "He was blinded in one eye",
+      "His shoulder remained dislocated",
+    ],
+    answer: "He limped because of his hip",
+    reference: "Genesis 32:31-32",
   },
   {
-    question: "What did Joseph's brothers see approaching after placing him in the pit?",
+    question:
+      "What did Jacob build after settling near the city of Shechem, and what did he call it?",
     options: [
-      "A caravan of Ishmaelites",
-      "Pharaoh's army",
-      "A group from Hebron",
-      "A caravan from Egypt carrying grain"
+      "An altar called El Elohe Israel",
+      "A pillar called Bethel",
+      "A well called Rehoboth",
+      "An altar called Jehovah Jireh",
     ],
-    answer: "A caravan of Ishmaelites",
-    reference: "Genesis 37:25",
+    answer: "An altar called El Elohe Israel",
+    reference: "Genesis 33:18-20",
   },
   {
-    question: "What did Joseph do when Potiphar's wife attempted to persuade him?",
+    question:
+      "Which two sons of Jacob killed the men of Shechem after they had been circumcised?",
     options: [
-      "He refused and fled from her",
-      "He agreed to her request",
-      "He reported her immediately to Pharaoh",
-      "He left Egypt"
+      "Simeon and Levi",
+      "Judah and Simeon",
+      "Reuben and Levi",
+      "Dan and Naphtali",
     ],
-    answer: "He refused and fled from her",
-    reference: "Genesis 39:7-12",
+    answer: "Simeon and Levi",
+    reference: "Genesis 34:25",
   },
   {
-    question: "What position did Joseph eventually receive in Pharaoh's administration?",
+    question:
+      "Before Jacob returned to Bethel, what did he tell his household to do with their foreign gods and earrings?",
     options: [
-      "Second in command over Egypt",
-      "Chief priest",
-      "Commander of Pharaoh's army",
-      "Governor of Canaan"
+      "Give them to him, and he buried them under the oak near Shechem",
+      "Burn them outside the camp",
+      "Take them to Bethel and place them beside the altar",
+      "Give them to the people of Shechem",
     ],
-    answer: "Second in command over Egypt",
-    reference: "Genesis 41:40-44",
+    answer:
+      "Give them to him, and he buried them under the oak near Shechem",
+    reference: "Genesis 35:2-4",
   },
   {
-    question: "What happened to Joseph's brothers when they first came to Egypt for grain?",
+    question:
+      "What name did Rachel give her second son as she was dying, and what name did Jacob give him instead?",
     options: [
-      "They bowed down before him",
-      "They immediately recognized him",
-      "They were appointed as governors",
-      "They refused to buy grain"
+      "Ben-Oni; Benjamin",
+      "Benjamin; Ben-Oni",
+      "Joseph; Benjamin",
+      "Ben-Ammi; Benjamin",
     ],
-    answer: "They bowed down before him",
-    reference: "Genesis 42:6",
+    answer: "Ben-Oni; Benjamin",
+    reference: "Genesis 35:16-18",
   },
   {
-    question: "What did Joseph eventually reveal to his brothers about himself?",
-    options: [
-      "That he was their brother Joseph",
-      "That he was Pharaoh's son",
-      "That he had never been sold",
-      "That he had forgotten Canaan"
-    ],
-    answer: "That he was their brother Joseph",
-    reference: "Genesis 45:1-4",
+    question:
+      "Who was Rebekah's nurse, whose death is recorded near Bethel?",
+    options: ["Deborah", "Bilhah", "Zilpah", "Judith"],
+    answer: "Deborah",
+    reference: "Genesis 35:8",
   },
   {
-    question: "What did Joseph tell his brothers not to do while returning to bring Jacob to Egypt?",
-    options: [
-      "Not to quarrel on the way",
-      "Not to speak to Pharaoh",
-      "Not to take Benjamin",
-      "Not to bring their wives"
-    ],
-    answer: "Not to quarrel on the way",
-    reference: "Genesis 45:24",
+    question:
+      "Which son of Esau became the ancestor of Amalek through Timna?",
+    options: ["Eliphaz", "Reuel", "Jeush", "Korah"],
+    answer: "Eliphaz",
+    reference: "Genesis 36:12",
   },
   {
-    question: "What did Joseph arrange for his family when they came to Egypt?",
+    question:
+      "What did Joseph report to his father about the sons of Bilhah and Zilpah when he was seventeen?",
     options: [
-      "He settled them in the land of Goshen",
-      "He settled them in Pharaoh's palace",
-      "He sent them to Canaan",
-      "He placed them in prison"
+      "A bad report about them",
+      "That they had sold part of the flock",
+      "That they intended to leave Canaan",
+      "That they had quarreled with Judah",
     ],
-    answer: "He settled them in the land of Goshen",
-    reference: "Genesis 46:28-34",
+    answer: "A bad report about them",
+    reference: "Genesis 37:2",
   },
   {
-    question: "What did Jacob tell Pharaoh about the length of his life?",
+    question:
+      "At what place did the man who found Joseph wandering say his brothers had gone?",
+    options: ["Dothan", "Shechem", "Hebron", "Bethel"],
+    answer: "Dothan",
+    reference: "Genesis 37:15-17",
+  },
+  {
+    question: "For how many pieces of silver was Joseph sold?",
     options: [
-      "His days had been few and difficult",
-      "His days had been peaceful and long",
-      "He had lived longer than Abraham",
-      "He had never experienced hardship"
+      "Twenty pieces of silver",
+      "Thirty pieces of silver",
+      "Twenty-five pieces of silver",
+      "Fifty pieces of silver",
     ],
-    answer: "His days had been few and difficult",
+    answer: "Twenty pieces of silver",
+    reference: "Genesis 37:28",
+  },
+  {
+    question:
+      "What three items did Tamar request as a pledge from Judah?",
+    options: [
+      "His signet, cord, and staff",
+      "His ring, cloak, and sandals",
+      "His staff, belt, and bracelet",
+      "His signet, sword, and cord",
+    ],
+    answer: "His signet, cord, and staff",
+    reference: "Genesis 38:17-18",
+  },
+  {
+    question:
+      "What names were given to Tamar's twin sons, and which one had the scarlet thread tied to his hand before withdrawing it?",
+    options: [
+      "Perez and Zerah; Zerah had the scarlet thread",
+      "Zerah and Perez; Perez had the scarlet thread",
+      "Shelah and Zerah; Shelah had the scarlet thread",
+      "Perez and Onan; Perez had the scarlet thread",
+    ],
+    answer: "Perez and Zerah; Zerah had the scarlet thread",
+    reference: "Genesis 38:27-30",
+  },
+  {
+    question:
+      "What offices did Pharaoh's two imprisoned servants hold when Joseph interpreted their dreams?",
+    options: [
+      "Chief cupbearer and chief baker",
+      "Chief steward and chief baker",
+      "Cupbearer and commander of the guard",
+      "Chief baker and chief scribe",
+    ],
+    answer: "Chief cupbearer and chief baker",
+    reference: "Genesis 40:1-3",
+  },
+  {
+    question:
+      "In the chief cupbearer's dream, how many branches were on the vine?",
+    options: ["Three", "Seven", "Two", "Twelve"],
+    answer: "Three",
+    reference: "Genesis 40:9-13",
+  },
+  {
+    question:
+      "In the chief baker's dream, what was in the uppermost basket?",
+    options: [
+      "All kinds of baked goods for Pharaoh, which the birds ate",
+      "Three loaves of bread covered with grain",
+      "Fruit and bread for Pharaoh",
+      "Meat, bread, and cakes",
+    ],
+    answer:
+      "All kinds of baked goods for Pharaoh, which the birds ate",
+    reference: "Genesis 40:16-19",
+  },
+  {
+    question:
+      "How long after the cupbearer was restored did Pharaoh have the dreams that led to Joseph's release?",
+    options: ["Two full years", "Three years", "One year", "Seven years"],
+    answer: "Two full years",
+    reference: "Genesis 41:1",
+  },
+  {
+    question:
+      "What fraction of Egypt's produce did Joseph recommend collecting during the seven years of abundance?",
+    options: ["One-fifth", "One-tenth", "One-seventh", "One-fourth"],
+    answer: "One-fifth",
+    reference: "Genesis 41:34",
+  },
+  {
+    question:
+      "Who was Asenath, the woman Pharaoh gave Joseph as a wife?",
+    options: [
+      "The daughter of Potiphera, priest of On",
+      "The daughter of Potiphar, captain of the guard",
+      "The daughter of Pharaoh's chief cupbearer",
+      "The daughter of an Egyptian governor of Goshen",
+    ],
+    answer: "The daughter of Potiphera, priest of On",
+    reference: "Genesis 41:45",
+  },
+  {
+    question:
+      "How old was Joseph when he entered Pharaoh's service?",
+    options: [
+      "Thirty years old",
+      "Seventeen years old",
+      "Twenty-eight years old",
+      "Forty years old",
+    ],
+    answer: "Thirty years old",
+    reference: "Genesis 41:46",
+  },
+  {
+    question:
+      "What reason is given for Joseph naming his second son Ephraim?",
+    options: [
+      "God had made him fruitful in the land of his affliction",
+      "God had made him forget all his trouble",
+      "God had preserved him from prison",
+      "God had doubled his inheritance",
+    ],
+    answer:
+      "God had made him fruitful in the land of his affliction",
+    reference: "Genesis 41:52",
+  },
+  {
+    question:
+      "Which brother was kept bound in Egypt while the others returned to Canaan after their first journey for grain?",
+    options: ["Simeon", "Reuben", "Levi", "Judah"],
+    answer: "Simeon",
+    reference: "Genesis 42:24",
+  },
+  {
+    question:
+      "What did Reuben offer Jacob as a guarantee that he would bring Benjamin back safely?",
+    options: [
+      "The lives of his own two sons",
+      "His inheritance and flocks",
+      "His own life only",
+      "His firstborn rights",
+    ],
+    answer: "The lives of his own two sons",
+    reference: "Genesis 42:37",
+  },
+  {
+    question:
+      "What gifts did Jacob tell his sons to take back to Egypt for the man, besides double the money?",
+    options: [
+      "Balm, honey, spices, myrrh, pistachio nuts, and almonds",
+      "Silver, gold, balm, grain, and wine",
+      "Honey, dates, olive oil, spices, and figs",
+      "Balm, myrrh, frankincense, wine, and almonds",
+    ],
+    answer:
+      "Balm, honey, spices, myrrh, pistachio nuts, and almonds",
+    reference: "Genesis 43:11-12",
+  },
+  {
+    question:
+      "How much larger was Benjamin's portion than those of his brothers at Joseph's banquet?",
+    options: [
+      "Five times as much",
+      "Seven times as much",
+      "Twice as much",
+      "Ten times as much",
+    ],
+    answer: "Five times as much",
+    reference: "Genesis 43:34",
+  },
+  {
+    question:
+      "What two things did Joseph command his steward to put in Benjamin's sack?",
+    options: [
+      "Benjamin's grain money and Joseph's silver cup",
+      "A gold cup and twice the grain money",
+      "Joseph's signet ring and Benjamin's money",
+      "A silver cup and Judah's pledge",
+    ],
+    answer: "Benjamin's grain money and Joseph's silver cup",
+    reference: "Genesis 44:1-2",
+  },
+  {
+    question:
+      "In Judah's plea before Joseph, what reason did he give for offering himself instead of Benjamin?",
+    options: [
+      "He had guaranteed Benjamin's safety to his father and feared Jacob would die from grief",
+      "Benjamin was innocent while Judah had stolen the cup",
+      "Judah was the oldest surviving son",
+      "Jacob had commanded Judah to remain in Egypt if anything happened",
+    ],
+    answer:
+      "He had guaranteed Benjamin's safety to his father and feared Jacob would die from grief",
+    reference: "Genesis 44:18-34",
+  },
+  {
+    question:
+      "What did Joseph give Benjamin when sending his brothers back to Canaan after revealing himself?",
+    options: [
+      "Three hundred pieces of silver and five changes of garments",
+      "Five hundred pieces of silver and three garments",
+      "A silver cup and five garments",
+      "Three hundred pieces of silver and ten donkeys",
+    ],
+    answer:
+      "Three hundred pieces of silver and five changes of garments",
+    reference: "Genesis 45:22",
+  },
+  {
+    question:
+      "How many donkeys loaded with the good things of Egypt did Joseph send to his father, and how many female donkeys carried grain, bread, and provisions?",
+    options: [
+      "Ten male donkeys and ten female donkeys",
+      "Five male donkeys and ten female donkeys",
+      "Ten male donkeys and five female donkeys",
+      "Twenty male donkeys and ten female donkeys",
+    ],
+    answer: "Ten male donkeys and ten female donkeys",
+    reference: "Genesis 45:23",
+  },
+  {
+    question:
+      "At Beersheba, what did Jacob offer before God spoke to him in visions of the night?",
+    options: [
+      "Sacrifices to the God of his father Isaac",
+      "A tenth of all his possessions",
+      "Seven ewe lambs",
+      "A drink offering over a stone pillar",
+    ],
+    answer: "Sacrifices to the God of his father Isaac",
+    reference: "Genesis 46:1-4",
+  },
+  {
+    question:
+      "According to the count given in Genesis, how many persons of Jacob's household came to Egypt, including Joseph and his two sons in Egypt?",
+    options: ["Seventy", "Sixty-six", "Seventy-five", "Sixty-nine"],
+    answer: "Seventy",
+    reference: "Genesis 46:26-27",
+  },
+  {
+    question:
+      "What occupation did Joseph tell his brothers to emphasize before Pharaoh so they could settle in Goshen?",
+    options: [
+      "They were shepherds and had tended livestock from their youth",
+      "They were farmers from Canaan",
+      "They were merchants dealing in grain",
+      "They were craftsmen skilled in metalwork",
+    ],
+    answer:
+      "They were shepherds and had tended livestock from their youth",
+    reference: "Genesis 46:31-34",
+  },
+  {
+    question:
+      "During the famine, what did the Egyptians give Joseph after their money was exhausted in exchange for food?",
+    options: [
+      "Their livestock, and later their land and themselves",
+      "Their jewelry first, then their houses",
+      "Their land immediately, then their livestock",
+      "Only their cattle and sheep",
+    ],
+    answer: "Their livestock, and later their land and themselves",
+    reference: "Genesis 47:13-21",
+  },
+  {
+    question:
+      "What portion of produce did Joseph establish as Pharaoh's permanent share, except from the priests' land?",
+    options: ["One-fifth", "One-tenth", "One-fourth", "One-seventh"],
+    answer: "One-fifth",
+    reference: "Genesis 47:23-26",
+  },
+  {
+    question:
+      "How old was Jacob when he stood before Pharaoh?",
+    options: ["130 years", "147 years", "120 years", "137 years"],
+    answer: "130 years",
     reference: "Genesis 47:8-9",
   },
   {
-    question: "Which of Joseph's sons did Jacob deliberately place before the other when blessing them?",
-    options: ["Ephraim", "Manasseh", "Both at the same time", "Neither"],
-    answer: "Ephraim",
-    reference: "Genesis 48:17-20",
+    question:
+      "How many years did Jacob live in Egypt before his death?",
+    options: [
+      "Seventeen years",
+      "Twenty years",
+      "Twelve years",
+      "Seven years",
+    ],
+    answer: "Seventeen years",
+    reference: "Genesis 47:28",
   },
   {
-    question: "What did Jacob say about Joseph that distinguished him from his brothers in his blessing?",
+    question:
+      "Where did Jacob require Joseph to place his hand when swearing not to bury him in Egypt?",
     options: [
-      "He described Joseph as a fruitful bough by a spring",
-      "He called Joseph a lion",
-      "He called Joseph a serpent",
-      "He called Joseph a judge"
+      "Under Jacob's thigh",
+      "On Jacob's head",
+      "On the staff at Jacob's bedside",
+      "On the altar Jacob had built",
     ],
-    answer: "He described Joseph as a fruitful bough by a spring",
+    answer: "Under Jacob's thigh",
+    reference: "Genesis 47:29-31",
+  },
+  {
+    question:
+      "When Jacob blessed Joseph's sons, which hand did he intentionally place on Ephraim, the younger son?",
+    options: [
+      "His right hand",
+      "His left hand",
+      "Both hands",
+      "He did not touch Ephraim",
+    ],
+    answer: "His right hand",
+    reference: "Genesis 48:13-20",
+  },
+  {
+    question:
+      "Which of Jacob's sons was compared to a serpent by the roadside and a viper along the path?",
+    options: ["Dan", "Gad", "Issachar", "Naphtali"],
+    answer: "Dan",
+    reference: "Genesis 49:16-18",
+  },
+  {
+    question:
+      "Which son was compared to a strong donkey lying down between two burdens?",
+    options: ["Issachar", "Zebulun", "Asher", "Naphtali"],
+    answer: "Issachar",
+    reference: "Genesis 49:14-15",
+  },
+  {
+    question:
+      "Which son did Jacob describe as a fruitful bough by a spring whose branches run over a wall?",
+    options: ["Joseph", "Judah", "Benjamin", "Zebulun"],
+    answer: "Joseph",
     reference: "Genesis 49:22",
   },
   {
-    question: "Who took responsibility for making sure Jacob was buried according to his wishes?",
-    options: ["Joseph", "Judah", "Reuben", "Benjamin"],
-    answer: "Joseph",
-    reference: "Genesis 50:1-14",
-  },
-  {
-    question: "Why were Joseph's brothers afraid after Jacob died?",
+    question:
+      "What did Jacob say about Benjamin in his final blessings?",
     options: [
-      "They feared Joseph would repay them for what they had done",
-      "They feared Pharaoh would punish them",
-      "They had lost all their possessions",
-      "They were afraid of leaving Egypt"
+      "He is a ravenous wolf; in the morning he devours the prey and at evening divides the spoil",
+      "He is a lion's cub who crouches over prey",
+      "He is a deer let loose who gives beautiful words",
+      "He is a serpent by the road that bites the horse's heels",
     ],
     answer:
-      "They feared Joseph would repay them for what they had done",
-    reference: "Genesis 50:15",
+      "He is a ravenous wolf; in the morning he devours the prey and at evening divides the spoil",
+    reference: "Genesis 49:27",
+  },
+  {
+    question:
+      "How long did the Egyptians mourn for Jacob?",
+    options: ["Seventy days", "Forty days", "Thirty days", "Seven days"],
+    answer: "Seventy days",
+    reference: "Genesis 50:1-3",
+  },
+  {
+    question:
+      "How long did the embalming process for Jacob take?",
+    options: ["Forty days", "Seventy days", "Thirty days", "Seven days"],
+    answer: "Forty days",
+    reference: "Genesis 50:2-3",
+  },
+  {
+    question:
+      "At what place did Joseph and the funeral company hold a great and very solemn mourning for Jacob for seven days?",
+    options: [
+      "The threshing floor of Atad beyond the Jordan",
+      "The cave of Machpelah",
+      "Beersheba",
+      "The oaks of Mamre",
+    ],
+    answer: "The threshing floor of Atad beyond the Jordan",
+    reference: "Genesis 50:10-11",
+  },
+  {
+    question: "How old was Joseph when he died?",
+    options: ["110 years", "120 years", "147 years", "100 years"],
+    answer: "110 years",
+    reference: "Genesis 50:22-26",
+  },
+  {
+    question:
+      "Before his death, how far into his descendants did Joseph live to see?",
+    options: [
+      "Ephraim's children to the third generation, and the children of Machir son of Manasseh",
+      "Only his grandchildren through Ephraim",
+      "The fourth generation of both Manasseh and Ephraim",
+      "Only Machir, son of Manasseh",
+    ],
+    answer:
+      "Ephraim's children to the third generation, and the children of Machir son of Manasseh",
+    reference: "Genesis 50:23",
+  },
+  {
+    question:
+      "What was done with Joseph's body after his death in Egypt?",
+    options: [
+      "He was embalmed and placed in a coffin in Egypt",
+      "He was immediately taken to Canaan and buried at Machpelah",
+      "He was cremated and his ashes preserved",
+      "He was buried in Goshen without embalming",
+    ],
+    answer: "He was embalmed and placed in a coffin in Egypt",
+    reference: "Genesis 50:26",
   },
 ];
 

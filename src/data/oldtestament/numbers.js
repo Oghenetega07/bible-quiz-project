@@ -1,455 +1,621 @@
 const numbersQuestions = [
   {
     question:
-      "From what age were the Israelite men counted for military service in the census?",
+      "On what date did the LORD command Moses to take the first census of Israel in the wilderness of Sinai?",
     options: [
-      "Eighteen years old and above",
-      "Twenty years old and above",
-      "Twenty-five years old and above",
-      "Thirty years old and above",
+      "The first day of the second month in the second year after leaving Egypt",
+      "The first day of the first month in the second year",
+      "The twentieth day of the second month in the second year",
+      "The tenth day of the seventh month in the second year",
     ],
-    answer: "Twenty years old and above",
+    answer:
+      "The first day of the second month in the second year after leaving Egypt",
+    reference: "Numbers 1:1",
+  },
+  {
+    question:
+      "From what age were Israelite males counted for military service in the first census?",
+    options: [
+      "Twenty years old and upward",
+      "Thirty years old and upward",
+      "Eighteen years old and upward",
+      "Twenty-five years old and upward",
+    ],
+    answer: "Twenty years old and upward",
     reference: "Numbers 1:3",
   },
   {
     question:
-      "Which tribe was not counted with the other tribes in the military census?",
+      "Which tribe had the largest number of fighting men in the first census?",
     options: [
       "Judah",
+      "Dan",
+      "Reuben",
+      "Ephraim",
+    ],
+    answer: "Judah",
+    reference: "Numbers 1:27",
+  },
+  {
+    question:
+      "How many men from the tribe of Judah were counted in the first census?",
+    options: [
+      "74,600",
+      "62,700",
+      "59,300",
+      "54,400",
+    ],
+    answer: "74,600",
+    reference: "Numbers 1:27",
+  },
+  {
+    question:
+      "What was the total number of men counted in Israel's first military census?",
+    options: [
+      "603,550",
+      "601,730",
+      "600,000",
+      "605,550",
+    ],
+    answer: "603,550",
+    reference: "Numbers 1:46",
+  },
+  {
+    question:
+      "Which tribe was not included in the ordinary military census?",
+    options: [
       "Levi",
       "Benjamin",
       "Simeon",
+      "Naphtali",
     ],
     answer: "Levi",
     reference: "Numbers 1:47-49",
   },
   {
     question:
-      "What special responsibility was given to the Levites concerning the tabernacle?",
+      "What specific responsibility was given to the Levites regarding the tabernacle?",
     options: [
-      "To guard and carry it",
-      "To lead Israel's army",
-      "To distribute the land",
-      "To judge disputes among the tribes",
+      "They were responsible for the tabernacle, its furnishings, transport, setup, and encampment around it",
+      "They alone offered all animal sacrifices",
+      "They guarded only the ark",
+      "They served as Israel's military commanders",
     ],
-    answer: "To guard and carry it",
+    answer:
+      "They were responsible for the tabernacle, its furnishings, transport, setup, and encampment around it",
     reference: "Numbers 1:50-53",
   },
   {
     question:
-      "Which tribe camped directly east of the tabernacle as the leading tribe of that side?",
+      "Which three tribes camped together on the east side of the tabernacle under Judah's standard?",
     options: [
-      "Judah",
-      "Reuben",
-      "Dan",
-      "Ephraim",
+      "Judah, Issachar, and Zebulun",
+      "Judah, Simeon, and Benjamin",
+      "Reuben, Simeon, and Gad",
+      "Judah, Ephraim, and Manasseh",
     ],
-    answer: "Judah",
-    reference: "Numbers 2:3",
+    answer: "Judah, Issachar, and Zebulun",
+    reference: "Numbers 2:3-8",
   },
   {
     question:
-      "Which tribe led the camp on the south side of the tabernacle?",
+      "Which tribes camped on the south side under Reuben's standard?",
     options: [
-      "Reuben",
-      "Judah",
-      "Dan",
-      "Ephraim",
+      "Reuben, Simeon, and Gad",
+      "Reuben, Judah, and Gad",
+      "Simeon, Gad, and Benjamin",
+      "Reuben, Ephraim, and Manasseh",
     ],
-    answer: "Reuben",
-    reference: "Numbers 2:10",
+    answer: "Reuben, Simeon, and Gad",
+    reference: "Numbers 2:10-16",
   },
   {
     question:
-      "Which tribe led the camp on the west side of the tabernacle?",
+      "Which three tribes camped on the west side under Ephraim's standard?",
     options: [
-      "Ephraim",
-      "Benjamin",
-      "Dan",
-      "Judah",
+      "Ephraim, Manasseh, and Benjamin",
+      "Ephraim, Dan, and Asher",
+      "Manasseh, Benjamin, and Gad",
+      "Ephraim, Issachar, and Zebulun",
     ],
-    answer: "Ephraim",
-    reference: "Numbers 2:18",
+    answer: "Ephraim, Manasseh, and Benjamin",
+    reference: "Numbers 2:18-24",
   },
   {
     question:
-      "Which tribe led the camp on the north side of the tabernacle?",
+      "Which three tribes camped on the north side under Dan's standard?",
     options: [
-      "Asher",
-      "Dan",
-      "Naphtali",
-      "Gad",
+      "Dan, Asher, and Naphtali",
+      "Dan, Gad, and Naphtali",
+      "Asher, Naphtali, and Benjamin",
+      "Dan, Simeon, and Asher",
     ],
-    answer: "Dan",
-    reference: "Numbers 2:25",
+    answer: "Dan, Asher, and Naphtali",
+    reference: "Numbers 2:25-31",
   },
   {
     question:
-      "Who were the four sons of Aaron named in Numbers?",
+      "Which sons of Aaron died before the LORD because they offered unauthorized fire?",
     options: [
-      "Nadab, Abihu, Eleazar, and Ithamar",
-      "Eleazar, Phinehas, Gershon, and Merari",
-      "Nadab, Eleazar, Korah, and Ithamar",
-      "Abihu, Phinehas, Kohath, and Gershon",
+      "Nadab and Abihu",
+      "Eleazar and Ithamar",
+      "Nadab and Eleazar",
+      "Abihu and Ithamar",
     ],
-    answer: "Nadab, Abihu, Eleazar, and Ithamar",
-    reference: "Numbers 3:2",
-  },
-  {
-    question:
-      "Why did Nadab and Abihu die?",
-    options: [
-      "They rebelled against Moses",
-      "They offered unauthorized fire",
-      "They refused to serve as priests",
-      "They entered the camp of Moab",
-    ],
-    answer: "They offered unauthorized fire",
+    answer: "Nadab and Abihu",
     reference: "Numbers 3:4",
   },
   {
     question:
-      "What did God claim for Himself in place of every firstborn Israelite?",
+      "Which three clans descended from Levi?",
     options: [
-      "The Levites",
-      "The priests only",
-      "The tribe of Judah",
-      "The elders",
+      "Gershon, Kohath, and Merari",
+      "Kohath, Amram, and Izhar",
+      "Gershon, Merari, and Aaron",
+      "Levi, Kohath, and Gershon",
     ],
-    answer: "The Levites",
-    reference: "Numbers 3:12",
+    answer: "Gershon, Kohath, and Merari",
+    reference: "Numbers 3:17",
   },
   {
     question:
-      "Which Levitical clan was responsible for the most holy objects of the sanctuary?",
+      "Which Levitical clan was responsible for the ark, table, lampstand, altars, sacred utensils, and curtain?",
     options: [
-      "Gershonites",
-      "Merarites",
-      "Kohathites",
-      "Aaronites",
-    ],
-    answer: "Kohathites",
-    reference: "Numbers 4:4",
-  },
-  {
-    question:
-      "Who had to cover the sacred objects before the Kohathites could carry them?",
-    options: [
-      "Moses and Joshua",
-      "Aaron and his sons",
-      "The tribal leaders",
+      "The Kohathites",
       "The Gershonites",
+      "The Merarites",
+      "The Aaronites",
     ],
-    answer: "Aaron and his sons",
-    reference: "Numbers 4:5-15",
+    answer: "The Kohathites",
+    reference: "Numbers 3:31",
   },
   {
     question:
-      "What would happen if the Kohathites touched the holy things directly?",
+      "Which Levitical clan was responsible for the frames, crossbars, posts, bases, and related equipment of the tabernacle?",
     options: [
-      "They would become priests",
-      "They would die",
-      "They would be sent outside the camp",
-      "They would be unclean for seven days",
+      "The Merarites",
+      "The Kohathites",
+      "The Gershonites",
+      "The sons of Aaron",
     ],
-    answer: "They would die",
+    answer: "The Merarites",
+    reference: "Numbers 3:36-37",
+  },
+  {
+    question:
+      "How many firstborn Israelite males one month old and upward were counted?",
+    options: [
+      "22,273",
+      "22,000",
+      "23,000",
+      "24,000",
+    ],
+    answer: "22,273",
+    reference: "Numbers 3:43",
+  },
+  {
+    question:
+      "How many Levite males one month old and upward were counted?",
+    options: [
+      "22,000",
+      "22,273",
+      "23,000",
+      "21,500",
+    ],
+    answer: "22,000",
+    reference: "Numbers 3:39",
+  },
+  {
+    question:
+      "What redemption price was required for each of the 273 firstborn Israelites who exceeded the number of Levites?",
+    options: [
+      "Five shekels",
+      "One shekel",
+      "Ten shekels",
+      "Half a shekel",
+    ],
+    answer: "Five shekels",
+    reference: "Numbers 3:46-51",
+  },
+  {
+    question:
+      "What age range was used for counting Levites eligible for work at the tent of meeting in Numbers 4?",
+    options: [
+      "Thirty to fifty years old",
+      "Twenty to fifty years old",
+      "Twenty-five to fifty years old",
+      "Thirty to sixty years old",
+    ],
+    answer: "Thirty to fifty years old",
+    reference: "Numbers 4:3",
+  },
+  {
+    question:
+      "What were the Kohathites forbidden to do when transporting the holy objects?",
+    options: [
+      "Touch the holy things directly",
+      "Carry anything on their shoulders",
+      "Enter the outer courtyard",
+      "Look toward the sanctuary",
+    ],
+    answer: "Touch the holy things directly",
     reference: "Numbers 4:15",
   },
   {
     question:
-      "What was to happen to people with certain skin diseases or bodily discharges?",
+      "What danger was associated with the Kohathites looking at the holy things even for a moment?",
     options: [
-      "They were to remain near the tabernacle",
-      "They were to be sent outside the camp",
-      "They were to join the Levites",
-      "They were to fast for seven days",
+      "They could die",
+      "They would become unclean for seven days",
+      "They would be expelled from the Levites",
+      "They would lose their inheritance",
     ],
-    answer: "They were to be sent outside the camp",
-    reference: "Numbers 5:2-4",
+    answer: "They could die",
+    reference: "Numbers 4:20",
   },
   {
     question:
-      "When someone wronged another person, what was added to the full restitution?",
+      "What was the total number of Levite men aged thirty to fifty counted for tabernacle service?",
     options: [
-      "One tenth",
-      "One fifth",
-      "One quarter",
-      "One half",
+      "8,580",
+      "22,000",
+      "8,300",
+      "7,500",
     ],
-    answer: "One fifth",
+    answer: "8,580",
+    reference: "Numbers 4:48",
+  },
+  {
+    question:
+      "When restitution was made for a wrong committed against another person, what additional amount had to be added?",
+    options: [
+      "One-fifth",
+      "One-tenth",
+      "One-half",
+      "Double the amount",
+    ],
+    answer: "One-fifth",
     reference: "Numbers 5:7",
   },
   {
     question:
-      "What was the purpose of the bitter water in the jealousy test?",
+      "If the person wronged had no close relative to receive restitution, to whom was the payment given?",
     options: [
-      "To test whether a wife had been unfaithful",
-      "To cleanse a priest",
-      "To dedicate a Nazirite",
-      "To test a tribal leader",
+      "The LORD through the priest",
+      "The tribal leader",
+      "The Levites generally",
+      "The poor of the camp",
     ],
-    answer: "To test whether a wife had been unfaithful",
-    reference: "Numbers 5:11-31",
+    answer: "The LORD through the priest",
+    reference: "Numbers 5:8",
   },
   {
     question:
-      "What was a Nazirite forbidden to consume during the period of the vow?",
+      "What grain offering was brought by a husband in the jealousy ritual?",
     options: [
-      "Products from the grapevine",
-      "Bread",
-      "Milk",
-      "Olive oil",
+      "One-tenth of an ephah of barley flour without oil or frankincense",
+      "Fine wheat flour mixed with oil",
+      "Two-tenths of an ephah of barley with frankincense",
+      "One omer of wheat flour with salt",
     ],
-    answer: "Products from the grapevine",
-    reference: "Numbers 6:3-4",
+    answer:
+      "One-tenth of an ephah of barley flour without oil or frankincense",
+    reference: "Numbers 5:15",
   },
   {
     question:
-      "What was a Nazirite forbidden to do to his hair during the vow?",
+      "What was added to the holy water used in the jealousy ritual?",
     options: [
-      "Wash it",
-      "Cut it",
-      "Cover it",
-      "Anoint it",
+      "Dust from the tabernacle floor",
+      "Ashes from the altar",
+      "Blood from a goat",
+      "Salt from the sanctuary",
     ],
-    answer: "Cut it",
-    reference: "Numbers 6:5",
+    answer: "Dust from the tabernacle floor",
+    reference: "Numbers 5:17",
   },
   {
     question:
-      "What contact would make a Nazirite ceremonially defiled?",
+      "What three restrictions characterized a Nazirite vow?",
     options: [
-      "Touching a dead body",
-      "Touching a foreigner",
-      "Entering a vineyard",
-      "Eating unleavened bread",
+      "No grape products, no cutting of hair, and no contact with a dead body",
+      "No meat, no wine, and no marriage",
+      "No work, no haircuts, and no oil",
+      "No wine, no sandals, and no travel",
     ],
-    answer: "Touching a dead body",
-    reference: "Numbers 6:6-7",
+    answer:
+      "No grape products, no cutting of hair, and no contact with a dead body",
+    reference: "Numbers 6:2-8",
   },
   {
     question:
-      "Which blessing begins with the words, 'The Lord bless you and keep you'?",
+      "What happened if a Nazirite was suddenly defiled by someone dying in his presence?",
     options: [
-      "The priestly blessing",
-      "The tribal blessing",
-      "The Nazirite blessing",
-      "The census blessing",
+      "He shaved his head on the seventh day and restarted the period of dedication",
+      "He added seven days but did not restart",
+      "He paid a fine and continued",
+      "He permanently lost his Nazirite status",
     ],
-    answer: "The priestly blessing",
-    reference: "Numbers 6:24-26",
+    answer:
+      "He shaved his head on the seventh day and restarted the period of dedication",
+    reference: "Numbers 6:9-12",
   },
   {
     question:
-      "How many leaders brought offerings at the dedication of the altar?",
+      "What was done with a Nazirite's hair at the completion of the vow?",
     options: [
-      "Ten",
-      "Twelve",
-      "Seventy",
-      "Twenty-four",
+      "It was placed in the fire under the fellowship offering",
+      "It was buried outside the camp",
+      "It was given to the priest",
+      "It was placed on the altar of incense",
     ],
-    answer: "Twelve",
-    reference: "Numbers 7:2-3",
+    answer: "It was placed in the fire under the fellowship offering",
+    reference: "Numbers 6:18",
   },
   {
     question:
-      "How many covered carts were brought by the tribal leaders for the Levites?",
+      "How many wagons and oxen were given by the tribal leaders for tabernacle transport?",
     options: [
-      "Four",
-      "Six",
-      "Twelve",
-      "Twenty-four",
+      "Six covered wagons and twelve oxen",
+      "Twelve wagons and twenty-four oxen",
+      "Four wagons and eight oxen",
+      "Six wagons and six oxen",
     ],
-    answer: "Six",
+    answer: "Six covered wagons and twelve oxen",
     reference: "Numbers 7:3",
   },
   {
     question:
-      "Why were no carts given to the Kohathites?",
+      "Why were no wagons or oxen given to the Kohathites?",
     options: [
-      "They had fewer duties",
-      "They had to carry the holy things on their shoulders",
-      "They refused the carts",
-      "They traveled separately",
+      "They were required to carry the holy things on their shoulders",
+      "They had fewer items to transport",
+      "Their duties were only inside the camp",
+      "They were exempt from transport work",
     ],
-    answer: "They had to carry the holy things on their shoulders",
+    answer:
+      "They were required to carry the holy things on their shoulders",
     reference: "Numbers 7:9",
   },
   {
     question:
-      "Where was the lampstand positioned so its lamps gave light in front of it?",
+      "Who was the first tribal leader to present his dedication offering for the altar?",
     options: [
-      "Inside the courtyard",
-      "Opposite the lampstand itself",
-      "Behind the ark",
-      "Outside the tent",
+      "Nahshon son of Amminadab of Judah",
+      "Nethanel son of Zuar of Issachar",
+      "Eliab son of Helon of Zebulun",
+      "Elizur son of Shedeur of Reuben",
     ],
-    answer: "Opposite the lampstand itself",
+    answer: "Nahshon son of Amminadab of Judah",
+    reference: "Numbers 7:12",
+  },
+  {
+    question:
+      "How many silver dishes, silver basins, and gold bowls were presented altogether during the altar dedication?",
+    options: [
+      "Twelve of each",
+      "Six of each",
+      "Twenty-four of each",
+      "Seventy of each",
+    ],
+    answer: "Twelve of each",
+    reference: "Numbers 7:84",
+  },
+  {
+    question:
+      "From where did Moses hear God's voice when he entered the tent of meeting?",
+    options: [
+      "From above the atonement cover between the two cherubim",
+      "From the altar of incense",
+      "From behind the curtain",
+      "From the pillar of cloud outside",
+    ],
+    answer: "From above the atonement cover between the two cherubim",
+    reference: "Numbers 7:89",
+  },
+  {
+    question:
+      "Toward what were the seven lamps of the lampstand arranged to give light?",
+    options: [
+      "The area in front of the lampstand",
+      "The ark",
+      "The entrance curtain",
+      "The altar of incense",
+    ],
+    answer: "The area in front of the lampstand",
     reference: "Numbers 8:2",
   },
   {
     question:
-      "What were the Levites presented as before the Lord?",
+      "What age did Levites begin service according to Numbers 8?",
     options: [
-      "A wave offering",
-      "A burnt offering",
-      "A guilt offering",
-      "A drink offering",
+      "Twenty-five years old",
+      "Thirty years old",
+      "Twenty years old",
+      "Fifty years old",
     ],
-    answer: "A wave offering",
-    reference: "Numbers 8:11",
-  },
-  {
-    question:
-      "At what age did Levites begin their service at the tent of meeting?",
-    options: [
-      "Twenty",
-      "Twenty-five",
-      "Thirty",
-      "Forty",
-    ],
-    answer: "Twenty-five",
+    answer: "Twenty-five years old",
     reference: "Numbers 8:24",
   },
   {
     question:
-      "At what age did Levites retire from regular service?",
+      "At what age did Levites retire from compulsory service?",
     options: [
-      "Forty",
-      "Forty-five",
-      "Fifty",
-      "Sixty",
+      "Fifty years old",
+      "Sixty years old",
+      "Forty years old",
+      "Seventy years old",
     ],
-    answer: "Fifty",
+    answer: "Fifty years old",
     reference: "Numbers 8:25",
   },
   {
     question:
-      "Who was allowed to celebrate the Passover one month later than usual?",
+      "What were retired Levites still allowed to do after age fifty?",
     options: [
-      "Those who were ceremonially unclean or away on a journey",
-      "Only priests",
-      "Only Levites",
-      "Only foreigners",
+      "Assist their fellow Levites in carrying out duties, but not perform regular service",
+      "Serve as priests at the altar",
+      "Carry the ark",
+      "Continue all normal duties",
     ],
-    answer: "Those who were ceremonially unclean or away on a journey",
-    reference: "Numbers 9:10-11",
+    answer:
+      "Assist their fellow Levites in carrying out duties, but not perform regular service",
+    reference: "Numbers 8:26",
   },
   {
     question:
-      "What appeared over the tabernacle by day?",
+      "What provision was made for Israelites who were ceremonially unclean at the normal Passover date?",
     options: [
-      "A cloud",
-      "Fire",
-      "A rainbow",
-      "Smoke only",
+      "They could observe Passover one month later",
+      "They were permanently excused",
+      "They had to wait until the next year",
+      "They observed it seven days later",
     ],
-    answer: "A cloud",
-    reference: "Numbers 9:15-16",
+    answer: "They could observe Passover one month later",
+    reference: "Numbers 9:6-11",
   },
   {
     question:
-      "What appeared over the tabernacle by night?",
+      "On what date was the second-month Passover observed by those unable to keep the first?",
     options: [
-      "A pillar of fire",
-      "A star",
-      "A moonbeam",
-      "A lamp",
+      "The fourteenth day of the second month",
+      "The tenth day of the second month",
+      "The fifteenth day of the second month",
+      "The first day of the second month",
     ],
-    answer: "A pillar of fire",
-    reference: "Numbers 9:16",
+    answer: "The fourteenth day of the second month",
+    reference: "Numbers 9:11",
   },
   {
     question:
-      "What determined when the Israelites set out on their journeys?",
+      "What were the silver trumpets used for?",
     options: [
-      "The movement of the cloud",
-      "The decision of the tribal leaders",
-      "The sounding of drums",
-      "The rising of the sun",
+      "Calling the community together and signaling the camps to set out",
+      "Only announcing sacrifices",
+      "Only warning of war",
+      "Only beginning festivals",
     ],
-    answer: "The movement of the cloud",
-    reference: "Numbers 9:17-23",
+    answer:
+      "Calling the community together and signaling the camps to set out",
+    reference: "Numbers 10:2",
   },
   {
     question:
-      "How many silver trumpets did God command Moses to make?",
+      "How many silver trumpets was Moses commanded to make?",
     options: [
-      "One",
       "Two",
       "Seven",
       "Twelve",
+      "One",
     ],
     answer: "Two",
     reference: "Numbers 10:2",
   },
   {
     question:
-      "What was one purpose of the silver trumpets?",
+      "Who was specifically responsible for blowing the silver trumpets?",
     options: [
-      "To summon the community and signal movement",
-      "To announce sacrifices only",
-      "To mark the beginning of every month only",
-      "To call the Levites to eat",
+      "The sons of Aaron, the priests",
+      "The Kohathites",
+      "The tribal leaders",
+      "Joshua and Caleb",
     ],
-    answer: "To summon the community and signal movement",
-    reference: "Numbers 10:2",
+    answer: "The sons of Aaron, the priests",
+    reference: "Numbers 10:8",
   },
   {
     question:
-      "Which tribe set out first when Israel began moving from Sinai?",
+      "On what date did the cloud lift from above the tabernacle, beginning Israel's departure from Sinai?",
     options: [
-      "Judah",
-      "Reuben",
-      "Dan",
-      "Ephraim",
+      "The twentieth day of the second month of the second year",
+      "The first day of the second month",
+      "The fourteenth day of the first month",
+      "The first day of the third month",
     ],
-    answer: "Judah",
-    reference: "Numbers 10:14",
+    answer:
+      "The twentieth day of the second month of the second year",
+    reference: "Numbers 10:11",
   },
   {
     question:
-      "What complaint caused the fire of the Lord to burn among the people at Taberah?",
+      "Who did Moses ask to accompany Israel and serve as their eyes in the wilderness?",
     options: [
-      "They complained about their hardships",
-      "They refused to leave Egypt",
-      "They worshiped another god",
-      "They attacked Moses",
+      "Hobab son of Reuel the Midianite",
+      "Jethro son of Midian",
+      "Caleb son of Jephunneh",
+      "Hur son of Caleb",
     ],
-    answer: "They complained about their hardships",
+    answer: "Hobab son of Reuel the Midianite",
+    reference: "Numbers 10:29-32",
+  },
+  {
+    question:
+      "What did Moses say whenever the ark set out?",
+    options: [
+      "Rise up, LORD! May your enemies be scattered",
+      "The LORD is our banner",
+      "Be strong and courageous",
+      "Let Israel follow the cloud",
+    ],
+    answer: "Rise up, LORD! May your enemies be scattered",
+    reference: "Numbers 10:35",
+  },
+  {
+    question:
+      "What happened at Taberah after the people complained about their hardships?",
+    options: [
+      "Fire from the LORD burned among the outskirts of the camp",
+      "Quail covered the camp",
+      "Snakes attacked the people",
+      "The ground opened beneath them",
+    ],
+    answer: "Fire from the LORD burned among the outskirts of the camp",
     reference: "Numbers 11:1-3",
   },
   {
     question:
-      "What food did the people crave after becoming tired of manna?",
+      "What foods from Egypt did the people remember while complaining about manna?",
     options: [
-      "Meat",
-      "Fish only",
-      "Bread",
-      "Fruit",
+      "Fish, cucumbers, melons, leeks, onions, and garlic",
+      "Fish, dates, barley, onions, and grapes",
+      "Meat, figs, cucumbers, and olives",
+      "Melons, lentils, garlic, and bread",
     ],
-    answer: "Meat",
-    reference: "Numbers 11:4",
+    answer: "Fish, cucumbers, melons, leeks, onions, and garlic",
+    reference: "Numbers 11:5",
   },
   {
     question:
-      "How was manna described in appearance?",
+      "What did manna look like according to Numbers?",
     options: [
-      "Like coriander seed",
-      "Like barley",
-      "Like olives",
-      "Like grapes",
+      "Coriander seed and like bdellium in appearance",
+      "White pearls",
+      "Barley grain and amber",
+      "Mustard seed and crystal",
     ],
-    answer: "Like coriander seed",
+    answer: "Coriander seed and like bdellium in appearance",
     reference: "Numbers 11:7",
+  },
+  {
+    question:
+      "How did the people prepare manna before eating it?",
+    options: [
+      "They ground it in mills or crushed it in mortars, boiled it, and made cakes",
+      "They ate it only raw",
+      "They baked it whole without grinding",
+      "They mixed it with meat",
+    ],
+    answer:
+      "They ground it in mills or crushed it in mortars, boiled it, and made cakes",
+    reference: "Numbers 11:8",
   },
   {
     question:
       "How many elders did God tell Moses to gather to help carry the burden of the people?",
     options: [
-      "Twelve",
-      "Forty",
       "Seventy",
+      "Twelve",
+      "Fifty",
       "One hundred",
     ],
     answer: "Seventy",
@@ -457,131 +623,167 @@ const numbersQuestions = [
   },
   {
     question:
-      "What happened when the Spirit rested on the seventy elders?",
-    options: [
-      "They prophesied",
-      "They became priests",
-      "They fell asleep",
-      "They left the camp",
-    ],
-    answer: "They prophesied",
-    reference: "Numbers 11:25",
-  },
-  {
-    question:
-      "Which two men prophesied in the camp even though they had not gone out to the tent?",
+      "Which two men prophesied in the camp even though they had not gone out to the tent with the other elders?",
     options: [
       "Eldad and Medad",
-      "Dathan and Abiram",
       "Joshua and Caleb",
-      "Korah and On",
+      "Dathan and Abiram",
+      "Nadab and Abihu",
     ],
     answer: "Eldad and Medad",
     reference: "Numbers 11:26",
   },
   {
     question:
-      "What birds did God send in great numbers to provide meat?",
+      "How long did God say the people would eat meat after they demanded it?",
     options: [
-      "Quail",
-      "Doves",
-      "Pigeons",
-      "Ravens",
+      "A whole month, until it came out of their nostrils",
+      "Seven days",
+      "Forty days",
+      "Three days",
     ],
-    answer: "Quail",
+    answer: "A whole month, until it came out of their nostrils",
+    reference: "Numbers 11:19-20",
+  },
+  {
+    question:
+      "Approximately how far around the camp did the quail spread?",
+    options: [
+      "About a day's journey in every direction",
+      "About three days' journey",
+      "Seven miles",
+      "Only within the camp",
+    ],
+    answer: "About a day's journey in every direction",
     reference: "Numbers 11:31",
   },
   {
     question:
-      "What happened to many people while the meat was still between their teeth?",
+      "Approximately how deep were the quail over the ground?",
     options: [
-      "A severe plague struck them",
-      "They fell asleep",
-      "They became unable to speak",
-      "They were sent outside the camp",
+      "About two cubits",
+      "One cubit",
+      "Five cubits",
+      "Half a cubit",
     ],
-    answer: "A severe plague struck them",
-    reference: "Numbers 11:33",
+    answer: "About two cubits",
+    reference: "Numbers 11:31",
   },
   {
     question:
-      "Why did Miriam and Aaron speak against Moses?",
+      "What was the place named where the people who craved other food were buried?",
     options: [
-      "Because of the Cushite woman he had married",
-      "Because he refused to enter Canaan",
-      "Because he appointed Joshua",
-      "Because he counted the tribes",
+      "Kibroth Hattaavah",
+      "Taberah",
+      "Hazeroth",
+      "Massah",
     ],
-    answer: "Because of the Cushite woman he had married",
+    answer: "Kibroth Hattaavah",
+    reference: "Numbers 11:34",
+  },
+  {
+    question:
+      "What reason did Miriam and Aaron initially give for speaking against Moses?",
+    options: [
+      "He had married a Cushite woman",
+      "He had appointed Joshua",
+      "He refused to return to Egypt",
+      "He favored the tribe of Levi",
+    ],
+    answer: "He had married a Cushite woman",
     reference: "Numbers 12:1",
   },
   {
     question:
-      "How was Moses described in relation to humility?",
+      "How did God distinguish Moses from other prophets?",
     options: [
-      "More humble than anyone else on earth",
-      "More powerful than every king",
-      "More patient than Aaron",
-      "More knowledgeable than the elders",
+      "God spoke with him face to face, clearly and not in riddles",
+      "Moses alone saw dreams",
+      "Moses alone entered the tabernacle",
+      "Moses never needed visions",
     ],
-    answer: "More humble than anyone else on earth",
-    reference: "Numbers 12:3",
+    answer: "God spoke with him face to face, clearly and not in riddles",
+    reference: "Numbers 12:6-8",
   },
   {
     question:
-      "What happened to Miriam after God confronted her and Aaron?",
+      "What happened to Miriam after the LORD's anger was kindled against her and Aaron?",
     options: [
-      "She became leprous",
+      "She became leprous, white as snow",
       "She became blind",
-      "She was exiled permanently",
       "She lost her voice",
+      "She was struck with fever",
     ],
-    answer: "She became leprous",
-    reference: "Numbers 12:10",
+    answer: "She became leprous, white as snow",
+    reference: "Numbers 12:9-10",
   },
   {
     question:
-      "How long was Miriam kept outside the camp?",
+      "How long was Miriam confined outside the camp?",
     options: [
-      "Three days",
       "Seven days",
       "Fourteen days",
-      "Thirty days",
+      "Three days",
+      "Forty days",
     ],
     answer: "Seven days",
     reference: "Numbers 12:14-15",
   },
   {
     question:
-      "How many men were sent to explore the land of Canaan?",
+      "From which wilderness were the twelve spies sent to explore Canaan?",
     options: [
-      "Ten",
-      "Twelve",
-      "Forty",
-      "Seventy",
+      "The Wilderness of Paran",
+      "The Wilderness of Zin",
+      "The Wilderness of Sin",
+      "The Wilderness of Shur",
     ],
-    answer: "Twelve",
-    reference: "Numbers 13:1-16",
+    answer: "The Wilderness of Paran",
+    reference: "Numbers 13:3",
   },
   {
     question:
-      "What new name did Moses give Hoshea son of Nun?",
+      "What was Hoshea son of Nun renamed by Moses?",
     options: [
       "Joshua",
       "Caleb",
-      "Gershom",
-      "Eleazar",
+      "Jephunneh",
+      "Nun",
     ],
     answer: "Joshua",
     reference: "Numbers 13:16",
   },
   {
     question:
+      "At what season did the spies enter Canaan?",
+    options: [
+      "The season of the first ripe grapes",
+      "Barley harvest",
+      "Wheat harvest",
+      "Olive harvest",
+    ],
+    answer: "The season of the first ripe grapes",
+    reference: "Numbers 13:20",
+  },
+  {
+    question:
+      "At which valley did the spies cut down a cluster of grapes so large that two men carried it on a pole?",
+    options: [
+      "The Valley of Eshcol",
+      "The Valley of Siddim",
+      "The Valley of Achor",
+      "The Valley of Hebron",
+    ],
+    answer: "The Valley of Eshcol",
+    reference: "Numbers 13:23-24",
+  },
+  {
+    question:
       "How long did the spies explore Canaan?",
     options: [
-      "Seven days",
-      "Twenty days",
       "Forty days",
+      "Thirty days",
+      "Seven days",
       "Seventy days",
     ],
     answer: "Forty days",
@@ -589,348 +791,389 @@ const numbersQuestions = [
   },
   {
     question:
-      "What large fruit did the spies carry back on a pole between two men?",
+      "Which three descendants of Anak were named at Hebron?",
     options: [
-      "A cluster of grapes",
-      "A bunch of figs",
-      "Pomegranates",
-      "Dates",
+      "Ahiman, Sheshai, and Talmai",
+      "Anak, Arba, and Talmai",
+      "Sheshai, Arba, and Og",
+      "Ahiman, Anak, and Sihon",
     ],
-    answer: "A cluster of grapes",
-    reference: "Numbers 13:23",
+    answer: "Ahiman, Sheshai, and Talmai",
+    reference: "Numbers 13:22",
   },
   {
     question:
-      "Which two spies encouraged Israel to trust God and enter the land?",
+      "Which two spies urged Israel to enter Canaan despite the report of the other ten?",
     options: [
       "Joshua and Caleb",
       "Moses and Aaron",
-      "Korah and Dathan",
-      "Eldad and Medad",
+      "Caleb and Eleazar",
+      "Joshua and Hur",
     ],
     answer: "Joshua and Caleb",
     reference: "Numbers 14:6-9",
   },
   {
     question:
-      "What did the people threaten to do after hearing the negative report of the spies?",
+      "How long did God decree Israel would wander in the wilderness because of the spies' report?",
     options: [
-      "Choose another leader and return to Egypt",
-      "Attack the Levites",
-      "Destroy the tabernacle",
-      "Cross the Jordan immediately",
+      "Forty years",
+      "Thirty-eight years",
+      "Seventy years",
+      "Forty days",
     ],
-    answer: "Choose another leader and return to Egypt",
-    reference: "Numbers 14:4",
+    answer: "Forty years",
+    reference: "Numbers 14:33-34",
   },
   {
     question:
-      "What punishment was given to the generation that refused to enter Canaan?",
+      "What principle linked the forty years of wandering to the spies' exploration?",
     options: [
-      "They would wander forty years and die in the wilderness",
-      "They would return to Egypt",
-      "They would serve the Canaanites",
-      "They would remain at Sinai",
+      "One year for each of the forty days",
+      "One year for every two days",
+      "Seven years for each week",
+      "One month for each day",
     ],
-    answer: "They would wander forty years and die in the wilderness",
-    reference: "Numbers 14:29-35",
-  },
-  {
-    question:
-      "Why was the wilderness wandering set at forty years?",
-    options: [
-      "One year for each day the spies explored the land",
-      "One year for each tribe",
-      "One year for each generation",
-      "One year for each plague in Egypt",
-    ],
-    answer: "One year for each day the spies explored the land",
+    answer: "One year for each of the forty days",
     reference: "Numbers 14:34",
   },
   {
     question:
-      "Which two adult spies were exempted from the judgment that fell on the rebellious generation?",
+      "Which generation was sentenced to die in the wilderness?",
     options: [
-      "Joshua and Caleb",
-      "Eldad and Medad",
-      "Moses and Aaron",
-      "Eleazar and Ithamar",
+      "Those twenty years old and upward who were counted in the census and grumbled",
+      "Everyone older than thirty",
+      "Only the ten unfaithful spies",
+      "All males including Levites",
     ],
-    answer: "Joshua and Caleb",
-    reference: "Numbers 14:30",
+    answer:
+      "Those twenty years old and upward who were counted in the census and grumbled",
+    reference: "Numbers 14:29",
   },
   {
     question:
-      "What happened to the ten spies who spread the bad report?",
+      "What happened to the ten spies who brought the bad report?",
     options: [
-      "They died by a plague",
-      "They were imprisoned",
-      "They were sent back to Egypt",
-      "They became servants",
+      "They died by a plague before the LORD",
+      "They were stoned",
+      "They were exiled",
+      "They died later in battle",
     ],
-    answer: "They died by a plague",
+    answer: "They died by a plague before the LORD",
     reference: "Numbers 14:36-37",
   },
   {
     question:
-      "What happened when some Israelites tried to enter Canaan after God had told them not to go?",
+      "Who defeated the Israelites when they presumptuously attempted to enter the land after God's judgment?",
     options: [
-      "They were defeated by the Amalekites and Canaanites",
-      "They captured the land",
-      "They became lost",
-      "They crossed the Jordan successfully",
+      "The Amalekites and Canaanites",
+      "The Amorites and Moabites",
+      "The Midianites and Edomites",
+      "The Philistines and Canaanites",
     ],
-    answer: "They were defeated by the Amalekites and Canaanites",
-    reference: "Numbers 14:40-45",
+    answer: "The Amalekites and Canaanites",
+    reference: "Numbers 14:45",
   },
   {
     question:
-      "What color cord was attached to the tassels on the garments of the Israelites?",
+      "What did Israel later have to attach to the corners of their garments?",
     options: [
-      "Blue",
-      "Purple",
-      "Red",
-      "White",
+      "Tassels with a blue cord",
+      "Gold bells",
+      "Scarlet cords",
+      "White linen strips",
     ],
-    answer: "Blue",
+    answer: "Tassels with a blue cord",
     reference: "Numbers 15:38",
   },
   {
     question:
-      "What was the purpose of the tassels on Israelite garments?",
+      "What was the purpose of the tassels on Israel's garments?",
     options: [
-      "To remind them of God's commands",
+      "To remind them of all the LORD's commands and help them obey",
       "To identify tribal rank",
-      "To show wealth",
-      "To distinguish priests from Levites",
+      "To distinguish priests from ordinary Israelites",
+      "To mark military age",
     ],
-    answer: "To remind them of God's commands",
+    answer:
+      "To remind them of all the LORD's commands and help them obey",
     reference: "Numbers 15:39-40",
   },
   {
     question:
-      "What did Korah, Dathan, and Abiram challenge about Moses and Aaron?",
+      "What happened to the man found gathering wood on the Sabbath?",
     options: [
-      "Their leadership and special authority",
-      "Their knowledge of Egypt",
-      "Their military ability",
-      "Their ability to count the tribes",
+      "He was stoned to death outside the camp",
+      "He was exiled",
+      "He was fined",
+      "He was imprisoned permanently",
     ],
-    answer: "Their leadership and special authority",
-    reference: "Numbers 16:1-3",
+    answer: "He was stoned to death outside the camp",
+    reference: "Numbers 15:32-36",
   },
   {
     question:
-      "How many community leaders joined Korah's rebellion?",
+      "Who were the principal leaders of the rebellion against Moses and Aaron in Numbers 16?",
     options: [
-      "Fifty",
-      "One hundred",
-      "Two hundred fifty",
-      "Five hundred",
+      "Korah, Dathan, and Abiram",
+      "Korah, Balaam, and Abiram",
+      "Dathan, Abiram, and Joshua",
+      "Korah, On, and Eleazar",
     ],
-    answer: "Two hundred fifty",
+    answer: "Korah, Dathan, and Abiram",
+    reference: "Numbers 16:1",
+  },
+  {
+    question:
+      "How many well-known community leaders joined Korah's rebellion?",
+    options: [
+      "250",
+      "70",
+      "120",
+      "300",
+    ],
+    answer: "250",
     reference: "Numbers 16:2",
   },
   {
     question:
-      "What unusual event happened to Dathan and Abiram and their households?",
+      "What test did Moses propose for Korah and the 250 leaders?",
     options: [
-      "The earth opened and swallowed them",
-      "Fire consumed them",
-      "They became leprous",
-      "They were exiled to Egypt",
+      "They were to bring censers with fire and incense before the LORD",
+      "They were to bring rods from each tribe",
+      "They were to offer twelve bulls",
+      "They were to stand before the ark overnight",
     ],
-    answer: "The earth opened and swallowed them",
+    answer:
+      "They were to bring censers with fire and incense before the LORD",
+    reference: "Numbers 16:16-18",
+  },
+  {
+    question:
+      "What extraordinary judgment occurred to Dathan and Abiram and their households?",
+    options: [
+      "The ground opened and swallowed them alive",
+      "Fire descended on their tents",
+      "They were struck with leprosy",
+      "They were killed by the Levites",
+    ],
+    answer: "The ground opened and swallowed them alive",
     reference: "Numbers 16:31-33",
   },
   {
     question:
-      "What happened to the two hundred fifty men who offered incense in Korah's rebellion?",
+      "What happened to the 250 men who offered incense?",
     options: [
-      "Fire from the Lord consumed them",
-      "They were swallowed by the earth",
-      "They became blind",
-      "They were pardoned",
+      "Fire came out from the LORD and consumed them",
+      "The earth swallowed them",
+      "They were struck by a plague",
+      "They were driven from the camp",
     ],
-    answer: "Fire from the Lord consumed them",
+    answer: "Fire came out from the LORD and consumed them",
     reference: "Numbers 16:35",
   },
   {
     question:
-      "What was done with the censers of the men who died in Korah's rebellion?",
+      "What was done with the bronze censers belonging to the men who died?",
     options: [
-      "They were hammered into a covering for the altar",
+      "They were hammered into sheets to overlay the altar",
       "They were buried",
       "They were melted into trumpets",
-      "They were thrown outside the camp",
+      "They were placed inside the ark",
     ],
-    answer: "They were hammered into a covering for the altar",
+    answer: "They were hammered into sheets to overlay the altar",
     reference: "Numbers 16:38-40",
   },
   {
     question:
-      "What stopped the plague that broke out after the people complained about the deaths in Korah's rebellion?",
+      "How many people died in the plague that followed the congregation's complaint after Korah's rebellion?",
     options: [
-      "Aaron stood between the living and the dead with incense",
-      "Moses struck the ground",
-      "Joshua sounded the trumpets",
-      "The Levites offered a bull",
+      "14,700",
+      "24,000",
+      "3,000",
+      "12,000",
     ],
-    answer: "Aaron stood between the living and the dead with incense",
+    answer: "14,700",
+    reference: "Numbers 16:49",
+  },
+  {
+    question:
+      "What did Aaron do to stop the plague among the people?",
+    options: [
+      "He offered incense and made atonement while standing between the living and the dead",
+      "He sprinkled blood over the camp",
+      "He lifted Moses' staff",
+      "He offered a bull for every tribe",
+    ],
+    answer:
+      "He offered incense and made atonement while standing between the living and the dead",
     reference: "Numbers 16:46-48",
   },
   {
     question:
-      "How many tribal staffs were placed before the Lord to settle the question of priestly authority?",
+      "What happened to Aaron's staff when the twelve tribal staffs were placed before the LORD?",
     options: [
-      "Ten",
-      "Twelve",
-      "Thirteen",
-      "Twenty-four",
-    ],
-    answer: "Twelve",
-    reference: "Numbers 17:2-6",
-  },
-  {
-    question:
-      "What happened to Aaron's staff overnight?",
-    options: [
-      "It budded, blossomed, and produced almonds",
+      "It sprouted, budded, blossomed, and produced almonds",
       "It turned into a serpent",
-      "It caught fire",
-      "It split in two",
+      "It became covered with gold",
+      "It produced figs",
     ],
-    answer: "It budded, blossomed, and produced almonds",
+    answer: "It sprouted, budded, blossomed, and produced almonds",
     reference: "Numbers 17:8",
   },
   {
     question:
-      "Why was Aaron's staff kept before the ark?",
+      "Where was Aaron's staff kept afterward?",
     options: [
-      "As a sign against the rebels",
-      "As a weapon",
-      "As a symbol of tribal inheritance",
-      "As part of the lampstand",
+      "Before the testimony as a sign against the rebels",
+      "Inside Aaron's tent",
+      "Beside the bronze altar",
+      "At the entrance to the camp",
     ],
-    answer: "As a sign against the rebels",
+    answer: "Before the testimony as a sign against the rebels",
     reference: "Numbers 17:10",
   },
   {
     question:
-      "What portion of Israel's tithes was given to the Levites?",
+      "What portion of Israel's tithes did the Levites themselves have to give as an offering to the LORD?",
     options: [
-      "One tenth",
-      "One fifth",
-      "One quarter",
-      "One half",
+      "A tenth of the tithe they received",
+      "One-fifth",
+      "Half",
+      "One-twentieth",
     ],
-    answer: "One tenth",
-    reference: "Numbers 18:21",
-  },
-  {
-    question:
-      "What portion of the tithe received by the Levites was itself given to the Lord?",
-    options: [
-      "One tenth",
-      "One fifth",
-      "One half",
-      "All of it",
-    ],
-    answer: "One tenth",
+    answer: "A tenth of the tithe they received",
     reference: "Numbers 18:26",
   },
   {
     question:
-      "What animal was used to prepare the water of cleansing from impurity caused by death?",
+      "What animal was used in the purification ritual involving ashes for cleansing from contact with the dead?",
     options: [
-      "A red heifer",
-      "A white lamb",
-      "A black goat",
-      "A young bull",
+      "A red heifer without defect that had never been under a yoke",
+      "A white bull without defect",
+      "A red ram",
+      "A female goat without defect",
     ],
-    answer: "A red heifer",
+    answer:
+      "A red heifer without defect that had never been under a yoke",
     reference: "Numbers 19:2",
   },
   {
     question:
-      "What was done with the red heifer?",
+      "Who was responsible for slaughtering the red heifer outside the camp?",
     options: [
-      "It was burned outside the camp",
-      "It was sacrificed on the altar",
-      "It was released into the wilderness",
-      "It was eaten by the priests",
+      "Eleazar the priest",
+      "Aaron",
+      "Moses",
+      "The eldest Levite",
     ],
-    answer: "It was burned outside the camp",
-    reference: "Numbers 19:3-5",
+    answer: "Eleazar the priest",
+    reference: "Numbers 19:3",
   },
   {
     question:
-      "How long was someone unclean after touching a dead human body?",
+      "How many times did Eleazar sprinkle some of the red heifer's blood toward the front of the tent of meeting?",
     options: [
-      "Three days",
+      "Seven times",
+      "Three times",
+      "Four times",
+      "Twelve times",
+    ],
+    answer: "Seven times",
+    reference: "Numbers 19:4",
+  },
+  {
+    question:
+      "Which three materials were thrown into the burning red heifer?",
+    options: [
+      "Cedar wood, hyssop, and scarlet wool",
+      "Frankincense, cedar, and oil",
+      "Hyssop, salt, and scarlet thread",
+      "Cedar, myrrh, and cinnamon",
+    ],
+    answer: "Cedar wood, hyssop, and scarlet wool",
+    reference: "Numbers 19:6",
+  },
+  {
+    question:
+      "For how long was someone who touched a human corpse ceremonially unclean?",
+    options: [
       "Seven days",
+      "Three days",
+      "Until evening",
       "Fourteen days",
-      "Thirty days",
     ],
     answer: "Seven days",
     reference: "Numbers 19:11",
   },
   {
     question:
-      "Where did Miriam die?",
+      "On which days was a corpse-defiled person required to purify himself with the cleansing water?",
     options: [
-      "Kadesh",
-      "Sinai",
-      "Moab",
-      "Jericho",
+      "The third and seventh days",
+      "The first and seventh days",
+      "The second and sixth days",
+      "The third and eighth days",
     ],
-    answer: "Kadesh",
+    answer: "The third and seventh days",
+    reference: "Numbers 19:12",
+  },
+  {
+    question:
+      "Where did Miriam die and get buried?",
+    options: [
+      "Kadesh in the Wilderness of Zin",
+      "Mount Hor",
+      "Hazeroth",
+      "The plains of Moab",
+    ],
+    answer: "Kadesh in the Wilderness of Zin",
     reference: "Numbers 20:1",
   },
   {
     question:
-      "What did God tell Moses to do to bring water from the rock?",
+      "What did God tell Moses to do to the rock at Meribah to produce water?",
     options: [
-      "Speak to the rock",
-      "Strike the rock once",
-      "Pour oil on the rock",
-      "Build an altar beside the rock",
+      "Speak to the rock before the people",
+      "Strike it twice",
+      "Touch it with Aaron's staff",
+      "Pour water over it",
     ],
-    answer: "Speak to the rock",
+    answer: "Speak to the rock before the people",
     reference: "Numbers 20:8",
   },
   {
     question:
-      "What did Moses actually do at the rock?",
+      "What did Moses actually do to the rock?",
     options: [
-      "He struck it twice",
-      "He spoke to it once",
+      "He struck it twice with his staff",
       "He struck it once",
-      "He ignored it",
+      "He spoke to it",
+      "He broke it open",
     ],
-    answer: "He struck it twice",
+    answer: "He struck it twice with his staff",
     reference: "Numbers 20:11",
   },
   {
     question:
-      "What consequence did Moses and Aaron receive for their failure at Meribah?",
+      "What consequence did God announce to Moses and Aaron after the incident at Meribah?",
     options: [
-      "They would not bring the assembly into the promised land",
-      "They were removed immediately from leadership",
-      "They were sent back to Egypt",
-      "They lost the tabernacle",
+      "They would not bring the community into the promised land",
+      "They would lose their priestly status immediately",
+      "They would wander an additional forty years",
+      "They would never see Canaan",
     ],
-    answer: "They would not bring the assembly into the promised land",
+    answer: "They would not bring the community into the promised land",
     reference: "Numbers 20:12",
   },
   {
     question:
-      "Which nation refused Israel permission to pass through its territory?",
+      "Which nation refused Israel passage through its territory despite Israel promising not to pass through fields or vineyards?",
     options: [
       "Edom",
       "Moab",
       "Ammon",
-      "Philistia",
+      "Midian",
     ],
     answer: "Edom",
     reference: "Numbers 20:14-21",
@@ -940,16 +1183,16 @@ const numbersQuestions = [
       "Where did Aaron die?",
     options: [
       "Mount Hor",
-      "Mount Sinai",
       "Mount Nebo",
-      "Mount Carmel",
+      "Mount Sinai",
+      "Pisgah",
     ],
     answer: "Mount Hor",
     reference: "Numbers 20:22-29",
   },
   {
     question:
-      "Who became high priest after Aaron died?",
+      "To whom were Aaron's priestly garments transferred before Aaron died?",
     options: [
       "Eleazar",
       "Ithamar",
@@ -961,503 +1204,555 @@ const numbersQuestions = [
   },
   {
     question:
-      "Why did God send venomous snakes among the Israelites?",
+      "How long did the whole community mourn Aaron?",
     options: [
-      "They spoke against God and Moses",
-      "They worshiped Baal",
-      "They attacked Edom",
-      "They refused to offer sacrifices",
+      "Thirty days",
+      "Seven days",
+      "Forty days",
+      "Seventy days",
     ],
-    answer: "They spoke against God and Moses",
+    answer: "Thirty days",
+    reference: "Numbers 20:29",
+  },
+  {
+    question:
+      "What did Israel call the place where they completely destroyed the Canaanite king of Arad's cities?",
+    options: [
+      "Hormah",
+      "Heshbon",
+      "Jazer",
+      "Kedesh",
+    ],
+    answer: "Hormah",
+    reference: "Numbers 21:1-3",
+  },
+  {
+    question:
+      "What did God send among the Israelites after they complained against God and Moses on the way around Edom?",
+    options: [
+      "Venomous serpents",
+      "A plague of locusts",
+      "Fire from heaven",
+      "Wild beasts",
+    ],
+    answer: "Venomous serpents",
     reference: "Numbers 21:5-6",
   },
   {
     question:
-      "What did Moses make so that people bitten by snakes could live?",
+      "What did Moses make so that bitten Israelites could look at it and live?",
     options: [
-      "A bronze snake",
-      "A golden calf",
+      "A bronze serpent",
+      "A golden serpent",
+      "A bronze staff",
       "A silver serpent",
-      "A wooden staff",
     ],
-    answer: "A bronze snake",
+    answer: "A bronze serpent",
     reference: "Numbers 21:8-9",
   },
   {
     question:
-      "What happened when someone bitten by a snake looked at the bronze snake?",
-    options: [
-      "The person lived",
-      "The person became a priest",
-      "The snake bite disappeared immediately",
-      "The person had to leave the camp",
-    ],
-    answer: "The person lived",
-    reference: "Numbers 21:9",
-  },
-  {
-    question:
-      "Which Amorite king refused Israel passage and was defeated?",
+      "Which Amorite king refused Israel passage and was defeated at Jahaz?",
     options: [
       "Sihon",
       "Og",
       "Balak",
-      "Agag",
+      "Arad",
     ],
     answer: "Sihon",
     reference: "Numbers 21:21-24",
   },
   {
     question:
-      "Which king of Bashan came out to fight Israel and was defeated?",
+      "What city was the capital of Sihon king of the Amorites?",
     options: [
-      "Og",
-      "Sihon",
-      "Balak",
-      "Balaam",
+      "Heshbon",
+      "Jazer",
+      "Bashan",
+      "Dibon",
     ],
-    answer: "Og",
-    reference: "Numbers 21:33-35",
+    answer: "Heshbon",
+    reference: "Numbers 21:26",
   },
   {
     question:
-      "Who was king of Moab when he became afraid of Israel?",
+      "Which king of Bashan came out against Israel at Edrei?",
     options: [
-      "Balak",
-      "Balaam",
-      "Sihon",
       "Og",
+      "Sihon",
+      "Balak",
+      "Agag",
     ],
-    answer: "Balak",
+    answer: "Og",
+    reference: "Numbers 21:33",
+  },
+  {
+    question:
+      "Who was the king of Moab who became terrified because of Israel's victories?",
+    options: [
+      "Balak son of Zippor",
+      "Balaam son of Beor",
+      "Sihon son of Heshbon",
+      "Og son of Bashan",
+    ],
+    answer: "Balak son of Zippor",
     reference: "Numbers 22:2-4",
   },
   {
     question:
       "Whom did Balak summon to curse Israel?",
     options: [
-      "Balaam",
-      "Korah",
-      "Eldad",
-      "Phinehas",
+      "Balaam son of Beor",
+      "Beor son of Balaam",
+      "Phinehas son of Eleazar",
+      "Zippor son of Balak",
     ],
-    answer: "Balaam",
+    answer: "Balaam son of Beor",
     reference: "Numbers 22:5-6",
   },
   {
     question:
-      "What did Balaam's donkey see that Balaam initially could not see?",
+      "What did the first group of Moabite and Midianite elders carry when they went to Balaam?",
     options: [
-      "The angel of the Lord",
-      "A lion",
-      "A burning bush",
-      "A Moabite army",
+      "The fee for divination",
+      "Gold censers",
+      "Sacrificial animals",
+      "A royal decree",
     ],
-    answer: "The angel of the Lord",
-    reference: "Numbers 22:23",
+    answer: "The fee for divination",
+    reference: "Numbers 22:7",
   },
   {
     question:
-      "How many times did Balaam strike his donkey before it spoke?",
+      "How many times did Balaam's donkey turn aside or react before the LORD opened its mouth?",
     options: [
-      "Once",
-      "Twice",
       "Three times",
+      "Two times",
       "Seven times",
+      "Four times",
     ],
     answer: "Three times",
-    reference: "Numbers 22:28",
+    reference: "Numbers 22:23-27",
   },
   {
     question:
-      "What extraordinary thing happened to Balaam's donkey?",
+      "What did the donkey do the third time it saw the angel of the LORD?",
     options: [
-      "It spoke",
-      "It died",
-      "It became blind",
-      "It ran back to Moab",
+      "It lay down under Balaam",
+      "It ran into a field",
+      "It crushed Balaam's foot against a wall",
+      "It turned back toward Moab",
     ],
-    answer: "It spoke",
-    reference: "Numbers 22:28-30",
+    answer: "It lay down under Balaam",
+    reference: "Numbers 22:27",
   },
   {
     question:
-      "What did Balaam repeatedly say he could only speak?",
+      "How many altars did Balaam repeatedly tell Balak to build for each attempt to curse Israel?",
     options: [
-      "What God put in his mouth",
-      "What Balak paid him to say",
-      "What the elders requested",
-      "What he saw in dreams",
+      "Seven",
+      "Twelve",
+      "Three",
+      "Ten",
     ],
-    answer: "What God put in his mouth",
-    reference: "Numbers 22:38",
+    answer: "Seven",
+    reference: "Numbers 23:1, 14, 29",
   },
   {
     question:
-      "What did Balaam pronounce over Israel instead of a curse?",
+      "What sacrifices were offered on each of Balaam's seven altars?",
     options: [
-      "Blessings",
-      "Silence",
-      "Judgment only",
-      "A military warning",
+      "A bull and a ram",
+      "A goat and a lamb",
+      "A bull and a goat",
+      "Two rams",
     ],
-    answer: "Blessings",
-    reference: "Numbers 23-24",
+    answer: "A bull and a ram",
+    reference: "Numbers 23:1-2",
   },
   {
     question:
-      "In Balaam's oracle, what was said to come out of Jacob?",
+      "In Balaam's first oracle, with what did he compare the number of Jacob's people?",
     options: [
-      "A star",
-      "A river",
-      "A fire",
-      "A cloud",
+      "The dust of Jacob",
+      "The stars of heaven",
+      "The sand of the sea",
+      "The drops of rain",
     ],
-    answer: "A star",
+    answer: "The dust of Jacob",
+    reference: "Numbers 23:10",
+  },
+  {
+    question:
+      "Which statement appears in Balaam's second oracle concerning God?",
+    options: [
+      "God is not human, that he should lie, nor a son of man, that he should change his mind",
+      "God changes His word according to kings",
+      "God can be persuaded by sacrifices",
+      "God hides His will from Israel",
+    ],
+    answer:
+      "God is not human, that he should lie, nor a son of man, that he should change his mind",
+    reference: "Numbers 23:19",
+  },
+  {
+    question:
+      "What animal imagery is used of Israel in Balaam's second oracle?",
+    options: [
+      "A lioness rising and a lion lifting itself",
+      "An eagle over its nest",
+      "A bear defending its cubs",
+      "A wild ox beside a river",
+    ],
+    answer: "A lioness rising and a lion lifting itself",
+    reference: "Numbers 23:24",
+  },
+  {
+    question:
+      "What famous future image appears in Balaam's fourth oracle?",
+    options: [
+      "A star coming out of Jacob and a scepter rising out of Israel",
+      "A branch growing from Levi",
+      "A lion arising from Joseph",
+      "A prophet descending from Sinai",
+    ],
+    answer:
+      "A star coming out of Jacob and a scepter rising out of Israel",
     reference: "Numbers 24:17",
   },
   {
     question:
-      "What sin did many Israelites commit at Peor?",
+      "At what place did Israel begin engaging in sexual immorality with Moabite women?",
     options: [
-      "They joined in sexual immorality and worship of Baal",
-      "They refused circumcision",
-      "They returned to Egypt",
-      "They attacked Moses",
+      "Shittim",
+      "Kadesh",
+      "Hormah",
+      "Heshbon",
     ],
-    answer: "They joined in sexual immorality and worship of Baal",
-    reference: "Numbers 25:1-3",
+    answer: "Shittim",
+    reference: "Numbers 25:1",
   },
   {
     question:
-      "Who stopped the plague at Peor by killing an Israelite man and a Midianite woman?",
+      "To what deity were the Israelites drawn through the Moabite women?",
     options: [
-      "Phinehas",
-      "Eleazar",
-      "Joshua",
-      "Caleb",
+      "Baal of Peor",
+      "Chemosh",
+      "Molek",
+      "Dagon",
     ],
-    answer: "Phinehas",
+    answer: "Baal of Peor",
+    reference: "Numbers 25:3",
+  },
+  {
+    question:
+      "Who killed the Israelite man and Midianite woman with a spear, stopping the plague?",
+    options: [
+      "Phinehas son of Eleazar",
+      "Eleazar son of Aaron",
+      "Joshua son of Nun",
+      "Caleb son of Jephunneh",
+    ],
+    answer: "Phinehas son of Eleazar",
     reference: "Numbers 25:7-8",
   },
   {
     question:
-      "How many people died in the plague connected with Baal of Peor?",
+      "How many Israelites died in the plague associated with Baal of Peor?",
     options: [
-      "Twelve thousand",
-      "Twenty-four thousand",
-      "Forty thousand",
-      "Seventy thousand",
+      "24,000",
+      "14,700",
+      "23,000",
+      "3,000",
     ],
-    answer: "Twenty-four thousand",
+    answer: "24,000",
     reference: "Numbers 25:9",
   },
   {
     question:
-      "What covenant did God give Phinehas because of his zeal?",
+      "What covenant did God grant Phinehas because of his zeal?",
     options: [
-      "A covenant of peace",
-      "A covenant of land",
+      "A covenant of peace and a lasting priesthood",
       "A covenant of kingship",
-      "A covenant of wealth",
+      "A covenant of land",
+      "A covenant of military victory",
     ],
-    answer: "A covenant of peace",
+    answer: "A covenant of peace and a lasting priesthood",
     reference: "Numbers 25:12-13",
   },
   {
     question:
-      "Who were the only two men from the earlier census still alive among those counted before entering Canaan?",
+      "What was the total number of Israelite fighting men in the second census?",
     options: [
-      "Joshua and Caleb",
-      "Moses and Aaron",
-      "Eleazar and Phinehas",
-      "Eldad and Medad",
+      "601,730",
+      "603,550",
+      "600,000",
+      "602,730",
     ],
-    answer: "Joshua and Caleb",
+    answer: "601,730",
+    reference: "Numbers 26:51",
+  },
+  {
+    question:
+      "Which two men from the first census generation were specifically said to remain alive besides the new generation?",
+    options: [
+      "Caleb son of Jephunneh and Joshua son of Nun",
+      "Joshua and Eleazar",
+      "Caleb and Phinehas",
+      "Moses and Joshua",
+    ],
+    answer: "Caleb son of Jephunneh and Joshua son of Nun",
     reference: "Numbers 26:63-65",
   },
   {
     question:
-      "Which family challenged the inheritance rules because their father had no sons?",
+      "What were the names of Zelophehad's five daughters?",
     options: [
-      "The daughters of Zelophehad",
-      "The daughters of Korah",
-      "The daughters of Aaron",
-      "The daughters of Caleb",
+      "Mahlah, Noah, Hoglah, Milkah, and Tirzah",
+      "Mahlah, Miriam, Hoglah, Milkah, and Tirzah",
+      "Noah, Deborah, Milkah, Tirzah, and Keziah",
+      "Mahlah, Hoglah, Dinah, Milkah, and Tirzah",
     ],
-    answer: "The daughters of Zelophehad",
-    reference: "Numbers 27:1-4",
-  },
-  {
-    question:
-      "How many daughters did Zelophehad have?",
-    options: [
-      "Three",
-      "Four",
-      "Five",
-      "Seven",
-    ],
-    answer: "Five",
+    answer: "Mahlah, Noah, Hoglah, Milkah, and Tirzah",
     reference: "Numbers 27:1",
   },
   {
     question:
-      "What ruling did God give concerning Zelophehad's daughters?",
+      "What inheritance ruling did God give concerning a man who died without a son?",
     options: [
-      "They were to receive their father's inheritance",
-      "They were to receive no land",
-      "They were to become Levites",
-      "They had to give the land to their uncles",
+      "His inheritance was to pass to his daughter",
+      "His inheritance returned to the tribe",
+      "His brother always received it first",
+      "His property went to the priests",
     ],
-    answer: "They were to receive their father's inheritance",
-    reference: "Numbers 27:7",
+    answer: "His inheritance was to pass to his daughter",
+    reference: "Numbers 27:8",
+  },
+  {
+    question:
+      "From what mountain was Moses told to view the promised land before his death?",
+    options: [
+      "A mountain in the Abarim range",
+      "Mount Hor",
+      "Mount Sinai",
+      "Mount Carmel",
+    ],
+    answer: "A mountain in the Abarim range",
+    reference: "Numbers 27:12",
   },
   {
     question:
       "Whom did God appoint to succeed Moses?",
     options: [
-      "Joshua",
-      "Caleb",
-      "Eleazar",
-      "Phinehas",
+      "Joshua son of Nun",
+      "Caleb son of Jephunneh",
+      "Eleazar son of Aaron",
+      "Phinehas son of Eleazar",
     ],
-    answer: "Joshua",
-    reference: "Numbers 27:18-23",
+    answer: "Joshua son of Nun",
+    reference: "Numbers 27:18",
   },
   {
     question:
-      "Before whom was Joshua presented when he was commissioned?",
+      "Before whom was Joshua to stand when seeking decisions through the Urim?",
     options: [
-      "Eleazar the priest and the whole assembly",
-      "Aaron and Miriam",
-      "The elders of Moab",
-      "Only the tribe of Ephraim",
+      "Eleazar the priest",
+      "Moses",
+      "Aaron",
+      "The seventy elders",
     ],
-    answer: "Eleazar the priest and the whole assembly",
-    reference: "Numbers 27:19-22",
+    answer: "Eleazar the priest",
+    reference: "Numbers 27:21",
   },
   {
     question:
-      "How many lambs were to be offered every day as the regular burnt offering?",
+      "How many lambs were required each day for the regular daily burnt offering?",
     options: [
-      "One",
-      "Two",
-      "Seven",
-      "Twelve",
+      "Two one-year-old lambs",
+      "One lamb",
+      "Seven lambs",
+      "Three lambs",
     ],
-    answer: "Two",
+    answer: "Two one-year-old lambs",
     reference: "Numbers 28:3-4",
   },
   {
     question:
-      "When were the two daily lambs offered?",
+      "How many lambs were offered as the additional burnt offering every Sabbath?",
     options: [
-      "One in the morning and one at twilight",
-      "Both in the morning",
-      "Both at twilight",
-      "One at noon and one at midnight",
+      "Two lambs",
+      "Seven lambs",
+      "One lamb",
+      "Four lambs",
     ],
-    answer: "One in the morning and one at twilight",
-    reference: "Numbers 28:4",
-  },
-  {
-    question:
-      "How many additional lambs were offered as burnt offerings on the Sabbath?",
-    options: [
-      "Two",
-      "Four",
-      "Seven",
-      "Twelve",
-    ],
-    answer: "Two",
+    answer: "Two lambs",
     reference: "Numbers 28:9",
   },
   {
     question:
-      "What special offering was made at the beginning of each month?",
+      "How many young bulls were offered as the monthly burnt offering at the beginning of each month?",
     options: [
-      "A burnt offering",
-      "A guilt offering only",
-      "A peace offering only",
-      "A grain offering only",
+      "Two",
+      "One",
+      "Seven",
+      "Twelve",
     ],
-    answer: "A burnt offering",
+    answer: "Two",
     reference: "Numbers 28:11",
   },
   {
     question:
-      "What feast began on the fifteenth day of the first month?",
+      "What was required of a woman's vow made while she still lived in her father's household?",
     options: [
-      "The Festival of Unleavened Bread",
-      "The Festival of Trumpets",
-      "The Day of Atonement",
-      "The Festival of Shelters",
+      "Her father could confirm or nullify it when he heard of it",
+      "It was always binding",
+      "Only a priest could cancel it",
+      "Her mother had to approve it",
     ],
-    answer: "The Festival of Unleavened Bread",
-    reference: "Numbers 28:17",
-  },
-  {
-    question:
-      "On what day of the seventh month was the sacred assembly marked by trumpet blasts?",
-    options: [
-      "The first day",
-      "The seventh day",
-      "The tenth day",
-      "The fifteenth day",
-    ],
-    answer: "The first day",
-    reference: "Numbers 29:1",
-  },
-  {
-    question:
-      "On what day of the seventh month was the Day of Atonement observed?",
-    options: [
-      "The first day",
-      "The tenth day",
-      "The fifteenth day",
-      "The twenty-first day",
-    ],
-    answer: "The tenth day",
-    reference: "Numbers 29:7",
-  },
-  {
-    question:
-      "What major festival began on the fifteenth day of the seventh month?",
-    options: [
-      "The Festival of Shelters",
-      "Passover",
-      "The Festival of Weeks",
-      "The Day of Atonement",
-    ],
-    answer: "The Festival of Shelters",
-    reference: "Numbers 29:12",
-  },
-  {
-    question:
-      "What general rule was given about vows made by a man to the Lord?",
-    options: [
-      "He must not break his word",
-      "He could cancel it after seven days",
-      "A priest had to approve it",
-      "His family could cancel it",
-    ],
-    answer: "He must not break his word",
-    reference: "Numbers 30:2",
-  },
-  {
-    question:
-      "Who could cancel a young unmarried woman's vow when she still lived in her father's house?",
-    options: [
-      "Her father",
-      "Her brother",
-      "A priest",
-      "A tribal leader",
-    ],
-    answer: "Her father",
+    answer:
+      "Her father could confirm or nullify it when he heard of it",
     reference: "Numbers 30:3-5",
   },
   {
     question:
-      "Who could cancel certain vows made by a married woman?",
+      "What happened to a wife's vow if her husband nullified it on the day he heard about it?",
     options: [
-      "Her husband",
-      "Her father",
-      "Her oldest son",
-      "The high priest",
+      "The vow did not stand",
+      "She had to fulfill half of it",
+      "She had to bring a guilt offering first",
+      "It remained binding",
     ],
-    answer: "Her husband",
+    answer: "The vow did not stand",
     reference: "Numbers 30:6-8",
   },
   {
     question:
-      "Against which people did Israel wage war in vengeance for what happened at Peor?",
+      "How many Israelite soldiers were sent against Midian?",
     options: [
-      "The Midianites",
-      "The Edomites",
-      "The Amorites",
-      "The Philistines",
+      "12,000",
+      "24,000",
+      "40,000",
+      "600,000",
     ],
-    answer: "The Midianites",
-    reference: "Numbers 31:1-3",
-  },
-  {
-    question:
-      "How many men from each tribe were sent to fight Midian?",
-    options: [
-      "One hundred",
-      "Five hundred",
-      "One thousand",
-      "Ten thousand",
-    ],
-    answer: "One thousand",
+    answer: "12,000",
     reference: "Numbers 31:4-5",
   },
   {
     question:
-      "Which prophet was killed in the war against Midian?",
+      "How many soldiers were selected from each tribe for the war against Midian?",
     options: [
-      "Balaam",
-      "Moses",
-      "Eleazar",
-      "Joshua",
+      "One thousand",
+      "Five hundred",
+      "Two thousand",
+      "Ten thousand",
     ],
-    answer: "Balaam",
+    answer: "One thousand",
+    reference: "Numbers 31:4",
+  },
+  {
+    question:
+      "Which priest accompanied Israel's army against Midian carrying sacred articles and signal trumpets?",
+    options: [
+      "Phinehas son of Eleazar",
+      "Eleazar",
+      "Ithamar",
+      "Aaron",
+    ],
+    answer: "Phinehas son of Eleazar",
+    reference: "Numbers 31:6",
+  },
+  {
+    question:
+      "Which prophet was killed along with the kings of Midian?",
+    options: [
+      "Balaam son of Beor",
+      "Balak son of Zippor",
+      "Eldad",
+      "Medad",
+    ],
+    answer: "Balaam son of Beor",
     reference: "Numbers 31:8",
   },
   {
     question:
-      "Which tribes asked to settle east of the Jordan because they had large herds?",
+      "What proportion of the soldiers' share of Midianite plunder was given as tribute to the LORD?",
     options: [
-      "Reuben and Gad",
-      "Judah and Simeon",
-      "Ephraim and Manasseh",
-      "Dan and Asher",
+      "One out of every five hundred",
+      "One out of every fifty",
+      "One-tenth",
+      "One-fifth",
     ],
-    answer: "Reuben and Gad",
-    reference: "Numbers 32:1-5",
+    answer: "One out of every five hundred",
+    reference: "Numbers 31:28",
   },
   {
     question:
-      "Which half-tribe was also given territory east of the Jordan?",
+      "What proportion of the Israelites' half of the Midianite plunder was given to the Levites?",
+    options: [
+      "One out of every fifty",
+      "One out of every five hundred",
+      "One-tenth",
+      "One out of every hundred",
+    ],
+    answer: "One out of every fifty",
+    reference: "Numbers 31:30",
+  },
+  {
+    question:
+      "Which two tribes possessed very large herds and requested land east of the Jordan?",
+    options: [
+      "Reuben and Gad",
+      "Gad and Manasseh",
+      "Reuben and Simeon",
+      "Judah and Gad",
+    ],
+    answer: "Reuben and Gad",
+    reference: "Numbers 32:1",
+  },
+  {
+    question:
+      "What condition did Moses place on Reuben and Gad receiving land east of the Jordan?",
+    options: [
+      "Their fighting men had to cross the Jordan armed and help conquer Canaan",
+      "They had to give half their livestock to Levi",
+      "They had to settle their families west of the Jordan first",
+      "They had to wait until Jubilee",
+    ],
+    answer:
+      "Their fighting men had to cross the Jordan armed and help conquer Canaan",
+    reference: "Numbers 32:20-22",
+  },
+  {
+    question:
+      "What warning did Moses give Reuben and Gad if they failed to fulfill their promise?",
+    options: [
+      "Be sure your sin will find you out",
+      "Your inheritance will be given to Levi",
+      "You will wander another forty years",
+      "You will be cut off from Israel",
+    ],
+    answer: "Be sure your sin will find you out",
+    reference: "Numbers 32:23",
+  },
+  {
+    question:
+      "Which half-tribe also received territory east of the Jordan?",
     options: [
       "Half the tribe of Manasseh",
       "Half the tribe of Ephraim",
       "Half the tribe of Benjamin",
-      "Half the tribe of Dan",
+      "Half the tribe of Simeon",
     ],
     answer: "Half the tribe of Manasseh",
     reference: "Numbers 32:33",
   },
   {
     question:
-      "What condition did Moses place on the tribes wanting land east of the Jordan?",
-    options: [
-      "Their fighting men had to cross over and help conquer Canaan",
-      "They had to give up their livestock",
-      "They had to become Levites",
-      "They had to pay double tribute",
-    ],
-    answer: "Their fighting men had to cross over and help conquer Canaan",
-    reference: "Numbers 32:20-22",
-  },
-  {
-    question:
-      "What did Moses warn would happen if those tribes failed to keep their promise?",
-    options: [
-      "Their sin would find them out",
-      "They would return to Egypt",
-      "They would lose all their livestock immediately",
-      "They would be excluded from Israel",
-    ],
-    answer: "Their sin would find them out",
-    reference: "Numbers 32:23",
-  },
-  {
-    question:
-      "From where did the Israelites begin their journey out of Egypt according to the travel record?",
+      "From where did the Israelites depart immediately after celebrating Passover in Egypt?",
     options: [
       "Rameses",
-      "Goshen",
       "Succoth",
+      "Etham",
       "Pi Hahiroth",
     ],
     answer: "Rameses",
@@ -1465,71 +1760,97 @@ const numbersQuestions = [
   },
   {
     question:
-      "On what day did the Israelites leave Egypt?",
+      "What were the Egyptians doing while Israel departed after Passover?",
     options: [
-      "The day after Passover",
-      "The day before Passover",
-      "Seven days after Passover",
-      "The first day of the year",
+      "Burying all their firstborn whom the LORD had struck down",
+      "Gathering their armies",
+      "Burning Israelite homes",
+      "Offering sacrifices to Pharaoh",
     ],
-    answer: "The day after Passover",
-    reference: "Numbers 33:3",
+    answer:
+      "Burying all their firstborn whom the LORD had struck down",
+    reference: "Numbers 33:4",
   },
   {
     question:
-      "What were the Israelites commanded to destroy when they entered Canaan?",
+      "At which place were twelve springs and seventy palm trees recorded during Israel's journey?",
     options: [
-      "The idols and high places of the inhabitants",
-      "All houses",
-      "All vineyards",
-      "All wells",
+      "Elim",
+      "Marah",
+      "Rephidim",
+      "Dophkah",
     ],
-    answer: "The idols and high places of the inhabitants",
+    answer: "Elim",
+    reference: "Numbers 33:9",
+  },
+  {
+    question:
+      "How old was Aaron when he died on Mount Hor?",
+    options: [
+      "123 years old",
+      "120 years old",
+      "110 years old",
+      "130 years old",
+    ],
+    answer: "123 years old",
+    reference: "Numbers 33:39",
+  },
+  {
+    question:
+      "On what date did Aaron die?",
+    options: [
+      "The first day of the fifth month in the fortieth year",
+      "The tenth day of the seventh month",
+      "The first day of the first month in the fortieth year",
+      "The fourteenth day of the first month",
+    ],
+    answer: "The first day of the fifth month in the fortieth year",
+    reference: "Numbers 33:38",
+  },
+  {
+    question:
+      "What were Israelites commanded to destroy after crossing the Jordan into Canaan?",
+    options: [
+      "Carved images, cast idols, and high places",
+      "All houses and wells",
+      "All vineyards",
+      "Every city wall",
+    ],
+    answer: "Carved images, cast idols, and high places",
     reference: "Numbers 33:52",
   },
   {
     question:
       "What warning was given if Israel failed to drive out the inhabitants of Canaan?",
     options: [
-      "They would become barbs in their eyes and thorns in their sides",
-      "They would be forced back into Egypt",
-      "The tabernacle would be destroyed",
-      "Their tribes would disappear",
+      "Those left would become barbs in their eyes and thorns in their sides",
+      "The land would produce no food",
+      "Israel would immediately return to Egypt",
+      "The Jordan would become impassable",
     ],
-    answer: "They would become barbs in their eyes and thorns in their sides",
+    answer:
+      "Those left would become barbs in their eyes and thorns in their sides",
     reference: "Numbers 33:55",
   },
   {
     question:
-      "What body of water formed part of the western boundary of the promised land?",
+      "Who, together with Joshua, was appointed to assign the land of Canaan by inheritance?",
     options: [
-      "The Mediterranean Sea",
-      "The Red Sea",
-      "The Dead Sea only",
-      "The Sea of Galilee",
+      "Eleazar the priest",
+      "Phinehas",
+      "Caleb",
+      "Moses",
     ],
-    answer: "The Mediterranean Sea",
-    reference: "Numbers 34:6",
-  },
-  {
-    question:
-      "Who was appointed to help divide the land among the tribes?",
-    options: [
-      "Eleazar the priest and Joshua",
-      "Moses and Aaron",
-      "Caleb and Phinehas",
-      "The seventy elders only",
-    ],
-    answer: "Eleazar the priest and Joshua",
+    answer: "Eleazar the priest",
     reference: "Numbers 34:17",
   },
   {
     question:
-      "How many towns were the Israelites commanded to give to the Levites?",
+      "How many towns were the Israelites commanded to give the Levites?",
     options: [
-      "Twelve",
-      "Twenty-four",
       "Forty-eight",
+      "Six",
+      "Twelve",
       "Seventy",
     ],
     answer: "Forty-eight",
@@ -1537,10 +1858,10 @@ const numbersQuestions = [
   },
   {
     question:
-      "How many of the Levite towns were designated as cities of refuge?",
+      "How many of the Levitical towns were designated as cities of refuge?",
     options: [
-      "Three",
       "Six",
+      "Three",
       "Twelve",
       "Forty-eight",
     ],
@@ -1549,62 +1870,99 @@ const numbersQuestions = [
   },
   {
     question:
-      "What was the purpose of the cities of refuge?",
+      "How were the six cities of refuge distributed in relation to the Jordan?",
     options: [
-      "To protect someone who killed another unintentionally",
-      "To house priests only",
-      "To store military weapons",
-      "To shelter foreigners",
+      "Three east of the Jordan and three in Canaan",
+      "All six west of the Jordan",
+      "Four west and two east",
+      "Two west and four east",
     ],
-    answer: "To protect someone who killed another unintentionally",
-    reference: "Numbers 35:11-12",
+    answer: "Three east of the Jordan and three in Canaan",
+    reference: "Numbers 35:14",
   },
   {
     question:
-      "Until what event was an accidental killer required to remain in the city of refuge?",
+      "For whom were the cities of refuge intended?",
+    options: [
+      "Anyone who killed another person unintentionally",
+      "Anyone convicted of theft",
+      "Only Israelites accused of murder",
+      "Priests who became ceremonially unclean",
+    ],
+    answer: "Anyone who killed another person unintentionally",
+    reference: "Numbers 35:11, 15",
+  },
+  {
+    question:
+      "Until whose death was an unintentional killer required to remain in the city of refuge?",
     options: [
       "The death of the high priest",
-      "The next Jubilee",
+      "The death of the victim's nearest relative",
       "The death of the tribal leader",
-      "Seven years had passed",
+      "The next Jubilee",
     ],
     answer: "The death of the high priest",
-    reference: "Numbers 35:25",
+    reference: "Numbers 35:25-28",
   },
   {
     question:
-      "How many witnesses were required before someone could be put to death for murder?",
+      "How many witnesses were required before a person could be put to death for murder?",
     options: [
-      "At least two",
-      "One",
-      "Three exactly",
-      "Seven",
+      "More than one witness",
+      "One witness",
+      "Exactly twelve witnesses",
+      "Seven witnesses",
     ],
-    answer: "At least two",
+    answer: "More than one witness",
     reference: "Numbers 35:30",
   },
   {
     question:
-      "Why were the daughters of Zelophehad told to marry within their own tribal clan?",
+      "Could ransom money be accepted in place of execution for a convicted murderer?",
     options: [
-      "So their inheritance would remain within the tribe",
-      "So they could become priestly families",
-      "So they could avoid leaving Canaan",
-      "So their husbands could become judges",
+      "No",
+      "Yes, if the family agreed",
+      "Yes, if double compensation was paid",
+      "Only before the high priest",
     ],
-    answer: "So their inheritance would remain within the tribe",
+    answer: "No",
+    reference: "Numbers 35:31",
+  },
+  {
+    question:
+      "What marriage restriction was placed on daughters who inherited tribal land?",
+    options: [
+      "They had to marry within a clan of their father's tribe",
+      "They had to marry Levites",
+      "They could marry only eldest sons",
+      "They could not marry",
+    ],
+    answer: "They had to marry within a clan of their father's tribe",
     reference: "Numbers 36:6-9",
   },
   {
     question:
-      "Did the daughters of Zelophehad obey the instruction concerning marriage?",
+      "Why were heiresses required to marry within their father's tribe?",
     options: [
-      "Yes, they married within the clans of Manasseh",
-      "No, they married outside Israel",
-      "Only two of them obeyed",
-      "They remained unmarried",
+      "So inherited land would not transfer from one tribe to another",
+      "So priestly inheritance would remain pure",
+      "So tribal populations would remain equal",
+      "So census numbers would not change",
     ],
-    answer: "Yes, they married within the clans of Manasseh",
+    answer:
+      "So inherited land would not transfer from one tribe to another",
+    reference: "Numbers 36:7-9",
+  },
+  {
+    question:
+      "Whom did the daughters of Zelophehad eventually marry?",
+    options: [
+      "Their cousins on their father's side",
+      "Sons of Aaron",
+      "Men from Judah",
+      "Levites from Kohath",
+    ],
+    answer: "Their cousins on their father's side",
     reference: "Numbers 36:10-12",
   },
 ];

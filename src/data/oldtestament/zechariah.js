@@ -1,2378 +1,3022 @@
 const zechariahQuestions = [
   {
-    question: "During whose reign did the word of the Lord come to Zechariah?",
-    options: [
-      "Darius",
-      "Cyrus",
-      "Xerxes",
-      "Artaxerxes",
-    ],
+    question:
+      "In whose second year did the word of the LORD first come to Zechariah?",
+    options: ["Darius", "Cyrus", "Artaxerxes", "Xerxes"],
     answer: "Darius",
     reference: "Zechariah 1:1",
   },
   {
-    question: "Who was Zechariah's father?",
+    question:
+      "In which month did the first recorded word of the LORD come to Zechariah?",
     options: [
-      "Berekiah",
-      "Iddo",
-      "Shealtiel",
-      "Jehozadak",
+      "The eighth month",
+      "The ninth month",
+      "The eleventh month",
+      "The seventh month",
     ],
-    answer: "Berekiah",
+    answer: "The eighth month",
     reference: "Zechariah 1:1",
   },
   {
-    question: "Who was Zechariah's grandfather?",
+    question:
+      "How is Zechariah's ancestry identified when his prophecy begins?",
     options: [
-      "Iddo",
-      "Berekiah",
-      "Joshua",
-      "Zerubbabel",
+      "Son of Berekiah, son of Iddo",
+      "Son of Iddo, son of Berekiah",
+      "Son of Berechiah, son of Joshua",
+      "Son of Shealtiel, son of Iddo",
     ],
-    answer: "Iddo",
+    answer: "Son of Berekiah, son of Iddo",
     reference: "Zechariah 1:1",
   },
   {
-    question: "What did God tell the people to do so that He would return to them?",
+    question:
+      "What does the LORD say about His attitude toward the ancestors of Zechariah's audience?",
     options: [
-      "Return to Him",
-      "Rebuild the wall",
-      "Leave Jerusalem",
-      "Offer more sacrifices",
+      "He was very angry with them",
+      "He had forgotten their rebellion",
+      "He had compassion on them",
+      "He had hidden His face temporarily",
     ],
-    answer: "Return to Him",
+    answer: "He was very angry with them",
+    reference: "Zechariah 1:2",
+  },
+  {
+    question:
+      "What promise accompanies the command for the people to return to the LORD?",
+    options: [
+      "The LORD will return to them",
+      "The LORD will rebuild the temple",
+      "The LORD will defeat Persia",
+      "The LORD will restore the monarchy",
+    ],
+    answer: "The LORD will return to them",
     reference: "Zechariah 1:3",
   },
   {
-    question: "Whose behavior were the people warned not to imitate?",
+    question:
+      "Whose example are the people specifically warned not to imitate?",
     options: [
       "Their ancestors",
-      "The Persians",
+      "The nations",
       "The priests",
-      "The prophets",
+      "The kings of Judah",
     ],
     answer: "Their ancestors",
     reference: "Zechariah 1:4",
   },
   {
-    question: "What had the former prophets urged the ancestors to turn from?",
+    question:
+      "What had the former prophets urged the ancestors to turn from?",
     options: [
-      "Their evil ways and practices",
-      "Their farming",
-      "Their trade",
-      "Their cities",
+      "Their evil ways and evil practices",
+      "Their foreign alliances",
+      "Their sacrifices and festivals",
+      "Their cities and possessions",
     ],
-    answer: "Their evil ways and practices",
+    answer: "Their evil ways and evil practices",
     reference: "Zechariah 1:4",
   },
   {
-    question: "Did the ancestors listen to the Lord's warnings?",
+    question:
+      "What two questions emphasize the mortality of the ancestors and former prophets?",
     options: [
-      "No",
-      "Yes",
-      "Only the priests did",
-      "Only the kings did",
+      "Where are your ancestors now, and do the prophets live forever?",
+      "Where are your kings, and where are your priests?",
+      "Where are the prophets, and why did your ancestors die?",
+      "Where are your fathers, and who remembers the prophets?",
     ],
-    answer: "No",
-    reference: "Zechariah 1:4",
-  },
-  {
-    question: "What eventually happened to the ancestors and former prophets?",
-    options: [
-      "They died",
-      "They went to Persia",
-      "They became kings",
-      "They returned from exile",
-    ],
-    answer: "They died",
+    answer:
+      "Where are your ancestors now, and do the prophets live forever?",
     reference: "Zechariah 1:5",
   },
   {
-    question: "What did the people finally acknowledge about God's words and decrees?",
+    question:
+      "What did the people acknowledge about God's words and decrees after judgment overtook their ancestors?",
     options: [
-      "They had overtaken their ancestors",
-      "They had failed",
-      "They applied only to foreigners",
-      "They had been forgotten",
+      "The LORD had dealt with them according to their ways and practices",
+      "The LORD had punished them more severely than expected",
+      "The prophets had misunderstood God's judgment",
+      "Their enemies had acted independently of God",
     ],
-    answer: "They had overtaken their ancestors",
+    answer:
+      "The LORD had dealt with them according to their ways and practices",
     reference: "Zechariah 1:6",
   },
-
   {
-    question: "What did Zechariah see in his first night vision?",
+    question:
+      "On what day did Zechariah receive the vision involving a man among myrtle trees?",
+    options: [
+      "The twenty-fourth day of the eleventh month",
+      "The twenty-first day of the seventh month",
+      "The twenty-fourth day of the ninth month",
+      "The first day of the eighth month",
+    ],
+    answer: "The twenty-fourth day of the eleventh month",
+    reference: "Zechariah 1:7",
+  },
+  {
+    question:
+      "What Babylonian name is given for the eleventh month?",
+    options: ["Shebat", "Kislev", "Nisan", "Tishri"],
+    answer: "Shebat",
+    reference: "Zechariah 1:7",
+  },
+  {
+    question:
+      "What did Zechariah see during the night at the beginning of his first vision?",
     options: [
       "A man riding a red horse",
+      "Four chariots",
       "A flying scroll",
-      "A lampstand",
-      "A woman in a basket",
+      "A golden lampstand",
     ],
     answer: "A man riding a red horse",
     reference: "Zechariah 1:8",
   },
   {
-    question: "Where was the rider standing?",
+    question:
+      "Where was the rider on the red horse standing?",
     options: [
       "Among myrtle trees in a ravine",
-      "On Mount Zion",
-      "Beside the temple",
-      "At the city gate",
+      "Beside the temple altar",
+      "Between two mountains",
+      "At Jerusalem's eastern gate",
     ],
     answer: "Among myrtle trees in a ravine",
     reference: "Zechariah 1:8",
   },
   {
-    question: "What colors of horses were behind the first rider?",
+    question:
+      "What horses were behind the man among the myrtle trees?",
     options: [
-      "Red, brown, and white",
-      "Black, white, and green",
-      "Red, black, and yellow",
-      "White, gray, and blue",
+      "Red, brown, and white horses",
+      "Black, white, and red horses",
+      "Red, black, and dappled horses",
+      "White, gray, and brown horses",
     ],
-    answer: "Red, brown, and white",
+    answer: "Red, brown, and white horses",
     reference: "Zechariah 1:8",
   },
   {
-    question: "What had the horsemen been sent to do?",
+    question:
+      "Who tells Zechariah that he will show him what the horses represent?",
     options: [
-      "Patrol the earth",
-      "Attack Jerusalem",
-      "Guard the temple",
-      "Escort Zerubbabel",
+      "The angel who was speaking with him",
+      "The man among the myrtle trees",
+      "The high priest Joshua",
+      "The angel of the LORD",
     ],
-    answer: "Patrol the earth",
+    answer: "The angel who was speaking with him",
+    reference: "Zechariah 1:9",
+  },
+  {
+    question:
+      "What assignment had the LORD given the horsemen?",
+    options: [
+      "To go throughout the earth",
+      "To guard Jerusalem",
+      "To inspect the temple",
+      "To punish the nations",
+    ],
+    answer: "To go throughout the earth",
     reference: "Zechariah 1:10",
   },
   {
-    question: "What report did the horsemen give?",
+    question:
+      "What report did the horsemen give after going throughout the earth?",
     options: [
       "The whole earth was at rest and in peace",
-      "The nations were at war",
-      "Jerusalem was rebuilt",
-      "Babylon had fallen again",
+      "The nations were preparing for war",
+      "Jerusalem alone was at peace",
+      "The earth was mourning",
     ],
     answer: "The whole earth was at rest and in peace",
     reference: "Zechariah 1:11",
   },
   {
-    question: "How long had Jerusalem and Judah experienced God's indignation?",
+    question:
+      "How long had Jerusalem and the towns of Judah experienced the LORD's indignation when the angel appealed for mercy?",
     options: [
       "Seventy years",
       "Forty years",
-      "Twenty years",
-      "One hundred years",
+      "Fifty years",
+      "Seventy-seven years",
     ],
     answer: "Seventy years",
     reference: "Zechariah 1:12",
   },
   {
-    question: "How did the Lord answer the angel who asked about Jerusalem?",
+    question:
+      "How did the LORD answer the angel who spoke with Zechariah?",
     options: [
       "With kind and comforting words",
+      "With thunder and fire",
+      "With a written decree",
       "With silence",
-      "With anger only",
-      "With a command to flee",
     ],
     answer: "With kind and comforting words",
     reference: "Zechariah 1:13",
   },
   {
-    question: "What did God say He was very jealous for?",
+    question:
+      "For which two places does the LORD declare Himself very jealous?",
     options: [
       "Jerusalem and Zion",
-      "Babylon and Persia",
-      "Samaria and Bethel",
-      "Egypt and Cush",
+      "Judah and Israel",
+      "Jerusalem and Bethel",
+      "Zion and Samaria",
     ],
     answer: "Jerusalem and Zion",
     reference: "Zechariah 1:14",
   },
   {
-    question: "Why was God angry with the nations that felt secure?",
+    question:
+      "Why was the LORD very angry with the nations that felt secure?",
     options: [
-      "They went too far in harming His people",
-      "They refused to trade",
-      "They rebuilt Jerusalem",
-      "They destroyed idols",
+      "He was only a little angry with His people, but the nations went too far in punishing them",
+      "They refused to rebuild Jerusalem",
+      "They destroyed the Persian Empire",
+      "They prevented sacrifices in the temple",
     ],
-    answer: "They went too far in harming His people",
+    answer:
+      "He was only a little angry with His people, but the nations went too far in punishing them",
     reference: "Zechariah 1:15",
   },
   {
-    question: "What did God promise concerning Jerusalem?",
+    question:
+      "What does the LORD promise concerning His house in Jerusalem?",
     options: [
-      "His house would be rebuilt there",
-      "It would remain desolate forever",
-      "It would be abandoned",
-      "It would become Persian territory",
+      "It will be rebuilt",
+      "It will be filled immediately with gold",
+      "It will replace Solomon's palace",
+      "It will never again be damaged",
     ],
-    answer: "His house would be rebuilt there",
+    answer: "It will be rebuilt",
     reference: "Zechariah 1:16",
   },
   {
-    question: "What would again overflow with prosperity?",
+    question:
+      "What measuring instrument is mentioned in connection with Jerusalem?",
     options: [
-      "The Lord's towns",
-      "Only Jerusalem's palace",
-      "Babylon",
-      "The Persian capital",
+      "A measuring line",
+      "A measuring rod",
+      "A plumb line",
+      "A measuring basket",
     ],
-    answer: "The Lord's towns",
+    answer: "A measuring line",
+    reference: "Zechariah 1:16",
+  },
+  {
+    question:
+      "What will again overflow with prosperity?",
+    options: [
+      "The LORD's towns",
+      "The temple courts",
+      "Jerusalem's vineyards",
+      "The houses of the priests",
+    ],
+    answer: "The LORD's towns",
     reference: "Zechariah 1:17",
   },
-
   {
-    question: "How many horns did Zechariah see?",
+    question:
+      "What two divine choices conclude the message following the horsemen's report?",
     options: [
-      "Four",
-      "Two",
-      "Seven",
-      "Twelve",
+      "The LORD will comfort Zion and choose Jerusalem",
+      "The LORD will choose Judah and rebuild Samaria",
+      "The LORD will comfort Israel and choose the temple",
+      "The LORD will restore David and choose Zion",
     ],
+    answer: "The LORD will comfort Zion and choose Jerusalem",
+    reference: "Zechariah 1:17",
+  },
+  {
+    question:
+      "How many horns did Zechariah see in the next vision?",
+    options: ["Four", "Two", "Seven", "Twelve"],
     answer: "Four",
     reference: "Zechariah 1:18",
   },
   {
-    question: "What did the four horns represent?",
+    question:
+      "What did the four horns represent?",
     options: [
-      "Powers that scattered Judah, Israel, and Jerusalem",
-      "Four priests",
-      "Four prophets",
-      "Four gates of Jerusalem",
+      "The powers that scattered Judah, Israel, and Jerusalem",
+      "Four kings who would rebuild Jerusalem",
+      "Four kingdoms that protected Judah",
+      "The four corners of the earth",
     ],
-    answer: "Powers that scattered Judah, Israel, and Jerusalem",
+    answer: "The powers that scattered Judah, Israel, and Jerusalem",
     reference: "Zechariah 1:19",
   },
   {
-    question: "How many craftsmen did the Lord show Zechariah?",
+    question:
+      "Whom did the LORD show Zechariah after the four horns?",
     options: [
-      "Four",
-      "Two",
-      "Seven",
-      "Ten",
+      "Four craftsmen",
+      "Four angels",
+      "Four kings",
+      "Four shepherds",
     ],
-    answer: "Four",
+    answer: "Four craftsmen",
     reference: "Zechariah 1:20",
   },
   {
-    question: "What were the craftsmen sent to do?",
+    question:
+      "What were the craftsmen coming to do to the horns?",
     options: [
-      "Terrify and overthrow the horns",
-      "Rebuild the temple",
-      "Measure Jerusalem",
-      "Make priestly garments",
+      "Terrify and throw them down",
+      "Measure and number them",
+      "Polish and strengthen them",
+      "Carry them to Jerusalem",
     ],
-    answer: "Terrify and overthrow the horns",
+    answer: "Terrify and throw them down",
     reference: "Zechariah 1:21",
   },
-
   {
-    question: "What did Zechariah see in another vision?",
+    question:
+      "What did Zechariah see in the vision that opens the second chapter?",
     options: [
       "A man with a measuring line",
-      "A golden calf",
-      "A burning bush",
-      "A river",
+      "A priest holding a scroll",
+      "An angel with a sword",
+      "A woman in a basket",
     ],
     answer: "A man with a measuring line",
     reference: "Zechariah 2:1",
   },
   {
-    question: "What was the man going to measure?",
+    question:
+      "What did the man with the measuring line intend to determine?",
     options: [
-      "Jerusalem",
-      "The temple altar",
-      "Babylon",
-      "The Jordan River",
+      "The width and length of Jerusalem",
+      "The dimensions of the temple",
+      "The height of Jerusalem's walls",
+      "The distance from Jerusalem to Babylon",
     ],
-    answer: "Jerusalem",
+    answer: "The width and length of Jerusalem",
     reference: "Zechariah 2:2",
   },
   {
-    question: "How would Jerusalem one day be inhabited?",
+    question:
+      "Why would Jerusalem eventually be inhabited like a town without walls?",
     options: [
-      "Like a city without walls because of the number of people and livestock",
-      "As a small fortress",
-      "Only by priests",
-      "As a deserted town",
+      "Because of the great number of people and livestock in it",
+      "Because its walls would be destroyed",
+      "Because its enemies would disappear",
+      "Because the temple would replace its defenses",
     ],
-    answer: "Like a city without walls because of the number of people and livestock",
+    answer: "Because of the great number of people and livestock in it",
     reference: "Zechariah 2:4",
   },
   {
-    question: "What would the Lord Himself be around Jerusalem?",
+    question:
+      "What does the LORD promise to be around Jerusalem instead of an ordinary defensive wall?",
     options: [
       "A wall of fire",
-      "A river",
-      "A cloud only",
-      "A stone wall",
+      "A wall of angels",
+      "A wall of bronze",
+      "A wall of cloud",
     ],
     answer: "A wall of fire",
     reference: "Zechariah 2:5",
   },
   {
-    question: "What would the Lord be within Jerusalem?",
+    question:
+      "What does the LORD promise to be within Jerusalem?",
     options: [
       "Its glory",
-      "Its governor",
-      "Its army",
-      "Its priest",
+      "Its king",
+      "Its temple",
+      "Its light",
     ],
     answer: "Its glory",
     reference: "Zechariah 2:5",
   },
   {
-    question: "From which land were the exiles told to escape?",
+    question:
+      "From which land are the exiles told to flee?",
     options: [
       "The land of the north",
       "Egypt",
-      "Moab",
+      "Assyria",
       "Edom",
     ],
     answer: "The land of the north",
     reference: "Zechariah 2:6",
   },
   {
-    question: "From which city was Zion told to escape?",
+    question:
+      "How widely had the LORD scattered His people?",
+    options: [
+      "To the four winds of heaven",
+      "Among seven nations",
+      "From Egypt to Babylon",
+      "To the ends of the sea",
+    ],
+    answer: "To the four winds of heaven",
+    reference: "Zechariah 2:6",
+  },
+  {
+    question:
+      "From what city is Zion specifically told to escape?",
     options: [
       "Babylon",
       "Nineveh",
+      "Susa",
       "Damascus",
-      "Samaria",
     ],
     answer: "Babylon",
     reference: "Zechariah 2:7",
   },
   {
-    question: "How does God describe His people in relation to His care?",
+    question:
+      "What sensitive part of the body is used to describe how precious God's people are to Him?",
     options: [
-      "The apple of His eye",
-      "His sword",
-      "His throne",
-      "His crown",
+      "The pupil of His eye",
+      "The palm of His hand",
+      "The crown of His head",
+      "The beat of His heart",
     ],
-    answer: "The apple of His eye",
+    answer: "The pupil of His eye",
     reference: "Zechariah 2:8",
   },
   {
-    question: "What would happen to nations that plundered God's people?",
+    question:
+      "What reversal is promised concerning the nations that plundered God's people?",
     options: [
-      "Their own slaves would plunder them",
-      "They would rule forever",
-      "They would become priests",
-      "They would inherit Jerusalem",
+      "Their own slaves will plunder them",
+      "Their kings will serve in Jerusalem",
+      "Their armies will join Judah",
+      "Their cities will become Israelite temples",
     ],
-    answer: "Their own slaves would plunder them",
+    answer: "Their own slaves will plunder them",
     reference: "Zechariah 2:9",
   },
   {
-    question: "Why is Daughter Zion told to shout and rejoice?",
+    question:
+      "Why is Daughter Zion told to shout and be glad?",
     options: [
-      "The Lord is coming to live among her",
-      "The temple is already finished",
-      "Persia has fallen",
-      "The walls are complete",
+      "The LORD is coming to live among her",
+      "The temple has been completed",
+      "Babylon has already fallen",
+      "A Davidic king has been crowned",
     ],
-    answer: "The Lord is coming to live among her",
+    answer: "The LORD is coming to live among her",
     reference: "Zechariah 2:10",
   },
   {
-    question: "What will many nations do in that day?",
+    question:
+      "What will many nations do in the day when the LORD dwells in Zion?",
     options: [
-      "Join themselves to the Lord",
-      "Attack Jerusalem",
-      "Serve Babylon",
-      "Destroy the temple",
+      "Join themselves to the LORD and become His people",
+      "Bring armies to defend Jerusalem",
+      "Become subjects of Zerubbabel",
+      "Abandon their own lands",
     ],
-    answer: "Join themselves to the Lord",
+    answer: "Join themselves to the LORD and become His people",
     reference: "Zechariah 2:11",
   },
   {
-    question: "What will Judah become in relation to the Lord?",
+    question:
+      "What will the LORD inherit as His portion in the holy land?",
     options: [
-      "His inheritance in the holy land",
-      "A foreign province",
-      "A priestly tribe only",
-      "A deserted land",
+      "Judah",
+      "Jerusalem",
+      "Levi",
+      "Benjamin",
     ],
-    answer: "His inheritance in the holy land",
+    answer: "Judah",
     reference: "Zechariah 2:12",
   },
   {
-    question: "Why is all humanity told to be still before the Lord?",
+    question:
+      "What command is given to all humanity because the LORD has roused Himself from His holy dwelling?",
     options: [
-      "He has roused Himself from His holy dwelling",
-      "The king is speaking",
-      "The temple is closed",
-      "The nations have gathered",
+      "Be still before the LORD",
+      "Rejoice before the LORD",
+      "Flee to Zion",
+      "Bow toward Jerusalem",
     ],
-    answer: "He has roused Himself from His holy dwelling",
+    answer: "Be still before the LORD",
     reference: "Zechariah 2:13",
   },
-
   {
-    question: "Who stood before the angel of the Lord in Zechariah's next vision?",
+    question:
+      "Who stood before the angel of the LORD in Zechariah's next vision?",
     options: [
       "Joshua the high priest",
       "Zerubbabel",
-      "Darius",
       "Haggai",
+      "Zechariah",
     ],
     answer: "Joshua the high priest",
     reference: "Zechariah 3:1",
   },
   {
-    question: "Who stood at Joshua's right side to accuse him?",
+    question:
+      "Who stood at Joshua's right side to accuse him?",
     options: [
       "Satan",
       "An angel",
-      "Zerubbabel",
-      "A priest",
+      "A false prophet",
+      "The king of Persia",
     ],
     answer: "Satan",
     reference: "Zechariah 3:1",
   },
   {
-    question: "What did the Lord say to Satan?",
+    question:
+      "What city is mentioned in the LORD's rebuke of Joshua's accuser?",
     options: [
-      "The Lord rebuke you",
-      "Speak again",
-      "Leave Jerusalem",
-      "Accuse Joshua",
+      "Jerusalem",
+      "Babylon",
+      "Samaria",
+      "Bethel",
     ],
-    answer: "The Lord rebuke you",
+    answer: "Jerusalem",
     reference: "Zechariah 3:2",
   },
   {
-    question: "To what was Joshua compared after being rescued?",
+    question:
+      "To what rescued object is Joshua compared?",
     options: [
       "A burning stick snatched from the fire",
-      "A branch from a tree",
-      "A stone from a wall",
-      "A lamp from a stand",
+      "A vessel rescued from water",
+      "A stone taken from rubble",
+      "A branch cut from a dead tree",
     ],
     answer: "A burning stick snatched from the fire",
     reference: "Zechariah 3:2",
   },
   {
-    question: "What was Joshua wearing before the angel?",
+    question:
+      "What was Joshua wearing while standing before the angel?",
     options: [
       "Filthy clothes",
-      "Royal robes",
-      "White linen",
+      "A torn robe",
       "Sackcloth",
+      "A bloodstained garment",
     ],
     answer: "Filthy clothes",
     reference: "Zechariah 3:3",
   },
   {
-    question: "What did removing Joshua's filthy clothes symbolize?",
+    question:
+      "What did the removal of Joshua's filthy clothes signify?",
     options: [
       "The removal of his sin",
-      "The loss of his office",
-      "His exile",
-      "His poverty",
+      "The end of his priesthood",
+      "His release from exile",
+      "His appointment as governor",
     ],
     answer: "The removal of his sin",
     reference: "Zechariah 3:4",
   },
   {
-    question: "What was Joshua given instead?",
+    question:
+      "What was Joshua given after his filthy garments were removed?",
     options: [
       "Fine garments",
-      "Armor",
-      "A royal crown",
-      "Sackcloth",
+      "A royal robe",
+      "A linen ephod",
+      "A scarlet cloak",
     ],
     answer: "Fine garments",
     reference: "Zechariah 3:4",
   },
   {
-    question: "What was placed on Joshua's head?",
+    question:
+      "What did Zechariah request be placed on Joshua's head?",
     options: [
       "A clean turban",
-      "A gold crown",
-      "A helmet",
-      "A veil",
+      "A golden crown",
+      "A priestly hood",
+      "A linen veil",
     ],
     answer: "A clean turban",
     reference: "Zechariah 3:5",
   },
   {
-    question: "What condition was Joshua given for governing God's house?",
+    question:
+      "What two conditions were given to Joshua for governing God's house and having charge of His courts?",
     options: [
       "Walk in God's ways and keep His requirements",
-      "Build a palace",
-      "Defeat Persia",
-      "Leave Jerusalem",
+      "Offer sacrifices and teach the law",
+      "Remain in Jerusalem and obey Zerubbabel",
+      "Fast regularly and judge fairly",
     ],
     answer: "Walk in God's ways and keep His requirements",
     reference: "Zechariah 3:7",
   },
   {
-    question: "What future figure does God promise to bring?",
+    question:
+      "What future servant does the LORD promise to bring?",
     options: [
-      "His servant, the Branch",
-      "A Persian king",
-      "A new high priest named David",
-      "A foreign prophet",
+      "The Branch",
+      "The Shepherd",
+      "The Prince",
+      "The Messenger",
     ],
-    answer: "His servant, the Branch",
+    answer: "The Branch",
     reference: "Zechariah 3:8",
   },
   {
-    question: "What object was set in front of Joshua?",
+    question:
+      "What object did God set in front of Joshua?",
     options: [
-      "A stone with seven eyes",
+      "A stone",
       "A lampstand",
       "A scroll",
       "A crown",
     ],
-    answer: "A stone with seven eyes",
+    answer: "A stone",
     reference: "Zechariah 3:9",
   },
   {
-    question: "What did God say He would remove in a single day?",
+    question:
+      "How many eyes were on the stone placed before Joshua?",
+    options: ["Seven", "Four", "Twelve", "Two"],
+    answer: "Seven",
+    reference: "Zechariah 3:9",
+  },
+  {
+    question:
+      "What does God promise to remove in a single day?",
     options: [
       "The sin of the land",
-      "The temple",
-      "The priesthood",
-      "Jerusalem's walls",
+      "The enemies of Jerusalem",
+      "The memory of Babylon",
+      "The impurity of the temple",
     ],
     answer: "The sin of the land",
     reference: "Zechariah 3:9",
   },
   {
-    question: "Under what would people invite their neighbors to sit?",
+    question:
+      "Under what two plants will people invite their neighbors to sit?",
     options: [
-      "Their vine and fig tree",
-      "Their cedar and palm tree",
-      "Their roof and gate",
-      "Their tent and altar",
+      "The vine and the fig tree",
+      "The olive and the vine",
+      "The cedar and the fig tree",
+      "The pomegranate and the olive",
     ],
-    answer: "Their vine and fig tree",
+    answer: "The vine and the fig tree",
     reference: "Zechariah 3:10",
   },
-
   {
-    question: "What did Zechariah see after being awakened like someone from sleep?",
+    question:
+      "What did the angel do to Zechariah before the vision of the lampstand?",
     options: [
-      "A solid gold lampstand",
-      "A flying scroll",
-      "Four chariots",
-      "A measuring line",
+      "Awakened him as one awakened from sleep",
+      "Touched his lips",
+      "Led him through a gate",
+      "Placed him beside Joshua",
     ],
-    answer: "A solid gold lampstand",
-    reference: "Zechariah 4:1-2",
+    answer: "Awakened him as one awakened from sleep",
+    reference: "Zechariah 4:1",
   },
   {
-    question: "How many lamps were on the lampstand?",
+    question:
+      "What major object did Zechariah see after being awakened?",
     options: [
-      "Seven",
-      "Twelve",
-      "Four",
-      "Ten",
+      "A solid gold lampstand",
+      "A bronze altar",
+      "A golden ark",
+      "A silver table",
     ],
+    answer: "A solid gold lampstand",
+    reference: "Zechariah 4:2",
+  },
+  {
+    question:
+      "What was positioned on top of the lampstand?",
+    options: [
+      "A bowl",
+      "A crown",
+      "A flame",
+      "A scroll",
+    ],
+    answer: "A bowl",
+    reference: "Zechariah 4:2",
+  },
+  {
+    question:
+      "How many lamps were on the lampstand?",
+    options: ["Seven", "Twelve", "Four", "Ten"],
     answer: "Seven",
     reference: "Zechariah 4:2",
   },
   {
-    question: "What stood beside the lampstand?",
+    question:
+      "What trees stood on the right and left of the lampstand?",
     options: [
       "Two olive trees",
-      "Two angels",
-      "Two priests",
-      "Two pillars",
+      "Two fig trees",
+      "Two cedar trees",
+      "Two almond trees",
     ],
     answer: "Two olive trees",
     reference: "Zechariah 4:3",
   },
   {
-    question: "What famous message was given to Zerubbabel?",
+    question:
+      "What principle is given as the word of the LORD to Zerubbabel?",
     options: [
-      "Not by might nor by power, but by my Spirit",
-      "Be strong and fight",
-      "Build by wealth and wisdom",
-      "Trust in Persia",
+      "Not by might nor by power, but by My Spirit",
+      "Not by wisdom nor by wealth, but by faith",
+      "Not by armies nor by kings, but by My hand",
+      "Not by strength nor by numbers, but by obedience",
     ],
-    answer: "Not by might nor by power, but by my Spirit",
+    answer: "Not by might nor by power, but by My Spirit",
     reference: "Zechariah 4:6",
   },
   {
-    question: "What would the mighty mountain become before Zerubbabel?",
+    question:
+      "What will the mighty mountain become before Zerubbabel?",
     options: [
       "Level ground",
-      "A fortress",
-      "A river",
-      "A temple",
+      "A holy mountain",
+      "A place of refuge",
+      "A divided hill",
     ],
     answer: "Level ground",
     reference: "Zechariah 4:7",
   },
   {
-    question: "What would Zerubbabel bring out amid shouts?",
+    question:
+      "What will Zerubbabel bring out amid shouts of blessing?",
     options: [
       "The capstone",
-      "The altar",
-      "The ark",
-      "The lampstand",
+      "The foundation stone",
+      "The altar stone",
+      "The cornerstone of the wall",
     ],
     answer: "The capstone",
     reference: "Zechariah 4:7",
   },
   {
-    question: "Who had laid the foundation of the temple?",
+    question:
+      "Whose hands had laid the foundation of the temple?",
     options: [
-      "Zerubbabel",
-      "Joshua",
-      "Haggai",
-      "Darius",
+      "Zerubbabel's",
+      "Joshua's",
+      "Haggai's",
+      "Zechariah's",
     ],
-    answer: "Zerubbabel",
+    answer: "Zerubbabel's",
     reference: "Zechariah 4:9",
   },
   {
-    question: "Who would complete the temple?",
+    question:
+      "Whose hands would also complete the temple?",
     options: [
-      "Zerubbabel",
-      "Joshua",
-      "Darius",
-      "The priests alone",
+      "Zerubbabel's",
+      "Joshua's",
+      "The priests'",
+      "The people's",
     ],
-    answer: "Zerubbabel",
+    answer: "Zerubbabel's",
     reference: "Zechariah 4:9",
   },
   {
-    question: "What attitude toward small beginnings is discouraged?",
+    question:
+      "What are people warned not to despise?",
     options: [
-      "Despising the day of small things",
-      "Celebrating progress",
-      "Working carefully",
-      "Trusting God",
+      "The day of small things",
+      "The weakness of Zerubbabel",
+      "The unfinished temple",
+      "The remnant of Judah",
     ],
-    answer: "Despising the day of small things",
+    answer: "The day of small things",
     reference: "Zechariah 4:10",
   },
   {
-    question: "What do the seven eyes symbolize?",
+    question:
+      "What object in Zerubbabel's hand would be seen with rejoicing?",
     options: [
-      "The eyes of the Lord ranging throughout the earth",
-      "Seven priests",
-      "Seven kings",
-      "Seven nations",
+      "The plumb line",
+      "The measuring rod",
+      "The capstone",
+      "The golden bowl",
     ],
-    answer: "The eyes of the Lord ranging throughout the earth",
+    answer: "The plumb line",
     reference: "Zechariah 4:10",
   },
   {
-    question: "What do the two olive trees represent?",
+    question:
+      "What do the seven eyes represent?",
+    options: [
+      "The eyes of the LORD ranging throughout the earth",
+      "Seven angels guarding Jerusalem",
+      "The seven lamps of the temple",
+      "Seven prophets sent to Judah",
+    ],
+    answer: "The eyes of the LORD ranging throughout the earth",
+    reference: "Zechariah 4:10",
+  },
+  {
+    question:
+      "How are the two olive-related figures finally identified?",
     options: [
       "The two anointed ones who serve the Lord of all the earth",
-      "Two foreign kings",
-      "Two prophets from Babylon",
-      "Two temple gates",
+      "Two prophets who rebuild Jerusalem",
+      "Two priests who guard the temple",
+      "Two angels who stand beside God's throne",
     ],
     answer: "The two anointed ones who serve the Lord of all the earth",
     reference: "Zechariah 4:14",
   },
-
   {
-    question: "What did Zechariah see flying in another vision?",
+    question:
+      "What unusual object did Zechariah see flying in his next vision?",
     options: [
       "A scroll",
+      "A basket",
+      "A lampstand",
       "A chariot",
-      "An eagle",
-      "A lamp",
     ],
     answer: "A scroll",
     reference: "Zechariah 5:1",
   },
   {
-    question: "How long was the flying scroll?",
+    question:
+      "What were the dimensions of the flying scroll?",
     options: [
-      "Twenty cubits",
-      "Ten cubits",
-      "Thirty cubits",
-      "Forty cubits",
+      "Twenty cubits long and ten cubits wide",
+      "Ten cubits long and twenty cubits wide",
+      "Thirty cubits long and ten cubits wide",
+      "Twenty cubits long and five cubits wide",
     ],
-    answer: "Twenty cubits",
+    answer: "Twenty cubits long and ten cubits wide",
     reference: "Zechariah 5:2",
   },
   {
-    question: "How wide was the flying scroll?",
-    options: [
-      "Ten cubits",
-      "Twenty cubits",
-      "Five cubits",
-      "Fifteen cubits",
-    ],
-    answer: "Ten cubits",
-    reference: "Zechariah 5:2",
-  },
-  {
-    question: "What did the scroll represent?",
+    question:
+      "What did the flying scroll represent?",
     options: [
       "A curse going out over the whole land",
-      "A blessing",
-      "A royal decree",
-      "A priestly law",
+      "The law returning to Jerusalem",
+      "A message to the nations",
+      "The record of Judah's exiles",
     ],
     answer: "A curse going out over the whole land",
     reference: "Zechariah 5:3",
   },
   {
-    question: "Which sin was condemned on one side of the scroll?",
+    question:
+      "Which two offenses are specifically targeted by the curse on the flying scroll?",
     options: [
-      "Stealing",
-      "Murder",
-      "Adultery",
-      "Idolatry",
+      "Stealing and swearing falsely by God's name",
+      "Murder and adultery",
+      "Idolatry and oppression",
+      "False prophecy and bribery",
     ],
-    answer: "Stealing",
-    reference: "Zechariah 5:3",
-  },
-  {
-    question: "Which sin was condemned on the other side?",
-    options: [
-      "Swearing falsely by God's name",
-      "Refusing sacrifice",
-      "Breaking the Sabbath",
-      "Coveting land",
-    ],
-    answer: "Swearing falsely by God's name",
+    answer: "Stealing and swearing falsely by God's name",
     reference: "Zechariah 5:3-4",
   },
   {
-    question: "What would the curse do inside the guilty person's house?",
+    question:
+      "What will the curse do after entering the house of a thief or false swearer?",
     options: [
-      "Destroy it, including its timber and stones",
-      "Bless it",
-      "Fill it with grain",
-      "Protect it",
+      "Remain there and destroy both its timbers and stones",
+      "Burn only the possessions",
+      "Drive the inhabitants into exile",
+      "Mark the doorway for judgment",
     ],
-    answer: "Destroy it, including its timber and stones",
+    answer: "Remain there and destroy both its timbers and stones",
     reference: "Zechariah 5:4",
   },
-
   {
-    question: "What container appeared in Zechariah's next vision?",
+    question:
+      "What container appeared in the vision immediately after the flying scroll?",
     options: [
       "A basket",
       "A jar",
       "A chest",
-      "A cup",
+      "A bowl",
     ],
     answer: "A basket",
     reference: "Zechariah 5:6",
   },
   {
-    question: "What did the basket represent?",
-    options: [
-      "The iniquity of the people throughout the land",
-      "The harvest",
-      "Temple offerings",
-      "Persian taxes",
-    ],
-    answer: "The iniquity of the people throughout the land",
-    reference: "Zechariah 5:6",
-  },
-  {
-    question: "What was lifted from the basket?",
+    question:
+      "What kind of cover was lifted from the basket?",
     options: [
       "A lead cover",
-      "A wooden lid",
-      "A golden plate",
-      "A stone",
+      "A bronze cover",
+      "A golden cover",
+      "An iron cover",
     ],
     answer: "A lead cover",
     reference: "Zechariah 5:7",
   },
   {
-    question: "What was inside the basket?",
+    question:
+      "Who was sitting inside the basket?",
     options: [
       "A woman",
-      "Gold",
-      "Grain",
-      "A scroll",
+      "A priest",
+      "An angel",
+      "A child",
     ],
     answer: "A woman",
     reference: "Zechariah 5:7",
   },
   {
-    question: "What did the woman represent?",
+    question:
+      "What name or quality was assigned to the woman in the basket?",
     options: [
       "Wickedness",
-      "Wisdom",
-      "Jerusalem",
-      "Babylon",
+      "Idolatry",
+      "Deceit",
+      "Rebellion",
     ],
     answer: "Wickedness",
     reference: "Zechariah 5:8",
   },
   {
-    question: "What did the angel do to the woman?",
+    question:
+      "What did the angel do to the woman after identifying her?",
     options: [
-      "Pushed her back into the basket",
-      "Released her",
-      "Crowned her",
-      "Sent her to Jerusalem",
+      "Pushed her back into the basket and forced the lead cover down",
+      "Released her toward Babylon",
+      "Bound her with chains",
+      "Handed her to two other angels",
     ],
-    answer: "Pushed her back into the basket",
+    answer:
+      "Pushed her back into the basket and forced the lead cover down",
     reference: "Zechariah 5:8",
   },
   {
-    question: "What kind of wings did the two women carrying the basket have?",
+    question:
+      "How many women came flying in the vision of the basket?",
+    options: ["Two", "Four", "Seven", "Three"],
+    answer: "Two",
+    reference: "Zechariah 5:9",
+  },
+  {
+    question:
+      "What kind of wings did the two women have?",
     options: [
       "Wings like those of a stork",
-      "Eagle wings",
-      "Dove wings",
-      "Raven wings",
+      "Wings like those of an eagle",
+      "Wings like those of a dove",
+      "Wings like those of a cherub",
     ],
     answer: "Wings like those of a stork",
     reference: "Zechariah 5:9",
   },
   {
-    question: "Where were they taking the basket?",
+    question:
+      "Where were the two winged women taking the basket?",
     options: [
       "The land of Babylon",
       "Egypt",
-      "Jerusalem",
-      "Persia",
+      "Assyria",
+      "Edom",
     ],
     answer: "The land of Babylon",
     reference: "Zechariah 5:11",
   },
   {
-    question: "What would be built there for the basket?",
+    question:
+      "What would be built for the basket in the land to which it was carried?",
     options: [
       "A house",
-      "A temple in Jerusalem",
-      "A fortress",
-      "A palace",
+      "An altar",
+      "A tower",
+      "A shrine outside the city",
     ],
     answer: "A house",
     reference: "Zechariah 5:11",
   },
-
   {
-    question: "How many chariots came out from between two mountains?",
+    question:
+      "From between what did the four chariots emerge in Zechariah's next vision?",
     options: [
-      "Four",
-      "Two",
-      "Seven",
-      "Twelve",
+      "Two mountains of bronze",
+      "Two walls of stone",
+      "Two mountains of fire",
+      "Two pillars of bronze",
     ],
-    answer: "Four",
+    answer: "Two mountains of bronze",
     reference: "Zechariah 6:1",
   },
   {
-    question: "What were the mountains made of?",
-    options: [
-      "Bronze",
-      "Gold",
-      "Iron",
-      "Stone",
-    ],
-    answer: "Bronze",
-    reference: "Zechariah 6:1",
-  },
-  {
-    question: "What color horses pulled the first chariot?",
-    options: [
-      "Red",
-      "Black",
-      "White",
-      "Dappled",
-    ],
+    question:
+      "What color horses pulled the first chariot?",
+    options: ["Red", "Black", "White", "Dappled"],
     answer: "Red",
     reference: "Zechariah 6:2",
   },
   {
-    question: "What color horses pulled the second chariot?",
-    options: [
-      "Black",
-      "Red",
-      "White",
-      "Gray",
-    ],
+    question:
+      "What color horses pulled the second chariot?",
+    options: ["Black", "Red", "White", "Dappled"],
     answer: "Black",
     reference: "Zechariah 6:2",
   },
   {
-    question: "What color horses pulled the third chariot?",
-    options: [
-      "White",
-      "Black",
-      "Red",
-      "Brown",
-    ],
+    question:
+      "What color horses pulled the third chariot?",
+    options: ["White", "Black", "Red", "Dappled"],
     answer: "White",
     reference: "Zechariah 6:3",
   },
   {
-    question: "What kind of horses pulled the fourth chariot?",
+    question:
+      "How are the horses of the fourth chariot described?",
     options: [
-      "Dappled",
-      "Red",
-      "White",
-      "Black",
+      "Dappled and powerful",
+      "Brown and swift",
+      "Gray and strong",
+      "Red and dappled",
     ],
-    answer: "Dappled",
+    answer: "Dappled and powerful",
     reference: "Zechariah 6:3",
   },
   {
-    question: "What did the four chariots represent?",
+    question:
+      "What did the four chariots represent?",
     options: [
-      "The four spirits of heaven",
-      "Four kings",
-      "Four prophets",
-      "Four empires only",
+      "The four spirits of heaven going out from the presence of the Lord of all the earth",
+      "Four kingdoms that would rule Judah",
+      "Four armies sent to defend Jerusalem",
+      "Four judgments against Babylon",
     ],
-    answer: "The four spirits of heaven",
+    answer:
+      "The four spirits of heaven going out from the presence of the Lord of all the earth",
     reference: "Zechariah 6:5",
   },
   {
-    question: "Where did the chariot with black horses go?",
-    options: [
-      "Toward the north country",
-      "Toward Egypt",
-      "Toward Judah",
-      "Toward the west",
-    ],
-    answer: "Toward the north country",
+    question:
+      "In which direction did the chariot with black horses go?",
+    options: ["North", "South", "East", "West"],
+    answer: "North",
     reference: "Zechariah 6:6",
   },
   {
-    question: "What had the spirits going north accomplished?",
+    question:
+      "Which horses followed toward the north country?",
     options: [
-      "They gave rest to God's Spirit in the north country",
-      "They rebuilt the temple",
-      "They destroyed Jerusalem",
-      "They crowned Zerubbabel",
+      "The white horses",
+      "The red horses",
+      "The dappled horses",
+      "The brown horses",
     ],
-    answer: "They gave rest to God's Spirit in the north country",
+    answer: "The white horses",
+    reference: "Zechariah 6:6",
+  },
+  {
+    question:
+      "In which direction did the dappled horses go?",
+    options: ["South", "North", "East", "West"],
+    answer: "South",
+    reference: "Zechariah 6:6",
+  },
+  {
+    question:
+      "What did the horses strongly desire permission to do?",
+    options: [
+      "Go throughout the earth",
+      "Enter Jerusalem",
+      "Fight the nations",
+      "Return to heaven",
+    ],
+    answer: "Go throughout the earth",
+    reference: "Zechariah 6:7",
+  },
+  {
+    question:
+      "What effect did those going toward the north country have?",
+    options: [
+      "They gave God's Spirit rest in the north country",
+      "They destroyed Babylon immediately",
+      "They gathered the exiles",
+      "They established peace in Judah",
+    ],
+    answer: "They gave God's Spirit rest in the north country",
     reference: "Zechariah 6:8",
   },
-
   {
-    question: "Whom was Zechariah told to crown?",
+    question:
+      "From which three returned exiles was Zechariah told to take silver and gold?",
     options: [
-      "Joshua the high priest",
-      "Zerubbabel",
-      "Darius",
-      "Haggai",
+      "Heldai, Tobijah, and Jedaiah",
+      "Josiah, Heldai, and Tobijah",
+      "Jedaiah, Joshua, and Josiah",
+      "Tobijah, Zerubbabel, and Heldai",
     ],
-    answer: "Joshua the high priest",
+    answer: "Heldai, Tobijah, and Jedaiah",
+    reference: "Zechariah 6:10",
+  },
+  {
+    question:
+      "At whose house was Zechariah to meet the men who had arrived from Babylon?",
+    options: [
+      "Josiah son of Zephaniah",
+      "Joshua son of Jozadak",
+      "Heldai son of Iddo",
+      "Tobijah son of Berekiah",
+    ],
+    answer: "Josiah son of Zephaniah",
+    reference: "Zechariah 6:10",
+  },
+  {
+    question:
+      "On whose head was Zechariah instructed to place the crown?",
+    options: [
+      "Joshua son of Jozadak",
+      "Zerubbabel son of Shealtiel",
+      "Josiah son of Zephaniah",
+      "Haggai the prophet",
+    ],
+    answer: "Joshua son of Jozadak",
     reference: "Zechariah 6:11",
   },
   {
-    question: "What title is again given to the coming figure?",
+    question:
+      "What title is given to the man whose place will branch out?",
     options: [
       "The Branch",
       "The Shepherd",
-      "The Servant of Persia",
-      "The Prince of Babylon",
+      "The King",
+      "The Servant",
     ],
     answer: "The Branch",
     reference: "Zechariah 6:12",
   },
   {
-    question: "What will the Branch build?",
+    question:
+      "What will the Branch build?",
     options: [
-      "The temple of the Lord",
-      "The walls of Babylon",
-      "A palace",
-      "An altar in Persia",
+      "The temple of the LORD",
+      "The walls of Jerusalem",
+      "The throne of David",
+      "A palace in Zion",
     ],
-    answer: "The temple of the Lord",
-    reference: "Zechariah 6:12-13",
+    answer: "The temple of the LORD",
+    reference: "Zechariah 6:12",
   },
   {
-    question: "What positions will be harmoniously joined in the Branch?",
+    question:
+      "What two roles are brought together in the description of the Branch?",
     options: [
-      "Royal and priestly roles",
-      "Prophet and soldier",
-      "Governor and merchant",
-      "Judge and scribe",
+      "Ruler and priest",
+      "Prophet and priest",
+      "Judge and prophet",
+      "Governor and scribe",
     ],
-    answer: "Royal and priestly roles",
+    answer: "Ruler and priest",
     reference: "Zechariah 6:13",
   },
   {
-    question: "Who would help build the temple from far away?",
+    question:
+      "What relationship will exist between the two offices associated with the Branch?",
     options: [
-      "Those who are far away",
-      "Only Persians",
-      "Only priests",
-      "Only Judahites",
+      "Harmony",
+      "Competition",
+      "Separation",
+      "Subordination",
     ],
-    answer: "Those who are far away",
+    answer: "Harmony",
+    reference: "Zechariah 6:13",
+  },
+  {
+    question:
+      "Where was the crown to remain as a memorial?",
+    options: [
+      "In the temple of the LORD",
+      "In Joshua's house",
+      "In the governor's palace",
+      "At the altar",
+    ],
+    answer: "In the temple of the LORD",
+    reference: "Zechariah 6:14",
+  },
+  {
+    question:
+      "Who would come from far away to help build the temple?",
+    options: [
+      "People from distant places",
+      "Only the exiles from Babylon",
+      "The Persians",
+      "The nations of Egypt",
+    ],
+    answer: "People from distant places",
     reference: "Zechariah 6:15",
   },
-
   {
-    question: "What question did the people ask the priests and prophets concerning the fifth month?",
+    question:
+      "In whose fourth year did the word of the LORD come to Zechariah concerning fasting?",
+    options: ["Darius", "Cyrus", "Xerxes", "Artaxerxes"],
+    answer: "Darius",
+    reference: "Zechariah 7:1",
+  },
+  {
+    question:
+      "On what date did the fasting inquiry occur?",
     options: [
-      "Should we continue to mourn and fast?",
-      "Should we rebuild the wall?",
-      "Should we return to Babylon?",
-      "Should we crown a king?",
+      "The fourth day of the ninth month",
+      "The twenty-fourth day of the eleventh month",
+      "The first day of the eighth month",
+      "The tenth day of the fifth month",
     ],
-    answer: "Should we continue to mourn and fast?",
+    answer: "The fourth day of the ninth month",
+    reference: "Zechariah 7:1",
+  },
+  {
+    question:
+      "What name is given to the ninth month in the fasting account?",
+    options: ["Kislev", "Shebat", "Nisan", "Elul"],
+    answer: "Kislev",
+    reference: "Zechariah 7:1",
+  },
+  {
+    question:
+      "What question was asked of the priests and prophets concerning a long-standing practice?",
+    options: [
+      "Whether to mourn and fast in the fifth month as they had done for many years",
+      "Whether to continue sacrifices in the seventh month",
+      "Whether to rebuild the temple during a fast",
+      "Whether priests should fast in the ninth month",
+    ],
+    answer:
+      "Whether to mourn and fast in the fifth month as they had done for many years",
     reference: "Zechariah 7:3",
   },
   {
-    question: "For how many years had the people fasted in the fifth and seventh months?",
+    question:
+      "What challenge does God make concerning the people's fasting in the fifth and seventh months?",
     options: [
-      "Seventy years",
-      "Forty years",
-      "Twenty years",
-      "Fifty years",
+      "Were they really fasting for Him?",
+      "Had they fasted long enough?",
+      "Had the priests authorized the fasts?",
+      "Why had they omitted the ninth month?",
     ],
-    answer: "Seventy years",
+    answer: "Were they really fasting for Him?",
     reference: "Zechariah 7:5",
   },
   {
-    question: "What challenging question did God ask about their fasting?",
+    question:
+      "For whom does God say the people were eating and drinking?",
     options: [
-      "Was it really for me that you fasted?",
-      "Did you fast long enough?",
-      "Did the priests approve it?",
-      "Did you fast in Jerusalem?",
+      "For themselves",
+      "For the LORD",
+      "For the priests",
+      "For the poor",
     ],
-    answer: "Was it really for me that you fasted?",
-    reference: "Zechariah 7:5",
+    answer: "For themselves",
+    reference: "Zechariah 7:6",
   },
   {
-    question: "What kind of justice did God command?",
+    question:
+      "What four ethical commands are given instead of empty religious observance?",
     options: [
-      "True justice",
-      "Royal justice",
-      "Military justice",
-      "Foreign justice",
+      "Administer true justice, show mercy and compassion, do not oppress the vulnerable, and do not plot evil against one another",
+      "Fast, pray, sacrifice, and keep the Sabbath",
+      "Obey the priests, help the poor, rebuild the temple, and avoid foreigners",
+      "Speak truth, give offerings, honor the king, and protect Jerusalem",
     ],
-    answer: "True justice",
-    reference: "Zechariah 7:9",
+    answer:
+      "Administer true justice, show mercy and compassion, do not oppress the vulnerable, and do not plot evil against one another",
+    reference: "Zechariah 7:9-10",
   },
   {
-    question: "What attitudes were commanded toward one another?",
+    question:
+      "Which vulnerable groups are specifically named as people Israel was not to oppress?",
     options: [
-      "Mercy and compassion",
-      "Fear and silence",
-      "Competition and strength",
-      "Suspicion and caution",
+      "Widow, fatherless, foreigner, and poor",
+      "Widow, Levite, servant, and foreigner",
+      "Poor, prisoner, orphan, and priest",
+      "Foreigner, slave, widow, and debtor",
     ],
-    answer: "Mercy and compassion",
-    reference: "Zechariah 7:9",
-  },
-  {
-    question: "Which vulnerable groups were not to be oppressed?",
-    options: [
-      "Widows, fatherless, foreigners, and the poor",
-      "Kings and priests",
-      "Soldiers and merchants",
-      "Farmers and builders",
-    ],
-    answer: "Widows, fatherless, foreigners, and the poor",
+    answer: "Widow, fatherless, foreigner, and poor",
     reference: "Zechariah 7:10",
   },
   {
-    question: "How did the ancestors react to God's instructions?",
+    question:
+      "How did the ancestors physically symbolize their refusal to listen?",
     options: [
-      "They refused to pay attention",
-      "They obeyed completely",
-      "They fasted more",
-      "They rebuilt the temple",
+      "They turned stubborn backs and stopped their ears",
+      "They covered their faces and fled",
+      "They tore their clothes and left the temple",
+      "They shut the city gates",
     ],
-    answer: "They refused to pay attention",
+    answer: "They turned stubborn backs and stopped their ears",
     reference: "Zechariah 7:11",
   },
   {
-    question: "How were their hearts described?",
+    question:
+      "To what hard material are their hearts compared?",
     options: [
-      "Hard as flint",
-      "Soft as clay",
-      "Pure as gold",
-      "Heavy as stone",
+      "Flint",
+      "Iron",
+      "Bronze",
+      "Stone",
     ],
-    answer: "Hard as flint",
+    answer: "Flint",
     reference: "Zechariah 7:12",
   },
   {
-    question: "What happened because the people would not listen?",
+    question:
+      "What happened when the people refused to listen when God called?",
     options: [
-      "God would not listen when they called",
-      "God immediately forgave them",
-      "Their enemies disappeared",
-      "Their harvest increased",
+      "When they later called, He would not listen",
+      "Their prophets stopped speaking",
+      "The temple was immediately destroyed",
+      "They lost the law",
     ],
-    answer: "God would not listen when they called",
+    answer: "When they later called, He would not listen",
     reference: "Zechariah 7:13",
   },
   {
-    question: "Where did God scatter them?",
+    question:
+      "How did God scatter the disobedient people?",
     options: [
-      "Among nations they did not know",
-      "Only to Egypt",
-      "Only to Babylon",
-      "Only to Persia",
+      "With a whirlwind among nations they did not know",
+      "By famine into Egypt",
+      "By armies toward the north",
+      "By drought across the wilderness",
     ],
-    answer: "Among nations they did not know",
+    answer: "With a whirlwind among nations they did not know",
     reference: "Zechariah 7:14",
   },
-
   {
-    question: "What does God again say He is very jealous for?",
+    question:
+      "What happened to the pleasant land after the people were scattered?",
     options: [
-      "Zion",
-      "Babylon",
-      "Persia",
-      "Samaria",
+      "It became desolate",
+      "It was occupied by Judah's enemies",
+      "It became a wilderness of salt",
+      "It was divided among foreign kings",
     ],
-    answer: "Zion",
+    answer: "It became desolate",
+    reference: "Zechariah 7:14",
+  },
+  {
+    question:
+      "What intense emotion does the LORD express for Zion at the beginning of the next message?",
+    options: [
+      "Great jealousy",
+      "Great sorrow",
+      "Great anger",
+      "Great compassion",
+    ],
+    answer: "Great jealousy",
     reference: "Zechariah 8:2",
   },
   {
-    question: "What will Jerusalem be called after God's return?",
+    question:
+      "What will Jerusalem be called when the LORD returns to Zion?",
     options: [
       "The Faithful City",
-      "The City of Gold",
-      "The Great City",
-      "The City of Kings",
+      "The Holy City",
+      "The City of Peace",
+      "The Chosen City",
     ],
     answer: "The Faithful City",
     reference: "Zechariah 8:3",
   },
   {
-    question: "What will the mountain of the Lord be called?",
+    question:
+      "What will the mountain of the LORD Almighty be called?",
     options: [
       "The Holy Mountain",
-      "The Great Mountain",
-      "The Royal Mountain",
-      "The Eastern Mountain",
+      "The Mountain of Peace",
+      "The Mountain of Glory",
+      "The Chosen Mountain",
     ],
     answer: "The Holy Mountain",
     reference: "Zechariah 8:3",
   },
   {
-    question: "Who will again sit in Jerusalem's streets?",
+    question:
+      "Who will once again sit in the streets of Jerusalem because of their advanced age?",
     options: [
       "Old men and old women",
-      "Only soldiers",
-      "Only merchants",
-      "Only priests",
+      "Priests and Levites",
+      "Prophets and elders",
+      "Widows and the poor",
     ],
     answer: "Old men and old women",
     reference: "Zechariah 8:4",
   },
   {
-    question: "What will children do in the city streets?",
+    question:
+      "What will each elderly person hold because of age?",
     options: [
-      "Play",
-      "Fight",
-      "Work",
-      "Hide",
+      "A cane",
+      "A staff of office",
+      "A walking stick made of cedar",
+      "A shepherd's rod",
     ],
-    answer: "Play",
+    answer: "A cane",
+    reference: "Zechariah 8:4",
+  },
+  {
+    question:
+      "Who will fill the city streets with play?",
+    options: [
+      "Boys and girls",
+      "Young men",
+      "Children of the priests",
+      "Returning exiles",
+    ],
+    answer: "Boys and girls",
     reference: "Zechariah 8:5",
   },
   {
-    question: "From which directions will God save His people?",
+    question:
+      "From what two directions does God promise to save and gather His people?",
     options: [
-      "East and west",
-      "North and south",
-      "Only north",
-      "Only east",
+      "The east and the west",
+      "The north and the south",
+      "Babylon and Egypt",
+      "The sea and the desert",
     ],
-    answer: "East and west",
+    answer: "The east and the west",
     reference: "Zechariah 8:7",
   },
   {
-    question: "What relationship will be restored between God and His people?",
+    question:
+      "What mutual covenant relationship will exist after the people are brought back to Jerusalem?",
     options: [
-      "They will be His people and He will be their faithful and righteous God",
-      "They will become priests only",
-      "They will rule Persia",
-      "They will no longer belong to Him",
+      "They will be God's people, and He will be their faithful and righteous God",
+      "They will serve God, and He will make them rulers",
+      "They will rebuild the temple, and He will destroy the nations",
+      "They will obey the priests, and He will bless their crops",
     ],
-    answer: "They will be His people and He will be their faithful and righteous God",
+    answer:
+      "They will be God's people, and He will be their faithful and righteous God",
     reference: "Zechariah 8:8",
   },
   {
-    question: "What does God tell the builders to do?",
+    question:
+      "What economic conditions existed before the renewed temple work?",
     options: [
-      "Let your hands be strong",
-      "Stop working",
-      "Return to Babylon",
-      "Wait for Darius",
+      "No wages for people or animals and no safety from enemies",
+      "High wages but no crops",
+      "Plenty of food but constant warfare",
+      "No trade but abundant livestock",
     ],
-    answer: "Let your hands be strong",
-    reference: "Zechariah 8:9",
+    answer: "No wages for people or animals and no safety from enemies",
+    reference: "Zechariah 8:10",
   },
   {
-    question: "What will the seed grow well?",
+    question:
+      "What had God caused among the people during the earlier period of distress?",
     options: [
-      "The seed",
-      "Only wheat",
-      "Only barley",
-      "Nothing",
+      "Everyone to turn against their neighbor",
+      "The priests to abandon the temple",
+      "The nations to occupy Jerusalem",
+      "The people to flee to Egypt",
     ],
-    answer: "The seed",
+    answer: "Everyone to turn against their neighbor",
+    reference: "Zechariah 8:10",
+  },
+  {
+    question:
+      "What agricultural promise includes both the vine and the ground?",
+    options: [
+      "The vine will yield fruit and the ground will produce crops",
+      "The vine will grow without pruning and the ground will produce gold",
+      "The vine will cover the hills and the ground will need no rain",
+      "The vine will replace grain and the ground will rest",
+    ],
+    answer: "The vine will yield fruit and the ground will produce crops",
     reference: "Zechariah 8:12",
   },
   {
-    question: "What will the vine yield?",
-    options: [
-      "Its fruit",
-      "Only leaves",
-      "Nothing",
-      "Oil",
-    ],
-    answer: "Its fruit",
-    reference: "Zechariah 8:12",
-  },
-  {
-    question: "What will the heavens give?",
+    question:
+      "What will the heavens give as part of the renewed blessing?",
     options: [
       "Dew",
-      "Snow",
       "Fire",
-      "Thunder",
+      "Snow",
+      "Signs",
     ],
     answer: "Dew",
     reference: "Zechariah 8:12",
   },
   {
-    question: "What had Judah and Israel formerly been among the nations?",
+    question:
+      "What reversal is promised to Judah and Israel regarding their reputation among the nations?",
     options: [
-      "A curse",
-      "A blessing",
-      "A kingdom of priests only",
-      "A military alliance",
+      "From being a curse to becoming a blessing",
+      "From being weak to ruling the nations",
+      "From being exiles to becoming conquerors",
+      "From being poor to becoming wealthy",
     ],
-    answer: "A curse",
+    answer: "From being a curse to becoming a blessing",
     reference: "Zechariah 8:13",
   },
   {
-    question: "What would Judah and Israel become?",
+    question:
+      "What two commands follow the promise that Judah and Israel will become a blessing?",
     options: [
-      "A blessing",
-      "A curse again",
-      "A foreign nation",
-      "A wilderness",
+      "Do not be afraid, but let your hands be strong",
+      "Rejoice and rebuild the walls",
+      "Fast and seek the LORD",
+      "Return and purify yourselves",
     ],
-    answer: "A blessing",
+    answer: "Do not be afraid, but let your hands be strong",
     reference: "Zechariah 8:13",
   },
   {
-    question: "What are the people told not to do in light of God's promise?",
+    question:
+      "What are the people commanded to speak to one another?",
     options: [
-      "Be afraid",
-      "Work",
-      "Speak truth",
-      "Rebuild",
+      "The truth",
+      "Words of comfort",
+      "The law",
+      "Prophecies",
     ],
-    answer: "Be afraid",
-    reference: "Zechariah 8:13",
-  },
-  {
-    question: "What are the people commanded to speak to one another?",
-    options: [
-      "Truth",
-      "Prophecy only",
-      "Silence",
-      "Praise",
-    ],
-    answer: "Truth",
+    answer: "The truth",
     reference: "Zechariah 8:16",
   },
   {
-    question: "What kind of judgments should be given in the courts?",
+    question:
+      "What kind of judgments are to be rendered in the courts?",
     options: [
-      "True and sound judgments",
-      "Harsh judgments",
-      "Secret judgments",
-      "Royal judgments",
+      "True and sound judgments that lead to peace",
+      "Strict judgments based on repayment",
+      "Merciful judgments without punishment",
+      "Priestly judgments based on sacrifice",
     ],
-    answer: "True and sound judgments",
+    answer: "True and sound judgments that lead to peace",
     reference: "Zechariah 8:16",
   },
   {
-    question: "What should people not plot against each other?",
+    question:
+      "What two practices does God say He hates?",
     options: [
-      "Evil",
-      "Trade",
-      "Marriage",
-      "Travel",
+      "Plotting evil against one another and swearing falsely",
+      "Fasting and mourning",
+      "Trading on the Sabbath and withholding offerings",
+      "Foreign marriage and military alliances",
     ],
-    answer: "Evil",
+    answer: "Plotting evil against one another and swearing falsely",
     reference: "Zechariah 8:17",
   },
   {
-    question: "What kind of oath does God hate?",
+    question:
+      "Which four months had fasts that would become joyful festivals?",
     options: [
-      "False swearing",
-      "Every oath",
-      "A priestly oath",
-      "A royal oath",
+      "Fourth, fifth, seventh, and tenth",
+      "First, fourth, seventh, and ninth",
+      "Third, fifth, eighth, and tenth",
+      "Fourth, sixth, ninth, and twelfth",
     ],
-    answer: "False swearing",
-    reference: "Zechariah 8:17",
-  },
-  {
-    question: "What would the fasts of the fourth, fifth, seventh, and tenth months become?",
-    options: [
-      "Joyful and glad occasions",
-      "Permanent mourning",
-      "Days of war",
-      "Days of silence",
-    ],
-    answer: "Joyful and glad occasions",
+    answer: "Fourth, fifth, seventh, and tenth",
     reference: "Zechariah 8:19",
   },
   {
-    question: "What must the people therefore love?",
+    question:
+      "What two things are Judah told to love when the former fasts become joyful occasions?",
     options: [
       "Truth and peace",
-      "Gold and silver",
-      "Strength and power",
-      "Silence and fasting",
+      "Justice and mercy",
+      "Faithfulness and righteousness",
+      "Wisdom and instruction",
     ],
     answer: "Truth and peace",
     reference: "Zechariah 8:19",
   },
   {
-    question: "What will many peoples and powerful nations eventually seek in Jerusalem?",
+    question:
+      "What will inhabitants of one city urge those of another city to do?",
     options: [
-      "The Lord Almighty",
-      "Persian protection",
-      "Trade",
-      "A human king",
+      "Go at once to entreat the LORD and seek Him",
+      "Move to Jerusalem",
+      "Help rebuild the temple",
+      "Observe the appointed fasts",
     ],
-    answer: "The Lord Almighty",
+    answer: "Go at once to entreat the LORD and seek Him",
+    reference: "Zechariah 8:21",
+  },
+  {
+    question:
+      "Who will come to Jerusalem to seek and entreat the LORD?",
+    options: [
+      "Many peoples and powerful nations",
+      "Only the scattered Israelites",
+      "The kings of Persia",
+      "Priests from every nation",
+    ],
+    answer: "Many peoples and powerful nations",
     reference: "Zechariah 8:22",
   },
   {
-    question: "How many people from different languages will grasp the robe of one Jew?",
-    options: [
-      "Ten",
-      "Seven",
-      "Twelve",
-      "Forty",
-    ],
+    question:
+      "How many people from nations of every language will take hold of one Jew?",
+    options: ["Ten", "Seven", "Twelve", "Seventy"],
     answer: "Ten",
     reference: "Zechariah 8:23",
   },
   {
-    question: "Why will they want to go with the Jew?",
+    question:
+      "Why will people from the nations want to go with the Jew?",
     options: [
       "They have heard that God is with the Jewish people",
-      "They want money",
-      "They want military help",
-      "They want land",
+      "They want to see the temple",
+      "They want to learn Hebrew",
+      "They want protection from enemies",
     ],
     answer: "They have heard that God is with the Jewish people",
     reference: "Zechariah 8:23",
   },
-
   {
-    question: "Which city is mentioned alongside Hadrach in the opening judgment oracle?",
+    question:
+      "Which cities are named together at the beginning of the oracle concerning surrounding nations?",
     options: [
-      "Damascus",
-      "Jerusalem",
-      "Babylon",
-      "Nineveh",
+      "Hadrach and Damascus",
+      "Tyre and Sidon",
+      "Gaza and Ashkelon",
+      "Hamath and Ekron",
     ],
-    answer: "Damascus",
+    answer: "Hadrach and Damascus",
     reference: "Zechariah 9:1",
   },
   {
-    question: "Which wealthy coastal city is described as very skillful?",
+    question:
+      "Which city is described as having built itself a stronghold and accumulated silver and gold?",
     options: [
       "Tyre",
+      "Damascus",
       "Gaza",
       "Ashkelon",
-      "Ekron",
     ],
     answer: "Tyre",
-    reference: "Zechariah 9:2",
-  },
-  {
-    question: "What had Tyre piled up like dust?",
-    options: [
-      "Silver",
-      "Grain",
-      "Weapons",
-      "Stone",
-    ],
-    answer: "Silver",
     reference: "Zechariah 9:3",
   },
   {
-    question: "What had Tyre accumulated like dirt in the streets?",
+    question:
+      "How abundant was Tyre's silver said to be?",
     options: [
-      "Gold",
-      "Bronze",
-      "Iron",
-      "Wood",
+      "Like dust",
+      "Like sand",
+      "Like stones",
+      "Like water",
     ],
-    answer: "Gold",
+    answer: "Like dust",
     reference: "Zechariah 9:3",
   },
   {
-    question: "What would the Lord do to Tyre's power on the sea?",
+    question:
+      "How abundant was Tyre's gold said to be?",
     options: [
-      "Destroy it",
-      "Increase it",
-      "Ignore it",
-      "Give it to Judah",
+      "Like dirt in the streets",
+      "Like sand on the seashore",
+      "Like stones in a field",
+      "Like grain at harvest",
     ],
-    answer: "Destroy it",
+    answer: "Like dirt in the streets",
+    reference: "Zechariah 9:3",
+  },
+  {
+    question:
+      "What will happen to Tyre's power on the sea?",
+    options: [
+      "It will be destroyed",
+      "It will be transferred to Sidon",
+      "It will conquer the coast",
+      "It will protect Philistia",
+    ],
+    answer: "It will be destroyed",
     reference: "Zechariah 9:4",
   },
   {
-    question: "Which Philistine cities are named as reacting in fear?",
+    question:
+      "Which Philistine city will see Tyre's fate and be afraid?",
     options: [
-      "Ashkelon, Gaza, and Ekron",
-      "Gath, Ashdod, and Jerusalem",
-      "Gaza, Bethlehem, and Ekron",
-      "Ashkelon, Tyre, and Sidon",
+      "Ashkelon",
+      "Gath",
+      "Ekron only",
+      "Ashdod only",
     ],
-    answer: "Ashkelon, Gaza, and Ekron",
+    answer: "Ashkelon",
     reference: "Zechariah 9:5",
   },
   {
-    question: "What would happen to the king of Gaza?",
+    question:
+      "Which city will lose its king?",
     options: [
-      "He would perish",
-      "He would conquer Judah",
-      "He would become priest",
-      "He would flee to Egypt",
+      "Gaza",
+      "Ashdod",
+      "Ekron",
+      "Tyre",
     ],
-    answer: "He would perish",
+    answer: "Gaza",
     reference: "Zechariah 9:5",
   },
   {
-    question: "What would happen to Ashkelon?",
+    question:
+      "Which city will be deserted?",
     options: [
-      "It would be deserted",
-      "It would become Judah's capital",
-      "It would prosper",
-      "It would be rebuilt immediately",
+      "Ashkelon",
+      "Gaza",
+      "Ekron",
+      "Sidon",
     ],
-    answer: "It would be deserted",
+    answer: "Ashkelon",
     reference: "Zechariah 9:5",
   },
   {
-    question: "What would God remove from the Philistines?",
+    question:
+      "What mixed population is said to occupy Ashdod?",
     options: [
-      "Their blood-stained food and forbidden food",
-      "Their gold",
-      "Their horses",
-      "Their vineyards",
+      "A mongrel people",
+      "The remnant of Judah",
+      "Foreign merchants",
+      "The people of Edom",
     ],
-    answer: "Their blood-stained food and forbidden food",
+    answer: "A mongrel people",
+    reference: "Zechariah 9:6",
+  },
+  {
+    question:
+      "What will God remove from the mouths of the Philistines?",
+    options: [
+      "Blood and forbidden food",
+      "False prophecy",
+      "Boasting and lies",
+      "The names of idols",
+    ],
+    answer: "Blood and forbidden food",
     reference: "Zechariah 9:7",
   },
   {
-    question: "What would the surviving Philistines become like?",
+    question:
+      "What will the surviving Philistines become in relation to God?",
     options: [
-      "A clan in Judah",
-      "A foreign empire",
-      "A priestly tribe",
-      "A nation without land",
+      "A remnant belonging to God",
+      "Servants of Judah",
+      "Priests in Jerusalem",
+      "A separate holy nation",
     ],
-    answer: "A clan in Judah",
+    answer: "A remnant belonging to God",
     reference: "Zechariah 9:7",
   },
   {
-    question: "What would the Lord do around His house?",
+    question:
+      "Why will no oppressor again overrun God's people in the promised protection?",
     options: [
-      "Encamp as a guard",
-      "Build another temple",
-      "Remove the walls",
-      "Send the priests away",
+      "God is keeping watch",
+      "Jerusalem's walls will be stronger",
+      "Judah will possess chariots",
+      "The nations will become weak",
     ],
-    answer: "Encamp as a guard",
+    answer: "God is keeping watch",
     reference: "Zechariah 9:8",
   },
-
   {
-    question: "How is Zion's coming king described?",
+    question:
+      "How is Zion's coming king described before his mode of arrival is mentioned?",
     options: [
       "Righteous and victorious",
-      "Proud and violent",
-      "Wealthy and distant",
-      "Weak and defeated",
+      "Powerful and wealthy",
+      "Holy and glorious",
+      "Wise and peaceful",
     ],
     answer: "Righteous and victorious",
     reference: "Zechariah 9:9",
   },
   {
-    question: "What quality also characterizes the coming king?",
+    question:
+      "How does Zion's king enter Jerusalem?",
     options: [
-      "Humility",
-      "Pride",
-      "Anger",
-      "Silence",
+      "Lowly and riding on a donkey",
+      "Riding a white horse",
+      "Walking before an army",
+      "Riding in a chariot",
     ],
-    answer: "Humility",
+    answer: "Lowly and riding on a donkey",
     reference: "Zechariah 9:9",
   },
   {
-    question: "What animal does the king ride?",
+    question:
+      "What additional description is given of the donkey ridden by Zion's king?",
     options: [
-      "A donkey",
-      "A horse",
-      "A camel",
-      "A mule",
+      "A colt, the foal of a donkey",
+      "An unbroken young donkey",
+      "A firstborn donkey",
+      "A donkey from Bethlehem",
     ],
-    answer: "A donkey",
+    answer: "A colt, the foal of a donkey",
     reference: "Zechariah 9:9",
   },
   {
-    question: "What specifically is said about the animal he rides?",
+    question:
+      "What military resources will be removed from Ephraim and Jerusalem?",
     options: [
-      "It is a colt, the foal of a donkey",
-      "It is a war horse",
-      "It is a white stallion",
-      "It is a royal mule",
+      "Chariots and warhorses",
+      "Swords and shields",
+      "Horses and bows",
+      "Spears and chariots",
     ],
-    answer: "It is a colt, the foal of a donkey",
-    reference: "Zechariah 9:9",
-  },
-  {
-    question: "What military equipment will God remove from Ephraim?",
-    options: [
-      "Chariots",
-      "Shields",
-      "Spears",
-      "Swords",
-    ],
-    answer: "Chariots",
+    answer: "Chariots and warhorses",
     reference: "Zechariah 9:10",
   },
   {
-    question: "What will be removed from Jerusalem?",
+    question:
+      "What weapon will be broken?",
     options: [
-      "War horses",
-      "Priests",
-      "Walls",
-      "The temple",
+      "The battle bow",
+      "The sword",
+      "The spear",
+      "The shield",
     ],
-    answer: "War horses",
+    answer: "The battle bow",
     reference: "Zechariah 9:10",
   },
   {
-    question: "What will happen to the battle bow?",
-    options: [
-      "It will be broken",
-      "It will be strengthened",
-      "It will be given to Judah",
-      "It will be hidden",
-    ],
-    answer: "It will be broken",
-    reference: "Zechariah 9:10",
-  },
-  {
-    question: "What will the king proclaim to the nations?",
+    question:
+      "What will Zion's king proclaim to the nations?",
     options: [
       "Peace",
-      "War",
-      "Judgment only",
-      "Exile",
+      "Judgment",
+      "The law",
+      "Victory",
     ],
     answer: "Peace",
     reference: "Zechariah 9:10",
   },
   {
-    question: "How extensive will his rule be?",
+    question:
+      "How extensive will the king's rule be?",
     options: [
-      "From sea to sea and to the ends of the earth",
-      "Only over Judah",
-      "Only over Jerusalem",
-      "Only over Israel",
+      "From sea to sea and from the River to the ends of the earth",
+      "From Egypt to Babylon",
+      "From Jerusalem to the coastlands",
+      "From the Euphrates to the Nile",
     ],
-    answer: "From sea to sea and to the ends of the earth",
+    answer: "From sea to sea and from the River to the ends of the earth",
     reference: "Zechariah 9:10",
   },
   {
-    question: "By what does God promise to free prisoners from a waterless pit?",
+    question:
+      "What is the basis for releasing prisoners from the waterless pit?",
     options: [
-      "The blood of His covenant",
-      "Military power",
-      "Persian law",
-      "Temple sacrifices alone",
+      "The blood of God's covenant",
+      "Their repentance",
+      "The rebuilding of the temple",
+      "The fall of their enemies",
     ],
-    answer: "The blood of His covenant",
+    answer: "The blood of God's covenant",
     reference: "Zechariah 9:11",
   },
   {
-    question: "How are the prisoners addressed?",
+    question:
+      "What are the prisoners called when told to return to their fortress?",
     options: [
       "Prisoners of hope",
-      "Prisoners of war",
-      "Prisoners of Babylon",
-      "Prisoners of Persia",
+      "Children of Zion",
+      "Captives of Judah",
+      "Servants of the covenant",
     ],
     answer: "Prisoners of hope",
     reference: "Zechariah 9:12",
   },
   {
-    question: "What does God promise to restore to them?",
+    question:
+      "What restoration does God promise the prisoners of hope?",
     options: [
-      "Twice as much",
-      "Exactly what they lost",
-      "Seven times as much",
-      "Nothing material",
+      "Twice as much as before",
+      "Sevenfold repayment",
+      "Their original possessions only",
+      "A new inheritance in Jerusalem",
     ],
-    answer: "Twice as much",
+    answer: "Twice as much as before",
     reference: "Zechariah 9:12",
   },
   {
-    question: "Which people does God compare to a bow?",
+    question:
+      "Which tribe does God describe as His bow?",
     options: [
       "Judah",
       "Ephraim",
-      "Greece",
-      "Persia",
+      "Benjamin",
+      "Levi",
     ],
     answer: "Judah",
     reference: "Zechariah 9:13",
   },
   {
-    question: "Which people does God compare to an arrow?",
+    question:
+      "Which tribe is described as filling God's bow?",
     options: [
       "Ephraim",
       "Judah",
-      "Greece",
-      "Philistia",
+      "Benjamin",
+      "Simeon",
     ],
     answer: "Ephraim",
     reference: "Zechariah 9:13",
   },
   {
-    question: "Against whose sons does Zion rise in the prophecy?",
+    question:
+      "Against whose sons does God stir up Zion's sons?",
     options: [
-      "Greece",
-      "Persia",
-      "Egypt",
-      "Assyria",
+      "The sons of Greece",
+      "The sons of Babylon",
+      "The sons of Assyria",
+      "The sons of Egypt",
     ],
-    answer: "Greece",
+    answer: "The sons of Greece",
     reference: "Zechariah 9:13",
   },
   {
-    question: "What will the Lord sound in battle?",
+    question:
+      "To what weapon does God compare Zion in the conflict?",
     options: [
-      "The trumpet",
-      "The harp",
-      "The cymbal",
-      "The flute",
+      "A warrior's sword",
+      "A battle bow",
+      "A sharp spear",
+      "A polished arrow",
     ],
-    answer: "The trumpet",
+    answer: "A warrior's sword",
+    reference: "Zechariah 9:13",
+  },
+  {
+    question:
+      "How are the LORD's arrows described in His appearance over His people?",
+    options: [
+      "Like lightning",
+      "Like fire",
+      "Like hail",
+      "Like stars",
+    ],
+    answer: "Like lightning",
     reference: "Zechariah 9:14",
   },
   {
-    question: "How will God's people shine in His land?",
+    question:
+      "Who blows the trumpet when the LORD appears over His people?",
     options: [
-      "Like jewels in a crown",
-      "Like stars only",
-      "Like gold coins",
-      "Like temple lamps",
+      "The Sovereign LORD",
+      "The high priest",
+      "An angel",
+      "Zion's king",
     ],
-    answer: "Like jewels in a crown",
+    answer: "The Sovereign LORD",
+    reference: "Zechariah 9:14",
+  },
+  {
+    question:
+      "From which direction are the storm winds associated with the LORD's advance?",
+    options: [
+      "The south",
+      "The north",
+      "The east",
+      "The west",
+    ],
+    answer: "The south",
+    reference: "Zechariah 9:14",
+  },
+  {
+    question:
+      "To what precious objects are God's people compared when He saves them?",
+    options: [
+      "Jewels in a crown",
+      "Gold in a temple",
+      "Stones in a wall",
+      "Stars in heaven",
+    ],
+    answer: "Jewels in a crown",
     reference: "Zechariah 9:16",
   },
-
   {
-    question: "From whom should the people ask for rain?",
+    question:
+      "What two products are associated with the flourishing of young men and young women?",
     options: [
-      "The Lord",
-      "Household idols",
-      "Diviners",
-      "Foreign gods",
+      "Grain and new wine",
+      "Bread and oil",
+      "Wheat and figs",
+      "Barley and grapes",
     ],
-    answer: "The Lord",
+    answer: "Grain and new wine",
+    reference: "Zechariah 9:17",
+  },
+  {
+    question:
+      "Whom are the people told to ask for rain in the season of spring rains?",
+    options: [
+      "The LORD",
+      "The prophets",
+      "The heavens",
+      "The priests",
+    ],
+    answer: "The LORD",
     reference: "Zechariah 10:1",
   },
   {
-    question: "What do household idols speak?",
+    question:
+      "What three failures are associated with idols, diviners, and dreamers?",
     options: [
-      "Deceit",
-      "Truth",
-      "Wisdom",
-      "Peace",
+      "Idols speak deceit, diviners see lies, and dreams give false comfort",
+      "Idols remain silent, diviners flee, and dreams cause fear",
+      "Idols demand sacrifice, diviners deceive kings, and dreams predict famine",
+      "Idols speak falsely, priests mislead, and prophets dream lies",
     ],
-    answer: "Deceit",
+    answer:
+      "Idols speak deceit, diviners see lies, and dreams give false comfort",
     reference: "Zechariah 10:2",
   },
   {
-    question: "What do diviners see?",
-    options: [
-      "False visions",
-      "Only true visions",
-      "Nothing",
-      "The future perfectly",
-    ],
-    answer: "False visions",
-    reference: "Zechariah 10:2",
-  },
-  {
-    question: "Why do the people wander like sheep?",
+    question:
+      "Why do the people wander like sheep?",
     options: [
       "They lack a shepherd",
-      "They lack food",
-      "They lack cities",
-      "They fear Persia",
+      "They have been scattered by war",
+      "They refuse to follow the law",
+      "Their shepherds have fled to Egypt",
     ],
     answer: "They lack a shepherd",
     reference: "Zechariah 10:2",
   },
   {
-    question: "Against whom is God's anger especially directed?",
+    question:
+      "Against whom is the LORD's anger said to burn?",
     options: [
-      "The shepherds and leaders",
-      "The poor",
-      "The farmers",
-      "The foreigners",
+      "The shepherds",
+      "The nations",
+      "The priests",
+      "The false prophets",
     ],
-    answer: "The shepherds and leaders",
+    answer: "The shepherds",
     reference: "Zechariah 10:3",
   },
   {
-    question: "What does God say Judah will become like in battle?",
+    question:
+      "What animals representing leaders does God say He will punish?",
     options: [
-      "A proud horse",
-      "A sheep",
-      "A dove",
-      "A broken bow",
+      "The goats",
+      "The rams",
+      "The bulls",
+      "The wolves",
     ],
-    answer: "A proud horse",
+    answer: "The goats",
     reference: "Zechariah 10:3",
   },
   {
-    question: "What leadership image is said to come from Judah?",
+    question:
+      "Into what does God promise to transform Judah, His flock?",
     options: [
-      "The cornerstone",
-      "The river",
-      "The lampstand",
-      "The scroll",
+      "A proud horse in battle",
+      "A lion among sheep",
+      "A sharpened sword",
+      "A fortified city",
     ],
-    answer: "The cornerstone",
+    answer: "A proud horse in battle",
+    reference: "Zechariah 10:3",
+  },
+  {
+    question:
+      "Which four leadership or military images are said to come from Judah?",
+    options: [
+      "Cornerstone, tent peg, battle bow, and ruler",
+      "Crown, scepter, sword, and shield",
+      "Cornerstone, lampstand, spear, and king",
+      "Tent peg, shepherd, chariot, and priest",
+    ],
+    answer: "Cornerstone, tent peg, battle bow, and ruler",
     reference: "Zechariah 10:4",
   },
   {
-    question: "What other image of authority comes from Judah?",
+    question:
+      "Why will Judah's warriors triumph over enemy horsemen?",
     options: [
-      "The tent peg",
-      "The plow",
-      "The vineyard",
-      "The gate",
+      "Because the LORD is with them",
+      "Because their army is larger",
+      "Because the enemy horses will fail",
+      "Because Ephraim will attack first",
     ],
-    answer: "The tent peg",
-    reference: "Zechariah 10:4",
-  },
-  {
-    question: "What weapon image also comes from Judah?",
-    options: [
-      "The battle bow",
-      "The spear",
-      "The sword",
-      "The shield",
-    ],
-    answer: "The battle bow",
-    reference: "Zechariah 10:4",
-  },
-  {
-    question: "Why will Judah's warriors fight successfully?",
-    options: [
-      "The Lord is with them",
-      "Persia supports them",
-      "They have more horses",
-      "Their enemies are unarmed",
-    ],
-    answer: "The Lord is with them",
+    answer: "Because the LORD is with them",
     reference: "Zechariah 10:5",
   },
   {
-    question: "What will God do for Judah and Joseph?",
+    question:
+      "Which two houses does God specifically promise to strengthen and save?",
     options: [
-      "Strengthen and save them",
-      "Scatter them",
-      "Send them to Egypt",
-      "Replace them",
+      "Judah and Joseph",
+      "Judah and Benjamin",
+      "Joseph and Levi",
+      "Israel and David",
     ],
-    answer: "Strengthen and save them",
+    answer: "Judah and Joseph",
     reference: "Zechariah 10:6",
   },
   {
-    question: "Why will God restore them?",
+    question:
+      "Why will God restore His people?",
     options: [
       "Because He has compassion on them",
-      "Because they are wealthy",
-      "Because Persia commands it",
-      "Because they have no sin",
+      "Because they rebuilt the temple",
+      "Because Persia releases them",
+      "Because their enemies repent",
     ],
     answer: "Because He has compassion on them",
     reference: "Zechariah 10:6",
   },
   {
-    question: "What signal does God say He will use to gather His people?",
+    question:
+      "To what kind of men are the Ephraimites compared when they rejoice?",
+    options: [
+      "Warriors",
+      "Shepherds",
+      "Priests",
+      "Farmers",
+    ],
+    answer: "Warriors",
+    reference: "Zechariah 10:7",
+  },
+  {
+    question:
+      "What signal will God use when gathering His people?",
     options: [
       "A whistle",
       "A trumpet",
-      "A fire",
-      "A drum",
+      "A shout",
+      "A banner",
     ],
     answer: "A whistle",
     reference: "Zechariah 10:8",
   },
   {
-    question: "Why will He gather them?",
+    question:
+      "Why does God say He will gather His people?",
     options: [
       "Because He has redeemed them",
-      "Because they conquered Persia",
-      "Because they built a palace",
-      "Because they became priests",
+      "Because they have purified themselves",
+      "Because the temple is complete",
+      "Because they have defeated their enemies",
     ],
     answer: "Because He has redeemed them",
     reference: "Zechariah 10:8",
   },
   {
-    question: "From which two places does God specifically promise to bring His people back?",
+    question:
+      "Which two lands are specifically named in connection with the people's return?",
     options: [
       "Egypt and Assyria",
       "Babylon and Persia",
-      "Moab and Edom",
-      "Tyre and Sidon",
+      "Edom and Moab",
+      "Egypt and Babylon",
     ],
     answer: "Egypt and Assyria",
     reference: "Zechariah 10:10",
   },
   {
-    question: "To which regions would He bring them?",
+    question:
+      "To which two regions will God bring His returning people?",
     options: [
       "Gilead and Lebanon",
       "Judah and Benjamin",
-      "Sinai and Horeb",
-      "Sharon and Carmel",
+      "Carmel and Sharon",
+      "Bashan and Galilee",
     ],
     answer: "Gilead and Lebanon",
     reference: "Zechariah 10:10",
   },
-
   {
-    question: "Why are Lebanon's doors told to open?",
+    question:
+      "What will happen when there is not enough room for the restored people?",
     options: [
-      "So fire may devour its cedars",
-      "So armies may enter",
-      "So worshipers may come",
-      "So rain may fall",
+      "They will continue to multiply",
+      "They will return to Egypt",
+      "They will occupy Edom",
+      "They will rebuild Samaria",
     ],
-    answer: "So fire may devour its cedars",
+    answer: "They will continue to multiply",
+    reference: "Zechariah 10:10",
+  },
+  {
+    question:
+      "What body of water will be struck during the return from exile?",
+    options: [
+      "The sea",
+      "The Jordan",
+      "The Nile",
+      "The Euphrates",
+    ],
+    answer: "The sea",
+    reference: "Zechariah 10:11",
+  },
+  {
+    question:
+      "What will happen to the depths of the Nile?",
+    options: [
+      "They will dry up",
+      "They will overflow",
+      "They will turn to blood",
+      "They will divide",
+    ],
+    answer: "They will dry up",
+    reference: "Zechariah 10:11",
+  },
+  {
+    question:
+      "Whose pride will be brought down?",
+    options: [
+      "Assyria's",
+      "Egypt's",
+      "Babylon's",
+      "Edom's",
+    ],
+    answer: "Assyria's",
+    reference: "Zechariah 10:11",
+  },
+  {
+    question:
+      "Whose scepter will pass away?",
+    options: [
+      "Egypt's",
+      "Assyria's",
+      "Babylon's",
+      "Persia's",
+    ],
+    answer: "Egypt's",
+    reference: "Zechariah 10:11",
+  },
+  {
+    question:
+      "In whose name will the restored people walk?",
+    options: [
+      "The LORD's",
+      "David's",
+      "Zerubbabel's",
+      "The Branch's",
+    ],
+    answer: "The LORD's",
+    reference: "Zechariah 10:12",
+  },
+  {
+    question:
+      "Which tree is told to open its doors so that fire may devour its cedars?",
+    options: [
+      "Lebanon",
+      "Bashan",
+      "Carmel",
+      "Gilead",
+    ],
+    answer: "Lebanon",
     reference: "Zechariah 11:1",
   },
   {
-    question: "What tree is told to wail because the cedar has fallen?",
+    question:
+      "Which tree is told to wail because the cedar has fallen?",
     options: [
-      "The pine",
+      "The juniper",
+      "The olive",
       "The fig tree",
-      "The olive tree",
       "The palm",
     ],
-    answer: "The pine",
+    answer: "The juniper",
     reference: "Zechariah 11:2",
   },
   {
-    question: "What was Zechariah told to shepherd?",
+    question:
+      "What trees of Bashan are told to wail?",
+    options: [
+      "The oaks",
+      "The cedars",
+      "The olives",
+      "The pines",
+    ],
+    answer: "The oaks",
+    reference: "Zechariah 11:2",
+  },
+  {
+    question:
+      "What flock is Zechariah commanded to shepherd?",
     options: [
       "The flock marked for slaughter",
-      "The king's horses",
-      "The temple servants",
-      "The exiles of Babylon",
+      "The lost sheep of Israel",
+      "The remnant of Judah",
+      "The flock of the poor",
     ],
     answer: "The flock marked for slaughter",
     reference: "Zechariah 11:4",
   },
   {
-    question: "What did the buyers of the sheep do?",
+    question:
+      "How do the buyers of the doomed flock treat their actions?",
     options: [
-      "Slaughtered them and went unpunished",
-      "Protected them",
-      "Released them",
-      "Fed them",
+      "They slaughter the sheep and go unpunished",
+      "They rescue the sheep and demand payment",
+      "They sell the sheep to foreigners",
+      "They mourn after killing the sheep",
     ],
-    answer: "Slaughtered them and went unpunished",
+    answer: "They slaughter the sheep and go unpunished",
     reference: "Zechariah 11:5",
   },
   {
-    question: "What did the sellers say?",
+    question:
+      "What do the sellers say after becoming rich from the flock?",
     options: [
-      "Praise the Lord, I am rich",
-      "We have sinned",
-      "The flock is holy",
-      "We must return them",
+      "Praise the LORD, I am rich",
+      "The LORD has blessed Judah",
+      "Our shepherd has prospered us",
+      "We have earned our reward",
     ],
-    answer: "Praise the Lord, I am rich",
+    answer: "Praise the LORD, I am rich",
     reference: "Zechariah 11:5",
   },
   {
-    question: "How many staffs did Zechariah take to shepherd the flock?",
+    question:
+      "Into whose hands does God say He will give the inhabitants of the land?",
     options: [
-      "Two",
-      "One",
-      "Three",
-      "Seven",
+      "Their neighbors and their king",
+      "Babylon and Persia",
+      "The shepherds and priests",
+      "Their enemies and foreign kings",
     ],
-    answer: "Two",
+    answer: "Their neighbors and their king",
+    reference: "Zechariah 11:6",
+  },
+  {
+    question:
+      "What names did Zechariah give his two staffs?",
+    options: [
+      "Favor and Union",
+      "Grace and Peace",
+      "Truth and Unity",
+      "Mercy and Covenant",
+    ],
+    answer: "Favor and Union",
     reference: "Zechariah 11:7",
   },
   {
-    question: "What was one staff called?",
-    options: [
-      "Favor",
-      "Judgment",
-      "Strength",
-      "Truth",
-    ],
-    answer: "Favor",
-    reference: "Zechariah 11:7",
-  },
-  {
-    question: "What was the other staff called?",
-    options: [
-      "Union",
-      "Peace",
-      "Mercy",
-      "Justice",
-    ],
-    answer: "Union",
-    reference: "Zechariah 11:7",
-  },
-  {
-    question: "How many shepherds did Zechariah get rid of in one month?",
-    options: [
-      "Three",
-      "Two",
-      "Seven",
-      "Twelve",
-    ],
+    question:
+      "How many shepherds did Zechariah get rid of in one month?",
+    options: ["Three", "Two", "Seven", "Twelve"],
     answer: "Three",
     reference: "Zechariah 11:8",
   },
   {
-    question: "What did Zechariah do with the staff called Favor?",
+    question:
+      "What happened to the relationship between Zechariah and the flock?",
     options: [
-      "Broke it",
-      "Burned it",
-      "Gave it away",
-      "Placed it in the temple",
+      "He became weary of them, and they detested him",
+      "He feared them, and they abandoned him",
+      "He loved them, but they ignored him",
+      "He disciplined them, and they repented",
     ],
-    answer: "Broke it",
+    answer: "He became weary of them, and they detested him",
+    reference: "Zechariah 11:8",
+  },
+  {
+    question:
+      "Which staff did Zechariah break first?",
+    options: [
+      "Favor",
+      "Union",
+      "Peace",
+      "Covenant",
+    ],
+    answer: "Favor",
     reference: "Zechariah 11:10",
   },
   {
-    question: "What did breaking Favor symbolize?",
+    question:
+      "What did breaking the first staff symbolize?",
     options: [
-      "The revoking of the covenant made with all nations",
-      "The end of priesthood",
-      "The fall of Persia",
-      "The restoration of Jerusalem",
+      "Revoking the covenant made with all the nations",
+      "Breaking the unity between Judah and Israel",
+      "Ending the priesthood",
+      "Destroying Jerusalem's defenses",
     ],
-    answer: "The revoking of the covenant made with all nations",
+    answer: "Revoking the covenant made with all the nations",
     reference: "Zechariah 11:10",
   },
   {
-    question: "How much was Zechariah paid for his shepherding?",
+    question:
+      "Who recognized that the breaking of the first staff fulfilled the word of the LORD?",
+    options: [
+      "The afflicted of the flock who were watching Zechariah",
+      "The three shepherds",
+      "The priests",
+      "The rulers of Judah",
+    ],
+    answer:
+      "The afflicted of the flock who were watching Zechariah",
+    reference: "Zechariah 11:11",
+  },
+  {
+    question:
+      "How much was Zechariah paid when he asked for his wages?",
     options: [
       "Thirty pieces of silver",
       "Twenty pieces of silver",
       "Fifty pieces of silver",
-      "One hundred pieces of silver",
+      "Thirty pieces of gold",
     ],
     answer: "Thirty pieces of silver",
     reference: "Zechariah 11:12",
   },
   {
-    question: "What did the Lord call that price?",
+    question:
+      "How does the LORD describe the amount at which He was valued?",
     options: [
-      "The handsome price at which they valued me",
-      "A generous reward",
-      "A temple offering",
-      "A royal payment",
+      "The handsome price at which they valued Me",
+      "The price of a servant",
+      "A contemptible payment",
+      "The wages of a shepherd",
     ],
-    answer: "The handsome price at which they valued me",
+    answer: "The handsome price at which they valued Me",
     reference: "Zechariah 11:13",
   },
   {
-    question: "Where was the silver thrown?",
+    question:
+      "Where was the silver thrown?",
     options: [
-      "To the potter at the house of the Lord",
-      "Into the city gate",
-      "Into the river",
-      "Into the palace",
+      "To the potter at the house of the LORD",
+      "Into the temple treasury",
+      "At the feet of the priests",
+      "Into the Kidron Valley",
     ],
-    answer: "To the potter at the house of the Lord",
+    answer: "To the potter at the house of the LORD",
     reference: "Zechariah 11:13",
   },
   {
-    question: "What happened to the staff called Union?",
+    question:
+      "Which staff did Zechariah break after throwing the silver?",
     options: [
-      "It was broken",
-      "It was preserved",
-      "It became a scepter",
-      "It was buried",
+      "Union",
+      "Favor",
+      "Covenant",
+      "Peace",
     ],
-    answer: "It was broken",
+    answer: "Union",
     reference: "Zechariah 11:14",
   },
   {
-    question: "What did breaking Union symbolize?",
+    question:
+      "What did breaking the staff called Union symbolize?",
     options: [
-      "The breaking of brotherhood between Judah and Israel",
-      "The end of prophecy",
-      "The fall of Jerusalem",
-      "The separation of priests from Levites",
+      "Breaking the family bond between Judah and Israel",
+      "Breaking the covenant with the nations",
+      "Ending Jerusalem's peace",
+      "Dividing priests from rulers",
     ],
-    answer: "The breaking of brotherhood between Judah and Israel",
+    answer: "Breaking the family bond between Judah and Israel",
     reference: "Zechariah 11:14",
   },
   {
-    question: "What kind of shepherd would God raise up as judgment?",
+    question:
+      "What kind of shepherd's equipment was Zechariah next told to take?",
     options: [
-      "A foolish shepherd",
-      "A perfect shepherd",
-      "A foreign priest",
-      "A righteous king",
+      "The equipment of a foolish shepherd",
+      "The staff of a good shepherd",
+      "A shepherd's sling",
+      "The tools of a hired shepherd",
     ],
-    answer: "A foolish shepherd",
+    answer: "The equipment of a foolish shepherd",
     reference: "Zechariah 11:15",
   },
   {
-    question: "What would the foolish shepherd fail to care for?",
+    question:
+      "Which combination describes the shepherd God says He will raise up?",
     options: [
-      "The lost, young, injured, and healthy",
-      "Only the wealthy sheep",
-      "Only the priests",
-      "Only foreign sheep",
+      "He will not care for the lost, seek the young, heal the injured, or feed the healthy",
+      "He will gather the lost but neglect the injured",
+      "He will feed the healthy but abandon the young",
+      "He will seek the lost but exploit the rulers",
     ],
-    answer: "The lost, young, injured, and healthy",
+    answer:
+      "He will not care for the lost, seek the young, heal the injured, or feed the healthy",
     reference: "Zechariah 11:16",
   },
   {
-    question: "What judgment is pronounced on the worthless shepherd?",
+    question:
+      "What will the foolish shepherd consume?",
     options: [
-      "His arm will wither and his right eye become blind",
-      "His house will burn",
-      "He will be exiled to Egypt",
-      "His crown will be removed",
+      "The meat of the choice sheep and tear off their hooves",
+      "The weak sheep only",
+      "The food belonging to the flock",
+      "The lambs marked for sacrifice",
     ],
-    answer: "His arm will wither and his right eye become blind",
+    answer:
+      "The meat of the choice sheep and tear off their hooves",
+    reference: "Zechariah 11:16",
+  },
+  {
+    question:
+      "What judgment is pronounced on the worthless shepherd's arm and right eye?",
+    options: [
+      "His arm will completely wither and his right eye become totally blind",
+      "His arm will be broken and both eyes blinded",
+      "His hand will weaken and his eye become dim",
+      "His arm will be cut off and his eye removed",
+    ],
+    answer:
+      "His arm will completely wither and his right eye become totally blind",
     reference: "Zechariah 11:17",
   },
-
   {
-    question: "How is the Lord introduced in the oracle concerning Israel?",
+    question:
+      "Which three creative acts identify the LORD at the beginning of the next oracle?",
     options: [
-      "The One who stretches out the heavens, lays earth's foundation, and forms the human spirit",
-      "The God of Judah only",
-      "The builder of Jerusalem's walls",
-      "The king of Persia",
+      "Stretching out the heavens, laying the foundation of the earth, and forming the human spirit",
+      "Creating the sea, forming mountains, and giving breath",
+      "Making heaven and earth and choosing Jerusalem",
+      "Creating light, forming humanity, and establishing Zion",
     ],
-    answer: "The One who stretches out the heavens, lays earth's foundation, and forms the human spirit",
+    answer:
+      "Stretching out the heavens, laying the foundation of the earth, and forming the human spirit",
     reference: "Zechariah 12:1",
   },
   {
-    question: "What will Jerusalem become to surrounding peoples?",
+    question:
+      "To what intoxicating object will Jerusalem become for surrounding peoples?",
     options: [
       "A cup that sends them reeling",
-      "A source of wealth",
-      "A safe refuge",
-      "A trading center",
+      "A bowl of bitter wine",
+      "A jar of wrath",
+      "A cup of trembling water",
     ],
     answer: "A cup that sends them reeling",
     reference: "Zechariah 12:2",
   },
   {
-    question: "What other image is used for Jerusalem?",
+    question:
+      "To what heavy object will Jerusalem become for all nations?",
     options: [
-      "A heavy stone",
-      "A burning lamp",
-      "A golden crown",
-      "A broken wall",
+      "An immovable rock",
+      "A mountain of iron",
+      "A stone wall",
+      "A heavy millstone",
     ],
-    answer: "A heavy stone",
+    answer: "An immovable rock",
     reference: "Zechariah 12:3",
   },
   {
-    question: "What will happen to nations that try to move that stone?",
+    question:
+      "What will happen to those who try to move Jerusalem as the heavy stone?",
     options: [
       "They will injure themselves",
-      "They will succeed",
-      "They will become stronger",
-      "They will receive Jerusalem",
+      "They will be blinded",
+      "They will flee",
+      "They will become weak",
     ],
     answer: "They will injure themselves",
     reference: "Zechariah 12:3",
   },
   {
-    question: "What will God strike enemy horses with?",
+    question:
+      "What threefold judgment is directed against horses and riders?",
     options: [
-      "Panic",
-      "Fire",
-      "Blindness only",
-      "Disease",
+      "Panic on horses, madness on riders, and blindness on the nations' horses",
+      "Blindness on riders, weakness on horses, and fear on armies",
+      "Plague on horses, panic on kings, and blindness on soldiers",
+      "Madness on horses, blindness on riders, and famine on armies",
     ],
-    answer: "Panic",
+    answer:
+      "Panic on horses, madness on riders, and blindness on the nations' horses",
     reference: "Zechariah 12:4",
   },
   {
-    question: "What will happen to the riders?",
+    question:
+      "What will the clans of Judah say about the people of Jerusalem?",
     options: [
-      "They will be struck with madness",
-      "They will become priests",
-      "They will flee peacefully",
-      "They will surrender immediately",
+      "They are strong because the LORD Almighty is their God",
+      "They are safe because Jerusalem is fortified",
+      "They are blessed because the temple is there",
+      "They are powerful because David rules them",
     ],
-    answer: "They will be struck with madness",
-    reference: "Zechariah 12:4",
+    answer: "They are strong because the LORD Almighty is their God",
+    reference: "Zechariah 12:5",
   },
   {
-    question: "What will God pour out on David's house and Jerusalem?",
+    question:
+      "To what two sources of destructive fire are Judah's leaders compared?",
+    options: [
+      "A firepot in a woodpile and a flaming torch among sheaves",
+      "A furnace and a burning lamp",
+      "A wildfire and a flaming sword",
+      "A torch and burning coals",
+    ],
+    answer: "A firepot in a woodpile and a flaming torch among sheaves",
+    reference: "Zechariah 12:6",
+  },
+  {
+    question:
+      "Whom will the LORD save first?",
+    options: [
+      "The dwellings of Judah",
+      "Jerusalem",
+      "The house of David",
+      "The priests",
+    ],
+    answer: "The dwellings of Judah",
+    reference: "Zechariah 12:7",
+  },
+  {
+    question:
+      "Why will Judah be saved first?",
+    options: [
+      "So the honor of David's house and Jerusalem's inhabitants will not exceed Judah's",
+      "Because Judah is stronger than Jerusalem",
+      "Because Jerusalem must be punished first",
+      "Because Judah contains the temple",
+    ],
+    answer:
+      "So the honor of David's house and Jerusalem's inhabitants will not exceed Judah's",
+    reference: "Zechariah 12:7",
+  },
+  {
+    question:
+      "To whom will the feeblest inhabitant of Jerusalem be compared?",
+    options: [
+      "David",
+      "Joshua",
+      "Moses",
+      "Zerubbabel",
+    ],
+    answer: "David",
+    reference: "Zechariah 12:8",
+  },
+  {
+    question:
+      "To what will the house of David be compared?",
+    options: [
+      "God, like the angel of the LORD going before them",
+      "A mighty army",
+      "The throne of God",
+      "An unbreakable fortress",
+    ],
+    answer: "God, like the angel of the LORD going before them",
+    reference: "Zechariah 12:8",
+  },
+  {
+    question:
+      "What does the LORD determine to destroy?",
+    options: [
+      "All nations that attack Jerusalem",
+      "All nations surrounding Judah",
+      "The armies of Assyria",
+      "The enemies of the temple",
+    ],
+    answer: "All nations that attack Jerusalem",
+    reference: "Zechariah 12:9",
+  },
+  {
+    question:
+      "What spirit will God pour out on David's house and Jerusalem's inhabitants?",
     options: [
       "A spirit of grace and supplication",
-      "A spirit of war",
-      "A spirit of fear",
-      "A spirit of silence",
+      "A spirit of wisdom and understanding",
+      "A spirit of justice and mercy",
+      "A spirit of prophecy and power",
     ],
     answer: "A spirit of grace and supplication",
     reference: "Zechariah 12:10",
   },
   {
-    question: "On whom will the people look?",
+    question:
+      "How will the people mourn for the one they have pierced?",
     options: [
-      "The one they pierced",
-      "The king of Persia",
-      "Joshua the priest",
-      "Zerubbabel",
+      "As one mourns for an only child and grieves for a firstborn son",
+      "As one mourns for a king and a priest",
+      "As Israel mourned for Moses",
+      "As parents mourn for all their children",
     ],
-    answer: "The one they pierced",
+    answer:
+      "As one mourns for an only child and grieves for a firstborn son",
     reference: "Zechariah 12:10",
   },
   {
-    question: "How will they mourn for him?",
+    question:
+      "To what mourning at a specific location is Jerusalem's mourning compared?",
     options: [
-      "As for an only child and firstborn son",
-      "As for a defeated king",
-      "As for a lost city",
-      "As for a dead priest",
+      "The mourning of Hadad Rimmon in the plain of Megiddo",
+      "The mourning for Josiah in Jerusalem",
+      "The mourning of Rachel near Bethlehem",
+      "The mourning at the threshing floor of Atad",
     ],
-    answer: "As for an only child and firstborn son",
-    reference: "Zechariah 12:10",
+    answer: "The mourning of Hadad Rimmon in the plain of Megiddo",
+    reference: "Zechariah 12:11",
   },
   {
-    question: "How widespread will the mourning be?",
+    question:
+      "Which royal family is specifically said to mourn by itself?",
     options: [
-      "Each clan and family will mourn separately",
-      "Only priests will mourn",
-      "Only Jerusalem will mourn",
-      "Only Judah's king will mourn",
+      "The house of David",
+      "The house of Saul",
+      "The house of Zerubbabel",
+      "The house of Jehoiakim",
     ],
-    answer: "Each clan and family will mourn separately",
-    reference: "Zechariah 12:12-14",
+    answer: "The house of David",
+    reference: "Zechariah 12:12",
   },
-
   {
-    question: "What will be opened for David's house and Jerusalem?",
+    question:
+      "Which prophetic family is named among those mourning separately?",
+    options: [
+      "The house of Nathan",
+      "The house of Samuel",
+      "The house of Isaiah",
+      "The house of Jeremiah",
+    ],
+    answer: "The house of Nathan",
+    reference: "Zechariah 12:12",
+  },
+  {
+    question:
+      "Which priestly family is named among those mourning separately?",
+    options: [
+      "The house of Levi",
+      "The house of Aaron",
+      "The house of Zadok",
+      "The house of Joshua",
+    ],
+    answer: "The house of Levi",
+    reference: "Zechariah 12:13",
+  },
+  {
+    question:
+      "Which additional family is specifically named alongside Levi?",
+    options: [
+      "The house of Shimei",
+      "The house of Korah",
+      "The house of Merari",
+      "The house of Phinehas",
+    ],
+    answer: "The house of Shimei",
+    reference: "Zechariah 12:13",
+  },
+  {
+    question:
+      "What will be opened for David's house and Jerusalem's inhabitants?",
     options: [
       "A fountain",
       "A gate",
       "A river",
-      "A temple",
+      "A spring beneath the temple",
     ],
     answer: "A fountain",
     reference: "Zechariah 13:1",
   },
   {
-    question: "What will the fountain cleanse?",
+    question:
+      "For what two purposes will the fountain be opened?",
     options: [
-      "Sin and impurity",
-      "Physical disease only",
-      "Temple vessels",
-      "The city walls",
+      "Cleansing from sin and impurity",
+      "Healing and restoration",
+      "Washing and priestly consecration",
+      "Forgiveness and physical healing",
     ],
-    answer: "Sin and impurity",
+    answer: "Cleansing from sin and impurity",
     reference: "Zechariah 13:1",
   },
   {
-    question: "What names will God banish from the land?",
+    question:
+      "What will God remove from the land along with the names of idols?",
     options: [
-      "The names of idols",
-      "The names of prophets",
-      "The names of kings",
-      "The names of priests",
+      "The prophets and the spirit of impurity",
+      "The priests and false teachers",
+      "Foreign gods and kings",
+      "Diviners and sorcerers",
     ],
-    answer: "The names of idols",
+    answer: "The prophets and the spirit of impurity",
     reference: "Zechariah 13:2",
   },
   {
-    question: "What else will God remove?",
+    question:
+      "What will happen if someone still prophesies falsely in that day?",
     options: [
-      "The prophets and spirit of impurity",
-      "The priesthood",
-      "The temple",
-      "The law",
+      "His own parents will declare that he must die",
+      "He will be exiled",
+      "The priests will remove him",
+      "He will be imprisoned",
     ],
-    answer: "The prophets and spirit of impurity",
-    reference: "Zechariah 13:2",
+    answer: "His own parents will declare that he must die",
+    reference: "Zechariah 13:3",
   },
   {
-    question: "What would false prophets be ashamed to wear?",
+    question:
+      "Why would the false prophet's parents condemn him?",
     options: [
-      "A prophet's hairy garment",
-      "Priestly linen",
-      "Royal purple",
-      "Sackcloth",
+      "Because he has told lies in the LORD's name",
+      "Because he worshiped idols",
+      "Because he rejected the temple",
+      "Because he deceived the king",
     ],
-    answer: "A prophet's hairy garment",
+    answer: "Because he has told lies in the LORD's name",
+    reference: "Zechariah 13:3",
+  },
+  {
+    question:
+      "What garment will prophets be ashamed to put on for deception?",
+    options: [
+      "A prophet's garment of hair",
+      "A linen ephod",
+      "A sackcloth robe",
+      "A priestly cloak",
+    ],
+    answer: "A prophet's garment of hair",
     reference: "Zechariah 13:4",
   },
   {
-    question: "What occupation would a false prophet claim instead?",
+    question:
+      "What occupation will a person claim instead of claiming to be a prophet?",
     options: [
       "A farmer",
-      "A priest",
-      "A soldier",
+      "A shepherd",
       "A merchant",
+      "A builder",
     ],
     answer: "A farmer",
     reference: "Zechariah 13:5",
   },
   {
-    question: "What question is asked about wounds on the person's body?",
-    options: [
-      "What are these wounds on your body?",
-      "Who healed your wounds?",
-      "Why are your hands clean?",
-      "Why are your clothes torn?",
-    ],
-    answer: "What are these wounds on your body?",
-    reference: "Zechariah 13:6",
-  },
-  {
-    question: "What answer is given concerning the wounds?",
+    question:
+      "What explanation is given for the wounds on the person's body?",
     options: [
       "They were received at the house of friends",
       "They came from battle",
-      "They came from farming",
-      "They came from priests",
+      "They were caused by wild animals",
+      "They came from priestly punishment",
     ],
     answer: "They were received at the house of friends",
     reference: "Zechariah 13:6",
   },
   {
-    question: "Against whom is the sword commanded to awake?",
+    question:
+      "Against whom is the sword commanded to awake?",
     options: [
-      "God's shepherd",
-      "The king of Persia",
-      "The priests",
+      "God's shepherd, the man close to Him",
+      "The false prophet",
+      "The king of Jerusalem",
+      "The worthless shepherd",
+    ],
+    answer: "God's shepherd, the man close to Him",
+    reference: "Zechariah 13:7",
+  },
+  {
+    question:
+      "What happens to the sheep when the shepherd is struck?",
+    options: [
+      "They are scattered",
+      "They are slaughtered",
+      "They flee to Jerusalem",
+      "They are gathered by another shepherd",
+    ],
+    answer: "They are scattered",
+    reference: "Zechariah 13:7",
+  },
+  {
+    question:
+      "Against whom does God say He will turn His hand after the shepherd is struck?",
+    options: [
+      "The little ones",
+      "The false shepherds",
       "The nations",
+      "The priests",
     ],
-    answer: "God's shepherd",
+    answer: "The little ones",
     reference: "Zechariah 13:7",
   },
   {
-    question: "What happens when the shepherd is struck?",
-    options: [
-      "The sheep are scattered",
-      "The sheep become stronger",
-      "The flock gathers",
-      "The shepherd returns immediately",
-    ],
-    answer: "The sheep are scattered",
-    reference: "Zechariah 13:7",
-  },
-  {
-    question: "What fraction of the land is said to perish?",
+    question:
+      "What fraction of the land's people will be struck down and perish?",
     options: [
       "Two-thirds",
       "One-third",
       "Half",
-      "Three-quarters",
+      "Three-fourths",
     ],
     answer: "Two-thirds",
     reference: "Zechariah 13:8",
   },
   {
-    question: "What fraction remains?",
+    question:
+      "What fraction will remain?",
     options: [
       "One-third",
       "Two-thirds",
-      "Half",
+      "One-half",
       "One-fourth",
     ],
     answer: "One-third",
     reference: "Zechariah 13:8",
   },
   {
-    question: "How will the remaining third be refined?",
+    question:
+      "Through what will the surviving third be brought?",
     options: [
-      "Like silver and gold through fire",
-      "Like clay in water",
-      "Like grain in a mill",
-      "Like wood in rain",
+      "Fire",
+      "Water",
+      "The wilderness",
+      "Battle",
     ],
-    answer: "Like silver and gold through fire",
+    answer: "Fire",
     reference: "Zechariah 13:9",
   },
   {
-    question: "What covenant statement follows their refining?",
+    question:
+      "To what two metal-refining processes is the testing of the remnant compared?",
     options: [
-      "They are my people, and the Lord is our God",
-      "They will serve Persia",
-      "They will become priests",
-      "They will leave the land",
+      "Refining silver and testing gold",
+      "Purifying bronze and melting gold",
+      "Refining iron and polishing silver",
+      "Melting silver and shaping bronze",
     ],
-    answer: "They are my people, and the Lord is our God",
+    answer: "Refining silver and testing gold",
     reference: "Zechariah 13:9",
   },
-
   {
-    question: "What will happen to Jerusalem before the final deliverance?",
+    question:
+      "What covenant exchange follows the refining of the remnant?",
     options: [
-      "The city will be captured and plundered",
-      "It will never be attacked",
-      "It will become Persia's capital",
-      "It will be abandoned voluntarily",
+      "They call on God's name; He answers, calls them His people, and they say the LORD is their God",
+      "They offer sacrifices; God forgives them and restores Jerusalem",
+      "They rebuild the temple; God gives them peace",
+      "They repent; God makes them rulers over the nations",
     ],
-    answer: "The city will be captured and plundered",
-    reference: "Zechariah 14:1-2",
+    answer:
+      "They call on God's name; He answers, calls them His people, and they say the LORD is their God",
+    reference: "Zechariah 13:9",
   },
   {
-    question: "What will the Lord do after the nations attack Jerusalem?",
+    question:
+      "What will happen to Jerusalem's plunder on the coming day of the LORD?",
     options: [
-      "Go out and fight against them",
-      "Abandon Jerusalem",
-      "Send Judah to Egypt",
-      "Make peace with them",
+      "It will be divided within the city",
+      "It will be returned by the nations",
+      "It will be burned",
+      "It will be carried to Babylon",
     ],
-    answer: "Go out and fight against them",
+    answer: "It will be divided within the city",
+    reference: "Zechariah 14:1",
+  },
+  {
+    question:
+      "Who will be gathered against Jerusalem for battle?",
+    options: [
+      "All the nations",
+      "Assyria and Egypt",
+      "Babylon alone",
+      "The Philistine cities",
+    ],
+    answer: "All the nations",
+    reference: "Zechariah 14:2",
+  },
+  {
+    question:
+      "What fraction of Jerusalem will go into exile when the city is captured?",
+    options: [
+      "Half",
+      "Two-thirds",
+      "One-third",
+      "One-fourth",
+    ],
+    answer: "Half",
+    reference: "Zechariah 14:2",
+  },
+  {
+    question:
+      "What happens to the remainder of Jerusalem's people?",
+    options: [
+      "They are not taken from the city",
+      "They flee to Egypt",
+      "They hide in the temple",
+      "They join the attacking nations",
+    ],
+    answer: "They are not taken from the city",
+    reference: "Zechariah 14:2",
+  },
+  {
+    question:
+      "What will the LORD do after the nations attack Jerusalem?",
+    options: [
+      "Go out and fight against those nations",
+      "Send Judah into exile",
+      "Destroy Jerusalem completely",
+      "Send angels to Babylon",
+    ],
+    answer: "Go out and fight against those nations",
     reference: "Zechariah 14:3",
   },
   {
-    question: "On which mountain will the Lord stand?",
+    question:
+      "On what mountain will the LORD's feet stand?",
     options: [
       "The Mount of Olives",
+      "Mount Zion",
       "Mount Carmel",
-      "Mount Sinai",
-      "Mount Hermon",
+      "Mount Moriah",
     ],
     answer: "The Mount of Olives",
     reference: "Zechariah 14:4",
   },
   {
-    question: "In which direction is the Mount of Olives from Jerusalem?",
+    question:
+      "In what direction is the Mount of Olives from Jerusalem?",
     options: [
       "East",
       "West",
@@ -2383,51 +3027,81 @@ const zechariahQuestions = [
     reference: "Zechariah 14:4",
   },
   {
-    question: "What will happen to the Mount of Olives?",
+    question:
+      "In what direction will the Mount of Olives split?",
     options: [
-      "It will split in two from east to west",
-      "It will disappear",
-      "It will become a city",
-      "It will move north",
+      "East to west",
+      "North to south",
+      "Northeast to southwest",
+      "Southeast to northwest",
     ],
-    answer: "It will split in two from east to west",
+    answer: "East to west",
     reference: "Zechariah 14:4",
   },
   {
-    question: "What will the split mountain create?",
+    question:
+      "What will the splitting of the Mount of Olives create?",
     options: [
       "A great valley",
       "A river",
-      "A wall",
-      "A fortress",
+      "A new road",
+      "A deep pit",
     ],
     answer: "A great valley",
     reference: "Zechariah 14:4",
   },
   {
-    question: "Who will come with the Lord?",
+    question:
+      "How will the two halves of the mountain move?",
+    options: [
+      "One north and one south",
+      "One east and one west",
+      "Both toward Jerusalem",
+      "Both away toward the east",
+    ],
+    answer: "One north and one south",
+    reference: "Zechariah 14:4",
+  },
+  {
+    question:
+      "To what past disaster is the future flight through the mountain valley compared?",
+    options: [
+      "The earthquake in the days of Uzziah king of Judah",
+      "The destruction of Jerusalem by Babylon",
+      "The flood in Noah's days",
+      "The Assyrian invasion in Hezekiah's reign",
+    ],
+    answer: "The earthquake in the days of Uzziah king of Judah",
+    reference: "Zechariah 14:5",
+  },
+  {
+    question:
+      "Who will come with the LORD?",
     options: [
       "All the holy ones",
-      "Only priests",
-      "Only prophets",
-      "Only angels named in the book",
+      "The armies of Judah",
+      "The priests",
+      "The kings of the earth",
     ],
     answer: "All the holy ones",
     reference: "Zechariah 14:5",
   },
   {
-    question: "What unusual condition will occur on that day?",
+    question:
+      "What unusual condition will characterize the light on that day?",
     options: [
-      "There will be no ordinary daylight or darkness",
-      "The sun will shine twice as brightly",
-      "There will be permanent darkness only",
-      "It will rain continuously",
+      "There will be no ordinary sunlight or cold, frosty darkness",
+      "The sun will permanently disappear",
+      "The moon alone will shine",
+      "Jerusalem will remain completely dark",
     ],
-    answer: "There will be no ordinary daylight or darkness",
-    reference: "Zechariah 14:6-7",
+    answer:
+      "There will be no ordinary sunlight or cold, frosty darkness",
+    reference: "Zechariah 14:6",
   },
   {
-    question: "What will happen in the evening?",
+    question:
+      "What unusual transition will occur at evening time?",
     options: [
       "There will be light",
       "There will be complete darkness",
@@ -2438,346 +3112,599 @@ const zechariahQuestions = [
     reference: "Zechariah 14:7",
   },
   {
-    question: "What will flow out from Jerusalem?",
+    question:
+      "What will flow out from Jerusalem continuously?",
     options: [
       "Living water",
-      "Oil",
-      "Wine",
-      "Blood",
+      "A river of oil",
+      "Blood and water",
+      "A stream from the altar",
     ],
     answer: "Living water",
     reference: "Zechariah 14:8",
   },
   {
-    question: "In which directions will the living water flow?",
+    question:
+      "Toward which two seas will Jerusalem's living waters flow?",
     options: [
-      "Half east and half west",
-      "Only east",
-      "Only west",
-      "North and south",
+      "Half to the eastern sea and half to the western sea",
+      "Half to the Dead Sea and half to the Red Sea",
+      "Half to the Mediterranean and half to the Sea of Galilee",
+      "Half north and half south",
     ],
-    answer: "Half east and half west",
+    answer: "Half to the eastern sea and half to the western sea",
     reference: "Zechariah 14:8",
   },
   {
-    question: "During which seasons will the living water continue flowing?",
+    question:
+      "During what seasons will the living waters continue to flow?",
     options: [
       "Summer and winter",
-      "Summer only",
-      "Winter only",
-      "Spring only",
+      "Spring and autumn",
+      "Only during the rainy season",
+      "Only during harvest",
     ],
     answer: "Summer and winter",
     reference: "Zechariah 14:8",
   },
   {
-    question: "Over how much of the earth will the Lord be king?",
+    question:
+      "Over what territory will the LORD become king?",
     options: [
       "The whole earth",
-      "Judah only",
-      "Jerusalem only",
-      "Israel only",
+      "Judah and Jerusalem",
+      "Israel alone",
+      "All lands west of the Euphrates",
     ],
     answer: "The whole earth",
     reference: "Zechariah 14:9",
   },
   {
-    question: "How many Lords and names will be acknowledged?",
+    question:
+      "What twofold unity is declared when the LORD becomes king over the whole earth?",
     options: [
-      "One Lord and one name",
-      "Twelve",
-      "Seven",
-      "Many",
+      "There will be one LORD and His name the only name",
+      "There will be one temple and one priesthood",
+      "There will be one nation and one king",
+      "There will be one law and one language",
     ],
-    answer: "One Lord and one name",
+    answer: "There will be one LORD and His name the only name",
     reference: "Zechariah 14:9",
   },
   {
-    question: "What will happen to Jerusalem?",
+    question:
+      "What will happen to the surrounding land while Jerusalem is raised up?",
     options: [
-      "It will be raised up and inhabited securely",
-      "It will remain desolate",
-      "It will move east",
-      "It will become a battlefield forever",
+      "It will become like the Arabah",
+      "It will become mountainous",
+      "It will become a forest",
+      "It will be covered by water",
     ],
-    answer: "It will be raised up and inhabited securely",
-    reference: "Zechariah 14:10-11",
+    answer: "It will become like the Arabah",
+    reference: "Zechariah 14:10",
   },
   {
-    question: "What will no longer happen to Jerusalem?",
+    question:
+      "What will characterize Jerusalem after it is raised and inhabited?",
     options: [
-      "It will never again be destroyed",
-      "It will never have walls",
-      "It will never have people",
-      "It will never have worship",
+      "It will be secure",
+      "It will have no walls",
+      "It will contain no foreigners",
+      "It will become larger than every city",
     ],
-    answer: "It will never again be destroyed",
+    answer: "It will be secure",
     reference: "Zechariah 14:11",
   },
   {
-    question: "What plague is described against nations that fought Jerusalem?",
+    question:
+      "What happens to the flesh of those who fought against Jerusalem in the plague?",
     options: [
-      "Their flesh, eyes, and tongues waste away",
-      "Their crops fail only",
-      "Their rivers dry up",
-      "Their animals flee",
+      "It rots while they are still standing",
+      "It burns like fire",
+      "It turns white",
+      "It becomes covered with sores",
     ],
-    answer: "Their flesh, eyes, and tongues waste away",
+    answer: "It rots while they are still standing",
     reference: "Zechariah 14:12",
   },
   {
-    question: "What will happen among the enemy armies?",
+    question:
+      "What happens to their eyes and tongues in the same plague?",
     options: [
-      "They will panic and attack one another",
-      "They will unite",
-      "They will surrender peacefully",
-      "They will flee before battle",
+      "Their eyes rot in their sockets and their tongues rot in their mouths",
+      "Their eyes become blind and their tongues become silent",
+      "Their eyes darken and their tongues swell",
+      "Their eyes close and their tongues dry up",
     ],
-    answer: "They will panic and attack one another",
+    answer:
+      "Their eyes rot in their sockets and their tongues rot in their mouths",
+    reference: "Zechariah 14:12",
+  },
+  {
+    question:
+      "What will the LORD send among the attacking forces, causing them to fight one another?",
+    options: [
+      "Great panic",
+      "Blindness",
+      "A strong wind",
+      "Confusion of language",
+    ],
+    answer: "Great panic",
     reference: "Zechariah 14:13",
   },
   {
-    question: "Who will also fight at Jerusalem?",
+    question:
+      "What will Judah do in Jerusalem during the final conflict?",
     options: [
-      "Judah",
-      "Egypt only",
-      "Persia",
-      "Babylon",
+      "Fight",
+      "Flee",
+      "Fast",
+      "Hide",
     ],
-    answer: "Judah",
+    answer: "Fight",
     reference: "Zechariah 14:14",
   },
   {
-    question: "What will survivors from the attacking nations do every year?",
+    question:
+      "What wealth of the surrounding nations will be collected?",
+    options: [
+      "Great quantities of gold, silver, and clothing",
+      "Gold, livestock, and weapons",
+      "Silver, grain, and wine",
+      "Gold, precious stones, and horses",
+    ],
+    answer: "Great quantities of gold, silver, and clothing",
+    reference: "Zechariah 14:14",
+  },
+  {
+    question:
+      "Which animals are explicitly included in the plague resembling the one on the attacking people?",
+    options: [
+      "Horses, mules, camels, donkeys, and other animals",
+      "Horses, sheep, cattle, and goats",
+      "Camels, cattle, sheep, and donkeys",
+      "Horses, mules, cattle, and sheep",
+    ],
+    answer: "Horses, mules, camels, donkeys, and other animals",
+    reference: "Zechariah 14:15",
+  },
+  {
+    question:
+      "What will survivors from the nations that attacked Jerusalem do annually?",
     options: [
       "Go up to worship the King and celebrate the Festival of Tabernacles",
-      "Pay tribute to Persia",
-      "Rebuild Jerusalem",
-      "Join Judah's army",
+      "Bring tribute to Judah",
+      "Observe Passover in Jerusalem",
+      "Rebuild Jerusalem's walls",
     ],
-    answer: "Go up to worship the King and celebrate the Festival of Tabernacles",
+    answer:
+      "Go up to worship the King and celebrate the Festival of Tabernacles",
     reference: "Zechariah 14:16",
   },
   {
-    question: "What will happen to nations that refuse to go up and worship?",
+    question:
+      "What title is given to the One whom the surviving nations will worship?",
     options: [
-      "They will receive no rain",
-      "They will be exiled to Babylon",
-      "Their kings will die",
-      "Their temples will burn",
+      "The King, the LORD Almighty",
+      "The God of Israel",
+      "The King of Zion",
+      "The Lord of Jerusalem",
     ],
-    answer: "They will receive no rain",
+    answer: "The King, the LORD Almighty",
+    reference: "Zechariah 14:16",
+  },
+  {
+    question:
+      "What will happen to a nation that refuses to go up to Jerusalem to worship the King?",
+    options: [
+      "It will receive no rain",
+      "It will be immediately destroyed",
+      "It will suffer exile",
+      "Its king will die",
+    ],
+    answer: "It will receive no rain",
     reference: "Zechariah 14:17",
   },
   {
-    question: "Which nation is specifically mentioned if it refuses to attend the festival?",
+    question:
+      "Which nation is specifically discussed as an example if it refuses to observe the festival?",
     options: [
       "Egypt",
-      "Persia",
       "Assyria",
-      "Moab",
+      "Babylon",
+      "Edom",
     ],
     answer: "Egypt",
     reference: "Zechariah 14:18",
   },
   {
-    question: "What words will be written on the bells of the horses?",
+    question:
+      "What inscription will appear even on the bells of the horses?",
     options: [
       "HOLY TO THE LORD",
-      "KING OF ISRAEL",
-      "PEACE TO JERUSALEM",
-      "GLORY TO ZION",
+      "THE LORD IS KING",
+      "THE LORD ALMIGHTY",
+      "JERUSALEM IS HOLY",
     ],
     answer: "HOLY TO THE LORD",
     reference: "Zechariah 14:20",
   },
   {
-    question: "What will ordinary cooking pots in Jerusalem become like?",
+    question:
+      "To what sacred objects will ordinary cooking pots in the LORD's house be compared?",
     options: [
-      "Sacred bowls before the altar",
-      "Royal vessels",
-      "Weapons",
-      "Temple lamps",
+      "The sacred bowls in front of the altar",
+      "The golden lampstand",
+      "The incense vessels",
+      "The bowls of the priests",
     ],
-    answer: "Sacred bowls before the altar",
+    answer: "The sacred bowls in front of the altar",
     reference: "Zechariah 14:20",
   },
   {
-    question: "What will be true of every pot in Jerusalem and Judah?",
+    question:
+      "What will be true of every pot in Jerusalem and Judah?",
     options: [
-      "It will be holy to the Lord Almighty",
+      "It will be holy to the LORD Almighty",
+      "It will belong to the priests",
       "It will be made of gold",
-      "It will belong to priests only",
-      "It will be destroyed",
+      "It will be used only in the temple",
     ],
-    answer: "It will be holy to the Lord Almighty",
+    answer: "It will be holy to the LORD Almighty",
     reference: "Zechariah 14:21",
   },
   {
-    question: "Who will no longer be found in the house of the Lord?",
+    question:
+      "Who will no longer be found in the house of the LORD Almighty on that day?",
     options: [
-      "A Canaanite or merchant",
-      "Priests",
-      "Foreign worshipers",
-      "Levites",
+      "A Canaanite",
+      "A foreigner",
+      "A merchant",
+      "An unclean priest",
     ],
-    answer: "A Canaanite or merchant",
+    answer: "A Canaanite",
     reference: "Zechariah 14:21",
   },
 
+  // Additional close-reading and sequence questions
+
   {
-    question: "What central message connects Zechariah's opening call and later restoration promises?",
+    question:
+      "Which sequence correctly follows Zechariah's opening night visions?",
     options: [
-      "Return to God, and He will restore His people",
-      "Political strength guarantees restoration",
-      "Temple construction replaces repentance",
-      "Persia is the source of blessing",
+      "Horsemen among myrtle trees, four horns and craftsmen, measuring line, Joshua the high priest",
+      "Four horns, horsemen, Joshua, measuring line",
+      "Measuring line, horsemen, lampstand, Joshua",
+      "Horsemen, flying scroll, four horns, lampstand",
     ],
-    answer: "Return to God, and He will restore His people",
-    reference: "Zechariah 1:3, 8:3-8",
+    answer:
+      "Horsemen among myrtle trees, four horns and craftsmen, measuring line, Joshua the high priest",
+    reference: "Zechariah 1:7-3:10",
   },
   {
-    question: "What do the night visions repeatedly show about Jerusalem's future?",
+    question:
+      "Which sequence correctly follows the visions after Joshua's cleansing?",
     options: [
-      "God intends to restore, protect, cleanse, and rebuild it",
-      "It will remain abandoned",
-      "It will become Babylonian",
-      "It will lose the temple permanently",
+      "Lampstand and olive trees, flying scroll, woman in a basket, four chariots",
+      "Flying scroll, lampstand, four chariots, woman in a basket",
+      "Woman in a basket, lampstand, flying scroll, four chariots",
+      "Lampstand, four chariots, flying scroll, woman in a basket",
     ],
-    answer: "God intends to restore, protect, cleanse, and rebuild it",
-    reference: "Zechariah 1-6",
+    answer:
+      "Lampstand and olive trees, flying scroll, woman in a basket, four chariots",
+    reference: "Zechariah 4:1-6:8",
   },
   {
-    question: "What does Joshua's cleansing most clearly symbolize?",
+    question:
+      "Which pair of visions contains objects explicitly associated with measurement?",
     options: [
-      "God's removal of guilt and restoration to service",
-      "Political promotion",
-      "Military victory",
-      "Temple construction",
+      "The man with the measuring line and Zerubbabel with the plumb line",
+      "The flying scroll and the basket",
+      "The four horns and four chariots",
+      "Joshua's stone and the golden lampstand",
     ],
-    answer: "God's removal of guilt and restoration to service",
-    reference: "Zechariah 3:1-7",
+    answer:
+      "The man with the measuring line and Zerubbabel with the plumb line",
+    reference: "Zechariah 2:1-2; 4:10",
   },
   {
-    question: "What does the lampstand vision teach about accomplishing God's work?",
+    question:
+      "Which sequence correctly traces Joshua's transformation in his vision?",
     options: [
-      "It depends on God's Spirit rather than human power",
-      "It depends mainly on military strength",
-      "It depends on Persian wealth",
-      "It depends on numbers",
+      "He stands in filthy clothes, his sin is removed, he receives fine garments, and a clean turban is placed on his head",
+      "He receives a crown, removes his robe, receives a turban, and enters the temple",
+      "He is accused, given a staff, clothed in linen, and crowned",
+      "He removes his own filthy clothes, washes, receives fine garments, and sits beside the angel",
     ],
-    answer: "It depends on God's Spirit rather than human power",
-    reference: "Zechariah 4:6",
+    answer:
+      "He stands in filthy clothes, his sin is removed, he receives fine garments, and a clean turban is placed on his head",
+    reference: "Zechariah 3:1-5",
   },
   {
-    question: "What common theme links the flying scroll and the woman in the basket?",
+    question:
+      "Which two passages connect the title 'Branch' with Joshua and the temple?",
     options: [
-      "The removal and judgment of wickedness",
-      "Temple worship",
-      "Foreign conquest",
-      "Royal succession",
+      "Joshua is told of God's servant the Branch, and later Joshua is crowned while hearing that the Branch will build the temple",
+      "Joshua is called the Branch and then personally builds the temple",
+      "Zerubbabel is called the Branch twice and crowns Joshua",
+      "The Branch first appears as an olive tree and later as a shepherd",
     ],
-    answer: "The removal and judgment of wickedness",
-    reference: "Zechariah 5",
+    answer:
+      "Joshua is told of God's servant the Branch, and later Joshua is crowned while hearing that the Branch will build the temple",
+    reference: "Zechariah 3:8; 6:11-13",
   },
   {
-    question: "What do the fasting messages emphasize over empty religious observance?",
+    question:
+      "Which sequence correctly follows the symbolic actions involving the two staffs?",
     options: [
-      "Justice, mercy, compassion, truth, and peace",
-      "Longer fasts",
-      "More sacrifices",
-      "More temple ceremonies",
+      "Zechariah names them Favor and Union, breaks Favor, receives thirty pieces of silver, throws the silver to the potter, then breaks Union",
+      "Zechariah names them Union and Favor, breaks Union, receives silver, then breaks Favor",
+      "He receives thirty pieces of silver, names the staffs, breaks both together, and throws the silver away",
+      "He breaks Favor, breaks Union, asks for wages, and receives thirty pieces of silver",
     ],
-    answer: "Justice, mercy, compassion, truth, and peace",
-    reference: "Zechariah 7:9-10, 8:16-19",
+    answer:
+      "Zechariah names them Favor and Union, breaks Favor, receives thirty pieces of silver, throws the silver to the potter, then breaks Union",
+    reference: "Zechariah 11:7-14",
   },
   {
-    question: "What major contrast appears between the coming king and ordinary military rulers?",
+    question:
+      "What distinct relationships are symbolized by the breaking of Favor and Union?",
     options: [
-      "He is humble and brings peace rather than relying on war",
-      "He has more horses",
-      "He rules only Judah",
-      "He avoids Jerusalem",
+      "Favor concerns the covenant with the nations, while Union concerns the bond between Judah and Israel",
+      "Favor concerns Judah and Israel, while Union concerns the nations",
+      "Favor concerns the priesthood, while Union concerns the monarchy",
+      "Favor concerns Jerusalem, while Union concerns the temple",
     ],
-    answer: "He is humble and brings peace rather than relying on war",
-    reference: "Zechariah 9:9-10",
+    answer:
+      "Favor concerns the covenant with the nations, while Union concerns the bond between Judah and Israel",
+    reference: "Zechariah 11:10, 14",
   },
   {
-    question: "What does the thirty pieces of silver episode reveal about the shepherd's rejection?",
+    question:
+      "Which sequence correctly traces the movement from mourning to cleansing?",
     options: [
-      "He is contemptuously valued and rejected",
-      "He is richly honored",
-      "He becomes king",
-      "He receives temple gold",
+      "A spirit of grace and supplication is poured out, the pierced one is mourned, families mourn separately, and a fountain is opened for cleansing",
+      "A fountain is opened, the people mourn, the shepherd is struck, and grace is poured out",
+      "The shepherd is struck, families mourn, a fountain is opened, and Jerusalem is attacked",
+      "The people mourn, idols are removed, grace is poured out, and the fountain closes",
     ],
-    answer: "He is contemptuously valued and rejected",
-    reference: "Zechariah 11:12-13",
+    answer:
+      "A spirit of grace and supplication is poured out, the pierced one is mourned, families mourn separately, and a fountain is opened for cleansing",
+    reference: "Zechariah 12:10-13:1",
   },
   {
-    question: "What progression appears in the later chapters concerning Jerusalem?",
+    question:
+      "Which sequence correctly describes the refining of the surviving remnant?",
     options: [
-      "Conflict, mourning, cleansing, refining, divine victory, and universal worship",
-      "Peace, rebellion, exile, famine, and abandonment",
-      "Temple destruction followed by permanent silence",
-      "Foreign rule followed by assimilation",
+      "Two-thirds perish, one-third remains, the third passes through fire, God refines and tests them, they call on His name, and He answers",
+      "One-third perishes, two-thirds remain, the survivors pass through water, and God blesses them",
+      "Half perish, half remain, the survivors flee through the mountain, and God gathers them",
+      "Two-thirds are exiled, one-third remains in Jerusalem, and no further testing occurs",
     ],
-    answer: "Conflict, mourning, cleansing, refining, divine victory, and universal worship",
-    reference: "Zechariah 12-14",
-  },
-  {
-    question: "What does the fountain opened for cleansing emphasize?",
-    options: [
-      "God provides purification from sin and impurity",
-      "Water scarcity will end",
-      "Jerusalem will become a farming center",
-      "The temple needs washing",
-    ],
-    answer: "God provides purification from sin and impurity",
-    reference: "Zechariah 13:1",
-  },
-  {
-    question: "What does the refining of the remaining third accomplish?",
-    options: [
-      "It produces a people who call on God and belong to Him",
-      "It destroys every survivor",
-      "It makes them wealthy",
-      "It turns them into soldiers",
-    ],
-    answer: "It produces a people who call on God and belong to Him",
+    answer:
+      "Two-thirds perish, one-third remains, the third passes through fire, God refines and tests them, they call on His name, and He answers",
     reference: "Zechariah 13:8-9",
   },
   {
-    question: "What does the final chapter ultimately present about God's kingship?",
+    question:
+      "Which sequence correctly describes the Mount of Olives in the final chapter?",
     options: [
-      "The Lord becomes King over the whole earth",
-      "His rule is limited to Jerusalem",
-      "Persia remains supreme",
-      "Judah becomes independent of God",
+      "The LORD's feet stand on it, it splits east to west, a great valley forms, and half moves north while half moves south",
+      "It splits north to south before the LORD arrives, forming two rivers",
+      "It moves eastward, creates a valley, and Jerusalem descends into it",
+      "The LORD stands west of it, it splits toward Jerusalem, and living water emerges from it",
     ],
-    answer: "The Lord becomes King over the whole earth",
-    reference: "Zechariah 14:9",
+    answer:
+      "The LORD's feet stand on it, it splits east to west, a great valley forms, and half moves north while half moves south",
+    reference: "Zechariah 14:4",
   },
   {
-    question: "What does the holiness of ordinary pots and horse bells show?",
+    question:
+      "Which sequence correctly describes the surviving nations after the battle for Jerusalem?",
     options: [
-      "Holiness will extend into ordinary life",
-      "Only priests can be holy",
-      "Only temple objects matter",
-      "Daily life is separate from worship",
+      "They go annually to worship the King and celebrate Tabernacles; those who refuse receive no rain",
+      "They become servants of Judah and observe Passover; those who refuse are exiled",
+      "They bring tribute to Jerusalem and observe the Day of Atonement; those who refuse suffer famine",
+      "They rebuild the temple and worship annually; those who refuse are destroyed immediately",
     ],
-    answer: "Holiness will extend into ordinary life",
+    answer:
+      "They go annually to worship the King and celebrate Tabernacles; those who refuse receive no rain",
+    reference: "Zechariah 14:16-19",
+  },
+  {
+    question:
+      "Which pair of statements shows holiness extending beyond the temple at the end of Zechariah?",
+    options: [
+      "Horse bells bear 'HOLY TO THE LORD,' and ordinary pots in Jerusalem and Judah become holy",
+      "All houses become temples, and all people become priests",
+      "Every city receives an altar, and every animal becomes a sacrifice",
+      "Jerusalem's gates become holy, and all nations become Levites",
+    ],
+    answer:
+      "Horse bells bear 'HOLY TO THE LORD,' and ordinary pots in Jerusalem and Judah become holy",
     reference: "Zechariah 14:20-21",
   },
   {
-    question: "Which sequence best summarizes Zechariah?",
+    question:
+      "Which contrast correctly links Jerusalem's condition in the measuring-line vision with its final condition?",
     options: [
-      "Call to return, night visions, cleansing and rebuilding, true worship, coming king, rejected shepherd, final cleansing and worldwide kingship",
-      "Creation, flood, patriarchs, exodus, monarchy",
-      "Famine, migration, captivity, trade, war",
-      "Temple destruction, exile, return, silence, collapse",
+      "It is envisioned as overflowing beyond ordinary walls under God's fiery protection, and later it is raised up and inhabited securely",
+      "It begins as an abandoned city and ends without inhabitants",
+      "It begins surrounded by walls of bronze and ends without defenses",
+      "It begins under Babylonian rule and ends as Persia's capital",
     ],
-    answer: "Call to return, night visions, cleansing and rebuilding, true worship, coming king, rejected shepherd, final cleansing and worldwide kingship",
-    reference: "Zechariah 1-14",
+    answer:
+      "It is envisioned as overflowing beyond ordinary walls under God's fiery protection, and later it is raised up and inhabited securely",
+    reference: "Zechariah 2:4-5; 14:10-11",
+  },
+  {
+    question:
+      "Which two visions involve women, but in very different symbolic roles?",
+    options: [
+      "The woman identified as Wickedness sits in the basket, while two winged women carry the basket away",
+      "A woman carries the flying scroll while another stands beside Joshua",
+      "Two women tend the lampstand while another measures Jerusalem",
+      "A woman represents Zion while two women drive the chariots",
+    ],
+    answer:
+      "The woman identified as Wickedness sits in the basket, while two winged women carry the basket away",
+    reference: "Zechariah 5:7-11",
+  },
+  {
+    question:
+      "Which combination correctly matches the numbers with their objects or events?",
+    options: [
+      "Four horns, four craftsmen, seven eyes, thirty pieces of silver, and two-thirds perishing",
+      "Four horns, seven craftsmen, twelve eyes, thirty pieces of silver, and one-third perishing",
+      "Seven horns, four craftsmen, seven eyes, twenty pieces of silver, and two-thirds perishing",
+      "Four horns, four craftsmen, twelve eyes, fifty pieces of silver, and half perishing",
+    ],
+    answer:
+      "Four horns, four craftsmen, seven eyes, thirty pieces of silver, and two-thirds perishing",
+    reference: "Zechariah 1:18-21; 3:9; 11:12; 13:8",
+  },
+  {
+    question:
+      "Which sequence correctly traces the book's repeated concern with God's presence in Jerusalem?",
+    options: [
+      "God promises to return with mercy, to be a wall of fire around Jerusalem and glory within it, to dwell in Zion, and finally to reign over all the earth",
+      "God leaves Jerusalem, returns only to the temple, and later departs to the Mount of Olives",
+      "God remains outside Jerusalem until the final chapter",
+      "God dwells first in Babylon, then Judah, then Jerusalem, and finally Egypt",
+    ],
+    answer:
+      "God promises to return with mercy, to be a wall of fire around Jerusalem and glory within it, to dwell in Zion, and finally to reign over all the earth",
+    reference: "Zechariah 1:16; 2:5, 10-11; 14:9",
+  },
+  {
+    question:
+      "Which statement accurately connects the book's two references to horses ranging through the earth?",
+    options: [
+      "The early horsemen report the earth at rest, while the later chariot horses go out as heavenly spirits under divine command",
+      "Both groups are enemy armies attacking Jerusalem",
+      "The first horses guard the temple while the later horses rebuild it",
+      "Both visions identify the horses as Persian armies",
+    ],
+    answer:
+      "The early horsemen report the earth at rest, while the later chariot horses go out as heavenly spirits under divine command",
+    reference: "Zechariah 1:8-11; 6:1-8",
+  },
+  {
+    question:
+      "Which statement accurately distinguishes the two appearances of Joshua in the major symbolic scenes?",
+    options: [
+      "First he is cleansed from filthy garments; later a crown is placed on his head while a message about the Branch is proclaimed",
+      "First he is crowned king; later he becomes high priest",
+      "First he measures Jerusalem; later he completes the temple",
+      "First he receives the lampstand; later he breaks the staffs",
+    ],
+    answer:
+      "First he is cleansed from filthy garments; later a crown is placed on his head while a message about the Branch is proclaimed",
+    reference: "Zechariah 3:1-5; 6:11-13",
+  },
+  {
+    question:
+      "Which sequence correctly follows the major images in the closing chapters?",
+    options: [
+      "Rejected shepherd and thirty silver pieces, Jerusalem under attack and mourning, fountain and struck shepherd, final battle and universal kingship",
+      "Final battle, rejected shepherd, fountain, mourning, and universal kingship",
+      "Mourning, thirty silver pieces, four chariots, fountain, and final battle",
+      "Struck shepherd, flying scroll, mourning, universal kingship, and rejected shepherd",
+    ],
+    answer:
+      "Rejected shepherd and thirty silver pieces, Jerusalem under attack and mourning, fountain and struck shepherd, final battle and universal kingship",
+    reference: "Zechariah 11:4-14:21",
+  },
+  {
+    question:
+      "Which sequence correctly follows the prophetic images involving judgment on wickedness?",
+    options: [
+      "A curse flies over the land, enters guilty houses, Wickedness is confined in a basket, and the basket is carried to Babylon",
+      "Wickedness leaves Babylon, enters Jerusalem, and is destroyed by the flying scroll",
+      "The flying scroll enters the basket, which is carried to Egypt",
+      "The curse destroys Babylon before the woman is released",
+    ],
+    answer:
+      "A curse flies over the land, enters guilty houses, Wickedness is confined in a basket, and the basket is carried to Babylon",
+    reference: "Zechariah 5:1-11",
+  },
+  {
+    question:
+      "Which statement correctly connects the fifth-month fast with the later transformation of fasts?",
+    options: [
+      "The people first ask whether to continue mourning in the fifth month; later the fifth-month fast is among four fasts promised to become joyful festivals",
+      "The fifth-month fast is immediately abolished and never mentioned again",
+      "The priests command the fifth-month fast to continue permanently",
+      "The fifth-month fast becomes the Festival of Tabernacles",
+    ],
+    answer:
+      "The people first ask whether to continue mourning in the fifth month; later the fifth-month fast is among four fasts promised to become joyful festivals",
+    reference: "Zechariah 7:3; 8:19",
+  },
+  {
+    question:
+      "Which progression best summarizes the transformation envisioned in the fasting messages?",
+    options: [
+      "Ritual fasting is questioned, past disobedience is recalled, ethical obedience is demanded, restoration is promised, and former fasts become joyful festivals",
+      "Fasting is condemned, sacrifices are abolished, and the temple is closed",
+      "Fasting is increased, the people repent, and the monarchy is restored",
+      "The priests end all fasts, after which the nations immediately join Judah",
+    ],
+    answer:
+      "Ritual fasting is questioned, past disobedience is recalled, ethical obedience is demanded, restoration is promised, and former fasts become joyful festivals",
+    reference: "Zechariah 7:1-8:23",
+  },
+  {
+    question:
+      "Which contrast correctly connects the nations in the early and later parts of Zechariah?",
+    options: [
+      "Some nations are condemned for excessive hostility toward Judah, yet many nations are later pictured seeking the LORD in Jerusalem",
+      "All nations are condemned throughout the book with no possibility of worshiping the LORD",
+      "The nations first rebuild Jerusalem but later attack it",
+      "The nations are always portrayed as allies of Judah",
+    ],
+    answer:
+      "Some nations are condemned for excessive hostility toward Judah, yet many nations are later pictured seeking the LORD in Jerusalem",
+    reference: "Zechariah 1:15; 8:20-23",
+  },
+  {
+    question:
+      "Which sequence correctly follows the imagery surrounding Zion's king?",
+    options: [
+      "He comes righteous and victorious yet lowly on a donkey, removes war equipment, proclaims peace, and rules to the ends of the earth",
+      "He arrives on a warhorse, gathers chariots, defeats Ephraim, and rules Judah",
+      "He comes from Babylon, rebuilds the temple, and rules only Jerusalem",
+      "He arrives with an army, breaks the nations' bows, and establishes a throne in Samaria",
+    ],
+    answer:
+      "He comes righteous and victorious yet lowly on a donkey, removes war equipment, proclaims peace, and rules to the ends of the earth",
+    reference: "Zechariah 9:9-10",
+  },
+  {
+    question:
+      "Which sequence correctly links the shepherd imagery near the end of the book?",
+    options: [
+      "Zechariah shepherds a doomed flock, rejects the flock, portrays a foolish shepherd, and later the sword strikes God's shepherd so the sheep scatter",
+      "Joshua shepherds the flock, becomes foolish, and is struck by a sword",
+      "The Branch shepherds the flock, receives thirty pieces of silver, and scatters the sheep",
+      "Zerubbabel shepherds Judah before the nations kill him",
+    ],
+    answer:
+      "Zechariah shepherds a doomed flock, rejects the flock, portrays a foolish shepherd, and later the sword strikes God's shepherd so the sheep scatter",
+    reference: "Zechariah 11:4-17; 13:7",
+  },
+  {
+    question:
+      "Which progression most accurately summarizes Zechariah's book as a whole?",
+    options: [
+      "A call to return to God leads into restoration visions, temple and priestly symbolism, ethical correction, promises for Zion, shepherd and king imagery, purification, conflict, and the LORD's universal kingship",
+      "The book moves from temple destruction to exile, then to Babylon's rise and Judah's final defeat",
+      "The book focuses entirely on rebuilding the temple and contains no visions of the nations",
+      "The book begins with Jerusalem's final battle and ends with the rebuilding of the temple",
+    ],
+    answer:
+      "A call to return to God leads into restoration visions, temple and priestly symbolism, ethical correction, promises for Zion, shepherd and king imagery, purification, conflict, and the LORD's universal kingship",
+    reference: "Zechariah 1:1-14:21",
   },
 ];
 

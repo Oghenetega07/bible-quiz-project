@@ -1,589 +1,1835 @@
 const firstPeterQuestions = [
-  // 1 Peter 1
   {
-    question: "How does Peter describe believers at the beginning of the letter?",
+    question: "How does Peter identify himself at the beginning of the letter?",
     options: [
-      "God's elect, exiles scattered throughout various regions.",
-      "Citizens of Jerusalem.",
-      "Servants of the Roman Empire.",
-      "Priests of the temple."
+      "An apostle of Jesus Christ",
+      "A servant of the twelve tribes",
+      "An elder of Jerusalem",
+      "A prophet of the dispersion",
     ],
-    answer: "God's elect, exiles scattered throughout various regions.",
-    reference: "1 Peter 1:1"
+    answer: "An apostle of Jesus Christ",
+    reference: "1 Peter 1:1",
   },
   {
-    question: "According to Peter, believers have been chosen according to whose foreknowledge?",
-    options: ["God the Father.", "Moses.", "The prophets.", "The apostles."],
-    answer: "God the Father.",
-    reference: "1 Peter 1:2"
-  },
-  {
-    question: "Through what have believers been given new birth into a living hope?",
+    question: "Which sequence correctly lists the regions where Peter's scattered readers were living?",
     options: [
-      "The resurrection of Jesus Christ from the dead.",
-      "The law of Moses.",
-      "Circumcision.",
-      "Temple worship."
+      "Pontus, Galatia, Cappadocia, Asia, and Bithynia",
+      "Galatia, Macedonia, Achaia, Crete, and Cyprus",
+      "Pontus, Cilicia, Syria, Judea, and Asia",
+      "Cappadocia, Egypt, Libya, Rome, and Bithynia",
     ],
-    answer: "The resurrection of Jesus Christ from the dead.",
-    reference: "1 Peter 1:3"
+    answer: "Pontus, Galatia, Cappadocia, Asia, and Bithynia",
+    reference: "1 Peter 1:1",
   },
   {
-    question: "What kind of inheritance is kept in heaven for believers?",
+    question: "According to what were Peter's readers chosen?",
     options: [
-      "Imperishable, undefiled, and unfading.",
-      "Temporary and earthly.",
-      "Hidden in Jerusalem.",
-      "Only for Israel."
+      "The foreknowledge of God the Father",
+      "Their obedience to the law",
+      "Their ancestry from Abraham",
+      "The decision of the apostles",
     ],
-    answer: "Imperishable, undefiled, and unfading.",
-    reference: "1 Peter 1:4"
+    answer: "The foreknowledge of God the Father",
+    reference: "1 Peter 1:2",
   },
   {
-    question: "What protects believers through faith until salvation is revealed?",
+    question: "Which combination correctly describes the work associated with the readers' election?",
     options: [
-      "God's power.",
-      "Angels.",
-      "Good works.",
-      "Human wisdom."
+      "Sanctifying work of the Spirit, obedience to Jesus Christ, and sprinkling by his blood",
+      "Circumcision, temple worship, and animal sacrifice",
+      "Knowledge, wealth, and earthly authority",
+      "Prophecy, visions, and political freedom",
     ],
-    answer: "God's power.",
-    reference: "1 Peter 1:5"
+    answer: "Sanctifying work of the Spirit, obedience to Jesus Christ, and sprinkling by his blood",
+    reference: "1 Peter 1:2",
   },
   {
-    question: "Why do believers rejoice even though they suffer trials?",
+    question: "What has God given believers through the resurrection of Jesus Christ from the dead?",
     options: [
-      "Their faith is being tested and refined.",
-      "Trials bring wealth.",
-      "Suffering ends immediately.",
-      "God has abandoned them."
+      "New birth into a living hope",
+      "Freedom from every earthly trial",
+      "An earthly kingdom",
+      "Immediate possession of their inheritance",
     ],
-    answer: "Their faith is being tested and refined.",
-    reference: "1 Peter 1:6-7"
+    answer: "New birth into a living hope",
+    reference: "1 Peter 1:3",
   },
   {
-    question: "Peter compares tested faith to what precious substance refined by fire?",
-    options: ["Gold.", "Silver.", "Bronze.", "Iron."],
-    answer: "Gold.",
-    reference: "1 Peter 1:7"
-  },
-  {
-    question: "Though believers have not seen Jesus, what do they do?",
+    question: "How is the believers' inheritance described?",
     options: [
-      "Love Him and believe in Him.",
-      "Ignore Him.",
-      "Fear Him only.",
-      "Question His existence."
+      "Imperishable, undefiled, and unfading",
+      "Hidden, temporary, and earthly",
+      "Visible, political, and immediate",
+      "Material, abundant, and transferable",
     ],
-    answer: "Love Him and believe in Him.",
-    reference: "1 Peter 1:8"
+    answer: "Imperishable, undefiled, and unfading",
+    reference: "1 Peter 1:4",
   },
   {
-    question: "What is the outcome of believers' faith?",
+    question: "Where is the believers' inheritance kept?",
     options: [
-      "The salvation of their souls.",
-      "Earthly prosperity.",
-      "Political freedom.",
-      "Long life only."
+      "In heaven for them",
+      "In Jerusalem",
+      "In the temple",
+      "Among the apostles",
     ],
-    answer: "The salvation of their souls.",
-    reference: "1 Peter 1:9"
+    answer: "In heaven for them",
+    reference: "1 Peter 1:4",
   },
   {
-    question: "What did the prophets search carefully concerning?",
+    question: "Through what are believers shielded by God's power until salvation is revealed?",
     options: [
-      "The grace that would come to believers.",
-      "The fall of Rome.",
-      "The rebuilding of the temple.",
-      "Israel's kings."
+      "Faith",
+      "Wealth",
+      "Knowledge",
+      "Human strength",
     ],
-    answer: "The grace that would come to believers.",
-    reference: "1 Peter 1:10"
+    answer: "Faith",
+    reference: "1 Peter 1:5",
+  },
+  {
+    question: "When is the salvation for which believers are shielded ready to be revealed?",
+    options: [
+      "In the last time",
+      "At their baptism",
+      "At the destruction of Jerusalem",
+      "Immediately after every trial",
+    ],
+    answer: "In the last time",
+    reference: "1 Peter 1:5",
+  },
+  {
+    question: "Why may believers temporarily suffer grief in various trials despite greatly rejoicing?",
+    options: [
+      "The trials may be necessary for a little while",
+      "Their inheritance has become uncertain",
+      "God has abandoned them",
+      "Their faith has already failed",
+    ],
+    answer: "The trials may be necessary for a little while",
+    reference: "1 Peter 1:6",
+  },
+  {
+    question: "What is the testing of genuine faith compared with?",
+    options: [
+      "Gold refined by fire",
+      "Silver hidden underground",
+      "Seed planted in rocky soil",
+      "Iron sharpened by iron",
+    ],
+    answer: "Gold refined by fire",
+    reference: "1 Peter 1:7",
+  },
+  {
+    question: "Why is genuine faith described as more valuable than gold?",
+    options: [
+      "Gold perishes even though refined by fire",
+      "Gold cannot be refined",
+      "Gold has no earthly value",
+      "Gold cannot survive ordinary heat",
+    ],
+    answer: "Gold perishes even though refined by fire",
+    reference: "1 Peter 1:7",
+  },
+  {
+    question: "What may proven genuine faith result in when Jesus Christ is revealed?",
+    options: [
+      "Praise, glory, and honor",
+      "Wealth, influence, and authority",
+      "Freedom from judgment for others",
+      "Earthly political power",
+    ],
+    answer: "Praise, glory, and honor",
+    reference: "1 Peter 1:7",
+  },
+  {
+    question: "What two seemingly paradoxical facts characterize the readers' relationship with Jesus?",
+    options: [
+      "They have not seen him yet love him, and do not see him now yet believe in him",
+      "They have seen him but do not know him",
+      "They hear him physically but refuse to believe",
+      "They neither know nor love him",
+    ],
+    answer: "They have not seen him yet love him, and do not see him now yet believe in him",
+    reference: "1 Peter 1:8",
+  },
+  {
+    question: "What are believers receiving as the end result of their faith?",
+    options: [
+      "The salvation of their souls",
+      "The admiration of unbelievers",
+      "Political deliverance",
+      "Freedom from physical death",
+    ],
+    answer: "The salvation of their souls",
+    reference: "1 Peter 1:9",
+  },
+  {
+    question: "What did the prophets carefully search and inquire about?",
+    options: [
+      "The salvation and grace that would come to believers",
+      "The date of Jerusalem's destruction",
+      "The identity of every future apostle",
+      "The location of every future church",
+    ],
+    answer: "The salvation and grace that would come to believers",
+    reference: "1 Peter 1:10",
+  },
+  {
+    question: "What was the Spirit of Christ in the prophets predicting beforehand?",
+    options: [
+      "The sufferings of the Messiah and the glories that would follow",
+      "The end of all suffering before the Messiah came",
+      "The political conquest of Rome",
+      "The rebuilding of Solomon's temple",
+    ],
+    answer: "The sufferings of the Messiah and the glories that would follow",
+    reference: "1 Peter 1:11",
+  },
+  {
+    question: "What were the prophets trying to determine concerning their predictions?",
+    options: [
+      "The time and circumstances to which the Spirit was pointing",
+      "Which prophet would become the greatest",
+      "Which nation would possess the most wealth",
+      "How many apostles Jesus would appoint",
+    ],
+    answer: "The time and circumstances to which the Spirit was pointing",
+    reference: "1 Peter 1:11",
+  },
+  {
+    question: "Whom were the prophets ultimately serving with the things revealed to them?",
+    options: [
+      "Peter's readers rather than themselves",
+      "Only themselves",
+      "Only the rulers of Israel",
+      "Only future prophets",
+    ],
+    answer: "Peter's readers rather than themselves",
+    reference: "1 Peter 1:12",
+  },
+  {
+    question: "Through whom was the gospel preached to Peter's readers?",
+    options: [
+      "Those who preached by the Holy Spirit sent from heaven",
+      "Angels sent to every city",
+      "The prophets alone",
+      "Roman officials",
+    ],
+    answer: "Those who preached by the Holy Spirit sent from heaven",
+    reference: "1 Peter 1:12",
+  },
+  {
+    question: "Who long to look into the realities connected with the announced salvation?",
+    options: [
+      "Angels",
+      "Kings",
+      "Priests",
+      "Philosophers",
+    ],
+    answer: "Angels",
+    reference: "1 Peter 1:12",
+  },
+  {
+    question: "On what are believers told to set their hope completely?",
+    options: [
+      "The grace to be brought when Jesus Christ is revealed",
+      "The immediate end of persecution",
+      "Their ability to remain perfect",
+      "The restoration of an earthly kingdom",
+    ],
+    answer: "The grace to be brought when Jesus Christ is revealed",
+    reference: "1 Peter 1:13",
+  },
+  {
+    question: "What former pattern must obedient children refuse to conform to?",
+    options: [
+      "The evil desires they had when they lived in ignorance",
+      "The traditions of their parents",
+      "The practice of working for a living",
+      "The study of Scripture",
+    ],
+    answer: "The evil desires they had when they lived in ignorance",
+    reference: "1 Peter 1:14",
+  },
+  {
+    question: "What characteristic of the One who called believers becomes the standard for their conduct?",
+    options: [
+      "His holiness",
+      "His invisibility",
+      "His power over nations",
+      "His knowledge of the future",
+    ],
+    answer: "His holiness",
+    reference: "1 Peter 1:15-16",
+  },
+  {
+    question: "Why should believers live out their time as foreigners in reverent fear?",
+    options: [
+      "The Father judges each person's work impartially",
+      "They cannot know whether God is holy",
+      "Their salvation depends on earthly rulers",
+      "They must earn an inheritance through fear",
+    ],
+    answer: "The Father judges each person's work impartially",
+    reference: "1 Peter 1:17",
+  },
+  {
+    question: "From what were believers redeemed?",
+    options: [
+      "The empty way of life handed down from their ancestors",
+      "Physical weakness",
+      "Roman citizenship",
+      "All earthly employment",
+    ],
+    answer: "The empty way of life handed down from their ancestors",
+    reference: "1 Peter 1:18",
+  },
+  {
+    question: "Which things are explicitly rejected as the means of believers' redemption?",
+    options: [
+      "Perishable things such as silver or gold",
+      "Prayer and faith",
+      "Grace and mercy",
+      "The resurrection and blood of Christ",
+    ],
+    answer: "Perishable things such as silver or gold",
+    reference: "1 Peter 1:18",
+  },
+  {
+    question: "With what were believers redeemed instead of silver or gold?",
+    options: [
+      "The precious blood of Christ, like that of a lamb without blemish or defect",
+      "The blood of prophets",
+      "The sacrifices of the temple",
+      "Their own suffering",
+    ],
+    answer: "The precious blood of Christ, like that of a lamb without blemish or defect",
+    reference: "1 Peter 1:19",
+  },
+  {
+    question: "When was Christ chosen in relation to the creation of the world?",
+    options: [
+      "Before the creation of the world",
+      "After Abraham was called",
+      "At the beginning of Jesus' ministry",
+      "After the resurrection",
+    ],
+    answer: "Before the creation of the world",
+    reference: "1 Peter 1:20",
+  },
+  {
+    question: "When was Christ revealed in relation to Peter's readers?",
+    options: [
+      "In these last times for their sake",
+      "Before the creation of the world in visible form",
+      "Only after Peter wrote",
+      "During the days of Moses",
+    ],
+    answer: "In these last times for their sake",
+    reference: "1 Peter 1:20",
+  },
+  {
+    question: "What did God do for Christ that grounds believers' faith and hope in God?",
+    options: [
+      "Raised him from the dead and glorified him",
+      "Made him an earthly king",
+      "Prevented him from suffering",
+      "Sent him to govern Rome",
+    ],
+    answer: "Raised him from the dead and glorified him",
+    reference: "1 Peter 1:21",
+  },
+  {
+    question: "What should result from believers having purified themselves by obeying the truth?",
+    options: [
+      "Sincere love for one another",
+      "Withdrawal from every other believer",
+      "Confidence in material possessions",
+      "Freedom to show favoritism",
+    ],
+    answer: "Sincere love for one another",
+    reference: "1 Peter 1:22",
+  },
+  {
+    question: "How are believers commanded to love one another?",
+    options: [
+      "Deeply, from the heart",
+      "Only when agreement is complete",
+      "Only during persecution",
+      "According to social status",
+    ],
+    answer: "Deeply, from the heart",
+    reference: "1 Peter 1:22",
+  },
+  {
+    question: "Through what have believers been born again?",
+    options: [
+      "The living and enduring word of God",
+      "Perishable human ancestry",
+      "Silver and gold",
+      "Their own good conduct",
+    ],
+    answer: "The living and enduring word of God",
+    reference: "1 Peter 1:23",
+  },
+  {
+    question: "Which contrast is made between human existence and God's word?",
+    options: [
+      "People are like grass and their glory like flowers, but the word of the Lord endures forever",
+      "Human glory lasts forever while God's word changes",
+      "People and God's word are equally temporary",
+      "Grass lasts longer than God's word",
+    ],
+    answer: "People are like grass and their glory like flowers, but the word of the Lord endures forever",
+    reference: "1 Peter 1:24-25",
   },
 
-  // 1 Peter 2
+  {
+    question: "Which group of behaviors are believers told to rid themselves of at the beginning of the second chapter?",
+    options: [
+      "Malice, deceit, hypocrisy, envy, and slander",
+      "Work, marriage, travel, and business",
+      "Prayer, fasting, worship, and service",
+      "Grief, trials, weakness, and poverty",
+    ],
+    answer: "Malice, deceit, hypocrisy, envy, and slander",
+    reference: "1 Peter 2:1",
+  },
   {
     question: "What should believers crave like newborn babies?",
     options: [
-      "Pure spiritual milk.",
-      "Rich food.",
-      "Earthly wisdom.",
-      "Signs and wonders."
+      "Pure spiritual milk",
+      "Earthly recognition",
+      "Political influence",
+      "Material prosperity",
     ],
-    answer: "Pure spiritual milk.",
-    reference: "1 Peter 2:2"
+    answer: "Pure spiritual milk",
+    reference: "1 Peter 2:2",
   },
   {
-    question: "Believers are being built into what kind of house?",
+    question: "What is the purpose of craving pure spiritual milk?",
     options: [
-      "A spiritual house.",
-      "A royal palace.",
-      "A temple made with hands.",
-      "A stone fortress."
+      "So that by it believers may grow up in their salvation",
+      "So they can avoid all persecution",
+      "So they may become apostles",
+      "So they may gain wealth",
     ],
-    answer: "A spiritual house.",
-    reference: "1 Peter 2:5"
+    answer: "So that by it believers may grow up in their salvation",
+    reference: "1 Peter 2:2",
   },
   {
-    question: "Jesus is described as what kind of cornerstone?",
+    question: "What experience provides the basis for craving spiritual nourishment?",
     options: [
-      "Chosen and precious.",
-      "Broken and rejected forever.",
-      "Ordinary.",
-      "Hidden."
+      "Having tasted that the Lord is good",
+      "Having escaped every trial",
+      "Having seen Christ physically",
+      "Having received earthly riches",
     ],
-    answer: "Chosen and precious.",
-    reference: "1 Peter 2:6"
+    answer: "Having tasted that the Lord is good",
+    reference: "1 Peter 2:3",
   },
   {
-    question: "What titles does Peter give believers?",
+    question: "How is Christ, the living Stone, differently regarded by humans and God?",
     options: [
-      "A chosen people, royal priesthood, holy nation, God's special possession.",
-      "Kings and governors.",
-      "Prophets only.",
-      "Children of Abraham only."
+      "Rejected by humans but chosen by God and precious to him",
+      "Chosen by humans but rejected by God",
+      "Rejected by both humans and God",
+      "Unknown to humans and unimportant to God",
     ],
-    answer:
-      "A chosen people, royal priesthood, holy nation, God's special possession.",
-    reference: "1 Peter 2:9"
+    answer: "Rejected by humans but chosen by God and precious to him",
+    reference: "1 Peter 2:4",
   },
   {
-    question: "Why has God called believers out of darkness?",
+    question: "What are believers themselves compared to as they come to Christ?",
     options: [
-      "To declare His wonderful praises.",
-      "To become wealthy.",
-      "To rule Rome.",
-      "To avoid suffering."
+      "Living stones",
+      "Scattered seeds",
+      "Golden vessels",
+      "Branches without roots",
     ],
-    answer: "To declare His wonderful praises.",
-    reference: "1 Peter 2:9"
+    answer: "Living stones",
+    reference: "1 Peter 2:5",
   },
   {
-    question: "Believers are described as what in this world?",
+    question: "Into what are the living stones being built?",
     options: [
-      "Foreigners and exiles.",
-      "Permanent citizens.",
-      "Kings of nations.",
-      "Judges."
+      "A spiritual house",
+      "An earthly palace",
+      "A military kingdom",
+      "A new physical temple in Jerusalem",
     ],
-    answer: "Foreigners and exiles.",
-    reference: "1 Peter 2:11"
+    answer: "A spiritual house",
+    reference: "1 Peter 2:5",
   },
   {
-    question: "What should believers abstain from because they wage war against the soul?",
+    question: "What priestly identity and function are connected with believers being built into a spiritual house?",
     options: [
-      "Sinful desires.",
-      "Hard work.",
-      "Marriage.",
-      "Food."
+      "A holy priesthood offering spiritual sacrifices acceptable to God through Jesus Christ",
+      "A Levitical priesthood offering animals",
+      "A royal court governing earthly nations",
+      "A prophetic order replacing the apostles",
     ],
-    answer: "Sinful desires.",
-    reference: "1 Peter 2:11"
+    answer: "A holy priesthood offering spiritual sacrifices acceptable to God through Jesus Christ",
+    reference: "1 Peter 2:5",
   },
   {
-    question: "How should believers live among unbelievers?",
+    question: "What promise is attached to trusting in God's chosen and precious cornerstone?",
     options: [
-      "Such good lives that others glorify God.",
-      "Separately with no contact.",
-      "With revenge.",
-      "In silence only."
+      "The one who trusts in him will never be put to shame",
+      "The one who trusts will never suffer",
+      "The one who trusts will become wealthy",
+      "The one who trusts will rule Jerusalem",
     ],
-    answer: "Such good lives that others glorify God.",
-    reference: "1 Peter 2:12"
+    answer: "The one who trusts in him will never be put to shame",
+    reference: "1 Peter 2:6",
   },
   {
-    question: "Why should believers submit to governing authorities?",
+    question: "What has the stone rejected by the builders become?",
     options: [
-      "For the Lord's sake.",
-      "Because rulers are perfect.",
-      "To gain riches.",
-      "To avoid persecution only."
+      "The cornerstone",
+      "A discarded foundation",
+      "A stumbling block only",
+      "A temporary altar",
     ],
-    answer: "For the Lord's sake.",
-    reference: "1 Peter 2:13"
+    answer: "The cornerstone",
+    reference: "1 Peter 2:7",
   },
   {
-    question: "What example did Christ leave believers regarding suffering?",
+    question: "Why do people stumble over the stone according to Peter?",
     options: [
-      "An example to follow in His steps.",
-      "To avoid suffering completely.",
-      "To seek revenge.",
-      "To fight with violence."
+      "They disobey the message",
+      "They are physically weak",
+      "They lack wealth",
+      "They have never heard any message",
     ],
-    answer: "An example to follow in His steps.",
-    reference: "1 Peter 2:21"
+    answer: "They disobey the message",
+    reference: "1 Peter 2:8",
+  },
+  {
+    question: "Which four descriptions are applied together to God's people?",
+    options: [
+      "Chosen people, royal priesthood, holy nation, God's special possession",
+      "Prophets, kings, judges, and apostles",
+      "Priests, soldiers, merchants, and servants",
+      "Foreigners, rulers, teachers, and judges",
+    ],
+    answer: "Chosen people, royal priesthood, holy nation, God's special possession",
+    reference: "1 Peter 2:9",
+  },
+  {
+    question: "For what purpose has God's chosen people been given their distinctive identity?",
+    options: [
+      "To declare the praises of the One who called them out of darkness into his wonderful light",
+      "To establish political control",
+      "To avoid contact with unbelievers",
+      "To accumulate earthly possessions",
+    ],
+    answer: "To declare the praises of the One who called them out of darkness into his wonderful light",
+    reference: "1 Peter 2:9",
+  },
+  {
+    question: "What two reversals describe the readers' changed relationship with God?",
+    options: [
+      "Once not a people but now God's people; once without mercy but now recipients of mercy",
+      "Once priests but now foreigners; once holy but now rejected",
+      "Once wealthy but now poor; once rulers but now servants",
+      "Once chosen but now abandoned; once forgiven but now condemned",
+    ],
+    answer: "Once not a people but now God's people; once without mercy but now recipients of mercy",
+    reference: "1 Peter 2:10",
+  },
+  {
+    question: "Why are believers, as foreigners and exiles, urged to abstain from sinful desires?",
+    options: [
+      "Those desires wage war against the soul",
+      "Those desires always cause poverty",
+      "Those desires prevent Roman citizenship",
+      "Those desires make physical travel impossible",
+    ],
+    answer: "Those desires wage war against the soul",
+    reference: "1 Peter 2:11",
+  },
+  {
+    question: "What outcome may result from believers living good lives among unbelievers who accuse them of wrongdoing?",
+    options: [
+      "The unbelievers may see their good deeds and glorify God when he visits",
+      "The unbelievers will immediately become wealthy",
+      "All accusations will cease at once",
+      "Believers will gain political authority",
+    ],
+    answer: "The unbelievers may see their good deeds and glorify God when he visits",
+    reference: "1 Peter 2:12",
+  },
+  {
+    question: "For whose sake are believers told to submit to every human authority?",
+    options: [
+      "For the Lord's sake",
+      "For financial advantage",
+      "For fear of other believers",
+      "For the sake of personal reputation alone",
+    ],
+    answer: "For the Lord's sake",
+    reference: "1 Peter 2:13",
+  },
+  {
+    question: "What two governmental functions are attributed to governors?",
+    options: [
+      "Punishing those who do wrong and commending those who do right",
+      "Teaching Scripture and appointing apostles",
+      "Forgiving sins and judging angels",
+      "Providing inheritances and ending persecution",
+    ],
+    answer: "Punishing those who do wrong and commending those who do right",
+    reference: "1 Peter 2:14",
+  },
+  {
+    question: "What does God will believers to accomplish by doing good?",
+    options: [
+      "Silence the ignorant talk of foolish people",
+      "Avoid every form of suffering",
+      "Gain authority over rulers",
+      "Become independent of government",
+    ],
+    answer: "Silence the ignorant talk of foolish people",
+    reference: "1 Peter 2:15",
+  },
+  {
+    question: "How should Christian freedom not be used?",
+    options: [
+      "As a cover-up for evil",
+      "For serving God",
+      "For doing good",
+      "For honoring others",
+    ],
+    answer: "As a cover-up for evil",
+    reference: "1 Peter 2:16",
+  },
+  {
+    question: "Which sequence correctly summarizes Peter's four brief social commands?",
+    options: [
+      "Show proper respect to everyone, love the family of believers, fear God, honor the emperor",
+      "Fear everyone, honor believers, love the emperor, obey only rulers",
+      "Honor God, fear believers, love rulers, avoid everyone else",
+      "Respect only Christians, fear the emperor, honor teachers, love strangers",
+    ],
+    answer: "Show proper respect to everyone, love the family of believers, fear God, honor the emperor",
+    reference: "1 Peter 2:17",
+  },
+  {
+    question: "To what kind of masters were household servants told to submit?",
+    options: [
+      "Both good and considerate masters and harsh ones",
+      "Only kind masters",
+      "Only believing masters",
+      "Only wealthy masters",
+    ],
+    answer: "Both good and considerate masters and harsh ones",
+    reference: "1 Peter 2:18",
+  },
+  {
+    question: "What kind of suffering is described as commendable before God?",
+    options: [
+      "Enduring unjust suffering because one is conscious of God",
+      "Suffering as punishment for wrongdoing",
+      "Seeking suffering unnecessarily",
+      "Suffering caused by refusing every authority",
+    ],
+    answer: "Enduring unjust suffering because one is conscious of God",
+    reference: "1 Peter 2:19",
+  },
+  {
+    question: "What distinction does Peter make between suffering for wrongdoing and suffering for doing good?",
+    options: [
+      "Enduring punishment for wrongdoing brings no credit, but enduring suffering for doing good is commendable before God",
+      "Both are equally commendable",
+      "Only punishment for wrongdoing is commendable",
+      "Neither kind has moral significance",
+    ],
+    answer: "Enduring punishment for wrongdoing brings no credit, but enduring suffering for doing good is commendable before God",
+    reference: "1 Peter 2:20",
+  },
+  {
+    question: "What did Christ leave believers through his suffering?",
+    options: [
+      "An example that they should follow in his steps",
+      "A guarantee they would never suffer",
+      "A command to retaliate",
+      "A political strategy",
+    ],
+    answer: "An example that they should follow in his steps",
+    reference: "1 Peter 2:21",
+  },
+  {
+    question: "What two statements describe Christ's innocence?",
+    options: [
+      "He committed no sin, and no deceit was found in his mouth",
+      "He sinned only in speech but not in action",
+      "He committed no public sin but practiced deceit privately",
+      "He was innocent only before Roman law",
+    ],
+    answer: "He committed no sin, and no deceit was found in his mouth",
+    reference: "1 Peter 2:22",
+  },
+  {
+    question: "How did Christ respond when insults were hurled at him?",
+    options: [
+      "He did not retaliate",
+      "He threatened immediate judgment",
+      "He called for armed resistance",
+      "He returned equal insults",
+    ],
+    answer: "He did not retaliate",
+    reference: "1 Peter 2:23",
+  },
+  {
+    question: "What did Christ do instead of making threats while suffering?",
+    options: [
+      "Entrusted himself to the One who judges justly",
+      "Appealed to political authorities",
+      "Condemned his enemies publicly",
+      "Abandoned his mission",
+    ],
+    answer: "Entrusted himself to the One who judges justly",
+    reference: "1 Peter 2:23",
+  },
+  {
+    question: "Why did Christ bear sins in his body on the cross?",
+    options: [
+      "So believers might die to sins and live for righteousness",
+      "So believers would never experience physical death",
+      "So earthly governments would disappear",
+      "So believers could continue living in sin",
+    ],
+    answer: "So believers might die to sins and live for righteousness",
+    reference: "1 Peter 2:24",
+  },
+  {
+    question: "What change in shepherding status concludes Peter's discussion of Christ's suffering?",
+    options: [
+      "Those who were like wandering sheep have returned to the Shepherd and Overseer of their souls",
+      "Those who were shepherds have become wandering sheep",
+      "Believers no longer need a shepherd",
+      "The scattered sheep have become earthly rulers",
+    ],
+    answer: "Those who were like wandering sheep have returned to the Shepherd and Overseer of their souls",
+    reference: "1 Peter 2:25",
   },
 
-  // 1 Peter 3
   {
-    question: "Peter says wives may win unbelieving husbands without what?",
+    question: "What possibility does Peter give for unbelieving husbands observing their wives' conduct?",
     options: [
-      "Without words.",
-      "Without prayer.",
-      "Without obedience.",
-      "Without faith."
+      "They may be won without words by their wives' behavior",
+      "They must first hear lengthy arguments",
+      "They cannot be influenced by conduct",
+      "They will automatically become church leaders",
     ],
-    answer: "Without words.",
-    reference: "1 Peter 3:1"
+    answer: "They may be won without words by their wives' behavior",
+    reference: "1 Peter 3:1",
   },
   {
-    question: "What beauty does Peter say should matter most?",
+    question: "What qualities in a wife's life are unbelieving husbands said to observe?",
     options: [
-      "The inner beauty of a gentle and quiet spirit.",
-      "Expensive jewelry.",
-      "Fine clothes.",
-      "Hairstyles."
+      "Purity and reverence",
+      "Wealth and influence",
+      "Boldness and political power",
+      "Silence and isolation",
     ],
-    answer: "The inner beauty of a gentle and quiet spirit.",
-    reference: "1 Peter 3:4"
+    answer: "Purity and reverence",
+    reference: "1 Peter 3:2",
   },
   {
-    question: "How should husbands treat their wives?",
+    question: "Where does Peter place the primary emphasis concerning a woman's beauty?",
     options: [
-      "With consideration and honor.",
-      "As servants.",
-      "With harshness.",
-      "As equals only in society."
+      "On the inner self, with the unfading beauty of a gentle and quiet spirit",
+      "On elaborate hairstyles",
+      "On gold jewelry",
+      "On expensive clothing",
     ],
-    answer: "With consideration and honor.",
-    reference: "1 Peter 3:7"
+    answer: "On the inner self, with the unfading beauty of a gentle and quiet spirit",
+    reference: "1 Peter 3:3-4",
   },
   {
-    question: "Instead of repaying evil with evil, believers should do what?",
+    question: "How is a gentle and quiet spirit regarded by God?",
     options: [
-      "Repay evil with blessing.",
-      "Seek revenge.",
-      "Remain silent always.",
-      "Avoid everyone."
+      "Of great worth",
+      "As insignificant",
+      "As useful only in marriage",
+      "As inferior to outward adornment",
     ],
-    answer: "Repay evil with blessing.",
-    reference: "1 Peter 3:9"
+    answer: "Of great worth",
+    reference: "1 Peter 3:4",
   },
   {
-    question: "What should believers always be prepared to give?",
+    question: "Which woman from earlier Scripture is specifically presented as an example?",
     options: [
-      "A reason for the hope they have.",
-      "Money.",
-      "A prophecy.",
-      "A sacrifice."
+      "Sarah",
+      "Rebekah",
+      "Rachel",
+      "Hannah",
     ],
-    answer: "A reason for the hope they have.",
-    reference: "1 Peter 3:15"
+    answer: "Sarah",
+    reference: "1 Peter 3:5-6",
   },
   {
-    question: "How should believers give their defense?",
+    question: "What did Sarah call Abraham?",
     options: [
-      "With gentleness and respect.",
-      "With anger.",
-      "With fear of people.",
-      "With pride."
+      "Lord",
+      "Prophet",
+      "Priest",
+      "Master of Israel",
     ],
-    answer: "With gentleness and respect.",
-    reference: "1 Peter 3:15"
+    answer: "Lord",
+    reference: "1 Peter 3:6",
   },
   {
-    question: "Who suffered once for sins, the righteous for the unrighteous?",
+    question: "Under what conditions does Peter say women are Sarah's daughters?",
     options: [
-      "Christ.",
-      "Peter.",
-      "Moses.",
-      "Paul."
+      "If they do what is right and do not give way to fear",
+      "If they physically descend from Sarah",
+      "If they become wealthy",
+      "If they never experience suffering",
     ],
-    answer: "Christ.",
-    reference: "1 Peter 3:18"
+    answer: "If they do what is right and do not give way to fear",
+    reference: "1 Peter 3:6",
   },
   {
-    question: "What does Peter say baptism symbolizes?",
+    question: "Why are husbands instructed to treat their wives with respect?",
     options: [
-      "The pledge of a clear conscience toward God.",
-      "Physical washing only.",
-      "Freedom from suffering.",
-      "Entrance into Israel."
+      "They are heirs with them of the gracious gift of life",
+      "They possess greater earthly authority",
+      "They cannot experience suffering",
+      "They alone determine whether prayers are answered",
     ],
-    answer: "The pledge of a clear conscience toward God.",
-    reference: "1 Peter 3:21"
+    answer: "They are heirs with them of the gracious gift of life",
+    reference: "1 Peter 3:7",
+  },
+  {
+    question: "What consequence is connected with a husband's failure to live considerately with his wife?",
+    options: [
+      "His prayers may be hindered",
+      "He loses Roman citizenship",
+      "He can no longer work",
+      "He must leave the church",
+    ],
+    answer: "His prayers may be hindered",
+    reference: "1 Peter 3:7",
+  },
+  {
+    question: "Which set of qualities does Peter call all believers to share?",
+    options: [
+      "Like-mindedness, sympathy, love, compassion, and humility",
+      "Ambition, severity, independence, and pride",
+      "Silence, wealth, isolation, and authority",
+      "Fear, rivalry, envy, and retaliation",
+    ],
+    answer: "Like-mindedness, sympathy, love, compassion, and humility",
+    reference: "1 Peter 3:8",
+  },
+  {
+    question: "What should believers give in return for evil and insult?",
+    options: [
+      "Blessing",
+      "Equal retaliation",
+      "Public humiliation",
+      "Silence motivated by hatred",
+    ],
+    answer: "Blessing",
+    reference: "1 Peter 3:9",
+  },
+  {
+    question: "Why are believers instructed to repay evil and insult with blessing?",
+    options: [
+      "They were called to this so that they may inherit a blessing",
+      "Their enemies always deserve praise",
+      "It guarantees immediate peace",
+      "It prevents every future accusation",
+    ],
+    answer: "They were called to this so that they may inherit a blessing",
+    reference: "1 Peter 3:9",
+  },
+  {
+    question: "What must someone who would love life and see good days do with their tongue and lips?",
+    options: [
+      "Keep the tongue from evil and the lips from deceitful speech",
+      "Remain completely silent",
+      "Speak only to believers",
+      "Use oaths to establish truth",
+    ],
+    answer: "Keep the tongue from evil and the lips from deceitful speech",
+    reference: "1 Peter 3:10",
+  },
+  {
+    question: "What paired actions follow the command to turn from evil?",
+    options: [
+      "Do good, seek peace, and pursue it",
+      "Seek revenge and pursue justice personally",
+      "Withdraw from society and remain silent",
+      "Gain wealth and protect it",
+    ],
+    answer: "Do good, seek peace, and pursue it",
+    reference: "1 Peter 3:11",
+  },
+  {
+    question: "How does Peter contrast the Lord's relationship to the righteous and those who do evil?",
+    options: [
+      "His eyes are on the righteous and his ears attentive to their prayer, but his face is against evildoers",
+      "He listens only to evildoers",
+      "He ignores both groups",
+      "He treats conduct as irrelevant",
+    ],
+    answer: "His eyes are on the righteous and his ears attentive to their prayer, but his face is against evildoers",
+    reference: "1 Peter 3:12",
+  },
+  {
+    question: "Under what circumstance does Peter say suffering can bring blessing?",
+    options: [
+      "When believers suffer for doing what is right",
+      "Whenever they suffer for wrongdoing",
+      "Only when suffering produces wealth",
+      "Only when suffering is self-inflicted",
+    ],
+    answer: "When believers suffer for doing what is right",
+    reference: "1 Peter 3:14",
+  },
+  {
+    question: "What should believers do instead of fearing the threats of those who oppose them?",
+    options: [
+      "Revere Christ as Lord in their hearts",
+      "Threaten their opponents",
+      "Hide their faith",
+      "Seek revenge",
+    ],
+    answer: "Revere Christ as Lord in their hearts",
+    reference: "1 Peter 3:14-15",
+  },
+  {
+    question: "For what should believers always be prepared to give an answer?",
+    options: [
+      "The reason for the hope that they have",
+      "Every political question",
+      "The reason for their material possessions",
+      "Every accusation made against others",
+    ],
+    answer: "The reason for the hope that they have",
+    reference: "1 Peter 3:15",
+  },
+  {
+    question: "With what manner should believers give a defense of their hope?",
+    options: [
+      "Gentleness and respect",
+      "Anger and intimidation",
+      "Mockery and superiority",
+      "Fear and uncertainty",
+    ],
+    answer: "Gentleness and respect",
+    reference: "1 Peter 3:15",
+  },
+  {
+    question: "Why should believers maintain a clear conscience when defending their hope?",
+    options: [
+      "Those who maliciously speak against their good behavior may be ashamed of their slander",
+      "A clear conscience guarantees freedom from persecution",
+      "It makes verbal defense unnecessary",
+      "It allows believers to retaliate",
+    ],
+    answer: "Those who maliciously speak against their good behavior may be ashamed of their slander",
+    reference: "1 Peter 3:16",
+  },
+  {
+    question: "Which kind of suffering does Peter say is better, if it is God's will?",
+    options: [
+      "Suffering for doing good rather than for doing evil",
+      "Suffering for evil rather than good",
+      "Avoiding suffering at any moral cost",
+      "Suffering only for political reasons",
+    ],
+    answer: "Suffering for doing good rather than for doing evil",
+    reference: "1 Peter 3:17",
+  },
+  {
+    question: "What purpose is attached to Christ suffering once for sins, the righteous for the unrighteous?",
+    options: [
+      "To bring believers to God",
+      "To establish an earthly throne",
+      "To prevent all future human suffering",
+      "To condemn every Gentile immediately",
+    ],
+    answer: "To bring believers to God",
+    reference: "1 Peter 3:18",
+  },
+  {
+    question: "What contrast does Peter make concerning Christ's death and life?",
+    options: [
+      "He was put to death in the body but made alive in the Spirit",
+      "He died spiritually but remained alive bodily",
+      "He never truly died",
+      "He was made alive before being put to death",
+    ],
+    answer: "He was put to death in the body but made alive in the Spirit",
+    reference: "1 Peter 3:18",
+  },
+  {
+    question: "During whose days were the people connected with Peter's flood illustration disobedient?",
+    options: [
+      "Noah's",
+      "Abraham's",
+      "Moses'",
+      "David's",
+    ],
+    answer: "Noah's",
+    reference: "1 Peter 3:20",
+  },
+  {
+    question: "What was God doing while the ark was being built?",
+    options: [
+      "Waiting patiently",
+      "Immediately destroying the world",
+      "Sending Israel into exile",
+      "Establishing the monarchy",
+    ],
+    answer: "Waiting patiently",
+    reference: "1 Peter 3:20",
+  },
+  {
+    question: "How many people were saved through water in the ark?",
+    options: [
+      "Eight",
+      "Seven",
+      "Twelve",
+      "Forty",
+    ],
+    answer: "Eight",
+    reference: "1 Peter 3:20",
+  },
+  {
+    question: "What does Peter say corresponds to the flood water and now saves believers?",
+    options: [
+      "Baptism",
+      "Circumcision",
+      "The temple",
+      "Animal sacrifice",
+    ],
+    answer: "Baptism",
+    reference: "1 Peter 3:21",
+  },
+  {
+    question: "What does Peter explicitly say baptism is not?",
+    options: [
+      "The removal of dirt from the body",
+      "Connected with Christ's resurrection",
+      "Related to a clear conscience before God",
+      "Associated with salvation",
+    ],
+    answer: "The removal of dirt from the body",
+    reference: "1 Peter 3:21",
+  },
+  {
+    question: "Through what does Peter connect baptism's saving significance with Christ?",
+    options: [
+      "The resurrection of Jesus Christ",
+      "Christ's earthly occupation",
+      "The building of the temple",
+      "The ministry of John alone",
+    ],
+    answer: "The resurrection of Jesus Christ",
+    reference: "1 Peter 3:21",
+  },
+  {
+    question: "Where is Jesus Christ after going into heaven?",
+    options: [
+      "At God's right hand",
+      "At the gates of Jerusalem",
+      "In the earthly temple",
+      "Among the Roman rulers",
+    ],
+    answer: "At God's right hand",
+    reference: "1 Peter 3:22",
+  },
+  {
+    question: "What beings are described as being in submission to Christ?",
+    options: [
+      "Angels, authorities, and powers",
+      "Only human rulers",
+      "Only the apostles",
+      "Only Israel's priests",
+    ],
+    answer: "Angels, authorities, and powers",
+    reference: "1 Peter 3:22",
   },
 
-  // 1 Peter 4
   {
-    question: "Since Christ suffered in His body, believers should arm themselves with what attitude?",
+    question: "With what attitude are believers told to arm themselves because Christ suffered in his body?",
     options: [
-      "The same attitude as Christ.",
-      "The desire for revenge.",
-      "Fear of suffering.",
-      "Pride."
+      "The same attitude Christ had toward suffering",
+      "A determination to retaliate",
+      "Fear of all opponents",
+      "A desire for earthly authority",
     ],
-    answer: "The same attitude as Christ.",
-    reference: "1 Peter 4:1"
+    answer: "The same attitude Christ had toward suffering",
+    reference: "1 Peter 4:1",
   },
   {
-    question: "How should believers live the rest of their earthly lives?",
+    question: "What change should characterize the rest of a believer's earthly life?",
     options: [
-      "For the will of God.",
-      "For sinful desires.",
-      "For pleasure.",
-      "For wealth."
+      "Living for God's will rather than human desires",
+      "Living primarily for material success",
+      "Avoiding every unbeliever",
+      "Seeking suffering as an end in itself",
     ],
-    answer: "For the will of God.",
-    reference: "1 Peter 4:2"
+    answer: "Living for God's will rather than human desires",
+    reference: "1 Peter 4:2",
   },
   {
-    question: "What does Peter say is sufficient for the time already spent in sin?",
+    question: "Which behaviors are included in Peter's description of the readers' former Gentile way of life?",
     options: [
-      "The past is enough for living in pagan ways.",
-      "More time is needed.",
-      "Sin should continue.",
-      "Nothing has changed."
+      "Debauchery, lust, drunkenness, orgies, carousing, and detestable idolatry",
+      "Prayer, fasting, generosity, and hospitality",
+      "Work, marriage, travel, and farming",
+      "Teaching, worship, fellowship, and service",
     ],
-    answer: "The past is enough for living in pagan ways.",
-    reference: "1 Peter 4:3"
+    answer: "Debauchery, lust, drunkenness, orgies, carousing, and detestable idolatry",
+    reference: "1 Peter 4:3",
   },
   {
-    question: "What is near according to Peter?",
+    question: "Why do former companions heap abuse on believers?",
     options: [
-      "The end of all things.",
-      "The destruction of Israel.",
-      "The Roman Empire.",
-      "The temple sacrifices."
+      "They are surprised believers no longer join them in reckless, wild living",
+      "Believers have become Roman officials",
+      "Believers refuse all social contact",
+      "Believers have become wealthier than them",
     ],
-    answer: "The end of all things.",
-    reference: "1 Peter 4:7"
+    answer: "They are surprised believers no longer join them in reckless, wild living",
+    reference: "1 Peter 4:4",
   },
   {
-    question: "Above all, believers should love one another because love does what?",
+    question: "To whom must those who abuse believers give account?",
     options: [
-      "Covers a multitude of sins.",
-      "Ends all suffering.",
-      "Removes faith.",
-      "Brings riches."
+      "The One ready to judge the living and the dead",
+      "Peter alone",
+      "The emperor alone",
+      "The church elders only",
     ],
-    answer: "Covers a multitude of sins.",
-    reference: "1 Peter 4:8"
+    answer: "The One ready to judge the living and the dead",
+    reference: "1 Peter 4:5",
   },
   {
-    question: "How should believers use the gifts they have received?",
+    question: "What fact about the approaching culmination of history motivates sober prayer?",
     options: [
-      "To faithfully serve others.",
-      "To gain status.",
-      "To become famous.",
-      "To serve themselves."
+      "The end of all things is near",
+      "The Roman Empire is about to disappear",
+      "All suffering has already ended",
+      "The apostles will soon rule every nation",
     ],
-    answer: "To faithfully serve others.",
-    reference: "1 Peter 4:10"
+    answer: "The end of all things is near",
+    reference: "1 Peter 4:7",
   },
   {
-    question: "If anyone speaks, they should speak as one who speaks what?",
+    question: "What should believers therefore be so that they may pray?",
     options: [
-      "The very words of God.",
-      "Human wisdom.",
-      "Philosophy.",
-      "Tradition."
+      "Alert and sober-minded",
+      "Fearful and isolated",
+      "Wealthy and influential",
+      "Silent and inactive",
     ],
-    answer: "The very words of God.",
-    reference: "1 Peter 4:11"
+    answer: "Alert and sober-minded",
+    reference: "1 Peter 4:7",
   },
   {
-    question: "Believers should not be surprised by what?",
+    question: "What does Peter place above all other interpersonal instructions?",
     options: [
-      "The fiery trial that has come upon them.",
-      "God's blessings.",
-      "Miracles.",
-      "The resurrection."
+      "Loving one another deeply",
+      "Correcting every fault publicly",
+      "Seeking positions of leadership",
+      "Protecting material possessions",
     ],
-    answer: "The fiery trial that has come upon them.",
-    reference: "1 Peter 4:12"
+    answer: "Loving one another deeply",
+    reference: "1 Peter 4:8",
   },
   {
-    question: "Why should believers rejoice when they participate in Christ's sufferings?",
+    question: "Why is deep love especially significant?",
     options: [
-      "They will be overjoyed when His glory is revealed.",
-      "Suffering earns salvation.",
-      "Suffering ends immediately.",
-      "It guarantees wealth."
+      "Love covers over a multitude of sins",
+      "Love eliminates the need for truth",
+      "Love guarantees freedom from trials",
+      "Love makes prayer unnecessary",
     ],
-    answer: "They will be overjoyed when His glory is revealed.",
-    reference: "1 Peter 4:13"
+    answer: "Love covers over a multitude of sins",
+    reference: "1 Peter 4:8",
   },
   {
-    question: "If believers suffer as Christians, what should they do?",
+    question: "How should hospitality be offered to one another?",
     options: [
-      "Praise God for bearing that name.",
-      "Be ashamed.",
-      "Hide their faith.",
-      "Seek revenge."
+      "Without grumbling",
+      "Only when payment is expected",
+      "Only to church leaders",
+      "With public recognition",
     ],
-    answer: "Praise God for bearing that name.",
-    reference: "1 Peter 4:16"
+    answer: "Without grumbling",
+    reference: "1 Peter 4:9",
+  },
+  {
+    question: "How should each believer regard whatever gift has been received?",
+    options: [
+      "As something to use in serving others as a faithful steward of God's grace",
+      "As private property never to be shared",
+      "As proof of superiority",
+      "As authority to judge others",
+    ],
+    answer: "As something to use in serving others as a faithful steward of God's grace",
+    reference: "1 Peter 4:10",
+  },
+  {
+    question: "How should someone who speaks in Christian service speak?",
+    options: [
+      "As one who speaks the very words of God",
+      "According only to personal opinion",
+      "Only when praised by others",
+      "With deliberate uncertainty",
+    ],
+    answer: "As one who speaks the very words of God",
+    reference: "1 Peter 4:11",
+  },
+  {
+    question: "From what source should someone who serves draw strength?",
+    options: [
+      "The strength God provides",
+      "Personal ambition",
+      "Public admiration",
+      "Political authority",
+    ],
+    answer: "The strength God provides",
+    reference: "1 Peter 4:11",
+  },
+  {
+    question: "What ultimate purpose governs both speaking and serving with spiritual gifts?",
+    options: [
+      "That in all things God may be praised through Jesus Christ",
+      "That the servant may become famous",
+      "That suffering may disappear",
+      "That believers may gain political power",
+    ],
+    answer: "That in all things God may be praised through Jesus Christ",
+    reference: "1 Peter 4:11",
+  },
+  {
+    question: "How should believers regard the fiery ordeal that comes to test them?",
+    options: [
+      "They should not be surprised as though something strange were happening",
+      "As proof God has rejected them",
+      "As something no Christian should experience",
+      "As punishment for every unknown sin",
+    ],
+    answer: "They should not be surprised as though something strange were happening",
+    reference: "1 Peter 4:12",
+  },
+  {
+    question: "Why should believers rejoice when participating in Christ's sufferings?",
+    options: [
+      "So they may be overjoyed when his glory is revealed",
+      "Because suffering itself guarantees wealth",
+      "Because suffering removes the need for obedience",
+      "So opponents will admire them",
+    ],
+    answer: "So they may be overjoyed when his glory is revealed",
+    reference: "1 Peter 4:13",
+  },
+  {
+    question: "Why are those insulted because of Christ's name called blessed?",
+    options: [
+      "The Spirit of glory and of God rests on them",
+      "They will immediately escape all opposition",
+      "Their enemies will instantly be punished",
+      "They become apostles",
+    ],
+    answer: "The Spirit of glory and of God rests on them",
+    reference: "1 Peter 4:14",
+  },
+  {
+    question: "Which kinds of suffering does Peter specifically say should not characterize believers?",
+    options: [
+      "Suffering as a murderer, thief, criminal, or meddler",
+      "Suffering for Christ",
+      "Suffering for doing good",
+      "Suffering under unjust accusations",
+    ],
+    answer: "Suffering as a murderer, thief, criminal, or meddler",
+    reference: "1 Peter 4:15",
+  },
+  {
+    question: "How should someone respond to suffering as a Christian?",
+    options: [
+      "Not be ashamed, but praise God for bearing that name",
+      "Hide their identity",
+      "Retaliate against opponents",
+      "Assume God has abandoned them",
+    ],
+    answer: "Not be ashamed, but praise God for bearing that name",
+    reference: "1 Peter 4:16",
+  },
+  {
+    question: "Where does Peter say judgment begins?",
+    options: [
+      "With God's household",
+      "With Roman rulers",
+      "With unbelieving nations only",
+      "With angels",
+    ],
+    answer: "With God's household",
+    reference: "1 Peter 4:17",
+  },
+  {
+    question: "What question follows the statement that judgment begins with God's household?",
+    options: [
+      "What will the outcome be for those who do not obey the gospel of God?",
+      "Which apostle will become greatest?",
+      "When will Jerusalem become wealthy?",
+      "Who will rule the Roman Empire?",
+    ],
+    answer: "What will the outcome be for those who do not obey the gospel of God?",
+    reference: "1 Peter 4:17",
+  },
+  {
+    question: "What should those who suffer according to God's will do?",
+    options: [
+      "Commit themselves to their faithful Creator and continue to do good",
+      "Stop doing good until suffering ends",
+      "Seek revenge against their enemies",
+      "Withdraw permanently from everyone",
+    ],
+    answer: "Commit themselves to their faithful Creator and continue to do good",
+    reference: "1 Peter 4:19",
   },
 
-  // 1 Peter 5
   {
-    question: "Peter identifies himself as what among the elders?",
+    question: "On what threefold basis does Peter appeal to the elders?",
     options: [
-      "A fellow elder.",
-      "The chief apostle.",
-      "A high priest.",
-      "A governor."
+      "As a fellow elder, witness of Christ's sufferings, and one who will share in the glory to be revealed",
+      "As emperor, priest, and prophet",
+      "As the only apostle, judge, and ruler",
+      "As a wealthy patron, teacher, and governor",
     ],
-    answer: "A fellow elder.",
-    reference: "1 Peter 5:1"
+    answer: "As a fellow elder, witness of Christ's sufferings, and one who will share in the glory to be revealed",
+    reference: "1 Peter 5:1",
   },
   {
-    question: "How should elders shepherd God's flock?",
+    question: "What image does Peter use for the elders' responsibility toward God's people?",
     options: [
-      "Willingly and eagerly, not lording it over others.",
-      "For dishonest gain.",
-      "By force.",
-      "With pride."
+      "Shepherding God's flock under their care",
+      "Commanding God's army",
+      "Judging God's court",
+      "Managing God's treasury",
     ],
-    answer: "Willingly and eagerly, not lording it over others.",
-    reference: "1 Peter 5:2-3"
+    answer: "Shepherding God's flock under their care",
+    reference: "1 Peter 5:2",
   },
   {
-    question: "What will faithful shepherds receive when the Chief Shepherd appears?",
+    question: "Which contrast describes the proper motivation for exercising pastoral oversight?",
     options: [
-      "The unfading crown of glory.",
-      "Earthly riches.",
-      "Political authority.",
-      "A throne in Jerusalem."
+      "Not because one must, but willingly, as God wants",
+      "Not willingly, but under compulsion",
+      "Only for financial reward",
+      "Only because other elders demand it",
     ],
-    answer: "The unfading crown of glory.",
-    reference: "1 Peter 5:4"
+    answer: "Not because one must, but willingly, as God wants",
+    reference: "1 Peter 5:2",
   },
   {
-    question: "How should younger believers relate to elders?",
+    question: "Which financial contrast accompanies Peter's instruction to elders?",
     options: [
-      "Submit yourselves to the elders.",
-      "Ignore them.",
-      "Rule over them.",
-      "Challenge them publicly."
+      "Not pursuing dishonest gain, but eager to serve",
+      "Not accepting poverty, but pursuing wealth",
+      "Not serving freely, but demanding payment",
+      "Not giving, but accumulating possessions",
     ],
-    answer: "Submit yourselves to the elders.",
-    reference: "1 Peter 5:5"
+    answer: "Not pursuing dishonest gain, but eager to serve",
+    reference: "1 Peter 5:2",
   },
   {
-    question: "What should all believers clothe themselves with?",
+    question: "How should elders lead rather than domineer over those entrusted to them?",
     options: [
-      "Humility toward one another.",
-      "Power.",
-      "Wisdom only.",
-      "Rich clothing."
+      "By being examples to the flock",
+      "By threatening the flock",
+      "By refusing to serve",
+      "By isolating themselves",
     ],
-    answer: "Humility toward one another.",
-    reference: "1 Peter 5:5"
+    answer: "By being examples to the flock",
+    reference: "1 Peter 5:3",
   },
   {
-    question: "What does God do for the humble?",
+    question: "What will faithful elders receive when the Chief Shepherd appears?",
     options: [
-      "Gives them grace.",
-      "Opposes them.",
-      "Ignores them.",
-      "Punishes them."
+      "The crown of glory that will never fade away",
+      "A throne in Jerusalem",
+      "A crown of gold that can perish",
+      "Control over earthly governments",
     ],
-    answer: "Gives them grace.",
-    reference: "1 Peter 5:5"
+    answer: "The crown of glory that will never fade away",
+    reference: "1 Peter 5:4",
   },
   {
-    question: "What should believers cast on God?",
+    question: "What are younger believers specifically instructed to do in relation to elders?",
     options: [
-      "All their anxiety.",
-      "Their gifts.",
-      "Their enemies.",
-      "Their possessions."
+      "Submit themselves to their elders",
+      "Replace their elders",
+      "Judge their elders publicly",
+      "Avoid their elders",
     ],
-    answer: "All their anxiety.",
-    reference: "1 Peter 5:7"
+    answer: "Submit themselves to their elders",
+    reference: "1 Peter 5:5",
   },
   {
-    question: "Why can believers cast their anxieties on God?",
+    question: "With what should all believers clothe themselves toward one another?",
     options: [
-      "Because He cares for them.",
-      "Because anxiety is imaginary.",
-      "Because angels carry it.",
-      "Because suffering ends immediately."
+      "Humility",
+      "Authority",
+      "Fear",
+      "Ambition",
     ],
-    answer: "Because He cares for them.",
-    reference: "1 Peter 5:7"
+    answer: "Humility",
+    reference: "1 Peter 5:5",
   },
   {
-    question: "How is the devil described?",
+    question: "What principle explains the command to clothe oneself with humility?",
     options: [
-      "A roaring lion looking for someone to devour.",
-      "A serpent in the garden.",
-      "A wolf among sheep.",
-      "A dragon in heaven."
+      "God opposes the proud but shows favor to the humble",
+      "God favors the proud over the humble",
+      "Humility removes all suffering",
+      "Pride is necessary for leadership",
     ],
-    answer: "A roaring lion looking for someone to devour.",
-    reference: "1 Peter 5:8"
+    answer: "God opposes the proud but shows favor to the humble",
+    reference: "1 Peter 5:5",
+  },
+  {
+    question: "Under what are believers told to humble themselves?",
+    options: [
+      "God's mighty hand",
+      "The authority of suffering",
+      "The power of earthly wealth",
+      "The judgment of unbelievers",
+    ],
+    answer: "God's mighty hand",
+    reference: "1 Peter 5:6",
+  },
+  {
+    question: "What will God do in due time for those who humble themselves under his mighty hand?",
+    options: [
+      "Lift them up",
+      "Remove their inheritance",
+      "Make them rulers immediately",
+      "Prevent them from ever suffering",
+    ],
+    answer: "Lift them up",
+    reference: "1 Peter 5:6",
+  },
+  {
+    question: "Why can believers cast all their anxiety on God?",
+    options: [
+      "He cares for them",
+      "He promises they will never face difficulty",
+      "Anxiety is always imaginary",
+      "Other believers cannot help them",
+    ],
+    answer: "He cares for them",
+    reference: "1 Peter 5:7",
+  },
+  {
+    question: "What two qualities are believers commanded to maintain because of their adversary?",
+    options: [
+      "Alertness and sober-mindedness",
+      "Fear and isolation",
+      "Anger and retaliation",
+      "Silence and passivity",
+    ],
+    answer: "Alertness and sober-mindedness",
+    reference: "1 Peter 5:8",
+  },
+  {
+    question: "To what is the devil compared while he looks for someone to devour?",
+    options: [
+      "A roaring lion",
+      "A poisonous serpent",
+      "A hungry wolf",
+      "A bird of prey",
+    ],
+    answer: "A roaring lion",
+    reference: "1 Peter 5:8",
   },
   {
     question: "How should believers respond to the devil?",
     options: [
-      "Resist him, standing firm in the faith.",
-      "Fear him.",
-      "Ignore him completely.",
-      "Fight him physically."
+      "Resist him, standing firm in the faith",
+      "Negotiate with him",
+      "Ignore the need for vigilance",
+      "Retaliate against other people",
     ],
-    answer: "Resist him, standing firm in the faith.",
-    reference: "1 Peter 5:9"
+    answer: "Resist him, standing firm in the faith",
+    reference: "1 Peter 5:9",
+  },
+  {
+    question: "What knowledge should encourage believers while resisting the devil?",
+    options: [
+      "The family of believers throughout the world is undergoing the same kinds of suffering",
+      "No other Christian experiences suffering",
+      "Their suffering is unique to their congregation",
+      "Suffering proves that faith has failed",
+    ],
+    answer: "The family of believers throughout the world is undergoing the same kinds of suffering",
+    reference: "1 Peter 5:9",
+  },
+  {
+    question: "What has the God of all grace called believers to?",
+    options: [
+      "His eternal glory in Christ",
+      "An earthly kingdom without suffering",
+      "Immediate political authority",
+      "A life without opposition",
+    ],
+    answer: "His eternal glory in Christ",
+    reference: "1 Peter 5:10",
+  },
+  {
+    question: "What four actions does Peter say God himself will perform after believers have suffered a little while?",
+    options: [
+      "Restore, make strong, make firm, and make steadfast",
+      "Enrich, promote, crown, and enthrone",
+      "Test, condemn, abandon, and replace",
+      "Hide, weaken, scatter, and silence",
+    ],
+    answer: "Restore, make strong, make firm, and make steadfast",
+    reference: "1 Peter 5:10",
+  },
+  {
+    question: "Through whom does Peter say he wrote briefly, describing him as a faithful brother?",
+    options: [
+      "Silas",
+      "Timothy",
+      "Mark",
+      "Barnabas",
+    ],
+    answer: "Silas",
+    reference: "1 Peter 5:12",
+  },
+  {
+    question: "What did Peter say he had done through his brief letter?",
+    options: [
+      "Encouraged the readers and testified that this is the true grace of God",
+      "Given a complete history of the apostles",
+      "Explained every prophecy about Rome",
+      "Established a new law for Gentiles",
+    ],
+    answer: "Encouraged the readers and testified that this is the true grace of God",
+    reference: "1 Peter 5:12",
+  },
+  {
+    question: "What final instruction follows Peter's testimony concerning the true grace of God?",
+    options: [
+      "Stand fast in it",
+      "Question it",
+      "Replace it",
+      "Keep it secret",
+    ],
+    answer: "Stand fast in it",
+    reference: "1 Peter 5:12",
+  },
+  {
+    question: "Who sends greetings along with the community described figuratively as being in Babylon?",
+    options: [
+      "Mark, whom Peter calls his son",
+      "Timothy, whom Peter calls his brother",
+      "Luke, whom Peter calls his servant",
+      "John, whom Peter calls his teacher",
+    ],
+    answer: "Mark, whom Peter calls his son",
+    reference: "1 Peter 5:13",
+  },
+  {
+    question: "How are believers told to greet one another near the end of the letter?",
+    options: [
+      "With a kiss of love",
+      "With a formal oath",
+      "With silence",
+      "With a written blessing only",
+    ],
+    answer: "With a kiss of love",
+    reference: "1 Peter 5:14",
+  },
+  {
+    question: "What closing blessing does Peter give to those who are in Christ?",
+    options: [
+      "Peace to all of you who are in Christ",
+      "Wealth to all who suffer",
+      "Authority to all who teach",
+      "Freedom from every trial",
+    ],
+    answer: "Peace to all of you who are in Christ",
+    reference: "1 Peter 5:14",
   },
 
-  // Whole-book reasoning questions
   {
-    question: "Which theme runs throughout 1 Peter?",
+    question: "Which sequence most accurately traces Peter's opening description of salvation?",
     options: [
-      "Hope and holy living in the midst of suffering.",
-      "Political victory.",
-      "Temple worship.",
-      "Material prosperity."
+      "God's mercy gives new birth through Christ's resurrection, producing living hope and an imperishable inheritance kept in heaven while believers are shielded through faith",
+      "Human obedience produces resurrection, which earns an earthly inheritance",
+      "Trials create salvation, which then causes Christ's resurrection",
+      "An earthly inheritance produces faith and eventually new birth",
     ],
-    answer: "Hope and holy living in the midst of suffering.",
-    reference: "1 Peter 1-5"
+    answer: "God's mercy gives new birth through Christ's resurrection, producing living hope and an imperishable inheritance kept in heaven while believers are shielded through faith",
+    reference: "1 Peter 1:3-5",
   },
   {
-    question: "According to 1 Peter, suffering for doing good should produce what response?",
+    question: "Which sequence correctly connects trials with the revelation of Christ?",
     options: [
-      "Faithfulness and trust in God.",
-      "Revenge.",
-      "Bitterness.",
-      "Abandoning Christ."
+      "Various trials test genuine faith, genuine faith is more valuable than perishable gold, and its proven character may result in praise, glory, and honor when Christ is revealed",
+      "Trials destroy faith, while gold produces praise when Christ appears",
+      "Trials prove that believers have lost their inheritance",
+      "Faith prevents trials and therefore needs no testing",
     ],
-    answer: "Faithfulness and trust in God.",
-    reference: "1 Peter 2:20-24; 3:17; 4:12-19"
+    answer: "Various trials test genuine faith, genuine faith is more valuable than perishable gold, and its proven character may result in praise, glory, and honor when Christ is revealed",
+    reference: "1 Peter 1:6-7",
   },
   {
-    question: "Why are believers called a royal priesthood and holy nation?",
+    question: "Which progression best describes the relationship between prophets, gospel preachers, the Holy Spirit, and Peter's readers?",
     options: [
-      "To proclaim God's excellencies and live as His people.",
-      "To replace angels.",
-      "To rule earthly kingdoms.",
-      "To avoid serving others."
+      "Prophets investigated the coming salvation, learned they were serving later believers, and the gospel was then announced by preachers through the Holy Spirit sent from heaven",
+      "The prophets understood that all their predictions concerned only themselves",
+      "The gospel preachers corrected predictions made without the Spirit",
+      "Peter's readers discovered salvation independently of prophets and gospel preaching",
     ],
-    answer: "To proclaim God's excellencies and live as His people.",
-    reference: "1 Peter 2:9-10"
+    answer: "Prophets investigated the coming salvation, learned they were serving later believers, and the gospel was then announced by preachers through the Holy Spirit sent from heaven",
+    reference: "1 Peter 1:10-12",
   },
   {
-    question: "What two attitudes are repeatedly emphasized in relationships throughout 1 Peter?",
+    question: "Which contrast best explains Peter's argument about redemption and new birth?",
     options: [
-      "Humility and love.",
-      "Power and ambition.",
-      "Pride and authority.",
-      "Knowledge and debate."
+      "Believers were not redeemed with perishable silver or gold but with Christ's precious blood, and they were born again through God's imperishable, enduring word",
+      "Believers were redeemed by gold and born again through human ancestry",
+      "Christ's blood is described as perishable while human tradition is enduring",
+      "Redemption and new birth are both attributed to inherited customs",
     ],
-    answer: "Humility and love.",
-    reference: "1 Peter 3:8; 4:8; 5:5"
+    answer: "Believers were not redeemed with perishable silver or gold but with Christ's precious blood, and they were born again through God's imperishable, enduring word",
+    reference: "1 Peter 1:18-23",
   },
   {
-    question: "What encouragement closes Peter's letter after speaking about suffering and spiritual warfare?",
+    question: "Which sequence most accurately describes the identity and purpose of believers as living stones?",
     options: [
-      "God Himself will restore, strengthen, confirm, and establish believers.",
-      "Suffering will never happen again on earth.",
-      "Believers will escape every hardship immediately.",
-      "The church will become wealthy."
+      "They come to Christ the living Stone, are built into a spiritual house, become a holy priesthood, and offer spiritual sacrifices acceptable through Christ",
+      "They replace Christ as the cornerstone and receive animal sacrifices",
+      "They build a physical temple and become political rulers",
+      "They remain separate stones without a shared spiritual identity",
     ],
-    answer: "God Himself will restore, strengthen, confirm, and establish believers.",
-    reference: "1 Peter 5:10"
-  }
+    answer: "They come to Christ the living Stone, are built into a spiritual house, become a holy priesthood, and offer spiritual sacrifices acceptable through Christ",
+    reference: "1 Peter 2:4-5",
+  },
+  {
+    question: "Which contrast correctly describes the different responses to Christ as the stone?",
+    options: [
+      "To believers he is precious, while those who disobey stumble over him",
+      "Believers stumble over him while unbelievers regard him as precious",
+      "Everyone responds to him in exactly the same way",
+      "His role as cornerstone depends on human acceptance",
+    ],
+    answer: "To believers he is precious, while those who disobey stumble over him",
+    reference: "1 Peter 2:6-8",
+  },
+  {
+    question: "Which progression connects Christian identity with public conduct among unbelievers?",
+    options: [
+      "God's people are called from darkness into light to declare his praises, abstain from desires warring against the soul, and live visibly good lives so others may glorify God",
+      "Being God's people requires withdrawal from all unbelievers",
+      "Declaring God's praises makes conduct among outsiders irrelevant",
+      "Public conduct matters only to government officials",
+    ],
+    answer: "God's people are called from darkness into light to declare his praises, abstain from desires warring against the soul, and live visibly good lives so others may glorify God",
+    reference: "1 Peter 2:9-12",
+  },
+  {
+    question: "Which combination correctly expresses Peter's teaching about Christian freedom and authority?",
+    options: [
+      "Submit to human authorities for the Lord's sake, live as free people without using freedom to cover evil, live as God's servants, fear God, and honor the emperor",
+      "Christian freedom eliminates all responsibility toward earthly authority",
+      "Believers must fear the emperor more than God",
+      "Freedom permits evil whenever government is unjust",
+    ],
+    answer: "Submit to human authorities for the Lord's sake, live as free people without using freedom to cover evil, live as God's servants, fear God, and honor the emperor",
+    reference: "1 Peter 2:13-17",
+  },
+  {
+    question: "Which sequence most accurately presents Christ as the model for unjust suffering?",
+    options: [
+      "He committed no sin, did not retaliate when insulted, made no threats while suffering, and entrusted himself to the just Judge",
+      "He retaliated verbally but not physically",
+      "He threatened his enemies before entrusting himself to human judges",
+      "His innocence meant he never experienced unjust suffering",
+    ],
+    answer: "He committed no sin, did not retaliate when insulted, made no threats while suffering, and entrusted himself to the just Judge",
+    reference: "1 Peter 2:21-23",
+  },
+  {
+    question: "Which sequence correctly connects Christ's suffering, believers' sins, and their new way of life?",
+    options: [
+      "Christ bore sins in his body so believers might die to sins and live for righteousness, and by his wounds they have been healed",
+      "Christ suffered so believers could continue living for sin without consequence",
+      "Christ's wounds are unrelated to righteousness",
+      "Believers first became righteous and therefore Christ bore no sins",
+    ],
+    answer: "Christ bore sins in his body so believers might die to sins and live for righteousness, and by his wounds they have been healed",
+    reference: "1 Peter 2:24",
+  },
+  {
+    question: "Which progression best describes Peter's strategy for responding to hostility?",
+    options: [
+      "Do not repay evil with evil, seek peace, do good, revere Christ as Lord, be ready to explain your hope gently, and maintain a clear conscience",
+      "Return insults, seek revenge, and defend hope aggressively",
+      "Avoid doing good until hostility stops",
+      "Hide Christian hope to prevent accusations",
+    ],
+    answer: "Do not repay evil with evil, seek peace, do good, revere Christ as Lord, be ready to explain your hope gently, and maintain a clear conscience",
+    reference: "1 Peter 3:9-16",
+  },
+  {
+    question: "Which sequence correctly links Christ, Noah's flood, baptism, and Christ's present exaltation?",
+    options: [
+      "Peter moves from Christ's suffering to the days of Noah and eight saved through water, then speaks of baptism through Christ's resurrection and concludes with Christ at God's right hand over spiritual powers",
+      "Peter says Noah's family was saved by baptism after Christ's resurrection",
+      "Peter disconnects baptism entirely from Christ's resurrection",
+      "Peter concludes that angels and powers are superior to the risen Christ",
+    ],
+    answer: "Peter moves from Christ's suffering to the days of Noah and eight saved through water, then speaks of baptism through Christ's resurrection and concludes with Christ at God's right hand over spiritual powers",
+    reference: "1 Peter 3:18-22",
+  },
+  {
+    question: "Which contrast best captures Peter's teaching about believers' former and present way of life?",
+    options: [
+      "They formerly followed human desires and pagan excesses but should now live the rest of their earthly lives for God's will",
+      "Their conversion allows them to continue former desires privately",
+      "God's will and human desires are treated as identical",
+      "Their former lifestyle is praised as preparation for Christian service",
+    ],
+    answer: "They formerly followed human desires and pagan excesses but should now live the rest of their earthly lives for God's will",
+    reference: "1 Peter 4:1-4",
+  },
+  {
+    question: "Which progression connects the nearness of the end with relationships and spiritual gifts?",
+    options: [
+      "Because the end is near, believers should be alert for prayer, love deeply, offer hospitality without grumbling, and faithfully use gifts to serve others",
+      "Because the end is near, believers should stop serving others",
+      "The approaching end makes prayer and love unnecessary",
+      "Spiritual gifts should be hidden until Christ returns",
+    ],
+    answer: "Because the end is near, believers should be alert for prayer, love deeply, offer hospitality without grumbling, and faithfully use gifts to serve others",
+    reference: "1 Peter 4:7-10",
+  },
+  {
+    question: "Which distinction does Peter repeatedly insist on when discussing Christian suffering?",
+    options: [
+      "Suffering for doing good or bearing Christ's name is fundamentally different from suffering as a wrongdoer",
+      "Every form of suffering proves righteousness",
+      "Suffering for wrongdoing is more honorable than suffering for Christ",
+      "Christian conduct has no relevance to the meaning of suffering",
+    ],
+    answer: "Suffering for doing good or bearing Christ's name is fundamentally different from suffering as a wrongdoer",
+    reference: "1 Peter 2:19-20; 3:17; 4:15-16",
+  },
+  {
+    question: "Which sequence correctly describes the response to the fiery trial?",
+    options: [
+      "Do not regard it as strange, rejoice in sharing Christ's sufferings, recognize blessing when insulted for his name, and refuse shame when suffering as a Christian",
+      "Assume every trial proves divine rejection",
+      "Seek suffering through criminal behavior",
+      "Hide the name of Christ whenever insulted",
+    ],
+    answer: "Do not regard it as strange, rejoice in sharing Christ's sufferings, recognize blessing when insulted for his name, and refuse shame when suffering as a Christian",
+    reference: "1 Peter 4:12-16",
+  },
+  {
+    question: "Which contrast best describes Peter's model of Christian leadership?",
+    options: [
+      "Elders shepherd willingly and eagerly as examples rather than pursuing dishonest gain or lording authority over the flock",
+      "Elders prove leadership primarily through domination",
+      "Financial gain is presented as the chief motive for oversight",
+      "Elders are told to avoid becoming examples to others",
+    ],
+    answer: "Elders shepherd willingly and eagerly as examples rather than pursuing dishonest gain or lording authority over the flock",
+    reference: "1 Peter 5:2-3",
+  },
+  {
+    question: "Which sequence correctly connects humility, anxiety, vigilance, and spiritual resistance?",
+    options: [
+      "Humble yourselves under God's hand, cast anxiety on him because he cares, remain alert because the devil prowls, and resist him by standing firm in faith",
+      "Anxiety should be hidden because God does not care",
+      "Pride is necessary for resisting the devil",
+      "Believers should flee from faith when the devil attacks",
+    ],
+    answer: "Humble yourselves under God's hand, cast anxiety on him because he cares, remain alert because the devil prowls, and resist him by standing firm in faith",
+    reference: "1 Peter 5:6-9",
+  },
+  {
+    question: "Which pattern concerning suffering and glory appears repeatedly throughout the letter?",
+    options: [
+      "Present suffering is temporary and is repeatedly placed in relation to future revelation, glory, restoration, and Christ's own path through suffering to glory",
+      "Present suffering is described as permanent and unrelated to future glory",
+      "Glory is available only to believers who never suffer",
+      "Christ's suffering is presented without any connection to subsequent glory",
+    ],
+    answer: "Present suffering is temporary and is repeatedly placed in relation to future revelation, glory, restoration, and Christ's own path through suffering to glory",
+    reference: "1 Peter 1:6-7,11; 4:13; 5:1,10",
+  },
+  {
+    question: "Which two images in the letter emphasize the imperishable character of what God provides?",
+    options: [
+      "An inheritance that never perishes, spoils, or fades and the living, enduring word through which believers are born again",
+      "Perishable gold and fading grass",
+      "Human glory and silver",
+      "The emperor and earthly government",
+    ],
+    answer: "An inheritance that never perishes, spoils, or fades and the living, enduring word through which believers are born again",
+    reference: "1 Peter 1:4,23-25",
+  },
+  {
+    question: "Which contrast between God's judgment and human hostility helps explain Peter's rejection of retaliation?",
+    options: [
+      "Christ entrusted himself to the One who judges justly, and believers likewise are called to do good rather than repay evil for evil",
+      "Because God does not judge, believers must punish their enemies themselves",
+      "Human retaliation is presented as more reliable than God's judgment",
+      "Christ's response to hostility is unrelated to believers' behavior",
+    ],
+    answer: "Christ entrusted himself to the One who judges justly, and believers likewise are called to do good rather than repay evil for evil",
+    reference: "1 Peter 2:23; 3:9",
+  },
+  {
+    question: "Which description most accurately connects God's grace with believers' responsibilities near the end of the letter?",
+    options: [
+      "They steward God's varied grace through their gifts, humble themselves because God gives grace to the humble, and stand firm in the true grace of God",
+      "Grace eliminates the need for service, humility, or perseverance",
+      "Grace is restricted to church elders",
+      "Grace is described mainly as material prosperity",
+    ],
+    answer: "They steward God's varied grace through their gifts, humble themselves because God gives grace to the humble, and stand firm in the true grace of God",
+    reference: "1 Peter 4:10; 5:5,12",
+  },
+  {
+    question: "Which relationship between identity and conduct is most consistent across 1 Peter?",
+    options: [
+      "Because believers are chosen, holy, redeemed, God's people, and recipients of grace, they are repeatedly called to holy conduct, love, submission, service, and faithful endurance",
+      "Spiritual identity makes conduct irrelevant",
+      "Conduct creates God's election rather than flowing from it",
+      "Only church leaders are expected to live consistently with Christian identity",
+    ],
+    answer: "Because believers are chosen, holy, redeemed, God's people, and recipients of grace, they are repeatedly called to holy conduct, love, submission, service, and faithful endurance",
+    reference: "1 Peter 1:1-2,13-22; 2:9-12; 4:10; 5:10",
+  },
+  {
+    question: "Which progression most accurately summarizes Peter's final encouragement after describing worldwide Christian suffering?",
+    options: [
+      "Resist the devil firmly in faith, remember fellow believers also suffer, and trust the God of all grace to restore and strengthen you after suffering a little while",
+      "Assume suffering is unique to you and abandon resistance",
+      "Depend on personal strength rather than God's grace",
+      "Expect suffering to continue eternally without restoration",
+    ],
+    answer: "Resist the devil firmly in faith, remember fellow believers also suffer, and trust the God of all grace to restore and strengthen you after suffering a little while",
+    reference: "1 Peter 5:9-10",
+  },
 ];
 
 export default firstPeterQuestions;

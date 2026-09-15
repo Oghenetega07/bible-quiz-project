@@ -1,1991 +1,3270 @@
 const secondChroniclesQuestions = [
   {
-    question: "Where did Solomon and the assembly go to seek the Lord early in his reign?",
-    options: ["Gibeon", "Jerusalem", "Hebron", "Shiloh"],
-    answer: "Gibeon",
-    reference: "2 Chronicles 1:3",
-  },
-  {
-    question: "Why was Gibeon important at that time?",
+    question:
+      "Where did Solomon and the whole assembly go to worship shortly after he was established as king?",
     options: [
-      "The tent of meeting was there",
-      "The ark was there",
-      "David's palace was there",
-      "The high priest lived there",
+      "The high place at Gibeon",
+      "The tabernacle at Shiloh",
+      "The threshing floor of Araunah",
+      "The sanctuary at Hebron",
     ],
-    answer: "The tent of meeting was there",
+    answer: "The high place at Gibeon",
     reference: "2 Chronicles 1:3",
   },
   {
-    question: "How many burnt offerings did Solomon offer on the bronze altar at Gibeon?",
-    options: ["One thousand", "Seven hundred", "Three thousand", "One hundred"],
+    question:
+      "What sacred structure was still at Gibeon during Solomon's early reign?",
+    options: [
+      "The tent of meeting made by Moses",
+      "The ark of the covenant",
+      "David's tent for the ark",
+      "The temple altar",
+    ],
+    answer: "The tent of meeting made by Moses",
+    reference: "2 Chronicles 1:3",
+  },
+  {
+    question:
+      "Who had made the bronze altar located before the tabernacle at Gibeon?",
+    options: [
+      "Bezalel son of Uri",
+      "Huram-Abi",
+      "Oholiab son of Ahisamak",
+      "Moses",
+    ],
+    answer: "Bezalel son of Uri",
+    reference: "2 Chronicles 1:5",
+  },
+  {
+    question:
+      "How many burnt offerings did Solomon present on the bronze altar at Gibeon?",
+    options: ["One thousand", "Seven hundred", "Three thousand", "Ten thousand"],
     answer: "One thousand",
     reference: "2 Chronicles 1:6",
   },
   {
-    question: "What did God offer Solomon in a dream?",
+    question:
+      "What did Solomon request from God when invited to ask for whatever he wanted?",
     options: [
-      "Ask for whatever you want me to give you",
-      "Choose between wealth and long life",
-      "Ask only for wisdom",
-      "Ask for victory over enemies",
+      "Wisdom and knowledge to lead the people",
+      "Long life and victory",
+      "Wealth and honor",
+      "A peaceful reign",
     ],
-    answer: "Ask for whatever you want me to give you",
-    reference: "2 Chronicles 1:7",
-  },
-  {
-    question: "What did Solomon ask God to give him?",
-    options: [
-      "Wisdom and knowledge",
-      "Long life",
-      "Great wealth",
-      "A larger army",
-    ],
-    answer: "Wisdom and knowledge",
+    answer: "Wisdom and knowledge to lead the people",
     reference: "2 Chronicles 1:10",
   },
   {
-    question: "Why did Solomon ask for wisdom and knowledge?",
+    question:
+      "Which four things did God say Solomon had not requested?",
     options: [
-      "So he could lead God's people",
-      "So he could become a prophet",
-      "So he could build a palace",
-      "So he could defeat Egypt",
+      "Wealth, possessions, honor, or the death of his enemies",
+      "Long life, children, riches, or peace",
+      "Victory, wisdom, honor, or land",
+      "Wealth, armies, horses, or silver",
     ],
-    answer: "So he could lead God's people",
-    reference: "2 Chronicles 1:10",
+    answer: "Wealth, possessions, honor, or the death of his enemies",
+    reference: "2 Chronicles 1:11",
   },
   {
-    question: "What did God give Solomon in addition to wisdom and knowledge?",
+    question:
+      "How many chariots and horses did Solomon accumulate?",
     options: [
-      "Wealth, possessions, and honor",
-      "A longer reign than David",
-      "A greater army than Egypt",
-      "A priestly office",
+      "1,400 chariots and 12,000 horses",
+      "4,000 chariots and 12,000 horses",
+      "1,200 chariots and 14,000 horses",
+      "1,400 chariots and 10,000 horses",
     ],
-    answer: "Wealth, possessions, and honor",
-    reference: "2 Chronicles 1:11-12",
-  },
-  {
-    question: "How many chariots did Solomon accumulate?",
-    options: ["One thousand four hundred", "Twelve thousand", "Seven hundred", "Three thousand"],
-    answer: "One thousand four hundred",
+    answer: "1,400 chariots and 12,000 horses",
     reference: "2 Chronicles 1:14",
   },
   {
-    question: "How many horses did Solomon have?",
-    options: ["Twelve thousand", "One thousand four hundred", "Ten thousand", "Twenty thousand"],
-    answer: "Twelve thousand",
-    reference: "2 Chronicles 1:14",
-  },
-  {
-    question: "How common did Solomon make silver and gold in Jerusalem?",
+    question:
+      "How common did Solomon make silver and gold in Jerusalem?",
     options: [
       "As common as stones",
-      "As common as wood",
-      "As common as grain",
-      "As common as water",
+      "As common as cedar",
+      "As common as dust",
+      "As common as bronze",
     ],
     answer: "As common as stones",
     reference: "2 Chronicles 1:15",
   },
-
   {
-    question: "Whom did Solomon ask to send skilled workers and cedar for the temple?",
+    question:
+      "How common did Solomon make cedar in Jerusalem?",
     options: [
-      "Huram king of Tyre",
-      "The king of Sidon",
-      "The king of Egypt",
-      "The king of Moab",
+      "As plentiful as sycamore-fig trees in the foothills",
+      "As plentiful as olive trees in Judah",
+      "As common as stones",
+      "As plentiful as palms in Jericho",
     ],
-    answer: "Huram king of Tyre",
-    reference: "2 Chronicles 2:3",
+    answer: "As plentiful as sycamore-fig trees in the foothills",
+    reference: "2 Chronicles 1:15",
   },
   {
-    question: "Why did Solomon say the temple had to be great?",
+    question:
+      "From where were Solomon's horses imported?",
     options: [
-      "Because the Lord is greater than all other gods",
-      "Because it would hold all Israel",
-      "Because David had ordered it",
-      "Because foreign kings would visit",
+      "Egypt and Kue",
+      "Tyre and Sidon",
+      "Aram and Hamath",
+      "Edom and Moab",
     ],
-    answer: "Because the Lord is greater than all other gods",
-    reference: "2 Chronicles 2:5",
+    answer: "Egypt and Kue",
+    reference: "2 Chronicles 1:16",
   },
   {
-    question: "What did Solomon say about God's greatness compared with the heavens?",
+    question:
+      "What price is given for an imported chariot during Solomon's reign?",
     options: [
-      "The heavens, even the highest heavens, cannot contain Him",
-      "God lives only in heaven",
-      "The temple would fully contain Him",
-      "Heaven is smaller than His temple",
+      "Six hundred shekels of silver",
+      "One hundred fifty shekels of silver",
+      "Three hundred shekels of gold",
+      "Four hundred shekels of silver",
     ],
-    answer: "The heavens, even the highest heavens, cannot contain Him",
-    reference: "2 Chronicles 2:6",
+    answer: "Six hundred shekels of silver",
+    reference: "2 Chronicles 1:17",
   },
   {
-    question: "What kind of craftsman did Solomon ask Huram to send?",
+    question:
+      "What price is given for an imported horse?",
     options: [
-      "One skilled in gold, silver, bronze, iron, purple, crimson, blue yarn, and engraving",
-      "Only a stonecutter",
-      "Only a carpenter",
-      "Only a goldsmith",
+      "One hundred fifty shekels of silver",
+      "Six hundred shekels of silver",
+      "Three hundred shekels of silver",
+      "One hundred shekels of gold",
     ],
-    answer: "One skilled in gold, silver, bronze, iron, purple, crimson, blue yarn, and engraving",
-    reference: "2 Chronicles 2:7",
+    answer: "One hundred fifty shekels of silver",
+    reference: "2 Chronicles 1:17",
   },
   {
-    question: "What food did Solomon promise Huram's workers?",
+    question:
+      "How many foreigners residing in Israel did Solomon count for his building program?",
     options: [
-      "Wheat, barley, wine, and olive oil",
-      "Fish, bread, and wine",
-      "Figs, dates, and oil",
-      "Grain and meat only",
+      "153,600",
+      "150,000",
+      "183,600",
+      "120,000",
     ],
-    answer: "Wheat, barley, wine, and olive oil",
-    reference: "2 Chronicles 2:10",
-  },
-  {
-    question: "How many foreign residents did Solomon count for forced labor?",
-    options: [
-      "One hundred fifty-three thousand six hundred",
-      "Seventy thousand",
-      "Eighty thousand",
-      "Thirty thousand",
-    ],
-    answer: "One hundred fifty-three thousand six hundred",
+    answer: "153,600",
     reference: "2 Chronicles 2:17",
   },
   {
-    question: "How many were assigned as carriers?",
-    options: ["Seventy thousand", "Eighty thousand", "Three thousand six hundred", "Thirty thousand"],
-    answer: "Seventy thousand",
+    question:
+      "How many of the foreign workers were assigned as carriers?",
+    options: ["70,000", "80,000", "3,600", "50,000"],
+    answer: "70,000",
     reference: "2 Chronicles 2:18",
   },
   {
-    question: "How many were assigned as stonecutters in the hills?",
-    options: ["Eighty thousand", "Seventy thousand", "Thirty thousand", "Three thousand six hundred"],
-    answer: "Eighty thousand",
+    question:
+      "How many were assigned as stonecutters in the hills?",
+    options: ["80,000", "70,000", "3,600", "30,000"],
+    answer: "80,000",
     reference: "2 Chronicles 2:18",
   },
-
   {
-    question: "Where did Solomon begin building the temple?",
-    options: ["Mount Moriah", "Mount Zion", "Mount Carmel", "Mount Gerizim"],
+    question:
+      "How many were assigned as foremen over Solomon's labor force?",
+    options: ["3,600", "3,300", "550", "2,500"],
+    answer: "3,600",
+    reference: "2 Chronicles 2:18",
+  },
+  {
+    question:
+      "Which king did Solomon ask to send cedar logs and skilled workers?",
+    options: [
+      "Hiram king of Tyre",
+      "Pharaoh king of Egypt",
+      "The king of Sidon",
+      "Hadadezer king of Zobah",
+    ],
+    answer: "Hiram king of Tyre",
+    reference: "2 Chronicles 2:3",
+  },
+  {
+    question:
+      "How did Solomon explain the greatness required of the temple?",
+    options: [
+      "The God of Israel is greater than all other gods",
+      "It would house the ark permanently",
+      "It would surpass David's palace",
+      "It would serve every tribe",
+    ],
+    answer: "The God of Israel is greater than all other gods",
+    reference: "2 Chronicles 2:5",
+  },
+  {
+    question:
+      "What did Solomon acknowledge about God's dwelling in relation to the temple?",
+    options: [
+      "Even the highest heavens cannot contain Him",
+      "He would dwell only above the ark",
+      "He would dwell in Jerusalem alone",
+      "The temple would fully contain His glory",
+    ],
+    answer: "Even the highest heavens cannot contain Him",
+    reference: "2 Chronicles 2:6",
+  },
+  {
+    question:
+      "What ancestry is given for the skilled craftsman sent by Hiram?",
+    options: [
+      "His mother was from Dan and his father was a man of Tyre",
+      "His mother was from Naphtali and father from Tyre",
+      "His mother was from Judah and father from Sidon",
+      "Both parents were from Tyre",
+    ],
+    answer: "His mother was from Dan and his father was a man of Tyre",
+    reference: "2 Chronicles 2:14",
+  },
+  {
+    question:
+      "On what mountain did Solomon begin building the temple?",
+    options: [
+      "Mount Moriah",
+      "Mount Zion",
+      "Mount of Olives",
+      "Mount Gibeon",
+    ],
     answer: "Mount Moriah",
     reference: "2 Chronicles 3:1",
   },
   {
-    question: "Why was Mount Moriah significant to David?",
+    question:
+      "At what earlier site did Solomon build the temple?",
     options: [
-      "The Lord had appeared to David there",
-      "David had been anointed there",
-      "Goliath had been defeated there",
-      "The ark had first entered Jerusalem there",
+      "The threshing floor of Ornan the Jebusite",
+      "The threshing floor of Kidon",
+      "The high place at Gibeon",
+      "David's palace grounds",
     ],
-    answer: "The Lord had appeared to David there",
+    answer: "The threshing floor of Ornan the Jebusite",
     reference: "2 Chronicles 3:1",
   },
   {
-    question: "On whose threshing floor was the temple site?",
-    options: ["Ornan the Jebusite", "Obed-Edom", "Araunah the Hittite", "Naboth"],
-    answer: "Ornan the Jebusite",
-    reference: "2 Chronicles 3:1",
-  },
-  {
-    question: "In which year of Solomon's reign did he begin building the temple?",
-    options: ["Fourth year", "Second year", "Seventh year", "Twelfth year"],
-    answer: "Fourth year",
+    question:
+      "In which year of Solomon's reign did temple construction begin?",
+    options: ["The fourth year", "The second year", "The seventh year", "The eleventh year"],
+    answer: "The fourth year",
     reference: "2 Chronicles 3:2",
   },
   {
-    question: "How long was the temple foundation?",
-    options: ["Sixty cubits", "Forty cubits", "Eighty cubits", "One hundred cubits"],
-    answer: "Sixty cubits",
+    question:
+      "On what date did construction of the temple begin?",
+    options: [
+      "The second day of the second month",
+      "The first day of the first month",
+      "The seventh day of the seventh month",
+      "The tenth day of the second month",
+    ],
+    answer: "The second day of the second month",
+    reference: "2 Chronicles 3:2",
+  },
+  {
+    question:
+      "What were the temple's length and width according to the old standard?",
+    options: [
+      "Sixty cubits long and twenty cubits wide",
+      "Forty cubits long and twenty cubits wide",
+      "Sixty cubits long and thirty cubits wide",
+      "Eighty cubits long and twenty cubits wide",
+    ],
+    answer: "Sixty cubits long and twenty cubits wide",
     reference: "2 Chronicles 3:3",
   },
   {
-    question: "How wide was the temple foundation?",
-    options: ["Twenty cubits", "Thirty cubits", "Forty cubits", "Ten cubits"],
+    question:
+      "What was the height of the portico at the front of the temple?",
+    options: [
+      "Twenty cubits",
+      "One hundred twenty cubits",
+      "Thirty cubits",
+      "Sixty cubits",
+    ],
+    answer: "One hundred twenty cubits",
+    reference: "2 Chronicles 3:4",
+  },
+  {
+    question:
+      "What wood covered the main hall before it was overlaid with fine gold?",
+    options: ["Cypress", "Cedar", "Olive wood", "Acacia"],
+    answer: "Cypress",
+    reference: "2 Chronicles 3:5",
+  },
+  {
+    question:
+      "What decorative figures were worked into the temple's gold-covered walls?",
+    options: [
+      "Palm trees and chains",
+      "Cherubim and lilies",
+      "Pomegranates and flowers",
+      "Vines and stars",
+    ],
+    answer: "Palm trees and chains",
+    reference: "2 Chronicles 3:5",
+  },
+  {
+    question:
+      "What was the weight of the gold used for the nails in the temple?",
+    options: [
+      "Fifty shekels",
+      "One hundred shekels",
+      "Twenty shekels",
+      "Three hundred shekels",
+    ],
+    answer: "Fifty shekels",
+    reference: "2 Chronicles 3:9",
+  },
+  {
+    question:
+      "What was the total wingspan of the two cherubim in the Most Holy Place?",
+    options: ["Twenty cubits", "Ten cubits", "Thirty cubits", "Forty cubits"],
     answer: "Twenty cubits",
-    reference: "2 Chronicles 3:3",
+    reference: "2 Chronicles 3:11-13",
   },
   {
-    question: "What covered the inside of the main hall?",
-    options: ["Fine gold", "Silver", "Bronze", "Cedar only"],
-    answer: "Fine gold",
-    reference: "2 Chronicles 3:5",
+    question:
+      "What colors were woven into the curtain of the temple?",
+    options: [
+      "Blue, purple, crimson, and fine linen",
+      "Blue, scarlet, white, and gold",
+      "Purple, red, black, and white",
+      "Blue, purple, green, and linen",
+    ],
+    answer: "Blue, purple, crimson, and fine linen",
+    reference: "2 Chronicles 3:14",
   },
   {
-    question: "What figures were carved on the walls?",
-    options: ["Palm trees and chain designs", "Lions and bulls", "Stars and moons", "Grapes and wheat"],
-    answer: "Palm trees and chain designs",
-    reference: "2 Chronicles 3:5",
+    question:
+      "What figures were worked into the temple curtain?",
+    options: ["Cherubim", "Palm trees", "Pomegranates", "Lions"],
+    answer: "Cherubim",
+    reference: "2 Chronicles 3:14",
   },
   {
-    question: "How many cherubim were made in the Most Holy Place?",
-    options: ["Two", "Four", "Seven", "Twelve"],
-    answer: "Two",
-    reference: "2 Chronicles 3:10",
-  },
-  {
-    question: "What were the names of the two pillars at the front of the temple?",
-    options: ["Jakin and Boaz", "Zion and Salem", "Urim and Thummim", "Moriah and Gibeon"],
+    question:
+      "What names did Solomon give the two pillars in front of the temple?",
+    options: [
+      "Jakin and Boaz",
+      "Bozez and Seneh",
+      "Jachin and Moriah",
+      "Zion and Boaz",
+    ],
     answer: "Jakin and Boaz",
     reference: "2 Chronicles 3:17",
   },
-
   {
-    question: "What was the large bronze basin called?",
-    options: ["The Sea", "The River", "The Fountain", "The Pool"],
-    answer: "The Sea",
-    reference: "2 Chronicles 4:2",
-  },
-  {
-    question: "On how many bulls did the Sea stand?",
-    options: ["Twelve", "Four", "Seven", "Ten"],
-    answer: "Twelve",
-    reference: "2 Chronicles 4:4",
-  },
-  {
-    question: "How were the bulls under the Sea arranged?",
-    options: [
-      "Three faced each direction",
-      "Six faced north and six south",
-      "All faced inward",
-      "All faced east",
-    ],
-    answer: "Three faced each direction",
-    reference: "2 Chronicles 4:4",
-  },
-  {
-    question: "How many basins did Solomon make for washing?",
-    options: ["Ten", "Twelve", "Seven", "Five"],
+    question:
+      "How many bronze basins did Solomon make for washing sacrificial animals?",
+    options: ["Ten", "Twelve", "Seven", "Twenty"],
     answer: "Ten",
     reference: "2 Chronicles 4:6",
   },
   {
-    question: "How many gold lampstands were made according to the specifications?",
-    options: ["Ten", "Seven", "Twelve", "Twenty"],
+    question:
+      "How many gold lampstands were made according to the prescribed specifications?",
+    options: ["Ten", "Seven", "Twelve", "One"],
     answer: "Ten",
     reference: "2 Chronicles 4:7",
   },
   {
-    question: "How many tables were placed in the temple?",
-    options: ["Ten", "Twelve", "Seven", "One"],
+    question:
+      "How were the ten lampstands positioned?",
+    options: [
+      "Five on the south side and five on the north",
+      "All along the east wall",
+      "Seven on the south and three on the north",
+      "Five inside and five outside",
+    ],
+    answer: "Five on the south side and five on the north",
+    reference: "2 Chronicles 4:7",
+  },
+  {
+    question:
+      "How many tables were made and placed in the temple?",
+    options: ["Ten", "Twelve", "Seven", "Twenty"],
     answer: "Ten",
     reference: "2 Chronicles 4:8",
   },
   {
-    question: "How many gold sprinkling bowls were made?",
-    options: ["One hundred", "Fifty", "Seventy", "Twelve"],
+    question:
+      "How many gold sprinkling bowls did Solomon make?",
+    options: ["One hundred", "Fifty", "Seventy", "Two hundred"],
     answer: "One hundred",
     reference: "2 Chronicles 4:8",
   },
   {
-    question: "Who cast the bronze furnishings for Solomon?",
-    options: ["Huram", "Bezalel", "Oholiab", "Adoniram"],
-    answer: "Huram",
-    reference: "2 Chronicles 4:11-16",
+    question:
+      "What was the capacity of the great bronze Sea?",
+    options: [
+      "Three thousand baths",
+      "Two thousand baths",
+      "One thousand baths",
+      "Five thousand baths",
+    ],
+    answer: "Three thousand baths",
+    reference: "2 Chronicles 4:5",
   },
-
   {
-    question: "Where was the ark brought from before being placed in the temple?",
-    options: ["The City of David", "Gibeon", "Shiloh", "Hebron"],
-    answer: "The City of David",
-    reference: "2 Chronicles 5:2",
+    question:
+      "What animals supported the bronze Sea?",
+    options: [
+      "Twelve bulls",
+      "Twelve lions",
+      "Four oxen",
+      "Ten bulls",
+    ],
+    answer: "Twelve bulls",
+    reference: "2 Chronicles 4:4",
   },
   {
-    question: "At what feast did Solomon gather Israel for the ark's transfer?",
-    options: ["The festival in the seventh month", "Passover", "Pentecost", "Purim"],
-    answer: "The festival in the seventh month",
+    question:
+      "How were the twelve bulls beneath the Sea arranged?",
+    options: [
+      "Three faced north, three west, three south, and three east",
+      "Six faced north and six south",
+      "Four faced each of three directions",
+      "All faced outward toward the courtyard",
+    ],
+    answer: "Three faced north, three west, three south, and three east",
+    reference: "2 Chronicles 4:4",
+  },
+  {
+    question:
+      "Where did Solomon place the Sea?",
+    options: [
+      "On the south side at the southeast corner",
+      "At the east entrance",
+      "On the north side",
+      "Inside the Most Holy Place",
+    ],
+    answer: "On the south side at the southeast corner",
+    reference: "2 Chronicles 4:10",
+  },
+  {
+    question:
+      "Where were the bronze objects cast?",
+    options: [
+      "In clay molds in the plain of the Jordan between Sukkoth and Zarethan",
+      "At Jerusalem beside the temple",
+      "At Tyre",
+      "Near Gibeon",
+    ],
+    answer:
+      "In clay molds in the plain of the Jordan between Sukkoth and Zarethan",
+    reference: "2 Chronicles 4:17",
+  },
+  {
+    question:
+      "What happened to the weight of the bronze used in Solomon's temple furnishings?",
+    options: [
+      "It was so great that the weight was not determined",
+      "It was recorded as one thousand talents",
+      "It equaled the weight of the gold",
+      "It was divided equally among the pillars",
+    ],
+    answer: "It was so great that the weight was not determined",
+    reference: "2 Chronicles 4:18",
+  },
+  {
+    question:
+      "During which month did Solomon assemble Israel's leaders for the ark's transfer to the temple?",
+    options: [
+      "The seventh month",
+      "The second month",
+      "The first month",
+      "The eighth month",
+    ],
+    answer: "The seventh month",
     reference: "2 Chronicles 5:3",
   },
   {
-    question: "Who carried the ark?",
-    options: ["The Levites", "The soldiers", "The elders", "The king's servants"],
+    question:
+      "Who carried the ark into the temple?",
+    options: ["The Levites", "The priests only", "David's mighty men", "The gatekeepers"],
     answer: "The Levites",
     reference: "2 Chronicles 5:4",
   },
   {
-    question: "What was inside the ark when it was placed in the temple?",
+    question:
+      "What was inside the ark when it was placed in the temple?",
     options: [
-      "The two tablets Moses placed there at Horeb",
-      "Aaron's staff and manna",
-      "The Book of the Law",
-      "David's crown",
+      "Only the two tablets Moses had placed there at Horeb",
+      "The tablets, Aaron's staff, and manna",
+      "The Book of the Law and the tablets",
+      "A jar of manna and Aaron's staff",
     ],
-    answer: "The two tablets Moses placed there at Horeb",
+    answer: "Only the two tablets Moses had placed there at Horeb",
     reference: "2 Chronicles 5:10",
   },
   {
-    question: "What instruments did the Levites use when praising the Lord at the temple dedication?",
-    options: [
-      "Cymbals, harps, lyres, and trumpets",
-      "Flutes and drums only",
-      "Trumpets only",
-      "Harps and tambourines",
-    ],
-    answer: "Cymbals, harps, lyres, and trumpets",
-    reference: "2 Chronicles 5:12-13",
-  },
-  {
-    question: "How many priests sounded trumpets?",
-    options: ["One hundred twenty", "Seventy", "Twenty-four", "One hundred"],
+    question:
+      "How many priests sounded trumpets when the temple was filled with God's glory?",
+    options: ["One hundred twenty", "Seventy", "Twenty-four", "Two hundred"],
     answer: "One hundred twenty",
     reference: "2 Chronicles 5:12",
   },
   {
-    question: "What happened when the musicians and singers praised the Lord in unity?",
+    question:
+      "Which three musical leaders are named among the Levites at the temple dedication?",
     options: [
-      "The temple was filled with a cloud",
-      "Fire consumed the altar",
-      "The ark began to move",
-      "The people fell asleep",
+      "Asaph, Heman, and Jeduthun",
+      "Asaph, Ethan, and Korah",
+      "Heman, Chenaniah, and Asaph",
+      "Jeduthun, Obed-Edom, and Heman",
     ],
-    answer: "The temple was filled with a cloud",
+    answer: "Asaph, Heman, and Jeduthun",
+    reference: "2 Chronicles 5:12",
+  },
+  {
+    question:
+      "What refrain did the musicians sing when the temple was filled with the cloud?",
+    options: [
+      "He is good; his love endures forever",
+      "Holy, holy, holy is the LORD",
+      "Give thanks to the LORD Almighty",
+      "Great is the LORD in Zion",
+    ],
+    answer: "He is good; his love endures forever",
     reference: "2 Chronicles 5:13",
   },
   {
-    question: "Why could the priests not continue their service?",
+    question:
+      "Why could the priests not continue their service?",
     options: [
-      "The glory of the Lord filled the temple",
-      "Solomon dismissed them",
-      "The people entered the sanctuary",
-      "The trumpets were too loud",
+      "The glory of the LORD filled the temple",
+      "The cloud blocked the altar",
+      "The people crowded the courts",
+      "The sacrifices were still burning",
     ],
-    answer: "The glory of the Lord filled the temple",
+    answer: "The glory of the LORD filled the temple",
     reference: "2 Chronicles 5:14",
   },
-
   {
-    question: "What did Solomon say God had chosen from David's sons?",
+    question:
+      "What did Solomon say God had chosen instead of a city during the period from the Exodus until David?",
     options: [
-      "Solomon to rule Israel",
-      "Absalom to build the temple",
-      "Adonijah to become priest",
-      "Nathan to lead Judah",
+      "No city for a temple and no man to rule until David was chosen",
+      "Shiloh alone",
+      "Jerusalem from the beginning",
+      "Gibeon as a permanent sanctuary",
     ],
-    answer: "Solomon to rule Israel",
-    reference: "2 Chronicles 6:5-10",
+    answer:
+      "No city for a temple and no man to rule until David was chosen",
+    reference: "2 Chronicles 6:5-6",
   },
   {
-    question: "What posture did Solomon take during his prayer of dedication?",
+    question:
+      "What did Solomon acknowledge concerning David's desire to build the temple?",
     options: [
-      "He knelt with his hands spread toward heaven",
-      "He stood with folded arms",
-      "He lay face down",
-      "He sat before the altar",
+      "David did well to have the desire even though Solomon was chosen to build it",
+      "David's desire had been sinful",
+      "David lacked the resources to do it",
+      "David misunderstood God's command",
     ],
-    answer: "He knelt with his hands spread toward heaven",
-    reference: "2 Chronicles 6:13",
+    answer:
+      "David did well to have the desire even though Solomon was chosen to build it",
+    reference: "2 Chronicles 6:8-9",
   },
   {
-    question: "What had Solomon made for himself to stand on during the dedication?",
-    options: ["A bronze platform", "A wooden platform", "A golden platform", "A stone platform"],
+    question:
+      "What was Solomon standing on when he addressed the congregation in prayer?",
+    options: [
+      "A bronze platform",
+      "The bronze altar",
+      "A stone platform",
+      "The temple steps",
+    ],
     answer: "A bronze platform",
     reference: "2 Chronicles 6:13",
   },
   {
-    question: "What did Solomon say even the highest heavens could not do?",
-    options: ["Contain God", "Reveal God's wisdom", "Hear prayer", "Display God's glory"],
-    answer: "Contain God",
-    reference: "2 Chronicles 6:18",
-  },
-  {
-    question: "What did Solomon ask God to do when Israel was defeated because of sin and then repented?",
+    question:
+      "What were the dimensions of Solomon's bronze platform?",
     options: [
-      "Hear from heaven, forgive, and restore them",
-      "Send another king",
-      "Destroy their enemies immediately",
-      "Move the temple",
+      "Five cubits long, five wide, and three high",
+      "Ten cubits long, five wide, and three high",
+      "Five cubits long, three wide, and five high",
+      "Three cubits long, three wide, and five high",
     ],
-    answer: "Hear from heaven, forgive, and restore them",
-    reference: "2 Chronicles 6:24-25",
+    answer: "Five cubits long, five wide, and three high",
+    reference: "2 Chronicles 6:13",
   },
   {
-    question: "What did Solomon ask God to do when there was no rain because Israel had sinned?",
+    question:
+      "What posture did Solomon take while praying on the platform?",
     options: [
-      "Hear, forgive, teach them the right way, and send rain",
-      "Send Elijah",
-      "Move the people to Egypt",
-      "Destroy the crops",
+      "He knelt before the assembly and spread his hands toward heaven",
+      "He stood with raised hands",
+      "He lay facedown",
+      "He sat on the platform",
     ],
-    answer: "Hear, forgive, teach them the right way, and send rain",
-    reference: "2 Chronicles 6:26-27",
+    answer:
+      "He knelt before the assembly and spread his hands toward heaven",
+    reference: "2 Chronicles 6:13",
   },
   {
-    question: "What did Solomon ask concerning foreigners who came because of God's great name?",
-    options: [
-      "Hear their prayers",
-      "Make them priests",
-      "Require them to become Israelites",
-      "Send them away",
-    ],
-    answer: "Hear their prayers",
-    reference: "2 Chronicles 6:32-33",
-  },
-
-  {
-    question: "What happened when Solomon finished praying?",
+    question:
+      "What happened immediately after Solomon finished praying?",
     options: [
       "Fire came down from heaven and consumed the offerings",
-      "Rain began to fall",
-      "The ark opened",
-      "An angel appeared",
+      "The ark moved within the sanctuary",
+      "Thunder shook Jerusalem",
+      "Rain fell on the temple courts",
     ],
     answer: "Fire came down from heaven and consumed the offerings",
     reference: "2 Chronicles 7:1",
   },
   {
-    question: "What also filled the temple after Solomon's prayer?",
-    options: ["The glory of the Lord", "Smoke from incense", "A strong wind", "Music"],
-    answer: "The glory of the Lord",
+    question:
+      "What also filled the temple after Solomon's prayer?",
+    options: [
+      "The glory of the LORD",
+      "Smoke from the sacrifices",
+      "A bright flame",
+      "The sound of trumpets",
+    ],
+    answer: "The glory of the LORD",
     reference: "2 Chronicles 7:1",
   },
   {
-    question: "How did the Israelites respond when they saw the fire and glory?",
+    question:
+      "What did the Israelites do when they saw the fire and glory?",
     options: [
-      "They knelt with their faces to the ground and worshiped",
-      "They fled",
-      "They shouted for Solomon",
-      "They entered the temple",
+      "They knelt with faces to the ground and worshiped",
+      "They fled from the courtyard",
+      "They stood silently",
+      "They sang without instruments",
     ],
-    answer: "They knelt with their faces to the ground and worshiped",
+    answer: "They knelt with faces to the ground and worshiped",
     reference: "2 Chronicles 7:3",
   },
   {
-    question: "How many cattle did Solomon offer at the temple dedication?",
-    options: ["Twenty-two thousand", "One hundred twenty thousand", "Twelve thousand", "Seven thousand"],
-    answer: "Twenty-two thousand",
+    question:
+      "How many cattle did Solomon offer at the temple dedication?",
+    options: ["22,000", "12,000", "20,000", "70,000"],
+    answer: "22,000",
     reference: "2 Chronicles 7:5",
   },
   {
-    question: "How many sheep and goats did Solomon offer?",
-    options: ["One hundred twenty thousand", "Twenty-two thousand", "Seventy thousand", "Forty thousand"],
-    answer: "One hundred twenty thousand",
+    question:
+      "How many sheep and goats did Solomon offer?",
+    options: ["120,000", "100,000", "70,000", "22,000"],
+    answer: "120,000",
     reference: "2 Chronicles 7:5",
   },
   {
-    question: "What famous condition did God give for healing the land?",
+    question:
+      "How long did the dedication celebration and festival together last?",
+    options: [
+      "Fourteen days",
+      "Seven days",
+      "Twenty-one days",
+      "Eight days",
+    ],
+    answer: "Fourteen days",
+    reference: "2 Chronicles 7:8-9",
+  },
+  {
+    question:
+      "On what day did Solomon send the people home after the celebration?",
+    options: [
+      "The twenty-third day of the seventh month",
+      "The fifteenth day of the seventh month",
+      "The eighth day of the festival",
+      "The first day of the eighth month",
+    ],
+    answer: "The twenty-third day of the seventh month",
+    reference: "2 Chronicles 7:10",
+  },
+  {
+    question:
+      "What famous condition did God give for healing the land after national judgment?",
     options: [
       "His people must humble themselves, pray, seek His face, and turn from wicked ways",
       "The king must offer one thousand sacrifices",
-      "The people must rebuild the temple",
-      "The priests must fast forty days",
+      "The priests must fast seven days",
+      "The people must rebuild the altar",
     ],
-    answer: "His people must humble themselves, pray, seek His face, and turn from wicked ways",
+    answer:
+      "His people must humble themselves, pray, seek His face, and turn from wicked ways",
     reference: "2 Chronicles 7:14",
   },
   {
-    question: "What did God promise to do if His people met those conditions?",
-    options: [
-      "Hear from heaven, forgive their sin, and heal their land",
-      "Make them the wealthiest nation",
-      "Remove every enemy permanently",
-      "Give them another temple",
-    ],
-    answer: "Hear from heaven, forgive their sin, and heal their land",
-    reference: "2 Chronicles 7:14",
-  },
-
-  {
-    question: "How many years did Solomon spend building the temple and his palace?",
-    options: ["Twenty years", "Thirteen years", "Seven years", "Forty years"],
+    question:
+      "For how many years did Solomon build the temple and his own palace?",
+    options: ["Twenty years", "Thirteen years", "Seven years", "Twenty-seven years"],
     answer: "Twenty years",
     reference: "2 Chronicles 8:1",
   },
   {
-    question: "Which city did Solomon rebuild after receiving it back from Huram?",
-    options: ["The towns Huram had given him", "Jericho", "Hebron", "Samaria"],
-    answer: "The towns Huram had given him",
+    question:
+      "What did Solomon do with the towns Hiram had given him?",
+    options: [
+      "He rebuilt them and settled Israelites in them",
+      "He returned them to Hiram",
+      "He fortified them as military bases only",
+      "He gave them to Levites",
+    ],
+    answer: "He rebuilt them and settled Israelites in them",
     reference: "2 Chronicles 8:2",
   },
   {
-    question: "Why did Solomon move Pharaoh's daughter from the City of David?",
+    question:
+      "Which city did Solomon attack and capture?",
+    options: ["Hamath Zobah", "Damascus", "Rabbah", "Gath"],
+    answer: "Hamath Zobah",
+    reference: "2 Chronicles 8:3",
+  },
+  {
+    question:
+      "Which desert city did Solomon rebuild?",
+    options: ["Tadmor", "Gezer", "Beth Horon", "Baalath"],
+    answer: "Tadmor",
+    reference: "2 Chronicles 8:4",
+  },
+  {
+    question:
+      "Why did Solomon move Pharaoh's daughter from the City of David?",
     options: [
       "He said places entered by the ark were holy",
-      "She wanted a larger palace",
-      "David had forbidden her presence",
-      "The priests expelled her",
+      "She preferred her new palace",
+      "The priests objected to her nationality",
+      "The City of David was too small",
     ],
     answer: "He said places entered by the ark were holy",
     reference: "2 Chronicles 8:11",
   },
   {
-    question: "How many times a year did Solomon offer burnt offerings according to Moses' command?",
-    options: ["Three times", "Seven times", "Once", "Twelve times"],
-    answer: "Three times",
+    question:
+      "How often did Solomon offer burnt offerings according to Moses' command for the appointed festivals?",
+    options: [
+      "Daily requirements, Sabbaths, New Moons, and three annual festivals",
+      "Only on Sabbaths and festivals",
+      "Twice daily and at Passover",
+      "Only three times each year",
+    ],
+    answer:
+      "Daily requirements, Sabbaths, New Moons, and three annual festivals",
+    reference: "2 Chronicles 8:12-13",
+  },
+  {
+    question:
+      "Which three annual festivals are named in Solomon's temple arrangements?",
+    options: [
+      "Unleavened Bread, Weeks, and Tabernacles",
+      "Passover, Trumpets, and Atonement",
+      "Weeks, Atonement, and New Moon",
+      "Unleavened Bread, Purim, and Tabernacles",
+    ],
+    answer: "Unleavened Bread, Weeks, and Tabernacles",
     reference: "2 Chronicles 8:13",
   },
-
   {
-    question: "Who came to test Solomon with difficult questions?",
-    options: ["The queen of Sheba", "The queen of Egypt", "Jezebel", "Athaliah"],
-    answer: "The queen of Sheba",
+    question:
+      "Where did Solomon's ships sail to obtain gold?",
+    options: ["Ophir", "Tarshish", "Sheba", "Egypt"],
+    answer: "Ophir",
+    reference: "2 Chronicles 8:18",
+  },
+  {
+    question:
+      "How much gold did the fleet bring from Ophir?",
+    options: ["450 talents", "420 talents", "666 talents", "120 talents"],
+    answer: "450 talents",
+    reference: "2 Chronicles 8:18",
+  },
+  {
+    question:
+      "What did the queen of Sheba bring to Jerusalem in great abundance?",
+    options: [
+      "Spices, gold, and precious stones",
+      "Silver, ivory, and horses",
+      "Cedar, gold, and linen",
+      "Gold, grain, and oil",
+    ],
+    answer: "Spices, gold, and precious stones",
     reference: "2 Chronicles 9:1",
   },
   {
-    question: "What did Solomon do with all the queen of Sheba's questions?",
-    options: [
-      "He answered them all",
-      "He refused to answer",
-      "He referred her to the priests",
-      "He answered only half",
-    ],
-    answer: "He answered them all",
-    reference: "2 Chronicles 9:2",
-  },
-  {
-    question: "How did the queen react after seeing Solomon's wisdom and prosperity?",
-    options: [
-      "She was overwhelmed",
-      "She became angry",
-      "She challenged him again",
-      "She left immediately",
-    ],
-    answer: "She was overwhelmed",
-    reference: "2 Chronicles 9:4",
-  },
-  {
-    question: "How much gold did the queen of Sheba give Solomon?",
-    options: [
-      "One hundred twenty talents",
-      "Six hundred sixty-six talents",
-      "Three hundred talents",
-      "Fifty talents",
-    ],
-    answer: "One hundred twenty talents",
+    question:
+      "How much gold did the queen of Sheba give Solomon?",
+    options: ["120 talents", "450 talents", "666 talents", "300 talents"],
+    answer: "120 talents",
     reference: "2 Chronicles 9:9",
   },
   {
-    question: "How much gold did Solomon receive each year?",
-    options: [
-      "Six hundred sixty-six talents",
-      "One hundred twenty talents",
-      "Three hundred talents",
-      "One thousand talents",
-    ],
-    answer: "Six hundred sixty-six talents",
+    question:
+      "What rare wood did Solomon use for temple and palace steps and musical instruments?",
+    options: ["Algumwood", "Cedar", "Acacia", "Olive wood"],
+    answer: "Algumwood",
+    reference: "2 Chronicles 9:10-11",
+  },
+  {
+    question:
+      "How much gold did Solomon receive annually?",
+    options: ["666 talents", "450 talents", "120 talents", "300 talents"],
+    answer: "666 talents",
     reference: "2 Chronicles 9:13",
   },
   {
-    question: "How many large shields of hammered gold did Solomon make?",
-    options: ["Two hundred", "Three hundred", "Five hundred", "One hundred"],
+    question:
+      "How many large gold shields did Solomon make?",
+    options: ["Two hundred", "Three hundred", "One hundred", "Five hundred"],
     answer: "Two hundred",
     reference: "2 Chronicles 9:15",
   },
   {
-    question: "How many smaller shields of hammered gold did Solomon make?",
-    options: ["Three hundred", "Two hundred", "Five hundred", "Seven hundred"],
+    question:
+      "How many smaller gold shields did Solomon make?",
+    options: ["Three hundred", "Two hundred", "Four hundred", "One hundred"],
     answer: "Three hundred",
     reference: "2 Chronicles 9:16",
   },
   {
-    question: "What was Solomon's throne covered with?",
-    options: ["Ivory and pure gold", "Silver and cedar", "Bronze and gold", "Olive wood and gold"],
-    answer: "Ivory and pure gold",
+    question:
+      "What materials were used for Solomon's great throne?",
+    options: [
+      "Ivory overlaid with pure gold",
+      "Cedar overlaid with silver",
+      "Bronze and gold",
+      "Ebony and ivory",
+    ],
+    answer: "Ivory overlaid with pure gold",
     reference: "2 Chronicles 9:17",
   },
   {
-    question: "How many steps led to Solomon's throne?",
+    question:
+      "How many steps led to Solomon's throne?",
     options: ["Six", "Seven", "Twelve", "Five"],
     answer: "Six",
     reference: "2 Chronicles 9:18",
   },
   {
-    question: "How many lions stood on the six steps of Solomon's throne?",
-    options: ["Twelve", "Six", "Fourteen", "Ten"],
+    question:
+      "How many lions stood beside the six throne steps?",
+    options: ["Twelve", "Six", "Fourteen", "Twenty-four"],
     answer: "Twelve",
     reference: "2 Chronicles 9:19",
   },
   {
-    question: "How long did Solomon reign in Jerusalem?",
-    options: ["Forty years", "Thirty-three years", "Twenty years", "Fifty years"],
-    answer: "Forty years",
-    reference: "2 Chronicles 9:30",
+    question:
+      "What metal was considered of little value during Solomon's reign?",
+    options: ["Silver", "Bronze", "Iron", "Copper"],
+    answer: "Silver",
+    reference: "2 Chronicles 9:20",
   },
-
   {
-    question: "Where did Rehoboam go to be made king?",
+    question:
+      "What cargo did Solomon's ships bring once every three years?",
+    options: [
+      "Gold, silver, ivory, apes, and baboons",
+      "Gold, horses, cedar, and spices",
+      "Silver, bronze, lions, and apes",
+      "Gold, precious stones, and silk",
+    ],
+    answer: "Gold, silver, ivory, apes, and baboons",
+    reference: "2 Chronicles 9:21",
+  },
+  {
+    question:
+      "How many chariots and horses did Solomon accumulate later in his reign?",
+    options: [
+      "1,400 chariots and 12,000 horses",
+      "4,000 chariots and 12,000 horses",
+      "12,000 chariots and 1,400 horses",
+      "1,200 chariots and 14,000 horses",
+    ],
+    answer: "1,400 chariots and 12,000 horses",
+    reference: "2 Chronicles 9:25",
+  },
+  {
+    question:
+      "Where was Solomon buried?",
+    options: [
+      "The City of David",
+      "Mount Moriah",
+      "Bethlehem",
+      "Hebron",
+    ],
+    answer: "The City of David",
+    reference: "2 Chronicles 9:31",
+  },
+  {
+    question:
+      "Where did all Israel gather to make Rehoboam king?",
     options: ["Shechem", "Jerusalem", "Hebron", "Bethel"],
     answer: "Shechem",
     reference: "2 Chronicles 10:1",
   },
   {
-    question: "What did the people ask Rehoboam to lighten?",
+    question:
+      "Where had Jeroboam been living when he heard Rehoboam had become king?",
+    options: ["Egypt", "Moab", "Damascus", "Tyre"],
+    answer: "Egypt",
+    reference: "2 Chronicles 10:2",
+  },
+  {
+    question:
+      "What did Israel ask Rehoboam to reduce?",
     options: [
-      "The harsh labor and heavy yoke Solomon placed on them",
-      "The temple sacrifices",
-      "The army service",
-      "The taxes on foreigners",
+      "The harsh labor and heavy yoke imposed by Solomon",
+      "Temple taxes",
+      "Military service",
+      "The required grain tribute",
     ],
-    answer: "The harsh labor and heavy yoke Solomon placed on them",
+    answer: "The harsh labor and heavy yoke imposed by Solomon",
     reference: "2 Chronicles 10:4",
   },
   {
-    question: "Whose advice did Rehoboam reject?",
+    question:
+      "How many days did Rehoboam ask for before giving the people his answer?",
+    options: ["Three days", "Seven days", "One day", "Ten days"],
+    answer: "Three days",
+    reference: "2 Chronicles 10:5",
+  },
+  {
+    question:
+      "What did the older advisers tell Rehoboam to do?",
     options: [
-      "The elders who had served Solomon",
-      "The young men",
-      "The priests",
-      "Jeroboam's advisers",
+      "Be kind to the people and speak favorably to them",
+      "Increase the burden gradually",
+      "Remove the forced labor entirely",
+      "Arrest Jeroboam",
     ],
-    answer: "The elders who had served Solomon",
-    reference: "2 Chronicles 10:6-8",
+    answer: "Be kind to the people and speak favorably to them",
+    reference: "2 Chronicles 10:7",
   },
   {
-    question: "What did Rehoboam say his little finger was thicker than?",
-    options: ["His father's waist", "Jeroboam's arm", "A cedar tree", "A soldier's spear"],
-    answer: "His father's waist",
-    reference: "2 Chronicles 10:10",
-  },
-  {
-    question: "What did Rehoboam say he would use instead of whips?",
-    options: ["Scorpions", "Chains", "Swords", "Iron rods"],
-    answer: "Scorpions",
+    question:
+      "What threat did Rehoboam make using the image of scorpions?",
+    options: [
+      "Solomon scourged with whips, but he would scourge with scorpions",
+      "Solomon used rods, but he would use scorpions",
+      "He would send scorpions among rebellious cities",
+      "His soldiers would be fiercer than scorpions",
+    ],
+    answer: "Solomon scourged with whips, but he would scourge with scorpions",
     reference: "2 Chronicles 10:11",
   },
   {
-    question: "Who became king over the northern tribes?",
-    options: ["Jeroboam", "Rehoboam", "Abijah", "Baasha"],
-    answer: "Jeroboam",
-    reference: "2 Chronicles 10:16-19",
+    question:
+      "Who was stoned when Rehoboam sent him to the rebellious Israelites?",
+    options: [
+      "Hadoram, who was over forced labor",
+      "Shemaiah",
+      "Adonijah",
+      "Jeroboam",
+    ],
+    answer: "Hadoram, who was over forced labor",
+    reference: "2 Chronicles 10:18",
   },
-
   {
-    question: "How many chosen fighting men did Rehoboam gather to fight Israel?",
-    options: ["One hundred eighty thousand", "Two hundred thousand", "Four hundred thousand", "One hundred thousand"],
-    answer: "One hundred eighty thousand",
+    question:
+      "How many selected warriors did Rehoboam assemble from Judah and Benjamin?",
+    options: ["180,000", "120,000", "200,000", "80,000"],
+    answer: "180,000",
     reference: "2 Chronicles 11:1",
   },
   {
-    question: "Which prophet told Rehoboam not to fight against Israel?",
-    options: ["Shemaiah", "Ahijah", "Elijah", "Nathan"],
+    question:
+      "Which prophet told Rehoboam not to fight the northern tribes?",
+    options: ["Shemaiah", "Ahijah", "Iddo", "Azariah"],
     answer: "Shemaiah",
     reference: "2 Chronicles 11:2-4",
   },
   {
-    question: "Why did priests and Levites leave the northern kingdom and come to Judah?",
+    question:
+      "Why did priests and Levites from throughout Israel move to Judah and Jerusalem?",
     options: [
-      "Jeroboam rejected them from serving as priests of the Lord",
-      "Rehoboam paid them more",
-      "The temple had just been built",
-      "They feared Egypt",
+      "Jeroboam rejected them from serving as priests of the LORD",
+      "Rehoboam offered them land",
+      "The temple required more workers",
+      "The northern tribes expelled all Levites",
     ],
-    answer: "Jeroboam rejected them from serving as priests of the Lord",
+    answer: "Jeroboam rejected them from serving as priests of the LORD",
     reference: "2 Chronicles 11:13-14",
   },
   {
-    question: "For what did Jeroboam appoint his own priests?",
+    question:
+      "What kinds of priests did Jeroboam appoint instead?",
     options: [
-      "The high places, goat idols, and calves he had made",
-      "The temple in Jerusalem",
-      "Only the golden calves",
-      "Only Baal worship",
+      "Priests for the high places, goat idols, and calf idols",
+      "Priests descended from Aaron",
+      "Egyptian priests",
+      "Priests of Baal only",
     ],
-    answer: "The high places, goat idols, and calves he had made",
+    answer: "Priests for the high places, goat idols, and calf idols",
     reference: "2 Chronicles 11:15",
   },
-
   {
-    question: "Why did Shishak king of Egypt attack Jerusalem?",
-    options: [
-      "Rehoboam and Israel had been unfaithful to the Lord",
-      "Judah refused to pay tribute",
-      "Jeroboam invited him",
-      "Solomon had attacked Egypt",
-    ],
-    answer: "Rehoboam and Israel had been unfaithful to the Lord",
-    reference: "2 Chronicles 12:1-2",
+    question:
+      "For how many years did those faithful to the LORD strengthen Rehoboam's kingdom?",
+    options: ["Three years", "Seven years", "Five years", "Seventeen years"],
+    answer: "Three years",
+    reference: "2 Chronicles 11:17",
   },
   {
-    question: "What did Shemaiah tell Rehoboam and Judah's leaders about their situation?",
+    question:
+      "Who was Rehoboam's favorite wife?",
     options: [
-      "They had abandoned the Lord, so He had abandoned them to Shishak",
-      "Egypt would be destroyed immediately",
-      "Jeroboam would rescue them",
-      "The temple would protect them automatically",
+      "Maacah daughter of Absalom",
+      "Mahalath daughter of Jerimoth",
+      "Naamah the Ammonite",
+      "Abihail",
     ],
-    answer: "They had abandoned the Lord, so He had abandoned them to Shishak",
+    answer: "Maacah daughter of Absalom",
+    reference: "2 Chronicles 11:20-21",
+  },
+  {
+    question:
+      "How many wives and concubines did Rehoboam have?",
+    options: [
+      "Eighteen wives and sixty concubines",
+      "Sixty wives and eighteen concubines",
+      "Twenty wives and forty concubines",
+      "Twelve wives and seventy concubines",
+    ],
+    answer: "Eighteen wives and sixty concubines",
+    reference: "2 Chronicles 11:21",
+  },
+  {
+    question:
+      "How many sons and daughters did Rehoboam have?",
+    options: [
+      "Twenty-eight sons and sixty daughters",
+      "Sixty sons and twenty-eight daughters",
+      "Thirty sons and thirty daughters",
+      "Twenty-four sons and sixty daughters",
+    ],
+    answer: "Twenty-eight sons and sixty daughters",
+    reference: "2 Chronicles 11:21",
+  },
+  {
+    question:
+      "In which year of Rehoboam's reign did Shishak attack Jerusalem?",
+    options: ["The fifth year", "The third year", "The seventh year", "The tenth year"],
+    answer: "The fifth year",
+    reference: "2 Chronicles 12:2",
+  },
+  {
+    question:
+      "How many chariots and horsemen did Shishak bring from Egypt?",
+    options: [
+      "1,200 chariots and 60,000 horsemen",
+      "1,400 chariots and 12,000 horsemen",
+      "2,000 chariots and 40,000 horsemen",
+      "600 chariots and 60,000 horsemen",
+    ],
+    answer: "1,200 chariots and 60,000 horsemen",
+    reference: "2 Chronicles 12:3",
+  },
+  {
+    question:
+      "Which prophet confronted Rehoboam and Judah's leaders during Shishak's invasion?",
+    options: ["Shemaiah", "Iddo", "Azariah", "Hanani"],
+    answer: "Shemaiah",
     reference: "2 Chronicles 12:5",
   },
   {
-    question: "How did the leaders respond to Shemaiah's message?",
+    question:
+      "How did Judah's leaders respond to Shemaiah's message?",
     options: [
-      "They humbled themselves",
-      "They rejected it",
-      "They fled",
-      "They attacked the prophet",
+      "They humbled themselves and said the LORD is just",
+      "They prepared for war",
+      "They fled Jerusalem",
+      "They blamed Rehoboam",
     ],
-    answer: "They humbled themselves",
+    answer: "They humbled themselves and said the LORD is just",
     reference: "2 Chronicles 12:6",
   },
   {
-    question: "What did Shishak take from Jerusalem?",
-    options: [
-      "The temple and palace treasures",
-      "The ark",
-      "The bronze altar",
-      "The temple pillars",
-    ],
-    answer: "The temple and palace treasures",
-    reference: "2 Chronicles 12:9",
-  },
-  {
-    question: "What replaced Solomon's gold shields after Shishak took them?",
+    question:
+      "What did Rehoboam make to replace the gold shields taken by Shishak?",
     options: ["Bronze shields", "Silver shields", "Iron shields", "Wooden shields"],
     answer: "Bronze shields",
     reference: "2 Chronicles 12:10",
   },
-
   {
-    question: "Who succeeded Rehoboam as king of Judah?",
-    options: ["Abijah", "Asa", "Jehoshaphat", "Jeroboam"],
-    answer: "Abijah",
-    reference: "2 Chronicles 12:16",
+    question:
+      "Why is Rehoboam summarized as doing evil?",
+    options: [
+      "He had not set his heart on seeking the LORD",
+      "He rebuilt the high places",
+      "He worshiped the golden calves",
+      "He married foreign wives",
+    ],
+    answer: "He had not set his heart on seeking the LORD",
+    reference: "2 Chronicles 12:14",
   },
   {
-    question: "How many troops did Abijah take into battle against Jeroboam?",
-    options: ["Four hundred thousand", "Eight hundred thousand", "Two hundred thousand", "One hundred eighty thousand"],
-    answer: "Four hundred thousand",
+    question:
+      "How many fighting men did Abijah bring into battle against Jeroboam?",
+    options: ["400,000", "800,000", "180,000", "500,000"],
+    answer: "400,000",
     reference: "2 Chronicles 13:3",
   },
   {
-    question: "How many troops did Jeroboam deploy?",
-    options: ["Eight hundred thousand", "Four hundred thousand", "One million", "Six hundred thousand"],
-    answer: "Eight hundred thousand",
+    question:
+      "How many selected warriors did Jeroboam bring against Abijah?",
+    options: ["800,000", "400,000", "500,000", "600,000"],
+    answer: "800,000",
     reference: "2 Chronicles 13:3",
   },
   {
-    question: "What advantage did Jeroboam attempt to gain during the battle?",
-    options: [
-      "He sent troops to ambush Judah from behind",
-      "He attacked at night",
-      "He used Egyptian chariots",
-      "He surrounded Jerusalem",
-    ],
-    answer: "He sent troops to ambush Judah from behind",
-    reference: "2 Chronicles 13:13",
+    question:
+      "From what mountain did Abijah address Jeroboam and Israel?",
+    options: ["Mount Zemaraim", "Mount Gerizim", "Mount Ebal", "Mount Moriah"],
+    answer: "Mount Zemaraim",
+    reference: "2 Chronicles 13:4",
   },
   {
-    question: "What did Judah do when they realized they were attacked from front and rear?",
+    question:
+      "What covenant did Abijah say God had made with David and his descendants?",
     options: [
-      "They cried out to the Lord",
-      "They surrendered",
-      "They fled",
-      "They called Egypt",
+      "A covenant of salt",
+      "A covenant of peace",
+      "An everlasting priestly covenant",
+      "A covenant of blood",
     ],
-    answer: "They cried out to the Lord",
+    answer: "A covenant of salt",
+    reference: "2 Chronicles 13:5",
+  },
+  {
+    question:
+      "What did Abijah accuse Jeroboam of using as priests?",
+    options: [
+      "Anyone who came with a young bull and seven rams",
+      "Only Levites who had defected",
+      "Egyptian priests",
+      "Priests from Ephraim",
+    ],
+    answer: "Anyone who came with a young bull and seven rams",
+    reference: "2 Chronicles 13:9",
+  },
+  {
+    question:
+      "What happened when Judah realized Jeroboam's army had ambushed them from behind?",
+    options: [
+      "They cried out to the LORD while the priests sounded trumpets",
+      "They retreated to Jerusalem",
+      "They formed a circle around the priests",
+      "They sent messengers to Asa",
+    ],
+    answer: "They cried out to the LORD while the priests sounded trumpets",
     reference: "2 Chronicles 13:14",
   },
   {
-    question: "How many Israelite soldiers fell in Abijah's victory?",
-    options: ["Five hundred thousand", "Four hundred thousand", "Eight hundred thousand", "One hundred thousand"],
-    answer: "Five hundred thousand",
+    question:
+      "How many Israelite fighting men fell before Abijah and Judah?",
+    options: ["500,000", "400,000", "800,000", "300,000"],
+    answer: "500,000",
     reference: "2 Chronicles 13:17",
   },
-
   {
-    question: "What did Asa do early in his reign?",
+    question:
+      "Which three towns did Abijah capture from Jeroboam?",
     options: [
-      "Removed foreign altars and high places",
-      "Built golden calves",
-      "Made an alliance with Egypt",
-      "Closed the temple",
+      "Bethel, Jeshanah, and Ephron",
+      "Shechem, Bethel, and Penuel",
+      "Tirzah, Dan, and Bethel",
+      "Jericho, Ephron, and Mizpah",
     ],
-    answer: "Removed foreign altars and high places",
-    reference: "2 Chronicles 14:2-5",
+    answer: "Bethel, Jeshanah, and Ephron",
+    reference: "2 Chronicles 13:19",
   },
   {
-    question: "How many soldiers from Judah did Asa have carrying large shields and spears?",
-    options: ["Three hundred thousand", "Two hundred eighty thousand", "Five hundred thousand", "One million"],
-    answer: "Three hundred thousand",
+    question:
+      "How many wives, sons, and daughters did Abijah have?",
+    options: [
+      "Fourteen wives, twenty-two sons, and sixteen daughters",
+      "Eighteen wives, twenty-eight sons, and sixty daughters",
+      "Fourteen wives, sixteen sons, and twenty-two daughters",
+      "Twelve wives, twenty sons, and fourteen daughters",
+    ],
+    answer: "Fourteen wives, twenty-two sons, and sixteen daughters",
+    reference: "2 Chronicles 13:21",
+  },
+  {
+    question:
+      "For how many years did Judah have rest early in Asa's reign?",
+    options: ["Ten years", "Seven years", "Three years", "Twenty years"],
+    answer: "Ten years",
+    reference: "2 Chronicles 14:1",
+  },
+  {
+    question:
+      "How large was Asa's army from Judah and Benjamin?",
+    options: [
+      "300,000 from Judah and 280,000 from Benjamin",
+      "280,000 from Judah and 300,000 from Benjamin",
+      "400,000 from Judah and 180,000 from Benjamin",
+      "500,000 total",
+    ],
+    answer: "300,000 from Judah and 280,000 from Benjamin",
     reference: "2 Chronicles 14:8",
   },
   {
-    question: "How many Benjamite soldiers carried small shields and bows?",
-    options: ["Two hundred eighty thousand", "Three hundred thousand", "One hundred eighty thousand", "Four hundred thousand"],
-    answer: "Two hundred eighty thousand",
-    reference: "2 Chronicles 14:8",
-  },
-  {
-    question: "Who invaded Judah with an army of a million men?",
-    options: ["Zerah the Cushite", "Shishak", "Baasha", "Ben-Hadad"],
+    question:
+      "Who came against Asa with an army of a million men and three hundred chariots?",
+    options: [
+      "Zerah the Cushite",
+      "Shishak of Egypt",
+      "Baasha of Israel",
+      "Ben-Hadad of Aram",
+    ],
     answer: "Zerah the Cushite",
     reference: "2 Chronicles 14:9",
   },
   {
-    question: "What did Asa say to God before fighting the Cushite army?",
+    question:
+      "At what valley did Asa confront Zerah?",
     options: [
-      "There is no one like You to help the powerless against the mighty",
-      "Give me a larger army",
-      "Remember David's victories",
-      "Destroy Egypt first",
+      "The Valley of Zephathah near Mareshah",
+      "The Valley of Elah",
+      "The Valley of Salt",
+      "The Valley of Berakah",
     ],
-    answer: "There is no one like You to help the powerless against the mighty",
+    answer: "The Valley of Zephathah near Mareshah",
+    reference: "2 Chronicles 14:10",
+  },
+  {
+    question:
+      "What did Asa say in prayer before fighting Zerah?",
+    options: [
+      "It is no problem for the LORD to help the powerless against the mighty",
+      "The battle belongs to the LORD",
+      "Judah's army was larger than the enemy",
+      "God had promised victory through David",
+    ],
+    answer:
+      "It is no problem for the LORD to help the powerless against the mighty",
     reference: "2 Chronicles 14:11",
   },
   {
-    question: "What happened to the Cushite army?",
-    options: [
-      "The Lord struck them down before Asa and Judah",
-      "They defeated Judah",
-      "They withdrew peacefully",
-      "Egypt rescued them",
-    ],
-    answer: "The Lord struck them down before Asa and Judah",
-    reference: "2 Chronicles 14:12",
+    question:
+      "To what city did Asa's forces pursue the Cushites?",
+    options: ["Gerar", "Mareshah", "Lachish", "Gath"],
+    answer: "Gerar",
+    reference: "2 Chronicles 14:13",
   },
-
   {
-    question: "Which prophet encouraged Asa after the victory over the Cushites?",
-    options: ["Azariah son of Oded", "Hanani", "Jehu", "Shemaiah"],
+    question:
+      "On whom did the Spirit of God come before Asa's reforms?",
+    options: [
+      "Azariah son of Oded",
+      "Hanani",
+      "Jehu son of Hanani",
+      "Shemaiah",
+    ],
     answer: "Azariah son of Oded",
-    reference: "2 Chronicles 15:1-2",
+    reference: "2 Chronicles 15:1",
   },
   {
-    question: "What principle did Azariah tell Asa?",
+    question:
+      "What principle did Azariah tell Asa concerning seeking God?",
     options: [
-      "The Lord is with you when you are with Him",
-      "The king must never fight",
-      "Judah will never be defeated",
-      "Sacrifice is greater than obedience",
+      "If you seek Him, He will be found by you, but if you forsake Him, He will forsake you",
+      "Obedience is better than sacrifice",
+      "The LORD helps those who fight bravely",
+      "Judah will never lack a king",
     ],
-    answer: "The Lord is with you when you are with Him",
+    answer:
+      "If you seek Him, He will be found by you, but if you forsake Him, He will forsake you",
     reference: "2 Chronicles 15:2",
   },
   {
-    question: "What did Asa remove from his grandmother Maakah?",
+    question:
+      "How many cattle and sheep and goats did Asa's assembly sacrifice from their plunder?",
+    options: [
+      "Seven hundred cattle and seven thousand sheep and goats",
+      "Seven thousand cattle and seven hundred sheep",
+      "One thousand cattle and ten thousand sheep",
+      "Three hundred cattle and seven thousand sheep",
+    ],
+    answer: "Seven hundred cattle and seven thousand sheep and goats",
+    reference: "2 Chronicles 15:11",
+  },
+  {
+    question:
+      "What penalty did the people covenant for anyone who refused to seek the LORD?",
+    options: [
+      "Death, whether small or great, man or woman",
+      "Exile from Judah",
+      "Loss of property",
+      "Removal from the assembly",
+    ],
+    answer: "Death, whether small or great, man or woman",
+    reference: "2 Chronicles 15:13",
+  },
+  {
+    question:
+      "What did Asa remove from Maacah because of her idolatry?",
     options: [
       "Her position as queen mother",
-      "Her property",
-      "Her royal clothing",
-      "Her place in Jerusalem",
+      "Her royal inheritance",
+      "Her residence in Jerusalem",
+      "Her priestly privileges",
     ],
     answer: "Her position as queen mother",
     reference: "2 Chronicles 15:16",
   },
   {
-    question: "Why did Asa remove Maakah?",
-    options: [
-      "She had made a repulsive image for Asherah",
-      "She supported Baasha",
-      "She worshiped in Samaria",
-      "She opposed the temple",
-    ],
-    answer: "She had made a repulsive image for Asherah",
+    question:
+      "Where did Asa burn Maacah's repulsive Asherah image?",
+    options: ["The Kidron Valley", "The Valley of Hinnom", "Bethel", "Mount of Olives"],
+    answer: "The Kidron Valley",
     reference: "2 Chronicles 15:16",
   },
-
   {
-    question: "Which king of Israel fortified Ramah to block movement in and out of Judah?",
-    options: ["Baasha", "Jeroboam", "Omri", "Ahab"],
-    answer: "Baasha",
+    question:
+      "Until what year of Asa's reign was there no more war?",
+    options: ["The thirty-fifth year", "The twentieth year", "The thirty-sixth year", "The fortieth year"],
+    answer: "The thirty-fifth year",
+    reference: "2 Chronicles 15:19",
+  },
+  {
+    question:
+      "Which king fortified Ramah in Asa's thirty-sixth year?",
+    options: ["Baasha king of Israel", "Ben-Hadad", "Zerah", "Jeroboam"],
+    answer: "Baasha king of Israel",
     reference: "2 Chronicles 16:1",
   },
   {
-    question: "Whom did Asa hire to attack Baasha?",
-    options: ["Ben-Hadad king of Aram", "Shishak", "Zerah", "Hiram"],
+    question:
+      "Which foreign king did Asa bribe to break his treaty with Baasha?",
+    options: [
+      "Ben-Hadad king of Aram",
+      "Shishak king of Egypt",
+      "Zerah the Cushite",
+      "Hiram king of Tyre",
+    ],
     answer: "Ben-Hadad king of Aram",
-    reference: "2 Chronicles 16:2-4",
+    reference: "2 Chronicles 16:2-3",
   },
   {
-    question: "Which prophet rebuked Asa for relying on the king of Aram instead of the Lord?",
-    options: ["Hanani", "Azariah", "Jehu", "Shemaiah"],
-    answer: "Hanani",
+    question:
+      "Which prophet rebuked Asa for relying on Aram instead of the LORD?",
+    options: ["Hanani the seer", "Azariah son of Oded", "Jehu son of Hanani", "Shemaiah"],
+    answer: "Hanani the seer",
     reference: "2 Chronicles 16:7",
   },
   {
-    question: "What did Hanani say the eyes of the Lord do?",
+    question:
+      "What famous statement did Hanani make about the eyes of the LORD?",
     options: [
-      "Range throughout the earth to strengthen those fully committed to Him",
-      "Watch only Jerusalem",
-      "Judge only kings",
-      "Look only upon priests",
+      "They range throughout the earth to strengthen those whose hearts are fully committed to Him",
+      "They watch the righteous and wicked",
+      "They search every heart and thought",
+      "They remain on Jerusalem continually",
     ],
-    answer: "Range throughout the earth to strengthen those fully committed to Him",
+    answer:
+      "They range throughout the earth to strengthen those whose hearts are fully committed to Him",
     reference: "2 Chronicles 16:9",
   },
   {
-    question: "How did Asa respond to Hanani's rebuke?",
+    question:
+      "What did Asa do to Hanani after being rebuked?",
     options: [
-      "He became angry and imprisoned him",
-      "He repented immediately",
-      "He left the throne",
-      "He rewarded him",
+      "He put him in prison",
+      "He expelled him from Judah",
+      "He ordered him beaten",
+      "He ignored him",
     ],
-    answer: "He became angry and imprisoned him",
+    answer: "He put him in prison",
     reference: "2 Chronicles 16:10",
   },
   {
-    question: "What illness afflicted Asa late in his reign?",
-    options: ["A severe disease in his feet", "Leprosy", "Blindness", "Paralysis"],
+    question:
+      "What disease afflicted Asa late in his reign?",
+    options: [
+      "A severe disease in his feet",
+      "Blindness",
+      "A skin disease",
+      "Paralysis",
+    ],
     answer: "A severe disease in his feet",
     reference: "2 Chronicles 16:12",
   },
   {
-    question: "What mistake did Asa make during his illness?",
+    question:
+      "What failure is specifically mentioned regarding Asa's illness?",
     options: [
-      "He sought help only from physicians rather than the Lord",
+      "He sought help only from physicians rather than from the LORD",
       "He refused all treatment",
-      "He consulted a medium",
-      "He sacrificed to Baal",
+      "He consulted foreign gods",
+      "He blamed Hanani",
     ],
-    answer: "He sought help only from physicians rather than the Lord",
+    answer: "He sought help only from physicians rather than from the LORD",
     reference: "2 Chronicles 16:12",
   },
-
   {
-    question: "Who succeeded Asa as king?",
-    options: ["Jehoshaphat", "Jehoram", "Ahaziah", "Joash"],
-    answer: "Jehoshaphat",
-    reference: "2 Chronicles 17:1",
+    question:
+      "In what year of Asa's reign did he die?",
+    options: ["The forty-first year", "The thirty-ninth year", "The fortieth year", "The forty-second year"],
+    answer: "The forty-first year",
+    reference: "2 Chronicles 16:13",
   },
   {
-    question: "What did Jehoshaphat remove from Judah?",
-    options: ["High places and Asherah poles", "The temple", "The Levites", "The city walls"],
-    answer: "High places and Asherah poles",
-    reference: "2 Chronicles 17:6",
-  },
-  {
-    question: "What did Jehoshaphat send officials, Levites, and priests throughout Judah to do?",
+    question:
+      "What unusual feature accompanied Asa's burial?",
     options: [
-      "Teach the Book of the Law",
-      "Collect taxes",
-      "Recruit soldiers",
-      "Repair city walls",
+      "A very great fire was made in his honor",
+      "His body was burned",
+      "His weapons were buried with him",
+      "He was buried outside the City of David",
     ],
-    answer: "Teach the Book of the Law",
+    answer: "A very great fire was made in his honor",
+    reference: "2 Chronicles 16:14",
+  },
+  {
+    question:
+      "What did Jehoshaphat do in the third year of his reign to teach Judah?",
+    options: [
+      "He sent officials, Levites, and priests with the Book of the Law",
+      "He ordered every town to build a synagogue",
+      "He brought all Judah to Jerusalem",
+      "He appointed prophets in every city",
+    ],
+    answer: "He sent officials, Levites, and priests with the Book of the Law",
     reference: "2 Chronicles 17:7-9",
   },
   {
-    question: "What effect did the fear of the Lord have on surrounding kingdoms?",
+    question:
+      "What effect did the fear of the LORD have on surrounding kingdoms during Jehoshaphat's reign?",
     options: [
-      "They did not make war against Jehoshaphat",
-      "They all converted",
-      "They paid temple taxes",
-      "They abandoned their cities",
+      "They did not make war against Judah",
+      "They paid tribute to the temple",
+      "They converted to Israel's worship",
+      "They sent their armies to assist Judah",
     ],
-    answer: "They did not make war against Jehoshaphat",
+    answer: "They did not make war against Judah",
     reference: "2 Chronicles 17:10",
   },
-
   {
-    question: "With which king of Israel did Jehoshaphat form a marriage alliance?",
-    options: ["Ahab", "Omri", "Jehu", "Jeroboam"],
+    question:
+      "What gifts did some Philistines bring Jehoshaphat?",
+    options: [
+      "Gifts and silver as tribute",
+      "Gold and horses",
+      "Grain and wine",
+      "Weapons and chariots",
+    ],
+    answer: "Gifts and silver as tribute",
+    reference: "2 Chronicles 17:11",
+  },
+  {
+    question:
+      "What did the Arabs bring Jehoshaphat?",
+    options: [
+      "7,700 rams and 7,700 goats",
+      "7,000 cattle and 7,000 sheep",
+      "10,000 camels",
+      "7,700 horses and goats",
+    ],
+    answer: "7,700 rams and 7,700 goats",
+    reference: "2 Chronicles 17:11",
+  },
+  {
+    question:
+      "Which king of Israel did Jehoshaphat become allied with by marriage?",
+    options: ["Ahab", "Omri", "Ahaziah", "Jehoram"],
     answer: "Ahab",
     reference: "2 Chronicles 18:1",
   },
   {
-    question: "What battle did Ahab ask Jehoshaphat to join?",
-    options: ["Ramoth Gilead", "Jezreel", "Samaria", "Megiddo"],
-    answer: "Ramoth Gilead",
-    reference: "2 Chronicles 18:2-3",
+    question:
+      "Approximately how many prophets did Ahab gather concerning Ramoth Gilead?",
+    options: ["Four hundred", "Four hundred fifty", "One hundred", "Seven thousand"],
+    answer: "Four hundred",
+    reference: "2 Chronicles 18:5",
   },
   {
-    question: "What did Jehoshaphat insist on doing before battle?",
+    question:
+      "Which prophet did Ahab say he hated because he never prophesied good about him?",
     options: [
-      "Seeking the word of the Lord",
-      "Calling Egyptian allies",
-      "Offering a thousand sacrifices",
-      "Consulting the army",
+      "Micaiah son of Imlah",
+      "Elijah",
+      "Jehu son of Hanani",
+      "Azariah son of Oded",
     ],
-    answer: "Seeking the word of the Lord",
-    reference: "2 Chronicles 18:4",
-  },
-  {
-    question: "Which prophet did Ahab dislike because he never prophesied anything good about him?",
-    options: ["Micaiah", "Elijah", "Elisha", "Hanani"],
-    answer: "Micaiah",
+    answer: "Micaiah son of Imlah",
     reference: "2 Chronicles 18:7",
   },
   {
-    question: "What did Micaiah see concerning Israel in the battle?",
-    options: [
-      "Israel scattered like sheep without a shepherd",
-      "Israel victorious over Aram",
-      "Ahab crowned in Jerusalem",
-      "Jehoshaphat fleeing Judah",
-    ],
-    answer: "Israel scattered like sheep without a shepherd",
-    reference: "2 Chronicles 18:16",
+    question:
+      "What did Zedekiah son of Kenaanah make as a prophetic symbol?",
+    options: ["Iron horns", "A wooden yoke", "A bronze sword", "A clay jar"],
+    answer: "Iron horns",
+    reference: "2 Chronicles 18:10",
   },
   {
-    question: "How was Ahab fatally wounded?",
+    question:
+      "What heavenly scene did Micaiah describe?",
     options: [
-      "An archer shot him at random between the sections of his armor",
-      "Micaiah struck him",
-      "Jehoshaphat wounded him",
+      "The LORD on His throne with the host of heaven standing on His right and left",
+      "Four living creatures surrounding God",
+      "Angels ascending and descending",
+      "A fiery chariot before God's throne",
+    ],
+    answer:
+      "The LORD on His throne with the host of heaven standing on His right and left",
+    reference: "2 Chronicles 18:18",
+  },
+  {
+    question:
+      "What did the spirit volunteer to become in Ahab's prophets?",
+    options: [
+      "A deceiving spirit in their mouths",
+      "A spirit of fear",
+      "A spirit of confusion",
+      "A spirit of silence",
+    ],
+    answer: "A deceiving spirit in their mouths",
+    reference: "2 Chronicles 18:21",
+  },
+  {
+    question:
+      "What did Zedekiah do to Micaiah after hearing his prophecy?",
+    options: [
+      "He slapped him on the face",
+      "He struck him with the iron horns",
+      "He tore his robe",
+      "He had him bound",
+    ],
+    answer: "He slapped him on the face",
+    reference: "2 Chronicles 18:23",
+  },
+  {
+    question:
+      "What did Ahab order Micaiah to be fed in prison?",
+    options: [
+      "Bread and water",
+      "Barley and water",
+      "Bread only",
+      "Water and salt",
+    ],
+    answer: "Bread and water",
+    reference: "2 Chronicles 18:26",
+  },
+  {
+    question:
+      "How did Ahab try to avoid being targeted in battle?",
+    options: [
+      "He disguised himself while Jehoshaphat wore royal robes",
+      "He exchanged armor with Jehoshaphat",
+      "He fought on foot",
+      "He remained behind the army",
+    ],
+    answer: "He disguised himself while Jehoshaphat wore royal robes",
+    reference: "2 Chronicles 18:29",
+  },
+  {
+    question:
+      "How was Ahab fatally wounded?",
+    options: [
+      "An archer drew his bow at random and struck him between sections of armor",
+      "A chariot commander recognized him",
+      "A spear struck him",
       "He fell from his chariot",
     ],
-    answer: "An archer shot him at random between the sections of his armor",
+    answer:
+      "An archer drew his bow at random and struck him between sections of armor",
     reference: "2 Chronicles 18:33",
   },
-
   {
-    question: "Who rebuked Jehoshaphat after he returned safely from battle?",
-    options: ["Jehu son of Hanani", "Micaiah", "Elijah", "Azariah"],
+    question:
+      "Which seer rebuked Jehoshaphat for helping Ahab?",
+    options: [
+      "Jehu son of Hanani",
+      "Hanani",
+      "Azariah son of Oded",
+      "Jahaziel",
+    ],
     answer: "Jehu son of Hanani",
     reference: "2 Chronicles 19:2",
   },
   {
-    question: "Why was Jehoshaphat rebuked?",
+    question:
+      "What good thing did Jehu say had nevertheless been found in Jehoshaphat?",
     options: [
-      "He had helped the wicked and loved those who hated the Lord",
-      "He had abandoned Jerusalem",
-      "He had refused to fight",
-      "He had removed the Levites",
+      "He had removed the Asherah poles and set his heart on seeking God",
+      "He had destroyed every high place",
+      "He had refused to worship Baal",
+      "He had rebuilt the temple",
     ],
-    answer: "He had helped the wicked and loved those who hated the Lord",
-    reference: "2 Chronicles 19:2",
+    answer:
+      "He had removed the Asherah poles and set his heart on seeking God",
+    reference: "2 Chronicles 19:3",
   },
   {
-    question: "What judicial reform did Jehoshaphat establish?",
+    question:
+      "What principle did Jehoshaphat give judges concerning their authority?",
     options: [
-      "He appointed judges throughout fortified cities",
-      "He abolished local judges",
-      "He made priests the only judges",
-      "He moved all cases to Jerusalem",
+      "They judged not for man but for the LORD",
+      "They represented the king alone",
+      "They were accountable only to priests",
+      "They should favor the poor",
     ],
-    answer: "He appointed judges throughout fortified cities",
-    reference: "2 Chronicles 19:5",
+    answer: "They judged not for man but for the LORD",
+    reference: "2 Chronicles 19:6",
   },
-
   {
-    question: "Which peoples joined together to attack Jehoshaphat?",
+    question:
+      "Which high priest did Jehoshaphat place over matters concerning the LORD?",
+    options: ["Amariah", "Zadok", "Azariah", "Jehoiada"],
+    answer: "Amariah",
+    reference: "2 Chronicles 19:11",
+  },
+  {
+    question:
+      "Which official did Jehoshaphat place over matters concerning the king?",
+    options: [
+      "Zebadiah son of Ishmael",
+      "Jehu son of Hanani",
+      "Adnah",
+      "Amasiah",
+    ],
+    answer: "Zebadiah son of Ishmael",
+    reference: "2 Chronicles 19:11",
+  },
+  {
+    question:
+      "Which peoples joined forces against Jehoshaphat?",
     options: [
       "Moabites, Ammonites, and some Meunites",
-      "Philistines and Egyptians",
-      "Arameans and Assyrians",
-      "Edomites and Philistines only",
+      "Edomites, Philistines, and Moabites",
+      "Ammonites, Arameans, and Edomites",
+      "Moabites, Philistines, and Egyptians",
     ],
     answer: "Moabites, Ammonites, and some Meunites",
     reference: "2 Chronicles 20:1",
   },
   {
-    question: "What did Jehoshaphat proclaim throughout Judah when he heard of the invasion?",
-    options: ["A fast", "A military draft", "A feast", "A tax"],
+    question:
+      "At what place had the invading army already arrived when Jehoshaphat was warned?",
+    options: ["Hazazon Tamar, that is En Gedi", "Tekoa", "Jericho", "Mareshah"],
+    answer: "Hazazon Tamar, that is En Gedi",
+    reference: "2 Chronicles 20:2",
+  },
+  {
+    question:
+      "What did Jehoshaphat proclaim throughout Judah when he heard of the invasion?",
+    options: ["A fast", "A military draft", "A festival", "A day of sacrifices"],
     answer: "A fast",
     reference: "2 Chronicles 20:3",
   },
   {
-    question: "What did Jehoshaphat admit in his prayer?",
+    question:
+      "On whom did the Spirit of the LORD come in the assembly?",
     options: [
-      "We have no power against this vast army and do not know what to do",
-      "Our army is greater than theirs",
-      "Egypt will rescue us",
-      "Jerusalem cannot be defeated",
+      "Jahaziel son of Zechariah",
+      "Jehu son of Hanani",
+      "Eliezer son of Dodavahu",
+      "Mattaniah",
     ],
-    answer: "We have no power against this vast army and do not know what to do",
-    reference: "2 Chronicles 20:12",
+    answer: "Jahaziel son of Zechariah",
+    reference: "2 Chronicles 20:14",
   },
   {
-    question: "On whom did Jehoshaphat say their eyes were fixed?",
-    options: ["The Lord", "The army", "The priests", "The king"],
-    answer: "The Lord",
-    reference: "2 Chronicles 20:12",
-  },
-  {
-    question: "Who delivered God's message that the battle belonged to the Lord?",
-    options: ["Jahaziel", "Jehu", "Micaiah", "Azariah"],
-    answer: "Jahaziel",
-    reference: "2 Chronicles 20:14-17",
-  },
-  {
-    question: "What were the people told they would not need to do?",
+    question:
+      "What did Jahaziel tell Judah about the approaching battle?",
     options: [
-      "Fight this battle",
-      "Leave Jerusalem",
-      "Pray",
-      "Stand firm",
+      "The battle was not theirs but God's",
+      "They would win through superior numbers",
+      "They should flee to Jerusalem",
+      "The priests alone should fight",
     ],
-    answer: "Fight this battle",
+    answer: "The battle was not theirs but God's",
+    reference: "2 Chronicles 20:15",
+  },
+  {
+    question:
+      "What were the people told to do instead of fighting?",
+    options: [
+      "Take their positions, stand firm, and see the LORD's deliverance",
+      "Remain in Jerusalem",
+      "Fast for three days",
+      "Send singers ahead and then retreat",
+    ],
+    answer:
+      "Take their positions, stand firm, and see the LORD's deliverance",
     reference: "2 Chronicles 20:17",
   },
   {
-    question: "Who did Jehoshaphat place at the front of the army?",
+    question:
+      "What did Jehoshaphat appoint to go ahead of the army?",
     options: [
-      "Men singing and praising the Lord",
+      "Men singing and praising the LORD",
+      "The priests carrying the ark",
       "Archers",
-      "Priests carrying the ark",
-      "Cavalry",
+      "Trumpeters only",
     ],
-    answer: "Men singing and praising the Lord",
+    answer: "Men singing and praising the LORD",
     reference: "2 Chronicles 20:21",
   },
   {
-    question: "What happened when Judah began singing and praising?",
+    question:
+      "What happened when Judah began singing and praising?",
     options: [
-      "The Lord set ambushes against their enemies",
-      "The enemy fled before battle",
+      "The LORD set ambushes against the invading armies",
       "Fire came from heaven",
-      "An earthquake struck",
+      "An earthquake struck the enemy",
+      "The enemy fled toward Edom",
     ],
-    answer: "The Lord set ambushes against their enemies",
+    answer: "The LORD set ambushes against the invading armies",
     reference: "2 Chronicles 20:22",
   },
   {
-    question: "How long did Judah spend collecting the enemy's plunder?",
-    options: ["Three days", "Seven days", "One day", "Forty days"],
+    question:
+      "How did the invading armies destroy one another?",
+    options: [
+      "Ammon and Moab attacked Seir, then turned on each other",
+      "Seir attacked both Moab and Ammon",
+      "Moab alone attacked the others",
+      "They fought over the plunder",
+    ],
+    answer: "Ammon and Moab attacked Seir, then turned on each other",
+    reference: "2 Chronicles 20:23",
+  },
+  {
+    question:
+      "How many days did Judah spend collecting plunder?",
+    options: ["Three days", "Seven days", "One day", "Four days"],
     answer: "Three days",
     reference: "2 Chronicles 20:25",
   },
   {
-    question: "What was the valley where Judah gathered afterward called?",
-    options: ["Valley of Berakah", "Valley of Elah", "Valley of Achor", "Kidron Valley"],
+    question:
+      "What name did they give the valley where they praised the LORD?",
+    options: [
+      "Valley of Berakah",
+      "Valley of Jehoshaphat",
+      "Valley of Achor",
+      "Valley of Zephathah",
+    ],
     answer: "Valley of Berakah",
     reference: "2 Chronicles 20:26",
   },
-
   {
-    question: "What did Jehoram do to his brothers after becoming king?",
+    question:
+      "Which prophet rebuked Jehoshaphat for making a shipping alliance with Ahaziah?",
     options: [
-      "He killed them with the sword",
-      "He exiled them",
-      "He made them governors",
-      "He imprisoned them",
+      "Eliezer son of Dodavahu",
+      "Jehu son of Hanani",
+      "Jahaziel",
+      "Hanani",
     ],
-    answer: "He killed them with the sword",
+    answer: "Eliezer son of Dodavahu",
+    reference: "2 Chronicles 20:37",
+  },
+  {
+    question:
+      "What happened to the ships Jehoshaphat built with Ahaziah?",
+    options: [
+      "They were wrecked and unable to sail to Tarshish",
+      "They sank at Ophir",
+      "They were captured by Edom",
+      "They never left Jerusalem",
+    ],
+    answer: "They were wrecked and unable to sail to Tarshish",
+    reference: "2 Chronicles 20:37",
+  },
+  {
+    question:
+      "What did Jehoram do to his brothers after securing the throne of Judah?",
+    options: [
+      "He killed them with the sword along with some officials",
+      "He exiled them",
+      "He imprisoned them",
+      "He sent them to Edom",
+    ],
+    answer: "He killed them with the sword along with some officials",
     reference: "2 Chronicles 21:4",
   },
   {
-    question: "Why did the Lord not destroy David's house despite Jehoram's wickedness?",
+    question:
+      "Why did God not destroy David's house despite Jehoram's wickedness?",
     options: [
-      "Because of the covenant He had made with David",
+      "Because of the covenant with David to maintain a lamp for him and his descendants",
       "Because Jehoram repented",
-      "Because Elijah prayed",
-      "Because Judah was powerful",
+      "Because Jehoshaphat had been righteous",
+      "Because Jerusalem contained the temple",
     ],
-    answer: "Because of the covenant He had made with David",
+    answer:
+      "Because of the covenant with David to maintain a lamp for him and his descendants",
     reference: "2 Chronicles 21:7",
   },
   {
-    question: "Which prophet sent Jehoram a written message of judgment?",
-    options: ["Elijah", "Elisha", "Isaiah", "Micaiah"],
+    question:
+      "Which nation successfully rebelled against Judah during Jehoram's reign?",
+    options: ["Edom", "Moab", "Ammon", "Aram"],
+    answer: "Edom",
+    reference: "2 Chronicles 21:8-10",
+  },
+  {
+    question:
+      "Which town also rebelled against Jehoram at the same time?",
+    options: ["Libnah", "Lachish", "Hebron", "Beth Shemesh"],
+    answer: "Libnah",
+    reference: "2 Chronicles 21:10",
+  },
+  {
+    question:
+      "Which prophet sent Jehoram a written message of judgment?",
+    options: ["Elijah", "Elisha", "Jehu", "Isaiah"],
     answer: "Elijah",
     reference: "2 Chronicles 21:12",
   },
   {
-    question: "What severe illness did Elijah's letter predict for Jehoram?",
+    question:
+      "What disease did Elijah's letter say would afflict Jehoram?",
     options: [
-      "A disease of the bowels",
-      "Leprosy",
+      "A severe disease of the bowels",
+      "A skin disease",
+      "A disease of the feet",
       "Blindness",
-      "Paralysis",
     ],
-    answer: "A disease of the bowels",
+    answer: "A severe disease of the bowels",
     reference: "2 Chronicles 21:15",
   },
   {
-    question: "How long did Jehoram suffer before his bowels came out because of the disease?",
-    options: ["Two years", "Seven years", "One year", "Three years"],
-    answer: "Two years",
-    reference: "2 Chronicles 21:18-19",
+    question:
+      "Which peoples did God stir up against Jehoram?",
+    options: [
+      "The Philistines and Arabs near the Cushites",
+      "Moabites and Ammonites",
+      "Arameans and Edomites",
+      "Egyptians and Philistines",
+    ],
+    answer: "The Philistines and Arabs near the Cushites",
+    reference: "2 Chronicles 21:16",
   },
   {
-    question: "How is Jehoram's death described?",
+    question:
+      "Which son of Jehoram alone remained after the raiders carried away his family?",
+    options: ["Ahaziah", "Jehoahaz", "Joash", "Amaziah"],
+    answer: "Ahaziah",
+    reference: "2 Chronicles 21:17",
+  },
+  {
+    question:
+      "How long did Jehoram suffer from his intestinal disease before dying?",
+    options: ["Two years", "One year", "Seven years", "Three months"],
+    answer: "Two years",
+    reference: "2 Chronicles 21:19",
+  },
+  {
+    question:
+      "What unusual statement is made about Jehoram's death?",
     options: [
       "He passed away to no one's regret",
-      "All Judah mourned greatly",
-      "He died in battle",
-      "He died peacefully",
+      "Judah mourned for him forty days",
+      "He was buried with the kings",
+      "A great fire was made in his honor",
     ],
     answer: "He passed away to no one's regret",
     reference: "2 Chronicles 21:20",
   },
-
   {
-    question: "Who became king after Jehoram?",
-    options: ["Ahaziah", "Joash", "Athaliah", "Amaziah"],
-    answer: "Ahaziah",
+    question:
+      "Why was Ahaziah able to become king after Jehoram?",
+    options: [
+      "The raiders had killed all his older brothers",
+      "He was Jehoram's firstborn",
+      "Athaliah appointed him",
+      "The priests chose him",
+    ],
+    answer: "The raiders had killed all his older brothers",
     reference: "2 Chronicles 22:1",
   },
   {
-    question: "Who influenced Ahaziah to act wickedly?",
-    options: ["His mother Athaliah", "Jehoiada", "Jehosheba", "Elisha"],
+    question:
+      "Who encouraged Ahaziah in wickedness?",
+    options: [
+      "His mother Athaliah",
+      "Ahab",
+      "Jehoram of Israel",
+      "Jehu",
+    ],
     answer: "His mother Athaliah",
     reference: "2 Chronicles 22:3",
   },
   {
-    question: "Who destroyed Ahaziah's family after his death?",
-    options: ["Athaliah", "Jehu", "Joash", "Jehosheba"],
-    answer: "Athaliah",
-    reference: "2 Chronicles 22:10",
+    question:
+      "Why did Ahaziah visit Joram at Jezreel?",
+    options: [
+      "Joram was recovering from wounds received fighting Hazael",
+      "They were planning war against Jehu",
+      "Athaliah sent him",
+      "Joram was dying",
+    ],
+    answer: "Joram was recovering from wounds received fighting Hazael",
+    reference: "2 Chronicles 22:6",
   },
   {
-    question: "Who rescued the infant Joash?",
-    options: ["Jehosheba", "Athaliah", "Jehoiada", "Huldah"],
-    answer: "Jehosheba",
+    question:
+      "Who destroyed Ahaziah during Jehu's purge?",
+    options: ["Jehu", "Joram", "Athaliah", "Jehoiada"],
+    answer: "Jehu",
+    reference: "2 Chronicles 22:7-9",
+  },
+  {
+    question:
+      "Who rescued Joash from Athaliah's attempt to destroy the royal family?",
+    options: [
+      "Jehosheba daughter of King Jehoram",
+      "Jehoiada alone",
+      "A temple guard",
+      "A nurse from Bethlehem",
+    ],
+    answer: "Jehosheba daughter of King Jehoram",
     reference: "2 Chronicles 22:11",
   },
   {
-    question: "Where was Joash hidden for six years?",
+    question:
+      "What relationship did Jehosheba have to Jehoiada?",
     options: [
-      "In the temple of God",
-      "In Samaria",
-      "In Egypt",
-      "In a cave",
+      "She was his wife",
+      "She was his daughter",
+      "She was his sister",
+      "She was his mother",
     ],
-    answer: "In the temple of God",
+    answer: "She was his wife",
+    reference: "2 Chronicles 22:11",
+  },
+  {
+    question:
+      "How long was Joash hidden while Athaliah ruled?",
+    options: ["Six years", "Seven years", "Five years", "Three years"],
+    answer: "Six years",
     reference: "2 Chronicles 22:12",
   },
-
   {
-    question: "Who organized the plan to make Joash king?",
-    options: ["Jehoiada", "Jehosheba", "Jehu", "Zechariah"],
-    answer: "Jehoiada",
-    reference: "2 Chronicles 23:1-11",
+    question:
+      "In which year did Jehoiada make his move to crown Joash?",
+    options: ["The seventh year", "The sixth year", "The eighth year", "The fifth year"],
+    answer: "The seventh year",
+    reference: "2 Chronicles 23:1",
   },
   {
-    question: "How old was Joash when he was crowned?",
-    options: ["Seven", "Eight", "Twelve", "Six"],
-    answer: "Seven",
-    reference: "2 Chronicles 24:1",
+    question:
+      "Who were among the commanders Jehoiada summoned for the coronation conspiracy?",
+    options: [
+      "Azariah son of Jeroham, Ishmael son of Jehohanan, Azariah son of Obed, Maaseiah son of Adaiah, and Elishaphat son of Zikri",
+      "Benaiah, Jehu, Jehonadab, and Azariah",
+      "Jehoiada, Zechariah, Hilkiah, and Shaphan",
+      "Obed, Jehoram, Maaseiah, and Jozabad",
+    ],
+    answer:
+      "Azariah son of Jeroham, Ishmael son of Jehohanan, Azariah son of Obed, Maaseiah son of Adaiah, and Elishaphat son of Zikri",
+    reference: "2 Chronicles 23:1",
   },
   {
-    question: "What did Athaliah cry when she saw Joash crowned?",
-    options: ["Treason! Treason!", "Long live the king!", "Help me!", "Judah has rebelled!"],
+    question:
+      "What did Jehoiada give the Levites and commanders for the coronation?",
+    options: [
+      "The spears and shields that had belonged to King David",
+      "Temple swords",
+      "Saul's weapons",
+      "Bronze shields made by Rehoboam",
+    ],
+    answer: "The spears and shields that had belonged to King David",
+    reference: "2 Chronicles 23:9",
+  },
+  {
+    question:
+      "What did Athaliah shout when she saw the crowned king?",
+    options: ["Treason! Treason!", "Murder! Murder!", "Long live the king!", "Judgment! Judgment!"],
     answer: "Treason! Treason!",
     reference: "2 Chronicles 23:13",
   },
   {
-    question: "What happened to Athaliah?",
+    question:
+      "Where was Athaliah put to death?",
     options: [
-      "She was taken out and killed",
-      "She escaped",
-      "She was imprisoned",
-      "She repented",
+      "At the entrance of the Horse Gate on the palace grounds",
+      "Inside the temple",
+      "At the city gate",
+      "Beside the altar",
     ],
-    answer: "She was taken out and killed",
-    reference: "2 Chronicles 23:14-15",
+    answer: "At the entrance of the Horse Gate on the palace grounds",
+    reference: "2 Chronicles 23:15",
   },
   {
-    question: "What covenant did Jehoiada make with the people and the king?",
+    question:
+      "What did the people do to the temple of Baal after Joash became king?",
     options: [
-      "That they would be the Lord's people",
-      "That Joash would rule forever",
-      "That Baal worship would continue",
-      "That Judah would unite with Israel",
+      "They tore it down and smashed its altars and idols",
+      "They converted it into a storehouse",
+      "They burned only its idols",
+      "They gave it to the Levites",
     ],
-    answer: "That they would be the Lord's people",
-    reference: "2 Chronicles 23:16",
-  },
-
-  {
-    question: "What major project did Joash undertake while Jehoiada was alive?",
-    options: [
-      "Repairing the temple",
-      "Building a palace",
-      "Rebuilding Samaria",
-      "Fortifying Hebron",
-    ],
-    answer: "Repairing the temple",
-    reference: "2 Chronicles 24:4",
+    answer: "They tore it down and smashed its altars and idols",
+    reference: "2 Chronicles 23:17",
   },
   {
-    question: "How was money collected for temple repairs?",
+    question:
+      "Who was killed in front of Baal's altars?",
     options: [
-      "A chest was placed outside the temple gate",
-      "A tax collector went house to house",
-      "Foreign kings paid for it",
-      "Joash sold royal land",
+      "Mattan the priest of Baal",
+      "Athaliah",
+      "Zedekiah",
+      "A prophet of Asherah",
     ],
-    answer: "A chest was placed outside the temple gate",
-    reference: "2 Chronicles 24:8-11",
+    answer: "Mattan the priest of Baal",
+    reference: "2 Chronicles 23:17",
   },
   {
-    question: "What happened to Judah after Jehoiada died?",
+    question:
+      "At what age did Joash become king?",
+    options: ["Seven years old", "Eight years old", "Twelve years old", "Six years old"],
+    answer: "Seven years old",
+    reference: "2 Chronicles 24:1",
+  },
+  {
+    question:
+      "How long did Joash reign in Jerusalem?",
+    options: ["Forty years", "Twenty-nine years", "Fifty-two years", "Sixteen years"],
+    answer: "Forty years",
+    reference: "2 Chronicles 24:1",
+  },
+  {
+    question:
+      "What happened spiritually to Joash after Jehoiada died?",
     options: [
-      "The leaders abandoned the temple and served Asherah poles and idols",
-      "They became more faithful",
-      "Joash destroyed all idols",
-      "The people returned to Egypt",
+      "He listened to Judah's officials and abandoned the temple for Asherah poles and idols",
+      "He remained completely faithful",
+      "He rebuilt the high places but kept temple worship",
+      "He joined Israel's golden-calf worship",
     ],
-    answer: "The leaders abandoned the temple and served Asherah poles and idols",
+    answer:
+      "He listened to Judah's officials and abandoned the temple for Asherah poles and idols",
     reference: "2 Chronicles 24:17-18",
   },
   {
-    question: "Who rebuked the people for abandoning the Lord?",
-    options: ["Zechariah son of Jehoiada", "Elisha", "Isaiah", "Jehu"],
+    question:
+      "On whom did the Spirit of God come when he rebuked Joash and Judah?",
+    options: [
+      "Zechariah son of Jehoiada",
+      "Jehoiada",
+      "Azariah",
+      "Hanani",
+    ],
     answer: "Zechariah son of Jehoiada",
     reference: "2 Chronicles 24:20",
   },
   {
-    question: "How was Zechariah killed?",
+    question:
+      "Where was Zechariah son of Jehoiada stoned?",
     options: [
-      "He was stoned in the temple courtyard",
-      "He was executed by sword",
-      "He was thrown from a wall",
-      "He was imprisoned until death",
+      "In the courtyard of the LORD's temple",
+      "At the city gate",
+      "Outside Jerusalem",
+      "At the king's palace",
     ],
-    answer: "He was stoned in the temple courtyard",
+    answer: "In the courtyard of the LORD's temple",
     reference: "2 Chronicles 24:21",
   },
   {
-    question: "What did Zechariah say as he died?",
+    question:
+      "What final appeal did Zechariah make as he died?",
     options: [
-      "May the Lord see this and call you to account",
-      "Forgive them",
-      "The temple will fall",
-      "Joash will repent",
+      "May the LORD see this and call you to account",
+      "Father, forgive them",
+      "The LORD will avenge my blood",
+      "Remember me, O LORD",
     ],
-    answer: "May the Lord see this and call you to account",
+    answer: "May the LORD see this and call you to account",
     reference: "2 Chronicles 24:22",
   },
   {
-    question: "How did Joash die?",
+    question:
+      "Why did a relatively small Aramean army defeat Joash's much larger force?",
     options: [
-      "His officials conspired and killed him",
-      "He died in battle",
-      "He died of illness",
-      "The Arameans captured him",
+      "Judah had forsaken the LORD",
+      "The Arameans had more chariots",
+      "Joash was ill",
+      "Judah's commanders betrayed him",
     ],
-    answer: "His officials conspired and killed him",
+    answer: "Judah had forsaken the LORD",
+    reference: "2 Chronicles 24:24",
+  },
+  {
+    question:
+      "Why did Joash's officials assassinate him?",
+    options: [
+      "Because of his murder of Jehoiada's son",
+      "Because he lost to Aram",
+      "Because he abandoned the temple",
+      "Because he taxed Judah heavily",
+    ],
+    answer: "Because of his murder of Jehoiada's son",
     reference: "2 Chronicles 24:25",
   },
-
   {
-    question: "Who succeeded Joash?",
-    options: ["Amaziah", "Uzziah", "Jotham", "Ahaz"],
-    answer: "Amaziah",
-    reference: "2 Chronicles 24:27",
+    question:
+      "Where was Joash buried?",
+    options: [
+      "In the City of David but not in the tombs of the kings",
+      "In the tombs of the kings",
+      "At Bethlehem",
+      "Outside Jerusalem",
+    ],
+    answer: "In the City of David but not in the tombs of the kings",
+    reference: "2 Chronicles 24:25",
   },
   {
-    question: "How did Amaziah initially serve the Lord?",
+    question:
+      "How old was Amaziah when he became king?",
+    options: ["Twenty-five", "Twenty", "Thirty", "Sixteen"],
+    answer: "Twenty-five",
+    reference: "2 Chronicles 25:1",
+  },
+  {
+    question:
+      "How is Amaziah's obedience initially described?",
     options: [
       "He did what was right, but not wholeheartedly",
-      "He was completely faithful",
-      "He did evil from the beginning",
-      "He worshiped Baal",
+      "He did evil like Ahab",
+      "He was fully devoted like David",
+      "He did right only while Jehoiada lived",
     ],
     answer: "He did what was right, but not wholeheartedly",
     reference: "2 Chronicles 25:2",
   },
   {
-    question: "How many fighting men from Judah and Benjamin did Amaziah assemble?",
-    options: ["Three hundred thousand", "One hundred thousand", "Four hundred thousand", "Five hundred thousand"],
-    answer: "Three hundred thousand",
+    question:
+      "How many fighting men from Judah and Benjamin did Amaziah muster?",
+    options: ["300,000", "400,000", "500,000", "180,000"],
+    answer: "300,000",
     reference: "2 Chronicles 25:5",
   },
   {
-    question: "How many Israelite troops did Amaziah hire?",
-    options: ["One hundred thousand", "Three hundred thousand", "Fifty thousand", "Two hundred thousand"],
-    answer: "One hundred thousand",
+    question:
+      "How much silver did Amaziah pay to hire one hundred thousand Israelite soldiers?",
+    options: [
+      "One hundred talents",
+      "Fifty talents",
+      "Three hundred talents",
+      "One thousand talents",
+    ],
+    answer: "One hundred talents",
     reference: "2 Chronicles 25:6",
   },
   {
-    question: "Why did the man of God tell Amaziah not to use the Israelite troops?",
+    question:
+      "Why did a man of God tell Amaziah to dismiss the hired Israelite troops?",
     options: [
-      "The Lord was not with Israel",
-      "They were too weak",
-      "They demanded more money",
-      "They had no weapons",
+      "The LORD was not with Israel, especially Ephraim",
+      "They were too expensive",
+      "They had planned rebellion",
+      "Judah had enough soldiers",
     ],
-    answer: "The Lord was not with Israel",
+    answer: "The LORD was not with Israel, especially Ephraim",
     reference: "2 Chronicles 25:7",
   },
   {
-    question: "What did Amaziah do with the gods of Edom after defeating Edom?",
+    question:
+      "How many men of Seir did Amaziah kill in the Valley of Salt?",
+    options: ["10,000", "20,000", "5,000", "12,000"],
+    answer: "10,000",
+    reference: "2 Chronicles 25:11",
+  },
+  {
+    question:
+      "What happened to another ten thousand Edomite captives?",
     options: [
-      "He brought them home and worshiped them",
-      "He destroyed them",
-      "He gave them to the temple",
-      "He sold them",
+      "They were thrown from the top of a cliff",
+      "They were taken as slaves",
+      "They were released",
+      "They were executed by sword",
     ],
-    answer: "He brought them home and worshiped them",
+    answer: "They were thrown from the top of a cliff",
+    reference: "2 Chronicles 25:12",
+  },
+  {
+    question:
+      "What did Amaziah bring back from Seir that led to his downfall?",
+    options: [
+      "The gods of the people of Seir",
+      "Their gold and silver",
+      "Their priests",
+      "Their sacred books",
+    ],
+    answer: "The gods of the people of Seir",
     reference: "2 Chronicles 25:14",
   },
   {
-    question: "Which king of Israel used the parable of a thistle and cedar to warn Amaziah?",
-    options: ["Jehoash", "Jeroboam", "Jehu", "Jehoahaz"],
-    answer: "Jehoash",
-    reference: "2 Chronicles 25:18",
+    question:
+      "What question did the prophet ask Amaziah about the gods of Edom?",
+    options: [
+      "Why seek gods that could not save their own people from his hand?",
+      "Why had he brought foreign gods into Jerusalem?",
+      "Why had he not destroyed them immediately?",
+      "Why did he prefer them to the LORD?",
+    ],
+    answer:
+      "Why seek gods that could not save their own people from his hand?",
+    reference: "2 Chronicles 25:15",
   },
-
   {
-    question: "How old was Uzziah when he became king?",
-    options: ["Sixteen", "Twenty-five", "Twelve", "Eight"],
+    question:
+      "What warning did Amaziah give the prophet who rebuked him?",
+    options: [
+      "Have we appointed you an adviser to the king? Stop, or you will be struck down",
+      "Leave Jerusalem immediately",
+      "Do not speak to me again",
+      "You will be imprisoned",
+    ],
+    answer:
+      "Have we appointed you an adviser to the king? Stop, or you will be struck down",
+    reference: "2 Chronicles 25:16",
+  },
+  {
+    question:
+      "Where did Jehoash defeat Amaziah?",
+    options: ["Beth Shemesh", "Lachish", "Jerusalem", "Tekoa"],
+    answer: "Beth Shemesh",
+    reference: "2 Chronicles 25:21",
+  },
+  {
+    question:
+      "How much of Jerusalem's wall did Jehoash break down?",
+    options: ["Four hundred cubits", "Two hundred cubits", "Five hundred cubits", "One thousand cubits"],
+    answer: "Four hundred cubits",
+    reference: "2 Chronicles 25:23",
+  },
+  {
+    question:
+      "Where was Amaziah eventually killed?",
+    options: ["Lachish", "Jerusalem", "Beth Shemesh", "Hebron"],
+    answer: "Lachish",
+    reference: "2 Chronicles 25:27",
+  },
+  {
+    question:
+      "How old was Uzziah when he became king?",
+    options: ["Sixteen", "Twenty-five", "Twelve", "Twenty"],
     answer: "Sixteen",
-    reference: "2 Chronicles 26:1, 3",
+    reference: "2 Chronicles 26:1",
   },
   {
-    question: "How long did Uzziah reign?",
-    options: ["Fifty-two years", "Forty years", "Twenty-nine years", "Sixteen years"],
+    question:
+      "How long did Uzziah reign in Jerusalem?",
+    options: ["Fifty-two years", "Forty-one years", "Twenty-nine years", "Sixteen years"],
     answer: "Fifty-two years",
     reference: "2 Chronicles 26:3",
   },
   {
-    question: "Under whose instruction did Uzziah seek God?",
-    options: ["Zechariah", "Isaiah", "Jehoiada", "Azariah"],
-    answer: "Zechariah",
-    reference: "2 Chronicles 26:5",
-  },
-  {
-    question: "What happened as long as Uzziah sought the Lord?",
+    question:
+      "Under whose instruction did Uzziah seek God?",
     options: [
-      "God gave him success",
-      "He had no enemies",
-      "He became a priest",
-      "He ruled Israel as well",
+      "Zechariah, who instructed him in the fear of God",
+      "Azariah the priest",
+      "Isaiah",
+      "Jotham",
     ],
-    answer: "God gave him success",
+    answer: "Zechariah, who instructed him in the fear of God",
     reference: "2 Chronicles 26:5",
   },
   {
-    question: "What military technology did Uzziah have in Jerusalem?",
+    question:
+      "Which Philistine cities had walls broken down by Uzziah?",
+    options: [
+      "Gath, Jabneh, and Ashdod",
+      "Gaza, Ekron, and Ashkelon",
+      "Gath, Ekron, and Gaza",
+      "Ashdod, Ashkelon, and Jabneh",
+    ],
+    answer: "Gath, Jabneh, and Ashdod",
+    reference: "2 Chronicles 26:6",
+  },
+  {
+    question:
+      "What kind of agricultural interest did Uzziah have?",
+    options: [
+      "He loved the soil and had farmers and vineyard workers",
+      "He raised only sheep",
+      "He specialized in olive groves",
+      "He imported grain from Egypt",
+    ],
+    answer: "He loved the soil and had farmers and vineyard workers",
+    reference: "2 Chronicles 26:10",
+  },
+  {
+    question:
+      "How many trained warriors were in Uzziah's army?",
+    options: ["307,500", "300,000", "580,000", "260,000"],
+    answer: "307,500",
+    reference: "2 Chronicles 26:13",
+  },
+  {
+    question:
+      "How many family leaders organized Uzziah's fighting force?",
+    options: ["2,600", "2,700", "3,600", "1,700"],
+    answer: "2,600",
+    reference: "2 Chronicles 26:12",
+  },
+  {
+    question:
+      "What unusual military devices were installed on Jerusalem's towers under Uzziah?",
     options: [
       "Machines designed to shoot arrows and hurl large stones",
-      "Iron chariots",
-      "Siege towers from Egypt",
-      "Fire weapons",
+      "Bronze catapults",
+      "Iron battering rams",
+      "Fire-launching devices",
     ],
     answer: "Machines designed to shoot arrows and hurl large stones",
     reference: "2 Chronicles 26:15",
   },
   {
-    question: "What sin did Uzziah commit after becoming powerful?",
+    question:
+      "What act of pride led to Uzziah's judgment?",
     options: [
       "He entered the temple to burn incense",
-      "He built an idol",
-      "He abandoned Jerusalem",
-      "He consulted a medium",
+      "He tried to become high priest",
+      "He removed the altar",
+      "He took temple gold",
     ],
     answer: "He entered the temple to burn incense",
     reference: "2 Chronicles 26:16",
   },
   {
-    question: "How many courageous priests confronted Uzziah?",
-    options: ["Eighty", "Forty", "One hundred", "Seventy"],
+    question:
+      "How many courageous priests accompanied Azariah in confronting Uzziah?",
+    options: ["Eighty", "Fifty", "One hundred", "Seventy"],
     answer: "Eighty",
     reference: "2 Chronicles 26:17",
   },
   {
-    question: "What happened to Uzziah while he was angry with the priests?",
-    options: [
-      "Leprosy broke out on his forehead",
-      "He became blind",
-      "He fell unconscious",
-      "Fire struck him",
-    ],
-    answer: "Leprosy broke out on his forehead",
+    question:
+      "Where did the skin disease break out on Uzziah?",
+    options: ["His forehead", "His hands", "His face", "His feet"],
+    answer: "His forehead",
     reference: "2 Chronicles 26:19",
   },
-
   {
-    question: "Who succeeded Uzziah?",
-    options: ["Jotham", "Ahaz", "Hezekiah", "Manasseh"],
-    answer: "Jotham",
-    reference: "2 Chronicles 26:23",
+    question:
+      "Where did Uzziah live after being struck with the disease?",
+    options: [
+      "In a separate house",
+      "Inside the palace",
+      "At Jericho",
+      "Outside Judah",
+    ],
+    answer: "In a separate house",
+    reference: "2 Chronicles 26:21",
   },
   {
-    question: "Why did Jotham become powerful?",
+    question:
+      "Who governed the palace and people while Uzziah lived in isolation?",
+    options: ["Jotham his son", "Azariah", "Isaiah", "Pekah"],
+    answer: "Jotham his son",
+    reference: "2 Chronicles 26:21",
+  },
+  {
+    question:
+      "Which prophet wrote about Uzziah's reign?",
     options: [
-      "He walked steadfastly before the Lord",
-      "He had a large army",
-      "He allied with Assyria",
-      "He conquered Egypt",
+      "Isaiah son of Amoz",
+      "Micah",
+      "Hosea",
+      "Zechariah",
     ],
-    answer: "He walked steadfastly before the Lord",
+    answer: "Isaiah son of Amoz",
+    reference: "2 Chronicles 26:22",
+  },
+  {
+    question:
+      "How old was Jotham when he became king?",
+    options: ["Twenty-five", "Twenty", "Sixteen", "Thirty"],
+    answer: "Twenty-five",
+    reference: "2 Chronicles 27:1",
+  },
+  {
+    question:
+      "How long did Jotham reign?",
+    options: ["Sixteen years", "Twenty-nine years", "Fifty-two years", "Twenty-five years"],
+    answer: "Sixteen years",
+    reference: "2 Chronicles 27:1",
+  },
+  {
+    question:
+      "What temple structure did Jotham rebuild?",
+    options: [
+      "The Upper Gate",
+      "The bronze altar",
+      "The eastern portico",
+      "The Most Holy Place",
+    ],
+    answer: "The Upper Gate",
+    reference: "2 Chronicles 27:3",
+  },
+  {
+    question:
+      "What annual tribute did the Ammonites pay Jotham for three years?",
+    options: [
+      "One hundred talents of silver, ten thousand cors of wheat, and ten thousand cors of barley",
+      "One hundred talents of gold and grain",
+      "Ten thousand talents of silver",
+      "Fifty talents of silver and twenty thousand cors of barley",
+    ],
+    answer:
+      "One hundred talents of silver, ten thousand cors of wheat, and ten thousand cors of barley",
+    reference: "2 Chronicles 27:5",
+  },
+  {
+    question:
+      "Why did Jotham grow powerful?",
+    options: [
+      "He walked steadfastly before the LORD his God",
+      "He defeated every neighboring nation",
+      "He built a larger army than Uzziah",
+      "He formed an alliance with Assyria",
+    ],
+    answer: "He walked steadfastly before the LORD his God",
     reference: "2 Chronicles 27:6",
   },
-
   {
-    question: "Who succeeded Jotham?",
-    options: ["Ahaz", "Hezekiah", "Manasseh", "Josiah"],
-    answer: "Ahaz",
-    reference: "2 Chronicles 27:9",
+    question:
+      "How old was Ahaz when he became king?",
+    options: ["Twenty", "Twenty-five", "Sixteen", "Thirty"],
+    answer: "Twenty",
+    reference: "2 Chronicles 28:1",
   },
   {
-    question: "What terrible practice did Ahaz follow?",
+    question:
+      "What detestable practice did Ahaz perform in the Valley of Ben Hinnom?",
     options: [
       "He sacrificed his children in the fire",
-      "He destroyed the temple",
-      "He killed all the priests",
-      "He worshiped only in Samaria",
+      "He burned incense to Baal",
+      "He practiced divination",
+      "He built an altar to Molek only",
     ],
     answer: "He sacrificed his children in the fire",
     reference: "2 Chronicles 28:3",
   },
   {
-    question: "Who handed Ahaz over to the king of Aram because of his unfaithfulness?",
-    options: ["The Lord", "Egypt", "Israel", "Assyria"],
-    answer: "The Lord",
-    reference: "2 Chronicles 28:5",
-  },
-  {
-    question: "How many Judean soldiers did Pekah kill in one day?",
-    options: ["One hundred twenty thousand", "Seventy thousand", "Two hundred thousand", "One hundred thousand"],
-    answer: "One hundred twenty thousand",
-    reference: "2 Chronicles 28:6",
-  },
-  {
-    question: "How many women, sons, and daughters did Israel take captive from Judah?",
-    options: ["Two hundred thousand", "One hundred twenty thousand", "Seventy thousand", "Three hundred thousand"],
-    answer: "Two hundred thousand",
+    question:
+      "How many Judean captives did the northern Israelites take in one day?",
+    options: ["200,000", "120,000", "100,000", "300,000"],
+    answer: "200,000",
     reference: "2 Chronicles 28:8",
   },
   {
-    question: "Which prophet confronted Israel over taking Judeans captive?",
-    options: ["Oded", "Isaiah", "Micah", "Hosea"],
+    question:
+      "Which prophet confronted the returning Israelite army about those captives?",
+    options: ["Oded", "Isaiah", "Micah", "Zechariah"],
     answer: "Oded",
     reference: "2 Chronicles 28:9",
   },
   {
-    question: "What did Israel's leaders do after hearing Oded?",
+    question:
+      "Why did Oded warn Israel not to enslave the Judean captives?",
     options: [
-      "They clothed, fed, and returned the captives",
-      "They sold the captives",
-      "They imprisoned Oded",
-      "They took the captives to Assyria",
+      "Israel itself was guilty before the LORD",
+      "Judah was still their ally",
+      "The captives were mostly women and children",
+      "The king of Judah had paid ransom",
     ],
-    answer: "They clothed, fed, and returned the captives",
+    answer: "Israel itself was guilty before the LORD",
+    reference: "2 Chronicles 28:10",
+  },
+  {
+    question:
+      "How were the released Judean captives cared for before being sent home?",
+    options: [
+      "They were clothed, fed, given sandals, treated, and the weak were placed on donkeys",
+      "They were given silver and food",
+      "They were escorted by priests",
+      "They were taken directly to Jerusalem",
+    ],
+    answer:
+      "They were clothed, fed, given sandals, treated, and the weak were placed on donkeys",
     reference: "2 Chronicles 28:15",
   },
   {
-    question: "Whose help did Ahaz seek when he was in trouble?",
-    options: ["The king of Assyria", "The king of Egypt", "The king of Babylon", "The king of Moab"],
-    answer: "The king of Assyria",
-    reference: "2 Chronicles 28:16",
+    question:
+      "To what city were the released Judean captives taken?",
+    options: ["Jericho", "Jerusalem", "Bethel", "Samaria"],
+    answer: "Jericho",
+    reference: "2 Chronicles 28:15",
   },
   {
-    question: "What did Ahaz do with the temple doors?",
-    options: ["He shut them", "He covered them with gold", "He removed them", "He widened them"],
-    answer: "He shut them",
+    question:
+      "Which Assyrian king came to Ahaz but caused him trouble rather than helping him?",
+    options: [
+      "Tiglath-Pileser",
+      "Sennacherib",
+      "Shalmaneser",
+      "Esarhaddon",
+    ],
+    answer: "Tiglath-Pileser",
+    reference: "2 Chronicles 28:20",
+  },
+  {
+    question:
+      "What did Ahaz do to the temple articles late in his reign?",
+    options: [
+      "He gathered them, cut them into pieces, and shut the temple doors",
+      "He sent them all to Assyria",
+      "He melted them into idols",
+      "He hid them in the palace",
+    ],
+    answer: "He gathered them, cut them into pieces, and shut the temple doors",
     reference: "2 Chronicles 28:24",
   },
-
   {
-    question: "How old was Hezekiah when he became king?",
-    options: ["Twenty-five", "Thirty", "Twenty", "Sixteen"],
+    question:
+      "How old was Hezekiah when he became king?",
+    options: ["Twenty-five", "Twenty", "Thirty", "Sixteen"],
     answer: "Twenty-five",
     reference: "2 Chronicles 29:1",
   },
   {
-    question: "What did Hezekiah do in the first month of his reign?",
-    options: [
-      "Opened and repaired the temple doors",
-      "Destroyed Jerusalem's walls",
-      "Invaded Israel",
-      "Built a new palace",
-    ],
-    answer: "Opened and repaired the temple doors",
+    question:
+      "In which month of his first year did Hezekiah reopen the temple doors?",
+    options: ["The first month", "The second month", "The seventh month", "The eighth month"],
+    answer: "The first month",
     reference: "2 Chronicles 29:3",
   },
   {
-    question: "Whom did Hezekiah gather to cleanse the temple?",
-    options: ["Priests and Levites", "Soldiers", "Prophets only", "Foreign workers"],
-    answer: "Priests and Levites",
-    reference: "2 Chronicles 29:4-5",
-  },
-  {
-    question: "How many days did it take to consecrate the temple?",
-    options: ["Sixteen days", "Eight days", "Seven days", "Forty days"],
+    question:
+      "How long did the priests and Levites take to purify the temple?",
+    options: [
+      "Sixteen days",
+      "Eight days",
+      "Seven days",
+      "Fourteen days",
+    ],
     answer: "Sixteen days",
     reference: "2 Chronicles 29:17",
   },
   {
-    question: "What happened as the burnt offering began?",
+    question:
+      "On what day did the temple purification end?",
     options: [
-      "Singing to the Lord began with trumpets and instruments",
-      "Fire came from heaven",
-      "The king left",
-      "The people became silent",
+      "The sixteenth day of the first month",
+      "The eighth day of the first month",
+      "The fourteenth day of the first month",
+      "The first day of the second month",
     ],
-    answer: "Singing to the Lord began with trumpets and instruments",
-    reference: "2 Chronicles 29:27",
-  },
-
-  {
-    question: "What feast did Hezekiah invite both Judah and Israel to celebrate?",
-    options: ["Passover", "Tabernacles", "Pentecost", "Purim"],
-    answer: "Passover",
-    reference: "2 Chronicles 30:1",
+    answer: "The sixteenth day of the first month",
+    reference: "2 Chronicles 29:17",
   },
   {
-    question: "Why was Passover celebrated in the second month?",
+    question:
+      "How many bulls, rams, lambs, and male goats were brought as sin and burnt offerings at the temple rededication?",
     options: [
-      "Not enough priests had consecrated themselves and the people had not gathered",
-      "The first month had no full moon",
-      "Hezekiah was ill",
-      "Assyria had attacked",
+      "Seven of each",
+      "Twelve of each",
+      "Ten of each",
+      "One hundred of each",
     ],
-    answer: "Not enough priests had consecrated themselves and the people had not gathered",
+    answer: "Seven of each",
+    reference: "2 Chronicles 29:21",
+  },
+  {
+    question:
+      "Whose musical instruments were used by the Levites at Hezekiah's temple restoration?",
+    options: [
+      "David's instruments",
+      "Solomon's instruments",
+      "Asaph's instruments",
+      "Moses' instruments",
+    ],
+    answer: "David's instruments",
+    reference: "2 Chronicles 29:26",
+  },
+  {
+    question:
+      "Why were there too few priests to skin all the burnt offerings?",
+    options: [
+      "Not enough priests had consecrated themselves",
+      "Many priests were ill",
+      "The sacrifices were too numerous",
+      "Most priests were serving outside Jerusalem",
+    ],
+    answer: "Not enough priests had consecrated themselves",
+    reference: "2 Chronicles 29:34",
+  },
+  {
+    question:
+      "Who assisted the priests until more priests had consecrated themselves?",
+    options: ["The Levites", "The gatekeepers", "The singers", "The elders"],
+    answer: "The Levites",
+    reference: "2 Chronicles 29:34",
+  },
+  {
+    question:
+      "Why could Hezekiah not celebrate Passover at the normal time?",
+    options: [
+      "Not enough priests had consecrated themselves and the people had not assembled",
+      "The temple was still closed",
+      "Assyria was attacking",
+      "The lambs were unavailable",
+    ],
+    answer:
+      "Not enough priests had consecrated themselves and the people had not assembled",
     reference: "2 Chronicles 30:2-3",
   },
   {
-    question: "How did many people in the northern tribes respond to Hezekiah's messengers?",
+    question:
+      "In which month did Hezekiah decide to celebrate the delayed Passover?",
+    options: ["The second month", "The third month", "The seventh month", "The first month"],
+    answer: "The second month",
+    reference: "2 Chronicles 30:2",
+  },
+  {
+    question:
+      "From what northern and southern limits did Hezekiah invite Israel to Passover?",
+    options: [
+      "From Beersheba to Dan",
+      "From Dan to Beersheba",
+      "From Ephraim to Judah",
+      "From Samaria to Jerusalem",
+    ],
+    answer: "From Beersheba to Dan",
+    reference: "2 Chronicles 30:5",
+  },
+  {
+    question:
+      "How did many people in Ephraim, Manasseh, and Zebulun react to Hezekiah's couriers?",
     options: [
       "They scorned and ridiculed them",
-      "They all came to Jerusalem",
+      "They immediately traveled to Jerusalem",
       "They attacked them",
-      "They imprisoned them",
+      "They ignored them silently",
     ],
     answer: "They scorned and ridiculed them",
     reference: "2 Chronicles 30:10",
   },
   {
-    question: "Which northern tribes are specifically said to have humbled themselves and gone to Jerusalem?",
+    question:
+      "From which northern tribes did some people humble themselves and come to Jerusalem?",
     options: [
       "Asher, Manasseh, and Zebulun",
-      "Dan, Naphtali, and Ephraim",
-      "Reuben, Gad, and Simeon",
-      "Issachar, Dan, and Asher",
+      "Ephraim, Dan, and Naphtali",
+      "Issachar, Asher, and Dan",
+      "Manasseh, Gad, and Reuben",
     ],
     answer: "Asher, Manasseh, and Zebulun",
     reference: "2 Chronicles 30:11",
   },
   {
-    question: "How long was the celebration extended after the first seven days?",
-    options: ["Another seven days", "Three more days", "Another month", "Forty days"],
-    answer: "Another seven days",
+    question:
+      "What did Hezekiah pray concerning those who ate Passover while ceremonially unclean?",
+    options: [
+      "That the LORD would pardon everyone whose heart was set on seeking God",
+      "That their sacrifices would be accepted anyway",
+      "That priests would cleanse them afterward",
+      "That they would not become ill",
+    ],
+    answer:
+      "That the LORD would pardon everyone whose heart was set on seeking God",
+    reference: "2 Chronicles 30:18-19",
+  },
+  {
+    question:
+      "What was God's response to Hezekiah's prayer for the unclean worshipers?",
+    options: [
+      "He heard Hezekiah and healed the people",
+      "He required another sacrifice",
+      "He delayed judgment seven days",
+      "He ordered them to leave Jerusalem",
+    ],
+    answer: "He heard Hezekiah and healed the people",
+    reference: "2 Chronicles 30:20",
+  },
+  {
+    question:
+      "How long was the Feast of Unleavened Bread initially celebrated?",
+    options: ["Seven days", "Fourteen days", "Eight days", "Three days"],
+    answer: "Seven days",
+    reference: "2 Chronicles 30:21",
+  },
+  {
+    question:
+      "What unusual decision did the entire assembly make after the first seven days?",
+    options: [
+      "They celebrated joyfully for another seven days",
+      "They returned home immediately",
+      "They observed a fast",
+      "They held another Passover",
+    ],
+    answer: "They celebrated joyfully for another seven days",
     reference: "2 Chronicles 30:23",
   },
   {
-    question: "Since whose time had Jerusalem not experienced a celebration like Hezekiah's?",
+    question:
+      "How many bulls and sheep did Hezekiah contribute for the extended celebration?",
+    options: [
+      "One thousand bulls and seven thousand sheep and goats",
+      "Seven hundred bulls and seven thousand sheep",
+      "One thousand bulls and ten thousand sheep",
+      "Two thousand bulls and seventeen thousand sheep",
+    ],
+    answer: "One thousand bulls and seven thousand sheep and goats",
+    reference: "2 Chronicles 30:24",
+  },
+  {
+    question:
+      "How many bulls and sheep and goats did the officials contribute?",
+    options: [
+      "One thousand bulls and ten thousand sheep and goats",
+      "Seven hundred bulls and seven thousand sheep",
+      "Two thousand bulls and ten thousand sheep",
+      "One thousand bulls and seven thousand sheep",
+    ],
+    answer: "One thousand bulls and ten thousand sheep and goats",
+    reference: "2 Chronicles 30:24",
+  },
+  {
+    question:
+      "Since whose days had Jerusalem not experienced such great joy?",
     options: [
       "Solomon son of David",
       "David",
-      "Moses",
-      "Joshua",
+      "Asa",
+      "Jehoshaphat",
     ],
     answer: "Solomon son of David",
     reference: "2 Chronicles 30:26",
   },
-
   {
-    question: "What did the Israelites destroy after the Passover celebration?",
+    question:
+      "What did Israelites destroy throughout Judah, Benjamin, Ephraim, and Manasseh after Passover?",
     options: [
       "Sacred stones, Asherah poles, high places, and altars",
-      "The temple walls",
-      "The royal palace",
-      "The city gates",
+      "City walls",
+      "Foreign temples only",
+      "Royal monuments",
     ],
     answer: "Sacred stones, Asherah poles, high places, and altars",
     reference: "2 Chronicles 31:1",
   },
   {
-    question: "What did Hezekiah order the people to contribute for the priests and Levites?",
+    question:
+      "What did Hezekiah personally contribute for the regular burnt offerings?",
     options: [
-      "The portion due them so they could devote themselves to the Law",
-      "Only silver",
-      "Only grain",
-      "Military supplies",
+      "Animals from his own possessions",
+      "Silver from the palace treasury",
+      "Grain from royal fields",
+      "Temple vessels",
     ],
-    answer: "The portion due them so they could devote themselves to the Law",
+    answer: "Animals from his own possessions",
+    reference: "2 Chronicles 31:3",
+  },
+  {
+    question:
+      "Why did Hezekiah command Jerusalem's people to give the priests and Levites their allotted portion?",
+    options: [
+      "So they could devote themselves to the Law of the LORD",
+      "So they would repair the temple",
+      "So they could feed the poor",
+      "So they could travel throughout Judah",
+    ],
+    answer: "So they could devote themselves to the Law of the LORD",
     reference: "2 Chronicles 31:4",
   },
   {
-    question: "What happened when the command to give contributions spread?",
-    options: [
-      "The Israelites gave generously and there were large heaps",
-      "The people refused",
-      "The temple ran out of food",
-      "Foreigners supplied everything",
-    ],
-    answer: "The Israelites gave generously and there were large heaps",
-    reference: "2 Chronicles 31:5-10",
+    question:
+      "In which month did the people begin laying up heaps of contributions?",
+    options: ["The third month", "The first month", "The seventh month", "The second month"],
+    answer: "The third month",
+    reference: "2 Chronicles 31:7",
   },
-
   {
-    question: "Which Assyrian king invaded Judah during Hezekiah's reign?",
+    question:
+      "In which month did they finish collecting the heaps?",
+    options: ["The seventh month", "The sixth month", "The eighth month", "The fourth month"],
+    answer: "The seventh month",
+    reference: "2 Chronicles 31:7",
+  },
+  {
+    question:
+      "Who was chief officer over the temple contributions?",
+    options: ["Conaniah the Levite", "Shimei", "Azariah", "Kore"],
+    answer: "Conaniah the Levite",
+    reference: "2 Chronicles 31:12",
+  },
+  {
+    question:
+      "Who served as Conaniah's assistant?",
+    options: ["Shimei", "Kore", "Azariah", "Mahath"],
+    answer: "Shimei",
+    reference: "2 Chronicles 31:12",
+  },
+  {
+    question:
+      "How is Hezekiah's overall work summarized?",
+    options: [
+      "He sought God wholeheartedly and prospered",
+      "He never made a mistake",
+      "He removed every high place in Israel",
+      "He ruled without foreign threat",
+    ],
+    answer: "He sought God wholeheartedly and prospered",
+    reference: "2 Chronicles 31:21",
+  },
+  {
+    question:
+      "Which Assyrian king invaded Judah during Hezekiah's reign?",
     options: ["Sennacherib", "Shalmaneser", "Tiglath-Pileser", "Esarhaddon"],
     answer: "Sennacherib",
     reference: "2 Chronicles 32:1",
   },
   {
-    question: "What water source did Hezekiah's people block to make things difficult for Assyria?",
+    question:
+      "What water source did Hezekiah and his officials block to deny water to the Assyrians?",
     options: [
-      "The springs outside Jerusalem",
-      "The Jordan",
-      "The Kidron",
+      "The springs outside the city",
+      "The Kidron River",
       "The Pool of Siloam",
+      "The Gihon tunnel",
     ],
-    answer: "The springs outside Jerusalem",
+    answer: "The springs outside the city",
     reference: "2 Chronicles 32:3-4",
   },
   {
-    question: "What did Hezekiah say Judah had that Assyria did not?",
+    question:
+      "What did Hezekiah say was greater than the arm of flesh with Assyria?",
     options: [
-      "The Lord our God to help us and fight our battles",
-      "More chariots",
-      "A stronger wall",
-      "Egyptian allies",
+      "The LORD our God, who helps and fights our battles",
+      "Judah's fortified walls",
+      "Jerusalem's army",
+      "The temple of the LORD",
     ],
-    answer: "The Lord our God to help us and fight our battles",
+    answer: "The LORD our God, who helps and fights our battles",
     reference: "2 Chronicles 32:7-8",
   },
   {
-    question: "How did Sennacherib's officers try to weaken Judah's confidence?",
+    question:
+      "How did Sennacherib's messengers insult the God of Jerusalem?",
     options: [
-      "They spoke against God and Hezekiah",
-      "They destroyed the temple",
-      "They bribed the priests",
-      "They captured Hezekiah",
+      "They compared Him to the gods made by human hands",
+      "They claimed Assyria was stronger than heaven",
+      "They denied Hezekiah had any god",
+      "They said Jerusalem had no temple",
     ],
-    answer: "They spoke against God and Hezekiah",
-    reference: "2 Chronicles 32:9-19",
+    answer: "They compared Him to the gods made by human hands",
+    reference: "2 Chronicles 32:19",
   },
   {
-    question: "Who prayed together when Assyria threatened Jerusalem?",
-    options: ["Hezekiah and Isaiah", "Hezekiah and Micah", "Isaiah and the priests", "Hezekiah and Eliakim"],
-    answer: "Hezekiah and Isaiah",
+    question:
+      "Who prayed and cried out to heaven in response to Sennacherib?",
+    options: [
+      "Hezekiah and Isaiah son of Amoz",
+      "Hezekiah and Micah",
+      "Isaiah and the priests",
+      "Hezekiah alone",
+    ],
+    answer: "Hezekiah and Isaiah son of Amoz",
     reference: "2 Chronicles 32:20",
   },
   {
-    question: "How did God deal with the Assyrian army?",
+    question:
+      "What did the LORD send into the Assyrian camp?",
     options: [
-      "He sent an angel who annihilated the fighting men and commanders",
-      "He sent rain",
-      "He caused Assyria to surrender",
-      "He sent Egypt to attack them",
+      "An angel who annihilated the fighting men, commanders, and officers",
+      "A plague of darkness",
+      "A storm",
+      "An army from Egypt",
     ],
-    answer: "He sent an angel who annihilated the fighting men and commanders",
+    answer:
+      "An angel who annihilated the fighting men, commanders, and officers",
     reference: "2 Chronicles 32:21",
   },
   {
-    question: "What happened to Sennacherib after he returned home?",
+    question:
+      "What happened to Sennacherib after he returned to his own land in disgrace?",
     options: [
-      "Some of his sons killed him in his god's temple",
-      "He died in battle",
-      "He became king of Judah",
-      "He returned and captured Jerusalem",
+      "Some of his sons killed him with the sword in the temple of his god",
+      "He died of disease",
+      "He was overthrown by Babylon",
+      "He was killed in battle",
     ],
-    answer: "Some of his sons killed him in his god's temple",
+    answer:
+      "Some of his sons killed him with the sword in the temple of his god",
     reference: "2 Chronicles 32:21",
   },
   {
-    question: "What mistake did Hezekiah make after recovering from his illness?",
+    question:
+      "What spiritual failure occurred after Hezekiah's miraculous recovery?",
     options: [
       "His heart became proud",
-      "He worshiped Baal",
-      "He closed the temple",
-      "He killed Isaiah",
+      "He worshiped foreign gods",
+      "He stopped temple worship",
+      "He formed an alliance with Egypt",
     ],
     answer: "His heart became proud",
     reference: "2 Chronicles 32:25",
   },
   {
-    question: "How did Hezekiah respond to his pride?",
+    question:
+      "What prevented God's wrath from coming during Hezekiah's lifetime?",
     options: [
-      "He humbled himself",
-      "He ignored the warning",
-      "He left Jerusalem",
-      "He blamed his officials",
+      "Hezekiah and Jerusalem humbled themselves",
+      "Isaiah interceded",
+      "Hezekiah gave away his treasures",
+      "Judah defeated Assyria",
     ],
-    answer: "He humbled himself",
+    answer: "Hezekiah and Jerusalem humbled themselves",
     reference: "2 Chronicles 32:26",
   },
-
   {
-    question: "How old was Manasseh when he became king?",
-    options: ["Twelve", "Eight", "Sixteen", "Twenty-five"],
+    question:
+      "What major water project did Hezekiah complete?",
+    options: [
+      "He blocked the upper outlet of the Gihon spring and channeled water to the west side of the City of David",
+      "He built the Pool of Bethesda",
+      "He diverted the Jordan",
+      "He dug wells throughout Judah",
+    ],
+    answer:
+      "He blocked the upper outlet of the Gihon spring and channeled water to the west side of the City of David",
+    reference: "2 Chronicles 32:30",
+  },
+  {
+    question:
+      "Why did God leave Hezekiah alone when Babylonian envoys came?",
+    options: [
+      "To test him and know everything that was in his heart",
+      "To allow Isaiah to test him",
+      "To reveal Babylon's future",
+      "To punish him immediately",
+    ],
+    answer: "To test him and know everything that was in his heart",
+    reference: "2 Chronicles 32:31",
+  },
+  {
+    question:
+      "How old was Manasseh when he became king?",
+    options: ["Twelve", "Eight", "Twenty-two", "Sixteen"],
     answer: "Twelve",
     reference: "2 Chronicles 33:1",
   },
   {
-    question: "How long did Manasseh reign?",
-    options: ["Fifty-five years", "Fifty-two years", "Forty years", "Twenty-nine years"],
+    question:
+      "How long did Manasseh reign?",
+    options: ["Fifty-five years", "Fifty-two years", "Forty-one years", "Twenty-nine years"],
     answer: "Fifty-five years",
     reference: "2 Chronicles 33:1",
   },
   {
-    question: "What idolatrous practice did Manasseh restore?",
+    question:
+      "What did Manasseh place inside God's temple?",
     options: [
-      "High places, Baal altars, and Asherah poles",
-      "Only golden calves",
-      "Only Baal worship",
-      "Only star worship",
+      "A carved image he had made",
+      "A golden calf",
+      "A statue of Baal",
+      "An altar to Molek",
     ],
-    answer: "High places, Baal altars, and Asherah poles",
-    reference: "2 Chronicles 33:3",
+    answer: "A carved image he had made",
+    reference: "2 Chronicles 33:7",
   },
   {
-    question: "What did Manasseh do to his own children?",
+    question:
+      "How did God bring Manasseh to repentance?",
     options: [
-      "Sacrificed them in the fire",
-      "Sent them to Babylon",
-      "Made them priests",
-      "Exiled them",
+      "Assyrian commanders captured him with hooks, bound him with bronze shackles, and took him to Babylon",
+      "A prophet struck him blind",
+      "Judah rebelled against him",
+      "He became seriously ill",
     ],
-    answer: "Sacrificed them in the fire",
-    reference: "2 Chronicles 33:6",
+    answer:
+      "Assyrian commanders captured him with hooks, bound him with bronze shackles, and took him to Babylon",
+    reference: "2 Chronicles 33:11",
   },
   {
-    question: "What happened when Manasseh ignored God's warnings?",
+    question:
+      "What did Manasseh do while in distress?",
     options: [
-      "Assyrian commanders captured him with hooks and took him to Babylon",
-      "He died immediately",
-      "Judah removed him",
-      "Egypt captured him",
+      "He humbled himself greatly and prayed to God",
+      "He asked Assyria for mercy",
+      "He vowed to rebuild Jerusalem",
+      "He fasted forty days",
     ],
-    answer: "Assyrian commanders captured him with hooks and took him to Babylon",
-    reference: "2 Chronicles 33:10-11",
-  },
-  {
-    question: "What did Manasseh do in his distress?",
-    options: [
-      "He humbled himself greatly and prayed",
-      "He cursed God",
-      "He appealed to Egypt",
-      "He escaped from prison",
-    ],
-    answer: "He humbled himself greatly and prayed",
+    answer: "He humbled himself greatly and prayed to God",
     reference: "2 Chronicles 33:12",
   },
   {
-    question: "What happened after Manasseh prayed?",
+    question:
+      "What did Manasseh come to know after God restored him to Jerusalem?",
     options: [
-      "God brought him back to Jerusalem and his kingdom",
-      "He remained in Babylon",
-      "He died",
-      "Assyria made him governor",
+      "That the LORD is God",
+      "That Assyria was weak",
+      "That Jerusalem was chosen",
+      "That the temple must be rebuilt",
     ],
-    answer: "God brought him back to Jerusalem and his kingdom",
+    answer: "That the LORD is God",
     reference: "2 Chronicles 33:13",
   },
   {
-    question: "What realization did Manasseh reach after his restoration?",
+    question:
+      "What reforms did Manasseh make after his restoration?",
     options: [
-      "The Lord is God",
-      "Assyria was stronger than Judah",
-      "Jerusalem needed a new temple",
-      "His idols had saved him",
+      "He removed foreign gods and the idol from the temple and restored the LORD's altar",
+      "He destroyed the temple and rebuilt it",
+      "He removed all high places from Judah permanently",
+      "He expelled all foreign residents",
     ],
-    answer: "The Lord is God",
-    reference: "2 Chronicles 33:13",
+    answer:
+      "He removed foreign gods and the idol from the temple and restored the LORD's altar",
+    reference: "2 Chronicles 33:15-16",
   },
   {
-    question: "Who succeeded Manasseh?",
-    options: ["Amon", "Josiah", "Hezekiah", "Jehoahaz"],
-    answer: "Amon",
-    reference: "2 Chronicles 33:20",
-  },
-  {
-    question: "How did Amon differ from Manasseh after sinning?",
+    question:
+      "What idolatrous practice nevertheless continued among the people after Manasseh's reforms?",
     options: [
-      "Amon did not humble himself",
-      "Amon repented immediately",
-      "Amon removed all idols",
+      "They continued sacrificing at the high places, though only to the LORD",
+      "They worshiped Baal in the temple",
+      "They sacrificed children",
+      "They worshiped the golden calves",
+    ],
+    answer:
+      "They continued sacrificing at the high places, though only to the LORD",
+    reference: "2 Chronicles 33:17",
+  },
+  {
+    question:
+      "How long did Amon reign?",
+    options: ["Two years", "One year", "Twelve years", "Six months"],
+    answer: "Two years",
+    reference: "2 Chronicles 33:21",
+  },
+  {
+    question:
+      "How did Amon differ from his father Manasseh late in life?",
+    options: [
+      "Amon did not humble himself before the LORD",
+      "Amon never practiced idolatry",
       "Amon rebuilt the temple",
+      "Amon removed the high places",
     ],
-    answer: "Amon did not humble himself",
+    answer: "Amon did not humble himself before the LORD",
     reference: "2 Chronicles 33:23",
   },
   {
-    question: "How did Amon die?",
+    question:
+      "Who killed Amon?",
     options: [
-      "His officials conspired and assassinated him",
-      "He died in battle",
-      "He died in Babylon",
-      "He died of illness",
+      "His own officials",
+      "The people of the land",
+      "The Assyrians",
+      "Josiah",
     ],
-    answer: "His officials conspired and assassinated him",
+    answer: "His own officials",
     reference: "2 Chronicles 33:24",
   },
-
   {
-    question: "How old was Josiah when he became king?",
-    options: ["Eight", "Twelve", "Sixteen", "Twenty-five"],
+    question:
+      "What did the people of the land do to Amon's assassins?",
+    options: [
+      "They killed them and made Josiah king",
+      "They imprisoned them",
+      "They exiled them",
+      "They handed them to Assyria",
+    ],
+    answer: "They killed them and made Josiah king",
+    reference: "2 Chronicles 33:25",
+  },
+  {
+    question:
+      "How old was Josiah when he became king?",
+    options: ["Eight", "Twelve", "Sixteen", "Twenty"],
     answer: "Eight",
     reference: "2 Chronicles 34:1",
   },
   {
-    question: "How long did Josiah reign?",
-    options: ["Thirty-one years", "Forty years", "Twenty-nine years", "Fifty-five years"],
-    answer: "Thirty-one years",
-    reference: "2 Chronicles 34:1",
-  },
-  {
-    question: "At what age did Josiah begin to seek the God of David?",
-    options: ["Sixteen", "Eight", "Twenty", "Twelve"],
-    answer: "Sixteen",
+    question:
+      "In which year of his reign did Josiah begin seeking the God of David?",
+    options: ["The eighth year", "The twelfth year", "The eighteenth year", "The fourth year"],
+    answer: "The eighth year",
     reference: "2 Chronicles 34:3",
   },
   {
-    question: "In which year of his reign did Josiah begin purging Judah and Jerusalem of idols?",
-    options: ["Twelfth year", "Eighth year", "Eighteenth year", "Fourth year"],
-    answer: "Twelfth year",
+    question:
+      "In which year did Josiah begin purging Judah and Jerusalem of idolatry?",
+    options: ["The twelfth year", "The eighth year", "The eighteenth year", "The sixteenth year"],
+    answer: "The twelfth year",
     reference: "2 Chronicles 34:3",
   },
   {
-    question: "What did Josiah do with the bones of pagan priests?",
+    question:
+      "What did Josiah do with the bones of pagan priests?",
     options: [
-      "Burned them on their own altars",
-      "Buried them in Jerusalem",
-      "Sent them to Samaria",
-      "Placed them outside the temple",
+      "He burned them on their altars",
+      "He buried them outside Jerusalem",
+      "He scattered them in the Kidron",
+      "He sent them to Samaria",
     ],
-    answer: "Burned them on their own altars",
+    answer: "He burned them on their altars",
     reference: "2 Chronicles 34:5",
   },
   {
-    question: "Who found the Book of the Law during temple repairs?",
-    options: ["Hilkiah", "Shaphan", "Huldah", "Jeremiah"],
-    answer: "Hilkiah",
+    question:
+      "How far north did Josiah's purge extend?",
+    options: [
+      "As far as Naphtali",
+      "Only to Ephraim",
+      "Only to Samaria",
+      "As far as Dan",
+    ],
+    answer: "As far as Naphtali",
+    reference: "2 Chronicles 34:6",
+  },
+  {
+    question:
+      "In which year did Josiah begin repairing the temple?",
+    options: ["The eighteenth year", "The twelfth year", "The eighth year", "The twentieth year"],
+    answer: "The eighteenth year",
+    reference: "2 Chronicles 34:8",
+  },
+  {
+    question:
+      "Who found the Book of the Law in the temple?",
+    options: [
+      "Hilkiah the priest",
+      "Shaphan the secretary",
+      "Maaseiah",
+      "Joah",
+    ],
+    answer: "Hilkiah the priest",
     reference: "2 Chronicles 34:14",
   },
   {
-    question: "Who read the Book of the Law before Josiah?",
-    options: ["Shaphan", "Hilkiah", "Huldah", "Jeremiah"],
+    question:
+      "Who read the discovered book to King Josiah?",
+    options: ["Shaphan", "Hilkiah", "Ahikam", "Abdon"],
     answer: "Shaphan",
     reference: "2 Chronicles 34:18",
   },
   {
-    question: "What did Josiah do after hearing the words of the Law?",
-    options: ["He tore his robes", "He burned the scroll", "He left Jerusalem", "He called the army"],
+    question:
+      "How did Josiah react when he heard the words of the Law?",
+    options: [
+      "He tore his robes",
+      "He fell facedown",
+      "He fasted seven days",
+      "He burned incense",
+    ],
     answer: "He tore his robes",
     reference: "2 Chronicles 34:19",
   },
   {
-    question: "Which prophetess was consulted about the Book of the Law?",
-    options: ["Huldah", "Deborah", "Miriam", "Anna"],
+    question:
+      "Which prophetess did Josiah's officials consult?",
+    options: ["Huldah", "Deborah", "Noadiah", "Anna"],
     answer: "Huldah",
     reference: "2 Chronicles 34:22",
   },
   {
-    question: "What did Huldah say would happen to Josiah because he humbled himself?",
+    question:
+      "Whose wife was Huldah?",
     options: [
-      "He would be buried in peace before the coming disaster",
-      "He would never die",
-      "He would rule Israel too",
-      "He would rebuild Samaria",
+      "Shallum son of Tokhath",
+      "Hilkiah",
+      "Shaphan",
+      "Ahikam",
     ],
-    answer: "He would be buried in peace before the coming disaster",
+    answer: "Shallum son of Tokhath",
+    reference: "2 Chronicles 34:22",
+  },
+  {
+    question:
+      "What position did Huldah's husband hold?",
+    options: [
+      "Keeper of the wardrobe",
+      "Temple treasurer",
+      "Royal secretary",
+      "Gatekeeper",
+    ],
+    answer: "Keeper of the wardrobe",
+    reference: "2 Chronicles 34:22",
+  },
+  {
+    question:
+      "What promise did God give Josiah because he humbled himself?",
+    options: [
+      "He would be buried in peace and would not see the disaster coming on the land",
+      "His dynasty would last forever",
+      "Judah would never be conquered",
+      "His sons would all be righteous",
+    ],
+    answer:
+      "He would be buried in peace and would not see the disaster coming on the land",
     reference: "2 Chronicles 34:27-28",
   },
   {
-    question: "What covenant did Josiah make before the Lord?",
+    question:
+      "Who gathered to hear the Book of the Covenant read publicly?",
     options: [
-      "To follow the Lord and obey His commands wholeheartedly",
-      "To ally with Egypt",
-      "To rebuild Israel",
-      "To abolish the priesthood",
+      "All the people from the least to the greatest",
+      "Only priests and Levites",
+      "Only Judah's elders",
+      "Only military leaders",
     ],
-    answer: "To follow the Lord and obey His commands wholeheartedly",
+    answer: "All the people from the least to the greatest",
+    reference: "2 Chronicles 34:30",
+  },
+  {
+    question:
+      "What did Josiah pledge before the LORD?",
+    options: [
+      "To follow the LORD and keep His commands with all his heart and soul",
+      "To rebuild Jerusalem's wall",
+      "To destroy Egypt",
+      "To make Passover annual",
+    ],
+    answer:
+      "To follow the LORD and keep His commands with all his heart and soul",
     reference: "2 Chronicles 34:31",
   },
-
   {
-    question: "What feast did Josiah celebrate after renewing the covenant?",
-    options: ["Passover", "Pentecost", "Tabernacles", "Purim"],
-    answer: "Passover",
+    question:
+      "On what date did Josiah celebrate the Passover?",
+    options: [
+      "The fourteenth day of the first month",
+      "The fifteenth day of the second month",
+      "The tenth day of the seventh month",
+      "The first day of the first month",
+    ],
+    answer: "The fourteenth day of the first month",
     reference: "2 Chronicles 35:1",
   },
   {
-    question: "How many lambs and goats did Josiah provide for the people for Passover?",
-    options: ["Thirty thousand", "Ten thousand", "Twenty thousand", "Forty thousand"],
-    answer: "Thirty thousand",
+    question:
+      "How many lambs and young goats did Josiah personally contribute for the Passover offerings?",
+    options: ["30,000", "3,000", "10,000", "20,000"],
+    answer: "30,000",
     reference: "2 Chronicles 35:7",
   },
   {
-    question: "How many cattle did Josiah provide?",
-    options: ["Three thousand", "One thousand", "Five thousand", "Seven thousand"],
-    answer: "Three thousand",
+    question:
+      "How many cattle did Josiah personally contribute?",
+    options: ["3,000", "300", "1,000", "5,000"],
+    answer: "3,000",
     reference: "2 Chronicles 35:7",
   },
   {
-    question: "Since whose days had no Passover like Josiah's been observed?",
+    question:
+      "What did the Levite leaders Conaniah, Shemaiah, and Nethanel provide?",
+    options: [
+      "5,000 Passover offerings and 500 cattle",
+      "2,600 offerings and 300 cattle",
+      "7,600 offerings and 700 cattle",
+      "3,000 lambs and 300 cattle",
+    ],
+    answer: "5,000 Passover offerings and 500 cattle",
+    reference: "2 Chronicles 35:9",
+  },
+  {
+    question:
+      "Since whose days had no Passover like Josiah's been observed in Israel?",
     options: [
       "Samuel the prophet",
       "David",
@@ -1996,221 +3275,340 @@ const secondChroniclesQuestions = [
     reference: "2 Chronicles 35:18",
   },
   {
-    question: "Which Egyptian king did Josiah confront?",
-    options: ["Necho", "Shishak", "So", "Hophra"],
-    answer: "Necho",
+    question:
+      "In which year of Josiah's reign was this Passover celebrated?",
+    options: ["The eighteenth year", "The twelfth year", "The eighth year", "The thirty-first year"],
+    answer: "The eighteenth year",
+    reference: "2 Chronicles 35:19",
+  },
+  {
+    question:
+      "Which Egyptian king marched toward Carchemish on the Euphrates?",
+    options: [
+      "Necho king of Egypt",
+      "Shishak",
+      "Pharaoh Hophra",
+      "So king of Egypt",
+    ],
+    answer: "Necho king of Egypt",
     reference: "2 Chronicles 35:20",
   },
   {
-    question: "What did Necho tell Josiah before the battle?",
+    question:
+      "What message did Necho send Josiah before the battle?",
     options: [
-      "God had told him to hurry, and Josiah should not oppose God",
-      "Egypt wanted Jerusalem",
-      "Judah must surrender",
-      "Babylon had sent him",
+      "God had told him to hurry, and Josiah should stop opposing God",
+      "Egypt intended to conquer Judah",
+      "Josiah should surrender Jerusalem",
+      "He wanted an alliance against Babylon",
     ],
-    answer: "God had told him to hurry, and Josiah should not oppose God",
+    answer:
+      "God had told him to hurry, and Josiah should stop opposing God",
     reference: "2 Chronicles 35:21",
   },
   {
-    question: "What did Josiah do before entering battle?",
+    question:
+      "How did Josiah disguise himself before fighting Necho?",
     options: [
-      "He disguised himself",
-      "He prayed for a sign",
-      "He wore priestly clothes",
-      "He surrendered",
+      "He changed his appearance and went into battle",
+      "He wore an Egyptian uniform",
+      "He exchanged armor with a commander",
+      "He fought without royal robes",
     ],
-    answer: "He disguised himself",
+    answer: "He changed his appearance and went into battle",
     reference: "2 Chronicles 35:22",
   },
   {
-    question: "How was Josiah fatally wounded?",
-    options: [
-      "Archers shot him",
-      "He was stabbed",
-      "A chariot crushed him",
-      "He fell from a wall",
-    ],
-    answer: "Archers shot him",
-    reference: "2 Chronicles 35:23",
+    question:
+      "Where was Josiah wounded by archers?",
+    options: ["At Megiddo", "At Carchemish", "At Jerusalem", "At Lachish"],
+    answer: "At Megiddo",
+    reference: "2 Chronicles 35:22-23",
   },
   {
-    question: "Who composed laments for Josiah?",
+    question:
+      "Who composed laments for Josiah?",
     options: ["Jeremiah", "Isaiah", "Huldah", "Zephaniah"],
     answer: "Jeremiah",
     reference: "2 Chronicles 35:25",
   },
-
   {
-    question: "Who became king after Josiah?",
-    options: ["Jehoahaz", "Jehoiakim", "Zedekiah", "Jehoiachin"],
-    answer: "Jehoahaz",
-    reference: "2 Chronicles 36:1",
-  },
-  {
-    question: "How long did Jehoahaz reign?",
+    question:
+      "How long did Jehoahaz reign in Jerusalem?",
     options: ["Three months", "Three years", "Eleven years", "One year"],
     answer: "Three months",
     reference: "2 Chronicles 36:2",
   },
   {
-    question: "Who removed Jehoahaz from the throne?",
-    options: ["The king of Egypt", "Nebuchadnezzar", "The king of Assyria", "The people of Judah"],
-    answer: "The king of Egypt",
+    question:
+      "How much tribute did the king of Egypt impose on Judah?",
+    options: [
+      "One hundred talents of silver and one talent of gold",
+      "Three hundred talents of silver and thirty talents of gold",
+      "One hundred talents of gold",
+      "Fifty talents of silver",
+    ],
+    answer: "One hundred talents of silver and one talent of gold",
     reference: "2 Chronicles 36:3",
   },
   {
-    question: "What was Eliakim's name changed to?",
+    question:
+      "What name did the king of Egypt give Eliakim?",
     options: ["Jehoiakim", "Jehoiachin", "Zedekiah", "Jehoahaz"],
     answer: "Jehoiakim",
     reference: "2 Chronicles 36:4",
   },
   {
-    question: "Who bound Jehoiakim with bronze shackles intending to take him to Babylon?",
-    options: ["Nebuchadnezzar", "Necho", "Cyrus", "Sennacherib"],
+    question:
+      "Who bound Jehoiakim in bronze shackles intending to take him to Babylon?",
+    options: [
+      "Nebuchadnezzar",
+      "Necho",
+      "Cyrus",
+      "Sennacherib",
+    ],
     answer: "Nebuchadnezzar",
     reference: "2 Chronicles 36:6",
   },
   {
-    question: "Who succeeded Jehoiakim?",
-    options: ["Jehoiachin", "Zedekiah", "Jehoahaz", "Josiah"],
-    answer: "Jehoiachin",
-    reference: "2 Chronicles 36:8",
+    question:
+      "What did Nebuchadnezzar carry from the temple to Babylon during Jehoiakim's reign?",
+    options: [
+      "Articles from the temple of the LORD",
+      "The ark of the covenant",
+      "The bronze pillars",
+      "All the temple gold",
+    ],
+    answer: "Articles from the temple of the LORD",
+    reference: "2 Chronicles 36:7",
   },
   {
-    question: "How long did Jehoiachin reign?",
-    options: ["Three months and ten days", "Three months", "Eleven years", "One year"],
+    question:
+      "How long did Jehoiachin reign in Jerusalem?",
+    options: [
+      "Three months and ten days",
+      "Three months",
+      "Eleven years",
+      "One year",
+    ],
     answer: "Three months and ten days",
     reference: "2 Chronicles 36:9",
   },
   {
-    question: "Whom did Nebuchadnezzar make king after Jehoiachin?",
-    options: ["Zedekiah", "Jehoiakim", "Jehoahaz", "Gedaliah"],
-    answer: "Zedekiah",
+    question:
+      "Whom did Nebuchadnezzar make king in Jehoiachin's place?",
+    options: [
+      "Zedekiah, Jehoiachin's relative",
+      "Jehoahaz",
+      "Gedaliah",
+      "Jehoiakim",
+    ],
+    answer: "Zedekiah, Jehoiachin's relative",
     reference: "2 Chronicles 36:10",
   },
   {
-    question: "How long did Zedekiah reign?",
-    options: ["Eleven years", "Twenty-one years", "Three years", "Seven years"],
+    question:
+      "How old was Zedekiah when he became king?",
+    options: ["Twenty-one", "Eighteen", "Twenty-five", "Thirty"],
+    answer: "Twenty-one",
+    reference: "2 Chronicles 36:11",
+  },
+  {
+    question:
+      "How long did Zedekiah reign?",
+    options: ["Eleven years", "Three months", "Twenty-one years", "Seven years"],
     answer: "Eleven years",
     reference: "2 Chronicles 36:11",
   },
   {
-    question: "Which prophet repeatedly spoke God's word to Zedekiah?",
-    options: ["Jeremiah", "Isaiah", "Ezekiel", "Daniel"],
+    question:
+      "Which prophet's words did Zedekiah refuse to humble himself before?",
+    options: ["Jeremiah", "Isaiah", "Huldah", "Ezekiel"],
     answer: "Jeremiah",
     reference: "2 Chronicles 36:12",
   },
   {
-    question: "What is said about the priests and people before Jerusalem's destruction?",
+    question:
+      "What oath did Zedekiah break?",
     options: [
-      "They became increasingly unfaithful and followed detestable practices",
-      "They fully repented",
-      "They removed every idol",
-      "They faithfully kept the Law",
+      "An oath to Nebuchadnezzar made in God's name",
+      "His covenant with Egypt",
+      "His promise to Jeremiah",
+      "His coronation oath to Judah",
     ],
-    answer: "They became increasingly unfaithful and followed detestable practices",
-    reference: "2 Chronicles 36:14",
+    answer: "An oath to Nebuchadnezzar made in God's name",
+    reference: "2 Chronicles 36:13",
   },
   {
-    question: "Why did God repeatedly send messengers to His people?",
+    question:
+      "Why did God repeatedly send messengers to Judah before the exile?",
     options: [
-      "Because He had pity on His people and dwelling place",
-      "Because Judah had no prophets",
-      "Because Babylon demanded it",
-      "Because the priests asked Him",
+      "He had pity on His people and His dwelling place",
+      "He wanted to warn Babylon",
+      "He wanted Judah to strengthen Jerusalem",
+      "He wanted the priests to flee",
     ],
-    answer: "Because He had pity on His people and dwelling place",
+    answer: "He had pity on His people and His dwelling place",
     reference: "2 Chronicles 36:15",
   },
   {
-    question: "How did the people respond to God's messengers?",
+    question:
+      "How did the people respond to God's messengers?",
     options: [
-      "They mocked, despised, and scoffed at them",
-      "They obeyed immediately",
-      "They left Jerusalem",
-      "They made them rulers",
+      "They mocked them, despised God's words, and scoffed at His prophets",
+      "They listened briefly and then rebelled",
+      "They imprisoned every prophet",
+      "They drove the priests from Jerusalem",
     ],
-    answer: "They mocked, despised, and scoffed at them",
+    answer:
+      "They mocked them, despised God's words, and scoffed at His prophets",
     reference: "2 Chronicles 36:16",
   },
   {
-    question: "What happened when God's wrath finally came on Judah?",
+    question:
+      "What eventually became true concerning the LORD's wrath?",
     options: [
       "There was no remedy",
-      "The people immediately repented",
-      "Egypt rescued them",
-      "The temple protected them",
+      "It was delayed another generation",
+      "It fell only on Zedekiah",
+      "It was removed through sacrifice",
     ],
     answer: "There was no remedy",
     reference: "2 Chronicles 36:16",
   },
   {
-    question: "Who destroyed Jerusalem and the temple?",
-    options: ["The Babylonians", "The Assyrians", "The Egyptians", "The Philistines"],
-    answer: "The Babylonians",
-    reference: "2 Chronicles 36:17-19",
+    question:
+      "Whom did God bring against Judah in final judgment?",
+    options: [
+      "The king of the Babylonians",
+      "The king of Assyria",
+      "The king of Egypt",
+      "The king of Aram",
+    ],
+    answer: "The king of the Babylonians",
+    reference: "2 Chronicles 36:17",
   },
   {
-    question: "What happened to the temple treasures?",
+    question:
+      "What happened to the temple and Jerusalem's important buildings?",
     options: [
-      "They were carried to Babylon",
-      "They were buried",
-      "They remained in Jerusalem",
-      "They were sent to Egypt",
+      "They were burned",
+      "They were dismantled and moved to Babylon",
+      "They were abandoned",
+      "They were converted into Babylonian temples",
     ],
-    answer: "They were carried to Babylon",
-    reference: "2 Chronicles 36:18",
-  },
-  {
-    question: "What happened to the walls of Jerusalem?",
-    options: [
-      "They were broken down",
-      "They remained intact",
-      "They were rebuilt immediately",
-      "They were covered with bronze",
-    ],
-    answer: "They were broken down",
+    answer: "They were burned",
     reference: "2 Chronicles 36:19",
   },
   {
-    question: "How long did the land enjoy its Sabbath rests during the exile?",
-    options: ["Seventy years", "Forty years", "Fifty years", "Seven years"],
+    question:
+      "What happened to Jerusalem's wall?",
+    options: [
+      "It was broken down",
+      "It was reinforced by Babylon",
+      "It was left untouched",
+      "Only its gates were destroyed",
+    ],
+    answer: "It was broken down",
+    reference: "2 Chronicles 36:19",
+  },
+  {
+    question:
+      "What happened to those who survived the sword?",
+    options: [
+      "They were carried into exile in Babylon",
+      "They fled to Egypt",
+      "They remained in Judah",
+      "They were sent to Assyria",
+    ],
+    answer: "They were carried into exile in Babylon",
+    reference: "2 Chronicles 36:20",
+  },
+  {
+    question:
+      "Until what political event did Judah's exiles serve in Babylon?",
+    options: [
+      "The kingdom of Persia came to power",
+      "Nebuchadnezzar died",
+      "Jerusalem was rebuilt",
+      "Cyrus conquered Egypt",
+    ],
+    answer: "The kingdom of Persia came to power",
+    reference: "2 Chronicles 36:20",
+  },
+  {
+    question:
+      "What prophetic word was fulfilled by the land enjoying its Sabbath rests?",
+    options: [
+      "The word of the LORD spoken by Jeremiah",
+      "The prophecy of Isaiah",
+      "The Law of Moses alone",
+      "The prophecy of Huldah",
+    ],
+    answer: "The word of the LORD spoken by Jeremiah",
+    reference: "2 Chronicles 36:21",
+  },
+  {
+    question:
+      "How long did the land enjoy its Sabbath rests during the exile?",
+    options: ["Seventy years", "Fifty years", "Forty years", "Seventy weeks"],
     answer: "Seventy years",
     reference: "2 Chronicles 36:21",
   },
   {
-    question: "Which prophet had spoken about the seventy years?",
+    question:
+      "Which Persian king issued the proclamation that closes 2 Chronicles?",
+    options: [
+      "Cyrus king of Persia",
+      "Darius",
+      "Xerxes",
+      "Artaxerxes",
+    ],
+    answer: "Cyrus king of Persia",
+    reference: "2 Chronicles 36:22",
+  },
+  {
+    question:
+      "Whose prophecy is specifically connected with Cyrus's proclamation?",
     options: ["Jeremiah", "Isaiah", "Ezekiel", "Daniel"],
     answer: "Jeremiah",
-    reference: "2 Chronicles 36:21",
+    reference: "2 Chronicles 36:22",
   },
   {
-    question: "Which Persian king issued a proclamation allowing the temple to be rebuilt?",
-    options: ["Cyrus", "Darius", "Xerxes", "Artaxerxes"],
-    answer: "Cyrus",
-    reference: "2 Chronicles 36:22-23",
-  },
-  {
-    question: "What did Cyrus say the Lord had given him?",
+    question:
+      "What did Cyrus say the LORD had given him?",
     options: [
       "All the kingdoms of the earth",
-      "Jerusalem only",
-      "Judah and Israel",
-      "The temple treasures",
+      "Judah and Jerusalem",
+      "The Babylonian empire only",
+      "Authority over God's people",
     ],
     answer: "All the kingdoms of the earth",
     reference: "2 Chronicles 36:23",
   },
   {
-    question: "What task did Cyrus say the Lord had appointed him to do?",
+    question:
+      "What task did Cyrus say the LORD had appointed him to carry out?",
     options: [
-      "Build a temple for the Lord in Jerusalem",
-      "Become king of Judah",
-      "Destroy Babylon",
-      "Restore David's throne",
+      "Build a temple for Him at Jerusalem in Judah",
+      "Rebuild Jerusalem's walls",
+      "Restore David's dynasty",
+      "Return the ark to Jerusalem",
     ],
-    answer: "Build a temple for the Lord in Jerusalem",
+    answer: "Build a temple for Him at Jerusalem in Judah",
+    reference: "2 Chronicles 36:23",
+  },
+  {
+    question:
+      "What final invitation does 2 Chronicles give to God's people?",
+    options: [
+      "Anyone among His people may go up, and may the LORD their God be with them",
+      "Everyone must return immediately",
+      "Only priests and Levites should go up",
+      "Judah should rebuild before returning",
+    ],
+    answer:
+      "Anyone among His people may go up, and may the LORD their God be with them",
     reference: "2 Chronicles 36:23",
   },
 ];

@@ -1,15 +1,10 @@
 const firstChroniclesQuestions = [
   {
-    question: "Who is named first in the genealogy that opens the book?",
-    options: ["Adam", "Noah", "Abraham", "Seth"],
-    answer: "Adam",
-    reference: "1 Chronicles 1:1",
-  },
-  {
-    question: "Which of Noah's sons are named in the genealogy?",
+    question:
+      "Which three sons of Noah are listed immediately after the genealogy from Adam to Noah?",
     options: [
       "Shem, Ham, and Japheth",
-      "Shem, Canaan, and Cush",
+      "Shem, Canaan, and Japheth",
       "Ham, Cush, and Mizraim",
       "Japheth, Gomer, and Magog",
     ],
@@ -17,48 +12,84 @@ const firstChroniclesQuestions = [
     reference: "1 Chronicles 1:4",
   },
   {
-    question: "Who was described as a mighty warrior on the earth?",
-    options: ["Nimrod", "Cush", "Peleg", "Canaan"],
+    question:
+      "Which son of Japheth is listed first among his sons?",
+    options: ["Gomer", "Magog", "Madai", "Javan"],
+    answer: "Gomer",
+    reference: "1 Chronicles 1:5",
+  },
+  {
+    question:
+      "Which descendant of Ham became a mighty warrior on the earth?",
+    options: ["Nimrod", "Cush", "Mizraim", "Canaan"],
     answer: "Nimrod",
     reference: "1 Chronicles 1:10",
   },
   {
-    question: "In whose days was the earth divided?",
-    options: ["Peleg", "Eber", "Joktan", "Reu"],
-    answer: "Peleg",
+    question:
+      "Which two sons were born to Eber?",
+    options: [
+      "Peleg and Joktan",
+      "Shelah and Peleg",
+      "Joktan and Serug",
+      "Peleg and Reu",
+    ],
+    answer: "Peleg and Joktan",
     reference: "1 Chronicles 1:19",
   },
   {
-    question: "Which two sons of Abraham are specifically named together?",
+    question:
+      "What reason is given for Peleg's name?",
     options: [
-      "Isaac and Ishmael",
-      "Isaac and Esau",
-      "Ishmael and Midian",
-      "Jacob and Esau",
+      "The earth was divided during his lifetime",
+      "He crossed the Euphrates",
+      "He became ruler over his brothers",
+      "His family migrated eastward",
     ],
-    answer: "Isaac and Ishmael",
-    reference: "1 Chronicles 1:28",
+    answer: "The earth was divided during his lifetime",
+    reference: "1 Chronicles 1:19",
   },
   {
-    question: "Who was Ishmael's firstborn son?",
+    question:
+      "Which three sons of Abraham are specifically connected with Keturah through Jokshan's family line?",
+    options: [
+      "Sheba, Dedan, and the descendants associated with Dedan",
+      "Midian, Ishbak, and Shuah",
+      "Nebaioth, Kedar, and Adbeel",
+      "Ephah, Epher, and Hanoch",
+    ],
+    answer: "Sheba, Dedan, and the descendants associated with Dedan",
+    reference: "1 Chronicles 1:32-33",
+  },
+  {
+    question:
+      "Who was Ishmael's firstborn son?",
     options: ["Nebaioth", "Kedar", "Adbeel", "Mibsam"],
     answer: "Nebaioth",
     reference: "1 Chronicles 1:29",
   },
   {
-    question: "Which woman bore Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah to Abraham?",
-    options: ["Keturah", "Sarah", "Hagar", "Rebekah"],
-    answer: "Keturah",
-    reference: "1 Chronicles 1:32",
-  },
-  {
-    question: "What other name is given for Esau?",
-    options: ["Edom", "Seir", "Teman", "Amalek"],
-    answer: "Edom",
+    question:
+      "Which two sons of Isaac are named in the genealogy?",
+    options: [
+      "Esau and Israel",
+      "Jacob and Joseph",
+      "Esau and Joseph",
+      "Israel and Judah",
+    ],
+    answer: "Esau and Israel",
     reference: "1 Chronicles 1:34",
   },
   {
-    question: "Who was the first king listed as reigning in Edom before any Israelite king?",
+    question:
+      "Which son of Seir had a sister named Timna?",
+    options: ["Lotan", "Shobal", "Zibeon", "Dishon"],
+    answer: "Lotan",
+    reference: "1 Chronicles 1:39",
+  },
+  {
+    question:
+      "Who was the first king of Edom listed as reigning before any Israelite king?",
     options: [
       "Bela son of Beor",
       "Jobab son of Zerah",
@@ -68,195 +99,362 @@ const firstChroniclesQuestions = [
     answer: "Bela son of Beor",
     reference: "1 Chronicles 1:43",
   },
-
   {
-    question: "Which son of Israel is listed first among his sons?",
-    options: ["Reuben", "Judah", "Joseph", "Levi"],
-    answer: "Reuben",
+    question:
+      "What was the name of the city from which Bela son of Beor ruled?",
+    options: ["Dinhabah", "Bozrah", "Avith", "Pau"],
+    answer: "Dinhabah",
+    reference: "1 Chronicles 1:43",
+  },
+  {
+    question:
+      "Which Edomite king defeated Midian in the country of Moab?",
+    options: [
+      "Hadad son of Bedad",
+      "Bela son of Beor",
+      "Husham",
+      "Samlah",
+    ],
+    answer: "Hadad son of Bedad",
+    reference: "1 Chronicles 1:46",
+  },
+  {
+    question:
+      "Who was Israel's fourth son in the genealogical list?",
+    options: ["Judah", "Levi", "Dan", "Joseph"],
+    answer: "Judah",
     reference: "1 Chronicles 2:1",
   },
   {
-    question: "How many sons of Israel are listed?",
-    options: ["Twelve", "Ten", "Thirteen", "Eleven"],
-    answer: "Twelve",
-    reference: "1 Chronicles 2:1-2",
-  },
-  {
-    question: "Who was Judah's firstborn son?",
-    options: ["Er", "Onan", "Shelah", "Perez"],
-    answer: "Er",
-    reference: "1 Chronicles 2:3",
-  },
-  {
-    question: "Why did the Lord put Er to death?",
+    question:
+      "Which sons of Judah were born to the daughter of Shua the Canaanite?",
     options: [
-      "He was wicked in the Lord's sight",
-      "He worshiped Baal",
-      "He killed his brother",
-      "He rebelled against Judah",
+      "Er, Onan, and Shelah",
+      "Perez, Zerah, and Er",
+      "Hezron, Hamul, and Zerah",
+      "Er, Perez, and Shelah",
     ],
-    answer: "He was wicked in the Lord's sight",
+    answer: "Er, Onan, and Shelah",
     reference: "1 Chronicles 2:3",
   },
   {
-    question: "Who bore Perez and Zerah to Judah?",
-    options: ["Tamar", "Bathshua", "Abigail", "Maakah"],
-    answer: "Tamar",
+    question:
+      "Why did the LORD put Er, Judah's firstborn, to death?",
+    options: [
+      "He was wicked in the LORD's sight",
+      "He refused to marry",
+      "He rebelled against Judah",
+      "He worshiped foreign gods",
+    ],
+    answer: "He was wicked in the LORD's sight",
+    reference: "1 Chronicles 2:3",
+  },
+  {
+    question:
+      "Which two sons did Tamar bear to Judah?",
+    options: [
+      "Perez and Zerah",
+      "Hezron and Hamul",
+      "Er and Onan",
+      "Ram and Caleb",
+    ],
+    answer: "Perez and Zerah",
     reference: "1 Chronicles 2:4",
   },
   {
-    question: "Who was the father of Jesse?",
-    options: ["Obed", "Boaz", "Salmon", "Nahshon"],
-    answer: "Obed",
-    reference: "1 Chronicles 2:12",
+    question:
+      "Which descendant of Zerah brought trouble on Israel by violating the ban on devoted things?",
+    options: ["Achar", "Ethan", "Heman", "Calcol"],
+    answer: "Achar",
+    reference: "1 Chronicles 2:7",
   },
   {
-    question: "Which son of Jesse is listed as his seventh son?",
-    options: ["David", "Eliab", "Abinadab", "Shimea"],
-    answer: "David",
+    question:
+      "Who was the father of Amminadab in the line leading to David?",
+    options: ["Ram", "Hezron", "Nahshon", "Salmon"],
+    answer: "Ram",
+    reference: "1 Chronicles 2:10",
+  },
+  {
+    question:
+      "Who was the father of Boaz according to the genealogy?",
+    options: ["Salma", "Nahshon", "Obed", "Ram"],
+    answer: "Salma",
+    reference: "1 Chronicles 2:11",
+  },
+  {
+    question:
+      "What position did David occupy among Jesse's sons in the Chronicler's list?",
+    options: ["Seventh", "Eighth", "Sixth", "Fifth"],
+    answer: "Seventh",
     reference: "1 Chronicles 2:15",
   },
   {
-    question: "Who were David's sisters?",
+    question:
+      "Who were the sisters of David and his brothers?",
     options: [
       "Zeruiah and Abigail",
-      "Abigail and Tamar",
-      "Zeruiah and Michal",
-      "Tamar and Maakah",
+      "Abigail and Michal",
+      "Zeruiah and Tamar",
+      "Abigail and Maacah",
     ],
     answer: "Zeruiah and Abigail",
     reference: "1 Chronicles 2:16",
   },
   {
-    question: "Who were the three sons of Zeruiah?",
+    question:
+      "Which three sons of Zeruiah are named?",
     options: [
       "Abishai, Joab, and Asahel",
-      "Joab, Amasa, and Asahel",
-      "Abishai, Amasa, and Joab",
-      "Joab, Jonathan, and Asahel",
+      "Joab, Amasa, and Abishai",
+      "Asahel, Amasa, and Joab",
+      "Abishai, Jether, and Joab",
     ],
     answer: "Abishai, Joab, and Asahel",
     reference: "1 Chronicles 2:16",
   },
   {
-    question: "Who was Amasa's mother?",
-    options: ["Abigail", "Zeruiah", "Tamar", "Abihail"],
-    answer: "Abigail",
+    question:
+      "Who was the father of Amasa?",
+    options: [
+      "Jether the Ishmaelite",
+      "Joab",
+      "Jesse",
+      "Abishai",
+    ],
+    answer: "Jether the Ishmaelite",
     reference: "1 Chronicles 2:17",
   },
-
   {
-    question: "Who was David's firstborn son?",
+    question:
+      "After Hezron died, whom did Caleb marry?",
+    options: ["Ephrath", "Abijah", "Azubah", "Maacah"],
+    answer: "Ephrath",
+    reference: "1 Chronicles 2:24",
+  },
+  {
+    question:
+      "Who became the father of Tekoa after Hezron's death?",
+    options: ["Ashhur", "Hur", "Caleb", "Salma"],
+    answer: "Ashhur",
+    reference: "1 Chronicles 2:24",
+  },
+  {
+    question:
+      "Who was the father of Kiriath Jearim?",
+    options: ["Shobal", "Salma", "Hareph", "Hur"],
+    answer: "Shobal",
+    reference: "1 Chronicles 2:50",
+  },
+  {
+    question:
+      "Which son of Hur is identified as the father of Bethlehem?",
+    options: ["Salma", "Shobal", "Hareph", "Uri"],
+    answer: "Salma",
+    reference: "1 Chronicles 2:51",
+  },
+  {
+    question:
+      "Which of David's sons born at Hebron was his firstborn?",
     options: ["Amnon", "Daniel", "Absalom", "Adonijah"],
     answer: "Amnon",
     reference: "1 Chronicles 3:1",
   },
   {
-    question: "Who was the mother of Absalom?",
-    options: ["Maakah", "Ahinoam", "Abigail", "Haggith"],
-    answer: "Maakah",
-    reference: "1 Chronicles 3:2",
-  },
-  {
-    question: "Who was Absalom's maternal grandfather?",
+    question:
+      "Who was the mother of David's second son Daniel?",
     options: [
-      "Talmai king of Geshur",
-      "Nahash king of Ammon",
-      "Saul king of Israel",
-      "Hiram king of Tyre",
+      "Abigail of Carmel",
+      "Ahinoam of Jezreel",
+      "Maacah",
+      "Haggith",
     ],
-    answer: "Talmai king of Geshur",
+    answer: "Abigail of Carmel",
+    reference: "1 Chronicles 3:1",
+  },
+  {
+    question:
+      "Who was the mother of Absalom?",
+    options: [
+      "Maacah daughter of Talmai king of Geshur",
+      "Abigail of Carmel",
+      "Haggith",
+      "Eglah",
+    ],
+    answer: "Maacah daughter of Talmai king of Geshur",
     reference: "1 Chronicles 3:2",
   },
   {
-    question: "How many sons were born to David in Hebron?",
-    options: ["Six", "Seven", "Four", "Eight"],
-    answer: "Six",
-    reference: "1 Chronicles 3:1-4",
-  },
-  {
-    question: "How long did David reign in Hebron?",
+    question:
+      "How long did David reign in Hebron?",
     options: [
       "Seven years and six months",
       "Seven years",
       "Six years and six months",
-      "Thirty-three years",
+      "Eight years",
     ],
     answer: "Seven years and six months",
     reference: "1 Chronicles 3:4",
   },
   {
-    question: "How long did David reign in Jerusalem?",
-    options: ["Thirty-three years", "Forty years", "Seven years", "Thirty years"],
+    question:
+      "How long did David reign in Jerusalem?",
+    options: ["Thirty-three years", "Forty years", "Thirty years", "Seven years"],
     answer: "Thirty-three years",
     reference: "1 Chronicles 3:4",
   },
   {
-    question: "Which son of David succeeded him in the royal line?",
-    options: ["Solomon", "Nathan", "Absalom", "Adonijah"],
-    answer: "Solomon",
-    reference: "1 Chronicles 3:5, 10",
-  },
-
-  {
-    question: "What did Jabez ask God to enlarge?",
-    options: ["His territory", "His family", "His army", "His wealth"],
-    answer: "His territory",
-    reference: "1 Chronicles 4:10",
-  },
-  {
-    question: "Why was Jabez given his name?",
+    question:
+      "Which four sons of David born in Jerusalem were sons of Bathshua daughter of Ammiel?",
     options: [
-      "His mother bore him in pain",
-      "He was born during a famine",
+      "Shimea, Shobab, Nathan, and Solomon",
+      "Solomon, Ibhar, Elishua, and Elpelet",
+      "Nathan, Solomon, Nogah, and Nepheg",
+      "Shobab, Nathan, Japhia, and Solomon",
+    ],
+    answer: "Shimea, Shobab, Nathan, and Solomon",
+    reference: "1 Chronicles 3:5",
+  },
+  {
+    question:
+      "Which king in Solomon's line was the father of Jehoshaphat?",
+    options: ["Asa", "Abijah", "Rehoboam", "Joram"],
+    answer: "Asa",
+    reference: "1 Chronicles 3:10",
+  },
+  {
+    question:
+      "Which king is listed between Amaziah and Jotham?",
+    options: ["Azariah", "Ahaz", "Joash", "Hezekiah"],
+    answer: "Azariah",
+    reference: "1 Chronicles 3:12",
+  },
+  {
+    question:
+      "Which son of Josiah became the father of Jeconiah?",
+    options: ["Jehoiakim", "Zedekiah", "Johanan", "Shallum"],
+    answer: "Jehoiakim",
+    reference: "1 Chronicles 3:15-16",
+  },
+  {
+    question:
+      "Which son of Jeconiah is named first among those born during the captivity?",
+    options: ["Shealtiel", "Pedaiah", "Shenazzar", "Jekamiah"],
+    answer: "Shealtiel",
+    reference: "1 Chronicles 3:17",
+  },
+  {
+    question:
+      "Which descendant of Pedaiah became a major post-exilic leader?",
+    options: ["Zerubbabel", "Hananiah", "Shelomith", "Ohel"],
+    answer: "Zerubbabel",
+    reference: "1 Chronicles 3:19",
+  },
+  {
+    question:
+      "Which man is described as more honorable than his brothers?",
+    options: ["Jabez", "Chelub", "Othniel", "Kenaz"],
+    answer: "Jabez",
+    reference: "1 Chronicles 4:9",
+  },
+  {
+    question:
+      "Why did Jabez's mother give him that name?",
+    options: [
+      "She bore him in pain",
+      "He was born during famine",
       "His father died at his birth",
-      "He was born outside Judah",
+      "He was born in exile",
     ],
-    answer: "His mother bore him in pain",
+    answer: "She bore him in pain",
     reference: "1 Chronicles 4:9",
   },
   {
-    question: "How is Jabez described compared with his brothers?",
+    question:
+      "Which request was included in Jabez's prayer?",
     options: [
-      "More honorable",
-      "Stronger",
-      "Older",
-      "More wealthy",
+      "That God's hand would be with him and keep him from harm",
+      "That he would become king over Judah",
+      "That his enemies would be destroyed",
+      "That he would receive priestly authority",
     ],
-    answer: "More honorable",
-    reference: "1 Chronicles 4:9",
-  },
-  {
-    question: "What did God do with Jabez's request?",
-    options: [
-      "God granted his request",
-      "God rejected it",
-      "God delayed it",
-      "God gave him a different blessing",
-    ],
-    answer: "God granted his request",
+    answer: "That God's hand would be with him and keep him from harm",
     reference: "1 Chronicles 4:10",
   },
   {
-    question: "Which tribe found rich, good pasture in the region of Gedor?",
-    options: ["Simeon", "Judah", "Reuben", "Gad"],
-    answer: "Simeon",
-    reference: "1 Chronicles 4:39-40",
+    question:
+      "Who was the father of Othniel?",
+    options: ["Kenaz", "Jephunneh", "Caleb", "Seraiah"],
+    answer: "Kenaz",
+    reference: "1 Chronicles 4:13",
   },
-
   {
-    question: "Why did Reuben lose his rights as firstborn?",
+    question:
+      "Which descendant of Judah is identified as the father of craftsmen who lived in the Valley of Harashim?",
+    options: ["Joab", "Othniel", "Meonothai", "Seraiah"],
+    answer: "Joab",
+    reference: "1 Chronicles 4:14",
+  },
+  {
+    question:
+      "Which tribe's genealogy includes the statement that some members worked for the king as potters?",
+    options: ["Judah", "Simeon", "Reuben", "Levi"],
+    answer: "Judah",
+    reference: "1 Chronicles 4:23",
+  },
+  {
+    question:
+      "Which five sons of Simeon are listed?",
+    options: [
+      "Nemuel, Jamin, Jarib, Zerah, and Shaul",
+      "Nemuel, Jamin, Ohad, Zerah, and Korah",
+      "Jamin, Jarib, Zerah, Shaul, and Carmi",
+      "Shaul, Zerah, Nemuel, Carmi, and Ohad",
+    ],
+    answer: "Nemuel, Jamin, Jarib, Zerah, and Shaul",
+    reference: "1 Chronicles 4:24",
+  },
+  {
+    question:
+      "During whose reign did certain Simeonite leaders attack the Hamites at Gedor?",
+    options: ["Hezekiah", "David", "Josiah", "Solomon"],
+    answer: "Hezekiah",
+    reference: "1 Chronicles 4:41",
+  },
+  {
+    question:
+      "How many Simeonites went to Mount Seir under the leadership of Pelatiah, Neariah, Rephaiah, and Uzziel?",
+    options: ["Five hundred", "Three hundred", "Seven hundred", "One thousand"],
+    answer: "Five hundred",
+    reference: "1 Chronicles 4:42",
+  },
+  {
+    question:
+      "Whom did the Simeonites destroy at Mount Seir?",
+    options: [
+      "The remaining Amalekites",
+      "The Edomites",
+      "The Moabites",
+      "The Horites",
+    ],
+    answer: "The remaining Amalekites",
+    reference: "1 Chronicles 4:43",
+  },
+  {
+    question:
+      "Why did Reuben lose the rights of the firstborn?",
     options: [
       "He defiled his father's marriage bed",
       "He sold Joseph",
-      "He worshiped idols",
-      "He abandoned Israel",
+      "He rebelled against Moses",
+      "He married a Canaanite",
     ],
     answer: "He defiled his father's marriage bed",
     reference: "1 Chronicles 5:1",
   },
   {
-    question: "To whom were Reuben's rights as firstborn given?",
+    question:
+      "To whose sons were Reuben's rights as firstborn transferred?",
     options: [
       "The sons of Joseph",
       "The sons of Judah",
@@ -267,1439 +465,2727 @@ const firstChroniclesQuestions = [
     reference: "1 Chronicles 5:1",
   },
   {
-    question: "From which tribe came the ruler even though Joseph received the rights of the firstborn?",
-    options: ["Judah", "Levi", "Benjamin", "Reuben"],
+    question:
+      "Although Joseph received the birthright, from which tribe did the ruler come?",
+    options: ["Judah", "Benjamin", "Levi", "Ephraim"],
     answer: "Judah",
     reference: "1 Chronicles 5:2",
   },
   {
-    question: "Which tribes fought against the Hagrites?",
-    options: [
-      "Reuben, Gad, and half the tribe of Manasseh",
-      "Judah, Simeon, and Benjamin",
-      "Ephraim and Manasseh",
-      "Gad, Asher, and Naphtali",
-    ],
-    answer: "Reuben, Gad, and half the tribe of Manasseh",
-    reference: "1 Chronicles 5:18-20",
+    question:
+      "During whose reign did the Reubenites wage war against the Hagrites?",
+    options: ["Saul", "David", "Solomon", "Hezekiah"],
+    answer: "Saul",
+    reference: "1 Chronicles 5:10",
   },
   {
-    question: "Why were the eastern tribes helped in battle against their enemies?",
+    question:
+      "Which tribes fought together against the Hagrites, Jetur, Naphish, and Nodab?",
     options: [
-      "They cried out to God and trusted Him",
-      "They had more soldiers",
-      "David fought with them",
-      "They formed an alliance with Judah",
+      "Reuben, Gad, and the half-tribe of Manasseh",
+      "Judah, Simeon, and Benjamin",
+      "Ephraim, Manasseh, and Benjamin",
+      "Gad, Asher, and Naphtali",
     ],
-    answer: "They cried out to God and trusted Him",
+    answer: "Reuben, Gad, and the half-tribe of Manasseh",
+    reference: "1 Chronicles 5:18-19",
+  },
+  {
+    question:
+      "How many trained warriors from the eastern tribes went to war against the Hagrites?",
+    options: ["44,760", "40,000", "46,500", "50,000"],
+    answer: "44,760",
+    reference: "1 Chronicles 5:18",
+  },
+  {
+    question:
+      "Why were the eastern tribes victorious over the Hagrites?",
+    options: [
+      "They cried out to God in battle and trusted him",
+      "They had more chariots",
+      "David sent reinforcements",
+      "The Hagrites surrendered without fighting",
+    ],
+    answer: "They cried out to God in battle and trusted him",
     reference: "1 Chronicles 5:20",
   },
   {
-    question: "Why were the eastern tribes eventually taken into exile?",
-    options: [
-      "They were unfaithful to God and worshiped other gods",
-      "They refused to fight",
-      "They rebelled against David",
-      "They abandoned their cities",
-    ],
-    answer: "They were unfaithful to God and worshiped other gods",
-    reference: "1 Chronicles 5:25-26",
+    question:
+      "How many camels were captured from the Hagrites?",
+    options: ["50,000", "5,000", "25,000", "100,000"],
+    answer: "50,000",
+    reference: "1 Chronicles 5:21",
   },
-
   {
-    question: "Who were the three sons of Levi?",
+    question:
+      "How many sheep were captured in the same battle?",
+    options: ["250,000", "50,000", "200,000", "100,000"],
+    answer: "250,000",
+    reference: "1 Chronicles 5:21",
+  },
+  {
+    question:
+      "How many people were taken captive in the eastern tribes' victory?",
+    options: ["100,000", "50,000", "44,760", "25,000"],
+    answer: "100,000",
+    reference: "1 Chronicles 5:21",
+  },
+  {
+    question:
+      "Which Assyrian ruler carried the Reubenites, Gadites, and half-tribe of Manasseh into exile?",
+    options: [
+      "Tiglath-Pileser",
+      "Sennacherib",
+      "Shalmaneser",
+      "Esarhaddon",
+    ],
+    answer: "Tiglath-Pileser",
+    reference: "1 Chronicles 5:26",
+  },
+  {
+    question:
+      "Which three sons of Levi founded the principal Levitical family lines?",
     options: [
       "Gershon, Kohath, and Merari",
       "Kohath, Amram, and Izhar",
-      "Gershon, Libni, and Shimei",
+      "Gershon, Amram, and Merari",
       "Aaron, Moses, and Miriam",
     ],
     answer: "Gershon, Kohath, and Merari",
     reference: "1 Chronicles 6:1",
   },
   {
-    question: "Who were the children of Amram named in the genealogy?",
+    question:
+      "Which four children are listed for Amram?",
     options: [
-      "Aaron, Moses, and Miriam",
-      "Aaron and Moses only",
-      "Moses, Miriam, and Korah",
-      "Aaron, Eleazar, and Ithamar",
+      "Aaron, Moses, and Miriam are named, with Aaron's line then traced",
+      "Aaron, Moses, Nadab, and Abihu",
+      "Moses, Aaron, Eleazar, and Ithamar",
+      "Aaron, Miriam, Eleazar, and Phinehas",
     ],
-    answer: "Aaron, Moses, and Miriam",
+    answer: "Aaron, Moses, and Miriam are named, with Aaron's line then traced",
     reference: "1 Chronicles 6:3",
   },
   {
-    question: "Who were Aaron's sons?",
-    options: [
-      "Nadab, Abihu, Eleazar, and Ithamar",
-      "Eleazar, Ithamar, Phinehas, and Abishua",
-      "Nadab, Korah, Eleazar, and Ithamar",
-      "Gershon, Kohath, Merari, and Eleazar",
-    ],
-    answer: "Nadab, Abihu, Eleazar, and Ithamar",
-    reference: "1 Chronicles 6:3",
-  },
-  {
-    question: "Who was the father of Phinehas?",
-    options: ["Eleazar", "Aaron", "Abishua", "Amram"],
-    answer: "Eleazar",
+    question:
+      "Who succeeded Eleazar in the priestly genealogy?",
+    options: ["Phinehas", "Abishua", "Bukki", "Uzzi"],
+    answer: "Phinehas",
     reference: "1 Chronicles 6:4",
   },
   {
-    question: "Which Levite did David appoint as the chief musician?",
-    options: ["Heman", "Asaph", "Ethan", "Korah"],
-    answer: "Heman",
-    reference: "1 Chronicles 6:33",
+    question:
+      "Which priest served in the temple Solomon built in Jerusalem?",
+    options: ["Azariah", "Zadok", "Ahitub", "Amariah"],
+    answer: "Azariah",
+    reference: "1 Chronicles 6:10",
   },
   {
-    question: "From which son of Levi was Heman descended?",
+    question:
+      "Which priest was taken into exile when the LORD sent Judah and Jerusalem away through Nebuchadnezzar?",
+    options: ["Jehozadak", "Seraiah", "Hilkiah", "Azariah"],
+    answer: "Jehozadak",
+    reference: "1 Chronicles 6:15",
+  },
+  {
+    question:
+      "Who was appointed by David as one of those responsible for the music in the house of the LORD after the ark came to rest there?",
+    options: ["Heman", "Zadok", "Jehoiada", "Benaiah"],
+    answer: "Heman",
+    reference: "1 Chronicles 6:31-33",
+  },
+  {
+    question:
+      "From which Levitical line did the singer Heman descend?",
     options: ["Kohath", "Gershon", "Merari", "Aaron"],
     answer: "Kohath",
     reference: "1 Chronicles 6:33-38",
   },
   {
-    question: "Who served at Heman's right hand?",
-    options: ["Asaph", "Ethan", "Zechariah", "Obed-Edom"],
+    question:
+      "Who stood at Heman's right hand in the musical ministry?",
+    options: ["Asaph", "Ethan", "Jeduthun", "Korah"],
     answer: "Asaph",
     reference: "1 Chronicles 6:39",
   },
-
   {
-    question: "Which tribe's genealogy mentions that its warriors were skilled with the bow?",
-    options: ["Benjamin", "Judah", "Levi", "Issachar"],
-    answer: "Benjamin",
-    reference: "1 Chronicles 8:40",
+    question:
+      "From which Levitical family did Asaph descend?",
+    options: ["Gershon", "Kohath", "Merari", "Aaron"],
+    answer: "Gershon",
+    reference: "1 Chronicles 6:39-43",
   },
-
   {
-    question: "Which three groups are specifically mentioned as living in Jerusalem after the exile?",
+    question:
+      "From which Levitical family did Ethan, stationed at Heman's left, descend?",
+    options: ["Merari", "Gershon", "Kohath", "Aaron"],
+    answer: "Merari",
+    reference: "1 Chronicles 6:44-47",
+  },
+  {
+    question:
+      "Which descendants alone were assigned to offer sacrifices on the altar of burnt offering and incense?",
+    options: [
+      "Aaron and his descendants",
+      "All Kohathites",
+      "All Levites",
+      "The descendants of Moses",
+    ],
+    answer: "Aaron and his descendants",
+    reference: "1 Chronicles 6:49",
+  },
+  {
+    question:
+      "Which city in Judah, together with its surrounding pasturelands, was given to Aaron's descendants?",
+    options: ["Hebron", "Jerusalem", "Bethlehem", "Tekoa"],
+    answer: "Hebron",
+    reference: "1 Chronicles 6:55",
+  },
+  {
+    question:
+      "To whom were Hebron's fields and villages given instead of the priests?",
+    options: [
+      "Caleb son of Jephunneh",
+      "Joshua son of Nun",
+      "Othniel son of Kenaz",
+      "David son of Jesse",
+    ],
+    answer: "Caleb son of Jephunneh",
+    reference: "1 Chronicles 6:56",
+  },
+  {
+    question:
+      "How many sons did Issachar have according to the genealogy?",
+    options: ["Four", "Five", "Six", "Three"],
+    answer: "Four",
+    reference: "1 Chronicles 7:1",
+  },
+  {
+    question:
+      "How many fighting men were recorded among Tola's descendants in David's reign?",
+    options: ["22,600", "36,000", "26,000", "20,200"],
+    answer: "22,600",
+    reference: "1 Chronicles 7:2",
+  },
+  {
+    question:
+      "Why did the descendants of Izrahiah have many wives and children?",
+    options: [
+      "They were heads of families",
+      "They were wealthy merchants",
+      "They were priests",
+      "They inherited foreign wives after war",
+    ],
+    answer: "They were heads of families",
+    reference: "1 Chronicles 7:4",
+  },
+  {
+    question:
+      "How many fighting men were recorded in Issachar's entire genealogy?",
+    options: ["87,000", "44,760", "26,000", "36,000"],
+    answer: "87,000",
+    reference: "1 Chronicles 7:5",
+  },
+  {
+    question:
+      "Which three sons of Benjamin are listed at the beginning of his genealogy in this chapter?",
+    options: [
+      "Bela, Beker, and Jediael",
+      "Bela, Ashbel, and Aharah",
+      "Beker, Ashbel, and Ehud",
+      "Bela, Ehud, and Jediael",
+    ],
+    answer: "Bela, Beker, and Jediael",
+    reference: "1 Chronicles 7:6",
+  },
+  {
+    question:
+      "How many fighting men were counted among Bela's descendants?",
+    options: ["22,034", "20,200", "17,200", "26,000"],
+    answer: "22,034",
+    reference: "1 Chronicles 7:7",
+  },
+  {
+    question:
+      "Which tribe's warriors were described as brave warriors, famous in their families, and ready for war?",
+    options: ["Asher", "Naphtali", "Dan", "Simeon"],
+    answer: "Asher",
+    reference: "1 Chronicles 7:40",
+  },
+  {
+    question:
+      "How many men ready for battle were recorded from Asher?",
+    options: ["26,000", "36,000", "22,600", "87,000"],
+    answer: "26,000",
+    reference: "1 Chronicles 7:40",
+  },
+  {
+    question:
+      "Which son of Ephraim was born after Ephraim mourned the death of two sons killed by men of Gath?",
+    options: ["Beriah", "Rephah", "Resheph", "Telah"],
+    answer: "Beriah",
+    reference: "1 Chronicles 7:20-23",
+  },
+  {
+    question:
+      "Why was Ephraim's son named Beriah?",
+    options: [
+      "Because there had been misfortune in his family",
+      "Because he was born in Gath",
+      "Because Ephraim was blessed after mourning",
+      "Because he became a warrior",
+    ],
+    answer: "Because there had been misfortune in his family",
+    reference: "1 Chronicles 7:23",
+  },
+  {
+    question:
+      "Which female descendant of Ephraim built Lower and Upper Beth Horon as well as Uzzen Sheerah?",
+    options: ["Sheerah", "Maacah", "Hammoleketh", "Abiah"],
+    answer: "Sheerah",
+    reference: "1 Chronicles 7:24",
+  },
+  {
+    question:
+      "Which famous leader appears at the end of Ephraim's genealogical line?",
+    options: [
+      "Joshua son of Nun",
+      "Samuel",
+      "Saul",
+      "Caleb",
+    ],
+    answer: "Joshua son of Nun",
+    reference: "1 Chronicles 7:27",
+  },
+  {
+    question:
+      "Who was Benjamin's firstborn in the genealogy that begins the next detailed Benjaminite record?",
+    options: ["Bela", "Ashbel", "Aharah", "Nohah"],
+    answer: "Bela",
+    reference: "1 Chronicles 8:1",
+  },
+  {
+    question:
+      "Who is identified as the father of Gibeon?",
+    options: ["Jeiel", "Ner", "Kish", "Abiel"],
+    answer: "Jeiel",
+    reference: "1 Chronicles 8:29",
+  },
+  {
+    question:
+      "What was the name of the wife of Jeiel, father of Gibeon?",
+    options: ["Maacah", "Miklot", "Zeruah", "Abihail"],
+    answer: "Maacah",
+    reference: "1 Chronicles 8:29",
+  },
+  {
+    question:
+      "Which son of Kish became Israel's first king?",
+    options: ["Saul", "Ner", "Jonathan", "Abinadab"],
+    answer: "Saul",
+    reference: "1 Chronicles 8:33",
+  },
+  {
+    question:
+      "Which four sons of Saul are listed in the genealogy?",
+    options: [
+      "Jonathan, Malki-Shua, Abinadab, and Esh-Baal",
+      "Jonathan, Ish-Bosheth, Abner, and Malki-Shua",
+      "Jonathan, Abinadab, Ner, and Kish",
+      "Malki-Shua, Abner, Esh-Baal, and Ner",
+    ],
+    answer: "Jonathan, Malki-Shua, Abinadab, and Esh-Baal",
+    reference: "1 Chronicles 8:33",
+  },
+  {
+    question:
+      "What name is given to Jonathan's son in the genealogy?",
+    options: ["Merib-Baal", "Mephibosheth", "Micah", "Esh-Baal"],
+    answer: "Merib-Baal",
+    reference: "1 Chronicles 8:34",
+  },
+  {
+    question:
+      "Which son of Merib-Baal continued Jonathan's genealogical line?",
+    options: ["Micah", "Pithon", "Melek", "Tarea"],
+    answer: "Micah",
+    reference: "1 Chronicles 8:34-35",
+  },
+  {
+    question:
+      "Why were Judah, Israel, and Jerusalem's genealogies especially significant to the Chronicler?",
+    options: [
+      "They were recorded in the book of the kings of Israel and Judah",
+      "They were preserved only by priests",
+      "They were discovered in the temple",
+      "They had been written by David",
+    ],
+    answer: "They were recorded in the book of the kings of Israel and Judah",
+    reference: "1 Chronicles 9:1",
+  },
+  {
+    question:
+      "Why had Judah been taken captive to Babylon?",
+    options: [
+      "Because of their unfaithfulness",
+      "Because their army was too small",
+      "Because Egypt betrayed them",
+      "Because Jerusalem lacked walls",
+    ],
+    answer: "Because of their unfaithfulness",
+    reference: "1 Chronicles 9:1",
+  },
+  {
+    question:
+      "Which groups are named as the first to resettle in their own property and towns?",
     options: [
       "Israelites, priests, Levites, and temple servants",
-      "Only Judah and Benjamin",
-      "Priests and kings",
-      "Levites and soldiers only",
+      "Judahites, Benjamites, priests, and soldiers",
+      "Levites, singers, gatekeepers, and prophets",
+      "Priests, craftsmen, merchants, and farmers",
     ],
     answer: "Israelites, priests, Levites, and temple servants",
     reference: "1 Chronicles 9:2",
   },
   {
-    question: "Who was responsible for the rooms and treasuries in the house of God?",
-    options: ["The gatekeepers", "The singers", "The soldiers", "The farmers"],
-    answer: "The gatekeepers",
+    question:
+      "Members of which four tribes are specifically said to have lived in Jerusalem after the return?",
+    options: [
+      "Judah, Benjamin, Ephraim, and Manasseh",
+      "Judah, Benjamin, Levi, and Simeon",
+      "Judah, Ephraim, Dan, and Benjamin",
+      "Benjamin, Manasseh, Issachar, and Judah",
+    ],
+    answer: "Judah, Benjamin, Ephraim, and Manasseh",
+    reference: "1 Chronicles 9:3",
+  },
+  {
+    question:
+      "How many priests able to serve in the house of God are numbered in one summary?",
+    options: ["1,760", "956", "1,700", "2,212"],
+    answer: "1,760",
+    reference: "1 Chronicles 9:13",
+  },
+  {
+    question:
+      "Who had formerly been responsible for guarding the entrance to the king's gate on the east?",
+    options: ["Shallum", "Akkub", "Talmon", "Ahiman"],
+    answer: "Shallum",
+    reference: "1 Chronicles 9:18",
+  },
+  {
+    question:
+      "How many gatekeepers were assigned to guard the thresholds?",
+    options: ["212", "172", "120", "288"],
+    answer: "212",
+    reference: "1 Chronicles 9:22",
+  },
+  {
+    question:
+      "Who had originally assigned the gatekeepers to their positions of trust?",
+    options: [
+      "David and Samuel the seer",
+      "Solomon and Zadok",
+      "David and Nathan",
+      "Samuel and Saul",
+    ],
+    answer: "David and Samuel the seer",
+    reference: "1 Chronicles 9:22",
+  },
+  {
+    question:
+      "How long did gatekeepers normally serve at a time before being relieved?",
+    options: ["Seven days", "One month", "Three days", "Fourteen days"],
+    answer: "Seven days",
+    reference: "1 Chronicles 9:25",
+  },
+  {
+    question:
+      "What special responsibility belonged to four principal gatekeepers who were Levites?",
+    options: [
+      "They were entrusted with the rooms and treasuries in the house of God",
+      "They offered the daily sacrifices",
+      "They supervised the singers",
+      "They guarded the king's palace",
+    ],
+    answer:
+      "They were entrusted with the rooms and treasuries in the house of God",
     reference: "1 Chronicles 9:26",
   },
   {
-    question: "What responsibility did some Levites have concerning the temple articles?",
+    question:
+      "Who was responsible for mixing the spices used in worship?",
     options: [
-      "They counted them when brought in and taken out",
-      "They sold them",
-      "They carried them to battle",
-      "They replaced them every year",
+      "Some of the priests",
+      "The sons of Korah",
+      "The gatekeepers",
+      "The descendants of Merari",
     ],
-    answer: "They counted them when brought in and taken out",
-    reference: "1 Chronicles 9:28",
+    answer: "Some of the priests",
+    reference: "1 Chronicles 9:30",
   },
   {
-    question: "Which group was exempt from other duties because they were responsible for music day and night?",
-    options: ["The musicians", "The gatekeepers", "The priests", "The soldiers"],
-    answer: "The musicians",
+    question:
+      "Which Levite was entrusted with preparing the bread used for offerings?",
+    options: [
+      "Mattithiah, a firstborn son of Shallum the Korahite",
+      "Obadiah son of Shemaiah",
+      "Bakbakkar",
+      "Heresh",
+    ],
+    answer: "Mattithiah, a firstborn son of Shallum the Korahite",
+    reference: "1 Chronicles 9:31",
+  },
+  {
+    question:
+      "Why were the musicians exempt from other duties?",
+    options: [
+      "They were responsible for their work day and night",
+      "They belonged to priestly families",
+      "David had given them land",
+      "They served only during festivals",
+    ],
+    answer: "They were responsible for their work day and night",
     reference: "1 Chronicles 9:33",
   },
-
   {
-    question: "Against which people did Saul fight in his final battle?",
-    options: ["Philistines", "Ammonites", "Moabites", "Edomites"],
-    answer: "Philistines",
-    reference: "1 Chronicles 10:1",
-  },
-  {
-    question: "Where did Saul's final battle take place?",
-    options: ["Mount Gilboa", "Mount Carmel", "Mount Tabor", "Mount Zion"],
+    question:
+      "On what mountain did the Philistines fight Israel in the battle that ended Saul's reign?",
+    options: ["Mount Gilboa", "Mount Carmel", "Mount Tabor", "Mount Ebal"],
     answer: "Mount Gilboa",
     reference: "1 Chronicles 10:1",
   },
   {
-    question: "Which sons of Saul were killed in the battle?",
+    question:
+      "Which three sons of Saul were killed by the Philistines?",
     options: [
       "Jonathan, Abinadab, and Malki-Shua",
       "Jonathan, Ish-Bosheth, and Abinadab",
-      "Jonathan, Mephibosheth, and Malki-Shua",
-      "Abinadab, Ish-Bosheth, and Malki-Shua",
+      "Jonathan, Malki-Shua, and Esh-Baal",
+      "Abinadab, Ner, and Jonathan",
     ],
     answer: "Jonathan, Abinadab, and Malki-Shua",
     reference: "1 Chronicles 10:2",
   },
   {
-    question: "What did Saul ask his armor-bearer to do when he was badly wounded?",
+    question:
+      "What did Saul ask his armor-bearer to do when the archers overtook him?",
     options: [
-      "Draw his sword and kill him",
-      "Carry him away",
-      "Call Jonathan",
-      "Surrender to the Philistines",
+      "Draw his sword and run Saul through",
+      "Carry him from the battlefield",
+      "Kill the Philistine archers",
+      "Hide Saul's identity",
     ],
-    answer: "Draw his sword and kill him",
+    answer: "Draw his sword and run Saul through",
     reference: "1 Chronicles 10:4",
   },
   {
-    question: "What did Saul do when his armor-bearer refused?",
+    question:
+      "What did Saul do when his armor-bearer refused his request?",
     options: [
-      "He fell on his own sword",
-      "He surrendered",
-      "He fled",
-      "He asked God for help",
+      "He took his own sword and fell on it",
+      "He surrendered to the Philistines",
+      "He fled toward Jabesh",
+      "He asked another soldier to kill him",
     ],
-    answer: "He fell on his own sword",
+    answer: "He took his own sword and fell on it",
     reference: "1 Chronicles 10:4",
   },
   {
-    question: "Where did the Philistines fasten Saul's head?",
+    question:
+      "Where did the Philistines place Saul's armor after his death?",
+    options: [
+      "In the temple of their gods",
+      "At the city gate of Beth Shan",
+      "In the temple of Dagon specifically",
+      "Inside Saul's palace",
+    ],
+    answer: "In the temple of their gods",
+    reference: "1 Chronicles 10:9",
+  },
+  {
+    question:
+      "Where did the Philistines fasten Saul's head?",
     options: [
       "In the temple of Dagon",
       "On the wall of Beth Shan",
       "At the gate of Gath",
-      "Inside Saul's palace",
+      "In the temple of Ashtoreth",
     ],
     answer: "In the temple of Dagon",
     reference: "1 Chronicles 10:10",
   },
   {
-    question: "Why does Chronicles say Saul died?",
+    question:
+      "Who recovered Saul's body after hearing what the Philistines had done?",
     options: [
-      "Because he was unfaithful to the Lord",
-      "Because David betrayed him",
-      "Because Israel lacked soldiers",
-      "Because Samuel cursed him",
+      "The valiant men of Jabesh Gilead",
+      "David's mighty warriors",
+      "The men of Benjamin",
+      "Abner's soldiers",
     ],
-    answer: "Because he was unfaithful to the Lord",
-    reference: "1 Chronicles 10:13",
+    answer: "The valiant men of Jabesh Gilead",
+    reference: "1 Chronicles 10:11-12",
   },
   {
-    question: "Whom had Saul consulted instead of inquiring of the Lord?",
+    question:
+      "Under what kind of tree were Saul's bones buried at Jabesh?",
+    options: ["A great tree", "A tamarisk tree", "An oak tree", "A terebinth"],
+    answer: "A great tree",
+    reference: "1 Chronicles 10:12",
+  },
+  {
+    question:
+      "How long did the men who buried Saul fast?",
+    options: ["Seven days", "Three days", "Forty days", "One day"],
+    answer: "Seven days",
+    reference: "1 Chronicles 10:12",
+  },
+  {
+    question:
+      "What two reasons are specifically given for Saul's death?",
     options: [
-      "A medium",
-      "A Philistine priest",
-      "A false prophet",
-      "An Egyptian magician",
+      "He was unfaithful to the LORD and consulted a medium instead of seeking the LORD",
+      "He spared Agag and disobeyed Samuel",
+      "He persecuted David and killed priests",
+      "He offered an unlawful sacrifice and abandoned the ark",
     ],
-    answer: "A medium",
+    answer:
+      "He was unfaithful to the LORD and consulted a medium instead of seeking the LORD",
     reference: "1 Chronicles 10:13-14",
   },
   {
-    question: "To whom did God turn Saul's kingdom over?",
-    options: ["David son of Jesse", "Jonathan", "Samuel", "Solomon"],
+    question:
+      "To whom did the LORD turn Saul's kingdom after his death?",
+    options: [
+      "David son of Jesse",
+      "Jonathan son of Saul",
+      "Abner son of Ner",
+      "Solomon son of David",
+    ],
     answer: "David son of Jesse",
     reference: "1 Chronicles 10:14",
   },
-
   {
-    question: "Where did all Israel gather to make David king?",
-    options: ["Hebron", "Jerusalem", "Bethlehem", "Gibeon"],
+    question:
+      "At what city did all Israel gather to make David king?",
+    options: ["Hebron", "Jerusalem", "Bethlehem", "Ziklag"],
     answer: "Hebron",
-    reference: "1 Chronicles 11:1-3",
+    reference: "1 Chronicles 11:1",
   },
   {
-    question: "Which city did David capture and make his capital?",
-    options: ["Jerusalem", "Hebron", "Jericho", "Gibeon"],
-    answer: "Jerusalem",
-    reference: "1 Chronicles 11:4-9",
+    question:
+      "What earlier statement from the LORD did Israel's leaders recall when making David king?",
+    options: [
+      "David would shepherd Israel and become its ruler",
+      "David would build the temple",
+      "David would defeat every Philistine",
+      "David's son would rule forever",
+    ],
+    answer: "David would shepherd Israel and become its ruler",
+    reference: "1 Chronicles 11:2",
   },
   {
-    question: "Who were living in Jerusalem when David attacked it?",
-    options: ["Jebusites", "Philistines", "Ammonites", "Moabites"],
-    answer: "Jebusites",
+    question:
+      "What was Jerusalem called when David went to attack it?",
+    options: ["Jebus", "Salem", "Zion", "Millo"],
+    answer: "Jebus",
     reference: "1 Chronicles 11:4",
   },
   {
-    question: "Who became commander because he led the attack on the Jebusites?",
-    options: ["Joab", "Abishai", "Benaiah", "Asahel"],
-    answer: "Joab",
+    question:
+      "Who became commander because he led the attack on the Jebusites?",
+    options: ["Joab son of Zeruiah", "Abishai", "Benaiah", "Jashobeam"],
+    answer: "Joab son of Zeruiah",
     reference: "1 Chronicles 11:6",
   },
   {
-    question: "What name was given to David's captured stronghold?",
-    options: [
-      "City of David",
-      "Fortress of Judah",
-      "Zion Palace",
-      "Stronghold of Israel",
-    ],
-    answer: "City of David",
+    question:
+      "What name was given to the stronghold where David took up residence?",
+    options: ["The City of David", "Zion Fortress", "Millo", "David's Tower"],
+    answer: "The City of David",
     reference: "1 Chronicles 11:7",
   },
   {
-    question: "Why did David become increasingly powerful?",
+    question:
+      "Who repaired the rest of Jerusalem after David rebuilt the city around the stronghold?",
+    options: ["Joab", "Abishai", "Benaiah", "The Jebusites"],
+    answer: "Joab",
+    reference: "1 Chronicles 11:8",
+  },
+  {
+    question:
+      "Why did David become increasingly powerful?",
     options: [
-      "The Lord Almighty was with him",
-      "He had the largest army",
-      "He controlled Egypt",
-      "He possessed great wealth",
+      "The LORD Almighty was with him",
+      "His army was larger than Saul's",
+      "He controlled Jerusalem",
+      "The Philistines became weak",
     ],
-    answer: "The Lord Almighty was with him",
+    answer: "The LORD Almighty was with him",
     reference: "1 Chronicles 11:9",
   },
   {
-    question: "Who was chief of David's Thirty?",
-    options: ["Jashobeam", "Abishai", "Benaiah", "Joab"],
+    question:
+      "Which mighty warrior raised his spear against three hundred men and killed them?",
+    options: [
+      "Jashobeam",
+      "Eleazar",
+      "Abishai",
+      "Benaiah",
+    ],
     answer: "Jashobeam",
     reference: "1 Chronicles 11:11",
   },
   {
-    question: "How many men did Jashobeam kill with his spear in one encounter?",
-    options: ["Three hundred", "Eight hundred", "Two hundred", "Five hundred"],
-    answer: "Three hundred",
-    reference: "1 Chronicles 11:11",
-  },
-  {
-    question: "What did three of David's mighty warriors bring him from Bethlehem?",
+    question:
+      "Who stood with David at Pas Dammim when the Philistines gathered for battle in a field of barley?",
     options: [
-      "Water from the well near the gate",
-      "Bread from his father's house",
-      "Wine from Bethlehem",
-      "A Philistine sword",
+      "Eleazar son of Dodai",
+      "Jashobeam",
+      "Abishai",
+      "Benaiah",
     ],
-    answer: "Water from the well near the gate",
-    reference: "1 Chronicles 11:17-18",
+    answer: "Eleazar son of Dodai",
+    reference: "1 Chronicles 11:12-14",
   },
   {
-    question: "What did David do with the water brought from Bethlehem?",
+    question:
+      "From what location did David long for water while he was at the stronghold?",
     options: [
-      "He poured it out before the Lord",
-      "He drank it",
+      "The well near the gate of Bethlehem",
+      "The spring of Gihon",
+      "The well at Hebron",
+      "The pool of Jerusalem",
+    ],
+    answer: "The well near the gate of Bethlehem",
+    reference: "1 Chronicles 11:17",
+  },
+  {
+    question:
+      "What did David do with the water brought from Bethlehem by the three warriors?",
+    options: [
+      "He poured it out before the LORD",
       "He shared it with the warriors",
-      "He kept it",
+      "He drank only a little",
+      "He used it for a sacrifice",
     ],
-    answer: "He poured it out before the Lord",
-    reference: "1 Chronicles 11:18-19",
+    answer: "He poured it out before the LORD",
+    reference: "1 Chronicles 11:18",
   },
   {
-    question: "Why did David refuse to drink the water?",
+    question:
+      "Why did David refuse to drink the water brought at great risk from Bethlehem?",
     options: [
-      "The men had risked their lives to obtain it",
-      "The water was unclean",
-      "He was fasting",
-      "It belonged to Bethlehem",
+      "He regarded it as the blood of the men who risked their lives",
+      "He had made a vow not to drink",
+      "The water had become ceremonially unclean",
+      "He wanted to save it for worship",
     ],
-    answer: "The men had risked their lives to obtain it",
+    answer: "He regarded it as the blood of the men who risked their lives",
     reference: "1 Chronicles 11:19",
   },
   {
-    question: "Who killed a lion inside a pit on a snowy day?",
-    options: ["Benaiah", "Abishai", "Joab", "Jashobeam"],
-    answer: "Benaiah",
+    question:
+      "How many men did Abishai kill with his spear in the exploit that made him famous?",
+    options: ["Three hundred", "Eight hundred", "Two hundred", "Five hundred"],
+    answer: "Three hundred",
+    reference: "1 Chronicles 11:20",
+  },
+  {
+    question:
+      "Which warrior killed two of Moab's mightiest men and also killed a lion in a pit on a snowy day?",
+    options: [
+      "Benaiah son of Jehoiada",
+      "Abishai son of Zeruiah",
+      "Jashobeam",
+      "Eleazar son of Dodai",
+    ],
+    answer: "Benaiah son of Jehoiada",
     reference: "1 Chronicles 11:22",
   },
   {
-    question: "What weapon did Benaiah use to kill the Egyptian after taking it from him?",
-    options: ["The Egyptian's spear", "A sword", "A club", "A bow"],
+    question:
+      "How tall was the Egyptian whom Benaiah killed?",
+    options: [
+      "Five cubits",
+      "Six cubits",
+      "Four cubits",
+      "Seven cubits",
+    ],
+    answer: "Five cubits",
+    reference: "1 Chronicles 11:23",
+  },
+  {
+    question:
+      "What weapon did Benaiah use to kill the Egyptian after taking the Egyptian's own weapon?",
+    options: [
+      "The Egyptian's spear",
+      "The Egyptian's sword",
+      "A club",
+      "A bow",
+    ],
     answer: "The Egyptian's spear",
     reference: "1 Chronicles 11:23",
   },
-
   {
-    question: "What unusual skill did some Benjamite warriors who joined David possess?",
+    question:
+      "What position did David give Benaiah because of his exploits?",
     options: [
-      "They could shoot arrows and sling stones with either hand",
-      "They could fight without weapons",
-      "They could run faster than horses",
-      "They could use only their left hands",
+      "He put him in charge of his bodyguard",
+      "He made him commander of the entire army",
+      "He made him chief priest",
+      "He made him governor of Jerusalem",
     ],
-    answer: "They could shoot arrows and sling stones with either hand",
-    reference: "1 Chronicles 12:2",
+    answer: "He put him in charge of his bodyguard",
+    reference: "1 Chronicles 11:25",
   },
   {
-    question: "Where was David when warriors from different tribes came to support him?",
-    options: ["Ziklag", "Hebron", "Jerusalem", "Bethlehem"],
-    answer: "Ziklag",
-    reference: "1 Chronicles 12:1",
-  },
-  {
-    question: "Which warriors were described as having faces like lions and being swift as gazelles?",
-    options: ["Gadites", "Benjamites", "Judahites", "Levites"],
-    answer: "Gadites",
+    question:
+      "What unusual ability is attributed to the Gadite warriors who joined David?",
+    options: [
+      "Their faces were like lions and they were as swift as gazelles on the mountains",
+      "They could shoot equally well with either hand",
+      "They could cross rivers without weapons",
+      "They could fight from chariots and horses",
+    ],
+    answer:
+      "Their faces were like lions and they were as swift as gazelles on the mountains",
     reference: "1 Chronicles 12:8",
   },
   {
-    question: "What natural barrier did the Gadite warriors cross while it was flooding?",
-    options: ["The Jordan", "The Kishon", "The Arnon", "The Jabbok"],
+    question:
+      "What did the Gadites cross when it was overflowing its banks?",
+    options: ["The Jordan", "The Kishon", "The Jabbok", "The Arnon"],
     answer: "The Jordan",
     reference: "1 Chronicles 12:15",
   },
   {
-    question: "Who declared that David's supporters came in peace because God helped him?",
-    options: ["Amasai", "Joab", "Zadok", "Benaiah"],
+    question:
+      "In which month did the Gadites cross the overflowing Jordan?",
+    options: ["The first month", "The seventh month", "The third month", "The tenth month"],
+    answer: "The first month",
+    reference: "1 Chronicles 12:15",
+  },
+  {
+    question:
+      "Who was filled with the Spirit and spoke words of loyalty to David when Benjaminite and Judahite warriors approached him?",
+    options: [
+      "Amasai",
+      "Benaiah",
+      "Jehoiada",
+      "Zadok",
+    ],
     answer: "Amasai",
     reference: "1 Chronicles 12:18",
   },
   {
-    question: "Which tribe had men who understood the times and knew what Israel should do?",
-    options: ["Issachar", "Zebulun", "Judah", "Benjamin"],
+    question:
+      "What position did Amasai hold among David's warriors?",
+    options: [
+      "Chief of the Thirty",
+      "Chief of the Three",
+      "Commander of Judah",
+      "Leader of Benjamin",
+    ],
+    answer: "Chief of the Thirty",
+    reference: "1 Chronicles 12:18",
+  },
+  {
+    question:
+      "Why did David refuse to help the Philistines fight Saul after men from Manasseh joined him?",
+    options: [
+      "The Philistine rulers sent him away because they feared he would defect to Saul",
+      "David refused to fight Israelites",
+      "God warned him in a dream",
+      "The men of Manasseh persuaded him",
+    ],
+    answer:
+      "The Philistine rulers sent him away because they feared he would defect to Saul",
+    reference: "1 Chronicles 12:19",
+  },
+  {
+    question:
+      "How frequently were men joining David until his army became like the army of God?",
+    options: ["Day after day", "Every Sabbath", "Month after month", "Every new moon"],
+    answer: "Day after day",
+    reference: "1 Chronicles 12:22",
+  },
+  {
+    question:
+      "How many warriors from Judah came to Hebron carrying shield and spear?",
+    options: ["6,800", "7,100", "20,800", "50,000"],
+    answer: "6,800",
+    reference: "1 Chronicles 12:24",
+  },
+  {
+    question:
+      "Which tribe supplied 7,100 brave warriors to David at Hebron?",
+    options: ["Simeon", "Judah", "Levi", "Benjamin"],
+    answer: "Simeon",
+    reference: "1 Chronicles 12:25",
+  },
+  {
+    question:
+      "How many Levites came to David at Hebron?",
+    options: ["4,600", "3,700", "6,800", "5,000"],
+    answer: "4,600",
+    reference: "1 Chronicles 12:26",
+  },
+  {
+    question:
+      "Which young warrior from Aaron's family came with 3,700 men?",
+    options: ["Jehoiada", "Zadok", "Benaiah", "Abiathar"],
+    answer: "Jehoiada",
+    reference: "1 Chronicles 12:27",
+  },
+  {
+    question:
+      "Which tribe's men were praised for understanding the times and knowing what Israel should do?",
+    options: ["Issachar", "Zebulun", "Naphtali", "Asher"],
     answer: "Issachar",
     reference: "1 Chronicles 12:32",
   },
   {
-    question: "How many chiefs from Issachar were mentioned?",
+    question:
+      "How many chiefs from Issachar possessed this understanding?",
     options: ["Two hundred", "Three hundred", "One hundred", "Fifty"],
     answer: "Two hundred",
     reference: "1 Chronicles 12:32",
   },
   {
-    question: "What characterized the warriors of Zebulun who came to David?",
-    options: [
-      "They were experienced soldiers prepared for battle with every type of weapon",
-      "They were all archers",
-      "They were priests",
-      "They fought only on horseback",
-    ],
-    answer: "They were experienced soldiers prepared for battle with every type of weapon",
+    question:
+      "Which tribe supplied fifty thousand experienced soldiers who could keep ranks and were not divided in allegiance?",
+    options: ["Zebulun", "Naphtali", "Dan", "Asher"],
+    answer: "Zebulun",
     reference: "1 Chronicles 12:33",
   },
-
   {
-    question: "From where did David first attempt to bring the ark of God?",
+    question:
+      "How many commanders came from Naphtali?",
+    options: ["One thousand", "Thirty-seven thousand", "Two hundred", "Twenty-eight thousand"],
+    answer: "One thousand",
+    reference: "1 Chronicles 12:34",
+  },
+  {
+    question:
+      "How many men carrying shields and spears accompanied Naphtali's commanders?",
+    options: ["37,000", "28,600", "40,000", "50,000"],
+    answer: "37,000",
+    reference: "1 Chronicles 12:34",
+  },
+  {
+    question:
+      "For how many days did the warriors remain with David at Hebron, eating and drinking?",
+    options: ["Three days", "Seven days", "One day", "Fourteen days"],
+    answer: "Three days",
+    reference: "1 Chronicles 12:39",
+  },
+  {
+    question:
+      "Where had the ark remained during Saul's reign before David sought to bring it to Jerusalem?",
     options: [
       "Kiriath Jearim",
-      "Jerusalem",
-      "Gibeon",
       "Shiloh",
+      "Gibeon",
+      "Beth Shemesh",
     ],
     answer: "Kiriath Jearim",
     reference: "1 Chronicles 13:5-6",
   },
   {
-    question: "How was the ark transported during David's first attempt?",
-    options: ["On a new cart", "On priests' shoulders", "On an old cart", "On a wagon pulled by horses"],
-    answer: "On a new cart",
+    question:
+      "From whose house was the ark placed on a new cart?",
+    options: [
+      "Abinadab's house",
+      "Obed-Edom's house",
+      "Kish's house",
+      "Zadok's house",
+    ],
+    answer: "Abinadab's house",
     reference: "1 Chronicles 13:7",
   },
   {
-    question: "Who were guiding the cart carrying the ark?",
-    options: ["Uzza and Ahio", "Obed-Edom and Uzza", "Zadok and Abiathar", "Asaph and Heman"],
+    question:
+      "Who guided the cart carrying the ark?",
+    options: [
+      "Uzza and Ahio",
+      "Eleazar and Ithamar",
+      "Obed-Edom and Uzza",
+      "Zadok and Abiathar",
+    ],
     answer: "Uzza and Ahio",
     reference: "1 Chronicles 13:7",
   },
   {
-    question: "Why did Uzza reach out toward the ark?",
+    question:
+      "At what place did Uzza reach out to steady the ark?",
+    options: [
+      "The threshing floor of Kidon",
+      "The threshing floor of Araunah",
+      "Perez Uzza",
+      "The hill at Kiriath Jearim",
+    ],
+    answer: "The threshing floor of Kidon",
+    reference: "1 Chronicles 13:9",
+  },
+  {
+    question:
+      "Why did Uzza reach out and take hold of the ark?",
     options: [
       "The oxen stumbled",
-      "The ark began to fall from a priest's shoulder",
-      "David ordered him to touch it",
-      "He wanted to uncover it",
+      "The cart wheel broke",
+      "The ark began sliding downhill",
+      "Ahio lost control of the cart",
     ],
     answer: "The oxen stumbled",
     reference: "1 Chronicles 13:9",
   },
   {
-    question: "What happened to Uzza after he touched the ark?",
-    options: [
-      "God struck him and he died",
-      "He became leprous",
-      "He became blind",
-      "He was removed from service",
-    ],
-    answer: "God struck him and he died",
-    reference: "1 Chronicles 13:10",
+    question:
+      "What name did David give the place where Uzza died?",
+    options: ["Perez Uzza", "Kidon", "Obed-Edom", "Baalah"],
+    answer: "Perez Uzza",
+    reference: "1 Chronicles 13:11",
   },
   {
-    question: "At whose house was the ark kept after Uzza's death?",
-    options: ["Obed-Edom", "Asaph", "Zadok", "Heman"],
-    answer: "Obed-Edom",
-    reference: "1 Chronicles 13:13-14",
-  },
-  {
-    question: "How long did the ark remain with Obed-Edom?",
-    options: ["Three months", "Six months", "One year", "Forty days"],
+    question:
+      "For how long did the ark remain with Obed-Edom?",
+    options: ["Three months", "Six months", "Seven months", "One year"],
     answer: "Three months",
     reference: "1 Chronicles 13:14",
   },
   {
-    question: "What happened to Obed-Edom's household while the ark remained there?",
+    question:
+      "What happened to Obed-Edom's household while the ark remained there?",
     options: [
-      "The Lord blessed his household and everything he had",
-      "His family became priests",
-      "His household moved to Jerusalem",
-      "His sons became kings",
+      "The LORD blessed his household and everything he had",
+      "His sons became priests",
+      "His family moved to Jerusalem",
+      "His household guarded the ark permanently",
     ],
-    answer: "The Lord blessed his household and everything he had",
+    answer: "The LORD blessed his household and everything he had",
     reference: "1 Chronicles 13:14",
   },
-
   {
-    question: "Which king sent cedar logs, masons, and carpenters to build David a palace?",
+    question:
+      "Which king sent messengers, cedar logs, masons, and carpenters to build David a palace?",
     options: [
       "Hiram king of Tyre",
-      "The king of Sidon",
-      "The king of Moab",
-      "The king of Edom",
+      "Toi king of Hamath",
+      "Nahash king of Ammon",
+      "Hadadezer king of Zobah",
     ],
     answer: "Hiram king of Tyre",
     reference: "1 Chronicles 14:1",
   },
   {
-    question: "What did David realize after his kingdom was established?",
+    question:
+      "What did David realize after his palace was established?",
     options: [
-      "The Lord had established him as king over Israel",
-      "He should return to Hebron",
-      "He should build the temple immediately",
-      "He had defeated every enemy",
+      "The LORD had established him as king over Israel and exalted his kingdom for Israel's sake",
+      "Jerusalem was permanently secure",
+      "He should immediately build the temple",
+      "His enemies would never attack again",
     ],
-    answer: "The Lord had established him as king over Israel",
+    answer:
+      "The LORD had established him as king over Israel and exalted his kingdom for Israel's sake",
     reference: "1 Chronicles 14:2",
   },
   {
-    question: "Which people came searching for David after hearing he had been anointed king?",
-    options: ["Philistines", "Moabites", "Ammonites", "Edomites"],
-    answer: "Philistines",
-    reference: "1 Chronicles 14:8",
-  },
-  {
-    question: "What did David do before attacking the Philistines?",
+    question:
+      "Where did the Philistines spread out when they came searching for David?",
     options: [
-      "He inquired of God",
-      "He consulted Joab",
-      "He sacrificed at Gibeon",
-      "He sent spies",
+      "The Valley of Rephaim",
+      "The Valley of Elah",
+      "The Kidron Valley",
+      "The Valley of Aijalon",
     ],
-    answer: "He inquired of God",
-    reference: "1 Chronicles 14:10",
+    answer: "The Valley of Rephaim",
+    reference: "1 Chronicles 14:9",
   },
   {
-    question: "What name did David give the place where God broke through his enemies?",
-    options: ["Baal Perazim", "Perez Uzza", "Kiriath Jearim", "Gibeon"],
+    question:
+      "What name did David give the place where God broke through his enemies like a bursting flood?",
+    options: ["Baal Perazim", "Perez Uzza", "Baalah", "Gibeon"],
     answer: "Baal Perazim",
     reference: "1 Chronicles 14:11",
   },
   {
-    question: "What did the Philistines leave behind after their defeat?",
-    options: ["Their gods", "Their chariots", "Their gold", "Their tents"],
+    question:
+      "What did the Philistines leave behind after their defeat at Baal Perazim?",
+    options: [
+      "Their gods",
+      "Their chariots",
+      "Their weapons",
+      "Their tents",
+    ],
     answer: "Their gods",
     reference: "1 Chronicles 14:12",
   },
   {
-    question: "What did David order concerning the gods abandoned by the Philistines?",
-    options: ["They were burned", "They were stored", "They were buried", "They were taken to Jerusalem"],
-    answer: "They were burned",
+    question:
+      "What did David command concerning the gods abandoned by the Philistines?",
+    options: [
+      "They were to be burned",
+      "They were to be buried",
+      "They were to be taken to Jerusalem",
+      "They were to be broken and thrown into the valley",
+    ],
+    answer: "They were to be burned",
     reference: "1 Chronicles 14:12",
   },
   {
-    question: "What sign was David told to wait for before attacking the Philistines again?",
+    question:
+      "What signal was David told to wait for before attacking the Philistines a second time?",
     options: [
       "The sound of marching in the tops of the balsam trees",
+      "A trumpet from Jerusalem",
       "Thunder from heaven",
       "A strong east wind",
-      "A trumpet from Jerusalem",
     ],
     answer: "The sound of marching in the tops of the balsam trees",
     reference: "1 Chronicles 14:15",
   },
-
   {
-    question: "Who did David say were the only people permitted to carry the ark?",
-    options: ["Levites", "Priests only", "Judahites", "Gatekeepers"],
-    answer: "Levites",
+    question:
+      "Between which locations did David strike down the Philistine army after following God's battle instructions?",
+    options: [
+      "From Gibeon to Gezer",
+      "From Jerusalem to Gath",
+      "From Rephaim to Ekron",
+      "From Bethlehem to Ashkelon",
+    ],
+    answer: "From Gibeon to Gezer",
+    reference: "1 Chronicles 14:16",
+  },
+  {
+    question:
+      "Who did David say were the only people permitted to carry the ark of God?",
+    options: ["The Levites", "The priests", "The sons of Aaron", "The gatekeepers"],
+    answer: "The Levites",
     reference: "1 Chronicles 15:2",
   },
   {
-    question: "Why did David say God had broken out against Israel during the first attempt to move the ark?",
+    question:
+      "Why did David say disaster had occurred during the first attempt to move the ark?",
     options: [
-      "They had not inquired of God about the proper way",
-      "They had no musicians",
-      "They had moved too quickly",
-      "They had not offered enough sacrifices",
+      "The Levites had not carried it according to the prescribed order",
+      "The ark had been placed on an old cart",
+      "The people had not offered sacrifices",
+      "David had failed to consult a prophet",
     ],
-    answer: "They had not inquired of God about the proper way",
+    answer: "The Levites had not carried it according to the prescribed order",
     reference: "1 Chronicles 15:13",
   },
   {
-    question: "How did the Levites carry the ark during the successful procession?",
+    question:
+      "How did the Levites carry the ark after consecrating themselves?",
     options: [
-      "On their shoulders with poles",
-      "On a new cart",
-      "In their hands",
-      "On horses",
+      "With poles on their shoulders according to the word of the LORD",
+      "On a new cart pulled by oxen",
+      "In their hands beneath a covering",
+      "On a wooden platform",
     ],
-    answer: "On their shoulders with poles",
+    answer: "With poles on their shoulders according to the word of the LORD",
     reference: "1 Chronicles 15:15",
   },
   {
-    question: "Who was appointed to lead the singing because he was skillful at it?",
-    options: ["Kenaniah", "Asaph", "Heman", "Obed-Edom"],
-    answer: "Kenaniah",
+    question:
+      "Which three men were appointed as leading singers with bronze cymbals?",
+    options: [
+      "Heman, Asaph, and Ethan",
+      "Asaph, Obed-Edom, and Jeiel",
+      "Heman, Chenaniah, and Asaph",
+      "Ethan, Zechariah, and Benaiah",
+    ],
+    answer: "Heman, Asaph, and Ethan",
+    reference: "1 Chronicles 15:17-19",
+  },
+  {
+    question:
+      "Who was placed in charge of the singing because he was skillful at it?",
+    options: ["Chenaniah", "Asaph", "Heman", "Obed-Edom"],
+    answer: "Chenaniah",
     reference: "1 Chronicles 15:22",
   },
   {
-    question: "Who despised David in her heart when she saw him celebrating?",
-    options: ["Michal", "Bathsheba", "Abigail", "Maakah"],
-    answer: "Michal",
+    question:
+      "Who were appointed as doorkeepers for the ark during its procession?",
+    options: [
+      "Berekiah and Elkanah",
+      "Obed-Edom and Jeiel",
+      "Shemaiah and Jehoshaphat",
+      "Zadok and Abiathar",
+    ],
+    answer: "Berekiah and Elkanah",
+    reference: "1 Chronicles 15:23",
+  },
+  {
+    question:
+      "What was David wearing as the ark was brought into Jerusalem?",
+    options: [
+      "A robe of fine linen and a linen ephod",
+      "A royal robe and golden crown",
+      "A priestly breastpiece and linen robe",
+      "Sackcloth and a linen belt",
+    ],
+    answer: "A robe of fine linen and a linen ephod",
+    reference: "1 Chronicles 15:27",
+  },
+  {
+    question:
+      "Who watched David dancing and celebrating from a window and despised him?",
+    options: [
+      "Michal daughter of Saul",
+      "Abigail",
+      "Bathsheba",
+      "Maacah",
+    ],
+    answer: "Michal daughter of Saul",
     reference: "1 Chronicles 15:29",
   },
-
   {
-    question: "Where did David place the ark after bringing it into Jerusalem?",
+    question:
+      "What did David distribute to every Israelite after the ark had been placed in its tent?",
     options: [
-      "Inside the tent he had prepared for it",
-      "Inside Solomon's temple",
-      "At Gibeon",
-      "Inside his palace",
+      "A loaf of bread, a cake of dates, and a cake of raisins",
+      "Bread, meat, and wine",
+      "A loaf of bread and a portion of meat",
+      "Bread, figs, and oil",
     ],
-    answer: "Inside the tent he had prepared for it",
-    reference: "1 Chronicles 16:1",
+    answer: "A loaf of bread, a cake of dates, and a cake of raisins",
+    reference: "1 Chronicles 16:3",
   },
   {
-    question: "Who was appointed chief among the Levites ministering before the ark?",
-    options: ["Asaph", "Heman", "Obed-Edom", "Zadok"],
+    question:
+      "Who was appointed chief among the Levites ministering before the ark?",
+    options: ["Asaph", "Heman", "Obed-Edom", "Zechariah"],
     answer: "Asaph",
     reference: "1 Chronicles 16:5",
   },
   {
-    question: "What were the Levites appointed to do before the ark?",
-    options: [
-      "Petition, give thanks, and praise the Lord",
-      "Guard David",
-      "Offer sacrifices only",
-      "Teach soldiers",
-    ],
-    answer: "Petition, give thanks, and praise the Lord",
-    reference: "1 Chronicles 16:4",
+    question:
+      "Who was second to Asaph among those appointed before the ark?",
+    options: ["Zechariah", "Jeiel", "Obed-Edom", "Benaiah"],
+    answer: "Zechariah",
+    reference: "1 Chronicles 16:5",
   },
   {
-    question: "Where did Zadok and the other priests minister before the Lord's tabernacle?",
-    options: ["Gibeon", "Jerusalem", "Hebron", "Bethel"],
-    answer: "Gibeon",
+    question:
+      "On what occasion did David first commit his song of thanksgiving to Asaph and his associates?",
+    options: [
+      "The day the ark was brought and placed in its tent",
+      "The day David became king",
+      "The dedication of his palace",
+      "The defeat of the Philistines",
+    ],
+    answer: "The day the ark was brought and placed in its tent",
+    reference: "1 Chronicles 16:7",
+  },
+  {
+    question:
+      "Who was left before the ark to minister there regularly according to each day's requirements?",
+    options: [
+      "Asaph and his associates",
+      "Zadok and the priests",
+      "Heman and Ethan",
+      "Obed-Edom alone",
+    ],
+    answer: "Asaph and his associates",
+    reference: "1 Chronicles 16:37",
+  },
+  {
+    question:
+      "Where were Zadok and his fellow priests assigned to minister?",
+    options: [
+      "At the tabernacle of the LORD on the high place at Gibeon",
+      "Before the ark in Jerusalem",
+      "At Shiloh",
+      "At Hebron",
+    ],
+    answer: "At the tabernacle of the LORD on the high place at Gibeon",
     reference: "1 Chronicles 16:39",
   },
   {
-    question: "How often were burnt offerings presented at Gibeon?",
+    question:
+      "What regular sacrifices were Zadok and the priests to offer at Gibeon?",
     options: [
-      "Every morning and evening",
-      "Every Sabbath only",
-      "Once a week",
-      "Once each month",
+      "Burnt offerings every morning and evening",
+      "Peace offerings every Sabbath",
+      "Sin offerings every new moon",
+      "Grain offerings three times a day",
     ],
-    answer: "Every morning and evening",
+    answer: "Burnt offerings every morning and evening",
     reference: "1 Chronicles 16:40",
   },
-
   {
-    question: "What concerned David after he settled in his palace?",
-    options: [
-      "He lived in a house of cedar while the ark remained under a tent",
-      "Jerusalem had no wall",
-      "Israel had no army",
-      "The Philistines still controlled Bethlehem",
-    ],
-    answer: "He lived in a house of cedar while the ark remained under a tent",
-    reference: "1 Chronicles 17:1",
-  },
-  {
-    question: "Which prophet initially told David to do whatever was in his heart?",
+    question:
+      "Which prophet initially told David to do whatever he had in mind regarding building a house for God?",
     options: ["Nathan", "Gad", "Samuel", "Asaph"],
     answer: "Nathan",
-    reference: "1 Chronicles 17:2",
+    reference: "1 Chronicles 17:1-2",
   },
   {
-    question: "What did God say about David building Him a house?",
+    question:
+      "What did God remind David he had lived in since bringing Israel out of Egypt?",
     options: [
-      "David was not the one to build it",
-      "David should begin immediately",
-      "David should build it at Hebron",
-      "David should build two temples",
+      "A tent, moving from place to place",
+      "The tabernacle at Shiloh",
+      "A sanctuary of stone",
+      "The high place at Gibeon",
     ],
-    answer: "David was not the one to build it",
-    reference: "1 Chronicles 17:4",
+    answer: "A tent, moving from place to place",
+    reference: "1 Chronicles 17:5",
   },
   {
-    question: "What had David been doing when God took him to become ruler over Israel?",
+    question:
+      "From what occupation did God say he had taken David?",
     options: [
       "Following the flock",
-      "Serving Saul in battle",
-      "Playing the harp",
-      "Living with Samuel",
+      "Serving Saul",
+      "Fighting the Philistines",
+      "Guarding Bethlehem",
     ],
     answer: "Following the flock",
     reference: "1 Chronicles 17:7",
   },
   {
-    question: "Who did God say would build a house for Him?",
+    question:
+      "Who did God say would build a house for him instead of David?",
     options: [
       "One of David's sons",
-      "Nathan",
-      "Joab",
-      "A future priest",
+      "Solomon's son",
+      "Nathan the prophet",
+      "The Levites",
     ],
     answer: "One of David's sons",
     reference: "1 Chronicles 17:11-12",
   },
   {
-    question: "How did God describe His relationship with David's future son?",
+    question:
+      "What relationship did God promise to have with David's royal descendant?",
     options: [
-      "I will be his father, and he will be my son",
-      "He will be my servant only",
-      "He will be my prophet",
-      "He will be Israel's priest",
+      "God would be his father and he would be God's son",
+      "He would serve as God's priest",
+      "He would be God's prophet",
+      "He would become leader of the Levites",
     ],
-    answer: "I will be his father, and he will be my son",
+    answer: "God would be his father and he would be God's son",
     reference: "1 Chronicles 17:13",
   },
   {
-    question: "What did David do after Nathan delivered God's message?",
+    question:
+      "What contrast did God make between David's descendant and Saul?",
     options: [
-      "He went in and sat before the Lord",
-      "He immediately began construction",
-      "He called Solomon",
-      "He gathered the army",
+      "God's love would never be taken away from David's descendant as it was from Saul",
+      "David's descendant would never fight wars",
+      "Saul had no covenant but David's son would",
+      "David's son would live longer than Saul",
     ],
-    answer: "He went in and sat before the Lord",
+    answer:
+      "God's love would never be taken away from David's descendant as it was from Saul",
+    reference: "1 Chronicles 17:13",
+  },
+  {
+    question:
+      "What question did David ask in prayer after hearing God's promise?",
+    options: [
+      "Who am I, LORD God, and what is my family, that you have brought me this far?",
+      "Why have you chosen Jerusalem?",
+      "When will my son build your house?",
+      "How can your promise be fulfilled?",
+    ],
+    answer:
+      "Who am I, LORD God, and what is my family, that you have brought me this far?",
     reference: "1 Chronicles 17:16",
   },
-
   {
-    question: "Which Philistine city did David capture along with its surrounding villages?",
-    options: ["Gath", "Ashdod", "Ekron", "Gaza"],
+    question:
+      "Which Philistine city and its surrounding villages did David take from Philistine control?",
+    options: ["Gath", "Gaza", "Ashdod", "Ekron"],
     answer: "Gath",
     reference: "1 Chronicles 18:1",
   },
   {
-    question: "Which people became subject to David and brought him tribute?",
-    options: ["Moabites", "Amalekites", "Egyptians", "Assyrians"],
-    answer: "Moabites",
+    question:
+      "What relationship did the Moabites have to David after he defeated them?",
+    options: [
+      "They became subject to him and brought tribute",
+      "They became military allies",
+      "They were expelled from Moab",
+      "They were absorbed into Judah",
+    ],
+    answer: "They became subject to him and brought tribute",
     reference: "1 Chronicles 18:2",
   },
   {
-    question: "Which king of Zobah did David defeat?",
-    options: ["Hadadezer", "Hanun", "Nahash", "Tou"],
-    answer: "Hadadezer",
+    question:
+      "Which king did David defeat as he went to establish control along the Euphrates?",
+    options: [
+      "Hadadezer king of Zobah",
+      "Tou king of Hamath",
+      "Shobak king of Aram",
+      "Nahash king of Ammon",
+    ],
+    answer: "Hadadezer king of Zobah",
     reference: "1 Chronicles 18:3",
   },
   {
-    question: "What did David do with most of the captured chariot horses?",
+    question:
+      "How many chariots did David retain after capturing Hadadezer's forces?",
+    options: [
+      "Enough for one hundred horses",
+      "One thousand chariots",
+      "Seven hundred chariots",
+      "Two hundred chariots",
+    ],
+    answer: "Enough for one hundred horses",
+    reference: "1 Chronicles 18:4",
+  },
+  {
+    question:
+      "What did David do to the remaining chariot horses captured from Hadadezer?",
     options: [
       "He hamstrung them",
-      "He sold them",
-      "He gave them to Judah",
+      "He gave them to Solomon",
+      "He released them",
       "He sacrificed them",
     ],
     answer: "He hamstrung them",
     reference: "1 Chronicles 18:4",
   },
   {
-    question: "How many chariot horses did David keep?",
-    options: ["Enough for one hundred chariots", "One thousand", "Five hundred", "None"],
-    answer: "Enough for one hundred chariots",
-    reference: "1 Chronicles 18:4",
+    question:
+      "How many Arameans of Damascus did David kill when they came to help Hadadezer?",
+    options: ["22,000", "18,000", "12,000", "20,000"],
+    answer: "22,000",
+    reference: "1 Chronicles 18:5",
   },
   {
-    question: "What did David do with the gold, silver, and bronze taken from conquered nations?",
+    question:
+      "What did David take from Hadadezer's officers and bring to Jerusalem?",
     options: [
-      "He dedicated them to the Lord",
-      "He built his palace with them",
-      "He divided them among his soldiers",
-      "He sent them to Tyre",
+      "Their gold shields",
+      "Their bronze armor",
+      "Their silver vessels",
+      "Their royal standards",
     ],
-    answer: "He dedicated them to the Lord",
-    reference: "1 Chronicles 18:7-11",
-  },
-
-  {
-    question: "Why did David send a delegation to Hanun king of the Ammonites?",
-    options: [
-      "To express sympathy after his father's death",
-      "To demand tribute",
-      "To arrange a marriage",
-      "To declare war",
-    ],
-    answer: "To express sympathy after his father's death",
-    reference: "1 Chronicles 19:1-2",
+    answer: "Their gold shields",
+    reference: "1 Chronicles 18:7",
   },
   {
-    question: "What did the Ammonite commanders accuse David's delegation of doing?",
+    question:
+      "From which cities of Hadadezer did David take a great quantity of bronze?",
     options: [
-      "Spying out the land",
-      "Stealing treasure",
-      "Planning an assassination",
-      "Recruiting soldiers",
+      "Tebah and Kun",
+      "Zobah and Hamath",
+      "Damascus and Helam",
+      "Gath and Gezer",
     ],
-    answer: "Spying out the land",
-    reference: "1 Chronicles 19:3",
+    answer: "Tebah and Kun",
+    reference: "1 Chronicles 18:8",
   },
   {
-    question: "How did Hanun humiliate David's envoys?",
+    question:
+      "Which king sent his son Hadoram to congratulate David for defeating Hadadezer?",
     options: [
-      "He shaved them and cut their garments at the buttocks",
-      "He imprisoned them",
-      "He removed their sandals",
-      "He branded their faces",
+      "Tou king of Hamath",
+      "Nahash king of Ammon",
+      "Hiram king of Tyre",
+      "Talmai king of Geshur",
     ],
-    answer: "He shaved them and cut their garments at the buttocks",
+    answer: "Tou king of Hamath",
+    reference: "1 Chronicles 18:9-10",
+  },
+  {
+    question:
+      "Who commanded David's army?",
+    options: [
+      "Joab son of Zeruiah",
+      "Benaiah son of Jehoiada",
+      "Abishai son of Zeruiah",
+      "Jehoshaphat son of Ahilud",
+    ],
+    answer: "Joab son of Zeruiah",
+    reference: "1 Chronicles 18:15",
+  },
+  {
+    question:
+      "What office did Jehoshaphat son of Ahilud hold?",
+    options: ["Recorder", "Secretary", "Treasurer", "Commander"],
+    answer: "Recorder",
+    reference: "1 Chronicles 18:15",
+  },
+  {
+    question:
+      "Who commanded the Kerethites and Pelethites?",
+    options: [
+      "Benaiah son of Jehoiada",
+      "Joab son of Zeruiah",
+      "Abishai",
+      "Zadok",
+    ],
+    answer: "Benaiah son of Jehoiada",
+    reference: "1 Chronicles 18:17",
+  },
+  {
+    question:
+      "Why did David send messengers to Hanun after Nahash died?",
+    options: [
+      "To express sympathy because Nahash had shown kindness to David",
+      "To negotiate a military alliance",
+      "To collect tribute",
+      "To invite Hanun to Jerusalem",
+    ],
+    answer:
+      "To express sympathy because Nahash had shown kindness to David",
+    reference: "1 Chronicles 19:2",
+  },
+  {
+    question:
+      "How did Hanun humiliate David's envoys?",
+    options: [
+      "He shaved them, cut their garments at the buttocks, and sent them away",
+      "He shaved half their heads and imprisoned them",
+      "He removed their sandals and robes",
+      "He branded them and expelled them",
+    ],
+    answer:
+      "He shaved them, cut their garments at the buttocks, and sent them away",
     reference: "1 Chronicles 19:4",
   },
   {
-    question: "Where did David tell the humiliated men to remain until their beards grew back?",
+    question:
+      "Where did David tell his humiliated envoys to remain until their beards had grown?",
     options: ["Jericho", "Hebron", "Bethlehem", "Gibeon"],
     answer: "Jericho",
     reference: "1 Chronicles 19:5",
   },
   {
-    question: "Who commanded Israel's army against the Ammonites and Arameans?",
-    options: ["Joab", "Abishai", "Benaiah", "Amasa"],
-    answer: "Joab",
-    reference: "1 Chronicles 19:10",
+    question:
+      "How much silver did the Ammonites send to hire chariots and charioteers?",
+    options: [
+      "One thousand talents",
+      "One hundred talents",
+      "Ten thousand talents",
+      "Five hundred talents",
+    ],
+    answer: "One thousand talents",
+    reference: "1 Chronicles 19:6",
   },
   {
-    question: "Whom did Joab place in command against the Ammonites?",
-    options: ["Abishai", "Benaiah", "Asahel", "Amasa"],
-    answer: "Abishai",
-    reference: "1 Chronicles 19:11",
+    question:
+      "How many chariots did the Ammonites hire from Aram Naharaim, Aram Maakah, and Zobah?",
+    options: ["32,000", "22,000", "30,000", "40,000"],
+    answer: "32,000",
+    reference: "1 Chronicles 19:7",
   },
-
   {
-    question: "Who led Israel's army when Rabbah was destroyed while David remained in Jerusalem?",
-    options: ["Joab", "Abishai", "Benaiah", "Solomon"],
+    question:
+      "Who commanded the Israelite force facing the Arameans while Abishai faced the Ammonites?",
+    options: ["Joab", "David", "Benaiah", "Amasa"],
     answer: "Joab",
+    reference: "1 Chronicles 19:10-11",
+  },
+  {
+    question:
+      "Who commanded Hadadezer's Aramean army in the later battle against David?",
+    options: ["Shophak", "Hadad", "Rehob", "Tou"],
+    answer: "Shophak",
+    reference: "1 Chronicles 19:16",
+  },
+  {
+    question:
+      "Who killed Shophak, commander of the Aramean army?",
+    options: ["David", "Joab", "Abishai", "Benaiah"],
+    answer: "David",
+    reference: "1 Chronicles 19:18",
+  },
+  {
+    question:
+      "At what time of year did Joab lead the army out to devastate the Ammonites while David remained in Jerusalem?",
+    options: [
+      "In the spring, at the time when kings go off to war",
+      "At harvest time",
+      "During the seventh month",
+      "At the beginning of winter",
+    ],
+    answer: "In the spring, at the time when kings go off to war",
     reference: "1 Chronicles 20:1",
   },
   {
-    question: "What did David take from the head of the king of Rabbah?",
-    options: ["A crown", "A helmet", "A golden chain", "A turban"],
-    answer: "A crown",
-    reference: "1 Chronicles 20:2",
+    question:
+      "What city did Joab besiege and destroy while David remained in Jerusalem?",
+    options: ["Rabbah", "Gath", "Damascus", "Medeba"],
+    answer: "Rabbah",
+    reference: "1 Chronicles 20:1",
   },
   {
-    question: "How much did the crown taken at Rabbah weigh?",
+    question:
+      "What was notable about the crown David took from the Ammonite king?",
     options: [
-      "A talent of gold",
-      "Half a talent of gold",
-      "Ten talents of gold",
-      "One hundred shekels",
+      "It weighed a talent of gold and was set with precious stones",
+      "It was made entirely of silver",
+      "It contained twelve precious stones",
+      "It had belonged to Nahash",
     ],
-    answer: "A talent of gold",
+    answer: "It weighed a talent of gold and was set with precious stones",
     reference: "1 Chronicles 20:2",
   },
   {
-    question: "What unusual physical feature did a Philistine giant have?",
+    question:
+      "Who killed Sippai, one of the descendants of the Rephaites, during war with the Philistines?",
+    options: [
+      "Sibbekai the Hushathite",
+      "Elhanan son of Jair",
+      "Jonathan son of Shimea",
+      "Benaiah",
+    ],
+    answer: "Sibbekai the Hushathite",
+    reference: "1 Chronicles 20:4",
+  },
+  {
+    question:
+      "Who killed Lahmi, the brother of Goliath?",
+    options: [
+      "Elhanan son of Jair",
+      "Sibbekai",
+      "Jonathan son of Shimea",
+      "David",
+    ],
+    answer: "Elhanan son of Jair",
+    reference: "1 Chronicles 20:5",
+  },
+  {
+    question:
+      "What unusual physical characteristic did the giant warrior at Gath possess?",
     options: [
       "Six fingers on each hand and six toes on each foot",
-      "One eye",
+      "Two thumbs on each hand",
       "Seven fingers on each hand",
-      "Two heads",
+      "Six toes on each foot but five fingers",
     ],
     answer: "Six fingers on each hand and six toes on each foot",
     reference: "1 Chronicles 20:6",
   },
   {
-    question: "Who killed the giant with twenty-four fingers and toes?",
+    question:
+      "How many fingers and toes did the giant warrior from Gath have altogether?",
+    options: ["Twenty-four", "Twenty-two", "Twenty-six", "Twenty-eight"],
+    answer: "Twenty-four",
+    reference: "1 Chronicles 20:6",
+  },
+  {
+    question:
+      "Who killed the giant warrior who taunted Israel at Gath?",
     options: [
-      "Jonathan son of Shimea",
-      "David",
-      "Benaiah",
+      "Jonathan son of Shimea, David's brother",
+      "Sibbekai the Hushathite",
+      "Elhanan son of Jair",
       "Abishai",
     ],
-    answer: "Jonathan son of Shimea",
+    answer: "Jonathan son of Shimea, David's brother",
     reference: "1 Chronicles 20:7",
   },
-
   {
-    question: "Who incited David to take a census of Israel?",
+    question:
+      "Who incited David to take a census of Israel?",
     options: ["Satan", "Joab", "An angel", "The Philistines"],
     answer: "Satan",
     reference: "1 Chronicles 21:1",
   },
   {
-    question: "Who objected to David's command to count Israel?",
-    options: ["Joab", "Gad", "Nathan", "Benaiah"],
-    answer: "Joab",
-    reference: "1 Chronicles 21:3",
+    question:
+      "Whom did David order to count Israel?",
+    options: [
+      "Joab and the commanders of the troops",
+      "The Levites",
+      "Zadok and Abiathar",
+      "Benaiah and the royal guard",
+    ],
+    answer: "Joab and the commanders of the troops",
+    reference: "1 Chronicles 21:2",
   },
   {
-    question: "Which two tribes did Joab exclude from the census?",
+    question:
+      "Which tribes did Joab leave uncounted because the king's command was repulsive to him?",
     options: [
       "Levi and Benjamin",
       "Judah and Benjamin",
-      "Levi and Judah",
-      "Gad and Reuben",
+      "Levi and Simeon",
+      "Benjamin and Ephraim",
     ],
     answer: "Levi and Benjamin",
     reference: "1 Chronicles 21:6",
   },
   {
-    question: "How did David respond after recognizing his sin in ordering the census?",
+    question:
+      "How many sword-wielding men did Joab report in Israel?",
     options: [
-      "He confessed that he had sinned greatly",
-      "He blamed Joab",
-      "He fled Jerusalem",
-      "He offered excuses",
+      "1,100,000",
+      "800,000",
+      "1,300,000",
+      "470,000",
     ],
-    answer: "He confessed that he had sinned greatly",
-    reference: "1 Chronicles 21:8",
+    answer: "1,100,000",
+    reference: "1 Chronicles 21:5",
   },
   {
-    question: "Which prophet presented David with three possible punishments?",
+    question:
+      "How many sword-wielding men did Joab report in Judah?",
+    options: ["470,000", "500,000", "400,000", "300,000"],
+    answer: "470,000",
+    reference: "1 Chronicles 21:5",
+  },
+  {
+    question:
+      "Through which prophet did God offer David three possible punishments?",
     options: ["Gad", "Nathan", "Samuel", "Asaph"],
     answer: "Gad",
-    reference: "1 Chronicles 21:9-12",
+    reference: "1 Chronicles 21:9",
   },
   {
-    question: "How many years of famine was David offered as one possible punishment?",
-    options: ["Three years", "Seven years", "One year", "Five years"],
-    answer: "Three years",
-    reference: "1 Chronicles 21:12",
-  },
-  {
-    question: "How long could David choose to flee before his enemies?",
-    options: ["Three months", "Seven months", "Forty days", "One year"],
-    answer: "Three months",
-    reference: "1 Chronicles 21:12",
-  },
-  {
-    question: "How long was the sword of the Lord offered as the third punishment?",
-    options: ["Three days", "Seven days", "One day", "Forty days"],
-    answer: "Three days",
-    reference: "1 Chronicles 21:12",
-  },
-  {
-    question: "Which punishment did David choose?",
+    question:
+      "Which three punishments were offered to David after the census?",
     options: [
-      "To fall into the hands of the Lord",
-      "Three years of famine",
-      "Three months before his enemies",
-      "He refused to choose",
+      "Three years of famine, three months before enemies, or three days of the sword of the LORD",
+      "Seven years of famine, three months of war, or three days of plague",
+      "Three years of exile, three months of famine, or three days of plague",
+      "Three years of famine, seven months before enemies, or one day of plague",
     ],
-    answer: "To fall into the hands of the Lord",
+    answer:
+      "Three years of famine, three months before enemies, or three days of the sword of the LORD",
+    reference: "1 Chronicles 21:11-12",
+  },
+  {
+    question:
+      "Why did David choose to fall into the hands of the LORD rather than into human hands?",
+    options: [
+      "Because God's mercy is very great",
+      "Because he expected the plague to be shorter",
+      "Because Gad advised him",
+      "Because Jerusalem was fortified",
+    ],
+    answer: "Because God's mercy is very great",
     reference: "1 Chronicles 21:13",
   },
   {
-    question: "How many Israelites died in the plague?",
-    options: ["Seventy thousand", "Fifty thousand", "One hundred thousand", "Thirty thousand"],
-    answer: "Seventy thousand",
+    question:
+      "How many Israelites died in the plague following David's census?",
+    options: ["70,000", "50,000", "100,000", "30,000"],
+    answer: "70,000",
     reference: "1 Chronicles 21:14",
   },
   {
-    question: "At whose threshing floor did the destroying angel stop?",
+    question:
+      "Where was the destroying angel standing when God ordered the destruction to stop?",
     options: [
-      "Ornan the Jebusite",
-      "Obed-Edom",
-      "Araunah the Hittite",
-      "Joab",
+      "At the threshing floor of Araunah the Jebusite",
+      "At the temple mount",
+      "At the gate of Jerusalem",
+      "At the threshing floor of Kidon",
     ],
-    answer: "Ornan the Jebusite",
+    answer: "At the threshing floor of Araunah the Jebusite",
     reference: "1 Chronicles 21:15",
   },
   {
-    question: "What was Ornan doing when he saw the angel?",
-    options: ["Threshing wheat", "Harvesting barley", "Building an altar", "Feeding oxen"],
-    answer: "Threshing wheat",
-    reference: "1 Chronicles 21:20",
+    question:
+      "What was the angel holding over Jerusalem?",
+    options: [
+      "A drawn sword",
+      "A flaming spear",
+      "A scroll of judgment",
+      "A trumpet",
+    ],
+    answer: "A drawn sword",
+    reference: "1 Chronicles 21:16",
   },
   {
-    question: "What did David insist on doing instead of accepting Ornan's threshing floor for free?",
-    options: [
-      "Paying the full price",
-      "Trading land for it",
-      "Borrowing it",
-      "Taking only the oxen",
-    ],
-    answer: "Paying the full price",
-    reference: "1 Chronicles 21:24",
+    question:
+      "What were David and the elders wearing when they fell facedown before God?",
+    options: ["Sackcloth", "Torn robes", "Linen garments", "Ashes"],
+    answer: "Sackcloth",
+    reference: "1 Chronicles 21:16",
   },
   {
-    question: "How much gold did David pay Ornan for the site?",
+    question:
+      "What did Gad tell David to build at Araunah's threshing floor?",
     options: [
-      "Six hundred shekels",
-      "Fifty shekels",
-      "Three hundred shekels",
-      "One thousand shekels",
+      "An altar to the LORD",
+      "A permanent temple",
+      "A memorial pillar",
+      "A tent for the ark",
     ],
-    answer: "Six hundred shekels",
+    answer: "An altar to the LORD",
+    reference: "1 Chronicles 21:18",
+  },
+  {
+    question:
+      "How much did David pay Araunah for the site?",
+    options: [
+      "Six hundred shekels of gold",
+      "Fifty shekels of silver",
+      "Six hundred shekels of silver",
+      "One talent of gold",
+    ],
+    answer: "Six hundred shekels of gold",
     reference: "1 Chronicles 21:25",
   },
   {
-    question: "How did God respond when David offered sacrifices on the altar?",
+    question:
+      "How did God answer David's sacrifice at the threshing floor?",
     options: [
-      "Fire came from heaven onto the altar",
-      "Rain fell",
-      "An angel spoke",
-      "The plague immediately spread",
+      "By sending fire from heaven onto the altar",
+      "By sending rain",
+      "By removing the angel immediately without a sign",
+      "By speaking through Gad",
     ],
-    answer: "Fire came from heaven onto the altar",
+    answer: "By sending fire from heaven onto the altar",
     reference: "1 Chronicles 21:26",
   },
-
   {
-    question: "What did David declare about the site of Ornan's threshing floor?",
+    question:
+      "What did the angel do after the LORD commanded him?",
     options: [
-      "This is the house of the Lord God and the altar of burnt offering for Israel",
-      "This will be my palace",
-      "This belongs to the Levites",
-      "This will become Israel's military headquarters",
+      "He put his sword back into its sheath",
+      "He disappeared in fire",
+      "He flew toward Gibeon",
+      "He stood beside the altar",
     ],
-    answer: "This is the house of the Lord God and the altar of burnt offering for Israel",
+    answer: "He put his sword back into its sheath",
+    reference: "1 Chronicles 21:27",
+  },
+  {
+    question:
+      "Why did David not go to the tabernacle at Gibeon to inquire of God at that time?",
+    options: [
+      "He was afraid of the sword of the angel of the LORD",
+      "The tabernacle had been destroyed",
+      "The priests prevented him",
+      "The ark was no longer there",
+    ],
+    answer: "He was afraid of the sword of the angel of the LORD",
+    reference: "1 Chronicles 21:29-30",
+  },
+  {
+    question:
+      "What did David declare about Araunah's threshing floor after the plague?",
+    options: [
+      "This is the house of the LORD God and the altar of burnt offering for Israel",
+      "This shall be called the City of David",
+      "The ark must be moved here immediately",
+      "No sacrifice may be offered elsewhere",
+    ],
+    answer:
+      "This is the house of the LORD God and the altar of burnt offering for Israel",
     reference: "1 Chronicles 22:1",
   },
   {
-    question: "Why did David say Solomon was the one who would build the temple?",
+    question:
+      "Why did David gather foreigners living in Israel before preparing for the temple?",
+    options: [
+      "He appointed stonecutters to prepare dressed stone",
+      "He appointed them as temple guards",
+      "He wanted them to supply cedar",
+      "He enrolled them into the army",
+    ],
+    answer: "He appointed stonecutters to prepare dressed stone",
+    reference: "1 Chronicles 22:2",
+  },
+  {
+    question:
+      "Why did David prepare large quantities of materials before his death?",
+    options: [
+      "Solomon was young and inexperienced, and the temple had to be magnificent",
+      "Solomon was away at war",
+      "The Levites lacked construction skills",
+      "David expected a famine",
+    ],
+    answer:
+      "Solomon was young and inexperienced, and the temple had to be magnificent",
+    reference: "1 Chronicles 22:5",
+  },
+  {
+    question:
+      "Why did God tell David that he would not build the temple?",
     options: [
       "David had shed much blood and fought many wars",
-      "David was too old",
-      "Solomon was a priest",
-      "Nathan had commanded Solomon personally",
+      "David was not a priest",
+      "David had committed the census",
+      "David had moved the ark incorrectly",
     ],
     answer: "David had shed much blood and fought many wars",
     reference: "1 Chronicles 22:8",
   },
   {
-    question: "What did God say Solomon's reign would have that David's reign lacked?",
-    options: ["Peace and rest", "Wealth", "A large army", "Prophets"],
-    answer: "Peace and rest",
+    question:
+      "What characteristic of Solomon's reign was contrasted with David's wars?",
+    options: [
+      "He would be a man of peace and rest",
+      "He would rule without enemies",
+      "He would be a priest-king",
+      "He would expand Israel farther than David",
+    ],
+    answer: "He would be a man of peace and rest",
     reference: "1 Chronicles 22:9",
   },
   {
-    question: "What meaning is associated with Solomon's name in David's explanation?",
-    options: ["Peace", "Strength", "Wisdom", "Chosen"],
-    answer: "Peace",
+    question:
+      "What explanation is given for Solomon's name in David's message?",
+    options: [
+      "Peace and quiet would be given to Israel during his reign",
+      "He would be loved by the LORD",
+      "He would build God's house",
+      "He would possess extraordinary wisdom",
+    ],
+    answer: "Peace and quiet would be given to Israel during his reign",
     reference: "1 Chronicles 22:9",
   },
   {
-    question: "What did David tell Solomon was necessary for success in building the temple?",
+    question:
+      "How much gold did David say he had provided for the temple?",
     options: [
-      "Carefully observing the Lord's laws",
-      "Building a large army",
-      "Making alliances",
-      "Collecting more taxes",
+      "One hundred thousand talents",
+      "Ten thousand talents",
+      "One thousand talents",
+      "Three thousand talents",
     ],
-    answer: "Carefully observing the Lord's laws",
-    reference: "1 Chronicles 22:12-13",
+    answer: "One hundred thousand talents",
+    reference: "1 Chronicles 22:14",
   },
   {
-    question: "What encouragement did David repeatedly give Solomon?",
+    question:
+      "How much silver did David say he had provided?",
     options: [
-      "Be strong and courageous; do not be afraid or discouraged",
-      "Trust your army",
-      "Seek wealth before beginning",
-      "Wait until all enemies are gone",
+      "One million talents",
+      "One hundred thousand talents",
+      "Ten thousand talents",
+      "Five hundred thousand talents",
     ],
-    answer: "Be strong and courageous; do not be afraid or discouraged",
-    reference: "1 Chronicles 22:13",
+    answer: "One million talents",
+    reference: "1 Chronicles 22:14",
   },
-
   {
-    question: "At what age were Levites counted for service when David was old?",
-    options: ["Thirty years and older", "Twenty years and older", "Twenty-five years and older", "Forty years and older"],
+    question:
+      "At what age were Levites counted when David organized them late in his reign?",
+    options: [
+      "Thirty years and older",
+      "Twenty years and older",
+      "Twenty-five years and older",
+      "Fifty years and older",
+    ],
     answer: "Thirty years and older",
     reference: "1 Chronicles 23:3",
   },
   {
-    question: "How many Levites were counted at that time?",
-    options: ["Thirty-eight thousand", "Twenty-four thousand", "Four thousand", "Six thousand"],
-    answer: "Thirty-eight thousand",
+    question:
+      "How many Levites aged thirty or older were counted?",
+    options: ["38,000", "24,000", "6,000", "4,000"],
+    answer: "38,000",
     reference: "1 Chronicles 23:3",
   },
   {
-    question: "How many Levites were assigned to supervise the work of the temple?",
-    options: ["Twenty-four thousand", "Four thousand", "Six thousand", "Thirty-eight thousand"],
-    answer: "Twenty-four thousand",
+    question:
+      "How many Levites were assigned to supervise the work of the temple?",
+    options: ["24,000", "6,000", "4,000", "38,000"],
+    answer: "24,000",
     reference: "1 Chronicles 23:4",
   },
   {
-    question: "How many were assigned as officials and judges?",
-    options: ["Six thousand", "Four thousand", "Twenty-four thousand", "Two thousand"],
-    answer: "Six thousand",
+    question:
+      "How many Levites were assigned as officials and judges?",
+    options: ["6,000", "4,000", "24,000", "2,000"],
+    answer: "6,000",
     reference: "1 Chronicles 23:4",
   },
   {
-    question: "How many Levites were assigned as gatekeepers?",
-    options: ["Four thousand", "Six thousand", "Twenty-four thousand", "Three thousand"],
-    answer: "Four thousand",
+    question:
+      "How many were assigned as gatekeepers?",
+    options: ["4,000", "6,000", "2,000", "24,000"],
+    answer: "4,000",
     reference: "1 Chronicles 23:5",
   },
   {
-    question: "How many were assigned to praise the Lord with musical instruments?",
-    options: ["Four thousand", "Six thousand", "Two thousand", "Twenty-four thousand"],
-    answer: "Four thousand",
+    question:
+      "How many Levites were assigned to praise the LORD with musical instruments?",
+    options: ["4,000", "288", "6,000", "24,000"],
+    answer: "4,000",
     reference: "1 Chronicles 23:5",
   },
-
   {
-    question: "Into how many divisions were Aaron's descendants organized for priestly service?",
-    options: ["Twenty-four", "Twelve", "Thirty", "Seven"],
-    answer: "Twenty-four",
-    reference: "1 Chronicles 24:4-19",
+    question:
+      "Which two sons of Moses are listed among the descendants of Levi?",
+    options: [
+      "Gershom and Eliezer",
+      "Gershon and Kohath",
+      "Eleazar and Ithamar",
+      "Jonathan and Eliezer",
+    ],
+    answer: "Gershom and Eliezer",
+    reference: "1 Chronicles 23:15",
   },
   {
-    question: "Which priestly family had more leaders, Eleazar or Ithamar?",
-    options: ["Eleazar", "Ithamar", "They were equal", "Neither"],
-    answer: "Eleazar",
+    question:
+      "Why did David later lower the minimum age for Levitical service to twenty?",
+    options: [
+      "The LORD had given Israel rest and the Levites no longer needed to carry the tabernacle and its articles",
+      "There were too few Levites over thirty",
+      "Solomon requested younger workers",
+      "The temple required military-age workers",
+    ],
+    answer:
+      "The LORD had given Israel rest and the Levites no longer needed to carry the tabernacle and its articles",
+    reference: "1 Chronicles 23:25-27",
+  },
+  {
+    question:
+      "How many priestly divisions descended from Eleazar and Ithamar respectively?",
+    options: [
+      "Sixteen from Eleazar and eight from Ithamar",
+      "Twelve from each",
+      "Eight from Eleazar and sixteen from Ithamar",
+      "Twenty from Eleazar and four from Ithamar",
+    ],
+    answer: "Sixteen from Eleazar and eight from Ithamar",
     reference: "1 Chronicles 24:4",
   },
   {
-    question: "How many family heads came from Eleazar's descendants?",
-    options: ["Sixteen", "Eight", "Twenty-four", "Twelve"],
-    answer: "Sixteen",
-    reference: "1 Chronicles 24:4",
-  },
-  {
-    question: "How many family heads came from Ithamar's descendants?",
-    options: ["Eight", "Sixteen", "Twelve", "Four"],
-    answer: "Eight",
-    reference: "1 Chronicles 24:4",
-  },
-  {
-    question: "How were the priestly divisions assigned their order of service?",
-    options: ["By lot", "By age", "By wealth", "By military rank"],
+    question:
+      "How were the priestly divisions assigned their order of service?",
+    options: [
+      "By lot",
+      "By age",
+      "By family wealth",
+      "By David's personal choice",
+    ],
     answer: "By lot",
     reference: "1 Chronicles 24:5",
   },
-
   {
-    question: "Which three men were set apart for the ministry of prophesying with musical instruments?",
+    question:
+      "Which priestly family received the first lot?",
+    options: ["Jehoiarib", "Jedaiah", "Harim", "Seorim"],
+    answer: "Jehoiarib",
+    reference: "1 Chronicles 24:7",
+  },
+  {
+    question:
+      "Which priestly division received the eighth lot?",
+    options: ["Abijah", "Hakkoz", "Mijamin", "Shecaniah"],
+    answer: "Abijah",
+    reference: "1 Chronicles 24:10",
+  },
+  {
+    question:
+      "Which family received the twenty-fourth and final priestly lot?",
+    options: ["Maaziah", "Delaiah", "Jakin", "Gamul"],
+    answer: "Maaziah",
+    reference: "1 Chronicles 24:18",
+  },
+  {
+    question:
+      "Which three men and their sons were set apart for the ministry of prophesying with musical instruments?",
     options: [
       "Asaph, Heman, and Jeduthun",
-      "Asaph, Zadok, and Heman",
-      "Heman, Obed-Edom, and Nathan",
-      "Jeduthun, Zadok, and Kenaniah",
+      "Asaph, Ethan, and Chenaniah",
+      "Heman, Obed-Edom, and Jeduthun",
+      "Asaph, Heman, and Obed-Edom",
     ],
     answer: "Asaph, Heman, and Jeduthun",
     reference: "1 Chronicles 25:1",
   },
   {
-    question: "Which instruments are specifically associated with their prophetic musical ministry?",
-    options: [
-      "Harps, lyres, and cymbals",
-      "Trumpets, flutes, and drums",
-      "Cymbals and trumpets only",
-      "Harps and tambourines",
-    ],
-    answer: "Harps, lyres, and cymbals",
-    reference: "1 Chronicles 25:1",
+    question:
+      "Under whose supervision did the sons of Asaph prophesy?",
+    options: ["Asaph under the king's supervision", "Heman", "Jeduthun", "Chenaniah"],
+    answer: "Asaph under the king's supervision",
+    reference: "1 Chronicles 25:2",
   },
   {
-    question: "How many sons and relatives trained in music for the Lord were counted?",
-    options: ["Two hundred eighty-eight", "One hundred forty-four", "Four thousand", "Twenty-four"],
-    answer: "Two hundred eighty-eight",
+    question:
+      "Which musician is specifically called the king's seer?",
+    options: ["Heman", "Asaph", "Jeduthun", "Mattithiah"],
+    answer: "Heman",
+    reference: "1 Chronicles 25:5",
+  },
+  {
+    question:
+      "How many sons and daughters did God give Heman?",
+    options: [
+      "Fourteen sons and three daughters",
+      "Twelve sons and four daughters",
+      "Fourteen sons and two daughters",
+      "Twenty-four sons and three daughters",
+    ],
+    answer: "Fourteen sons and three daughters",
+    reference: "1 Chronicles 25:5",
+  },
+  {
+    question:
+      "How many trained and skilled musicians were counted for the LORD's music?",
+    options: ["288", "212", "4,000", "120"],
+    answer: "288",
     reference: "1 Chronicles 25:7",
   },
   {
-    question: "How was the order of musical service determined?",
-    options: ["By lot", "By age", "By musical ability only", "By tribe"],
-    answer: "By lot",
-    reference: "1 Chronicles 25:8",
+    question:
+      "How many musicians belonged to each of the twenty-four musical divisions?",
+    options: ["Twelve", "Twenty-four", "Seven", "Six"],
+    answer: "Twelve",
+    reference: "1 Chronicles 25:9-31",
   },
-
   {
-    question: "What major responsibility was assigned to the families described at the beginning of the gatekeeper divisions?",
+    question:
+      "Which gatekeeper received the lot for the east gate?",
+    options: ["Shelemiah", "Zechariah", "Obed-Edom", "Shuppim"],
+    answer: "Shelemiah",
+    reference: "1 Chronicles 26:14",
+  },
+  {
+    question:
+      "Which gate did Zechariah receive by lot?",
+    options: ["North gate", "South gate", "East gate", "West gate"],
+    answer: "North gate",
+    reference: "1 Chronicles 26:14",
+  },
+  {
+    question:
+      "Which gate and storehouse responsibilities fell to Obed-Edom and his sons?",
     options: [
-      "Guarding the gates",
-      "Offering sacrifices",
-      "Leading the army",
-      "Copying the Law",
+      "The south gate and the storehouse",
+      "The east gate and treasury",
+      "The west gate and causeway",
+      "The north gate and temple rooms",
     ],
-    answer: "Guarding the gates",
-    reference: "1 Chronicles 26:1",
+    answer: "The south gate and the storehouse",
+    reference: "1 Chronicles 26:15",
   },
   {
-    question: "How is Obed-Edom described in connection with his sons?",
+    question:
+      "Which gatekeepers received responsibility for the west gate and the Shalleketh Gate by the upper road?",
+    options: ["Shuppim and Hosah", "Obed-Edom and Zechariah", "Shelemiah and Hosah", "Meshelemiah and Shuppim"],
+    answer: "Shuppim and Hosah",
+    reference: "1 Chronicles 26:16",
+  },
+  {
+    question:
+      "Who was in charge of the treasuries of the house of God and the dedicated things?",
     options: [
-      "God had greatly blessed him",
-      "He had no sons",
-      "He was a priest",
-      "He was David's commander",
+      "Levites descended from Gershon through Ladan",
+      "The sons of Korah",
+      "The sons of Merari",
+      "The priests descended from Eleazar",
     ],
-    answer: "God had greatly blessed him",
-    reference: "1 Chronicles 26:4-5",
+    answer: "Levites descended from Gershon through Ladan",
+    reference: "1 Chronicles 26:20-22",
   },
   {
-    question: "How were gatekeeping assignments distributed?",
-    options: ["By lot", "By age", "By wealth", "By David alone"],
-    answer: "By lot",
-    reference: "1 Chronicles 26:13",
+    question:
+      "Which descendant of Moses served as officer over the treasuries?",
+    options: [
+      "Shebuel son of Gershom",
+      "Jonathan son of Gershom",
+      "Rehabiah son of Eliezer",
+      "Shelomith son of Zichri",
+    ],
+    answer: "Shebuel son of Gershom",
+    reference: "1 Chronicles 26:24",
   },
   {
-    question: "Who was responsible for the treasuries of the house of God and dedicated things?",
-    options: ["Levites", "Soldiers", "Foreign servants", "Tribal chiefs"],
-    answer: "Levites",
-    reference: "1 Chronicles 26:20",
+    question:
+      "Who supervised the treasuries containing things dedicated by David and Israel's military leaders?",
+    options: ["Shelomith", "Shebuel", "Chenaniah", "Hashabiah"],
+    answer: "Shelomith",
+    reference: "1 Chronicles 26:26",
   },
-
   {
-    question: "How many men were in each monthly military division serving David?",
-    options: ["Twenty-four thousand", "Twelve thousand", "Thirty thousand", "Forty thousand"],
-    answer: "Twenty-four thousand",
+    question:
+      "What was done with some of the plunder taken in battle?",
+    options: [
+      "It was dedicated for the repair of the temple of the LORD",
+      "It was distributed among the Levites",
+      "It was placed in David's treasury",
+      "It was used to pay soldiers",
+    ],
+    answer: "It was dedicated for the repair of the temple of the LORD",
+    reference: "1 Chronicles 26:27",
+  },
+  {
+    question:
+      "How many men under Chenaniah and his sons were assigned duties outside the temple as officials and judges?",
+    options: ["6,000", "2,700", "1,700", "4,000"],
+    answer: "6,000",
+    reference: "1 Chronicles 26:29",
+  },
+  {
+    question:
+      "How many capable men under Hashabiah were responsible for Israel west of the Jordan?",
+    options: ["1,700", "2,700", "6,000", "1,000"],
+    answer: "1,700",
+    reference: "1 Chronicles 26:30",
+  },
+  {
+    question:
+      "How many capable family heads were placed over the Reubenites, Gadites, and half-tribe of Manasseh east of the Jordan?",
+    options: ["2,700", "1,700", "6,000", "4,000"],
+    answer: "2,700",
+    reference: "1 Chronicles 26:32",
+  },
+  {
+    question:
+      "How many men served in each monthly military division organized under David?",
+    options: ["24,000", "12,000", "30,000", "10,000"],
+    answer: "24,000",
     reference: "1 Chronicles 27:1",
   },
   {
-    question: "How long did each military division serve during the year?",
-    options: ["One month", "Three months", "Six months", "One week"],
-    answer: "One month",
-    reference: "1 Chronicles 27:1",
+    question:
+      "Who commanded the first monthly division?",
+    options: [
+      "Jashobeam son of Zabdiel",
+      "Dodai the Ahohite",
+      "Benaiah son of Jehoiada",
+      "Asahel brother of Joab",
+    ],
+    answer: "Jashobeam son of Zabdiel",
+    reference: "1 Chronicles 27:2",
   },
   {
-    question: "Why did David not include men twenty years old or younger in his census?",
+    question:
+      "Which commander led the third division and was the son of Jehoiada the priest?",
+    options: ["Benaiah", "Ammizabad", "Asahel", "Shamhuth"],
+    answer: "Benaiah",
+    reference: "1 Chronicles 27:5",
+  },
+  {
+    question:
+      "Who succeeded Asahel as commander of the fourth division?",
     options: [
-      "The Lord had promised to make Israel as numerous as the stars",
-      "They were not trained",
-      "Joab refused",
-      "They belonged to the Levites",
+      "Zebadiah his son",
+      "Joab his brother",
+      "Benaiah",
+      "Shamhuth",
     ],
-    answer: "The Lord had promised to make Israel as numerous as the stars",
+    answer: "Zebadiah his son",
+    reference: "1 Chronicles 27:7",
+  },
+  {
+    question:
+      "Which month was assigned to Abiezer the Anathothite?",
+    options: ["Ninth month", "Eighth month", "Tenth month", "Seventh month"],
+    answer: "Ninth month",
+    reference: "1 Chronicles 27:12",
+  },
+  {
+    question:
+      "Why did David not count those twenty years old or younger?",
+    options: [
+      "The LORD had promised to make Israel as numerous as the stars",
+      "They were not old enough for war",
+      "Joab refused to count them",
+      "The Levites had already counted them",
+    ],
+    answer: "The LORD had promised to make Israel as numerous as the stars",
     reference: "1 Chronicles 27:23",
   },
   {
-    question: "Who began counting Israel but did not finish because wrath came upon Israel?",
-    options: ["Joab", "David", "Benaiah", "Abishai"],
-    answer: "Joab",
+    question:
+      "Why was the number from Joab's census not entered in King David's official records?",
+    options: [
+      "Wrath came on Israel because of the census",
+      "Joab never completed the count",
+      "The records were destroyed",
+      "David ordered the numbers erased",
+    ],
+    answer: "Wrath came on Israel because of the census",
     reference: "1 Chronicles 27:24",
   },
   {
-    question: "Who was David's counselor known as a man of insight and a scribe?",
-    options: ["Jonathan, David's uncle", "Ahithophel", "Hushai", "Nathan"],
+    question:
+      "Who was in charge of David's royal treasuries?",
+    options: [
+      "Azmaveth son of Adiel",
+      "Jonathan son of Uzziah",
+      "Ezri son of Kelub",
+      "Shimei the Ramathite",
+    ],
+    answer: "Azmaveth son of Adiel",
+    reference: "1 Chronicles 27:25",
+  },
+  {
+    question:
+      "Who supervised the storehouses in the fields, towns, villages, and watchtowers?",
+    options: [
+      "Jonathan son of Uzziah",
+      "Azmaveth son of Adiel",
+      "Shimei the Ramathite",
+      "Ba'al-Hanan the Gederite",
+    ],
+    answer: "Jonathan son of Uzziah",
+    reference: "1 Chronicles 27:25",
+  },
+  {
+    question:
+      "Who supervised those working the fields and cultivating the soil?",
+    options: [
+      "Ezri son of Kelub",
+      "Shimei the Ramathite",
+      "Shitrai the Sharonite",
+      "Obil the Ishmaelite",
+    ],
+    answer: "Ezri son of Kelub",
+    reference: "1 Chronicles 27:26",
+  },
+  {
+    question:
+      "Who was responsible for David's vineyards?",
+    options: [
+      "Shimei the Ramathite",
+      "Zabdi the Shiphmite",
+      "Ba'al-Hanan",
+      "Joash",
+    ],
+    answer: "Shimei the Ramathite",
+    reference: "1 Chronicles 27:27",
+  },
+  {
+    question:
+      "Who was responsible for the produce of the vineyards stored in the wine cellars?",
+    options: [
+      "Zabdi the Shiphmite",
+      "Shimei the Ramathite",
+      "Joash",
+      "Obil the Ishmaelite",
+    ],
+    answer: "Zabdi the Shiphmite",
+    reference: "1 Chronicles 27:27",
+  },
+  {
+    question:
+      "Who was responsible for David's camels?",
+    options: [
+      "Obil the Ishmaelite",
+      "Jaziz the Hagrite",
+      "Shitrai the Sharonite",
+      "Ba'al-Hanan the Gederite",
+    ],
+    answer: "Obil the Ishmaelite",
+    reference: "1 Chronicles 27:30",
+  },
+  {
+    question:
+      "Who was responsible for David's flocks?",
+    options: [
+      "Jaziz the Hagrite",
+      "Obil the Ishmaelite",
+      "Shitrai the Sharonite",
+      "Joash",
+    ],
+    answer: "Jaziz the Hagrite",
+    reference: "1 Chronicles 27:31",
+  },
+  {
+    question:
+      "Which relative of David served as counselor and was described as a man of insight and a scribe?",
+    options: [
+      "Jonathan, David's uncle",
+      "Ahithophel",
+      "Hushai",
+      "Jehiel",
+    ],
     answer: "Jonathan, David's uncle",
     reference: "1 Chronicles 27:32",
   },
   {
-    question: "Who was described as the king's friend?",
-    options: ["Hushai the Arkite", "Joab", "Zadok", "Benaiah"],
-    answer: "Hushai the Arkite",
-    reference: "1 Chronicles 27:33",
-  },
-
-  {
-    question: "Whom did David publicly identify as God's chosen successor?",
-    options: ["Solomon", "Adonijah", "Absalom", "Nathan"],
-    answer: "Solomon",
-    reference: "1 Chronicles 28:5",
+    question:
+      "Who was responsible for the care of the king's sons?",
+    options: ["Jehiel son of Hakmoni", "Hushai", "Jonathan", "Ahithophel"],
+    answer: "Jehiel son of Hakmoni",
+    reference: "1 Chronicles 27:32",
   },
   {
-    question: "What did David say God had chosen Solomon to do?",
+    question:
+      "Who succeeded Ahithophel as one of David's counselors?",
     options: [
-      "Build the temple and its courts",
-      "Lead Israel's army",
-      "Conquer the Philistines",
-      "Replace the priests",
+      "Jehoiada son of Benaiah and Abiathar",
+      "Hushai and Joab",
+      "Nathan and Gad",
+      "Zadok and Abiathar",
     ],
-    answer: "Build the temple and its courts",
-    reference: "1 Chronicles 28:6",
+    answer: "Jehoiada son of Benaiah and Abiathar",
+    reference: "1 Chronicles 27:34",
   },
   {
-    question: "What condition did David mention for Solomon's kingdom being established permanently?",
+    question:
+      "What reason did David give the assembled leaders for Solomon rather than himself building the temple?",
     options: [
-      "Continuing resolutely to observe God's commands",
-      "Maintaining a large army",
-      "Building the temple quickly",
-      "Never leaving Jerusalem",
+      "God had chosen Solomon, while David had been a warrior and had shed blood",
+      "David was too old",
+      "Solomon had greater wealth",
+      "The Levites had selected Solomon",
     ],
-    answer: "Continuing resolutely to observe God's commands",
-    reference: "1 Chronicles 28:7",
+    answer:
+      "God had chosen Solomon, while David had been a warrior and had shed blood",
+    reference: "1 Chronicles 28:2-6",
   },
   {
-    question: "How did David tell Solomon to serve God?",
+    question:
+      "From which tribe did David say God had chosen him to be king?",
+    options: ["Judah", "Benjamin", "Levi", "Ephraim"],
+    answer: "Judah",
+    reference: "1 Chronicles 28:4",
+  },
+  {
+    question:
+      "From which family within Judah did David say God had chosen him?",
     options: [
-      "With wholehearted devotion and a willing mind",
-      "With fear only",
-      "Through sacrifices alone",
-      "Through military victories",
+      "The house of his father",
+      "The family of Perez generally",
+      "The house of Caleb",
+      "The family of Nahshon",
     ],
-    answer: "With wholehearted devotion and a willing mind",
-    reference: "1 Chronicles 28:9",
+    answer: "The house of his father",
+    reference: "1 Chronicles 28:4",
   },
   {
-    question: "What did David say God searches?",
+    question:
+      "What did David tell Solomon God searches and understands?",
     options: [
       "Every heart and every desire and thought",
-      "Only people's actions",
-      "Only the hearts of kings",
-      "Only the thoughts of priests",
+      "Every action and spoken word",
+      "The hearts of kings alone",
+      "Every sacrifice and offering",
     ],
     answer: "Every heart and every desire and thought",
     reference: "1 Chronicles 28:9",
   },
   {
-    question: "What warning did David give Solomon about forsaking God?",
+    question:
+      "What warning did David give Solomon if he forsook the LORD?",
     options: [
       "God would reject him forever",
-      "He would lose his wealth",
-      "The temple would immediately fall",
-      "He would lose his wisdom",
+      "The temple would immediately be destroyed",
+      "His kingdom would be divided",
+      "He would lose Jerusalem",
     ],
     answer: "God would reject him forever",
     reference: "1 Chronicles 28:9",
   },
   {
-    question: "From where did David say he received the plans for the temple?",
+    question:
+      "What did David give Solomon concerning the temple complex?",
     options: [
-      "By the Spirit",
-      "From Nathan",
-      "From Moses' writings",
-      "From architects of Tyre",
+      "Plans for the portico, buildings, storerooms, upper rooms, inner rooms, and place of atonement",
+      "Only measurements for the sanctuary",
+      "A completed architectural model",
+      "Plans written by Nathan",
     ],
-    answer: "By the Spirit",
-    reference: "1 Chronicles 28:12",
+    answer:
+      "Plans for the portico, buildings, storerooms, upper rooms, inner rooms, and place of atonement",
+    reference: "1 Chronicles 28:11",
   },
   {
-    question: "What did David tell Solomon about God during the temple construction?",
+    question:
+      "How did David say he received the temple plans?",
     options: [
-      "God would not fail or forsake him until the work was finished",
-      "God would send angels to build it",
-      "God would provide every worker personally",
-      "God would finish it without Solomon",
+      "The LORD's hand was upon him and gave him understanding of the details",
+      "Nathan wrote them for him",
+      "Moses had preserved them",
+      "Solomon designed them",
     ],
-    answer: "God would not fail or forsake him until the work was finished",
+    answer:
+      "The LORD's hand was upon him and gave him understanding of the details",
+    reference: "1 Chronicles 28:19",
+  },
+  {
+    question:
+      "What phrase did David use to encourage Solomon before the temple construction?",
+    options: [
+      "Be strong and courageous, and do the work",
+      "Fear God and keep his commandments",
+      "Trust in the LORD with all your heart",
+      "Rise and build the sanctuary",
+    ],
+    answer: "Be strong and courageous, and do the work",
     reference: "1 Chronicles 28:20",
   },
-
   {
-    question: "Why did David say the task of building the temple was great?",
+    question:
+      "Why did David say Solomon should not be afraid or discouraged?",
     options: [
-      "The structure was not for man but for the Lord God",
-      "It would be the largest building in the world",
-      "Israel lacked workers",
-      "The materials were scarce",
+      "The LORD God would be with him and would not fail or forsake him until the temple work was finished",
+      "Israel's army would protect him",
+      "David had already collected every material",
+      "All Israel had sworn allegiance to him",
     ],
-    answer: "The structure was not for man but for the Lord God",
-    reference: "1 Chronicles 29:1",
+    answer:
+      "The LORD God would be with him and would not fail or forsake him until the temple work was finished",
+    reference: "1 Chronicles 28:20",
   },
   {
-    question: "What did David contribute from his personal treasure for the temple?",
+    question:
+      "How much gold from his personal treasure did David give for the temple?",
     options: [
-      "Gold and silver",
-      "Only bronze",
-      "Only cedar",
-      "Horses and chariots",
+      "Three thousand talents",
+      "Seven thousand talents",
+      "One hundred thousand talents",
+      "Five thousand talents",
     ],
-    answer: "Gold and silver",
-    reference: "1 Chronicles 29:3-5",
+    answer: "Three thousand talents",
+    reference: "1 Chronicles 29:4",
   },
   {
-    question: "How did the leaders respond to David's appeal for temple contributions?",
+    question:
+      "How much refined silver from his personal treasure did David give?",
     options: [
-      "They gave willingly",
-      "They refused",
-      "They gave only after being taxed",
-      "They asked foreign kings to pay",
+      "Seven thousand talents",
+      "Three thousand talents",
+      "Ten thousand talents",
+      "One million talents",
     ],
-    answer: "They gave willingly",
-    reference: "1 Chronicles 29:6-9",
+    answer: "Seven thousand talents",
+    reference: "1 Chronicles 29:4",
   },
   {
-    question: "Why did the people rejoice over the offerings?",
+    question:
+      "What was the intended use of David's personal silver contribution?",
     options: [
-      "They had given freely and wholeheartedly to the Lord",
-      "David had promised them rewards",
-      "The temple was already complete",
-      "Their taxes were reduced",
+      "To overlay the walls of the buildings",
+      "To make temple utensils",
+      "To make musical instruments",
+      "To pay the craftsmen",
     ],
-    answer: "They had given freely and wholeheartedly to the Lord",
+    answer: "To overlay the walls of the buildings",
+    reference: "1 Chronicles 29:4",
+  },
+  {
+    question:
+      "How much gold did Israel's leaders contribute for the temple work?",
+    options: [
+      "Five thousand talents and ten thousand darics",
+      "Three thousand talents",
+      "Ten thousand talents",
+      "Seven thousand talents and five thousand darics",
+    ],
+    answer: "Five thousand talents and ten thousand darics",
+    reference: "1 Chronicles 29:7",
+  },
+  {
+    question:
+      "How much silver did the leaders contribute?",
+    options: [
+      "Ten thousand talents",
+      "Five thousand talents",
+      "Eighteen thousand talents",
+      "One hundred thousand talents",
+    ],
+    answer: "Ten thousand talents",
+    reference: "1 Chronicles 29:7",
+  },
+  {
+    question:
+      "How much bronze did the leaders contribute?",
+    options: [
+      "Eighteen thousand talents",
+      "Ten thousand talents",
+      "One hundred thousand talents",
+      "Five thousand talents",
+    ],
+    answer: "Eighteen thousand talents",
+    reference: "1 Chronicles 29:7",
+  },
+  {
+    question:
+      "How much iron did the leaders contribute?",
+    options: [
+      "One hundred thousand talents",
+      "Eighteen thousand talents",
+      "Ten thousand talents",
+      "Five thousand talents",
+    ],
+    answer: "One hundred thousand talents",
+    reference: "1 Chronicles 29:7",
+  },
+  {
+    question:
+      "To whom were precious stones given for the treasury of the LORD's temple?",
+    options: [
+      "Jehiel the Gershonite",
+      "Zadok the priest",
+      "Asaph",
+      "Shelomith",
+    ],
+    answer: "Jehiel the Gershonite",
+    reference: "1 Chronicles 29:8",
+  },
+  {
+    question:
+      "Why did the people rejoice over the leaders' gifts?",
+    options: [
+      "They had given freely and wholeheartedly to the LORD",
+      "The required amount had been exceeded",
+      "The temple could now be completed immediately",
+      "David had promised them a blessing",
+    ],
+    answer: "They had given freely and wholeheartedly to the LORD",
     reference: "1 Chronicles 29:9",
   },
   {
-    question: "According to David's prayer, to whom do greatness, power, glory, majesty, and splendor belong?",
-    options: ["The Lord", "The king", "Israel", "Solomon"],
-    answer: "The Lord",
-    reference: "1 Chronicles 29:11",
-  },
-  {
-    question: "According to David, where do wealth and honor come from?",
-    options: ["From God", "From hard work alone", "From kings", "From inheritance"],
-    answer: "From God",
+    question:
+      "What did David acknowledge as the source of riches and honor?",
+    options: [
+      "They come from God",
+      "They come through wisdom",
+      "They come through faithful kingship",
+      "They come from Israel's obedience",
+    ],
+    answer: "They come from God",
     reference: "1 Chronicles 29:12",
   },
   {
-    question: "How did David describe himself and the people in relation to their ability to give?",
+    question:
+      "How did David describe himself and the people before God while discussing their offerings?",
     options: [
-      "Everything came from God, and they gave only what came from His hand",
-      "They had earned everything themselves",
-      "The wealth belonged to Israel's kings",
-      "The priests had provided everything",
+      "Foreigners and strangers, like their ancestors",
+      "Servants and priests",
+      "Dust and ashes",
+      "A chosen and holy nation",
     ],
-    answer: "Everything came from God, and they gave only what came from His hand",
-    reference: "1 Chronicles 29:14",
-  },
-  {
-    question: "How did David describe human life before God?",
-    options: [
-      "As foreigners and strangers whose days are like a shadow",
-      "As permanent rulers of the earth",
-      "As mighty warriors",
-      "As trees beside water",
-    ],
-    answer: "As foreigners and strangers whose days are like a shadow",
+    answer: "Foreigners and strangers, like their ancestors",
     reference: "1 Chronicles 29:15",
   },
   {
-    question: "What did David ask God to give Solomon?",
+    question:
+      "To what did David compare human days on earth?",
     options: [
-      "Wholehearted devotion to keep God's commands",
-      "Greater military power",
-      "A longer life than David",
-      "Victory over every nation",
+      "A shadow, without hope of remaining",
+      "Grass that withers",
+      "A passing wind",
+      "Morning mist",
     ],
-    answer: "Wholehearted devotion to keep God's commands",
+    answer: "A shadow, without hope of remaining",
+    reference: "1 Chronicles 29:15",
+  },
+  {
+    question:
+      "What did David ask God to keep forever in the hearts of the people?",
+    options: [
+      "Their wholehearted desire and thoughts toward God",
+      "Their desire to build the temple",
+      "Their loyalty to Solomon",
+      "Their willingness to give wealth",
+    ],
+    answer: "Their wholehearted desire and thoughts toward God",
+    reference: "1 Chronicles 29:18",
+  },
+  {
+    question:
+      "What did David specifically ask God to give Solomon?",
+    options: [
+      "Wholehearted devotion to keep God's commands and build the temple",
+      "Wisdom and knowledge above all kings",
+      "Victory over every enemy",
+      "Long life and great riches",
+    ],
+    answer:
+      "Wholehearted devotion to keep God's commands and build the temple",
     reference: "1 Chronicles 29:19",
   },
   {
-    question: "How did the assembly respond when David told them to praise the Lord?",
+    question:
+      "How many bulls, rams, and male lambs were offered as burnt offerings during the great celebration?",
     options: [
-      "They praised the Lord and bowed down",
-      "They remained silent",
-      "They sang only",
-      "They left the assembly",
+      "One thousand of each",
+      "Seven hundred of each",
+      "Three thousand of each",
+      "One hundred of each",
     ],
-    answer: "They praised the Lord and bowed down",
-    reference: "1 Chronicles 29:20",
+    answer: "One thousand of each",
+    reference: "1 Chronicles 29:21",
   },
   {
-    question: "Who was acknowledged as king for the second time?",
-    options: ["Solomon", "David", "Adonijah", "Joab"],
-    answer: "Solomon",
+    question:
+      "For which numbered time was Solomon publicly acknowledged as king during the celebration?",
+    options: ["The second time", "The first time", "The third time", "The seventh time"],
+    answer: "The second time",
     reference: "1 Chronicles 29:22",
   },
   {
-    question: "Who was anointed as priest when Solomon was acknowledged as king?",
-    options: ["Zadok", "Abiathar", "Nathan", "Benaiah"],
+    question:
+      "Who was anointed as priest when Solomon was acknowledged as king?",
+    options: ["Zadok", "Abiathar", "Jehoiada", "Nathan"],
     answer: "Zadok",
     reference: "1 Chronicles 29:22",
   },
   {
-    question: "How long did David reign over Israel?",
-    options: ["Forty years", "Thirty-three years", "Seven years", "Fifty years"],
+    question:
+      "On whose throne is Solomon described as sitting?",
+    options: [
+      "The throne of the LORD as king",
+      "David's throne in Jerusalem",
+      "The throne of Israel",
+      "The throne of Judah",
+    ],
+    answer: "The throne of the LORD as king",
+    reference: "1 Chronicles 29:23",
+  },
+  {
+    question:
+      "What did all the officers, warriors, and sons of David do regarding Solomon?",
+    options: [
+      "They pledged their submission to King Solomon",
+      "They brought him gold",
+      "They anointed him",
+      "They swore to defend the temple",
+    ],
+    answer: "They pledged their submission to King Solomon",
+    reference: "1 Chronicles 29:24",
+  },
+  {
+    question:
+      "How does Chronicles describe Solomon's royal majesty at the beginning of his reign?",
+    options: [
+      "The LORD highly exalted him in the sight of all Israel and gave him royal splendor no previous king had possessed",
+      "He became wealthier than every king on earth",
+      "His wisdom immediately surpassed David's",
+      "Every surrounding nation submitted to him",
+    ],
+    answer:
+      "The LORD highly exalted him in the sight of all Israel and gave him royal splendor no previous king had possessed",
+    reference: "1 Chronicles 29:25",
+  },
+  {
+    question:
+      "How many total years did David reign over Israel?",
+    options: ["Forty years", "Thirty-three years", "Forty-seven years", "Seven years"],
     answer: "Forty years",
     reference: "1 Chronicles 29:27",
   },
   {
-    question: "How many years did David reign in Hebron according to the closing account?",
-    options: ["Seven years", "Seven years and six months", "Six years", "Eight years"],
-    answer: "Seven years",
-    reference: "1 Chronicles 29:27",
-  },
-  {
-    question: "How many years did David reign in Jerusalem according to the closing account?",
-    options: ["Thirty-three years", "Forty years", "Thirty years", "Thirty-two years"],
-    answer: "Thirty-three years",
-    reference: "1 Chronicles 29:27",
-  },
-  {
-    question: "How is David's death described?",
+    question:
+      "How is David's death summarized?",
     options: [
       "He died at a good old age, having enjoyed long life, wealth, and honor",
-      "He died suddenly in battle",
-      "He died while building the temple",
-      "He died in exile",
+      "He died after a long illness",
+      "He died immediately after Solomon's coronation",
+      "He died after completing the temple preparations",
     ],
-    answer: "He died at a good old age, having enjoyed long life, wealth, and honor",
+    answer:
+      "He died at a good old age, having enjoyed long life, wealth, and honor",
     reference: "1 Chronicles 29:28",
   },
   {
-    question: "Who succeeded David as king?",
-    options: ["Solomon", "Adonijah", "Absalom", "Rehoboam"],
-    answer: "Solomon",
-    reference: "1 Chronicles 29:28",
-  },
-  {
-    question: "Whose records are named as sources for the events of David's reign?",
+    question:
+      "Which three prophetic records are named as sources for the events of David's reign?",
     options: [
-      "Samuel the seer, Nathan the prophet, and Gad the seer",
-      "Nathan, Isaiah, and Jeremiah",
-      "Samuel, Elijah, and Elisha",
-      "Gad, Asaph, and Heman",
+      "The records of Samuel the seer, Nathan the prophet, and Gad the seer",
+      "The records of Samuel, Elijah, and Nathan",
+      "The records of Gad, Asaph, and Nathan",
+      "The records of Samuel, Zadok, and Gad",
     ],
-    answer: "Samuel the seer, Nathan the prophet, and Gad the seer",
+    answer:
+      "The records of Samuel the seer, Nathan the prophet, and Gad the seer",
     reference: "1 Chronicles 29:29",
   },
 ];

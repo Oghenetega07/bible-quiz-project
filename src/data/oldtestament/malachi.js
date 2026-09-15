@@ -1,1255 +1,1507 @@
 const malachiQuestions = [
   {
-    question: "Through whom did the Lord deliver His message to Israel?",
-    options: ["Malachi", "Haggai", "Zechariah", "Ezra"],
+    question:
+      "Through whom is the word of the LORD to Israel introduced at the beginning of the book?",
+    options: ["Malachi", "Zechariah", "Haggai", "Ezra"],
     answer: "Malachi",
     reference: "Malachi 1:1",
   },
   {
-    question: "What did the Lord declare concerning His relationship with Israel?",
+    question:
+      "What declaration from the LORD immediately produces Israel's first recorded question?",
     options: [
       "I have loved you",
-      "I have abandoned you",
-      "I have forgotten you",
-      "I have rejected you forever",
+      "Return to me",
+      "You have robbed me",
+      "My name will be great",
     ],
     answer: "I have loved you",
     reference: "Malachi 1:2",
   },
   {
-    question: "How did the people question God's declaration of love?",
+    question:
+      "How do the people respond when the LORD declares His love for them?",
     options: [
       "How have you loved us?",
-      "Why did you create us?",
-      "When will you restore us?",
-      "Why have you punished Edom?",
+      "Why have you rejected us?",
+      "When did you choose us?",
+      "Where is your covenant?",
     ],
     answer: "How have you loved us?",
     reference: "Malachi 1:2",
   },
   {
-    question: "Which two brothers does God use to demonstrate His choice?",
+    question:
+      "Which pair of brothers is used to demonstrate the LORD's special love for Israel?",
     options: [
       "Jacob and Esau",
-      "Cain and Abel",
       "Isaac and Ishmael",
       "Joseph and Benjamin",
+      "Cain and Abel",
     ],
     answer: "Jacob and Esau",
     reference: "Malachi 1:2-3",
   },
   {
-    question: "What did the Lord say concerning Jacob?",
+    question:
+      "What relationship between Jacob and Esau is emphasized before God's treatment of them is contrasted?",
     options: [
-      "He loved Jacob",
-      "He rejected Jacob",
-      "He destroyed Jacob",
-      "He forgot Jacob",
+      "Esau was Jacob's brother",
+      "Jacob was older than Esau",
+      "They had different fathers",
+      "Esau ruled over Jacob",
     ],
-    answer: "He loved Jacob",
+    answer: "Esau was Jacob's brother",
     reference: "Malachi 1:2",
   },
   {
-    question: "Whose mountains did God turn into a wasteland?",
-    options: ["Esau's", "Jacob's", "Levi's", "Judah's"],
-    answer: "Esau's",
+    question:
+      "What did the LORD say He had done to Esau's hill country?",
+    options: [
+      "Turned it into a wasteland",
+      "Given it to Israel",
+      "Covered it with fire",
+      "Made it fruitful",
+    ],
+    answer: "Turned it into a wasteland",
     reference: "Malachi 1:3",
   },
   {
-    question: "To whom was Esau's inheritance given over?",
+    question:
+      "To what creatures was Esau's inheritance given?",
     options: [
-      "The jackals of the wilderness",
-      "The priests of Israel",
-      "The kings of Persia",
-      "The people of Judah",
+      "Desert jackals",
+      "Wild lions",
+      "Birds of prey",
+      "Wild goats",
     ],
-    answer: "The jackals of the wilderness",
+    answer: "Desert jackals",
     reference: "Malachi 1:3",
   },
   {
-    question: "What nation said it would rebuild after being crushed?",
-    options: ["Edom", "Moab", "Egypt", "Assyria"],
-    answer: "Edom",
-    reference: "Malachi 1:4",
-  },
-  {
-    question: "What did the Lord say He would do if Edom rebuilt its ruins?",
+    question:
+      "What does Edom say it will do after being crushed?",
     options: [
-      "Demolish them again",
-      "Allow them to prosper",
-      "Give them to Judah",
-      "Turn them into temples",
+      "Rebuild the ruins",
+      "Return to Jerusalem",
+      "Seek help from Israel",
+      "Build stronger walls",
     ],
-    answer: "Demolish them again",
+    answer: "Rebuild the ruins",
     reference: "Malachi 1:4",
   },
   {
-    question: "What would Edom be called because of God's judgment?",
+    question:
+      "How does the LORD respond to Edom's intention to rebuild?",
+    options: [
+      "They may build, but I will demolish",
+      "They will rebuild and become Israel's servants",
+      "They will never begin rebuilding",
+      "Their rebuilding will be delayed",
+    ],
+    answer: "They may build, but I will demolish",
+    reference: "Malachi 1:4",
+  },
+  {
+    question:
+      "What designation will be associated with Edom after the LORD's judgment?",
     options: [
       "The Wicked Land",
-      "The Holy Land",
-      "The Promised Land",
-      "The Faithful Nation",
+      "The Forsaken Nation",
+      "The Land of Exile",
+      "The Rebellious Kingdom",
     ],
     answer: "The Wicked Land",
     reference: "Malachi 1:4",
   },
   {
-    question: "What would Israel acknowledge after seeing God's judgment?",
+    question:
+      "What will Israel say after seeing the LORD's dealings with Edom?",
     options: [
-      "The Lord is great beyond Israel's borders",
-      "Edom is stronger than Judah",
-      "Israel should leave the land",
-      "The temple should be abandoned",
+      "Great is the LORD—even beyond the borders of Israel",
+      "The LORD has restored Jacob",
+      "The LORD has destroyed all our enemies",
+      "The LORD alone rules Jerusalem",
     ],
-    answer: "The Lord is great beyond Israel's borders",
+    answer: "Great is the LORD—even beyond the borders of Israel",
     reference: "Malachi 1:5",
   },
-
   {
-    question: "What relationship does God use to expose the priests' failure to honor Him?",
+    question:
+      "What two relationships does the LORD use when challenging the priests about the honor due Him?",
     options: [
-      "A son honors his father and a servant his master",
-      "A soldier obeys his commander",
-      "A student follows his teacher",
-      "A farmer serves a landowner",
+      "Father and master",
+      "King and judge",
+      "Creator and shepherd",
+      "Husband and king",
     ],
-    answer: "A son honors his father and a servant his master",
+    answer: "Father and master",
     reference: "Malachi 1:6",
   },
   {
-    question: "What did God accuse the priests of doing to His name?",
-    options: [
-      "Showing contempt for it",
-      "Proclaiming it too loudly",
-      "Hiding it from foreigners",
-      "Writing it incorrectly",
-    ],
-    answer: "Showing contempt for it",
+    question:
+      "If the LORD is a father, what does He ask should be given to Him?",
+    options: ["Honor", "Sacrifice", "Obedience", "Praise"],
+    answer: "Honor",
     reference: "Malachi 1:6",
   },
   {
-    question: "What did the priests place on God's altar?",
+    question:
+      "If the LORD is a master, what does He ask should be shown to Him?",
+    options: ["Respect", "Love", "Fear of enemies", "Tribute"],
+    answer: "Respect",
+    reference: "Malachi 1:6",
+  },
+  {
+    question:
+      "Whom does the LORD directly accuse of showing contempt for His name?",
+    options: [
+      "The priests",
+      "The governors",
+      "The prophets",
+      "The merchants",
+    ],
+    answer: "The priests",
+    reference: "Malachi 1:6",
+  },
+  {
+    question:
+      "What question do the priests ask after being accused of despising God's name?",
+    options: [
+      "How have we shown contempt for your name?",
+      "When did we disobey your law?",
+      "Why are our sacrifices rejected?",
+      "How have we robbed you?",
+    ],
+    answer: "How have we shown contempt for your name?",
+    reference: "Malachi 1:6",
+  },
+  {
+    question:
+      "What had the priests offered on God's altar?",
     options: [
       "Defiled food",
-      "Only incense",
-      "Foreign money",
-      "Royal clothing",
+      "Unauthorized incense",
+      "Foreign grain",
+      "Unclean oil",
     ],
     answer: "Defiled food",
     reference: "Malachi 1:7",
   },
   {
-    question: "How had the priests treated the Lord's table?",
+    question:
+      "What attitude toward the LORD's table amounted to defiling it?",
     options: [
-      "As contemptible",
-      "As too holy to approach",
-      "As belonging to the king",
-      "As unnecessary",
+      "Treating it as contemptible",
+      "Refusing to eat from it",
+      "Removing it from the temple",
+      "Covering it during sacrifices",
     ],
-    answer: "As contemptible",
+    answer: "Treating it as contemptible",
     reference: "Malachi 1:7",
   },
   {
-    question: "What kind of animal did the priests offer even though it was unacceptable?",
+    question:
+      "Which three kinds of unacceptable sacrificial animals are specifically criticized?",
     options: [
-      "A blind animal",
-      "A firstborn animal",
-      "A healthy lamb",
-      "A spotless goat",
+      "Blind, lame, and diseased animals",
+      "Old, weak, and stolen animals",
+      "Blind, young, and injured animals",
+      "Lame, unclean, and wild animals",
     ],
-    answer: "A blind animal",
+    answer: "Blind, lame, and diseased animals",
     reference: "Malachi 1:8",
   },
   {
-    question: "Which other defective animals were being offered?",
+    question:
+      "To whom does the LORD sarcastically suggest presenting the defective offerings?",
     options: [
-      "Lame or diseased animals",
-      "Young and healthy animals",
-      "Wild animals",
-      "Only birds",
-    ],
-    answer: "Lame or diseased animals",
-    reference: "Malachi 1:8",
-  },
-  {
-    question: "To whom does God sarcastically suggest presenting such defective gifts?",
-    options: [
-      "The governor",
+      "Your governor",
+      "Your king",
       "The high priest",
-      "The prophet",
-      "The farmer",
+      "Your enemy",
     ],
-    answer: "The governor",
+    answer: "Your governor",
     reference: "Malachi 1:8",
   },
   {
-    question: "What question exposes the hypocrisy of giving God what a governor would reject?",
+    question:
+      "What two questions expose how unacceptable the defective gifts would be even to a human ruler?",
     options: [
-      "Would he be pleased with you?",
-      "Would he make you a priest?",
-      "Would he rebuild the altar?",
-      "Would he leave Jerusalem?",
+      "Would he be pleased with you, and would he accept you?",
+      "Would he eat it, and would he reward you?",
+      "Would he forgive you, and would he honor you?",
+      "Would he inspect it, and would he return it?",
     ],
-    answer: "Would he be pleased with you?",
+    answer: "Would he be pleased with you, and would he accept you?",
     reference: "Malachi 1:8",
   },
   {
-    question: "What did God wish someone would do rather than allow useless sacrifices to continue?",
+    question:
+      "After criticizing the defective sacrifices, what are the priests ironically urged to seek from God?",
+    options: [
+      "His favor",
+      "A new covenant",
+      "More livestock",
+      "Protection from Edom",
+    ],
+    answer: "His favor",
+    reference: "Malachi 1:9",
+  },
+  {
+    question:
+      "What does the LORD wish someone would do rather than permit useless fires on His altar?",
     options: [
       "Shut the temple doors",
       "Destroy the altar",
       "Remove the priests",
-      "Leave Jerusalem",
+      "End every sacrifice",
     ],
     answer: "Shut the temple doors",
     reference: "Malachi 1:10",
   },
   {
-    question: "Why did God want the temple doors shut?",
+    question:
+      "Why does the LORD say He takes no pleasure in the priests?",
     options: [
-      "So they would not light useless fires on His altar",
-      "Because the temple was too small",
-      "Because foreigners were entering",
-      "Because there were no sacrifices",
+      "He will accept no offering from their hands",
+      "They have abandoned Jerusalem",
+      "They refuse to teach the law",
+      "They have stopped offering incense",
     ],
-    answer: "So they would not light useless fires on His altar",
+    answer: "He will accept no offering from their hands",
     reference: "Malachi 1:10",
   },
   {
-    question: "How did God describe His attitude toward the priests' offerings?",
+    question:
+      "From where to where does the LORD say His name will be great among the nations?",
     options: [
-      "He would not accept them",
-      "He accepted every offering",
-      "He preferred them to obedience",
-      "He ignored their condition",
-    ],
-    answer: "He would not accept them",
-    reference: "Malachi 1:10",
-  },
-  {
-    question: "From where to where would God's name be great among the nations?",
-    options: [
-      "From the rising to the setting of the sun",
+      "From where the sun rises to where it sets",
       "From Egypt to Assyria",
       "From Jerusalem to Babylon",
       "From north to south",
     ],
-    answer: "From the rising to the setting of the sun",
+    answer: "From where the sun rises to where it sets",
     reference: "Malachi 1:11",
   },
   {
-    question: "Among whom would God's name be great?",
+    question:
+      "What two acts of worship are associated with God's name among the nations?",
     options: [
-      "The nations",
-      "The priests only",
-      "Judah only",
-      "The Levites only",
+      "Incense and pure offerings",
+      "Fasting and prayer",
+      "Songs and sacrifices",
+      "Tithes and burnt offerings",
     ],
-    answer: "The nations",
+    answer: "Incense and pure offerings",
     reference: "Malachi 1:11",
   },
   {
-    question: "What attitude did the priests express toward their religious service?",
+    question:
+      "How were the priests profaning the LORD's name in their attitude toward His table?",
     options: [
-      "They regarded it as a burden",
-      "They considered it a privilege",
-      "They wanted more duties",
-      "They feared approaching the altar",
+      "They regarded the table and its food as contemptible",
+      "They refused to approach the table",
+      "They allowed foreigners to use the table",
+      "They removed its sacred vessels",
     ],
-    answer: "They regarded it as a burden",
+    answer: "They regarded the table and its food as contemptible",
+    reference: "Malachi 1:12",
+  },
+  {
+    question:
+      "What complaint did the priests make about their service?",
+    options: [
+      "What a burden!",
+      "Why must we serve?",
+      "The work is impossible!",
+      "The altar is defiled!",
+    ],
+    answer: "What a burden!",
     reference: "Malachi 1:13",
   },
   {
-    question: "What kinds of animals were still being brought as offerings?",
+    question:
+      "What attitude accompanied the priests' complaint that their service was a burden?",
     options: [
-      "Injured, lame, and diseased animals",
-      "Only perfect animals",
-      "Only firstborn animals",
-      "Only wild animals",
+      "They sniffed contemptuously at it",
+      "They abandoned the altar",
+      "They wept publicly",
+      "They blamed the people",
     ],
-    answer: "Injured, lame, and diseased animals",
+    answer: "They sniffed contemptuously at it",
     reference: "Malachi 1:13",
   },
   {
-    question: "Who is described as a cheat?",
+    question:
+      "Besides injured, lame, and diseased animals, what other kind of animal is mentioned among the unacceptable offerings?",
     options: [
-      "A person who vows an acceptable male but sacrifices a defective animal",
-      "Anyone who owns sheep",
-      "A priest who teaches the law",
-      "A governor who collects taxes",
+      "Stolen animals",
+      "Wild animals",
+      "Unweaned animals",
+      "Foreign animals",
     ],
-    answer: "A person who vows an acceptable male but sacrifices a defective animal",
+    answer: "Stolen animals",
+    reference: "Malachi 1:13",
+  },
+  {
+    question:
+      "Who is specifically placed under a curse at the end of the first chapter?",
+    options: [
+      "A cheat who vows an acceptable male but sacrifices a defective animal",
+      "A priest who refuses to sacrifice",
+      "A farmer who withholds grain",
+      "A merchant who swears falsely",
+    ],
+    answer:
+      "A cheat who vows an acceptable male but sacrifices a defective animal",
     reference: "Malachi 1:14",
   },
   {
-    question: "Why is offering God a defective sacrifice especially serious?",
+    question:
+      "What two reasons does the LORD give for demanding proper honor in the closing declaration about defective sacrifices?",
     options: [
-      "He is a great King whose name is to be feared among the nations",
-      "The governor needs the animals",
-      "The priests need more food",
-      "The animals are valuable for trade",
+      "He is a great King, and His name is to be feared among the nations",
+      "He created Israel, and He owns the temple",
+      "He defeated Edom, and He restored Jerusalem",
+      "He is Israel's Father, and He appointed the priests",
     ],
-    answer: "He is a great King whose name is to be feared among the nations",
+    answer:
+      "He is a great King, and His name is to be feared among the nations",
     reference: "Malachi 1:14",
   },
 
   {
-    question: "To whom is the warning at the beginning of the next section directed?",
+    question:
+      "To whom is the command at the beginning of the second chapter specifically addressed?",
     options: [
       "The priests",
-      "The farmers",
-      "The foreign nations",
-      "The soldiers",
+      "The people of Judah",
+      "The governors",
+      "The descendants of Jacob",
     ],
     answer: "The priests",
     reference: "Malachi 2:1",
   },
   {
-    question: "What would happen if the priests refused to honor God's name?",
+    question:
+      "What two failures would cause the LORD to send a curse on the priests?",
     options: [
-      "God would send a curse on them",
-      "God would make them kings",
-      "God would increase their wealth",
-      "God would send them to Egypt",
+      "Failing to listen and failing to resolve to honor His name",
+      "Failing to fast and failing to sacrifice",
+      "Failing to teach and failing to tithe",
+      "Failing to pray and failing to serve",
     ],
-    answer: "God would send a curse on them",
+    answer: "Failing to listen and failing to resolve to honor His name",
     reference: "Malachi 2:2",
   },
   {
-    question: "What would God do to their blessings?",
+    question:
+      "What does the LORD say He will curse because of the priests' disobedience?",
     options: [
-      "Curse them",
-      "Double them",
-      "Give them to foreigners",
-      "Store them in the temple",
+      "Their blessings",
+      "Their sacrifices",
+      "Their descendants",
+      "Their harvests",
     ],
-    answer: "Curse them",
+    answer: "Their blessings",
     reference: "Malachi 2:2",
   },
   {
-    question: "Why had God already cursed their blessings?",
+    question:
+      "What surprising statement does the LORD make about the priests' blessings?",
     options: [
-      "They had not set their hearts to honor Him",
-      "They lacked sacrifices",
-      "They were poor",
-      "They lived outside Jerusalem",
+      "He had already cursed them",
+      "He would transfer them to Judah",
+      "They would become judgments on Edom",
+      "They would cease after one generation",
     ],
-    answer: "They had not set their hearts to honor Him",
+    answer: "He had already cursed them",
     reference: "Malachi 2:2",
   },
   {
-    question: "What humiliating image does God use in His judgment of the priests?",
+    question:
+      "What does the LORD threaten concerning the priests' descendants?",
     options: [
-      "He would smear refuse from their festival sacrifices on their faces",
-      "He would cover them with ashes",
-      "He would remove their sandals",
-      "He would shave their heads",
+      "He will rebuke them",
+      "He will make them kings",
+      "He will scatter them to Egypt",
+      "He will remove their names",
     ],
-    answer: "He would smear refuse from their festival sacrifices on their faces",
+    answer: "He will rebuke them",
     reference: "Malachi 2:3",
   },
   {
-    question: "With whom had God established a covenant connected to the priesthood?",
+    question:
+      "What offensive material from the priests' festival sacrifices does God say He will smear on their faces?",
+    options: [
+      "Dung",
+      "Blood",
+      "Ashes",
+      "Mud",
+    ],
+    answer: "Dung",
+    reference: "Malachi 2:3",
+  },
+  {
+    question:
+      "What would happen to the priests together with the refuse smeared on them?",
+    options: [
+      "They would be carried off with it",
+      "They would be purified by fire",
+      "They would leave Jerusalem voluntarily",
+      "They would be barred from the altar for seven days",
+    ],
+    answer: "They would be carried off with it",
+    reference: "Malachi 2:3",
+  },
+  {
+    question:
+      "With whom does the LORD say His covenant was intended to continue?",
     options: [
       "Levi",
+      "Aaron",
       "Judah",
-      "Benjamin",
-      "Joseph",
+      "David",
     ],
     answer: "Levi",
     reference: "Malachi 2:4",
   },
   {
-    question: "What two things characterized God's covenant with Levi?",
+    question:
+      "What two things did God's covenant with Levi contain?",
     options: [
       "Life and peace",
-      "Gold and land",
-      "War and victory",
-      "Wisdom and wealth",
+      "Law and sacrifice",
+      "Mercy and truth",
+      "Priesthood and kingship",
     ],
     answer: "Life and peace",
     reference: "Malachi 2:5",
   },
   {
-    question: "How did Levi respond to the Lord?",
+    question:
+      "For what purpose does the LORD say He gave Levi life and peace?",
+    options: [
+      "To call for reverence",
+      "To guarantee wealth",
+      "To establish political authority",
+      "To preserve Jerusalem",
+    ],
+    answer: "To call for reverence",
+    reference: "Malachi 2:5",
+  },
+  {
+    question:
+      "How did Levi respond to the covenant according to the LORD?",
     options: [
       "He revered God and stood in awe of His name",
-      "He despised God's name",
-      "He rejected the covenant",
-      "He refused to teach",
+      "He offered sacrifices every day",
+      "He rebuilt the sanctuary",
+      "He taught only the priests",
     ],
     answer: "He revered God and stood in awe of His name",
     reference: "Malachi 2:5",
   },
   {
-    question: "What was found in Levi's mouth?",
+    question:
+      "What was found in Levi's mouth?",
     options: [
       "True instruction",
-      "False prophecy",
-      "Flattery",
-      "Complaints",
+      "Songs of praise",
+      "Words of prophecy",
+      "The names of the tribes",
     ],
     answer: "True instruction",
     reference: "Malachi 2:6",
   },
   {
-    question: "What was not found on Levi's lips?",
+    question:
+      "What was not found on Levi's lips?",
     options: [
       "Falsehood",
-      "Prayer",
-      "Praise",
-      "Wisdom",
+      "Complaint",
+      "Anger",
+      "Judgment",
     ],
     answer: "Falsehood",
     reference: "Malachi 2:6",
   },
   {
-    question: "How did Levi walk with God?",
+    question:
+      "How did Levi walk with God?",
     options: [
       "In peace and uprightness",
-      "In fear and confusion",
-      "In wealth and power",
-      "In silence and isolation",
+      "In fear and trembling",
+      "In wisdom and strength",
+      "In humility and patience",
     ],
     answer: "In peace and uprightness",
     reference: "Malachi 2:6",
   },
   {
-    question: "What effect did faithful priestly service have on many people?",
+    question:
+      "What effect did Levi's faithful service have on many people?",
     options: [
-      "It turned many from sin",
-      "It made them wealthy",
-      "It sent them into exile",
-      "It made them priests",
+      "He turned many from sin",
+      "He brought many sacrifices",
+      "He gathered many to Jerusalem",
+      "He made many priests",
     ],
-    answer: "It turned many from sin",
+    answer: "He turned many from sin",
     reference: "Malachi 2:6",
   },
   {
-    question: "Why should a priest's lips preserve knowledge?",
+    question:
+      "Why should a priest's lips preserve knowledge?",
     options: [
-      "Because people should seek instruction from him",
-      "Because priests write royal laws",
-      "Because priests govern Persia",
-      "Because only priests can read",
+      "Because people should seek instruction from his mouth",
+      "Because priests alone can read the law",
+      "Because he must judge the king",
+      "Because prophets no longer speak",
     ],
-    answer: "Because people should seek instruction from him",
+    answer: "Because people should seek instruction from his mouth",
     reference: "Malachi 2:7",
   },
   {
-    question: "How is a faithful priest described in relation to God?",
+    question:
+      "What title is used for the priest when explaining why people should seek instruction from him?",
     options: [
-      "A messenger of the Lord Almighty",
-      "A king of Israel",
-      "A commander of angels",
-      "A ruler of nations",
+      "Messenger of the LORD Almighty",
+      "Servant of the covenant",
+      "Teacher of Israel",
+      "Guardian of the sanctuary",
     ],
-    answer: "A messenger of the Lord Almighty",
+    answer: "Messenger of the LORD Almighty",
     reference: "Malachi 2:7",
   },
   {
-    question: "What had the corrupt priests done instead of remaining faithful?",
+    question:
+      "What had the priests done instead of following Levi's faithful example?",
     options: [
       "Turned from the way",
-      "Built more temples",
-      "Left Judah",
-      "Stopped teaching entirely",
+      "Abandoned Jerusalem",
+      "Stopped offering sacrifices",
+      "Joined foreign armies",
     ],
     answer: "Turned from the way",
     reference: "Malachi 2:8",
   },
   {
-    question: "What had their teaching caused many people to do?",
+    question:
+      "What had the priests caused many people to do through their teaching?",
     options: [
       "Stumble",
-      "Prosper",
-      "Become priests",
-      "Return from exile",
+      "Leave Jerusalem",
+      "Stop sacrificing",
+      "Reject the temple",
     ],
     answer: "Stumble",
     reference: "Malachi 2:8",
   },
   {
-    question: "What had the priests violated?",
+    question:
+      "What covenant had the priests violated?",
     options: [
       "The covenant with Levi",
-      "The covenant with Noah",
       "The covenant with David",
-      "The Persian decree",
+      "The covenant with Abraham",
+      "The covenant at Sinai",
     ],
     answer: "The covenant with Levi",
     reference: "Malachi 2:8",
   },
   {
-    question: "What improper practice did the priests show when teaching the law?",
+    question:
+      "What consequence did the LORD impose on the priests because they failed to follow His ways?",
     options: [
-      "Partiality",
-      "Silence",
-      "Compassion",
-      "Patience",
+      "He caused them to be despised and humiliated before all the people",
+      "He immediately removed them from office",
+      "He sent them into exile",
+      "He destroyed their homes",
     ],
-    answer: "Partiality",
+    answer:
+      "He caused them to be despised and humiliated before all the people",
     reference: "Malachi 2:9",
   },
   {
-    question: "What consequence did God bring upon the unfaithful priests?",
+    question:
+      "What specific fault in the priests' application of the law accompanies their failure to keep God's ways?",
     options: [
-      "He made them despised and humiliated before the people",
-      "He made them wealthy",
-      "He made them kings",
-      "He sent them to Persia",
+      "They showed partiality in matters of the law",
+      "They refused to read the law",
+      "They added foreign laws",
+      "They taught only the wealthy",
     ],
-    answer: "He made them despised and humiliated before the people",
+    answer: "They showed partiality in matters of the law",
     reference: "Malachi 2:9",
   },
-
   {
-    question: "What shared relationship does Malachi use to challenge Israel's unfaithfulness to one another?",
+    question:
+      "What two questions introduce Malachi's rebuke of Judah's unfaithfulness toward one another?",
     options: [
-      "They have one Father and were created by one God",
-      "They have one earthly king",
-      "They belong to one profession",
-      "They all came from Babylon",
+      "Do we not all have one Father, and did not one God create us?",
+      "Are we not all Jacob's children, and did not Abraham father us?",
+      "Do we not have one temple, and did not God choose Jerusalem?",
+      "Are we not one nation, and did not Moses give us the law?",
     ],
-    answer: "They have one Father and were created by one God",
+    answer:
+      "Do we not all have one Father, and did not one God create us?",
     reference: "Malachi 2:10",
   },
   {
-    question: "What had Judah done to the covenant of the ancestors?",
+    question:
+      "What does unfaithfulness toward one another profane?",
     options: [
-      "Profaned it by being unfaithful to one another",
-      "Renewed it perfectly",
-      "Forgotten its existence",
-      "Given it to foreigners",
+      "The covenant of the ancestors",
+      "The temple altar",
+      "The priesthood of Levi",
+      "The throne of David",
     ],
-    answer: "Profaned it by being unfaithful to one another",
+    answer: "The covenant of the ancestors",
     reference: "Malachi 2:10",
   },
   {
-    question: "What detestable act had Judah committed regarding marriage?",
+    question:
+      "What detestable act is Judah accused of committing in relation to marriage?",
     options: [
-      "Men married women who worshiped foreign gods",
-      "Men refused all marriage",
-      "Priests married only Levites",
-      "Women refused to marry",
+      "Marrying women who worship foreign gods",
+      "Refusing to marry within Judah",
+      "Taking multiple wives",
+      "Preventing priests from marrying",
     ],
-    answer: "Men married women who worshiped foreign gods",
+    answer: "Marrying women who worship foreign gods",
     reference: "Malachi 2:11",
   },
   {
-    question: "What had been profaned by Judah's unfaithfulness?",
+    question:
+      "What had Judah profaned through this unfaithfulness?",
     options: [
-      "The sanctuary loved by the Lord",
-      "The Persian palace",
-      "The city wall",
-      "The governor's house",
+      "The sanctuary the LORD loves",
+      "The city of Jerusalem",
+      "The covenant with David",
+      "The land of Israel",
     ],
-    answer: "The sanctuary loved by the Lord",
+    answer: "The sanctuary the LORD loves",
     reference: "Malachi 2:11",
   },
   {
-    question: "What were the people doing at the Lord's altar while wondering why He rejected their offerings?",
+    question:
+      "What judgment is requested for the man who commits the condemned marital unfaithfulness while still bringing offerings?",
     options: [
-      "Flooding it with tears",
-      "Breaking the altar",
-      "Removing sacrifices",
-      "Dancing around it",
+      "May the LORD remove him from Jacob's community",
+      "May he lose all his property",
+      "May he be sent to Babylon",
+      "May he never enter Jerusalem",
     ],
-    answer: "Flooding it with tears",
+    answer: "May the LORD remove him from Jacob's community",
+    reference: "Malachi 2:12",
+  },
+  {
+    question:
+      "What emotional actions covered the LORD's altar because He no longer accepted the people's offerings?",
+    options: [
+      "Weeping and wailing",
+      "Fasting and mourning",
+      "Shouting and pleading",
+      "Sackcloth and ashes",
+    ],
+    answer: "Weeping and wailing",
     reference: "Malachi 2:13",
   },
   {
-    question: "Why did the Lord no longer look with favor on some men's offerings?",
+    question:
+      "Why did the LORD no longer look with favor on their offerings?",
     options: [
-      "They had been unfaithful to their wives",
-      "They had offered too much",
-      "They had stopped farming",
-      "They had moved outside Jerusalem",
+      "Because He was a witness between a man and the wife of his youth, to whom he had been unfaithful",
+      "Because the temple had not been completed",
+      "Because the sacrifices were offered outside Jerusalem",
+      "Because no priest was present",
     ],
-    answer: "They had been unfaithful to their wives",
+    answer:
+      "Because He was a witness between a man and the wife of his youth, to whom he had been unfaithful",
     reference: "Malachi 2:13-14",
   },
   {
-    question: "What role had the Lord played in their marriages?",
+    question:
+      "What two descriptions emphasize the covenant relationship of the wife who had been treated unfaithfully?",
     options: [
-      "He was a witness between husband and wife",
-      "He had no involvement",
-      "He appointed the governor to witness",
-      "He required no covenant",
+      "Partner and wife of the marriage covenant",
+      "Companion and mother of children",
+      "Beloved and daughter of Israel",
+      "Helper and wife of the household",
     ],
-    answer: "He was a witness between husband and wife",
+    answer: "Partner and wife of the marriage covenant",
     reference: "Malachi 2:14",
   },
   {
-    question: "How is the wife described in the marriage rebuke?",
-    options: [
-      "Your partner and the wife of your marriage covenant",
-      "Your servant",
-      "Your property",
-      "Your neighbor",
-    ],
-    answer: "Your partner and the wife of your marriage covenant",
-    reference: "Malachi 2:14",
-  },
-  {
-    question: "What did God seek from the marriage union?",
+    question:
+      "What does the passage say God was seeking in the marital union?",
     options: [
       "Godly offspring",
-      "Political alliances",
-      "Greater wealth",
-      "More priests",
+      "A priestly generation",
+      "Numerous descendants",
+      "A royal family",
     ],
     answer: "Godly offspring",
     reference: "Malachi 2:15",
   },
   {
-    question: "What warning is repeated concerning marriage faithfulness?",
+    question:
+      "What repeated warning accompanies the discussion of marital faithfulness?",
     options: [
-      "Guard yourselves and do not be unfaithful",
-      "Avoid having children",
-      "Leave your homeland",
-      "Do not marry within Judah",
+      "Be on your guard and do not be unfaithful",
+      "Remember the covenant and do not divorce",
+      "Fear the LORD and honor your wife",
+      "Keep the law and protect your household",
     ],
-    answer: "Guard yourselves and do not be unfaithful",
+    answer: "Be on your guard and do not be unfaithful",
     reference: "Malachi 2:15-16",
   },
   {
-    question: "What had the people done to the Lord with their words?",
+    question:
+      "What had the people done to the LORD with their words?",
     options: [
       "Wearied Him",
-      "Comforted Him",
-      "Surprised Him",
-      "Hidden from Him",
+      "Angered Him",
+      "Mocked Him",
+      "Forgotten Him",
     ],
     answer: "Wearied Him",
     reference: "Malachi 2:17",
   },
   {
-    question: "What distorted claim about evil had wearied the Lord?",
+    question:
+      "What question do the people ask after being told that they have wearied the LORD?",
     options: [
-      "Everyone who does evil is good in the Lord's sight",
-      "No one commits evil",
-      "Only foreigners do evil",
-      "Evil has already disappeared",
+      "How have we wearied him?",
+      "How have we robbed you?",
+      "How are we to return?",
+      "What have we said against you?",
     ],
-    answer: "Everyone who does evil is good in the Lord's sight",
+    answer: "How have we wearied him?",
     reference: "Malachi 2:17",
   },
   {
-    question: "What question did the people ask that challenged God's justice?",
+    question:
+      "What claim about evildoers had wearied the LORD?",
+    options: [
+      "All who do evil are good in the LORD's eyes, and He is pleased with them",
+      "Evildoers will never be judged",
+      "The wicked are stronger than the righteous",
+      "God has forgotten the sins of the nations",
+    ],
+    answer:
+      "All who do evil are good in the LORD's eyes, and He is pleased with them",
+    reference: "Malachi 2:17",
+  },
+  {
+    question:
+      "What challenging question about divine justice accompanies the claim concerning evildoers?",
     options: [
       "Where is the God of justice?",
-      "Where is the temple?",
-      "Where is the king?",
-      "Where is the prophet?",
+      "Why does God permit evil?",
+      "When will judgment begin?",
+      "Why has God abandoned Judah?",
     ],
     answer: "Where is the God of justice?",
     reference: "Malachi 2:17",
   },
 
   {
-    question: "Whom does God promise to send ahead to prepare the way?",
+    question:
+      "Whom does the LORD say He will send ahead to prepare the way before Him?",
     options: [
-      "His messenger",
-      "A foreign king",
-      "A new governor",
-      "An army",
+      "My messenger",
+      "My servant",
+      "My prophet",
+      "My priest",
     ],
-    answer: "His messenger",
+    answer: "My messenger",
     reference: "Malachi 3:1",
   },
   {
-    question: "What would the promised messenger do?",
+    question:
+      "After the messenger prepares the way, who will suddenly come to His temple?",
     options: [
-      "Prepare the way before the Lord",
-      "Rebuild the city wall",
-      "Defeat Edom",
-      "Replace the priests",
+      "The Lord whom the people seek",
+      "The king of Judah",
+      "The prophet Elijah",
+      "The high priest",
     ],
-    answer: "Prepare the way before the Lord",
+    answer: "The Lord whom the people seek",
     reference: "Malachi 3:1",
   },
   {
-    question: "Where would the Lord whom the people sought suddenly come?",
-    options: [
-      "To His temple",
-      "To Babylon",
-      "To Egypt",
-      "To Mount Carmel",
-    ],
-    answer: "To His temple",
-    reference: "Malachi 3:1",
-  },
-  {
-    question: "What covenant figure is said to come?",
+    question:
+      "What second designation is associated with the coming figure whom the people desire?",
     options: [
       "The messenger of the covenant",
-      "The priest of Levi",
-      "The king of Persia",
-      "The messenger of Edom",
+      "The Prince of Peace",
+      "The Branch",
+      "The servant of David",
     ],
     answer: "The messenger of the covenant",
     reference: "Malachi 3:1",
   },
   {
-    question: "What question emphasizes the seriousness of the Lord's coming?",
+    question:
+      "What two questions emphasize the difficulty of enduring the coming day?",
     options: [
-      "Who can endure the day of His coming?",
-      "Who can rebuild His temple?",
-      "Who can defeat Persia?",
-      "Who can become a priest?",
+      "Who can endure the day of his coming, and who can stand when he appears?",
+      "Who can see his face, and who can hear his voice?",
+      "Who will enter his temple, and who will approach his altar?",
+      "Who can escape his judgment, and who can resist his power?",
     ],
-    answer: "Who can endure the day of His coming?",
+    answer:
+      "Who can endure the day of his coming, and who can stand when he appears?",
     reference: "Malachi 3:2",
   },
   {
-    question: "What is the coming one compared to?",
+    question:
+      "To what two purifying substances is the coming figure compared?",
     options: [
-      "A refiner's fire",
-      "A gentle breeze",
-      "A cedar tree",
-      "A city wall",
+      "A refiner's fire and launderer's soap",
+      "Fire and water",
+      "Silver and gold",
+      "Incense and oil",
     ],
-    answer: "A refiner's fire",
+    answer: "A refiner's fire and launderer's soap",
     reference: "Malachi 3:2",
   },
   {
-    question: "What second cleansing image is used alongside the refiner's fire?",
+    question:
+      "Whom will he sit to refine and purify?",
     options: [
-      "A launderer's soap",
-      "A farmer's plow",
-      "A priest's oil",
-      "A shepherd's staff",
+      "The Levites",
+      "The descendants of Judah",
+      "The priests of Jerusalem only",
+      "All Israel",
     ],
-    answer: "A launderer's soap",
-    reference: "Malachi 3:2",
-  },
-  {
-    question: "Which tribe would be purified like gold and silver?",
-    options: [
-      "Levi",
-      "Judah",
-      "Benjamin",
-      "Ephraim",
-    ],
-    answer: "Levi",
+    answer: "The Levites",
     reference: "Malachi 3:3",
   },
   {
-    question: "What would the purified Levites then bring?",
+    question:
+      "Like which two precious metals will the Levites be refined?",
+    options: [
+      "Gold and silver",
+      "Silver and bronze",
+      "Gold and bronze",
+      "Gold and iron",
+    ],
+    answer: "Gold and silver",
+    reference: "Malachi 3:3",
+  },
+  {
+    question:
+      "What will purified Levites then bring to the LORD?",
     options: [
       "Offerings in righteousness",
-      "Foreign tribute",
-      "Weapons",
-      "Royal gifts",
+      "Perfect animals only",
+      "Incense from the nations",
+      "Tithes from all Israel",
     ],
     answer: "Offerings in righteousness",
     reference: "Malachi 3:3",
   },
   {
-    question: "Whose offerings would again be acceptable to the Lord?",
+    question:
+      "To which earlier periods will Judah and Jerusalem's offerings again be acceptable?",
     options: [
-      "Judah and Jerusalem",
-      "Edom and Moab",
-      "Egypt and Assyria",
-      "Persia and Babylon",
+      "Days gone by and former years",
+      "The days of Moses and Aaron",
+      "The reigns of David and Solomon",
+      "The days before the exile",
     ],
-    answer: "Judah and Jerusalem",
+    answer: "Days gone by and former years",
     reference: "Malachi 3:4",
   },
   {
-    question: "Against whom would God be a swift witness?",
+    question:
+      "What role does the LORD say He will assume when He comes near for judgment?",
     options: [
-      "Sorcerers, adulterers, perjurers, and oppressors",
-      "Farmers and builders",
-      "Children and widows",
-      "Foreign visitors",
+      "A swift witness",
+      "A consuming fire",
+      "A righteous king",
+      "A prosecuting priest",
     ],
-    answer: "Sorcerers, adulterers, perjurers, and oppressors",
+    answer: "A swift witness",
     reference: "Malachi 3:5",
   },
   {
-    question: "Whose wages were some people withholding?",
+    question:
+      "Which group appears first in the list of people against whom the LORD will testify?",
     options: [
-      "Hired workers",
-      "Priests",
-      "Kings",
-      "Soldiers",
+      "Sorcerers",
+      "Adulterers",
+      "Perjurers",
+      "Oppressors",
     ],
-    answer: "Hired workers",
+    answer: "Sorcerers",
     reference: "Malachi 3:5",
   },
   {
-    question: "Which vulnerable people were being oppressed?",
+    question:
+      "Which sequence correctly follows the first three groups named for judgment?",
     options: [
-      "Widows and the fatherless",
-      "Kings and governors",
-      "Priests and Levites",
-      "Merchants and craftsmen",
+      "Sorcerers, adulterers, perjurers",
+      "Adulterers, sorcerers, oppressors",
+      "Perjurers, adulterers, sorcerers",
+      "Sorcerers, perjurers, adulterers",
     ],
-    answer: "Widows and the fatherless",
+    answer: "Sorcerers, adulterers, perjurers",
     reference: "Malachi 3:5",
   },
   {
-    question: "Who was being deprived of justice?",
+    question:
+      "Which workers are specifically mentioned among those being defrauded?",
     options: [
-      "Foreigners",
-      "Kings",
-      "Soldiers",
-      "Prophets",
+      "Laborers of their wages",
+      "Priests of their offerings",
+      "Farmers of their harvest",
+      "Merchants of their payment",
     ],
-    answer: "Foreigners",
+    answer: "Laborers of their wages",
     reference: "Malachi 3:5",
   },
   {
-    question: "What common failure united those condemned in this list?",
+    question:
+      "Which three vulnerable groups are specifically mentioned after the defrauded laborers?",
     options: [
-      "They did not fear the Lord",
-      "They lacked wealth",
-      "They lived outside Jerusalem",
-      "They refused Persian rule",
+      "Widows, fatherless, and foreigners",
+      "Widows, Levites, and servants",
+      "Orphans, prisoners, and foreigners",
+      "Poor, widows, and debtors",
     ],
-    answer: "They did not fear the Lord",
+    answer: "Widows, fatherless, and foreigners",
     reference: "Malachi 3:5",
   },
-
   {
-    question: "What quality of God explains why Jacob's descendants had not been destroyed?",
+    question:
+      "What underlying failure unites the people condemned in the judgment list?",
     options: [
-      "The Lord does not change",
-      "The Lord forgets sin",
-      "The Lord changes His covenant",
-      "The Lord ignores rebellion",
+      "They do not fear the LORD",
+      "They do not bring sacrifices",
+      "They reject Jerusalem",
+      "They refuse to fast",
     ],
-    answer: "The Lord does not change",
+    answer: "They do not fear the LORD",
+    reference: "Malachi 3:5",
+  },
+  {
+    question:
+      "What fact about the LORD explains why Jacob's descendants have not been destroyed?",
+    options: [
+      "The LORD does not change",
+      "The LORD remembers Abraham",
+      "The LORD lives in Jerusalem",
+      "The LORD forgives every sin",
+    ],
+    answer: "The LORD does not change",
     reference: "Malachi 3:6",
   },
   {
-    question: "How long had the people been turning away from God's decrees?",
+    question:
+      "Since the days of whose time had the people turned away from God's decrees?",
     options: [
-      "Since the time of their ancestors",
-      "Only since Darius became king",
-      "Only since the temple was rebuilt",
-      "Only for one year",
+      "Their ancestors",
+      "Moses",
+      "David",
+      "The exiles",
     ],
-    answer: "Since the time of their ancestors",
+    answer: "Their ancestors",
     reference: "Malachi 3:7",
   },
   {
-    question: "What invitation did God give the people?",
+    question:
+      "What reciprocal promise accompanies God's command for the people to return?",
     options: [
       "Return to me, and I will return to you",
-      "Leave Judah, and I will protect you",
-      "Build a palace, and I will bless you",
-      "Defeat Edom, and I will return",
+      "Obey me, and I will forgive you",
+      "Seek me, and you will find peace",
+      "Honor me, and I will bless Jerusalem",
     ],
     answer: "Return to me, and I will return to you",
     reference: "Malachi 3:7",
   },
   {
-    question: "How did the people respond to the command to return?",
+    question:
+      "What question do the people ask in response to God's command to return?",
     options: [
       "How are we to return?",
-      "We will return immediately",
-      "We have never left",
-      "Why should we return to Jerusalem?",
+      "Where have we gone?",
+      "Why should we return?",
+      "When did we leave you?",
     ],
     answer: "How are we to return?",
     reference: "Malachi 3:7",
   },
   {
-    question: "What shocking accusation did God make against the people?",
+    question:
+      "What accusation leads to the question, 'How are we robbing you?'",
     options: [
-      "They were robbing Him",
-      "They were attacking the temple",
-      "They were worshiping Edom",
-      "They were stealing from Darius",
+      "The people are robbing God",
+      "The priests are stealing sacrifices",
+      "The nation is withholding wages",
+      "The people are taking temple property",
     ],
-    answer: "They were robbing Him",
+    answer: "The people are robbing God",
     reference: "Malachi 3:8",
   },
   {
-    question: "In what two things were the people robbing God?",
+    question:
+      "In what two things does the LORD say the people are robbing Him?",
     options: [
       "Tithes and offerings",
-      "Land and houses",
-      "Gold and silver",
-      "Animals and grain",
+      "Sacrifices and incense",
+      "Taxes and tithes",
+      "Grain and livestock",
     ],
     answer: "Tithes and offerings",
     reference: "Malachi 3:8",
   },
   {
-    question: "What consequence had come upon the nation for robbing God?",
+    question:
+      "How extensive was the guilt of robbing God?",
     options: [
-      "They were under a curse",
-      "They were immediately exiled",
-      "Their temple disappeared",
-      "Their king was removed",
+      "The whole nation was guilty",
+      "Only the priests were guilty",
+      "Only wealthy landowners were guilty",
+      "Only Jerusalem was guilty",
     ],
-    answer: "They were under a curse",
+    answer: "The whole nation was guilty",
     reference: "Malachi 3:9",
   },
   {
-    question: "Where were the people commanded to bring the whole tithe?",
+    question:
+      "Where were the people commanded to bring the whole tithe?",
     options: [
       "Into the storehouse",
-      "To the governor's palace",
-      "To their homes",
-      "To the city gates",
+      "To the altar",
+      "To the city gate",
+      "Into the priests' homes",
     ],
     answer: "Into the storehouse",
     reference: "Malachi 3:10",
   },
   {
-    question: "Why was the whole tithe to be brought into the storehouse?",
+    question:
+      "What was the stated purpose of bringing the whole tithe into the storehouse?",
     options: [
-      "So there would be food in God's house",
-      "So the governor could collect it",
-      "So merchants could sell it",
-      "So soldiers could eat it",
+      "That there may be food in God's house",
+      "That the priests may become wealthy",
+      "That sacrifices may increase",
+      "That the poor may leave Jerusalem",
     ],
-    answer: "So there would be food in God's house",
+    answer: "That there may be food in God's house",
     reference: "Malachi 3:10",
   },
   {
-    question: "What unusual invitation does God give concerning the tithe?",
+    question:
+      "What unusual invitation does the LORD give after commanding the whole tithe?",
     options: [
       "Test me in this",
-      "Ignore this command",
-      "Ask the governor first",
-      "Wait until the harvest doubles",
+      "Ask me for a sign",
+      "Challenge my covenant",
+      "Measure my blessing",
     ],
     answer: "Test me in this",
     reference: "Malachi 3:10",
   },
   {
-    question: "What does God promise to open in response?",
+    question:
+      "What does the LORD promise to open in response to faithful tithing?",
     options: [
       "The floodgates of heaven",
       "The gates of Jerusalem",
-      "The temple doors",
-      "The gates of Persia",
+      "The temple storehouses",
+      "The springs of the earth",
     ],
     answer: "The floodgates of heaven",
     reference: "Malachi 3:10",
   },
   {
-    question: "What would God pour out?",
+    question:
+      "What will the LORD pour out after opening the floodgates of heaven?",
     options: [
-      "So much blessing that there would not be room enough to store it",
-      "Fire upon Jerusalem",
-      "A new army",
-      "Silver from Persia",
+      "So much blessing that there will not be room enough to store it",
+      "Rain for forty days",
+      "Gold and silver for the temple",
+      "Grain sufficient for seven years",
     ],
-    answer: "So much blessing that there would not be room enough to store it",
+    answer:
+      "So much blessing that there will not be room enough to store it",
     reference: "Malachi 3:10",
   },
   {
-    question: "What would God prevent from destroying their crops?",
+    question:
+      "What destructive threat to crops does the LORD promise to prevent?",
     options: [
-      "Pests",
-      "Foreign soldiers",
-      "Floods",
-      "Farmers",
+      "Pests devouring the crops",
+      "Drought destroying the grain",
+      "Fire consuming the fields",
+      "Enemies stealing the harvest",
     ],
-    answer: "Pests",
+    answer: "Pests devouring the crops",
     reference: "Malachi 3:11",
   },
   {
-    question: "What would happen to the vines in their fields?",
+    question:
+      "What will not happen prematurely to the vines in the fields?",
     options: [
-      "They would not drop their fruit before it was ripe",
-      "They would stop producing fruit",
-      "They would be uprooted",
-      "They would become olive trees",
+      "They will not drop their fruit before it is ripe",
+      "They will not stop producing grapes",
+      "They will not be cut down",
+      "They will not suffer disease",
     ],
-    answer: "They would not drop their fruit before it was ripe",
+    answer: "They will not drop their fruit before it is ripe",
     reference: "Malachi 3:11",
   },
   {
-    question: "How would the nations describe God's people after His blessing?",
+    question:
+      "What will all nations call God's people after the promised blessing?",
     options: [
       "Blessed",
-      "Forgotten",
-      "Defeated",
-      "Unclean",
+      "Holy",
+      "Powerful",
+      "Chosen",
     ],
     answer: "Blessed",
     reference: "Malachi 3:12",
   },
   {
-    question: "How would their land be described?",
+    question:
+      "Why will the nations call them blessed?",
     options: [
-      "A delightful land",
-      "A wilderness",
-      "A cursed land",
-      "A battlefield",
+      "Their land will be delightful",
+      "Their army will be powerful",
+      "Their temple will be magnificent",
+      "Their king will rule the nations",
     ],
-    answer: "A delightful land",
+    answer: "Their land will be delightful",
     reference: "Malachi 3:12",
   },
-
   {
-    question: "What did God say the people had spoken against Him?",
+    question:
+      "How does the LORD characterize the people's words against Him?",
     options: [
-      "Harsh words",
-      "Prophecies",
-      "Prayers",
-      "Songs",
+      "Harsh",
+      "False",
+      "Blasphemous",
+      "Empty",
     ],
-    answer: "Harsh words",
+    answer: "Harsh",
     reference: "Malachi 3:13",
   },
   {
-    question: "What did some people claim was futile?",
+    question:
+      "What question do the people ask after being told that they have spoken harshly against God?",
+    options: [
+      "What have we said against you?",
+      "How have we wearied you?",
+      "How have we robbed you?",
+      "How are we to return?",
+    ],
+    answer: "What have we said against you?",
+    reference: "Malachi 3:13",
+  },
+  {
+    question:
+      "What did the people claim was futile?",
     options: [
       "Serving God",
-      "Farming",
+      "Offering sacrifices",
+      "Keeping the Sabbath",
       "Rebuilding Jerusalem",
-      "Marriage",
     ],
     answer: "Serving God",
     reference: "Malachi 3:14",
   },
   {
-    question: "What did they question about keeping God's requirements?",
+    question:
+      "What did the people say they had gained by carrying out God's requirements?",
     options: [
-      "What do we gain by it?",
-      "Who wrote them?",
-      "Why are they easy?",
-      "Why do foreigners obey them?",
+      "Nothing",
+      "Only hardship",
+      "Temporary prosperity",
+      "The respect of priests",
     ],
-    answer: "What do we gain by it?",
+    answer: "Nothing",
     reference: "Malachi 3:14",
   },
   {
-    question: "Whom did the cynical people begin calling blessed?",
+    question:
+      "How had the people gone about before the LORD Almighty while claiming that service was futile?",
+    options: [
+      "Like mourners",
+      "In sackcloth",
+      "Barefoot",
+      "With fasting",
+    ],
+    answer: "Like mourners",
+    reference: "Malachi 3:14",
+  },
+  {
+    question:
+      "Whom did the complaining people begin to call blessed?",
     options: [
       "The arrogant",
-      "The humble",
       "The priests",
-      "The poor",
+      "The wealthy",
+      "The nations",
     ],
     answer: "The arrogant",
     reference: "Malachi 3:15",
   },
   {
-    question: "What did they observe about evildoers?",
+    question:
+      "What two observations about evildoers strengthened the people's complaint?",
     options: [
-      "They seemed to prosper",
-      "They immediately perished",
-      "They became priests",
-      "They left the land",
+      "Evildoers prosper, and those who challenge God escape",
+      "Evildoers become rulers, and the righteous suffer",
+      "Evildoers live long, and the faithful die young",
+      "Evildoers grow rich, and priests support them",
     ],
-    answer: "They seemed to prosper",
+    answer: "Evildoers prosper, and those who challenge God escape",
     reference: "Malachi 3:15",
   },
   {
-    question: "What did those who feared the Lord do with one another?",
+    question:
+      "Who spoke with one another after the complaints of the arrogant?",
     options: [
-      "Talked together",
-      "Separated completely",
-      "Fought one another",
-      "Left Jerusalem",
+      "Those who feared the LORD",
+      "The priests",
+      "The prophets",
+      "The elders of Judah",
     ],
-    answer: "Talked together",
+    answer: "Those who feared the LORD",
     reference: "Malachi 3:16",
   },
   {
-    question: "How did the Lord respond to those who feared Him?",
+    question:
+      "What did the LORD do when those who feared Him spoke together?",
     options: [
       "He listened and heard",
-      "He ignored them",
-      "He sent them away",
-      "He rebuked them",
+      "He sent a prophet",
+      "He answered with fire",
+      "He opened the heavens",
     ],
     answer: "He listened and heard",
     reference: "Malachi 3:16",
   },
   {
-    question: "What was written before God concerning those who feared Him?",
+    question:
+      "What was written in God's presence concerning those who feared Him?",
     options: [
       "A scroll of remembrance",
-      "A royal decree",
-      "A list of sacrifices",
-      "A book of wars",
+      "A new covenant",
+      "A list of priests",
+      "A book of judgment",
     ],
     answer: "A scroll of remembrance",
     reference: "Malachi 3:16",
   },
   {
-    question: "Who were recorded in the scroll of remembrance?",
+    question:
+      "Besides fearing the LORD, what characterized those recorded in the scroll of remembrance?",
     options: [
-      "Those who feared the Lord and honored His name",
-      "Every foreign king",
-      "Only priests",
-      "Only prophets",
+      "They honored His name",
+      "They brought the whole tithe",
+      "They offered pure sacrifices",
+      "They lived in Jerusalem",
     ],
-    answer: "Those who feared the Lord and honored His name",
+    answer: "They honored His name",
     reference: "Malachi 3:16",
   },
   {
-    question: "What did God say the faithful would become on the day He acts?",
+    question:
+      "What will those who fear the LORD become on the day He acts?",
     options: [
       "His treasured possession",
+      "His royal priesthood",
       "His army",
-      "His priests only",
-      "His governors",
+      "His prophets",
     ],
     answer: "His treasured possession",
     reference: "Malachi 3:17",
   },
   {
-    question: "How would God treat those who belonged to Him?",
+    question:
+      "To what family relationship does God compare His compassion for His treasured people?",
     options: [
-      "He would spare them as a father spares a son who serves him",
-      "He would send them into exile",
-      "He would test them with famine",
-      "He would remove them from Judah",
+      "A man sparing his son who serves him",
+      "A father teaching his firstborn",
+      "A mother comforting her child",
+      "A master rewarding his servant",
     ],
-    answer: "He would spare them as a father spares a son who serves him",
+    answer: "A man sparing his son who serves him",
     reference: "Malachi 3:17",
   },
   {
-    question: "What distinction would again become visible?",
+    question:
+      "What two distinctions will once again become visible?",
     options: [
-      "Between the righteous and wicked, and between those who serve God and those who do not",
-      "Between rich and poor",
-      "Between priests and farmers",
-      "Between Judah and Benjamin",
+      "Righteous and wicked, and those who serve God and those who do not",
+      "Israel and the nations, and priests and people",
+      "Rich and poor, and rulers and servants",
+      "Judah and Edom, and faithful and foreign",
     ],
-    answer: "Between the righteous and wicked, and between those who serve God and those who do not",
+    answer:
+      "Righteous and wicked, and those who serve God and those who do not",
     reference: "Malachi 3:18",
   },
 
   {
-    question: "How is the coming day described for the arrogant and evildoers?",
+    question:
+      "To what is the coming day compared at the beginning of the final chapter?",
     options: [
-      "Burning like a furnace",
-      "Cool like evening",
-      "Bright like gold",
-      "Peaceful like a garden",
+      "A furnace",
+      "A consuming flood",
+      "A violent storm",
+      "A blazing sword",
     ],
-    answer: "Burning like a furnace",
+    answer: "A furnace",
     reference: "Malachi 4:1",
   },
   {
-    question: "What are the arrogant and evildoers compared to?",
+    question:
+      "Which two groups are compared to stubble before the coming day?",
     options: [
-      "Stubble",
-      "Cedars",
-      "Stones",
-      "Iron",
+      "The arrogant and every evildoer",
+      "The nations and false prophets",
+      "The priests and adulterers",
+      "The wealthy and oppressors",
     ],
-    answer: "Stubble",
+    answer: "The arrogant and every evildoer",
     reference: "Malachi 4:1",
   },
   {
-    question: "How complete is the judgment described against persistent evildoers?",
+    question:
+      "What will the coming day do to the arrogant and evildoers?",
     options: [
-      "Neither root nor branch will be left",
-      "Only their leaves will be burned",
-      "Their houses alone will be destroyed",
-      "Their wealth alone will disappear",
+      "Set them on fire",
+      "Scatter them among nations",
+      "Blind them",
+      "Send them into exile",
     ],
-    answer: "Neither root nor branch will be left",
+    answer: "Set them on fire",
     reference: "Malachi 4:1",
   },
   {
-    question: "What will rise for those who revere God's name?",
+    question:
+      "What will be left of the wicked after the burning judgment?",
+    options: [
+      "Neither root nor branch",
+      "Neither house nor field",
+      "Neither name nor descendants",
+      "Neither silver nor gold",
+    ],
+    answer: "Neither root nor branch",
+    reference: "Malachi 4:1",
+  },
+  {
+    question:
+      "What will rise for those who revere the LORD's name?",
     options: [
       "The sun of righteousness",
-      "A new king",
-      "The morning star",
-      "A pillar of fire",
+      "The star of Jacob",
+      "The light of Zion",
+      "The glory of Jerusalem",
     ],
     answer: "The sun of righteousness",
     reference: "Malachi 4:2",
   },
   {
-    question: "What will be in its rays or wings?",
+    question:
+      "What will accompany the sun of righteousness?",
     options: [
-      "Healing",
-      "Judgment",
-      "Fire",
-      "Thunder",
+      "Healing in its rays",
+      "Justice in its fire",
+      "Peace in its light",
+      "Power in its wings",
     ],
-    answer: "Healing",
+    answer: "Healing in its rays",
     reference: "Malachi 4:2",
   },
   {
-    question: "How will the faithful respond to this deliverance?",
+    question:
+      "To what animals are those who revere God's name compared when they go out joyfully?",
     options: [
-      "They will go out and leap like well-fed calves",
-      "They will hide in their homes",
-      "They will mourn continually",
-      "They will leave the land",
+      "Well-fed calves released from the stall",
+      "Lambs beside a shepherd",
+      "Young lions leaving their den",
+      "Eagles rising on their wings",
     ],
-    answer: "They will go out and leap like well-fed calves",
+    answer: "Well-fed calves released from the stall",
     reference: "Malachi 4:2",
   },
   {
-    question: "What will the righteous do to the wicked in the imagery of the coming day?",
+    question:
+      "What will the righteous do to the wicked on the day God acts?",
     options: [
       "Trample them",
-      "Serve them",
-      "Crown them",
-      "Follow them",
+      "Judge them",
+      "Drive them from Jerusalem",
+      "Bind them",
     ],
     answer: "Trample them",
     reference: "Malachi 4:3",
   },
   {
-    question: "What will the wicked be like under the feet of the righteous?",
+    question:
+      "What will the wicked be like under the feet of the righteous?",
     options: [
       "Ashes",
-      "Gold",
-      "Dusty stones",
-      "Thorns",
+      "Dust",
+      "Stubble",
+      "Dry leaves",
     ],
     answer: "Ashes",
     reference: "Malachi 4:3",
   },
   {
-    question: "Whose law were the people commanded to remember?",
+    question:
+      "Whose law are the people commanded to remember?",
     options: [
-      "Moses",
-      "David",
-      "Solomon",
-      "Ezra",
+      "Moses my servant",
+      "Aaron my priest",
+      "David my servant",
+      "Elijah my prophet",
     ],
-    answer: "Moses",
+    answer: "Moses my servant",
     reference: "Malachi 4:4",
   },
   {
-    question: "How does God describe Moses?",
-    options: [
-      "My servant",
-      "My priest",
-      "My king",
-      "My governor",
-    ],
-    answer: "My servant",
-    reference: "Malachi 4:4",
-  },
-  {
-    question: "Where had God given Moses the decrees and laws for Israel?",
+    question:
+      "Where had the LORD given Moses the decrees and laws for all Israel?",
     options: [
       "Horeb",
-      "Carmel",
       "Zion",
-      "Gilgal",
+      "Sinai's wilderness",
+      "Moab",
     ],
     answer: "Horeb",
     reference: "Malachi 4:4",
   },
   {
-    question: "Which prophet does God promise to send?",
+    question:
+      "What two forms of instruction given through Moses are specifically mentioned?",
+    options: [
+      "Decrees and laws",
+      "Commands and covenants",
+      "Statutes and sacrifices",
+      "Judgments and ordinances",
+    ],
+    answer: "Decrees and laws",
+    reference: "Malachi 4:4",
+  },
+  {
+    question:
+      "Which prophet does the LORD promise to send before the great and dreadful day of the LORD?",
     options: [
       "Elijah",
-      "Elisha",
+      "Moses",
       "Isaiah",
       "Jeremiah",
     ],
@@ -1257,280 +1509,574 @@ const malachiQuestions = [
     reference: "Malachi 4:5",
   },
   {
-    question: "When would Elijah be sent?",
+    question:
+      "When is Elijah promised to come?",
     options: [
-      "Before the great and dreadful day of the Lord",
-      "After the day of the Lord",
-      "Before Israel entered Canaan",
-      "After the temple was destroyed",
+      "Before the great and dreadful day of the LORD",
+      "After the temple is purified",
+      "When Jerusalem is rebuilt",
+      "Before Edom is judged",
     ],
-    answer: "Before the great and dreadful day of the Lord",
+    answer: "Before the great and dreadful day of the LORD",
     reference: "Malachi 4:5",
   },
   {
-    question: "What would Elijah turn toward the children?",
+    question:
+      "Whose hearts will Elijah turn toward their children?",
     options: [
-      "The hearts of the parents",
-      "The wealth of the parents",
-      "The anger of the priests",
-      "The attention of kings",
+      "The parents'",
+      "The priests'",
+      "The prophets'",
+      "The elders'",
     ],
-    answer: "The hearts of the parents",
+    answer: "The parents'",
     reference: "Malachi 4:6",
   },
   {
-    question: "What would he turn toward their parents?",
+    question:
+      "Whose hearts will be turned toward their parents?",
     options: [
-      "The hearts of the children",
-      "The wealth of the children",
-      "The sacrifices of the children",
-      "The homes of the children",
+      "The children's",
+      "The priests'",
+      "The nation's",
+      "The servants'",
     ],
-    answer: "The hearts of the children",
+    answer: "The children's",
     reference: "Malachi 4:6",
   },
   {
-    question: "What consequence is mentioned if this turning does not occur?",
+    question:
+      "What consequence is given if the promised reconciliation does not occur?",
     options: [
-      "The land would be struck with a curse",
-      "The temple would immediately fall",
-      "Persia would rule forever",
-      "The priesthood would disappear",
+      "The LORD will come and strike the land with total destruction",
+      "Israel will return to exile",
+      "The temple will be destroyed again",
+      "The nations will conquer Jerusalem",
     ],
-    answer: "The land would be struck with a curse",
+    answer:
+      "The LORD will come and strike the land with total destruction",
     reference: "Malachi 4:6",
   },
 
+  // Close-reading, comparison, and sequence questions
+
   {
-    question: "What pattern repeatedly appears in Malachi's conversations between God and the people?",
+    question:
+      "Which sequence correctly follows the major disputes at the beginning of Malachi?",
     options: [
-      "God makes an accusation or declaration, and the people question it",
-      "The people remain completely silent",
-      "Only priests ask questions",
-      "God answers questions from foreign kings",
+      "God's love is questioned, His name is dishonored through sacrifices, and the priests are warned concerning their covenant responsibilities",
+      "Tithes are withheld, marriage is condemned, and God's love is questioned",
+      "The priests are purified, Edom is restored, and sacrifices are rejected",
+      "God's justice is questioned, Elijah is promised, and defective sacrifices are offered",
     ],
-    answer: "God makes an accusation or declaration, and the people question it",
-    reference: "Malachi 1:2,6-7; 2:17; 3:7-8,13",
+    answer:
+      "God's love is questioned, His name is dishonored through sacrifices, and the priests are warned concerning their covenant responsibilities",
+    reference: "Malachi 1:2-2:9",
   },
   {
-    question: "Which problem best explains God's rejection of the priests' sacrifices?",
+    question:
+      "Which sequence correctly follows the people's questioning responses in the first major section?",
     options: [
-      "Their offerings revealed contempt rather than genuine honor for God",
-      "There were too many sacrifices",
-      "They used animals instead of grain",
-      "The temple was in the wrong city",
+      "How have you loved us? How have we shown contempt for your name? How have we defiled you?",
+      "How have we robbed you? How are we to return? What have we said against you?",
+      "Where is the God of justice? How have we loved you? Why do you reject us?",
+      "How have we defiled you? How have we robbed you? How are we to return?",
     ],
-    answer: "Their offerings revealed contempt rather than genuine honor for God",
-    reference: "Malachi 1:6-14",
+    answer:
+      "How have you loved us? How have we shown contempt for your name? How have we defiled you?",
+    reference: "Malachi 1:2, 6-7",
   },
   {
-    question: "What contrast does Malachi draw between corrupt priests and Levi's ideal priesthood?",
+    question:
+      "Which sequence correctly follows the sacrificial defects explicitly criticized before the mention of stolen animals?",
     options: [
-      "Corrupt priests caused people to stumble, while faithful instruction turned people from sin",
-      "Corrupt priests were poor while Levi was wealthy",
-      "Corrupt priests lived in Jerusalem while Levi did not",
-      "Corrupt priests sacrificed animals while Levi did not",
+      "Blind, lame, diseased",
+      "Lame, blind, stolen",
+      "Diseased, stolen, blind",
+      "Blind, stolen, lame",
     ],
-    answer: "Corrupt priests caused people to stumble, while faithful instruction turned people from sin",
+    answer: "Blind, lame, diseased",
+    reference: "Malachi 1:8",
+  },
+  {
+    question:
+      "Which contrast most directly exposes the priests' failure to honor God?",
+    options: [
+      "They would hesitate to give defective gifts to a governor, yet they presented such offerings to God",
+      "They honored foreign kings but refused to enter the temple",
+      "They gave tithes to governors but withheld them from priests",
+      "They feared Edom more than they feared Babylon",
+    ],
+    answer:
+      "They would hesitate to give defective gifts to a governor, yet they presented such offerings to God",
+    reference: "Malachi 1:6-10",
+  },
+  {
+    question:
+      "Which progression correctly describes the LORD's argument concerning His name in the first chapter?",
+    options: [
+      "Priests despise His name, yet His name will be great among the nations, and He identifies Himself as a great King whose name is to be feared",
+      "Israel honors His name, but the nations reject it, so He withdraws from Jerusalem",
+      "The priests forget His name, Edom adopts it, and Judah later restores it",
+      "His name is known only in Israel until the priests purify the temple",
+    ],
+    answer:
+      "Priests despise His name, yet His name will be great among the nations, and He identifies Himself as a great King whose name is to be feared",
+    reference: "Malachi 1:6, 11, 14",
+  },
+  {
+    question:
+      "Which set of qualities belongs to the positive description of Levi?",
+    options: [
+      "Reverence, true instruction, peace, uprightness, and turning many from sin",
+      "Prophecy, sacrifice, fasting, wisdom, and political leadership",
+      "Wealth, honor, knowledge, sacrifice, and authority",
+      "Mercy, kingship, judgment, courage, and temple building",
+    ],
+    answer:
+      "Reverence, true instruction, peace, uprightness, and turning many from sin",
+    reference: "Malachi 2:5-6",
+  },
+  {
+    question:
+      "Which contrast correctly distinguishes Levi's example from the priests being rebuked?",
+    options: [
+      "Levi walked faithfully and turned many from sin, whereas the priests turned from the way and caused many to stumble",
+      "Levi refused sacrifices, whereas the priests offered too many",
+      "Levi taught only Israel, whereas the priests taught foreigners",
+      "Levi served outside Jerusalem, whereas the priests abandoned the countryside",
+    ],
+    answer:
+      "Levi walked faithfully and turned many from sin, whereas the priests turned from the way and caused many to stumble",
     reference: "Malachi 2:6-8",
   },
   {
-    question: "What principle connects Malachi's teaching about worship and marriage?",
+    question:
+      "Which sequence correctly follows the argument concerning priestly teaching?",
     options: [
-      "Covenant faithfulness cannot be separated from worship of God",
-      "Marriage has no relationship to worship",
-      "Sacrifices excuse personal unfaithfulness",
-      "Religious rituals matter more than relationships",
+      "A priest's lips should preserve knowledge, people should seek instruction from him, but the priests turned from the way and caused many to stumble",
+      "People should teach priests, priests should preserve sacrifices, and Levi should judge the people",
+      "Priests should preserve prophecy, people should seek sacrifices, and the Levites should avoid teaching",
+      "Priests should preserve knowledge, but people are forbidden to seek instruction from them",
     ],
-    answer: "Covenant faithfulness cannot be separated from worship of God",
-    reference: "Malachi 2:10-16",
+    answer:
+      "A priest's lips should preserve knowledge, people should seek instruction from him, but the priests turned from the way and caused many to stumble",
+    reference: "Malachi 2:7-8",
   },
   {
-    question: "What answer does Malachi give to people questioning whether God is just?",
+    question:
+      "Which two covenant relationships are central to the rebukes in the middle of the second chapter?",
     options: [
-      "The Lord will come in judgment and purification",
-      "God will ignore injustice",
-      "Justice depends on Persia",
-      "There will never be judgment",
+      "The ancestral covenant shared by the people and the marriage covenant with the wife of one's youth",
+      "The Davidic covenant and the covenant with Edom",
+      "The priestly covenant and a covenant with Persia",
+      "The Abrahamic covenant and a covenant with foreign nations",
     ],
-    answer: "The Lord will come in judgment and purification",
-    reference: "Malachi 2:17-3:5",
+    answer:
+      "The ancestral covenant shared by the people and the marriage covenant with the wife of one's youth",
+    reference: "Malachi 2:10, 14",
   },
   {
-    question: "Why is the image of refining appropriate for the Levites?",
+    question:
+      "Which progression correctly connects Judah's marital unfaithfulness with rejected worship?",
     options: [
-      "God intends to purify them so they can offer righteous worship",
-      "God intends to destroy every priest",
-      "God wants them to become metalworkers",
-      "God wants them to collect silver",
+      "Judah acts unfaithfully, the LORD witnesses the betrayal of the marriage covenant, and He no longer accepts the offerings with favor",
+      "Judah stops sacrificing, marriages fail, and the temple is destroyed",
+      "Foreign wives prevent sacrifices, so the priests end worship",
+      "The LORD rejects marriage itself and therefore rejects Judah's offerings",
     ],
-    answer: "God intends to purify them so they can offer righteous worship",
-    reference: "Malachi 3:2-4",
+    answer:
+      "Judah acts unfaithfully, the LORD witnesses the betrayal of the marriage covenant, and He no longer accepts the offerings with favor",
+    reference: "Malachi 2:10-14",
   },
   {
-    question: "What does God's unchanging character guarantee in the argument concerning Israel?",
+    question:
+      "Which statement accurately connects the end of the second chapter with the beginning of the third?",
     options: [
-      "His covenant people have not been completely consumed",
-      "Israel can sin without consequences",
-      "The law can never be applied",
-      "Judgment is impossible",
+      "The people ask where the God of justice is, and the next message announces a messenger preparing the way before the Lord's coming",
+      "The people ask how they robbed God, and Elijah immediately appears",
+      "The priests ask where justice is, and the temple is destroyed",
+      "The people ask how God loved them, and a messenger is sent to Edom",
     ],
-    answer: "His covenant people have not been completely consumed",
-    reference: "Malachi 3:6",
+    answer:
+      "The people ask where the God of justice is, and the next message announces a messenger preparing the way before the Lord's coming",
+    reference: "Malachi 2:17-3:1",
   },
   {
-    question: "What does the discussion of tithes reveal about the people's relationship with God?",
+    question:
+      "Which sequence correctly describes the purification connected with the Lord's coming?",
     options: [
-      "Their material practices were part of their covenant faithfulness",
-      "Money had no connection to worship",
-      "Only priests were responsible for giving",
-      "Giving replaced obedience in every other area",
+      "He comes to His temple, is compared to refiner's fire and launderer's soap, purifies the Levites, and they bring offerings in righteousness",
+      "He comes to Jerusalem, destroys the Levites, and replaces all sacrifices with prayer",
+      "He sends Elijah, purifies Edom, and then rebuilds the temple",
+      "He purifies the nations first and then ends the Levitical ministry",
     ],
-    answer: "Their material practices were part of their covenant faithfulness",
-    reference: "Malachi 3:7-12",
+    answer:
+      "He comes to His temple, is compared to refiner's fire and launderer's soap, purifies the Levites, and they bring offerings in righteousness",
+    reference: "Malachi 3:1-4",
   },
   {
-    question: "What mistaken conclusion did some people draw from the apparent prosperity of evildoers?",
+    question:
+      "Which contrast correctly describes the LORD's role toward the Levites and toward persistent evildoers in the same section?",
     options: [
-      "Serving God was useless",
-      "God had already judged everyone",
-      "The law had been abolished",
-      "The temple should be destroyed",
+      "He refines the Levites but comes as a swift witness against persistent evildoers",
+      "He condemns the Levites but refines the sorcerers",
+      "He replaces the Levites and ignores the oppressors",
+      "He rewards the priests and sends the widows away",
     ],
-    answer: "Serving God was useless",
-    reference: "Malachi 3:13-15",
+    answer:
+      "He refines the Levites but comes as a swift witness against persistent evildoers",
+    reference: "Malachi 3:3-5",
   },
   {
-    question: "What counters the claim that serving God is useless?",
+    question:
+      "Which sequence correctly follows the groups listed after sorcerers in the LORD's declaration of judgment?",
     options: [
-      "God remembers those who fear Him and distinguishes them from the wicked",
-      "All faithful people immediately become wealthy",
-      "The wicked never prosper temporarily",
-      "Faithful people never experience hardship",
+      "Adulterers, perjurers, those who defraud laborers, oppress widows and the fatherless, and deprive foreigners of justice",
+      "Perjurers, priests, widows, foreigners, and laborers",
+      "Adulterers, idolaters, false prophets, rulers, and merchants",
+      "Laborers, adulterers, sorcerers, widows, and priests",
     ],
-    answer: "God remembers those who fear Him and distinguishes them from the wicked",
-    reference: "Malachi 3:16-18",
-  },
-  {
-    question: "What contrasting outcomes does the coming day bring?",
-    options: [
-      "Judgment for the wicked and healing for those who fear God",
-      "Judgment for everyone without distinction",
-      "Prosperity for the arrogant and exile for the faithful",
-      "The same outcome for righteous and wicked",
-    ],
-    answer: "Judgment for the wicked and healing for those who fear God",
-    reference: "Malachi 4:1-3",
-  },
-  {
-    question: "Which two major Old Testament figures are mentioned near the close of Malachi?",
-    options: [
-      "Moses and Elijah",
-      "Abraham and David",
-      "Joshua and Samuel",
-      "Isaiah and Jeremiah",
-    ],
-    answer: "Moses and Elijah",
-    reference: "Malachi 4:4-5",
-  },
-  {
-    question: "What does the closing reference to Moses emphasize?",
-    options: [
-      "Remembering God's revealed law",
-      "Building another temple",
-      "Beginning a new monarchy",
-      "Returning to Egypt",
-    ],
-    answer: "Remembering God's revealed law",
-    reference: "Malachi 4:4",
-  },
-  {
-    question: "What does the closing promise concerning Elijah emphasize?",
-    options: [
-      "Preparation and reconciliation before the day of the Lord",
-      "The rebuilding of Solomon's temple",
-      "The restoration of Persian rule",
-      "The end of prophecy before judgment",
-    ],
-    answer: "Preparation and reconciliation before the day of the Lord",
-    reference: "Malachi 4:5-6",
-  },
-  {
-    question: "Which sequence best summarizes Malachi's major concerns?",
-    options: [
-      "God's love, corrupt worship, priestly failure, covenant unfaithfulness, coming judgment, faithful giving, remembrance, and the day of the Lord",
-      "Creation, flood, exodus, conquest, monarchy, exile",
-      "Military conquest, royal succession, famine, rebuilding, trade",
-      "Wisdom, poetry, genealogy, warfare, exile, return",
-    ],
-    answer: "God's love, corrupt worship, priestly failure, covenant unfaithfulness, coming judgment, faithful giving, remembrance, and the day of the Lord",
-    reference: "Malachi 1-4",
-  },
-  {
-    question: "What broad problem lies behind many of the sins confronted in Malachi?",
-    options: [
-      "The people continued religious activity while failing to honor God sincerely",
-      "The people had completely abandoned all worship",
-      "There was no functioning priesthood",
-      "The people had no knowledge of sacrifices",
-    ],
-    answer: "The people continued religious activity while failing to honor God sincerely",
-    reference: "Malachi 1:6-14; 2:10-17; 3:7-15",
-  },
-  {
-    question: "What does Malachi teach about God's concern for worship?",
-    options: [
-      "He cares about the honor and faithfulness behind what is offered",
-      "He accepts anything as long as a ritual occurs",
-      "He cares only about the monetary value of offerings",
-      "He accepts defective sacrifices more readily",
-    ],
-    answer: "He cares about the honor and faithfulness behind what is offered",
-    reference: "Malachi 1:6-14",
-  },
-  {
-    question: "What does Malachi teach about religious leadership?",
-    options: [
-      "Leaders should preserve truth and help people turn away from sin",
-      "Leaders should favor influential people",
-      "Leaders are responsible only for sacrifices",
-      "Leaders should avoid teaching difficult truths",
-    ],
-    answer: "Leaders should preserve truth and help people turn away from sin",
-    reference: "Malachi 2:6-9",
-  },
-  {
-    question: "What does Malachi show about God's concern for social justice?",
-    options: [
-      "He judges those who exploit workers and vulnerable people",
-      "He is concerned only with temple ceremonies",
-      "He leaves social injustice entirely to human rulers",
-      "He condemns only crimes committed by foreigners",
-    ],
-    answer: "He judges those who exploit workers and vulnerable people",
+    answer:
+      "Adulterers, perjurers, those who defraud laborers, oppress widows and the fatherless, and deprive foreigners of justice",
     reference: "Malachi 3:5",
   },
   {
-    question: "Which description best captures the faithful remnant in Malachi?",
+    question:
+      "Which progression correctly follows the dialogue concerning return and robbery?",
     options: [
-      "They fear the Lord, honor His name, and speak with one another",
-      "They are necessarily the wealthiest people",
-      "They withdraw completely from everyone else",
-      "They never experience questions or difficulties",
+      "God says return to Me, the people ask how, God accuses them of robbery, they ask how, and He identifies tithes and offerings",
+      "The people ask to return, God demands sacrifices, and the priests accuse them of robbery",
+      "God accuses them of robbery, they return immediately, and He abolishes tithes",
+      "God asks how He has robbed them, and they answer with tithes and offerings",
     ],
-    answer: "They fear the Lord, honor His name, and speak with one another",
-    reference: "Malachi 3:16",
+    answer:
+      "God says return to Me, the people ask how, God accuses them of robbery, they ask how, and He identifies tithes and offerings",
+    reference: "Malachi 3:7-8",
   },
   {
-    question: "What final theme links the beginning and ending of Malachi?",
+    question:
+      "Which sequence correctly follows the promised agricultural blessings after the whole tithe is brought?",
     options: [
-      "God's covenant relationship calls for genuine honor, faithfulness, and readiness for His coming",
-      "Israel's political power is the central concern",
-      "The rebuilding of Jerusalem's wall is the main issue",
-      "Persian government is the source of Israel's hope",
+      "Heaven's floodgates open, abundant blessing is poured out, crop-devouring pests are restrained, and vines do not lose fruit prematurely",
+      "Rain stops, pests disappear, vines grow wild, and grain fills the temple",
+      "The storehouse overflows, the temple expands, and Edom brings tribute",
+      "The vines produce first, the floodgates open, and the nations bring tithes",
     ],
-    answer: "God's covenant relationship calls for genuine honor, faithfulness, and readiness for His coming",
-    reference: "Malachi 1:2-6; 3:1; 4:4-6",
+    answer:
+      "Heaven's floodgates open, abundant blessing is poured out, crop-devouring pests are restrained, and vines do not lose fruit prematurely",
+    reference: "Malachi 3:10-11",
+  },
+  {
+    question:
+      "Which sequence correctly follows the complaints made by those who claimed that serving God was futile?",
+    options: [
+      "They say service is futile, claim they gained nothing, call the arrogant blessed, observe evildoers prospering, and say those who challenge God escape",
+      "They complain about sacrifices, praise the priests, and ask for more rain",
+      "They claim service is profitable, condemn the arrogant, and praise divine justice",
+      "They withhold tithes, repent immediately, and are entered in the scroll of remembrance",
+    ],
+    answer:
+      "They say service is futile, claim they gained nothing, call the arrogant blessed, observe evildoers prospering, and say those who challenge God escape",
+    reference: "Malachi 3:14-15",
+  },
+  {
+    question:
+      "What contrast immediately follows the complaints that evildoers prosper?",
+    options: [
+      "Those who fear the LORD speak together, God listens, and a scroll of remembrance is written",
+      "The wicked repent and begin bringing tithes",
+      "The priests defend the arrogant",
+      "Elijah arrives and judges the wicked",
+    ],
+    answer:
+      "Those who fear the LORD speak together, God listens, and a scroll of remembrance is written",
+    reference: "Malachi 3:15-16",
+  },
+  {
+    question:
+      "Which sequence correctly describes God's response to those who fear and honor Him?",
+    options: [
+      "He listens, a scroll of remembrance is written, He calls them His treasured possession, and promises to spare them",
+      "He sends Elijah, gives them wealth, and makes them priests",
+      "He records their names, sends them to Jerusalem, and gives them Edom",
+      "He purifies them with fire, makes them Levites, and gives them the temple",
+    ],
+    answer:
+      "He listens, a scroll of remembrance is written, He calls them His treasured possession, and promises to spare them",
+    reference: "Malachi 3:16-17",
+  },
+  {
+    question:
+      "Which two contrasting groups in the final chapter correspond most closely to the distinction announced at the end of the previous chapter?",
+    options: [
+      "The arrogant and evildoers who burn like stubble versus those who revere God's name and receive healing",
+      "The priests versus the Levites",
+      "Judah versus Edom",
+      "Parents versus children",
+    ],
+    answer:
+      "The arrogant and evildoers who burn like stubble versus those who revere God's name and receive healing",
+    reference: "Malachi 3:18-4:2",
+  },
+  {
+    question:
+      "Which progression correctly describes the fate of the wicked in the final judgment imagery?",
+    options: [
+      "They are like stubble, the coming day sets them ablaze, neither root nor branch remains, and they become ashes under the righteous",
+      "They are like trees, their branches are cut, and their roots are transplanted",
+      "They are scattered like chaff but later restored",
+      "They are refined like silver and become part of Levi",
+    ],
+    answer:
+      "They are like stubble, the coming day sets them ablaze, neither root nor branch remains, and they become ashes under the righteous",
+    reference: "Malachi 4:1-3",
+  },
+  {
+    question:
+      "Which progression correctly describes the experience of those who revere God's name in the final judgment imagery?",
+    options: [
+      "The sun of righteousness rises with healing, they go out like well-fed calves, and they trample the wicked as ashes",
+      "They hide from the furnace, receive silver, and rebuild Jerusalem",
+      "They become priests, enter the temple, and judge Edom",
+      "They escape to Horeb, meet Elijah, and receive the law",
+    ],
+    answer:
+      "The sun of righteousness rises with healing, they go out like well-fed calves, and they trample the wicked as ashes",
+    reference: "Malachi 4:2-3",
+  },
+  {
+    question:
+      "Which two major figures from Israel's earlier history are named in the closing verses, and in what order?",
+    options: [
+      "Moses, then Elijah",
+      "Elijah, then Moses",
+      "David, then Moses",
+      "Levi, then Elijah",
+    ],
+    answer: "Moses, then Elijah",
+    reference: "Malachi 4:4-5",
+  },
+  {
+    question:
+      "What different functions are associated with Moses and Elijah in the book's closing instructions?",
+    options: [
+      "Israel is told to remember the law given through Moses, while Elijah is promised before the day of the LORD",
+      "Moses prepares the way, while Elijah gives the law",
+      "Moses judges the wicked, while Elijah purifies Levi",
+      "Moses restores families, while Elijah restores sacrifices",
+    ],
+    answer:
+      "Israel is told to remember the law given through Moses, while Elijah is promised before the day of the LORD",
+    reference: "Malachi 4:4-5",
+  },
+  {
+    question:
+      "Which sequence correctly follows the final commands and promises of Malachi?",
+    options: [
+      "Remember Moses' law, Elijah will be sent, he will turn hearts within families, otherwise the land faces destruction",
+      "Wait for Elijah, rebuild the temple, remember Moses, and defeat Edom",
+      "Remember Elijah, follow Levi, restore tithes, and await Moses",
+      "Keep the fasts, remember Moses, purify the priests, and send Elijah",
+    ],
+    answer:
+      "Remember Moses' law, Elijah will be sent, he will turn hearts within families, otherwise the land faces destruction",
+    reference: "Malachi 4:4-6",
+  },
+  {
+    question:
+      "Which statement correctly connects the book's opening and closing judgment imagery?",
+    options: [
+      "The book opens with Edom unable to reverse God's judgment and closes with a coming day that leaves the wicked without root or branch",
+      "The book opens with Israel's destruction and closes with Edom's restoration",
+      "The book begins and ends with judgment exclusively against priests",
+      "The opening and closing both describe Babylon's destruction",
+    ],
+    answer:
+      "The book opens with Edom unable to reverse God's judgment and closes with a coming day that leaves the wicked without root or branch",
+    reference: "Malachi 1:3-4; 4:1",
+  },
+  {
+    question:
+      "Which statement correctly connects the theme of God's name in the priestly rebuke and the faithful remnant?",
+    options: [
+      "The priests despise God's name, His name is declared great among the nations, and later a faithful group is remembered because they honor His name",
+      "The priests forget God's name, but Elijah gives them a new name",
+      "Only the nations honor God's name throughout the book",
+      "God's name is mentioned only in connection with sacrifices",
+    ],
+    answer:
+      "The priests despise God's name, His name is declared great among the nations, and later a faithful group is remembered because they honor His name",
+    reference: "Malachi 1:6, 11; 3:16",
+  },
+  {
+    question:
+      "Which statement best connects the two major descriptions of acceptable offerings?",
+    options: [
+      "The priests' defective offerings are rejected early in the book, while purified Levites are later pictured bringing offerings in righteousness",
+      "All offerings are rejected permanently",
+      "Only offerings from foreign nations are acceptable",
+      "The Levites' offerings are rejected while the priests' defective animals are accepted",
+    ],
+    answer:
+      "The priests' defective offerings are rejected early in the book, while purified Levites are later pictured bringing offerings in righteousness",
+    reference: "Malachi 1:8-10; 3:3-4",
+  },
+  {
+    question:
+      "Which statement best connects the two references to God's unchanging covenant faithfulness?",
+    options: [
+      "God's covenant with Levi establishes priestly responsibility, while God's unchanging nature explains why Jacob's descendants are not destroyed",
+      "God changes Levi's covenant but preserves Edom",
+      "God's covenant with Levi guarantees that no priest can be judged",
+      "God's unchanging nature means Israel is never rebuked",
+    ],
+    answer:
+      "God's covenant with Levi establishes priestly responsibility, while God's unchanging nature explains why Jacob's descendants are not destroyed",
+    reference: "Malachi 2:4-8; 3:6",
+  },
+  {
+    question:
+      "Which pair of passages most clearly contrasts contemptuous worship with genuine reverence?",
+    options: [
+      "Priests treat God's table with contempt, while those who fear the LORD speak together and honor His name",
+      "Edom rebuilds ruins, while Judah marries foreign women",
+      "The people bring tithes, while priests teach the law",
+      "The Levites are refined, while Elijah turns hearts",
+    ],
+    answer:
+      "Priests treat God's table with contempt, while those who fear the LORD speak together and honor His name",
+    reference: "Malachi 1:7, 12; 3:16",
+  },
+  {
+    question:
+      "Which progression correctly traces the theme of divine judgment from the people's question about justice?",
+    options: [
+      "They ask where the God of justice is, the Lord's coming is announced, purification begins with Levi, and God becomes a swift witness against persistent sinners",
+      "They ask about justice, Edom is restored, and the priests are rewarded",
+      "They ask about justice, Elijah immediately arrives, and all Israel is destroyed",
+      "They ask about justice, and God refuses to answer anywhere else in the book",
+    ],
+    answer:
+      "They ask where the God of justice is, the Lord's coming is announced, purification begins with Levi, and God becomes a swift witness against persistent sinners",
+    reference: "Malachi 2:17-3:5",
+  },
+  {
+    question:
+      "Which progression correctly traces the book's movement from accusation to final distinction?",
+    options: [
+      "God exposes corrupt worship and unfaithfulness, calls the people to return, distinguishes those who fear Him from the wicked, and announces contrasting destinies on the coming day",
+      "God condemns Edom, abolishes the priesthood, restores every evildoer, and ends with no judgment",
+      "God praises the priests, condemns the faithful, and promises Edom the land",
+      "God focuses only on tithing before ending with instructions about temple construction",
+    ],
+    answer:
+      "God exposes corrupt worship and unfaithfulness, calls the people to return, distinguishes those who fear Him from the wicked, and announces contrasting destinies on the coming day",
+    reference: "Malachi 1:1-4:6",
+  },
+  {
+    question:
+      "Which group is rebuked for partiality in applying the law, and which group is later remembered for honoring God's name?",
+    options: [
+      "The priests are rebuked; those who fear the LORD are remembered",
+      "The Levites are rebuked; the governors are remembered",
+      "The foreigners are rebuked; the priests are remembered",
+      "The people of Edom are rebuked; the Levites are remembered",
+    ],
+    answer:
+      "The priests are rebuked; those who fear the LORD are remembered",
+    reference: "Malachi 2:9; 3:16",
+  },
+  {
+    question:
+      "Which sequence of the people's direct questions appears in the correct order across the book?",
+    options: [
+      "How have you loved us? How have we shown contempt for your name? How have we defiled you? How have we wearied him? How are we to return? How are we robbing you? What have we said against you?",
+      "How have we robbed you? How have you loved us? How are we to return? How have we wearied him? How have we defiled you?",
+      "How have you loved us? How are we robbing you? How have we defiled you? How are we to return? Where is the God of justice?",
+      "How have we shown contempt? What have we said? How have you loved us? How have we robbed you? How have we wearied you?",
+    ],
+    answer:
+      "How have you loved us? How have we shown contempt for your name? How have we defiled you? How have we wearied him? How are we to return? How are we robbing you? What have we said against you?",
+    reference: "Malachi 1:2, 6-7; 2:17; 3:7-8, 13",
+  },
+  {
+    question:
+      "Which statement most accurately contrasts the people who challenge God with those who fear Him?",
+    options: [
+      "The first group claims evildoers prosper and challengers escape, while the second speaks together, is heard by God, and is recorded in His presence",
+      "Both groups are condemned equally without distinction",
+      "The first group is composed of priests and the second exclusively of foreigners",
+      "The first group brings tithes while the second refuses to worship",
+    ],
+    answer:
+      "The first group claims evildoers prosper and challengers escape, while the second speaks together, is heard by God, and is recorded in His presence",
+    reference: "Malachi 3:13-16",
+  },
+  {
+    question:
+      "Which two images involving fire have opposite implications for different groups near the end of Malachi?",
+    options: [
+      "Refiner's fire purifies the Levites, while the furnace-like day burns the arrogant and evildoers",
+      "Fire destroys the Levites but purifies Edom",
+      "The altar fire blesses the wicked while Elijah's fire destroys Judah",
+      "Refiner's fire destroys offerings while the final furnace purifies everyone",
+    ],
+    answer:
+      "Refiner's fire purifies the Levites, while the furnace-like day burns the arrogant and evildoers",
+    reference: "Malachi 3:2-3; 4:1",
+  },
+  {
+    question:
+      "Which statement correctly contrasts the two kinds of 'messenger' language near the beginning of the third chapter?",
+    options: [
+      "One messenger prepares the way, while the messenger of the covenant is associated with the Lord's anticipated coming",
+      "Both expressions refer explicitly to Elijah by name in the same verse",
+      "One messenger is Moses and the other is Levi",
+      "The first messenger judges Edom while the second rebuilds the temple",
+    ],
+    answer:
+      "One messenger prepares the way, while the messenger of the covenant is associated with the Lord's anticipated coming",
+    reference: "Malachi 3:1",
+  },
+  {
+    question:
+      "Which statement best connects the opening comparison between Jacob and Esau with the final distinction between people?",
+    options: [
+      "Both passages emphasize divine distinction: the opening contrasts God's dealings with Jacob and Esau, while the later passage distinguishes the righteous from the wicked",
+      "Both passages teach that ancestry alone guarantees blessing",
+      "Both passages focus exclusively on Edom",
+      "Both passages contrast priests with prophets",
+    ],
+    answer:
+      "Both passages emphasize divine distinction: the opening contrasts God's dealings with Jacob and Esau, while the later passage distinguishes the righteous from the wicked",
+    reference: "Malachi 1:2-5; 3:18",
+  },
+  {
+    question:
+      "Which statement correctly connects the command to 'return' with God's final call to remember?",
+    options: [
+      "The people are called to return to the LORD in the third chapter and are finally told to remember the law given through Moses",
+      "The people are called to return to Edom and later remember Elijah's law",
+      "The priests are called to return to Babylon and remember Levi",
+      "The nations are called to return to Jerusalem and remember David",
+    ],
+    answer:
+      "The people are called to return to the LORD in the third chapter and are finally told to remember the law given through Moses",
+    reference: "Malachi 3:7; 4:4",
+  },
+  {
+    question:
+      "Which sequence correctly traces Malachi's closing movement from remembrance to reconciliation?",
+    options: [
+      "Remember Moses' law, anticipate Elijah, then expect hearts of parents and children to be turned toward one another",
+      "Remember Elijah, anticipate Moses, then rebuild the temple",
+      "Remember Levi, anticipate David, then restore Edom",
+      "Remember the sacrifices, anticipate the Branch, then restore the priesthood",
+    ],
+    answer:
+      "Remember Moses' law, anticipate Elijah, then expect hearts of parents and children to be turned toward one another",
+    reference: "Malachi 4:4-6",
   },
 ];
 

@@ -1,1740 +1,2882 @@
 const amosQuestions = [
   {
-    question: "What was Amos's occupation before being called to prophesy?",
+    question:
+      "What occupation is associated with Amos in the opening description of the book?",
     options: [
       "Shepherd",
       "Priest",
       "Scribe",
-      "Soldier",
+      "Royal official",
     ],
     answer: "Shepherd",
     reference: "Amos 1:1",
   },
   {
-    question: "From which town was Amos?",
+    question:
+      "From what town did Amos come?",
     options: [
       "Tekoa",
       "Bethel",
       "Samaria",
-      "Jerusalem",
+      "Gilgal",
     ],
     answer: "Tekoa",
     reference: "Amos 1:1",
   },
   {
-    question: "During whose reign in Judah did Amos prophesy?",
+    question:
+      "During whose reigns did Amos receive his visions?",
     options: [
-      "Uzziah",
-      "Hezekiah",
-      "Josiah",
-      "Ahaz",
+      "Uzziah of Judah and Jeroboam son of Jehoash of Israel",
+      "Ahaz of Judah and Menahem of Israel",
+      "Hezekiah of Judah and Hoshea of Israel",
+      "Jotham of Judah and Pekah of Israel",
     ],
-    answer: "Uzziah",
+    answer: "Uzziah of Judah and Jeroboam son of Jehoash of Israel",
     reference: "Amos 1:1",
   },
   {
-    question: "During whose reign in Israel did Amos prophesy?",
-    options: [
-      "Jeroboam son of Jehoash",
-      "Ahab son of Omri",
-      "Jehu",
-      "Hoshea",
-    ],
-    answer: "Jeroboam son of Jehoash",
-    reference: "Amos 1:1",
-  },
-  {
-    question: "How long before the earthquake did Amos receive his visions?",
+    question:
+      "How long before the earthquake did Amos receive the visions mentioned in the book's opening?",
     options: [
       "Two years",
       "Seven years",
+      "Three years",
       "One year",
-      "Forty days",
     ],
     answer: "Two years",
     reference: "Amos 1:1",
   },
   {
-    question: "From where does Amos say the Lord roars?",
+    question:
+      "From where does the LORD roar in Amos's opening declaration?",
     options: [
       "Zion",
-      "Carmel",
-      "Sinai",
+      "Bethel",
       "Samaria",
+      "Carmel",
     ],
     answer: "Zion",
     reference: "Amos 1:2",
   },
   {
-    question: "From which city does the Lord thunder?",
+    question:
+      "From where does the LORD raise His voice?",
     options: [
       "Jerusalem",
-      "Bethel",
       "Tekoa",
-      "Damascus",
+      "Gilgal",
+      "Jezreel",
     ],
     answer: "Jerusalem",
     reference: "Amos 1:2",
   },
   {
-    question: "What happens to the shepherds' pastures when the Lord roars?",
+    question:
+      "What happens to the pastures of the shepherds when the LORD roars?",
     options: [
       "They dry up",
-      "They become green",
-      "They are flooded",
-      "They are burned",
+      "They flood",
+      "They burn",
+      "They become overgrown",
     ],
     answer: "They dry up",
     reference: "Amos 1:2",
   },
   {
-    question: "What happens to the top of Carmel?",
+    question:
+      "Which mountain's summit is said to wither?",
     options: [
-      "It withers",
-      "It burns",
-      "It becomes fruitful",
-      "It splits",
+      "Carmel",
+      "Tabor",
+      "Hermon",
+      "Zion",
     ],
-    answer: "It withers",
+    answer: "Carmel",
     reference: "Amos 1:2",
   },
   {
-    question: "Which city is condemned for threshing Gilead with sledges having iron teeth?",
+    question:
+      "What repeated numerical formula introduces several of Amos's judgments against the nations?",
     options: [
-      "Damascus",
-      "Gaza",
-      "Tyre",
-      "Edom",
+      "For three sins, even for four",
+      "For seven sins, even for eight",
+      "For two sins, even for three",
+      "For four sins, even for five",
     ],
-    answer: "Damascus",
+    answer: "For three sins, even for four",
     reference: "Amos 1:3",
   },
   {
-    question: "Whose palace does God say He will set fire to in Damascus?",
+    question:
+      "What crime is Damascus accused of committing against Gilead?",
     options: [
-      "Hazael's",
-      "Ben-Hadad's",
-      "Ahab's",
-      "Jeroboam's",
+      "Threshing Gilead with sledges having iron teeth",
+      "Burning Gilead's cities",
+      "Taking Gilead's population captive",
+      "Destroying Gilead's vineyards",
     ],
-    answer: "Hazael's",
+    answer: "Threshing Gilead with sledges having iron teeth",
+    reference: "Amos 1:3",
+  },
+  {
+    question:
+      "Whose house does God say He will send fire upon in the judgment against Damascus?",
+    options: [
+      "Hazael",
+      "Ben-Hadad",
+      "Rezin",
+      "Hadadezer",
+    ],
+    answer: "Hazael",
     reference: "Amos 1:4",
   },
   {
-    question: "What will God break in Damascus?",
+    question:
+      "Whose fortresses will the fire consume in Damascus?",
+    options: [
+      "Ben-Hadad",
+      "Hazael",
+      "Rezin",
+      "Naaman",
+    ],
+    answer: "Ben-Hadad",
+    reference: "Amos 1:4",
+  },
+  {
+    question:
+      "What will God break in Damascus?",
     options: [
       "The gate bar",
-      "The altar",
-      "The palace roof",
-      "The city wall only",
+      "The city wall",
+      "The king's throne",
+      "The temple pillars",
     ],
     answer: "The gate bar",
     reference: "Amos 1:5",
   },
   {
-    question: "Which Philistine city is condemned for taking whole communities captive?",
+    question:
+      "From which place will God destroy the king who sits enthroned in the judgment against Damascus?",
     options: [
-      "Gaza",
-      "Ashdod",
-      "Ekron",
-      "Gath",
+      "The Valley of Aven",
+      "Beth Eden",
+      "Kir",
+      "Damascus",
     ],
-    answer: "Gaza",
-    reference: "Amos 1:6",
+    answer: "The Valley of Aven",
+    reference: "Amos 1:5",
   },
   {
-    question: "To whom did Gaza sell captive communities?",
+    question:
+      "From which place will the one holding the scepter be destroyed?",
     options: [
-      "Edom",
-      "Moab",
+      "Beth Eden",
+      "Kir",
+      "Damascus",
+      "Gilead",
+    ],
+    answer: "Beth Eden",
+    reference: "Amos 1:5",
+  },
+  {
+    question:
+      "To what place will the people of Aram go into exile?",
+    options: [
+      "Kir",
       "Egypt",
       "Assyria",
+      "Babylon",
     ],
-    answer: "Edom",
+    answer: "Kir",
+    reference: "Amos 1:5",
+  },
+  {
+    question:
+      "What crime is Gaza accused of committing?",
+    options: [
+      "Taking whole communities captive and selling them to Edom",
+      "Attacking Jerusalem",
+      "Burning Judah's cities",
+      "Breaking a treaty with Tyre",
+    ],
+    answer: "Taking whole communities captive and selling them to Edom",
     reference: "Amos 1:6",
   },
   {
-    question: "Which city is condemned for breaking a treaty of brotherhood?",
+    question:
+      "What will God send upon the walls of Gaza?",
     options: [
-      "Tyre",
-      "Damascus",
-      "Gaza",
-      "Rabbah",
+      "Fire",
+      "An earthquake",
+      "A plague",
+      "A flood",
     ],
-    answer: "Tyre",
+    answer: "Fire",
+    reference: "Amos 1:7",
+  },
+  {
+    question:
+      "Which Philistine cities are named for destruction in addition to Gaza?",
+    options: [
+      "Ashdod, Ashkelon, and Ekron",
+      "Gath, Ekron, and Ashdod",
+      "Ashkelon, Gath, and Ekron",
+      "Ashdod, Gath, and Ashkelon",
+    ],
+    answer: "Ashdod, Ashkelon, and Ekron",
+    reference: "Amos 1:8",
+  },
+  {
+    question:
+      "What crime is Tyre accused of committing?",
+    options: [
+      "Selling whole communities to Edom and disregarding a covenant of brotherhood",
+      "Burning the temple",
+      "Invading Gilead",
+      "Destroying Moab",
+    ],
+    answer:
+      "Selling whole communities to Edom and disregarding a covenant of brotherhood",
     reference: "Amos 1:9",
   },
   {
-    question: "What relationship had Tyre ignored?",
+    question:
+      "What special relationship had Tyre ignored according to Amos?",
     options: [
-      "A treaty of brotherhood",
-      "A marriage covenant",
+      "A covenant of brotherhood",
+      "A treaty of peace with Judah",
+      "A marriage alliance",
       "A priestly covenant",
-      "A military oath to Judah",
     ],
-    answer: "A treaty of brotherhood",
+    answer: "A covenant of brotherhood",
     reference: "Amos 1:9",
   },
   {
-    question: "Which nation is condemned for pursuing its brother with a sword?",
+    question:
+      "What persistent attitude is Edom accused of displaying toward his brother?",
     options: [
-      "Edom",
-      "Moab",
-      "Ammon",
-      "Philistia",
+      "Unrestrained anger and pursuit with the sword",
+      "Political jealousy only",
+      "Economic rivalry",
+      "Religious opposition",
     ],
-    answer: "Edom",
+    answer: "Unrestrained anger and pursuit with the sword",
     reference: "Amos 1:11",
   },
   {
-    question: "What emotion did Edom allow to rage continually?",
+    question:
+      "Which two Edomite locations are specifically named for fiery judgment?",
     options: [
-      "Anger",
-      "Fear",
-      "Jealousy",
-      "Sorrow",
+      "Teman and Bozrah",
+      "Edom and Seir",
+      "Dedan and Teman",
+      "Bozrah and Petra",
     ],
-    answer: "Anger",
-    reference: "Amos 1:11",
+    answer: "Teman and Bozrah",
+    reference: "Amos 1:12",
   },
   {
-    question: "Which people are condemned for ripping open pregnant women in Gilead?",
+    question:
+      "What atrocity is Ammon accused of committing in Gilead?",
     options: [
-      "Ammonites",
-      "Moabites",
-      "Edomites",
-      "Philistines",
+      "Ripping open pregnant women to extend its borders",
+      "Burning children in sacrifice",
+      "Massacring priests",
+      "Destroying vineyards",
     ],
-    answer: "Ammonites",
+    answer: "Ripping open pregnant women to extend its borders",
     reference: "Amos 1:13",
   },
   {
-    question: "Why did the Ammonites commit violence in Gilead?",
+    question:
+      "Which city of Ammon is specifically named for fiery judgment?",
     options: [
-      "To extend their borders",
-      "To avenge a king",
-      "To steal temple treasures",
-      "To destroy vineyards",
+      "Rabbah",
+      "Heshbon",
+      "Dibon",
+      "Kir",
     ],
-    answer: "To extend their borders",
-    reference: "Amos 1:13",
+    answer: "Rabbah",
+    reference: "Amos 1:14",
   },
-
   {
-    question: "Which nation is condemned for burning the bones of Edom's king to lime?",
+    question:
+      "What accompanies the fire against Rabbah?",
     options: [
-      "Moab",
-      "Ammon",
-      "Damascus",
-      "Tyre",
+      "War cries on the day of battle and violent winds on a stormy day",
+      "Famine and drought",
+      "Earthquake and hail",
+      "Darkness and locusts",
     ],
-    answer: "Moab",
+    answer:
+      "War cries on the day of battle and violent winds on a stormy day",
+    reference: "Amos 1:14",
+  },
+  {
+    question:
+      "What will happen to Ammon's king and officials?",
+    options: [
+      "They will go into exile together",
+      "They will be killed in Rabbah",
+      "They will flee to Egypt",
+      "They will surrender to Judah",
+    ],
+    answer: "They will go into exile together",
+    reference: "Amos 1:15",
+  },
+  {
+    question:
+      "What act against the king of Edom brings judgment upon Moab?",
+    options: [
+      "Burning his bones to lime",
+      "Taking him captive",
+      "Killing his sons",
+      "Destroying his palace",
+    ],
+    answer: "Burning his bones to lime",
     reference: "Amos 2:1",
   },
   {
-    question: "Which city of Moab is singled out for destruction by fire?",
+    question:
+      "Which Moabite city is specifically said to be consumed by fire?",
     options: [
       "Kerioth",
-      "Rabbah",
-      "Bozrah",
-      "Gaza",
+      "Dibon",
+      "Heshbon",
+      "Nebo",
     ],
     answer: "Kerioth",
     reference: "Amos 2:2",
   },
   {
-    question: "Why is Judah condemned?",
+    question:
+      "What will God destroy from Moab along with its ruler?",
     options: [
-      "For rejecting the law of the Lord",
+      "All its officials",
+      "All its priests",
+      "Its military commanders only",
+      "Its prophets",
+    ],
+    answer: "All its officials",
+    reference: "Amos 2:3",
+  },
+  {
+    question:
+      "Why is Judah condemned in Amos's series of judgments?",
+    options: [
+      "For rejecting the law of the LORD and not keeping His decrees",
       "For attacking Israel",
-      "For serving Assyria",
-      "For refusing a king",
+      "For trusting Egypt",
+      "For refusing temple worship",
     ],
-    answer: "For rejecting the law of the Lord",
+    answer: "For rejecting the law of the LORD and not keeping His decrees",
     reference: "Amos 2:4",
   },
   {
-    question: "What led Judah astray according to Amos?",
+    question:
+      "What led Judah astray according to Amos?",
     options: [
-      "False gods followed by their ancestors",
-      "Egyptian soldiers",
-      "The prophets",
-      "The priests of Jerusalem",
+      "The false gods their ancestors followed",
+      "The kings of Israel",
+      "The wealth of Jerusalem",
+      "Assyrian alliances",
     ],
-    answer: "False gods followed by their ancestors",
+    answer: "The false gods their ancestors followed",
     reference: "Amos 2:4",
   },
   {
-    question: "For what small price were the poor being sold?",
+    question:
+      "What will God send upon Judah?",
+    options: [
+      "Fire",
+      "Locusts",
+      "A flood",
+      "A plague",
+    ],
+    answer: "Fire",
+    reference: "Amos 2:5",
+  },
+  {
+    question:
+      "What will the fire sent on Judah consume?",
+    options: [
+      "The fortresses of Jerusalem",
+      "The temple only",
+      "The king's palace only",
+      "The city gates",
+    ],
+    answer: "The fortresses of Jerusalem",
+    reference: "Amos 2:5",
+  },
+  {
+    question:
+      "For what price do the Israelites sell the righteous?",
+    options: [
+      "Silver",
+      "Gold",
+      "A pair of sandals",
+      "Grain",
+    ],
+    answer: "Silver",
+    reference: "Amos 2:6",
+  },
+  {
+    question:
+      "For what small item do they sell the needy?",
     options: [
       "A pair of sandals",
       "A loaf of bread",
-      "A silver coin",
       "A jar of oil",
+      "A garment",
     ],
     answer: "A pair of sandals",
     reference: "Amos 2:6",
   },
   {
-    question: "What did the powerful trample into the dust?",
+    question:
+      "What do the Israelites do to the heads of the poor?",
     options: [
-      "The heads of the poor",
-      "The grain of farmers",
-      "The idols of foreigners",
-      "The crowns of kings",
+      "Trample them into the dust",
+      "Shave them",
+      "Anoint them with ashes",
+      "Strike them with rods",
     ],
-    answer: "The heads of the poor",
+    answer: "Trample them into the dust",
     reference: "Amos 2:7",
   },
   {
-    question: "Whose justice did Israel deny?",
+    question:
+      "What happens to justice for the oppressed?",
     options: [
-      "The oppressed",
-      "The priests",
-      "The wealthy",
-      "The kings",
+      "It is denied",
+      "It is delayed",
+      "It is sold",
+      "It is written on tablets",
     ],
-    answer: "The oppressed",
+    answer: "It is denied",
     reference: "Amos 2:7",
   },
   {
-    question: "What immoral act is condemned involving a father and son?",
+    question:
+      "What shameful sexual sin is specifically mentioned against Israel?",
     options: [
-      "Both going to the same woman",
-      "Both stealing from the temple",
-      "Both worshiping in Bethel",
-      "Both refusing sacrifices",
+      "Father and son use the same girl",
+      "Priests marry foreign women",
+      "Kings take many wives",
+      "Men divorce their wives without cause",
     ],
-    answer: "Both going to the same woman",
+    answer: "Father and son use the same girl",
     reference: "Amos 2:7",
   },
   {
-    question: "What did people lie down beside every altar on?",
+    question:
+      "What do Israelites do beside every altar with garments taken in pledge?",
     options: [
-      "Garments taken in pledge",
-      "Priestly robes",
-      "Animal skins",
-      "Royal carpets",
+      "Lie down on them",
+      "Burn them",
+      "Give them to priests",
+      "Sell them",
     ],
-    answer: "Garments taken in pledge",
+    answer: "Lie down on them",
     reference: "Amos 2:8",
   },
   {
-    question: "What wine did the wealthy drink in the house of their god?",
+    question:
+      "What do the Israelites drink in the house of their god?",
     options: [
       "Wine taken as fines",
-      "Temple wine",
-      "Imported wine only",
-      "New wine from Judah",
+      "Water from sacred springs",
+      "New wine from tithes",
+      "Wine given by priests",
     ],
     answer: "Wine taken as fines",
     reference: "Amos 2:8",
   },
   {
-    question: "What people had God destroyed before Israel despite their great stature?",
-    options: [
-      "Amorites",
-      "Philistines",
-      "Moabites",
-      "Ammonites",
-    ],
-    answer: "Amorites",
-    reference: "Amos 2:9",
-  },
-  {
-    question: "To what trees were the Amorites compared in height and strength?",
+    question:
+      "To what two great trees are the Amorites compared in height and strength?",
     options: [
       "Cedars and oaks",
       "Olives and figs",
-      "Palms and vines",
-      "Pines and cypress",
+      "Palms and cedars",
+      "Oaks and sycamores",
     ],
     answer: "Cedars and oaks",
     reference: "Amos 2:9",
   },
   {
-    question: "From what land did God bring Israel up?",
+    question:
+      "What did God destroy in the Amorites despite their strength?",
     options: [
-      "Egypt",
-      "Babylon",
-      "Assyria",
-      "Edom",
+      "Their fruit above and roots below",
+      "Their cities and vineyards",
+      "Their kings and armies",
+      "Their idols and temples",
     ],
-    answer: "Egypt",
-    reference: "Amos 2:10",
+    answer: "Their fruit above and roots below",
+    reference: "Amos 2:9",
   },
   {
-    question: "How long did God lead Israel through the wilderness?",
+    question:
+      "How many years did God lead Israel in the wilderness?",
     options: [
       "Forty years",
       "Seventy years",
-      "Seven years",
       "Twenty years",
+      "Thirty years",
     ],
     answer: "Forty years",
     reference: "Amos 2:10",
   },
   {
-    question: "Whom did God raise up from among Israel's sons?",
+    question:
+      "What two special groups did God raise up from among Israel's own children?",
     options: [
-      "Prophets",
-      "Kings only",
-      "Merchants",
-      "Soldiers",
+      "Prophets and Nazirites",
+      "Priests and kings",
+      "Judges and scribes",
+      "Levites and warriors",
     ],
-    answer: "Prophets",
+    answer: "Prophets and Nazirites",
     reference: "Amos 2:11",
   },
   {
-    question: "Whom did God raise up from among Israel's young men?",
-    options: [
-      "Nazirites",
-      "Priests",
-      "Judges",
-      "Scribes",
-    ],
-    answer: "Nazirites",
-    reference: "Amos 2:11",
-  },
-  {
-    question: "What did Israel make the Nazirites do?",
+    question:
+      "What did Israel make the Nazirites do?",
     options: [
       "Drink wine",
-      "Cut their hair only",
-      "Leave the land",
+      "Cut their hair",
       "Offer sacrifices",
+      "Leave the land",
     ],
     answer: "Drink wine",
     reference: "Amos 2:12",
   },
   {
-    question: "What did Israel command the prophets not to do?",
+    question:
+      "What did Israel command the prophets not to do?",
     options: [
       "Prophesy",
-      "Pray",
-      "Travel",
-      "Teach",
+      "Enter Bethel",
+      "Speak against the king",
+      "Travel to Judah",
     ],
     answer: "Prophesy",
     reference: "Amos 2:12",
   },
   {
-    question: "To what is God's coming pressure on Israel compared?",
+    question:
+      "To what overloaded object does God compare the pressure of Israel's sin?",
     options: [
       "A cart loaded with grain",
-      "A heavy stone",
-      "A flooded river",
-      "A falling wall",
+      "A ship filled with cargo",
+      "A yoke on oxen",
+      "A basket full of fruit",
     ],
     answer: "A cart loaded with grain",
     reference: "Amos 2:13",
   },
-
   {
-    question: "Why did God say Israel would be held especially accountable?",
+    question:
+      "What will fail the swift person in the day of judgment?",
     options: [
-      "They alone had been specially known among the families of the earth",
-      "They were the wealthiest nation",
-      "They had the strongest army",
-      "They lived closest to Jerusalem",
+      "Escape",
+      "Strength",
+      "Weapons",
+      "Wisdom",
     ],
-    answer: "They alone had been specially known among the families of the earth",
+    answer: "Escape",
+    reference: "Amos 2:14",
+  },
+  {
+    question:
+      "What will the strong person be unable to do?",
+    options: [
+      "Muster strength",
+      "Run",
+      "Use a bow",
+      "Ride a horse",
+    ],
+    answer: "Muster strength",
+    reference: "Amos 2:14",
+  },
+  {
+    question:
+      "What will happen to the archer?",
+    options: [
+      "He will not stand his ground",
+      "His bow will break",
+      "He will flee to Judah",
+      "He will be blinded",
+    ],
+    answer: "He will not stand his ground",
+    reference: "Amos 2:15",
+  },
+  {
+    question:
+      "What will the fleet-footed person fail to do?",
+    options: [
+      "Escape",
+      "Fight",
+      "Hide",
+      "Cross the river",
+    ],
+    answer: "Escape",
+    reference: "Amos 2:15",
+  },
+  {
+    question:
+      "What will happen to the horseman?",
+    options: [
+      "He will not save his life",
+      "His horse will die",
+      "He will be taken captive",
+      "He will dismount and flee",
+    ],
+    answer: "He will not save his life",
+    reference: "Amos 2:15",
+  },
+  {
+    question:
+      "How will even the bravest warrior flee in that day?",
+    options: [
+      "Naked",
+      "Wounded",
+      "On foot",
+      "Without weapons",
+    ],
+    answer: "Naked",
+    reference: "Amos 2:16",
+  },
+  {
+    question:
+      "What special relationship does God use to explain why Israel is being held accountable?",
+    options: [
+      "You only have I known among all the families of the earth",
+      "You only have I made into a kingdom",
+      "You only have I given prophets",
+      "You only have I brought into Canaan",
+    ],
+    answer: "You only have I known among all the families of the earth",
     reference: "Amos 3:2",
   },
   {
-    question: "What rhetorical question does Amos ask about two people walking together?",
+    question:
+      "What conclusion follows Israel's privileged relationship with God?",
     options: [
-      "Do two walk together unless they have agreed?",
-      "Can two kings share one throne?",
-      "Can two armies win one war?",
-      "Can two prophets speak at once?",
+      "God will punish them for all their sins",
+      "They will never face judgment",
+      "They will rule all nations",
+      "Their kings will never fail",
     ],
-    answer: "Do two walk together unless they have agreed?",
+    answer: "God will punish them for all their sins",
+    reference: "Amos 3:2",
+  },
+  {
+    question:
+      "What rhetorical question begins Amos's chain of cause-and-effect examples?",
+    options: [
+      "Do two walk together unless they have agreed to do so?",
+      "Can a lion roar without prey?",
+      "Does a bird fall without a trap?",
+      "Can a trumpet sound without fear?",
+    ],
+    answer: "Do two walk together unless they have agreed to do so?",
     reference: "Amos 3:3",
   },
   {
-    question: "When does a lion roar in the thicket according to Amos's illustration?",
+    question:
+      "When does a lion roar in the thicket according to Amos's rhetorical sequence?",
     options: [
       "When it has prey",
-      "When it is hungry only",
-      "When it is asleep",
-      "When it sees water",
+      "When it is hungry",
+      "When night comes",
+      "When hunters approach",
     ],
     answer: "When it has prey",
     reference: "Amos 3:4",
   },
   {
-    question: "What happens in a city when a trumpet is sounded?",
+    question:
+      "When does a young lion growl from its den?",
+    options: [
+      "When it has caught something",
+      "When its mother returns",
+      "When dawn comes",
+      "When it is attacked",
+    ],
+    answer: "When it has caught something",
+    reference: "Amos 3:4",
+  },
+  {
+    question:
+      "What must exist before a bird can fall into a trap on the ground?",
+    options: [
+      "A snare",
+      "Bait",
+      "A hunter",
+      "A net overhead",
+    ],
+    answer: "A snare",
+    reference: "Amos 3:5",
+  },
+  {
+    question:
+      "What happens when a trumpet sounds in a city?",
     options: [
       "The people tremble",
-      "The people celebrate",
-      "The gates close automatically",
-      "The priests gather",
+      "The king comes out",
+      "The gates close",
+      "The army attacks",
     ],
     answer: "The people tremble",
     reference: "Amos 3:6",
   },
   {
-    question: "Before acting, to whom does God reveal His plan?",
+    question:
+      "What does Amos say about disaster occurring in a city?",
     options: [
-      "His servants the prophets",
-      "Kings only",
-      "Priests only",
-      "Foreign rulers",
+      "It does not happen unless the LORD has acted",
+      "It is always caused by foreign kings",
+      "It happens by chance",
+      "It is always caused by famine",
     ],
-    answer: "His servants the prophets",
+    answer: "It does not happen unless the LORD has acted",
+    reference: "Amos 3:6",
+  },
+  {
+    question:
+      "What does the Sovereign LORD reveal before acting?",
+    options: [
+      "His plan to His servants the prophets",
+      "His judgment to kings",
+      "His law to priests",
+      "His secrets to angels only",
+    ],
+    answer: "His plan to His servants the prophets",
     reference: "Amos 3:7",
   },
   {
-    question: "What does Amos say naturally follows when a lion roars?",
+    question:
+      "What response is inevitable when a lion has roared?",
     options: [
       "Fear",
-      "Joy",
-      "Sleep",
+      "Flight",
       "Silence",
+      "War",
     ],
     answer: "Fear",
     reference: "Amos 3:8",
   },
   {
-    question: "What does Amos say naturally follows when the Sovereign Lord speaks?",
+    question:
+      "What response is inevitable when the Sovereign LORD has spoken?",
     options: [
-      "The prophet must prophesy",
-      "The king must flee",
-      "The priest must sacrifice",
-      "The people must fight",
+      "Prophesying",
+      "Sacrifice",
+      "Repentance",
+      "Fasting",
     ],
-    answer: "The prophet must prophesy",
+    answer: "Prophesying",
     reference: "Amos 3:8",
   },
   {
-    question: "From which two places are witnesses summoned to observe Samaria's disorder?",
+    question:
+      "Which two foreign strongholds are invited to witness the turmoil in Samaria?",
     options: [
       "Ashdod and Egypt",
       "Tyre and Sidon",
-      "Moab and Edom",
-      "Judah and Benjamin",
+      "Damascus and Moab",
+      "Egypt and Edom",
     ],
     answer: "Ashdod and Egypt",
     reference: "Amos 3:9",
   },
   {
-    question: "What did the wealthy store up in their fortresses?",
+    question:
+      "What do the people of Samaria not know how to do?",
+    options: [
+      "Do right",
+      "Worship",
+      "Fight",
+      "Trade",
+    ],
+    answer: "Do right",
+    reference: "Amos 3:10",
+  },
+  {
+    question:
+      "What do they store up in their fortresses?",
     options: [
       "Plunder and loot",
       "Grain and wine",
-      "Silver and gold only",
-      "Weapons",
+      "Weapons and silver",
+      "Idols and treasures",
     ],
     answer: "Plunder and loot",
     reference: "Amos 3:10",
   },
   {
-    question: "What image does Amos use for the small remnant rescued from Samaria?",
+    question:
+      "What will an enemy do to Israel's strongholds?",
     options: [
-      "Two leg bones or a piece of an ear rescued from a lion",
-      "A lamb rescued from a wolf",
-      "A bird escaping a net",
-      "A branch pulled from fire",
+      "Surround the land, pull down defenses, and plunder fortresses",
+      "Burn the temple only",
+      "Destroy the vineyards",
+      "Take the king captive but spare the cities",
     ],
-    answer: "Two leg bones or a piece of an ear rescued from a lion",
+    answer:
+      "Surround the land, pull down defenses, and plunder fortresses",
+    reference: "Amos 3:11",
+  },
+  {
+    question:
+      "What tiny remains might a shepherd rescue from a lion's mouth in Amos's comparison?",
+    options: [
+      "Two leg bones or a piece of an ear",
+      "A hoof and a horn",
+      "A tail and an ear",
+      "A jawbone and two ribs",
+    ],
+    answer: "Two leg bones or a piece of an ear",
     reference: "Amos 3:12",
   },
   {
-    question: "What would happen to the horns of the altar at Bethel?",
+    question:
+      "What piece of furniture is mentioned in Amos's image of the small remnant rescued from Samaria?",
     options: [
-      "They would be cut off",
-      "They would grow larger",
-      "They would be covered with gold",
-      "They would be moved to Jerusalem",
+      "The edge of a bed and a piece of a couch",
+      "A throne and footstool",
+      "A table and stool",
+      "A couch and lampstand",
     ],
-    answer: "They would be cut off",
+    answer: "The edge of a bed and a piece of a couch",
+    reference: "Amos 3:12",
+  },
+  {
+    question:
+      "What will happen to the altars of Bethel when God punishes Israel?",
+    options: [
+      "Their horns will be cut off and fall to the ground",
+      "They will be moved to Jerusalem",
+      "They will be covered with ashes",
+      "They will be rebuilt",
+    ],
+    answer: "Their horns will be cut off and fall to the ground",
     reference: "Amos 3:14",
   },
   {
-    question: "What luxurious houses does God say He will destroy?",
+    question:
+      "Which seasonal houses does God say He will destroy?",
     options: [
-      "Winter houses, summer houses, and houses adorned with ivory",
-      "Only royal palaces",
-      "Only priests' houses",
-      "Only foreign merchants' houses",
+      "Winter house and summer house",
+      "Royal house and priestly house",
+      "Mountain house and valley house",
+      "Country house and city house",
     ],
-    answer: "Winter houses, summer houses, and houses adorned with ivory",
+    answer: "Winter house and summer house",
     reference: "Amos 3:15",
   },
-
   {
-    question: "What insulting animal image does Amos use for wealthy women of Samaria?",
+    question:
+      "What luxury material is associated with houses destined for destruction?",
+    options: [
+      "Ivory",
+      "Gold",
+      "Cedar",
+      "Silver",
+    ],
+    answer: "Ivory",
+    reference: "Amos 3:15",
+  },
+  {
+    question:
+      "What derogatory animal image does Amos use for wealthy women of Samaria?",
     options: [
       "Cows of Bashan",
-      "Lionesses of Carmel",
+      "Sheep of Carmel",
       "Doves of Ephraim",
-      "Ewes of Gilead",
+      "Lionesses of Samaria",
     ],
     answer: "Cows of Bashan",
     reference: "Amos 4:1",
   },
   {
-    question: "Whom did the wealthy women oppress?",
+    question:
+      "On what mountain are the 'cows of Bashan' said to live?",
     options: [
-      "The poor and needy",
-      "The priests",
-      "The kings",
-      "Foreign merchants",
+      "Samaria",
+      "Carmel",
+      "Zion",
+      "Tabor",
     ],
-    answer: "The poor and needy",
+    answer: "Samaria",
     reference: "Amos 4:1",
   },
   {
-    question: "What did these women demand from their husbands?",
+    question:
+      "What are the wealthy women accused of doing to the poor and needy?",
     options: [
-      "Bring us drinks",
-      "Bring us sacrifices",
-      "Build larger houses",
-      "Buy more land",
+      "Oppressing the poor and crushing the needy",
+      "Selling them into slavery",
+      "Refusing them temple access",
+      "Taking their land only",
     ],
-    answer: "Bring us drinks",
+    answer: "Oppressing the poor and crushing the needy",
     reference: "Amos 4:1",
   },
   {
-    question: "What does Amos say would be used to take these women away?",
+    question:
+      "What do these women say to their husbands?",
     options: [
-      "Hooks",
-      "Chariots",
-      "Chains only",
-      "Ships",
+      "Bring us some drinks",
+      "Bring us silver",
+      "Build us houses",
+      "Take us to Bethel",
     ],
-    answer: "Hooks",
+    answer: "Bring us some drinks",
+    reference: "Amos 4:1",
+  },
+  {
+    question:
+      "By what does God swear when announcing judgment on the women of Samaria?",
+    options: [
+      "His holiness",
+      "His throne",
+      "His name",
+      "His covenant",
+    ],
+    answer: "His holiness",
     reference: "Amos 4:2",
   },
   {
-    question: "At which worship center does Amos sarcastically tell Israel to go and sin?",
+    question:
+      "What implements are used in the image of the women's coming capture?",
     options: [
-      "Bethel",
-      "Jerusalem",
-      "Shiloh",
-      "Hebron",
+      "Hooks and fishhooks",
+      "Chains and ropes",
+      "Nets and snares",
+      "Spears and swords",
     ],
-    answer: "Bethel",
+    answer: "Hooks and fishhooks",
+    reference: "Amos 4:2",
+  },
+  {
+    question:
+      "How will the captured women leave the city?",
+    options: [
+      "Each straight out through breaches in the wall",
+      "Through the main gate",
+      "By the river",
+      "Through underground tunnels",
+    ],
+    answer: "Each straight out through breaches in the wall",
+    reference: "Amos 4:3",
+  },
+  {
+    question:
+      "Which two sanctuaries does Amos sarcastically tell Israel to visit and sin?",
+    options: [
+      "Bethel and Gilgal",
+      "Dan and Bethel",
+      "Gilgal and Beersheba",
+      "Samaria and Bethel",
+    ],
+    answer: "Bethel and Gilgal",
     reference: "Amos 4:4",
   },
   {
-    question: "What other place is sarcastically linked with multiplying transgression?",
-    options: [
-      "Gilgal",
-      "Tekoa",
-      "Samaria",
-      "Jericho",
-    ],
-    answer: "Gilgal",
-    reference: "Amos 4:4",
-  },
-  {
-    question: "How frequently did Amos sarcastically say Israel should bring sacrifices?",
+    question:
+      "How often does Amos sarcastically say Israel should bring sacrifices?",
     options: [
       "Every morning",
       "Every Sabbath",
-      "Once a year",
       "Every month",
+      "Twice a day",
     ],
     answer: "Every morning",
     reference: "Amos 4:4",
   },
   {
-    question: "What kind of bread did Amos sarcastically mention offering as a thank offering?",
+    question:
+      "How often does Amos say they should bring tithes in his sarcastic description?",
+    options: [
+      "Every three days",
+      "Every seven days",
+      "Every month",
+      "Every year",
+    ],
+    answer: "Every three days",
+    reference: "Amos 4:4",
+  },
+  {
+    question:
+      "What kind of offering are they told sarcastically to burn as a thank offering?",
     options: [
       "Leavened bread",
       "Unleavened bread",
-      "Barley bread",
-      "Showbread",
+      "Grain mixed with oil",
+      "Incense",
     ],
     answer: "Leavened bread",
     reference: "Amos 4:5",
   },
   {
-    question: "What did God give Israel in every city to get their attention?",
+    question:
+      "What famine-like judgment had God already sent to every city?",
     options: [
       "Empty stomachs and lack of bread",
-      "Abundant grain",
-      "Military defeat only",
-      "Floods",
+      "Locusts",
+      "Lack of wine",
+      "Loss of livestock",
     ],
     answer: "Empty stomachs and lack of bread",
     reference: "Amos 4:6",
   },
   {
-    question: "What weather did God withhold when harvest was still months away?",
+    question:
+      "How long before harvest did God withhold rain?",
     options: [
-      "Rain",
-      "Snow",
-      "Wind",
-      "Dew",
+      "Three months",
+      "Forty days",
+      "Seven weeks",
+      "One month",
     ],
-    answer: "Rain",
+    answer: "Three months",
     reference: "Amos 4:7",
   },
   {
-    question: "What happened when God sent rain on one town but withheld it from another?",
+    question:
+      "What uneven pattern accompanied the withheld rain?",
     options: [
-      "People staggered from town to town for water",
-      "The dry town moved",
-      "The people immediately repented",
-      "The rainy town shared all its water",
+      "One town received rain while another did not",
+      "Only Samaria received rain",
+      "Only Judah received rain",
+      "Rain fell only at night",
     ],
-    answer: "People staggered from town to town for water",
+    answer: "One town received rain while another did not",
+    reference: "Amos 4:7",
+  },
+  {
+    question:
+      "What happened to fields where rain did not fall?",
+    options: [
+      "They dried up",
+      "They burned",
+      "They flooded later",
+      "They were abandoned",
+    ],
+    answer: "They dried up",
+    reference: "Amos 4:7",
+  },
+  {
+    question:
+      "How did people respond to water scarcity between towns?",
+    options: [
+      "They staggered from town to town but did not get enough water",
+      "They dug new wells",
+      "They fled to Egypt",
+      "They stored dew",
+    ],
+    answer:
+      "They staggered from town to town but did not get enough water",
     reference: "Amos 4:8",
   },
   {
-    question: "What agricultural disasters did God send against Israel?",
+    question:
+      "What plant diseases does God say He struck Israel with?",
     options: [
-      "Blight, mildew, and locusts",
-      "Flood, hail, and snow",
-      "Fire and earthquake only",
-      "Drought and frost only",
+      "Blight and mildew",
+      "Rust and rot",
+      "Mold and drought",
+      "Locust and mildew",
     ],
-    answer: "Blight, mildew, and locusts",
+    answer: "Blight and mildew",
     reference: "Amos 4:9",
   },
   {
-    question: "What plague does God say He sent after the manner of Egypt?",
+    question:
+      "What consumed many of Israel's gardens, vineyards, fig trees, and olive trees?",
     options: [
-      "A plague among the people",
-      "Darkness only",
-      "Frogs",
-      "Blood in the rivers",
+      "Locusts",
+      "Fire",
+      "Wild animals",
+      "Foreign soldiers",
     ],
-    answer: "A plague among the people",
+    answer: "Locusts",
+    reference: "Amos 4:9",
+  },
+  {
+    question:
+      "What historical plague is used as a comparison for another judgment God sent?",
+    options: [
+      "A plague like the one in Egypt",
+      "The plague of Baal Peor",
+      "The plague in David's reign",
+      "The plague in the wilderness",
+    ],
+    answer: "A plague like the one in Egypt",
     reference: "Amos 4:10",
   },
   {
-    question: "What happened to some of Israel's young men?",
+    question:
+      "What happened to Israel's young men in war?",
     options: [
-      "They were killed with the sword",
-      "They became prophets",
-      "They fled to Judah",
-      "They became kings",
+      "They were killed by the sword",
+      "They were exiled",
+      "They fled",
+      "They became servants",
     ],
-    answer: "They were killed with the sword",
+    answer: "They were killed by the sword",
     reference: "Amos 4:10",
   },
   {
-    question: "What smell did God make rise into Israel's nostrils?",
+    question:
+      "What happened to Israel's horses during judgment?",
     options: [
-      "The stench of their camps",
-      "Incense",
-      "Burnt offerings",
-      "The smell of rain",
+      "They were captured",
+      "They died of plague",
+      "They were burned",
+      "They were sent to Egypt",
     ],
-    answer: "The stench of their camps",
+    answer: "They were captured",
     reference: "Amos 4:10",
   },
   {
-    question: "To which destroyed cities does God compare some of Israel's devastation?",
+    question:
+      "To what famous destroyed cities does Amos compare the overthrow of some Israelites?",
     options: [
       "Sodom and Gomorrah",
-      "Tyre and Sidon",
       "Jericho and Ai",
-      "Damascus and Gaza",
+      "Babylon and Nineveh",
+      "Admah and Zeboyim",
     ],
     answer: "Sodom and Gomorrah",
     reference: "Amos 4:11",
   },
   {
-    question: "To what rescued object is Israel compared after narrowly escaping destruction?",
+    question:
+      "To what object rescued from destruction is the remnant compared?",
     options: [
       "A burning stick snatched from the fire",
-      "A stone pulled from water",
-      "A sheep rescued from a wolf",
-      "A bird freed from a cage",
+      "A coal taken from the altar",
+      "A branch saved from a tree",
+      "A vessel pulled from water",
     ],
     answer: "A burning stick snatched from the fire",
     reference: "Amos 4:11",
   },
   {
-    question: "What solemn command follows Israel's refusal to return to God?",
+    question:
+      "What command follows the repeated statement that Israel did not return to God?",
     options: [
       "Prepare to meet your God",
-      "Prepare for exile",
-      "Prepare your army",
-      "Prepare a sacrifice",
+      "Return to Bethel",
+      "Call a fast",
+      "Seek the king",
     ],
     answer: "Prepare to meet your God",
     reference: "Amos 4:12",
   },
   {
-    question: "What does Amos say God forms?",
+    question:
+      "What does God form according to Amos's description of His power?",
     options: [
       "The mountains",
-      "The sea only",
+      "The seas",
       "The nations",
-      "The temple",
+      "The stars",
     ],
     answer: "The mountains",
     reference: "Amos 4:13",
   },
   {
-    question: "What does Amos say God creates?",
+    question:
+      "What does God create in the same declaration?",
     options: [
       "The wind",
       "The sun",
-      "The stars only",
-      "The rivers",
+      "The rain",
+      "The sea",
     ],
     answer: "The wind",
     reference: "Amos 4:13",
   },
   {
-    question: "What does God reveal to humans according to Amos?",
+    question:
+      "What does God reveal to humans according to Amos's hymn-like statement?",
     options: [
       "His thoughts",
-      "Every future event",
-      "The exact hour of judgment",
-      "All mysteries",
+      "The future",
+      "Their sins",
+      "The law",
     ],
     answer: "His thoughts",
     reference: "Amos 4:13",
   },
-
   {
-    question: "What kind of song does Amos take up over Israel?",
+    question:
+      "What does God turn dawn into?",
     options: [
-      "A lament",
-      "A victory song",
-      "A wedding song",
-      "A thanksgiving hymn",
+      "Darkness",
+      "Night",
+      "Fire",
+      "Storm",
     ],
-    answer: "A lament",
-    reference: "Amos 5:1",
+    answer: "Darkness",
+    reference: "Amos 4:13",
   },
   {
-    question: "How is fallen Israel described?",
+    question:
+      "Where does God tread according to Amos's description?",
     options: [
-      "A virgin who will rise no more by her own strength",
-      "A widow returning home",
-      "A queen among nations",
-      "A shepherd without sheep",
+      "On the heights of the earth",
+      "On the sea",
+      "On Mount Zion",
+      "On the clouds",
     ],
-    answer: "A virgin who will rise no more by her own strength",
-    reference: "Amos 5:2",
+    answer: "On the heights of the earth",
+    reference: "Amos 4:13",
   },
   {
-    question: "What proportion of a city's soldiers does Amos describe returning after judgment?",
+    question:
+      "What proportion of a city of one thousand does Amos say may be left to Israel?",
     options: [
-      "One tenth",
-      "One half",
-      "One third",
-      "One quarter",
+      "One hundred",
+      "Ten",
+      "Fifty",
+      "Five hundred",
     ],
-    answer: "One tenth",
+    answer: "One hundred",
     reference: "Amos 5:3",
   },
   {
-    question: "What simple command does God give Israel if they want to live?",
+    question:
+      "What proportion of a city of one hundred may be left?",
     options: [
-      "Seek me and live",
-      "Sacrifice and live",
-      "Fight and live",
-      "Flee and live",
+      "Ten",
+      "Twenty",
+      "Five",
+      "One",
     ],
-    answer: "Seek me and live",
+    answer: "Ten",
+    reference: "Amos 5:3",
+  },
+  {
+    question:
+      "What simple command does the LORD give Israel as the way to live?",
+    options: [
+      "Seek Me and live",
+      "Sacrifice and live",
+      "Return to Jerusalem and live",
+      "Obey the king and live",
+    ],
+    answer: "Seek Me and live",
     reference: "Amos 5:4",
   },
   {
-    question: "Which worship center are the people told not to seek?",
+    question:
+      "Which three religious sites are warned against in the call to seek God?",
     options: [
-      "Bethel",
-      "Jerusalem",
-      "Tekoa",
-      "Hebron",
+      "Bethel, Gilgal, and Beersheba",
+      "Dan, Bethel, and Gilgal",
+      "Jerusalem, Gilgal, and Bethel",
+      "Samaria, Bethel, and Beersheba",
     ],
-    answer: "Bethel",
+    answer: "Bethel, Gilgal, and Beersheba",
     reference: "Amos 5:5",
   },
   {
-    question: "Which place does Amos say will surely go into exile?",
+    question:
+      "What will happen to Gilgal according to Amos's wordplay?",
     options: [
-      "Gilgal",
-      "Zion",
-      "Tekoa",
-      "Carmel",
+      "It will surely go into exile",
+      "It will burn",
+      "It will become a desert",
+      "It will be rebuilt",
     ],
-    answer: "Gilgal",
+    answer: "It will surely go into exile",
     reference: "Amos 5:5",
   },
   {
-    question: "What will happen to Bethel?",
+    question:
+      "What will happen to Bethel?",
     options: [
       "It will be reduced to nothing",
-      "It will become Jerusalem",
-      "It will become the capital",
+      "It will become Judah's capital",
       "It will be spared",
+      "It will be given to Assyria",
     ],
     answer: "It will be reduced to nothing",
     reference: "Amos 5:5",
   },
   {
-    question: "What does Amos accuse Israel of turning justice into?",
+    question:
+      "What might God break out like against the house of Joseph if they refuse to seek Him?",
+    options: [
+      "Fire",
+      "A flood",
+      "A lion",
+      "A plague",
+    ],
+    answer: "Fire",
+    reference: "Amos 5:6",
+  },
+  {
+    question:
+      "What does Amos accuse the people of turning justice into?",
     options: [
       "Bitterness",
-      "Gold",
-      "Violence only",
-      "Silence",
+      "Dust",
+      "Violence",
+      "Ashes",
     ],
     answer: "Bitterness",
     reference: "Amos 5:7",
   },
   {
-    question: "What do they cast to the ground?",
+    question:
+      "What do they cast righteousness down to?",
     options: [
-      "Righteousness",
-      "The law",
-      "The altar",
-      "Truth only",
+      "The ground",
+      "The dust",
+      "The city gate",
+      "The grave",
     ],
-    answer: "Righteousness",
+    answer: "The ground",
     reference: "Amos 5:7",
   },
   {
-    question: "Which star groups does Amos say God made?",
+    question:
+      "Which two star groups are specifically named as God's creations?",
     options: [
       "Pleiades and Orion",
-      "Ursa Major and Sirius",
-      "Orion and Venus",
-      "Pleiades and Mars",
+      "Orion and Sirius",
+      "Pleiades and Venus",
+      "Ursa Major and Orion",
     ],
     answer: "Pleiades and Orion",
     reference: "Amos 5:8",
   },
   {
-    question: "What does God turn into dawn?",
+    question:
+      "What does God turn into dawn?",
     options: [
-      "Midnight darkness",
-      "The sea",
-      "Fire",
+      "Deep darkness",
+      "Night",
       "Storm clouds",
+      "The shadow of death only",
     ],
-    answer: "Midnight darkness",
+    answer: "Deep darkness",
     reference: "Amos 5:8",
   },
   {
-    question: "What does God turn into night?",
+    question:
+      "What does God turn day into?",
     options: [
-      "Day",
-      "Morning mist",
+      "Night",
+      "Dawn",
       "Fire",
-      "The sea",
+      "Darkness without end",
     ],
-    answer: "Day",
+    answer: "Night",
     reference: "Amos 5:8",
   },
   {
-    question: "What does God call for and pour over the face of the land?",
+    question:
+      "What does God summon and pour over the face of the land?",
     options: [
       "The waters of the sea",
       "Fire from heaven",
-      "The winds",
-      "Dust",
+      "Rain from the clouds",
+      "The rivers of Egypt",
     ],
     answer: "The waters of the sea",
     reference: "Amos 5:8",
   },
   {
-    question: "Whom did the corrupt hate at the city gate?",
+    question:
+      "Whom do the people hate at the city gate?",
     options: [
-      "The one who upheld justice",
-      "The wealthy",
-      "The king",
+      "The one who reproves",
+      "The poor",
+      "The foreigner",
       "The priest",
     ],
-    answer: "The one who upheld justice",
+    answer: "The one who reproves",
     reference: "Amos 5:10",
   },
   {
-    question: "Whom did they detest?",
+    question:
+      "Whom do they detest?",
     options: [
-      "The one who told the truth",
-      "The foreigner",
-      "The merchant",
-      "The farmer",
+      "The one who tells the truth",
+      "The judge",
+      "The prophet",
+      "The king",
     ],
-    answer: "The one who told the truth",
+    answer: "The one who tells the truth",
     reference: "Amos 5:10",
   },
   {
-    question: "What tax-related oppression did Amos condemn?",
+    question:
+      "What have the rich imposed on the poor?",
     options: [
-      "Taxing the poor's grain",
-      "Taxing kings",
-      "Taxing temple sacrifices",
-      "Taxing foreign merchants",
+      "A tax of grain",
+      "Forced labor",
+      "A tax of silver",
+      "Military service",
     ],
-    answer: "Taxing the poor's grain",
+    answer: "A tax of grain",
     reference: "Amos 5:11",
   },
   {
-    question: "What luxurious houses would the oppressors build but not live in?",
+    question:
+      "What kind of houses do the oppressors build but not live in?",
     options: [
       "Houses of dressed stone",
-      "Houses of cedar only",
-      "Ivory towers",
-      "Palaces of gold",
+      "Houses of ivory",
+      "Cedar palaces",
+      "Brick fortresses",
     ],
     answer: "Houses of dressed stone",
     reference: "Amos 5:11",
   },
   {
-    question: "What would the wealthy plant but not drink from?",
+    question:
+      "What kind of vineyards do they plant but not drink from?",
     options: [
       "Lush vineyards",
-      "Olive groves",
-      "Fig orchards",
-      "Wheat fields",
+      "Small vineyards",
+      "Royal vineyards",
+      "Hillside vineyards",
     ],
     answer: "Lush vineyards",
     reference: "Amos 5:11",
   },
   {
-    question: "What did the corrupt accept?",
+    question:
+      "What do the unjust accept in exchange for suppressing the innocent?",
     options: [
       "Bribes",
-      "Prophecies",
-      "Foreigners",
-      "Sacrifices",
+      "Tithes",
+      "Gifts from kings",
+      "Foreign tribute",
     ],
     answer: "Bribes",
     reference: "Amos 5:12",
   },
   {
-    question: "Whom did they deprive of justice at the courts?",
+    question:
+      "Why does the prudent person keep quiet in such a time?",
     options: [
-      "The poor",
-      "The priests",
-      "The kings",
-      "The foreigners",
+      "Because the time is evil",
+      "Because prophets are forbidden",
+      "Because the king has commanded silence",
+      "Because judgment has already ended",
     ],
-    answer: "The poor",
-    reference: "Amos 5:12",
+    answer: "Because the time is evil",
+    reference: "Amos 5:13",
   },
   {
-    question: "What are the people told to seek instead of evil?",
+    question:
+      "What are the people told to seek rather than evil?",
     options: [
       "Good",
-      "Power",
-      "Wealth",
-      "Peace with Assyria",
+      "Peace",
+      "Wisdom",
+      "Justice only",
     ],
     answer: "Good",
     reference: "Amos 5:14",
   },
   {
-    question: "What does Amos tell them to hate?",
+    question:
+      "What are they told to hate and love?",
     options: [
-      "Evil",
-      "The nations",
-      "Poverty",
-      "Their enemies",
+      "Hate evil and love good",
+      "Hate injustice and love mercy",
+      "Hate idols and love sacrifice",
+      "Hate Assyria and love Judah",
     ],
-    answer: "Evil",
+    answer: "Hate evil and love good",
     reference: "Amos 5:15",
   },
   {
-    question: "What does Amos tell them to love?",
-    options: [
-      "Good",
-      "Wealth",
-      "Power",
-      "Sacrifices",
-    ],
-    answer: "Good",
-    reference: "Amos 5:15",
-  },
-  {
-    question: "Where are the people told to maintain justice?",
+    question:
+      "Where are they commanded to maintain justice?",
     options: [
       "In the courts",
-      "In the temple only",
-      "In the palace",
-      "In the army",
+      "In the temple",
+      "At the palace",
+      "In the marketplace",
     ],
     answer: "In the courts",
     reference: "Amos 5:15",
   },
   {
-    question: "What might God perhaps do for the remnant of Joseph?",
+    question:
+      "Who may perhaps receive mercy if the people establish justice?",
     options: [
-      "Have mercy",
-      "Make them kings",
-      "Move them to Judah",
-      "Give them Egypt",
+      "The remnant of Joseph",
+      "The house of Judah",
+      "The priests of Bethel",
+      "The poor of Samaria",
     ],
-    answer: "Have mercy",
+    answer: "The remnant of Joseph",
     reference: "Amos 5:15",
   },
   {
-    question: "What sound would fill the streets and public squares under judgment?",
+    question:
+      "Who will be called to mourning besides ordinary citizens?",
     options: [
-      "Wailing",
-      "Laughter",
-      "Music",
-      "Trumpets",
+      "Farmers and professional mourners",
+      "Priests and kings",
+      "Soldiers and merchants",
+      "Prophets and judges",
     ],
-    answer: "Wailing",
+    answer: "Farmers and professional mourners",
     reference: "Amos 5:16",
   },
   {
-    question: "Why does Amos warn those who long for the day of the Lord?",
+    question:
+      "Where does God say there will be wailing because He will pass through the midst of the people?",
     options: [
-      "For them it will be darkness, not light",
-      "It will never come",
-      "It will only affect foreigners",
-      "It will bring immediate wealth",
+      "In all the vineyards",
+      "Only in Bethel",
+      "At the city gates only",
+      "In the temple courts",
     ],
-    answer: "For them it will be darkness, not light",
+    answer: "In all the vineyards",
+    reference: "Amos 5:17",
+  },
+  {
+    question:
+      "Why does Amos warn those who long for the day of the LORD?",
+    options: [
+      "It will be darkness, not light, for them",
+      "It will come later than expected",
+      "It will begin in Judah",
+      "It will bring peace to Assyria",
+    ],
+    answer: "It will be darkness, not light, for them",
     reference: "Amos 5:18",
   },
   {
-    question: "What first animal appears in Amos's illustration of escaping one danger only to meet another?",
+    question:
+      "What sequence of dangers illustrates escaping one disaster only to meet another?",
     options: [
-      "Lion",
-      "Bear",
-      "Serpent",
-      "Wolf",
+      "Fleeing a lion, meeting a bear, then being bitten by a snake at home",
+      "Escaping fire, falling into water, then meeting a lion",
+      "Fleeing a bear, meeting an army, then falling from a roof",
+      "Escaping a sword, meeting famine, then being bitten by a serpent",
     ],
-    answer: "Lion",
+    answer:
+      "Fleeing a lion, meeting a bear, then being bitten by a snake at home",
     reference: "Amos 5:19",
   },
   {
-    question: "What second animal does the person encounter after escaping the lion?",
-    options: [
-      "Bear",
-      "Leopard",
-      "Wolf",
-      "Ox",
-    ],
-    answer: "Bear",
-    reference: "Amos 5:19",
-  },
-  {
-    question: "What finally happens after the man reaches home and leans against a wall?",
-    options: [
-      "A snake bites him",
-      "The house collapses",
-      "A thief attacks him",
-      "He falls asleep",
-    ],
-    answer: "A snake bites him",
-    reference: "Amos 5:19",
-  },
-  {
-    question: "What does God say He hates and despises?",
+    question:
+      "What does God say He hates and despises?",
     options: [
       "Israel's religious festivals",
-      "Prayer itself",
-      "Justice",
-      "The Sabbath",
+      "Israel's kings",
+      "Israel's cities",
+      "Israel's sacrifices alone",
     ],
     answer: "Israel's religious festivals",
     reference: "Amos 5:21",
   },
   {
-    question: "What does God say He will not accept despite the people's religious activity?",
+    question:
+      "What does God refuse to accept despite Israel bringing them?",
     options: [
-      "Their offerings",
-      "Their repentance",
-      "Their justice",
-      "Their mercy",
+      "Burnt offerings and grain offerings",
+      "Prayer and fasting",
+      "Incense and tithes",
+      "Firstfruits and vows",
     ],
-    answer: "Their offerings",
+    answer: "Burnt offerings and grain offerings",
     reference: "Amos 5:22",
   },
   {
-    question: "What does God tell Israel to take away from Him?",
+    question:
+      "What does God refuse to regard?",
+    options: [
+      "Fellowship offerings of fattened animals",
+      "Sin offerings",
+      "Drink offerings",
+      "Incense offerings",
+    ],
+    answer: "Fellowship offerings of fattened animals",
+    reference: "Amos 5:22",
+  },
+  {
+    question:
+      "What does God tell Israel to take away from Him?",
     options: [
       "The noise of their songs",
+      "Their sacrifices",
       "Their prayers",
-      "Their Scriptures",
-      "Their priests",
+      "Their trumpets",
     ],
     answer: "The noise of their songs",
     reference: "Amos 5:23",
   },
   {
-    question: "What does Amos say should roll on like a river?",
+    question:
+      "What instrument's music does God refuse to listen to?",
     options: [
-      "Justice",
-      "Music",
-      "Sacrifice",
-      "Wine",
+      "Harps",
+      "Trumpets",
+      "Cymbals",
+      "Flutes",
     ],
-    answer: "Justice",
-    reference: "Amos 5:24",
+    answer: "Harps",
+    reference: "Amos 5:23",
   },
   {
-    question: "What should flow like a never-failing stream?",
+    question:
+      "Like what should justice roll on?",
     options: [
-      "Righteousness",
-      "Gold",
+      "A river",
+      "A flood",
       "Rain",
-      "Temple worship",
+      "A mighty wind",
     ],
-    answer: "Righteousness",
+    answer: "A river",
     reference: "Amos 5:24",
   },
-
   {
-    question: "Who are pronounced woe upon for being complacent?",
+    question:
+      "Like what should righteousness flow?",
     options: [
-      "Those at ease in Zion and secure on Mount Samaria",
-      "Only the priests",
-      "Only foreign kings",
-      "Only the poor",
+      "A never-failing stream",
+      "Morning dew",
+      "A spring rain",
+      "The Jordan",
     ],
-    answer: "Those at ease in Zion and secure on Mount Samaria",
+    answer: "A never-failing stream",
+    reference: "Amos 5:24",
+  },
+  {
+    question:
+      "How long does Amos reference Israel's period in the wilderness when questioning their sacrifices?",
+    options: [
+      "Forty years",
+      "Seventy years",
+      "Twenty years",
+      "Forty days",
+    ],
+    answer: "Forty years",
+    reference: "Amos 5:25",
+  },
+  {
+    question:
+      "Beyond what city does God say He will send Israel into exile?",
+    options: [
+      "Damascus",
+      "Babylon",
+      "Nineveh",
+      "Kir",
+    ],
+    answer: "Damascus",
+    reference: "Amos 5:27",
+  },
+  {
+    question:
+      "Who are rebuked for being complacent in Zion and secure on Mount Samaria?",
+    options: [
+      "The notable people of the foremost nation",
+      "The priests of Israel",
+      "The prophets of Judah",
+      "The poor of Samaria",
+    ],
+    answer: "The notable people of the foremost nation",
     reference: "Amos 6:1",
   },
   {
-    question: "What luxurious furniture did the complacent lie on?",
+    question:
+      "Which three cities does Amos tell the complacent leaders to compare with their own kingdoms?",
+    options: [
+      "Kalneh, Hamath, and Gath",
+      "Damascus, Tyre, and Sidon",
+      "Babylon, Nineveh, and Calah",
+      "Jericho, Bethel, and Gilgal",
+    ],
+    answer: "Kalneh, Hamath, and Gath",
+    reference: "Amos 6:2",
+  },
+  {
+    question:
+      "What kind of beds are associated with the wealthy complacent people?",
     options: [
       "Beds adorned with ivory",
-      "Golden thrones",
-      "Cedar benches",
-      "Silver couches",
+      "Golden beds",
+      "Cedar beds",
+      "Silk-covered beds",
     ],
     answer: "Beds adorned with ivory",
     reference: "Amos 6:4",
   },
   {
-    question: "What animals did the wealthy eat from their flocks and herds?",
+    question:
+      "What do they do on their couches?",
+    options: [
+      "Lounge",
+      "Sleep during worship",
+      "Hold court",
+      "Eat sacrificial meals only",
+    ],
+    answer: "Lounge",
+    reference: "Amos 6:4",
+  },
+  {
+    question:
+      "What animals do the wealthy eat from the flock and stall?",
     options: [
       "Choice lambs and fattened calves",
-      "Only goats",
-      "Only oxen",
-      "Doves and sheep",
+      "Goats and oxen",
+      "Sheep and bulls",
+      "Doves and lambs",
     ],
     answer: "Choice lambs and fattened calves",
     reference: "Amos 6:4",
   },
   {
-    question: "Whose musical style did the complacent attempt to imitate?",
+    question:
+      "Whom do the wealthy imitate while improvising on musical instruments?",
     options: [
-      "David's",
-      "Solomon's",
-      "Moses'",
-      "Asaph's",
+      "David",
+      "Solomon",
+      "Asaph",
+      "Moses",
     ],
-    answer: "David's",
+    answer: "David",
     reference: "Amos 6:5",
   },
   {
-    question: "From what did they drink wine?",
+    question:
+      "From what do they drink wine?",
     options: [
       "Bowls",
-      "Small cups",
-      "Temple vessels",
+      "Golden cups",
+      "Temple goblets",
       "Clay jars",
     ],
     answer: "Bowls",
     reference: "Amos 6:6",
   },
   {
-    question: "What luxury did they use on themselves?",
+    question:
+      "What do they use lavishly on themselves?",
     options: [
       "The finest lotions",
-      "Royal crowns",
-      "Imported garments only",
-      "Gold necklaces",
+      "Perfume from Egypt",
+      "Olive oil from the temple",
+      "Royal garments",
     ],
     answer: "The finest lotions",
     reference: "Amos 6:6",
   },
   {
-    question: "What national disaster did they fail to grieve over?",
+    question:
+      "What national disaster fails to grieve these wealthy people?",
     options: [
       "The ruin of Joseph",
-      "The fall of Egypt",
-      "The death of Uzziah",
-      "The destruction of Tyre",
+      "The fall of Judah",
+      "The destruction of Bethel",
+      "The exile of Gilead",
     ],
     answer: "The ruin of Joseph",
     reference: "Amos 6:6",
   },
   {
-    question: "Who would be among the first to go into exile?",
+    question:
+      "What distinction will the wealthy lose because of their complacency?",
     options: [
-      "Those living in luxury",
-      "The poor",
-      "The farmers",
-      "The prophets",
+      "They will be among the first to go into exile",
+      "They will lose only their houses",
+      "They will be denied burial",
+      "They will become slaves in Judah",
     ],
-    answer: "Those living in luxury",
+    answer: "They will be among the first to go into exile",
     reference: "Amos 6:7",
   },
   {
-    question: "What does God say He abhors?",
+    question:
+      "By whom does the Sovereign LORD swear before condemning Jacob's pride?",
     options: [
-      "The pride of Jacob",
-      "The poverty of Israel",
-      "The temple",
-      "The law",
+      "By Himself",
+      "By His holiness",
+      "By Abraham",
+      "By Jerusalem",
     ],
-    answer: "The pride of Jacob",
+    answer: "By Himself",
     reference: "Amos 6:8",
   },
   {
-    question: "What does God say He detests?",
+    question:
+      "What does God abhor in Jacob?",
+    options: [
+      "His pride",
+      "His worship",
+      "His army",
+      "His wealth alone",
+    ],
+    answer: "His pride",
+    reference: "Amos 6:8",
+  },
+  {
+    question:
+      "What does God detest?",
     options: [
       "Jacob's fortresses",
-      "Jerusalem",
-      "The priests",
-      "The vineyards",
+      "The temple",
+      "The city gates",
+      "The royal palace only",
     ],
     answer: "Jacob's fortresses",
     reference: "Amos 6:8",
   },
   {
-    question: "What absurd image does Amos use to expose Israel's perversion of justice?",
+    question:
+      "If ten people are left in one house, what will happen to them?",
     options: [
-      "Horses running on rocky crags",
-      "Fish walking on land",
-      "Birds swimming in rivers",
-      "Lions eating grass",
+      "They will all die",
+      "One will survive",
+      "They will be exiled",
+      "They will flee",
     ],
-    answer: "Horses running on rocky crags",
+    answer: "They will all die",
+    reference: "Amos 6:9",
+  },
+  {
+    question:
+      "Who is pictured coming to remove the bodies from the house?",
+    options: [
+      "A relative who burns or removes the dead",
+      "A priest",
+      "A soldier",
+      "A prophet",
+    ],
+    answer: "A relative who burns or removes the dead",
+    reference: "Amos 6:10",
+  },
+  {
+    question:
+      "What warning is given when someone remains hidden in the house?",
+    options: [
+      "Hush! We must not mention the name of the LORD",
+      "Call the priest",
+      "Do not open the door",
+      "Flee before dawn",
+    ],
+    answer: "Hush! We must not mention the name of the LORD",
+    reference: "Amos 6:10",
+  },
+  {
+    question:
+      "What will happen to the great and small houses under God's command?",
+    options: [
+      "The great house will be smashed and the small house broken to pieces",
+      "Both will be burned",
+      "The great house will survive",
+      "The small house will be spared",
+    ],
+    answer:
+      "The great house will be smashed and the small house broken to pieces",
+    reference: "Amos 6:11",
+  },
+  {
+    question:
+      "What absurd question does Amos ask about horses?",
+    options: [
+      "Do horses run on rocky crags?",
+      "Can horses swim across rivers?",
+      "Do horses plow vineyards?",
+      "Can horses climb walls?",
+    ],
+    answer: "Do horses run on rocky crags?",
     reference: "Amos 6:12",
   },
   {
-    question: "What second impossible image accompanies horses running on rocks?",
+    question:
+      "What absurd agricultural question follows the one about horses?",
     options: [
-      "Plowing there with oxen",
-      "Planting vines in water",
-      "Harvesting grain in winter",
-      "Fishing in the desert",
+      "Does one plow the sea with oxen?",
+      "Does one sow seed on stone?",
+      "Does one reap before sowing?",
+      "Does one thresh grain in water?",
     ],
-    answer: "Plowing there with oxen",
+    answer: "Does one plow the sea with oxen?",
     reference: "Amos 6:12",
   },
   {
-    question: "Into what had Israel turned justice?",
+    question:
+      "Into what have the Israelites turned justice?",
     options: [
       "Poison",
-      "Water",
-      "Gold",
-      "Wine",
+      "Dust",
+      "Bitterness",
+      "Fire",
     ],
     answer: "Poison",
     reference: "Amos 6:12",
   },
   {
-    question: "Into what had Israel turned righteousness?",
+    question:
+      "Into what have they turned the fruit of righteousness?",
     options: [
       "Bitterness",
-      "Joy",
-      "Strength",
-      "Silence",
+      "Violence",
+      "Ashes",
+      "Pride",
     ],
     answer: "Bitterness",
     reference: "Amos 6:12",
   },
-
   {
-    question: "What did Amos see God preparing in his first major vision?",
+    question:
+      "In what captured place do the Israelites foolishly rejoice?",
+    options: [
+      "Lo Debar",
+      "Karanaim",
+      "Bethel",
+      "Gilead",
+    ],
+    answer: "Lo Debar",
+    reference: "Amos 6:13",
+  },
+  {
+    question:
+      "What other place do they boast of taking by their own strength?",
+    options: [
+      "Karnaim",
+      "Hamath",
+      "Gath",
+      "Tekoa",
+    ],
+    answer: "Karnaim",
+    reference: "Amos 6:13",
+  },
+  {
+    question:
+      "From what northern boundary to what southern boundary will the nation oppress Israel?",
+    options: [
+      "From Lebo Hamath to the Valley of the Arabah",
+      "From Dan to Beersheba",
+      "From Damascus to Egypt",
+      "From Carmel to the Dead Sea",
+    ],
+    answer: "From Lebo Hamath to the Valley of the Arabah",
+    reference: "Amos 6:14",
+  },
+  {
+    question:
+      "What did Amos see God preparing in his first vision?",
     options: [
       "Swarms of locusts",
-      "A flood",
-      "An earthquake",
-      "An army",
+      "A consuming fire",
+      "A plumb line",
+      "A basket of ripe fruit",
     ],
     answer: "Swarms of locusts",
     reference: "Amos 7:1",
   },
   {
-    question: "At what agricultural stage were the locusts being formed?",
+    question:
+      "At what agricultural stage were the locusts formed?",
     options: [
       "After the king's share had been harvested and the second crop was coming up",
-      "Before planting",
-      "During the grape harvest",
-      "At the wheat threshing",
+      "Before the first crop sprouted",
+      "During grape harvest",
+      "After the barley harvest",
     ],
-    answer: "After the king's share had been harvested and the second crop was coming up",
+    answer:
+      "After the king's share had been harvested and the second crop was coming up",
     reference: "Amos 7:1",
   },
   {
-    question: "What did Amos ask God to do when the locusts consumed the land?",
+    question:
+      "What did Amos plead when the locusts stripped the land?",
     options: [
-      "Forgive Jacob",
-      "Destroy Assyria",
-      "Send rain",
-      "Save only Judah",
+      "Sovereign LORD, forgive! How can Jacob survive? He is so small",
+      "Send rain instead",
+      "Spare Judah only",
+      "Destroy Assyria first",
     ],
-    answer: "Forgive Jacob",
+    answer: "Sovereign LORD, forgive! How can Jacob survive? He is so small",
     reference: "Amos 7:2",
   },
   {
-    question: "What happened after Amos interceded about the locusts?",
+    question:
+      "What did God do after Amos interceded concerning the locusts?",
     options: [
-      "The Lord relented",
-      "The locusts destroyed everything",
-      "Judah was exiled",
-      "Amos was silenced",
+      "He relented and said it would not happen",
+      "He reduced their number",
+      "He sent rain",
+      "He delayed the judgment seven years",
     ],
-    answer: "The Lord relented",
+    answer: "He relented and said it would not happen",
     reference: "Amos 7:3",
   },
   {
-    question: "What did Amos see God calling for in his second vision?",
+    question:
+      "What judgment did Amos see in his second vision?",
     options: [
-      "Judgment by fire",
+      "The Sovereign LORD calling for judgment by fire",
+      "An earthquake",
+      "An invading army",
       "A flood",
-      "A sword",
-      "A plague",
     ],
-    answer: "Judgment by fire",
+    answer: "The Sovereign LORD calling for judgment by fire",
     reference: "Amos 7:4",
   },
   {
-    question: "What did the fire consume before Amos interceded?",
+    question:
+      "What did the fire consume first?",
     options: [
-      "The great deep and part of the land",
+      "The great deep",
+      "The city of Samaria",
       "The temple",
-      "Samaria only",
-      "The king's palace",
+      "The forests of Carmel",
     ],
-    answer: "The great deep and part of the land",
+    answer: "The great deep",
     reference: "Amos 7:4",
   },
   {
-    question: "What did Amos ask God to do concerning the fire?",
+    question:
+      "What did the fire begin to devour afterward?",
     options: [
-      "Stop",
-      "Increase it",
-      "Send it to Assyria",
-      "Direct it toward Egypt",
+      "The land",
+      "The people",
+      "The vineyards",
+      "The mountains",
     ],
-    answer: "Stop",
+    answer: "The land",
+    reference: "Amos 7:4",
+  },
+  {
+    question:
+      "What did Amos plead during the fire vision?",
+    options: [
+      "Sovereign LORD, stop! How can Jacob survive? He is so small",
+      "Forgive Judah",
+      "Send the fire on Assyria",
+      "Remember Abraham",
+    ],
+    answer: "Sovereign LORD, stop! How can Jacob survive? He is so small",
     reference: "Amos 7:5",
   },
   {
-    question: "What happened after Amos's second intercession?",
+    question:
+      "What did God do after Amos interceded during the fire vision?",
     options: [
-      "The Lord relented again",
-      "The fire destroyed Israel",
-      "Amos was punished",
-      "The people repented",
+      "He relented and said it would not happen",
+      "He sent the fire elsewhere",
+      "He spared only Samaria",
+      "He delayed judgment",
     ],
-    answer: "The Lord relented again",
+    answer: "He relented and said it would not happen",
     reference: "Amos 7:6",
   },
   {
-    question: "What did Amos see the Lord holding beside a wall?",
+    question:
+      "What object did Amos see the Lord holding while standing beside a wall?",
     options: [
       "A plumb line",
-      "A sword",
       "A measuring rod",
+      "A sword",
       "A scroll",
     ],
     answer: "A plumb line",
     reference: "Amos 7:7",
   },
   {
-    question: "What did the plumb line symbolize?",
+    question:
+      "What did God say He was setting among His people Israel?",
     options: [
-      "God measuring Israel and no longer sparing them",
-      "The rebuilding of Jerusalem",
-      "The measurement of the temple",
-      "The borders of Judah",
+      "A plumb line",
+      "A sword",
+      "A standard",
+      "A measuring line",
     ],
-    answer: "God measuring Israel and no longer sparing them",
+    answer: "A plumb line",
     reference: "Amos 7:8",
   },
   {
-    question: "What would happen to Isaac's high places?",
+    question:
+      "What did God say He would no longer do after the plumb-line vision?",
     options: [
-      "They would be destroyed",
-      "They would be enlarged",
-      "They would become holy",
-      "They would be moved to Jerusalem",
+      "Spare Israel",
+      "Send prophets",
+      "Judge Judah",
+      "Visit Bethel",
     ],
-    answer: "They would be destroyed",
+    answer: "Spare Israel",
+    reference: "Amos 7:8",
+  },
+  {
+    question:
+      "What will happen to Isaac's high places?",
+    options: [
+      "They will be destroyed",
+      "They will be purified",
+      "They will be moved",
+      "They will become royal sanctuaries",
+    ],
+    answer: "They will be destroyed",
     reference: "Amos 7:9",
   },
   {
-    question: "Against whose house did God say He would rise with the sword?",
+    question:
+      "What will happen to Israel's sanctuaries?",
     options: [
-      "Jeroboam's",
-      "Uzziah's",
-      "David's",
-      "Amaziah's",
+      "They will be ruined",
+      "They will be enlarged",
+      "They will be moved to Jerusalem",
+      "They will be spared",
     ],
-    answer: "Jeroboam's",
+    answer: "They will be ruined",
     reference: "Amos 7:9",
   },
   {
-    question: "Who was the priest of Bethel who opposed Amos?",
+    question:
+      "Against whose house does God say He will rise with the sword?",
+    options: [
+      "The house of Jeroboam",
+      "The house of Ahab",
+      "The house of Jehu",
+      "The house of Uzziah",
+    ],
+    answer: "The house of Jeroboam",
+    reference: "Amos 7:9",
+  },
+  {
+    question:
+      "Who was the priest of Bethel who opposed Amos?",
     options: [
       "Amaziah",
       "Azariah",
-      "Jehoiada",
-      "Hilkiah",
+      "Zechariah",
+      "Pashhur",
     ],
     answer: "Amaziah",
     reference: "Amos 7:10",
   },
   {
-    question: "What accusation did Amaziah send to King Jeroboam?",
+    question:
+      "To which king did Amaziah report Amos's words?",
     options: [
-      "Amos was raising a conspiracy against him",
-      "Amos was stealing offerings",
-      "Amos was supporting Judah's army",
-      "Amos was destroying idols",
+      "Jeroboam",
+      "Uzziah",
+      "Menahem",
+      "Pekah",
     ],
-    answer: "Amos was raising a conspiracy against him",
+    answer: "Jeroboam",
     reference: "Amos 7:10",
   },
   {
-    question: "Where did Amaziah tell Amos to flee?",
+    question:
+      "What accusation did Amaziah make against Amos?",
+    options: [
+      "Amos was raising a conspiracy against the king",
+      "Amos was stealing temple offerings",
+      "Amos was working for Judah",
+      "Amos was inciting Assyria",
+    ],
+    answer: "Amos was raising a conspiracy against the king",
+    reference: "Amos 7:10",
+  },
+  {
+    question:
+      "What prophecy concerning Jeroboam did Amaziah report?",
+    options: [
+      "Jeroboam would die by the sword",
+      "Jeroboam would go into exile",
+      "Jeroboam would lose his sons",
+      "Jeroboam would repent",
+    ],
+    answer: "Jeroboam would die by the sword",
+    reference: "Amos 7:11",
+  },
+  {
+    question:
+      "What prophecy concerning Israel did Amaziah report?",
+    options: [
+      "Israel would surely go into exile away from its native land",
+      "Israel would be destroyed by Egypt",
+      "Israel would unite with Judah",
+      "Israel would lose Bethel only",
+    ],
+    answer: "Israel would surely go into exile away from its native land",
+    reference: "Amos 7:11",
+  },
+  {
+    question:
+      "Where did Amaziah tell Amos to flee?",
     options: [
       "Judah",
+      "Tekoa",
+      "Jerusalem",
       "Egypt",
-      "Assyria",
-      "Moab",
     ],
     answer: "Judah",
     reference: "Amos 7:12",
   },
   {
-    question: "What did Amaziah tell Amos never to do again at Bethel?",
+    question:
+      "What did Amaziah tell Amos to do in Judah?",
     options: [
-      "Prophesy",
-      "Pray",
-      "Sacrifice",
-      "Teach",
+      "Earn his bread and prophesy there",
+      "Become a priest",
+      "Seek the king",
+      "Build an altar",
     ],
-    answer: "Prophesy",
+    answer: "Earn his bread and prophesy there",
+    reference: "Amos 7:12",
+  },
+  {
+    question:
+      "Why did Amaziah tell Amos not to prophesy again at Bethel?",
+    options: [
+      "Because it was the king's sanctuary and temple of the kingdom",
+      "Because Bethel belonged to Judah",
+      "Because the priests had banned prophecy",
+      "Because the sanctuary was being destroyed",
+    ],
+    answer: "Because it was the king's sanctuary and temple of the kingdom",
     reference: "Amos 7:13",
   },
   {
-    question: "Why did Amaziah say Bethel was especially important?",
-    options: [
-      "It was the king's sanctuary and the temple of the kingdom",
-      "It was Amos's hometown",
-      "It contained the ark",
-      "It was Judah's capital",
-    ],
-    answer: "It was the king's sanctuary and the temple of the kingdom",
-    reference: "Amos 7:13",
-  },
-  {
-    question: "What did Amos say he was not by profession?",
+    question:
+      "What did Amos say he was not by profession?",
     options: [
       "A prophet or a prophet's son",
+      "A priest or Levite",
       "A shepherd",
       "A farmer",
-      "A fig grower",
     ],
     answer: "A prophet or a prophet's son",
     reference: "Amos 7:14",
   },
   {
-    question: "What occupation did Amos say he had?",
+    question:
+      "What two occupations did Amos say he practiced?",
     options: [
-      "Shepherd",
-      "Priest",
-      "Scribe",
-      "Merchant",
+      "Shepherding and tending sycamore-fig trees",
+      "Farming and fishing",
+      "Vine growing and shepherding",
+      "Carpentry and farming",
     ],
-    answer: "Shepherd",
+    answer: "Shepherding and tending sycamore-fig trees",
     reference: "Amos 7:14",
   },
   {
-    question: "What agricultural work did Amos also perform?",
-    options: [
-      "Caring for sycamore-fig trees",
-      "Growing wheat",
-      "Tending vineyards",
-      "Harvesting olives",
-    ],
-    answer: "Caring for sycamore-fig trees",
-    reference: "Amos 7:14",
-  },
-  {
-    question: "What did God take Amos from doing?",
+    question:
+      "From what activity did the LORD take Amos?",
     options: [
       "Following the flock",
+      "Tending vineyards",
+      "Harvesting figs",
       "Working in the temple",
-      "Serving the king",
-      "Trading in Samaria",
     ],
     answer: "Following the flock",
     reference: "Amos 7:15",
   },
   {
-    question: "What command did God give Amos?",
+    question:
+      "To whom did God command Amos to prophesy?",
     options: [
-      "Go, prophesy to my people Israel",
-      "Go, become priest at Bethel",
-      "Go, serve Jeroboam",
-      "Go, return to Judah permanently",
+      "My people Israel",
+      "Judah",
+      "The nations",
+      "The house of David",
     ],
-    answer: "Go, prophesy to my people Israel",
+    answer: "My people Israel",
     reference: "Amos 7:15",
   },
   {
-    question: "What judgment did Amos announce against Amaziah's family?",
+    question:
+      "What punishment did Amos pronounce on Amaziah's wife?",
     options: [
-      "His wife would become a prostitute and his children would die by the sword",
-      "His family would become kings",
-      "His children would become priests",
-      "His household would move to Judah peacefully",
+      "She would become a prostitute in the city",
+      "She would be taken to Assyria",
+      "She would become a widow",
+      "She would die in Bethel",
     ],
-    answer: "His wife would become a prostitute and his children would die by the sword",
+    answer: "She would become a prostitute in the city",
     reference: "Amos 7:17",
   },
   {
-    question: "Where did Amos say Amaziah himself would die?",
+    question:
+      "What would happen to Amaziah's sons and daughters?",
     options: [
-      "In a foreign land",
+      "They would fall by the sword",
+      "They would be exiled",
+      "They would become servants",
+      "They would flee to Judah",
+    ],
+    answer: "They would fall by the sword",
+    reference: "Amos 7:17",
+  },
+  {
+    question:
+      "What would happen to Amaziah's land?",
+    options: [
+      "It would be measured and divided",
+      "It would be burned",
+      "It would become temple property",
+      "It would be given to Judah",
+    ],
+    answer: "It would be measured and divided",
+    reference: "Amos 7:17",
+  },
+  {
+    question:
+      "Where did Amos say Amaziah himself would die?",
+    options: [
+      "In a pagan country",
       "In Bethel",
-      "In Jerusalem",
-      "In Tekoa",
+      "In Judah",
+      "In Samaria",
     ],
-    answer: "In a foreign land",
+    answer: "In a pagan country",
     reference: "Amos 7:17",
   },
-
   {
-    question: "What did Amos see in his next vision?",
+    question:
+      "What did Amos see in his next vision?",
     options: [
       "A basket of ripe fruit",
+      "A plumb line",
+      "A boiling pot",
       "A lampstand",
-      "A scroll",
-      "A branch of almonds",
     ],
     answer: "A basket of ripe fruit",
     reference: "Amos 8:1",
   },
   {
-    question: "What did the basket of ripe fruit symbolize?",
+    question:
+      "What did the basket of ripe fruit signify?",
     options: [
-      "The time was ripe for Israel's judgment",
-      "A coming harvest of prosperity",
+      "The time was ripe for judgment on Israel",
+      "A coming harvest blessing",
       "The restoration of Judah",
       "The end of famine",
     ],
-    answer: "The time was ripe for Israel's judgment",
+    answer: "The time was ripe for judgment on Israel",
     reference: "Amos 8:2",
   },
   {
-    question: "What would temple songs become in that day?",
+    question:
+      "What would temple songs become in the day of judgment?",
     options: [
       "Wailing",
+      "Silence",
       "Victory songs",
-      "Silence only",
-      "Songs of thanksgiving",
+      "Prayers",
     ],
     answer: "Wailing",
     reference: "Amos 8:3",
   },
   {
-    question: "What group did Amos accuse the merchants of trampling?",
+    question:
+      "What would be thrown everywhere according to the vision?",
+    options: [
+      "Many bodies",
+      "Broken idols",
+      "Temple vessels",
+      "Weapons",
+    ],
+    answer: "Many bodies",
+    reference: "Amos 8:3",
+  },
+  {
+    question:
+      "What final command follows the image of bodies everywhere?",
+    options: [
+      "Silence!",
+      "Mourn!",
+      "Flee!",
+      "Repent!",
+    ],
+    answer: "Silence!",
+    reference: "Amos 8:3",
+  },
+  {
+    question:
+      "Whom are the merchants accused of trampling?",
     options: [
       "The needy",
       "The priests",
-      "The wealthy",
-      "The soldiers",
+      "The farmers",
+      "Foreigners",
     ],
     answer: "The needy",
     reference: "Amos 8:4",
   },
   {
-    question: "Why were dishonest merchants impatient for the New Moon to end?",
+    question:
+      "What group do they seek to do away with?",
     options: [
-      "So they could sell grain",
-      "So they could worship",
-      "So they could travel",
-      "So they could collect taxes",
+      "The poor of the land",
+      "The prophets",
+      "The elders",
+      "The Nazirites",
     ],
-    answer: "So they could sell grain",
+    answer: "The poor of the land",
+    reference: "Amos 8:4",
+  },
+  {
+    question:
+      "Which religious observance do dishonest merchants resent because it interrupts trade?",
+    options: [
+      "The New Moon",
+      "Passover",
+      "The Day of Atonement",
+      "The Feast of Booths",
+    ],
+    answer: "The New Moon",
     reference: "Amos 8:5",
   },
   {
-    question: "Why were they impatient for the Sabbath to end?",
+    question:
+      "Which weekly observance do they also wish would end so they could resume selling grain?",
     options: [
-      "So they could market wheat",
-      "So they could fight",
-      "So they could harvest grapes",
-      "So they could travel to Bethel",
+      "The Sabbath",
+      "The Day of Preparation",
+      "The seventh-year rest",
+      "The fast day",
     ],
-    answer: "So they could market wheat",
+    answer: "The Sabbath",
     reference: "Amos 8:5",
   },
   {
-    question: "How did dishonest merchants manipulate their transactions?",
+    question:
+      "How do the dishonest merchants manipulate the measure of grain?",
     options: [
-      "They made the measure small and the price high",
-      "They lowered both price and measure",
-      "They gave extra grain",
-      "They refused to use scales",
+      "They make the ephah small",
+      "They make the ephah large",
+      "They remove the ephah completely",
+      "They double the ephah",
     ],
-    answer: "They made the measure small and the price high",
+    answer: "They make the ephah small",
     reference: "Amos 8:5",
   },
   {
-    question: "What kind of scales did they use?",
+    question:
+      "How do they manipulate the payment weight?",
+    options: [
+      "They make the shekel large",
+      "They make the shekel small",
+      "They replace the shekel with silver bars",
+      "They refuse silver",
+    ],
+    answer: "They make the shekel large",
+    reference: "Amos 8:5",
+  },
+  {
+    question:
+      "What do they use to cheat customers?",
     options: [
       "Dishonest scales",
-      "Temple scales",
-      "Royal scales",
-      "Foreign scales",
+      "False contracts",
+      "Counterfeit coins",
+      "Hidden taxes",
     ],
     answer: "Dishonest scales",
     reference: "Amos 8:5",
   },
   {
-    question: "What did they sell along with grain?",
-    options: [
-      "Sweepings",
-      "Wine",
-      "Oil",
-      "Sandals",
-    ],
-    answer: "Sweepings",
-    reference: "Amos 8:6",
-  },
-  {
-    question: "For what did they buy the poor?",
+    question:
+      "For what do the merchants buy the poor?",
     options: [
       "Silver",
       "Gold",
-      "Grain",
+      "Food",
       "Wine",
     ],
     answer: "Silver",
     reference: "Amos 8:6",
   },
   {
-    question: "For what did they buy the needy?",
+    question:
+      "For what trivial item do they buy the needy?",
     options: [
       "A pair of sandals",
       "A loaf of bread",
-      "A jar of wine",
-      "A sheep",
+      "A garment",
+      "A measure of grain",
     ],
     answer: "A pair of sandals",
     reference: "Amos 8:6",
   },
   {
-    question: "What does God swear He will never forget?",
+    question:
+      "What inferior product do the merchants sell?",
     options: [
-      "Anything the oppressors had done",
-      "Israel's sacrifices",
-      "Their songs",
-      "Their kings",
+      "The sweepings with the wheat",
+      "Spoiled wine",
+      "Rotten figs",
+      "Unclean meat",
     ],
-    answer: "Anything the oppressors had done",
+    answer: "The sweepings with the wheat",
+    reference: "Amos 8:6",
+  },
+  {
+    question:
+      "By what does the LORD swear He will never forget Israel's deeds?",
+    options: [
+      "The Pride of Jacob",
+      "His holiness",
+      "His throne",
+      "His covenant",
+    ],
+    answer: "The Pride of Jacob",
     reference: "Amos 8:7",
   },
   {
-    question: "To what river is the land's rising and falling compared?",
+    question:
+      "To what river is the rising and sinking of the land compared?",
+    options: [
+      "The Nile",
+      "The Euphrates",
+      "The Jordan",
+      "The Tigris",
+    ],
+    answer: "The Nile",
+    reference: "Amos 8:8",
+  },
+  {
+    question:
+      "At what unusual time does God say He will make the sun go down?",
+    options: [
+      "At noon",
+      "At sunset",
+      "At dawn",
+      "At midnight",
+    ],
+    answer: "At noon",
+    reference: "Amos 8:9",
+  },
+  {
+    question:
+      "What will God make dark in broad daylight?",
+    options: [
+      "The earth",
+      "The heavens",
+      "Jerusalem",
+      "Samaria",
+    ],
+    answer: "The earth",
+    reference: "Amos 8:9",
+  },
+  {
+    question:
+      "What will religious festivals become?",
+    options: [
+      "Mourning",
+      "Silence",
+      "Fasting",
+      "Judgment assemblies",
+    ],
+    answer: "Mourning",
+    reference: "Amos 8:10",
+  },
+  {
+    question:
+      "What will songs become?",
+    options: [
+      "Lamentation",
+      "Prayer",
+      "Silence",
+      "Prophecy",
+    ],
+    answer: "Lamentation",
+    reference: "Amos 8:10",
+  },
+  {
+    question:
+      "What will people wear as a sign of mourning?",
+    options: [
+      "Sackcloth",
+      "White robes",
+      "Ashes only",
+      "Torn linen",
+    ],
+    answer: "Sackcloth",
+    reference: "Amos 8:10",
+  },
+  {
+    question:
+      "What will happen to every head?",
+    options: [
+      "It will be shaved",
+      "It will be covered",
+      "It will be anointed with ashes",
+      "It will bear a mark",
+    ],
+    answer: "It will be shaved",
+    reference: "Amos 8:10",
+  },
+  {
+    question:
+      "To what intensely personal grief is the coming mourning compared?",
+    options: [
+      "Mourning for an only son",
+      "Mourning for a husband",
+      "Mourning for a king",
+      "Mourning for a firstborn daughter",
+    ],
+    answer: "Mourning for an only son",
+    reference: "Amos 8:10",
+  },
+  {
+    question:
+      "What kind of famine does God say He will send?",
+    options: [
+      "A famine of hearing the words of the LORD",
+      "A famine of grain only",
+      "A famine of prophets",
+      "A famine of sacrifice",
+    ],
+    answer: "A famine of hearing the words of the LORD",
+    reference: "Amos 8:11",
+  },
+  {
+    question:
+      "What is this famine explicitly NOT a famine of?",
+    options: [
+      "Food or thirst for water",
+      "Rain or crops",
+      "Bread or wine",
+      "Meat or grain",
+    ],
+    answer: "Food or thirst for water",
+    reference: "Amos 8:11",
+  },
+  {
+    question:
+      "From what direction to what direction will people stagger searching for the word of the LORD?",
+    options: [
+      "From sea to sea and from north to east",
+      "From east to west and south to north",
+      "From Egypt to Assyria",
+      "From Dan to Beersheba",
+    ],
+    answer: "From sea to sea and from north to east",
+    reference: "Amos 8:12",
+  },
+  {
+    question:
+      "Who will faint from thirst in that day?",
+    options: [
+      "Beautiful young women and strong young men",
+      "Priests and prophets",
+      "Children and elders",
+      "Kings and soldiers",
+    ],
+    answer: "Beautiful young women and strong young men",
+    reference: "Amos 8:13",
+  },
+  {
+    question:
+      "By what object of worship do some people swear in Amos's final warning of the chapter?",
+    options: [
+      "The shameful idol of Samaria",
+      "The calf of Bethel",
+      "The Baal of Peor",
+      "The Asherah of Jezreel",
+    ],
+    answer: "The shameful idol of Samaria",
+    reference: "Amos 8:14",
+  },
+  {
+    question:
+      "Which city is associated with the oath, 'As surely as your god lives'?",
+    options: [
+      "Dan",
+      "Bethel",
+      "Gilgal",
+      "Samaria",
+    ],
+    answer: "Dan",
+    reference: "Amos 8:14",
+  },
+  {
+    question:
+      "Which city is associated with the oath concerning its way or pilgrimage?",
+    options: [
+      "Beersheba",
+      "Jerusalem",
+      "Tekoa",
+      "Gilgal",
+    ],
+    answer: "Beersheba",
+    reference: "Amos 8:14",
+  },
+  {
+    question:
+      "What will happen to those who swear by these false objects of worship?",
+    options: [
+      "They will fall and never rise again",
+      "They will go into exile",
+      "They will lose their wealth",
+      "They will become blind",
+    ],
+    answer: "They will fall and never rise again",
+    reference: "Amos 8:14",
+  },
+  {
+    question:
+      "Where does Amos see the Lord standing in the final vision?",
+    options: [
+      "Beside the altar",
+      "On Mount Zion",
+      "At the city gate",
+      "Above the temple",
+    ],
+    answer: "Beside the altar",
+    reference: "Amos 9:1",
+  },
+  {
+    question:
+      "What part of the structure does God command to be struck?",
+    options: [
+      "The tops of the pillars",
+      "The altar horns",
+      "The temple doors",
+      "The roof beams",
+    ],
+    answer: "The tops of the pillars",
+    reference: "Amos 9:1",
+  },
+  {
+    question:
+      "What are the thresholds commanded to do?",
+    options: [
+      "Shake",
+      "Break",
+      "Burn",
+      "Collapse silently",
+    ],
+    answer: "Shake",
+    reference: "Amos 9:1",
+  },
+  {
+    question:
+      "What will happen to those who survive the initial destruction?",
+    options: [
+      "God will kill them with the sword",
+      "They will escape to Egypt",
+      "They will become exiles",
+      "They will hide in caves",
+    ],
+    answer: "God will kill them with the sword",
+    reference: "Amos 9:1",
+  },
+  {
+    question:
+      "Where could the people dig down without escaping God's reach?",
+    options: [
+      "The depths below",
+      "Egypt",
+      "The sea floor",
+      "A mountain cave",
+    ],
+    answer: "The depths below",
+    reference: "Amos 9:2",
+  },
+  {
+    question:
+      "Where could they climb without escaping God?",
+    options: [
+      "The heavens",
+      "Mount Carmel",
+      "Mount Hermon",
+      "The city walls",
+    ],
+    answer: "The heavens",
+    reference: "Amos 9:2",
+  },
+  {
+    question:
+      "On which mountain could they hide and still be found by God?",
+    options: [
+      "Carmel",
+      "Zion",
+      "Tabor",
+      "Hermon",
+    ],
+    answer: "Carmel",
+    reference: "Amos 9:3",
+  },
+  {
+    question:
+      "Where could they hide from God's sight only for Him to command another creature against them?",
+    options: [
+      "At the bottom of the sea",
+      "In the wilderness",
+      "Inside the temple",
+      "In Egypt",
+    ],
+    answer: "At the bottom of the sea",
+    reference: "Amos 9:3",
+  },
+  {
+    question:
+      "What creature would God command to bite those hiding at the bottom of the sea?",
+    options: [
+      "A serpent",
+      "A great fish",
+      "A crocodile",
+      "A sea monster",
+    ],
+    answer: "A serpent",
+    reference: "Amos 9:3",
+  },
+  {
+    question:
+      "Even if Israel goes into exile before enemies, what will God command there?",
+    options: [
+      "The sword to kill them",
+      "Famine to consume them",
+      "Lions to attack them",
+      "Their captors to release them",
+    ],
+    answer: "The sword to kill them",
+    reference: "Amos 9:4",
+  },
+  {
+    question:
+      "For what purpose does God say He will keep His eyes on them?",
+    options: [
+      "For harm and not for good",
+      "For restoration only",
+      "For protection",
+      "For instruction",
+    ],
+    answer: "For harm and not for good",
+    reference: "Amos 9:4",
+  },
+  {
+    question:
+      "What happens to the land when the Lord touches it?",
+    options: [
+      "It melts",
+      "It shakes only",
+      "It burns",
+      "It dries up",
+    ],
+    answer: "It melts",
+    reference: "Amos 9:5",
+  },
+  {
+    question:
+      "To what river is the rising and sinking of the whole land again compared?",
     options: [
       "The Nile",
       "The Jordan",
@@ -1742,425 +2884,307 @@ const amosQuestions = [
       "The Tigris",
     ],
     answer: "The Nile",
-    reference: "Amos 8:8",
-  },
-  {
-    question: "What would God do to the sun at noon?",
-    options: [
-      "Make it go down",
-      "Make it stand still",
-      "Make it brighter",
-      "Make it turn red",
-    ],
-    answer: "Make it go down",
-    reference: "Amos 8:9",
-  },
-  {
-    question: "What would happen to the earth in broad daylight?",
-    options: [
-      "It would become dark",
-      "It would shake only",
-      "It would flood",
-      "It would become bright",
-    ],
-    answer: "It would become dark",
-    reference: "Amos 8:9",
-  },
-  {
-    question: "What would God turn Israel's religious feasts into?",
-    options: [
-      "Mourning",
-      "Longer celebrations",
-      "Harvest festivals",
-      "Silence",
-    ],
-    answer: "Mourning",
-    reference: "Amos 8:10",
-  },
-  {
-    question: "What would God turn their singing into?",
-    options: [
-      "Weeping",
-      "Prayer",
-      "Silence only",
-      "Prophecy",
-    ],
-    answer: "Weeping",
-    reference: "Amos 8:10",
-  },
-  {
-    question: "What clothing would people wear in mourning?",
-    options: [
-      "Sackcloth",
-      "Purple",
-      "Linen",
-      "Royal robes",
-    ],
-    answer: "Sackcloth",
-    reference: "Amos 8:10",
-  },
-  {
-    question: "What unusual famine does Amos predict?",
-    options: [
-      "A famine of hearing the words of the Lord",
-      "A famine of bread only",
-      "A famine of water only",
-      "A famine of prophets only",
-    ],
-    answer: "A famine of hearing the words of the Lord",
-    reference: "Amos 8:11",
-  },
-  {
-    question: "What would people do in search of God's word during this famine?",
-    options: [
-      "Wander from sea to sea and from north to east",
-      "Travel only to Jerusalem",
-      "Go to Egypt",
-      "Wait at Bethel",
-    ],
-    answer: "Wander from sea to sea and from north to east",
-    reference: "Amos 8:12",
-  },
-  {
-    question: "Would they find the word they were seeking?",
-    options: [
-      "No",
-      "Yes, immediately",
-      "Only in Jerusalem",
-      "Only from Amos",
-    ],
-    answer: "No",
-    reference: "Amos 8:12",
-  },
-  {
-    question: "Who would faint from thirst in that day?",
-    options: [
-      "Lovely young women and strong young men",
-      "Only children",
-      "Only priests",
-      "Only soldiers",
-    ],
-    answer: "Lovely young women and strong young men",
-    reference: "Amos 8:13",
-  },
-
-  {
-    question: "Where did Amos see the Lord standing in his final judgment vision?",
-    options: [
-      "Beside the altar",
-      "On Mount Carmel",
-      "At the city gate",
-      "Beside the palace",
-    ],
-    answer: "Beside the altar",
-    reference: "Amos 9:1",
-  },
-  {
-    question: "What part of the sanctuary did God command to be struck?",
-    options: [
-      "The tops of the pillars",
-      "The altar horns",
-      "The doors",
-      "The roof",
-    ],
-    answer: "The tops of the pillars",
-    reference: "Amos 9:1",
-  },
-  {
-    question: "What would happen to the thresholds?",
-    options: [
-      "They would shake",
-      "They would burn",
-      "They would become gold",
-      "They would disappear",
-    ],
-    answer: "They would shake",
-    reference: "Amos 9:1",
-  },
-  {
-    question: "If the people dug down to the depths, what does God say He would do?",
-    options: [
-      "His hand would take them from there",
-      "He would leave them hidden",
-      "He would send fire",
-      "He would forgive them immediately",
-    ],
-    answer: "His hand would take them from there",
-    reference: "Amos 9:2",
-  },
-  {
-    question: "If they climbed to the heavens, what would God do?",
-    options: [
-      "Bring them down",
-      "Leave them there",
-      "Send angels",
-      "Hide His face",
-    ],
-    answer: "Bring them down",
-    reference: "Amos 9:2",
-  },
-  {
-    question: "Where could people hide on Mount Carmel?",
-    options: [
-      "At its summit",
-      "In the temple",
-      "In caves beside Jerusalem",
-      "Among vineyards only",
-    ],
-    answer: "At its summit",
-    reference: "Amos 9:3",
-  },
-  {
-    question: "Even if people hid at the bottom of the sea, what would God command?",
-    options: [
-      "A serpent to bite them",
-      "A fish to swallow them",
-      "The sea to dry up",
-      "A storm to destroy them",
-    ],
-    answer: "A serpent to bite them",
-    reference: "Amos 9:3",
-  },
-  {
-    question: "What would God command even if Israel went into exile before enemies?",
-    options: [
-      "The sword to kill them",
-      "The enemies to release them",
-      "The land to protect them",
-      "The prophets to follow them",
-    ],
-    answer: "The sword to kill them",
-    reference: "Amos 9:4",
-  },
-  {
-    question: "What happens when the Lord touches the earth?",
-    options: [
-      "It melts and all who live in it mourn",
-      "It becomes fertile",
-      "It freezes",
-      "It turns to gold",
-    ],
-    answer: "It melts and all who live in it mourn",
     reference: "Amos 9:5",
   },
   {
-    question: "Where does Amos say God builds His lofty palace?",
+    question:
+      "Where does God build His lofty palace?",
     options: [
       "In the heavens",
-      "In Jerusalem",
+      "On Zion",
       "On Carmel",
-      "In Bethel",
+      "Above the sea",
     ],
     answer: "In the heavens",
     reference: "Amos 9:6",
   },
   {
-    question: "What does God call up and pour out over the earth?",
+    question:
+      "Where does God set the foundation of His vault?",
+    options: [
+      "On the earth",
+      "On the sea",
+      "On the mountains",
+      "In Jerusalem",
+    ],
+    answer: "On the earth",
+    reference: "Amos 9:6",
+  },
+  {
+    question:
+      "What does God summon and pour over the face of the land?",
     options: [
       "The waters of the sea",
-      "Fire",
-      "Dust",
-      "Locusts",
+      "The winds of heaven",
+      "Fire from the clouds",
+      "The rivers of the earth",
     ],
     answer: "The waters of the sea",
     reference: "Amos 9:6",
   },
   {
-    question: "Which people does God mention bringing from Caphtor?",
+    question:
+      "To which people does God compare Israel in order to challenge their presumption?",
     options: [
-      "Philistines",
-      "Israelites",
-      "Arameans",
-      "Moabites",
+      "The Cushites",
+      "The Egyptians",
+      "The Assyrians",
+      "The Edomites",
     ],
-    answer: "Philistines",
+    answer: "The Cushites",
     reference: "Amos 9:7",
   },
   {
-    question: "Which people does God mention bringing from Kir?",
+    question:
+      "From where does God remind Israel that He brought them up?",
     options: [
-      "Arameans",
-      "Philistines",
-      "Israelites",
-      "Edomites",
+      "Egypt",
+      "Babylon",
+      "Canaan",
+      "Assyria",
     ],
-    answer: "Arameans",
+    answer: "Egypt",
     reference: "Amos 9:7",
   },
   {
-    question: "What does God promise not to do completely to the house of Jacob?",
+    question:
+      "From where did God bring the Philistines according to Amos?",
     options: [
-      "Totally destroy it",
-      "Judge it",
-      "Scatter it",
-      "Correct it",
+      "Caphtor",
+      "Kir",
+      "Egypt",
+      "Aram",
     ],
-    answer: "Totally destroy it",
+    answer: "Caphtor",
+    reference: "Amos 9:7",
+  },
+  {
+    question:
+      "From where did God bring the Arameans?",
+    options: [
+      "Kir",
+      "Caphtor",
+      "Egypt",
+      "Damascus",
+    ],
+    answer: "Kir",
+    reference: "Amos 9:7",
+  },
+  {
+    question:
+      "What does God say He will destroy from the face of the earth?",
+    options: [
+      "The sinful kingdom",
+      "The entire house of Jacob",
+      "Judah",
+      "All nations",
+    ],
+    answer: "The sinful kingdom",
     reference: "Amos 9:8",
   },
   {
-    question: "To what agricultural tool is Israel's sifting among the nations compared?",
+    question:
+      "What exception does God make while announcing destruction?",
+    options: [
+      "He will not totally destroy the house of Jacob",
+      "He will spare only Judah",
+      "He will spare Bethel",
+      "He will spare the kings",
+    ],
+    answer: "He will not totally destroy the house of Jacob",
+    reference: "Amos 9:8",
+  },
+  {
+    question:
+      "To what household implement does God compare His sifting of Israel among the nations?",
     options: [
       "A sieve",
-      "A plow",
-      "A sickle",
       "A threshing sledge",
+      "A basket",
+      "A millstone",
     ],
     answer: "A sieve",
     reference: "Amos 9:9",
   },
   {
-    question: "What does God say will not fall to the ground during the sifting?",
+    question:
+      "What will not fall to the ground during God's sifting?",
     options: [
       "Not one pebble",
+      "Not one grain",
       "Not one seed",
-      "Not one grain stalk",
-      "Not one branch",
+      "Not one coin",
     ],
     answer: "Not one pebble",
     reference: "Amos 9:9",
   },
   {
-    question: "Who does Amos say will die by the sword?",
-    options: [
-      "The sinners among God's people",
-      "All foreigners",
-      "Only priests",
-      "Only kings",
-    ],
-    answer: "The sinners among God's people",
-    reference: "Amos 9:10",
-  },
-  {
-    question: "What false confidence did these sinners express?",
+    question:
+      "What false confidence do Israel's sinners express before judgment?",
     options: [
       "Disaster will not overtake or meet us",
-      "Assyria cannot defeat us",
-      "Bethel will save us",
-      "Our king will live forever",
+      "The temple will protect us",
+      "Assyria will save us",
+      "The king will never fall",
     ],
     answer: "Disaster will not overtake or meet us",
     reference: "Amos 9:10",
   },
   {
-    question: "What does God promise to restore in the final section of Amos?",
+    question:
+      "What ancient structure does God promise to restore in the final section of Amos?",
     options: [
       "David's fallen shelter",
-      "Solomon's palace",
-      "Bethel's altar",
-      "Samaria's ivory houses",
+      "Solomon's temple",
+      "Jerusalem's eastern wall",
+      "The altar at Bethel",
     ],
     answer: "David's fallen shelter",
     reference: "Amos 9:11",
   },
   {
-    question: "What will God do to the breaches in David's fallen shelter?",
+    question:
+      "What will God do to the breaches or ruins of David's fallen shelter?",
     options: [
-      "Repair them",
-      "Widen them",
-      "Ignore them",
+      "Repair and rebuild them",
       "Burn them",
+      "Move them to Zion",
+      "Cover them with cedar",
     ],
-    answer: "Repair them",
+    answer: "Repair and rebuild them",
     reference: "Amos 9:11",
   },
   {
-    question: "What extraordinary agricultural picture describes future abundance?",
+    question:
+      "What ancient condition does God say He will restore to David's shelter?",
+    options: [
+      "As it used to be",
+      "Greater than Solomon's kingdom",
+      "As in Moses' time",
+      "As in the days of Joshua",
+    ],
+    answer: "As it used to be",
+    reference: "Amos 9:11",
+  },
+  {
+    question:
+      "What people are specifically named in connection with the restored possession of nations?",
+    options: [
+      "The remnant of Edom",
+      "The remnant of Moab",
+      "The remnant of Assyria",
+      "The remnant of Egypt",
+    ],
+    answer: "The remnant of Edom",
+    reference: "Amos 9:12",
+  },
+  {
+    question:
+      "What extraordinary agricultural overlap is promised in the restored future?",
     options: [
       "The reaper will be overtaken by the plowman",
-      "Fields will harvest themselves",
-      "Rain will fall every day",
-      "Trees will bear gold",
+      "The plowman will overtake the sower",
+      "Harvest will happen before rain",
+      "Vines will produce without planting",
     ],
     answer: "The reaper will be overtaken by the plowman",
     reference: "Amos 9:13",
   },
   {
-    question: "Who will overtake the one treading grapes?",
+    question:
+      "Who will overtake the one treading grapes?",
     options: [
       "The planter",
       "The reaper",
+      "The plowman",
       "The shepherd",
-      "The priest",
     ],
     answer: "The planter",
     reference: "Amos 9:13",
   },
   {
-    question: "What will drip from the mountains in the restoration picture?",
+    question:
+      "What will drip from the mountains in Amos's final restoration vision?",
     options: [
       "New wine",
-      "Milk",
       "Oil",
+      "Honey",
       "Water",
     ],
     answer: "New wine",
     reference: "Amos 9:13",
   },
   {
-    question: "What will flow from all the hills?",
+    question:
+      "What will flow from all the hills?",
     options: [
       "Wine",
-      "Honey",
-      "Water only",
+      "Milk",
+      "Water",
       "Oil",
     ],
     answer: "Wine",
     reference: "Amos 9:13",
   },
   {
-    question: "What will restored Israel rebuild?",
+    question:
+      "What will restored Israel rebuild?",
     options: [
       "Ruined cities",
-      "Only the temple",
-      "Egyptian fortresses",
-      "Assyrian roads",
+      "Only Jerusalem",
+      "The temple first",
+      "Royal palaces",
     ],
     answer: "Ruined cities",
     reference: "Amos 9:14",
   },
   {
-    question: "What will the restored people plant?",
+    question:
+      "What will restored Israel plant and drink from?",
     options: [
-      "Vineyards and gardens",
-      "Only wheat",
-      "Only olive trees",
-      "Cedars and oaks",
+      "Vineyards",
+      "Olive groves",
+      "Wheat fields",
+      "Fig orchards",
     ],
-    answer: "Vineyards and gardens",
+    answer: "Vineyards",
     reference: "Amos 9:14",
   },
   {
-    question: "What will they drink from their vineyards?",
+    question:
+      "What will restored Israel make and eat from?",
     options: [
-      "Wine",
-      "Water",
-      "Oil",
-      "Milk",
+      "Gardens",
+      "Fields",
+      "Orchards",
+      "Pastures",
     ],
-    answer: "Wine",
+    answer: "Gardens",
     reference: "Amos 9:14",
   },
   {
-    question: "What will they eat from their gardens?",
+    question:
+      "What final agricultural image describes the permanence of Israel's restoration?",
     options: [
-      "Fruit",
-      "Bread",
-      "Meat",
-      "Honey only",
+      "God will plant Israel in their own land",
+      "God will water Israel like a garden",
+      "God will prune Israel like a vine",
+      "God will harvest Israel like grain",
     ],
-    answer: "Fruit",
-    reference: "Amos 9:14",
+    answer: "God will plant Israel in their own land",
+    reference: "Amos 9:15",
   },
   {
-    question: "What final security does God promise His restored people?",
+    question:
+      "What does God promise will never again happen after He plants Israel in their land?",
     options: [
-      "They will be planted in their land and never again uprooted from it",
-      "They will never face any enemies anywhere",
-      "They will conquer every nation militarily",
-      "They will never need to work the land",
+      "They will never again be uprooted from the land He has given them",
+      "They will never suffer famine",
+      "They will never face enemies",
+      "They will never need prophets",
     ],
-    answer: "They will be planted in their land and never again uprooted from it",
+    answer:
+      "They will never again be uprooted from the land He has given them",
     reference: "Amos 9:15",
   },
 ];

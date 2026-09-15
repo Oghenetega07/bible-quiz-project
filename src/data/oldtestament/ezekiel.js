@@ -1,325 +1,388 @@
 const ezekielQuestions = [
   {
-    question: "Where was Ezekiel when the heavens opened and he saw visions of God?",
+    question:
+      "Beside which river did Ezekiel receive his opening vision among the exiles?",
     options: [
-      "By the Kebar River",
-      "By the Jordan River",
-      "In Jerusalem",
-      "By the Euphrates",
+      "The Kebar River",
+      "The Euphrates River",
+      "The Tigris River",
+      "The Jordan River",
     ],
-    answer: "By the Kebar River",
-    reference: "Ezekiel 1:1",
+    answer: "The Kebar River",
+    reference: "Ezekiel 1:1-3",
   },
   {
-    question: "During whose exile did Ezekiel receive his early vision?",
+    question:
+      "In whose fifth year of exile did Ezekiel receive the word of the LORD?",
     options: [
-      "King Jehoiachin's",
-      "King Zedekiah's",
-      "King Josiah's",
-      "King Hezekiah's",
+      "King Jehoiachin",
+      "King Zedekiah",
+      "King Jehoiakim",
+      "King Josiah",
     ],
-    answer: "King Jehoiachin's",
+    answer: "King Jehoiachin",
     reference: "Ezekiel 1:2",
   },
   {
-    question: "What was Ezekiel's father's name?",
-    options: ["Buzi", "Hilkiah", "Neriah", "Shaphan"],
-    answer: "Buzi",
-    reference: "Ezekiel 1:3",
-  },
-  {
-    question: "From which direction did the stormy wind come in Ezekiel's first vision?",
-    options: ["The north", "The south", "The east", "The west"],
-    answer: "The north",
-    reference: "Ezekiel 1:4",
-  },
-  {
-    question: "How many living creatures did Ezekiel see in the vision?",
-    options: ["Four", "Two", "Six", "Seven"],
+    question:
+      "How many living creatures appeared in Ezekiel's opening vision?",
+    options: ["Four", "Seven", "Two", "Twelve"],
     answer: "Four",
     reference: "Ezekiel 1:5",
   },
   {
-    question: "How many faces did each living creature have?",
-    options: ["Four", "One", "Two", "Six"],
-    answer: "Four",
-    reference: "Ezekiel 1:6",
-  },
-  {
-    question: "How many wings did each living creature have?",
-    options: ["Four", "Two", "Six", "Eight"],
-    answer: "Four",
-    reference: "Ezekiel 1:6",
-  },
-  {
-    question: "Which four faces did the living creatures possess?",
+    question:
+      "How many faces and wings did each living creature have?",
     options: [
-      "Man, lion, ox, and eagle",
-      "Lion, bear, leopard, and eagle",
-      "Man, lamb, dove, and ox",
-      "Horse, lion, eagle, and ram",
+      "Four faces and four wings",
+      "One face and six wings",
+      "Four faces and six wings",
+      "Two faces and four wings",
     ],
-    answer: "Man, lion, ox, and eagle",
+    answer: "Four faces and four wings",
+    reference: "Ezekiel 1:6",
+  },
+  {
+    question:
+      "What four faces were associated with each living creature?",
+    options: [
+      "Human, lion, ox, and eagle",
+      "Human, lion, bear, and eagle",
+      "Human, ox, lamb, and eagle",
+      "Lion, ox, eagle, and serpent",
+    ],
+    answer: "Human, lion, ox, and eagle",
     reference: "Ezekiel 1:10",
   },
   {
-    question: "What was beside each living creature?",
+    question:
+      "How were the feet of the living creatures described?",
     options: [
-      "A wheel",
-      "A sword",
-      "A lamp",
-      "A pillar",
+      "Like the feet of a calf and gleaming like burnished bronze",
+      "Like human feet covered in gold",
+      "Like lion paws shining like silver",
+      "Like eagle claws of polished iron",
     ],
-    answer: "A wheel",
-    reference: "Ezekiel 1:15",
+    answer: "Like the feet of a calf and gleaming like burnished bronze",
+    reference: "Ezekiel 1:7",
   },
   {
-    question: "How are the wheels described in relation to one another?",
+    question:
+      "What unusual feature was visible beneath the wings of the living creatures?",
     options: [
-      "Like a wheel intersecting a wheel",
-      "Like wheels joined in a line",
-      "Like wheels stacked vertically",
-      "Like wheels of a chariot",
+      "Human hands",
+      "Eyes",
+      "Burning coals",
+      "Golden rings",
     ],
-    answer: "Like a wheel intersecting a wheel",
-    reference: "Ezekiel 1:16",
+    answer: "Human hands",
+    reference: "Ezekiel 1:8",
   },
   {
-    question: "What covered the rims of the wheels?",
+    question:
+      "What moved with the living creatures and appeared like a wheel intersecting a wheel?",
+    options: [
+      "Four wheels",
+      "Four chariots",
+      "Four rings",
+      "Four fiery spheres",
+    ],
+    answer: "Four wheels",
+    reference: "Ezekiel 1:15-16",
+  },
+  {
+    question:
+      "What covered the rims of the wheels?",
     options: [
       "Eyes",
-      "Fire",
-      "Gold",
-      "Feathers",
+      "Flames",
+      "Jewels",
+      "Wings",
     ],
     answer: "Eyes",
     reference: "Ezekiel 1:18",
   },
   {
-    question: "What was above the heads of the living creatures?",
+    question:
+      "What caused the wheels to move whenever the living creatures moved?",
     options: [
-      "Something like a vault",
-      "A cloud only",
-      "A temple",
-      "A mountain",
+      "The spirit of the living creatures was in the wheels",
+      "Angels pushed them",
+      "A wind from the north moved them",
+      "Fire beneath the throne drove them",
     ],
-    answer: "Something like a vault",
+    answer: "The spirit of the living creatures was in the wheels",
+    reference: "Ezekiel 1:20-21",
+  },
+  {
+    question:
+      "What was above the heads of the living creatures?",
+    options: [
+      "An expanse like sparkling crystal",
+      "A cloud of fire",
+      "A golden canopy",
+      "A rainbow",
+    ],
+    answer: "An expanse like sparkling crystal",
     reference: "Ezekiel 1:22",
   },
   {
-    question: "What appearance did Ezekiel see above the vault?",
+    question:
+      "To what was the sound of the living creatures' wings compared?",
     options: [
-      "A throne like lapis lazuli",
-      "A golden altar",
-      "A bronze chariot",
-      "A white horse",
+      "The roar of rushing waters and the voice of the Almighty",
+      "Thunder and earthquakes",
+      "The sound of a trumpet",
+      "The roar of lions",
     ],
-    answer: "A throne like lapis lazuli",
+    answer: "The roar of rushing waters and the voice of the Almighty",
+    reference: "Ezekiel 1:24",
+  },
+  {
+    question:
+      "What precious stone-like object appeared above the expanse over the creatures?",
+    options: [
+      "A throne like sapphire",
+      "A crown like emerald",
+      "An altar like ruby",
+      "A seat like jasper",
+    ],
+    answer: "A throne like sapphire",
     reference: "Ezekiel 1:26",
   },
   {
-    question: "What surrounded the figure on the throne like the appearance of a rainbow?",
+    question:
+      "What appeared around the radiant figure on the throne like a sign after rain?",
     options: [
-      "Radiance",
-      "Smoke",
-      "Darkness",
-      "Clouds",
+      "A rainbow",
+      "A cloud",
+      "Lightning",
+      "A halo of fire",
     ],
-    answer: "Radiance",
+    answer: "A rainbow",
     reference: "Ezekiel 1:28",
   },
   {
-    question: "How did Ezekiel respond when he saw the appearance of the glory of the Lord?",
-    options: [
-      "He fell facedown",
-      "He shouted",
-      "He ran away",
-      "He stood silently",
-    ],
-    answer: "He fell facedown",
-    reference: "Ezekiel 1:28",
-  },
-
-  {
-    question: "What title does God repeatedly use for Ezekiel?",
+    question:
+      "What title does God repeatedly use for Ezekiel?",
     options: [
       "Son of man",
-      "Man of God",
-      "Servant of Israel",
+      "Servant of the LORD",
       "Watchman of Judah",
+      "Priest of Israel",
     ],
     answer: "Son of man",
     reference: "Ezekiel 2:1",
   },
   {
-    question: "To what kind of people was Ezekiel sent?",
+    question:
+      "What does the Spirit do when God first speaks to Ezekiel?",
     options: [
-      "A rebellious people",
-      "A faithful nation",
-      "A foreign army",
-      "A priestly family only",
+      "Enters him and sets him on his feet",
+      "Carries him to Jerusalem",
+      "Causes him to prophesy",
+      "Makes him fall asleep",
     ],
-    answer: "A rebellious people",
-    reference: "Ezekiel 2:3",
+    answer: "Enters him and sets him on his feet",
+    reference: "Ezekiel 2:2",
   },
   {
-    question: "What was Ezekiel commanded not to fear?",
+    question:
+      "How does God describe the people to whom Ezekiel is sent?",
     options: [
-      "The people or their words",
-      "Babylonian soldiers",
-      "Wild animals",
-      "The king",
+      "Rebellious and stubborn",
+      "Ignorant and weak",
+      "Fearful and scattered",
+      "Poor and oppressed",
     ],
-    answer: "The people or their words",
-    reference: "Ezekiel 2:6",
+    answer: "Rebellious and stubborn",
+    reference: "Ezekiel 2:3-4",
   },
   {
-    question: "What object was handed to Ezekiel to eat?",
+    question:
+      "What object is spread before Ezekiel containing words of lament, mourning, and woe?",
     options: [
       "A scroll",
-      "A loaf of bread",
-      "A fig",
       "A tablet",
+      "A book",
+      "A letter",
     ],
     answer: "A scroll",
-    reference: "Ezekiel 2:9-3:1",
+    reference: "Ezekiel 2:9-10",
   },
   {
-    question: "What was written on both sides of the scroll?",
+    question:
+      "What unusual command is Ezekiel given concerning the scroll?",
     options: [
-      "Words of lament, mourning, and woe",
-      "Songs of praise",
-      "Genealogies",
-      "Temple measurements",
+      "Eat it",
+      "Burn it",
+      "Bury it",
+      "Read it aloud seven times",
     ],
-    answer: "Words of lament, mourning, and woe",
-    reference: "Ezekiel 2:10",
+    answer: "Eat it",
+    reference: "Ezekiel 3:1",
   },
   {
-    question: "How did the scroll taste in Ezekiel's mouth?",
+    question:
+      "How does the scroll taste in Ezekiel's mouth?",
     options: [
       "Sweet as honey",
       "Bitter as gall",
-      "Salty",
-      "Like bread",
+      "Salty as tears",
+      "Sharp as vinegar",
     ],
     answer: "Sweet as honey",
     reference: "Ezekiel 3:3",
   },
   {
-    question: "How long did Ezekiel sit overwhelmed among the exiles at Tel Aviv?",
+    question:
+      "What reason does God give for saying Israel would not listen to Ezekiel?",
     options: [
-      "Seven days",
-      "Three days",
-      "Forty days",
-      "Ten days",
+      "They would not listen to God either",
+      "They could not understand Ezekiel's language",
+      "They feared Babylon",
+      "They trusted false prophets",
     ],
-    answer: "Seven days",
+    answer: "They would not listen to God either",
+    reference: "Ezekiel 3:7",
+  },
+  {
+    question:
+      "What hardness does God give Ezekiel to match Israel's stubbornness?",
+    options: [
+      "A forehead harder than flint",
+      "A heart harder than stone",
+      "A voice like thunder",
+      "Hands like iron",
+    ],
+    answer: "A forehead harder than flint",
+    reference: "Ezekiel 3:8-9",
+  },
+  {
+    question:
+      "Where does Ezekiel sit overwhelmed among the exiles for seven days?",
+    options: [
+      "Tel Abib by the Kebar River",
+      "Jerusalem by the temple",
+      "Babylon beside the Euphrates",
+      "Riblah in Hamath",
+    ],
+    answer: "Tel Abib by the Kebar River",
     reference: "Ezekiel 3:15",
   },
   {
-    question: "What role did God appoint Ezekiel to perform for Israel?",
+    question:
+      "What responsibility is Ezekiel given toward Israel?",
     options: [
       "Watchman",
+      "Judge",
       "King",
       "High priest",
-      "Commander",
     ],
     answer: "Watchman",
     reference: "Ezekiel 3:17",
   },
   {
-    question: "What was Ezekiel required to do when God warned the wicked?",
+    question:
+      "What happens to Ezekiel's accountability if he fails to warn a wicked person?",
     options: [
-      "Warn them",
-      "Punish them himself",
-      "Ignore them",
-      "Report them to the king",
+      "God holds Ezekiel accountable for that person's blood",
+      "Ezekiel loses his prophetic office",
+      "Ezekiel is exiled again",
+      "Ezekiel becomes ceremonially unclean",
     ],
-    answer: "Warn them",
-    reference: "Ezekiel 3:18-19",
+    answer: "God holds Ezekiel accountable for that person's blood",
+    reference: "Ezekiel 3:18",
   },
-
   {
-    question: "What did Ezekiel use to represent Jerusalem in a symbolic siege?",
+    question:
+      "What model is Ezekiel commanded to use to portray Jerusalem's siege?",
     options: [
       "A clay tablet",
+      "A bronze shield",
       "A wooden board",
-      "A scroll",
-      "A stone slab",
+      "A stone wall",
     ],
     answer: "A clay tablet",
     reference: "Ezekiel 4:1",
   },
   {
-    question: "On which side did Ezekiel lie first to bear the sin of Israel?",
+    question:
+      "What object does Ezekiel place between himself and the model city as an iron wall?",
     options: [
-      "His left side",
-      "His right side",
-      "His back",
-      "His face",
+      "An iron pan",
+      "An iron shield",
+      "A bronze plate",
+      "A metal gate",
     ],
-    answer: "His left side",
-    reference: "Ezekiel 4:4",
+    answer: "An iron pan",
+    reference: "Ezekiel 4:3",
   },
   {
-    question: "How many days did Ezekiel lie on his left side?",
-    options: [
-      "390 days",
-      "40 days",
-      "70 days",
-      "430 days",
-    ],
-    answer: "390 days",
-    reference: "Ezekiel 4:5",
+    question:
+      "How many days is Ezekiel told to lie on his left side to bear Israel's sin?",
+    options: ["390", "40", "430", "70"],
+    answer: "390",
+    reference: "Ezekiel 4:4-5",
   },
   {
-    question: "How many days did Ezekiel lie on his right side for Judah?",
-    options: [
-      "40 days",
-      "390 days",
-      "70 days",
-      "12 days",
-    ],
-    answer: "40 days",
+    question:
+      "How many days is Ezekiel told to lie on his right side for Judah's sin?",
+    options: ["40", "390", "70", "30"],
+    answer: "40",
     reference: "Ezekiel 4:6",
   },
   {
-    question: "What fuel did God initially command Ezekiel to use for baking his bread?",
+    question:
+      "What principle does God use in assigning Ezekiel the number of days for bearing sin?",
+    options: [
+      "A day for each year",
+      "A week for each year",
+      "A day for each generation",
+      "A month for each king",
+    ],
+    answer: "A day for each year",
+    reference: "Ezekiel 4:6",
+  },
+  {
+    question:
+      "Which grains and legumes are combined in Ezekiel's siege bread?",
+    options: [
+      "Wheat, barley, beans, lentils, millet, and spelt",
+      "Wheat, oats, peas, lentils, millet, and rye",
+      "Barley, beans, corn, lentils, rice, and spelt",
+      "Wheat, barley, chickpeas, millet, rye, and beans",
+    ],
+    answer: "Wheat, barley, beans, lentils, millet, and spelt",
+    reference: "Ezekiel 4:9",
+  },
+  {
+    question:
+      "What disturbing fuel is Ezekiel initially commanded to use for baking his bread?",
     options: [
       "Human excrement",
-      "Wood",
-      "Animal dung",
-      "Straw",
+      "Animal bones",
+      "Dry thorns",
+      "Dung from camels",
     ],
     answer: "Human excrement",
     reference: "Ezekiel 4:12",
   },
   {
-    question: "What substitute did God allow after Ezekiel protested?",
+    question:
+      "What substitute does God permit after Ezekiel objects to becoming defiled?",
     options: [
       "Cow dung",
-      "Dry wood",
       "Sheep dung",
-      "Charcoal",
+      "Goat dung",
+      "Wood",
     ],
     answer: "Cow dung",
     reference: "Ezekiel 4:15",
   },
   {
-    question: "What did the measured food and water symbolize?",
-    options: [
-      "Scarcity during Jerusalem's siege",
-      "A priestly fast",
-      "A harvest celebration",
-      "Israel's wilderness journey",
-    ],
-    answer: "Scarcity during Jerusalem's siege",
-    reference: "Ezekiel 4:16-17",
-  },
-
-  {
-    question: "What did Ezekiel use to shave his head and beard?",
+    question:
+      "What does Ezekiel use to shave his head and beard in another enacted sign?",
     options: [
       "A sharp sword",
       "A razor",
@@ -330,425 +393,439 @@ const ezekielQuestions = [
     reference: "Ezekiel 5:1",
   },
   {
-    question: "Into how many symbolic portions was Ezekiel's hair divided?",
+    question:
+      "Into how many portions is Ezekiel's shaved hair divided?",
     options: [
       "Three",
-      "Two",
       "Four",
+      "Two",
       "Seven",
     ],
     answer: "Three",
     reference: "Ezekiel 5:2",
   },
   {
-    question: "What did one portion of the hair symbolize when it was burned?",
+    question:
+      "What happens to the three portions of Ezekiel's hair?",
     options: [
-      "Those who would die by plague and famine",
-      "Those who would escape",
-      "The priests",
-      "The exiles in Babylon",
+      "One is burned, one struck with a sword, and one scattered to the wind",
+      "One buried, one burned, and one placed in the temple",
+      "One thrown into water, one burned, and one scattered",
+      "One kept, one cut again, and one buried",
     ],
-    answer: "Those who would die by plague and famine",
-    reference: "Ezekiel 5:2,12",
-  },
-  {
-    question: "What happened to another portion of Ezekiel's hair?",
-    options: [
-      "It was struck with a sword",
-      "It was buried",
-      "It was placed in water",
-      "It was given to priests",
-    ],
-    answer: "It was struck with a sword",
+    answer:
+      "One is burned, one struck with a sword, and one scattered to the wind",
     reference: "Ezekiel 5:2",
   },
   {
-    question: "What happened to the final portion of the hair?",
+    question:
+      "What small portion of hair is Ezekiel told to preserve?",
     options: [
-      "It was scattered to the wind",
-      "It was burned",
-      "It was hidden in a jar",
-      "It was thrown into the river",
+      "A few strands tied in the folds of his garment",
+      "One third placed in a jar",
+      "Seven hairs under his belt",
+      "A handful placed on the altar",
     ],
-    answer: "It was scattered to the wind",
-    reference: "Ezekiel 5:2",
+    answer: "A few strands tied in the folds of his garment",
+    reference: "Ezekiel 5:3",
   },
-
   {
-    question: "Against what locations did Ezekiel prophesy because of idolatry?",
+    question:
+      "Against what geographic features is Ezekiel commanded to prophesy because of idolatrous worship?",
     options: [
-      "The mountains of Israel",
-      "The rivers of Babylon",
-      "The walls of Jerusalem only",
-      "The plains of Egypt",
+      "Mountains, hills, ravines, and valleys",
+      "Rivers and springs",
+      "Cities and villages",
+      "Forests and deserts",
     ],
-    answer: "The mountains of Israel",
+    answer: "Mountains, hills, ravines, and valleys",
     reference: "Ezekiel 6:2-3",
   },
   {
-    question: "What would happen to Israel's high places?",
+    question:
+      "What will lie scattered around Israel's altars?",
     options: [
-      "They would be demolished",
-      "They would become temples",
-      "They would be moved",
-      "They would be purified and preserved",
+      "The slain before their idols",
+      "Broken weapons",
+      "Sacrificial animals",
+      "Temple vessels",
     ],
-    answer: "They would be demolished",
-    reference: "Ezekiel 6:4",
+    answer: "The slain before their idols",
+    reference: "Ezekiel 6:4-5",
   },
   {
-    question: "What would the surviving remnant remember among the nations?",
+    question:
+      "What repeated purpose statement appears throughout Ezekiel's judgments?",
     options: [
-      "How they had grieved God with their unfaithfulness",
-      "Their military victories",
-      "The wealth of Jerusalem",
-      "The reign of David",
+      "Then they will know that I am the LORD",
+      "Then they will return to Jerusalem",
+      "Then they will fear Babylon",
+      "Then they will rebuild the temple",
     ],
-    answer: "How they had grieved God with their unfaithfulness",
-    reference: "Ezekiel 6:9",
-  },
-
-  {
-    question: "What does Ezekiel repeatedly announce as approaching the land?",
-    options: [
-      "The end",
-      "A new king",
-      "A harvest",
-      "Peace",
-    ],
-    answer: "The end",
-    reference: "Ezekiel 7:2-6",
+    answer: "Then they will know that I am the LORD",
+    reference: "Ezekiel 6:7",
   },
   {
-    question: "What would silver and gold be unable to do in the coming judgment?",
+    question:
+      "What expression does God use to describe the finality of judgment in the land?",
     options: [
-      "Save the people",
-      "Buy food",
-      "Be carried away",
-      "Be melted",
+      "The end has come",
+      "The day has passed",
+      "The covenant is broken",
+      "The king has fallen",
     ],
-    answer: "Save the people",
+    answer: "The end has come",
+    reference: "Ezekiel 7:2-3",
+  },
+  {
+    question:
+      "What do people throw into the streets when wealth becomes useless during judgment?",
+    options: [
+      "Their silver",
+      "Their idols",
+      "Their weapons",
+      "Their food",
+    ],
+    answer: "Their silver",
     reference: "Ezekiel 7:19",
   },
   {
-    question: "Where would people throw their silver during judgment?",
+    question:
+      "What happens to gold in the same judgment scene?",
     options: [
-      "Into the streets",
-      "Into the temple",
-      "Into the river",
-      "Into their houses",
+      "It becomes unclean to them",
+      "It melts",
+      "It is taken to Babylon",
+      "It becomes worthless dust",
     ],
-    answer: "Into the streets",
+    answer: "It becomes unclean to them",
     reference: "Ezekiel 7:19",
   },
-
   {
-    question: "Where was Ezekiel transported in a vision while sitting with Judah's elders?",
+    question:
+      "What does Ezekiel see at the entrance of the north gate of the inner court during his vision of Jerusalem's abominations?",
     options: [
-      "Jerusalem",
-      "Egypt",
-      "Samaria",
-      "Babylon's palace",
-    ],
-    answer: "Jerusalem",
-    reference: "Ezekiel 8:1-3",
-  },
-  {
-    question: "What was placed at the entrance of the temple area to provoke God's jealousy?",
-    options: [
-      "An idol",
-      "A foreign altar",
+      "The idol that provokes jealousy",
       "A golden calf",
-      "A statue of the king",
+      "An Asherah pole",
+      "A statue of Baal",
     ],
-    answer: "An idol",
+    answer: "The idol that provokes jealousy",
     reference: "Ezekiel 8:3-5",
   },
   {
-    question: "How many elders of Israel did Ezekiel see worshiping images in a hidden room?",
-    options: [
-      "Seventy",
-      "Twelve",
-      "Twenty-five",
-      "Forty",
-    ],
+    question:
+      "How many elders of Israel does Ezekiel see inside a chamber filled with images?",
+    options: ["Seventy", "Twenty-five", "Twelve", "Forty"],
     answer: "Seventy",
     reference: "Ezekiel 8:11",
   },
   {
-    question: "Who was among the seventy elders Ezekiel saw?",
+    question:
+      "Who is named among the seventy elders in the vision?",
     options: [
       "Jaazaniah son of Shaphan",
-      "Baruch son of Neriah",
-      "Pashhur son of Immer",
-      "Gedaliah son of Ahikam",
+      "Pelatiah son of Benaiah",
+      "Jaazaniah son of Azzur",
+      "Shemaiah son of Delaiah",
     ],
     answer: "Jaazaniah son of Shaphan",
     reference: "Ezekiel 8:11",
   },
   {
-    question: "Which deity were women mourning near the temple?",
+    question:
+      "For whom are women seen mourning at the north gate of the LORD's house?",
     options: [
       "Tammuz",
       "Baal",
-      "Chemosh",
       "Molek",
+      "Dagon",
     ],
     answer: "Tammuz",
     reference: "Ezekiel 8:14",
   },
   {
-    question: "How many men did Ezekiel see worshiping the sun with their backs toward the temple?",
-    options: [
-      "About twenty-five",
-      "Seventy",
-      "Twelve",
-      "Forty",
-    ],
-    answer: "About twenty-five",
+    question:
+      "How many men are seen between the portico and altar worshiping the sun?",
+    options: ["Twenty-five", "Seventy", "Twelve", "Forty"],
+    answer: "Twenty-five",
     reference: "Ezekiel 8:16",
   },
-
   {
-    question: "What distinguished the man assigned to mark faithful mourners in Jerusalem?",
+    question:
+      "In what direction are the twenty-five men facing while worshiping the sun?",
     options: [
-      "He was clothed in linen and carried a writing kit",
-      "He carried a sword",
-      "He wore a crown",
-      "He carried a golden bowl",
+      "East",
+      "West",
+      "North",
+      "South",
     ],
-    answer: "He was clothed in linen and carried a writing kit",
-    reference: "Ezekiel 9:2-4",
+    answer: "East",
+    reference: "Ezekiel 8:16",
   },
   {
-    question: "Who were to receive a mark on their foreheads?",
+    question:
+      "How many executioners approach in Ezekiel's vision of Jerusalem's judgment?",
+    options: ["Six", "Seven", "Four", "Twelve"],
+    answer: "Six",
+    reference: "Ezekiel 9:2",
+  },
+  {
+    question:
+      "What distinguishing item does the additional man among them possess?",
     options: [
-      "Those who grieved over Jerusalem's detestable practices",
-      "All priests",
-      "All soldiers",
-      "All wealthy citizens",
+      "A writing kit",
+      "A golden sword",
+      "A priestly breastpiece",
+      "A scroll",
     ],
-    answer: "Those who grieved over Jerusalem's detestable practices",
+    answer: "A writing kit",
+    reference: "Ezekiel 9:2",
+  },
+  {
+    question:
+      "Who receives a protective mark on the forehead?",
+    options: [
+      "Those who grieve over the abominations committed in Jerusalem",
+      "All priests",
+      "All descendants of David",
+      "Those who remain inside the temple",
+    ],
+    answer:
+      "Those who grieve over the abominations committed in Jerusalem",
     reference: "Ezekiel 9:4",
   },
   {
-    question: "From where was judgment commanded to begin?",
+    question:
+      "Where are the executioners commanded to begin judgment?",
     options: [
       "At God's sanctuary",
-      "At the city gate",
-      "At the king's palace",
-      "At the marketplace",
+      "At the palace",
+      "At the city gates",
+      "At the high places",
     ],
     answer: "At God's sanctuary",
     reference: "Ezekiel 9:6",
   },
-
   {
-    question: "What did the man in linen take from between the cherubim?",
+    question:
+      "What is the man dressed in linen told to take from between the cherubim?",
     options: [
       "Burning coals",
       "A scroll",
       "A sword",
-      "A golden cup",
+      "A golden censer",
     ],
     answer: "Burning coals",
     reference: "Ezekiel 10:2",
   },
   {
-    question: "What was he commanded to do with the burning coals?",
+    question:
+      "What is he told to do with the burning coals?",
     options: [
       "Scatter them over Jerusalem",
       "Place them on the altar",
       "Carry them to Babylon",
-      "Throw them into the river",
+      "Throw them into the Kebar River",
     ],
     answer: "Scatter them over Jerusalem",
     reference: "Ezekiel 10:2",
   },
   {
-    question: "What name does Ezekiel later give to the living creatures?",
+    question:
+      "What name does Ezekiel later recognize for the living creatures beneath God's throne?",
     options: [
       "Cherubim",
       "Seraphim",
-      "Angels",
       "Watchers",
+      "Archangels",
     ],
     answer: "Cherubim",
     reference: "Ezekiel 10:20",
   },
-
   {
-    question: "How many men did Ezekiel see at the east gate plotting wickedness?",
-    options: [
-      "Twenty-five",
-      "Seventy",
-      "Twelve",
-      "Forty",
-    ],
-    answer: "Twenty-five",
-    reference: "Ezekiel 11:1-2",
-  },
-  {
-    question: "Who suddenly died while Ezekiel was prophesying?",
+    question:
+      "Which man dies while Ezekiel is prophesying against Jerusalem's leaders?",
     options: [
       "Pelatiah son of Benaiah",
+      "Jaazaniah son of Azzur",
       "Jaazaniah son of Shaphan",
-      "Pashhur",
-      "Zedekiah",
+      "Shemaiah son of Delaiah",
     ],
     answer: "Pelatiah son of Benaiah",
     reference: "Ezekiel 11:13",
   },
   {
-    question: "What kind of heart did God promise to give the restored people?",
+    question:
+      "What promise does God give concerning the exiles' hearts?",
     options: [
-      "An undivided heart",
-      "A fearful heart",
-      "A royal heart",
-      "A divided heart",
+      "He will remove the heart of stone and give them a heart of flesh",
+      "He will make their hearts like fire",
+      "He will remove fear from their hearts",
+      "He will give them the heart of David",
     ],
-    answer: "An undivided heart",
+    answer: "He will remove the heart of stone and give them a heart of flesh",
     reference: "Ezekiel 11:19",
   },
   {
-    question: "What would God replace the heart of stone with?",
+    question:
+      "Where does the glory of the LORD stop after departing from Jerusalem?",
     options: [
-      "A heart of flesh",
-      "A heart of gold",
-      "A heart of fire",
-      "A heart of wisdom",
+      "The mountain east of the city",
+      "The Mount of Carmel",
+      "The Kidron Valley",
+      "The hill north of Jerusalem",
     ],
-    answer: "A heart of flesh",
-    reference: "Ezekiel 11:19",
-  },
-
-  {
-    question: "What did Ezekiel pack in another symbolic action?",
-    options: [
-      "Belongings for exile",
-      "Temple vessels",
-      "Weapons",
-      "Food for a feast",
-    ],
-    answer: "Belongings for exile",
-    reference: "Ezekiel 12:3",
+    answer: "The mountain east of the city",
+    reference: "Ezekiel 11:23",
   },
   {
-    question: "How did Ezekiel leave his house during the symbolic exile?",
+    question:
+      "What symbolic action does Ezekiel perform to portray exile?",
     options: [
-      "Through a hole dug in the wall",
-      "Through the main gate",
-      "Through a window",
-      "Across the roof",
+      "He packs belongings and digs through a wall",
+      "He breaks a jar",
+      "He shaves his head",
+      "He carries a yoke",
     ],
-    answer: "Through a hole dug in the wall",
-    reference: "Ezekiel 12:5-7",
+    answer: "He packs belongings and digs through a wall",
+    reference: "Ezekiel 12:3-7",
   },
   {
-    question: "What did Ezekiel cover while carrying out the exile sign?",
+    question:
+      "How does Ezekiel carry his belongings out in the sign of exile?",
     options: [
-      "His face",
-      "His hands",
-      "His feet",
-      "His head",
+      "On his shoulder in darkness",
+      "On a cart at noon",
+      "On his back at sunrise",
+      "In a sack before the elders",
     ],
-    answer: "His face",
+    answer: "On his shoulder in darkness",
     reference: "Ezekiel 12:6",
   },
   {
-    question: "Whom did the symbolic exile sign especially represent?",
+    question:
+      "What does Ezekiel cover while performing the exile sign?",
     options: [
-      "The prince in Jerusalem",
-      "The high priest",
-      "The king of Babylon",
-      "The elders in exile",
+      "His face so he cannot see the land",
+      "His head with sackcloth",
+      "His eyes with a cloth",
+      "His mouth with his hand",
     ],
-    answer: "The prince in Jerusalem",
-    reference: "Ezekiel 12:10-12",
-  },
-
-  {
-    question: "What were false prophets compared to among ruins?",
-    options: [
-      "Jackals",
-      "Lions",
-      "Foxes",
-      "Wolves",
-    ],
-    answer: "Jackals",
-    reference: "Ezekiel 13:4",
+    answer: "His face so he cannot see the land",
+    reference: "Ezekiel 12:6",
   },
   {
-    question: "What false message did deceptive prophets proclaim?",
+    question:
+      "What proverb among Israel does God promise to bring to an end?",
     options: [
-      "Peace when there was no peace",
-      "The exile would last forever",
-      "Babylon was about to fall immediately",
-      "Jerusalem would become Egypt",
+      "The days go by and every vision comes to nothing",
+      "The fathers eat sour grapes",
+      "Peace, peace, when there is no peace",
+      "The temple of the LORD will protect us",
     ],
-    answer: "Peace when there was no peace",
-    reference: "Ezekiel 13:10",
+    answer: "The days go by and every vision comes to nothing",
+    reference: "Ezekiel 12:22",
   },
   {
-    question: "What image describes the false security created by deceptive prophecy?",
+    question:
+      "What flimsy construction do false prophets metaphorically cover with whitewash?",
     options: [
-      "A flimsy wall covered with whitewash",
-      "A house built on stone",
-      "A strong fortress",
-      "A cedar wall",
+      "A weak wall",
+      "A cracked cistern",
+      "A ruined temple",
+      "A broken gate",
     ],
-    answer: "A flimsy wall covered with whitewash",
-    reference: "Ezekiel 13:10-15",
+    answer: "A weak wall",
+    reference: "Ezekiel 13:10-12",
   },
-
   {
-    question: "Which three righteous men are named as unable to save anyone but themselves in severe judgment?",
+    question:
+      "What will expose the weakness of the whitewashed wall?",
+    options: [
+      "Torrential rain, hailstones, and violent wind",
+      "Fire and earthquake",
+      "Enemy battering rams",
+      "Flooding from the Jordan",
+    ],
+    answer: "Torrential rain, hailstones, and violent wind",
+    reference: "Ezekiel 13:11-13",
+  },
+  {
+    question:
+      "What objects do certain female false prophets sew on people's wrists?",
+    options: [
+      "Magic charms",
+      "Prayer cords",
+      "Idol bands",
+      "Priestly bracelets",
+    ],
+    answer: "Magic charms",
+    reference: "Ezekiel 13:18",
+  },
+  {
+    question:
+      "What do the same women make for heads of various sizes?",
+    options: [
+      "Veils",
+      "Crowns",
+      "Headbands",
+      "Caps",
+    ],
+    answer: "Veils",
+    reference: "Ezekiel 13:18",
+  },
+  {
+    question:
+      "For what small payments are the false prophetesses accused of profaning God?",
+    options: [
+      "Handfuls of barley and scraps of bread",
+      "Silver coins and wine",
+      "Wheat and oil",
+      "Bread and salt",
+    ],
+    answer: "Handfuls of barley and scraps of bread",
+    reference: "Ezekiel 13:19",
+  },
+  {
+    question:
+      "Which three righteous men are named as examples who could save only themselves in a severely judged land?",
     options: [
       "Noah, Daniel, and Job",
-      "Abraham, Isaac, and Jacob",
-      "Moses, Aaron, and Samuel",
-      "David, Solomon, and Hezekiah",
+      "Abraham, Moses, and Samuel",
+      "Noah, Moses, and Job",
+      "Daniel, David, and Elijah",
     ],
     answer: "Noah, Daniel, and Job",
     reference: "Ezekiel 14:14",
   },
   {
-    question: "What four dreadful judgments does Ezekiel list?",
+    question:
+      "What four severe judgments does God list against Jerusalem?",
     options: [
       "Sword, famine, wild beasts, and plague",
-      "Fire, flood, earthquake, and drought",
-      "War, exile, slavery, and disease",
-      "Locusts, hail, darkness, and famine",
+      "Fire, flood, famine, and sword",
+      "Exile, plague, drought, and beasts",
+      "Sword, earthquake, famine, and hail",
     ],
     answer: "Sword, famine, wild beasts, and plague",
     reference: "Ezekiel 14:21",
   },
-
   {
-    question: "To what is Jerusalem compared when emphasizing its uselessness apart from fruit?",
+    question:
+      "To what tree is Jerusalem compared to show its uselessness after burning?",
     options: [
-      "Vine wood",
-      "Cedar wood",
-      "Olive wood",
-      "Acacia wood",
+      "A vine",
+      "An olive tree",
+      "A cedar",
+      "A fig tree",
     ],
-    answer: "Vine wood",
+    answer: "A vine",
     reference: "Ezekiel 15:2-5",
   },
   {
-    question: "Why is vine wood presented as especially unsuitable?",
-    options: [
-      "It is not useful for making ordinary objects",
-      "It is too expensive",
-      "It cannot burn",
-      "It is stronger than cedar",
-    ],
-    answer: "It is not useful for making ordinary objects",
-    reference: "Ezekiel 15:3-5",
-  },
-
-  {
-    question: "What city is portrayed as an abandoned newborn girl whom God rescued?",
+    question:
+      "What city is personified as an abandoned infant in a long allegory?",
     options: [
       "Jerusalem",
       "Samaria",
@@ -756,551 +833,591 @@ const ezekielQuestions = [
       "Tyre",
     ],
     answer: "Jerusalem",
-    reference: "Ezekiel 16",
+    reference: "Ezekiel 16:2-5",
   },
   {
-    question: "What was not done for the newborn Jerusalem in Ezekiel's allegory?",
+    question:
+      "What is said about Jerusalem's ancestry in the allegory?",
     options: [
-      "Her cord was not cut and she was not washed",
-      "She was not named",
-      "She was not fed",
-      "She was not wrapped in royal cloth",
+      "Her father was an Amorite and her mother a Hittite",
+      "Her father was an Egyptian and her mother a Canaanite",
+      "Her father was a Jebusite and her mother an Amorite",
+      "Her father was an Edomite and her mother a Hittite",
     ],
-    answer: "Her cord was not cut and she was not washed",
+    answer: "Her father was an Amorite and her mother a Hittite",
+    reference: "Ezekiel 16:3",
+  },
+  {
+    question:
+      "What had not been done for the abandoned infant at birth?",
+    options: [
+      "Her cord was not cut, she was not washed, salted, or wrapped",
+      "She was not named or fed",
+      "She was not circumcised",
+      "She was not brought to the temple",
+    ],
+    answer:
+      "Her cord was not cut, she was not washed, salted, or wrapped",
     reference: "Ezekiel 16:4",
   },
   {
-    question: "What did God say to the abandoned infant Jerusalem?",
+    question:
+      "What word does God repeatedly speak over the abandoned infant lying in blood?",
     options: [
       "Live!",
-      "Repent!",
-      "Return!",
       "Rise!",
+      "Return!",
+      "Grow!",
     ],
     answer: "Live!",
     reference: "Ezekiel 16:6",
   },
   {
-    question: "How is Jerusalem's later spiritual unfaithfulness portrayed?",
-    options: [
-      "As prostitution",
-      "As theft",
-      "As drunkenness only",
-      "As rebellion in war",
-    ],
-    answer: "As prostitution",
-    reference: "Ezekiel 16:15-34",
-  },
-  {
-    question: "Which two cities are called Jerusalem's sisters in the allegory?",
+    question:
+      "What two sisters are Jerusalem compared with in the allegory?",
     options: [
       "Samaria and Sodom",
+      "Samaria and Babylon",
+      "Sodom and Gomorrah",
       "Tyre and Sidon",
-      "Babylon and Nineveh",
-      "Damascus and Gaza",
     ],
     answer: "Samaria and Sodom",
     reference: "Ezekiel 16:46",
   },
   {
-    question: "What sins of Sodom are specifically highlighted?",
+    question:
+      "What sins are specifically attributed to Sodom besides detestable practices?",
     options: [
-      "Pride, excess food, ease, and failure to help the poor",
-      "Idolatry alone",
-      "Military violence only",
-      "Breaking the Sabbath only",
+      "Pride, excess food, prosperous ease, and failure to help the poor",
+      "Idolatry, murder, and theft",
+      "Foreign alliances and temple prostitution",
+      "Violence, greed, and false prophecy",
     ],
-    answer: "Pride, excess food, ease, and failure to help the poor",
+    answer:
+      "Pride, excess food, prosperous ease, and failure to help the poor",
     reference: "Ezekiel 16:49",
   },
-
   {
-    question: "Which bird symbolizes Babylon in the parable of the two eagles and the vine?",
+    question:
+      "What bird does the great eagle take from the top of a cedar in Ezekiel's riddle?",
     options: [
-      "A great eagle",
+      "It takes the topmost shoot rather than a bird",
       "A dove",
+      "An eagle",
       "A raven",
-      "A falcon",
     ],
-    answer: "A great eagle",
-    reference: "Ezekiel 17:3",
+    answer: "It takes the topmost shoot rather than a bird",
+    reference: "Ezekiel 17:3-4",
   },
   {
-    question: "What did the vine do that represented Judah seeking help from another power?",
+    question:
+      "What does the first great eagle represent in Ezekiel's riddle?",
     options: [
-      "Bent its roots toward another eagle",
-      "Withered immediately",
-      "Grew into a cedar",
-      "Produced no fruit",
+      "The king of Babylon",
+      "The king of Egypt",
+      "The king of Judah",
+      "The king of Tyre",
     ],
-    answer: "Bent its roots toward another eagle",
-    reference: "Ezekiel 17:7",
+    answer: "The king of Babylon",
+    reference: "Ezekiel 17:12",
   },
   {
-    question: "Which foreign nation did Judah seek for horses and a large army?",
+    question:
+      "Toward whom does the vine bend its roots in an act of covenant betrayal?",
     options: [
-      "Egypt",
+      "Another great eagle representing Egypt",
       "Assyria",
+      "Tyre",
       "Moab",
-      "Persia",
     ],
-    answer: "Egypt",
-    reference: "Ezekiel 17:15",
+    answer: "Another great eagle representing Egypt",
+    reference: "Ezekiel 17:7,15",
   },
   {
-    question: "What tree does God promise to plant on Israel's mountain from a tender shoot?",
+    question:
+      "What does God promise to plant on Israel's high mountain?",
     options: [
-      "A majestic cedar",
+      "A tender cedar shoot",
+      "A vine",
       "An olive tree",
       "A fig tree",
-      "A palm tree",
     ],
-    answer: "A majestic cedar",
+    answer: "A tender cedar shoot",
     reference: "Ezekiel 17:22-23",
   },
-
   {
-    question: "What proverb did Israel use about children suffering for their parents' sins?",
+    question:
+      "What proverb concerning inherited guilt does Ezekiel reject?",
     options: [
       "The parents eat sour grapes, and the children's teeth are set on edge",
+      "The sins of fathers rest forever on children",
+      "The wicked prosper while the righteous suffer",
       "Like father, like son",
-      "The sins of kings destroy the children",
-      "The fathers plant and the sons harvest",
     ],
-    answer: "The parents eat sour grapes, and the children's teeth are set on edge",
-    reference: "Ezekiel 18:2",
+    answer:
+      "The parents eat sour grapes, and the children's teeth are set on edge",
+    reference: "Ezekiel 18:2-3",
   },
   {
-    question: "Who does God say belongs to Him?",
+    question:
+      "Who does God say belongs to Him in the discussion of individual responsibility?",
     options: [
-      "Every living soul",
+      "Both the parent and the child",
       "Only the righteous",
       "Only Israel",
       "Only priests",
     ],
-    answer: "Every living soul",
+    answer: "Both the parent and the child",
     reference: "Ezekiel 18:4",
   },
   {
-    question: "Who will die according to the principle of individual responsibility?",
+    question:
+      "What principle is stated concerning the person who sins?",
     options: [
-      "The person who sins",
-      "The sinner's children",
-      "The sinner's parents",
-      "The entire household",
+      "The one who sins is the one who will die",
+      "The whole family bears the sin",
+      "The oldest son bears the punishment",
+      "The king bears the nation's guilt",
     ],
-    answer: "The person who sins",
-    reference: "Ezekiel 18:4,20",
+    answer: "The one who sins is the one who will die",
+    reference: "Ezekiel 18:4",
   },
   {
-    question: "Does God take pleasure in the death of the wicked?",
+    question:
+      "What does God say He takes no pleasure in?",
     options: [
-      "No",
-      "Yes",
-      "Only during war",
-      "Only when kings sin",
+      "The death of anyone",
+      "The punishment of Babylon",
+      "Sacrifice",
+      "The suffering of prophets",
     ],
-    answer: "No",
-    reference: "Ezekiel 18:23",
+    answer: "The death of anyone",
+    reference: "Ezekiel 18:32",
   },
   {
-    question: "What does God desire the wicked to do instead?",
+    question:
+      "What does God call Israel to do in order to live?",
     options: [
-      "Turn from their ways and live",
-      "Offer more sacrifices",
-      "Leave Israel",
-      "Punish themselves",
+      "Repent and get a new heart and a new spirit",
+      "Offer sacrifices",
+      "Return to Jerusalem",
+      "Destroy Babylon",
     ],
-    answer: "Turn from their ways and live",
-    reference: "Ezekiel 18:23,32",
+    answer: "Repent and get a new heart and a new spirit",
+    reference: "Ezekiel 18:30-32",
   },
   {
-    question: "What does God tell Israel to get for themselves?",
-    options: [
-      "A new heart and a new spirit",
-      "A new king",
-      "A new temple",
-      "A new army",
-    ],
-    answer: "A new heart and a new spirit",
-    reference: "Ezekiel 18:31",
-  },
-
-  {
-    question: "What animal is used in the lament for Israel's princes?",
+    question:
+      "To what animal is Israel's mother compared in the lament over her princes?",
     options: [
       "A lioness",
       "An eagle",
       "A bear",
-      "A wolf",
+      "A doe",
     ],
     answer: "A lioness",
     reference: "Ezekiel 19:2",
   },
   {
-    question: "What eventually happened to one of the young lions in the lament?",
+    question:
+      "What happens to the first young lion raised by the lioness?",
     options: [
-      "He was captured and taken to Egypt",
-      "He became king of Babylon",
-      "He escaped to Assyria",
-      "He killed the lioness",
+      "He is trapped and taken to Egypt",
+      "He is killed by Babylon",
+      "He becomes king in Judah",
+      "He escapes to the wilderness",
     ],
-    answer: "He was captured and taken to Egypt",
+    answer: "He is trapped and taken to Egypt",
     reference: "Ezekiel 19:4",
   },
   {
-    question: "What plant image later represents Israel's royal line?",
+    question:
+      "Where is the second young lion taken after being captured?",
     options: [
-      "A fruitful vine",
-      "A cedar tree",
-      "An olive branch",
+      "Babylon",
+      "Egypt",
+      "Assyria",
+      "Tyre",
+    ],
+    answer: "Babylon",
+    reference: "Ezekiel 19:9",
+  },
+  {
+    question:
+      "What plant image later replaces the lioness image for Israel's mother?",
+    options: [
+      "A vine planted by water",
+      "An olive tree",
+      "A cedar",
       "A fig tree",
     ],
-    answer: "A fruitful vine",
+    answer: "A vine planted by water",
     reference: "Ezekiel 19:10",
   },
-
   {
-    question: "Why did certain elders come to Ezekiel?",
-    options: [
-      "To inquire of the Lord",
-      "To arrest him",
-      "To offer sacrifices",
-      "To request military advice",
-    ],
-    answer: "To inquire of the Lord",
-    reference: "Ezekiel 20:1",
-  },
-  {
-    question: "What recurring reason does God give for not completely destroying rebellious Israel?",
+    question:
+      "What repeated reason does God give for acting mercifully toward rebellious Israel in the wilderness?",
     options: [
       "For the sake of His name",
-      "Because of their military strength",
-      "Because of Egypt",
-      "Because of their sacrifices",
+      "For Abraham's sake",
+      "For Moses' sake",
+      "Because Israel repented",
     ],
     answer: "For the sake of His name",
     reference: "Ezekiel 20:9,14,22",
   },
   {
-    question: "What sign did God give Israel in the wilderness to show He sanctified them?",
+    question:
+      "What sign between God and Israel is emphasized in the wilderness review?",
     options: [
-      "His Sabbaths",
-      "The bronze serpent",
-      "The manna",
-      "The tabernacle only",
+      "The Sabbaths",
+      "Circumcision",
+      "The Passover",
+      "The priesthood",
     ],
-    answer: "His Sabbaths",
+    answer: "The Sabbaths",
     reference: "Ezekiel 20:12",
   },
-
   {
-    question: "What weapon is repeatedly pictured as sharpened and polished for judgment?",
+    question:
+      "What disturbing practice does God say Israel adopted by dedicating every firstborn?",
     options: [
-      "A sword",
-      "A spear",
-      "A bow",
-      "An axe",
+      "Child sacrifice",
+      "Temple taxation",
+      "Military conscription",
+      "Foreign adoption",
     ],
-    answer: "A sword",
-    reference: "Ezekiel 21:9-11",
+    answer: "Child sacrifice",
+    reference: "Ezekiel 20:26",
   },
   {
-    question: "At what crossroads does the king of Babylon use divination?",
+    question:
+      "What does Ezekiel set up to illustrate the king of Babylon deciding which city to attack?",
     options: [
-      "Where one road leads to Rabbah and the other to Jerusalem",
-      "Where one road leads to Egypt and the other to Tyre",
-      "Where one road leads to Samaria and the other to Gaza",
-      "Where one road leads to Babylon and the other to Nineveh",
+      "A signpost where two roads divide",
+      "Two gates",
+      "Two clay tablets",
+      "Two swords",
     ],
-    answer: "Where one road leads to Rabbah and the other to Jerusalem",
-    reference: "Ezekiel 21:19-22",
+    answer: "A signpost where two roads divide",
+    reference: "Ezekiel 21:19",
   },
-
   {
-    question: "What title does God give Jerusalem because of its violence?",
+    question:
+      "Which two destinations are placed on the signpost?",
     options: [
-      "City of bloodshed",
-      "City of peace",
-      "City of gold",
-      "City of refuge",
+      "Rabbah of the Ammonites and Jerusalem",
+      "Jerusalem and Tyre",
+      "Rabbah and Damascus",
+      "Jerusalem and Egypt",
     ],
-    answer: "City of bloodshed",
+    answer: "Rabbah of the Ammonites and Jerusalem",
+    reference: "Ezekiel 21:20",
+  },
+  {
+    question:
+      "What three divination methods does the king of Babylon use at the crossroads?",
+    options: [
+      "Shaking arrows, consulting idols, and examining a liver",
+      "Casting lots, reading stars, and burning incense",
+      "Consulting mediums, throwing bones, and reading omens",
+      "Watching birds, drawing lots, and reading dreams",
+    ],
+    answer: "Shaking arrows, consulting idols, and examining a liver",
+    reference: "Ezekiel 21:21",
+  },
+  {
+    question:
+      "What city is called the city of bloodshed in Ezekiel's accusation?",
+    options: [
+      "Jerusalem",
+      "Samaria",
+      "Tyre",
+      "Babylon",
+    ],
+    answer: "Jerusalem",
     reference: "Ezekiel 22:2",
   },
   {
-    question: "What did Israel's priests fail to distinguish?",
+    question:
+      "What metals are Israel compared to as worthless material in a furnace?",
     options: [
-      "Between holy and common",
-      "Between rich and poor",
-      "Between Israelite and foreigner",
-      "Between king and priest",
+      "Silver, copper, iron, lead, and tin mixed as dross",
+      "Gold and silver only",
+      "Iron and bronze",
+      "Copper, gold, and tin",
     ],
-    answer: "Between holy and common",
-    reference: "Ezekiel 22:26",
+    answer: "Silver, copper, iron, lead, and tin mixed as dross",
+    reference: "Ezekiel 22:18-20",
   },
   {
-    question: "What did God look for among the people but fail to find?",
+    question:
+      "What did God seek but fail to find among the people?",
     options: [
       "Someone to build up the wall and stand in the gap",
-      "A new king",
-      "A wealthy merchant",
-      "A foreign ally",
+      "A righteous king",
+      "A faithful priest",
+      "A prophet like Moses",
     ],
     answer: "Someone to build up the wall and stand in the gap",
     reference: "Ezekiel 22:30",
   },
-
   {
-    question: "What names are given to the two sisters representing Samaria and Jerusalem?",
+    question:
+      "What names are given to the two sisters representing Samaria and Jerusalem?",
     options: [
       "Oholah and Oholibah",
-      "Leah and Rachel",
-      "Tirzah and Zion",
-      "Adah and Zillah",
+      "Aholibamah and Oholah",
+      "Samaria and Sodom",
+      "Oholibah and Tirzah",
     ],
     answer: "Oholah and Oholibah",
     reference: "Ezekiel 23:4",
   },
   {
-    question: "Which city does Oholah represent?",
+    question:
+      "Which sister represents Samaria?",
     options: [
-      "Samaria",
-      "Jerusalem",
-      "Babylon",
-      "Tyre",
+      "Oholah",
+      "Oholibah",
+      "Both equally",
+      "Neither; both represent Jerusalem",
     ],
-    answer: "Samaria",
+    answer: "Oholah",
     reference: "Ezekiel 23:4",
   },
   {
-    question: "Which city does Oholibah represent?",
+    question:
+      "Which sister represents Jerusalem?",
     options: [
-      "Jerusalem",
-      "Samaria",
-      "Damascus",
-      "Nineveh",
+      "Oholibah",
+      "Oholah",
+      "Neither",
+      "Both",
     ],
-    answer: "Jerusalem",
+    answer: "Oholibah",
     reference: "Ezekiel 23:4",
   },
-
   {
-    question: "What cooking vessel did Ezekiel use as an image for besieged Jerusalem?",
+    question:
+      "What cooking vessel becomes a sign of Jerusalem's judgment?",
     options: [
       "A cooking pot",
-      "A frying pan",
-      "A clay jar",
       "A bronze bowl",
+      "A clay jar",
+      "A frying pan",
     ],
     answer: "A cooking pot",
-    reference: "Ezekiel 24:3-5",
+    reference: "Ezekiel 24:3",
   },
   {
-    question: "What deeply personal loss did Ezekiel experience as a sign to the people?",
+    question:
+      "What is wrong with the pot in Ezekiel's sign?",
+    options: [
+      "It has corrosion that will not come off",
+      "It is cracked",
+      "It has no lid",
+      "It is empty",
+    ],
+    answer: "It has corrosion that will not come off",
+    reference: "Ezekiel 24:6,11-12",
+  },
+  {
+    question:
+      "What personal tragedy becomes a sign to Ezekiel's audience?",
     options: [
       "The death of his wife",
       "The death of his son",
       "The death of his father",
-      "The loss of his house",
+      "The capture of his brother",
     ],
     answer: "The death of his wife",
     reference: "Ezekiel 24:15-18",
   },
   {
-    question: "How does God describe Ezekiel's wife?",
+    question:
+      "How is Ezekiel's wife described before her death?",
     options: [
       "The delight of his eyes",
-      "The mother of Israel",
-      "A prophetess",
-      "A daughter of Jerusalem",
+      "His faithful companion",
+      "The joy of his house",
+      "The mother of his children",
     ],
     answer: "The delight of his eyes",
     reference: "Ezekiel 24:16",
   },
   {
-    question: "What unusual instruction was Ezekiel given after his wife's death?",
+    question:
+      "What is Ezekiel forbidden to do publicly after his wife's death?",
     options: [
-      "He was not to mourn publicly in the usual way",
-      "He was to shave his head",
-      "He was to leave Babylon",
-      "He was to fast for forty days",
+      "Mourn in the customary way",
+      "Speak to anyone",
+      "Eat bread",
+      "Leave his house",
     ],
-    answer: "He was not to mourn publicly in the usual way",
-    reference: "Ezekiel 24:16-18",
-  },
-
-  {
-    question: "Which neighboring people rejoiced over the destruction of God's sanctuary and therefore faced judgment?",
-    options: [
-      "Ammonites",
-      "Egyptians",
-      "Assyrians",
-      "Persians",
-    ],
-    answer: "Ammonites",
-    reference: "Ezekiel 25:3-7",
+    answer: "Mourn in the customary way",
+    reference: "Ezekiel 24:16-17",
   },
   {
-    question: "Which nation was condemned for taking revenge on Judah?",
+    question:
+      "What nation is condemned for rejoicing over the destruction of God's sanctuary and Israel's land?",
     options: [
+      "Ammon",
+      "Moab",
       "Edom",
-      "Egypt",
-      "Babylon",
-      "Assyria",
+      "Philistia",
     ],
-    answer: "Edom",
-    reference: "Ezekiel 25:12-14",
+    answer: "Ammon",
+    reference: "Ezekiel 25:3",
   },
   {
-    question: "Which people were condemned for acting in revenge with ancient hostility?",
+    question:
+      "What response of Edom brings judgment in Ezekiel's oracle?",
     options: [
-      "Philistines",
-      "Moabites",
-      "Ammonites",
-      "Egyptians",
+      "Taking revenge on Judah",
+      "Refusing tribute to Babylon",
+      "Invading Moab",
+      "Mocking Egypt",
     ],
-    answer: "Philistines",
-    reference: "Ezekiel 25:15",
+    answer: "Taking revenge on Judah",
+    reference: "Ezekiel 25:12",
   },
-
   {
-    question: "Which coastal city is portrayed as boasting that Jerusalem's destruction would enrich it?",
+    question:
+      "Which city is the focus of a lengthy lament because of its pride in maritime trade?",
     options: [
       "Tyre",
       "Sidon",
-      "Gaza",
-      "Ashkelon",
+      "Babylon",
+      "Damascus",
     ],
     answer: "Tyre",
     reference: "Ezekiel 26:2",
   },
   {
-    question: "What did God say many nations would do to Tyre?",
+    question:
+      "What does Tyre say about Jerusalem that reveals its selfish joy at Jerusalem's fall?",
     options: [
-      "Come against it like waves of the sea",
-      "Trade peacefully with it",
-      "Rebuild its walls",
-      "Make it their capital",
+      "The gateway to the nations is broken, and prosperity will now come to Tyre",
+      "Jerusalem's God has failed",
+      "Tyre will rule Judah",
+      "Babylon will reward Tyre",
     ],
-    answer: "Come against it like waves of the sea",
-    reference: "Ezekiel 26:3",
+    answer:
+      "The gateway to the nations is broken, and prosperity will now come to Tyre",
+    reference: "Ezekiel 26:2",
   },
   {
-    question: "What would Tyre eventually become according to the prophecy?",
+    question:
+      "What will Tyre become after judgment according to Ezekiel?",
     options: [
-      "A bare rock and a place for spreading fishnets",
-      "A new Jerusalem",
-      "A forest",
-      "A desert oasis",
+      "A bare rock and a place for spreading fishing nets",
+      "A desert",
+      "A military fortress",
+      "A ruined vineyard",
     ],
-    answer: "A bare rock and a place for spreading fishnets",
-    reference: "Ezekiel 26:4-5,14",
-  },
-
-  {
-    question: "What kind of object symbolizes Tyre in the lament over its commercial greatness?",
-    options: [
-      "A magnificent ship",
-      "A cedar palace",
-      "A golden tower",
-      "A vineyard",
-    ],
-    answer: "A magnificent ship",
-    reference: "Ezekiel 27",
+    answer: "A bare rock and a place for spreading fishing nets",
+    reference: "Ezekiel 26:4-5",
   },
   {
-    question: "From where was timber used for Tyre's ship masts said to come?",
+    question:
+      "Which king is named as God's instrument against Tyre?",
     options: [
-      "Lebanon",
-      "Egypt",
-      "Bashan",
-      "Judah",
+      "Nebuchadnezzar king of Babylon",
+      "Cyrus king of Persia",
+      "Pharaoh king of Egypt",
+      "Sennacherib king of Assyria",
     ],
-    answer: "Lebanon",
-    reference: "Ezekiel 27:5",
+    answer: "Nebuchadnezzar king of Babylon",
+    reference: "Ezekiel 26:7",
   },
   {
-    question: "What happened to Tyre's great trading ship in the metaphor?",
+    question:
+      "What does the ruler of Tyre claim about himself?",
     options: [
-      "It was wrecked in the heart of the sea",
-      "It reached Babylon safely",
-      "It conquered other ships",
-      "It became a royal vessel",
-    ],
-    answer: "It was wrecked in the heart of the sea",
-    reference: "Ezekiel 27:26-27",
-  },
-
-  {
-    question: "What arrogant claim did the ruler of Tyre make?",
-    options: [
-      "I am a god",
+      "I am a god; I sit on the throne of a god",
       "I am greater than Babylon",
-      "Jerusalem belongs to me",
-      "I will rule Egypt",
+      "I am the king of the sea",
+      "I will ascend to heaven",
     ],
-    answer: "I am a god",
+    answer: "I am a god; I sit on the throne of a god",
     reference: "Ezekiel 28:2",
   },
   {
-    question: "What does God remind the ruler of Tyre about his true nature?",
+    question:
+      "Which wise figure is named rhetorically in describing the ruler of Tyre's pride in wisdom?",
     options: [
-      "He is merely a man",
-      "He is an angel",
-      "He is a priest",
-      "He is a prophet",
+      "Daniel",
+      "Solomon",
+      "Job",
+      "Moses",
     ],
-    answer: "He is merely a man",
-    reference: "Ezekiel 28:2",
+    answer: "Daniel",
+    reference: "Ezekiel 28:3",
   },
   {
-    question: "What spiritual figure is described as having been in Eden and adorned with precious stones?",
+    question:
+      "What place of perfection is associated poetically with the king of Tyre before his fall?",
     options: [
-      "The king of Tyre",
-      "The king of Babylon",
-      "Pharaoh",
-      "The prince of Jerusalem",
+      "Eden, the garden of God",
+      "Mount Zion",
+      "Lebanon",
+      "The garden of Babylon",
     ],
-    answer: "The king of Tyre",
-    reference: "Ezekiel 28:12-13",
+    answer: "Eden, the garden of God",
+    reference: "Ezekiel 28:13",
   },
   {
-    question: "What corrupted the figure described as perfect in beauty?",
+    question:
+      "What title is given to the king of Tyre in the poetic lament?",
     options: [
-      "Pride because of beauty",
-      "Poverty",
-      "Fear",
-      "Military defeat",
+      "Anointed guardian cherub",
+      "Morning star",
+      "Son of the dawn",
+      "Prince of the sea",
     ],
-    answer: "Pride because of beauty",
-    reference: "Ezekiel 28:17",
+    answer: "Anointed guardian cherub",
+    reference: "Ezekiel 28:14",
   },
-
   {
-    question: "To what creature is Pharaoh compared in Ezekiel's oracle against Egypt?",
+    question:
+      "Against which neighboring city does Ezekiel next turn after Tyre?",
     options: [
-      "A great monster lying among the streams",
-      "A lion in the desert",
-      "An eagle on a mountain",
-      "A bear beside a river",
+      "Sidon",
+      "Damascus",
+      "Rabbah",
+      "Gaza",
     ],
-    answer: "A great monster lying among the streams",
+    answer: "Sidon",
+    reference: "Ezekiel 28:20-22",
+  },
+  {
+    question:
+      "What river creature is Pharaoh compared to in the oracle against Egypt?",
+    options: [
+      "A great monster lying among the Nile streams",
+      "A crocodile in the Jordan",
+      "A serpent in the Euphrates",
+      "A dragon in the sea",
+    ],
+    answer: "A great monster lying among the Nile streams",
     reference: "Ezekiel 29:3",
   },
   {
-    question: "What river did Pharaoh boast belonged to him?",
+    question:
+      "What arrogant claim does Pharaoh make concerning the Nile?",
     options: [
-      "The Nile",
-      "The Euphrates",
-      "The Jordan",
-      "The Tigris",
+      "The Nile is mine; I made it for myself",
+      "The Nile is my god",
+      "The Nile makes Egypt invincible",
+      "The Nile belongs to Pharaoh forever",
     ],
-    answer: "The Nile",
+    answer: "The Nile is mine; I made it for myself",
     reference: "Ezekiel 29:3",
   },
   {
-    question: "For how many years would Egypt be desolate and scattered?",
+    question:
+      "How long is Egypt said to remain desolate and scattered in one prophecy?",
     options: [
       "Forty years",
       "Seventy years",
@@ -1311,402 +1428,450 @@ const ezekielQuestions = [
     reference: "Ezekiel 29:11-12",
   },
   {
-    question: "What reward did God say Nebuchadnezzar would receive after his army labored against Tyre without adequate spoil?",
+    question:
+      "What reward does God give Nebuchadnezzar for his long campaign against Tyre?",
     options: [
       "Egypt",
-      "Jerusalem",
+      "Judah",
+      "Sidon",
       "Moab",
-      "Edom",
     ],
     answer: "Egypt",
     reference: "Ezekiel 29:18-20",
   },
-
   {
-    question: "What event does Ezekiel repeatedly associate with Egypt's coming judgment?",
+    question:
+      "Which great Assyrian power is compared to a magnificent cedar in Lebanon?",
     options: [
-      "The day of the Lord",
-      "The year of Jubilee",
-      "The Sabbath year",
-      "The coronation of Babylon",
+      "Assyria",
+      "Babylon",
+      "Egypt",
+      "Tyre",
     ],
-    answer: "The day of the Lord",
-    reference: "Ezekiel 30:3",
-  },
-
-  {
-    question: "To what great tree is Assyria compared as a warning to Pharaoh?",
-    options: [
-      "A cedar in Lebanon",
-      "An olive tree",
-      "A fig tree",
-      "A palm tree",
-    ],
-    answer: "A cedar in Lebanon",
+    answer: "Assyria",
     reference: "Ezekiel 31:3",
   },
   {
-    question: "What caused the great cedar representing Assyria to become proud?",
+    question:
+      "What happened to the cedar because it became proud of its height?",
     options: [
-      "Its height",
-      "Its fruit",
-      "Its age",
-      "Its roots",
+      "It was handed over to the ruler of the nations and cut down",
+      "It was burned by lightning",
+      "It withered from its roots",
+      "It was uprooted by a flood",
     ],
-    answer: "Its height",
-    reference: "Ezekiel 31:10",
+    answer:
+      "It was handed over to the ruler of the nations and cut down",
+    reference: "Ezekiel 31:10-12",
   },
-
   {
-    question: "To what two creatures is Pharaoh compared in the lament over Egypt?",
+    question:
+      "To what animal is Pharaoh compared in another lament?",
     options: [
-      "A lion and a monster in the seas",
-      "An eagle and a serpent",
-      "A bear and a wolf",
-      "A horse and a bull",
+      "A lion among the nations and a monster in the seas",
+      "A bear among nations",
+      "An eagle over the Nile",
+      "A crocodile among rivers",
     ],
-    answer: "A lion and a monster in the seas",
+    answer: "A lion among the nations and a monster in the seas",
     reference: "Ezekiel 32:2",
   },
   {
-    question: "What would happen to the heavenly lights in the imagery of Egypt's downfall?",
+    question:
+      "Which fallen nations are pictured already in the realm of the dead before Egypt arrives?",
     options: [
-      "They would be darkened",
-      "They would shine brighter",
-      "They would fall to earth",
-      "They would become blood",
+      "Assyria, Elam, Meshek, Tubal, Edom, and Sidon",
+      "Babylon, Moab, Ammon, and Tyre",
+      "Judah, Israel, Philistia, and Edom",
+      "Assyria, Babylon, Persia, and Greece",
     ],
-    answer: "They would be darkened",
-    reference: "Ezekiel 32:7-8",
-  },
-
-  {
-    question: "What responsibility is again emphasized when Ezekiel is appointed watchman?",
-    options: [
-      "He must warn the wicked",
-      "He must command armies",
-      "He must appoint kings",
-      "He must collect offerings",
-    ],
-    answer: "He must warn the wicked",
-    reference: "Ezekiel 33:7-9",
+    answer: "Assyria, Elam, Meshek, Tubal, Edom, and Sidon",
+    reference: "Ezekiel 32:22-30",
   },
   {
-    question: "What does God say He takes no pleasure in?",
+    question:
+      "What office is Ezekiel again reminded he has for Israel?",
+    options: [
+      "Watchman",
+      "Priest",
+      "Judge",
+      "Shepherd",
+    ],
+    answer: "Watchman",
+    reference: "Ezekiel 33:7",
+  },
+  {
+    question:
+      "What does God say He takes no pleasure in?",
     options: [
       "The death of the wicked",
-      "The repentance of sinners",
-      "The obedience of Israel",
-      "The downfall of Babylon",
+      "The fall of Babylon",
+      "The punishment of nations",
+      "The destruction of idols",
     ],
     answer: "The death of the wicked",
     reference: "Ezekiel 33:11",
   },
   {
-    question: "What does God call the wicked to do?",
+    question:
+      "What does God desire the wicked to do instead?",
     options: [
-      "Turn from their evil ways",
-      "Leave Israel",
-      "Offer more sacrifices",
-      "Submit to Egypt",
+      "Turn from their ways and live",
+      "Offer sacrifice",
+      "Go into exile",
+      "Confess publicly",
     ],
-    answer: "Turn from their evil ways",
+    answer: "Turn from their ways and live",
     reference: "Ezekiel 33:11",
   },
   {
-    question: "What message did a fugitive bring Ezekiel from Jerusalem?",
+    question:
+      "What report reaches Ezekiel from a fugitive concerning Jerusalem?",
     options: [
       "The city has fallen",
       "The temple has been rebuilt",
-      "Zedekiah has won",
-      "Babylon has retreated",
+      "Zedekiah has escaped",
+      "Babylon has withdrawn",
     ],
     answer: "The city has fallen",
     reference: "Ezekiel 33:21",
   },
-
   {
-    question: "Whom does God condemn for feeding themselves instead of the flock?",
+    question:
+      "What changes in Ezekiel when the fugitive arrives?",
     options: [
-      "The shepherds of Israel",
-      "The farmers",
-      "The merchants",
-      "The exiles",
+      "His mouth is opened and he is no longer silent",
+      "He loses his sight",
+      "He begins to mourn publicly",
+      "He is carried to Jerusalem",
     ],
-    answer: "The shepherds of Israel",
-    reference: "Ezekiel 34:2-3",
+    answer: "His mouth is opened and he is no longer silent",
+    reference: "Ezekiel 33:22",
   },
   {
-    question: "What had the bad shepherds failed to do for the weak and injured?",
+    question:
+      "Against whom is Ezekiel told to prophesy for feeding themselves rather than the flock?",
     options: [
-      "Strengthen and heal them",
-      "Teach them warfare",
-      "Give them land",
-      "Send them to Babylon",
+      "The shepherds of Israel",
+      "The priests",
+      "The prophets",
+      "The kings of Babylon",
     ],
-    answer: "Strengthen and heal them",
+    answer: "The shepherds of Israel",
+    reference: "Ezekiel 34:2",
+  },
+  {
+    question:
+      "What had Israel's shepherds failed to do for the flock?",
+    options: [
+      "Strengthen the weak, heal the sick, bind the injured, and seek the lost",
+      "Offer sacrifices",
+      "Protect Jerusalem's walls",
+      "Teach the nations",
+    ],
+    answer:
+      "Strengthen the weak, heal the sick, bind the injured, and seek the lost",
     reference: "Ezekiel 34:4",
   },
   {
-    question: "Who does God say will personally search for His sheep?",
+    question:
+      "Who does God promise to place over His flock as one shepherd?",
     options: [
-      "God Himself",
+      "My servant David",
       "Ezekiel",
-      "A Babylonian king",
-      "The priests",
+      "Zerubbabel",
+      "A son of Zadok",
     ],
-    answer: "God Himself",
-    reference: "Ezekiel 34:11",
-  },
-  {
-    question: "Whom does God promise to place over His flock as one shepherd?",
-    options: [
-      "His servant David",
-      "Ezekiel",
-      "Moses",
-      "Aaron",
-    ],
-    answer: "His servant David",
+    answer: "My servant David",
     reference: "Ezekiel 34:23",
   },
-
   {
-    question: "Which mountain region is singled out for judgment because of hostility toward Israel?",
+    question:
+      "What hostile mountain nation is addressed in Ezekiel's prophecy because of ancient hostility toward Israel?",
     options: [
       "Mount Seir",
       "Mount Carmel",
-      "Mount Zion",
       "Mount Hermon",
+      "Mount Tabor",
     ],
     answer: "Mount Seir",
-    reference: "Ezekiel 35:2-3",
+    reference: "Ezekiel 35:2-5",
   },
   {
-    question: "What attitude toward Israel brought judgment on Edom?",
-    options: [
-      "Ancient hostility",
-      "Fear",
-      "Indifference",
-      "Friendship",
-    ],
-    answer: "Ancient hostility",
-    reference: "Ezekiel 35:5",
-  },
-
-  {
-    question: "Why does God say He will restore Israel despite its past sins?",
-    options: [
-      "For the sake of His holy name",
-      "Because Israel deserves it",
-      "Because Babylon asks Him",
-      "Because Egypt helps them",
-    ],
-    answer: "For the sake of His holy name",
-    reference: "Ezekiel 36:22",
-  },
-  {
-    question: "What will God sprinkle on His people to cleanse them?",
+    question:
+      "What does God promise to sprinkle on Israel to cleanse them?",
     options: [
       "Clean water",
-      "Oil",
       "Blood",
+      "Oil",
       "Ashes",
     ],
     answer: "Clean water",
     reference: "Ezekiel 36:25",
   },
   {
-    question: "What will God remove from His people?",
+    question:
+      "What inner transformation does God promise in the restoration prophecy?",
     options: [
-      "Their heart of stone",
-      "Their memory",
-      "Their language",
-      "Their physical weakness",
+      "A new heart and a new spirit",
+      "A new mind and new body",
+      "A new law and new priesthood",
+      "A new king and new temple",
     ],
-    answer: "Their heart of stone",
+    answer: "A new heart and a new spirit",
     reference: "Ezekiel 36:26",
   },
   {
-    question: "What will God give instead of a heart of stone?",
+    question:
+      "What kind of heart will God remove?",
+    options: [
+      "A heart of stone",
+      "A divided heart",
+      "A proud heart",
+      "A deceitful heart",
+    ],
+    answer: "A heart of stone",
+    reference: "Ezekiel 36:26",
+  },
+  {
+    question:
+      "What kind of heart will God give instead?",
     options: [
       "A heart of flesh",
-      "A heart of gold",
+      "A pure heart",
       "A heart of fire",
-      "A heart of iron",
+      "A heart of wisdom",
     ],
     answer: "A heart of flesh",
     reference: "Ezekiel 36:26",
   },
   {
-    question: "What will God put within His people so they follow His decrees?",
+    question:
+      "What will God put within His people to move them to follow His decrees?",
     options: [
       "His Spirit",
-      "A new king",
-      "An angel",
-      "A written scroll only",
+      "His Law on stone",
+      "Fear",
+      "A new prophet",
     ],
     answer: "His Spirit",
     reference: "Ezekiel 36:27",
   },
-
   {
-    question: "What filled the valley Ezekiel saw in one of his most famous visions?",
+    question:
+      "What did Ezekiel see filling the valley in one of the book's most famous visions?",
     options: [
       "Dry bones",
-      "Dead trees",
-      "Broken weapons",
-      "Empty houses",
+      "Dead soldiers",
+      "Broken idols",
+      "Burned trees",
     ],
     answer: "Dry bones",
     reference: "Ezekiel 37:1-2",
   },
   {
-    question: "What question did God ask Ezekiel about the bones?",
+    question:
+      "What condition of the bones emphasizes the hopelessness of the vision?",
+    options: [
+      "They were very dry",
+      "They were broken",
+      "They were burned",
+      "They were buried",
+    ],
+    answer: "They were very dry",
+    reference: "Ezekiel 37:2",
+  },
+  {
+    question:
+      "What question does God ask Ezekiel about the bones?",
     options: [
       "Can these bones live?",
       "Who killed these people?",
-      "Where did these bones come from?",
-      "How many bones are here?",
+      "Will Israel return?",
+      "Can these bones be buried?",
     ],
     answer: "Can these bones live?",
     reference: "Ezekiel 37:3",
   },
   {
-    question: "What happened first when Ezekiel prophesied to the bones?",
-    options: [
-      "They came together",
-      "They immediately breathed",
-      "They disappeared",
-      "They became dust",
-    ],
-    answer: "They came together",
-    reference: "Ezekiel 37:7",
-  },
-  {
-    question: "What covered the reassembled bones?",
+    question:
+      "What forms on the bones before breath enters them?",
     options: [
       "Tendons, flesh, and skin",
-      "Armor",
-      "Clothing",
-      "Fire",
+      "Only flesh",
+      "Armor and clothing",
+      "Blood and muscle",
     ],
     answer: "Tendons, flesh, and skin",
-    reference: "Ezekiel 37:8",
+    reference: "Ezekiel 37:7-8",
   },
   {
-    question: "What was still missing before Ezekiel prophesied to the breath?",
-    options: [
-      "Breath",
-      "Bones",
-      "Skin",
-      "Flesh",
-    ],
-    answer: "Breath",
-    reference: "Ezekiel 37:8",
+    question:
+      "From how many winds is breath summoned into the slain?",
+    options: ["Four", "Seven", "Two", "Twelve"],
+    answer: "Four",
+    reference: "Ezekiel 37:9",
   },
   {
-    question: "What did the revived multitude become?",
+    question:
+      "What do the revived bodies become?",
     options: [
       "A vast army",
       "A priesthood",
-      "A royal court",
-      "A group of prophets",
+      "A nation of shepherds",
+      "A gathering of elders",
     ],
     answer: "A vast army",
     reference: "Ezekiel 37:10",
   },
   {
-    question: "Whom did the dry bones represent?",
+    question:
+      "What do the dry bones symbolize?",
     options: [
-      "The people of Israel",
-      "Babylon",
-      "Egypt",
-      "Edom",
+      "The whole house of Israel",
+      "The Babylonian army",
+      "The dead kings of Judah",
+      "The nations",
     ],
-    answer: "The people of Israel",
+    answer: "The whole house of Israel",
     reference: "Ezekiel 37:11",
   },
   {
-    question: "What two sticks was Ezekiel told to join?",
+    question:
+      "What two sticks is Ezekiel commanded to join?",
     options: [
-      "Judah and Joseph",
-      "Levi and Benjamin",
-      "Israel and Egypt",
-      "David and Solomon",
+      "Judah and Joseph/Ephraim",
+      "Judah and Benjamin",
+      "Israel and Levi",
+      "Ephraim and Manasseh",
     ],
-    answer: "Judah and Joseph",
+    answer: "Judah and Joseph/Ephraim",
     reference: "Ezekiel 37:16-17",
   },
   {
-    question: "What did the joined sticks symbolize?",
+    question:
+      "What does the joining of the sticks symbolize?",
     options: [
-      "The reunification of God's people",
-      "A new temple",
-      "Babylon's defeat",
-      "The priesthood",
+      "The reunification of Israel into one nation",
+      "A covenant with Babylon",
+      "The joining of priests and kings",
+      "The rebuilding of Jerusalem",
     ],
-    answer: "The reunification of God's people",
-    reference: "Ezekiel 37:18-22",
+    answer: "The reunification of Israel into one nation",
+    reference: "Ezekiel 37:21-22",
   },
   {
-    question: "Who is again promised as king over the reunited people?",
+    question:
+      "Who will be king over the reunited people?",
     options: [
       "David",
       "Ezekiel",
-      "Moses",
-      "Solomon",
+      "Zedekiah",
+      "Cyrus",
     ],
     answer: "David",
     reference: "Ezekiel 37:24",
   },
-
   {
-    question: "Who is the great enemy named as coming against restored Israel?",
+    question:
+      "Which mysterious ruler is named in the great invasion prophecy from the land of Magog?",
     options: [
       "Gog",
-      "Pharaoh",
-      "Sennacherib",
-      "Cyrus",
+      "Agag",
+      "Og",
+      "Gomer",
     ],
     answer: "Gog",
     reference: "Ezekiel 38:2",
   },
   {
-    question: "From what land is Gog said to come?",
+    question:
+      "Of which peoples is Gog described as chief prince?",
     options: [
-      "Magog",
-      "Moab",
-      "Edom",
-      "Egypt",
+      "Meshek and Tubal",
+      "Persia and Cush",
+      "Gomer and Togarmah",
+      "Edom and Moab",
     ],
-    answer: "Magog",
+    answer: "Meshek and Tubal",
     reference: "Ezekiel 38:2",
   },
   {
-    question: "What natural disaster accompanies God's judgment on Gog?",
+    question:
+      "Which three nations are specifically named among Gog's allies?",
+    options: [
+      "Persia, Cush, and Put",
+      "Egypt, Assyria, and Babylon",
+      "Moab, Edom, and Ammon",
+      "Tyre, Sidon, and Philistia",
+    ],
+    answer: "Persia, Cush, and Put",
+    reference: "Ezekiel 38:5",
+  },
+  {
+    question:
+      "What northern groups are also associated with Gog's coalition?",
+    options: [
+      "Gomer and Beth Togarmah",
+      "Ararat and Minni",
+      "Meshek and Edom",
+      "Tubal and Kedar",
+    ],
+    answer: "Gomer and Beth Togarmah",
+    reference: "Ezekiel 38:6",
+  },
+  {
+    question:
+      "What motive does Gog develop when he sees Israel dwelling securely?",
+    options: [
+      "To seize spoil and carry off plunder",
+      "To destroy the temple",
+      "To claim David's throne",
+      "To control Egypt",
+    ],
+    answer: "To seize spoil and carry off plunder",
+    reference: "Ezekiel 38:10-12",
+  },
+  {
+    question:
+      "What natural disaster accompanies God's judgment on Gog?",
     options: [
       "A great earthquake",
-      "A drought",
       "A flood",
-      "A locust plague",
+      "A drought",
+      "A volcanic eruption",
     ],
     answer: "A great earthquake",
     reference: "Ezekiel 38:19",
   },
   {
-    question: "What unusual confusion occurs among Gog's forces?",
+    question:
+      "What unusual consequence affects Gog's army during divine judgment?",
     options: [
-      "Each man's sword turns against his brother",
+      "Every man's sword is against his brother",
       "They become blind",
-      "They lose their weapons",
-      "They surrender peacefully",
+      "Their weapons melt",
+      "Their horses flee",
     ],
-    answer: "Each man's sword turns against his brother",
+    answer: "Every man's sword is against his brother",
     reference: "Ezekiel 38:21",
   },
-
   {
-    question: "For how long will Israel use the invaders' weapons as fuel?",
+    question:
+      "What additional judgments fall on Gog and his troops?",
+    options: [
+      "Plague, bloodshed, torrential rain, hailstones, fire, and sulfur",
+      "Famine and drought only",
+      "Locusts and darkness",
+      "Sword and exile only",
+    ],
+    answer:
+      "Plague, bloodshed, torrential rain, hailstones, fire, and sulfur",
+    reference: "Ezekiel 38:22",
+  },
+  {
+    question:
+      "For how long will Israel use the invaders' weapons as fuel?",
     options: [
       "Seven years",
       "Forty years",
@@ -1717,7 +1882,8 @@ const ezekielQuestions = [
     reference: "Ezekiel 39:9",
   },
   {
-    question: "For how long will Israel bury Gog's forces to cleanse the land?",
+    question:
+      "For how long will Israel bury Gog's dead in order to cleanse the land?",
     options: [
       "Seven months",
       "Seven years",
@@ -1728,132 +1894,81 @@ const ezekielQuestions = [
     reference: "Ezekiel 39:12",
   },
   {
-    question: "What does God promise never again to hide from Israel?",
+    question:
+      "What name is given to the burial valley associated with Gog's army?",
     options: [
-      "His face",
-      "His law",
-      "His temple",
-      "His prophets",
+      "Valley of Hamon Gog",
+      "Valley of Achor",
+      "Valley of Hinnom",
+      "Valley of Jehoshaphat",
     ],
-    answer: "His face",
-    reference: "Ezekiel 39:29",
+    answer: "Valley of Hamon Gog",
+    reference: "Ezekiel 39:11",
   },
   {
-    question: "What will God pour out on Israel?",
+    question:
+      "What name is given to the nearby city in connection with the multitude of Gog?",
     options: [
-      "His Spirit",
-      "Fire",
-      "Rain only",
-      "Oil",
+      "Hamonah",
+      "Magog",
+      "Gomor",
+      "Togarmah",
     ],
-    answer: "His Spirit",
-    reference: "Ezekiel 39:29",
+    answer: "Hamonah",
+    reference: "Ezekiel 39:16",
   },
-
   {
-    question: "How many years after Jerusalem's fall did Ezekiel receive the detailed temple vision?",
+    question:
+      "On what date does Ezekiel receive the vision of the future temple?",
+    options: [
+      "The tenth day of the first month in the twenty-fifth year of exile",
+      "The first day of the first month in the twentieth year",
+      "The tenth day of the seventh month in the thirtieth year",
+      "The fifth day of the fourth month in the twenty-fifth year",
+    ],
+    answer:
+      "The tenth day of the first month in the twenty-fifth year of exile",
+    reference: "Ezekiel 40:1",
+  },
+  {
+    question:
+      "How long after Jerusalem's fall is Ezekiel's temple vision dated?",
     options: [
       "Fourteen years",
       "Seven years",
+      "Twenty-five years",
       "Forty years",
-      "Twenty years",
     ],
     answer: "Fourteen years",
     reference: "Ezekiel 40:1",
   },
   {
-    question: "What did the man in Ezekiel's temple vision hold for measuring?",
+    question:
+      "What measuring instruments does the man in Ezekiel's temple vision hold?",
     options: [
       "A linen cord and measuring rod",
-      "A golden ruler",
-      "A wooden staff only",
-      "A bronze chain",
+      "A plumb line and bronze ruler",
+      "A golden reed and scroll",
+      "A rope and compass",
     ],
     answer: "A linen cord and measuring rod",
     reference: "Ezekiel 40:3",
   },
   {
-    question: "What material was the measuring man said to resemble?",
+    question:
+      "What is the appearance of the man measuring the temple compared to?",
     options: [
       "Bronze",
       "Gold",
-      "Silver",
-      "Iron",
+      "Fire",
+      "Crystal",
     ],
     answer: "Bronze",
     reference: "Ezekiel 40:3",
   },
   {
-    question: "What was Ezekiel instructed to do with everything he saw in the temple vision?",
-    options: [
-      "Tell the people of Israel",
-      "Keep it secret",
-      "Write only to the priests",
-      "Tell the king of Babylon",
-    ],
-    answer: "Tell the people of Israel",
-    reference: "Ezekiel 40:4",
-  },
-
-  {
-    question: "What decoration appeared throughout the temple interior?",
-    options: [
-      "Cherubim and palm trees",
-      "Lions and oxen",
-      "Stars and moons",
-      "Vines and pomegranates only",
-    ],
-    answer: "Cherubim and palm trees",
-    reference: "Ezekiel 41:18",
-  },
-  {
-    question: "How many faces did each carved cherub have in the temple design?",
-    options: [
-      "Two",
-      "Four",
-      "One",
-      "Six",
-    ],
-    answer: "Two",
-    reference: "Ezekiel 41:18-19",
-  },
-  {
-    question: "Which two faces appeared on the carved cherubim?",
-    options: [
-      "A human face and a lion's face",
-      "A human face and an eagle's face",
-      "A lion's face and an ox's face",
-      "An eagle's face and an ox's face",
-    ],
-    answer: "A human face and a lion's face",
-    reference: "Ezekiel 41:19",
-  },
-
-  {
-    question: "For whom were the rooms near the sanctuary provided?",
-    options: [
-      "The priests",
-      "The king",
-      "The soldiers",
-      "Foreign visitors",
-    ],
-    answer: "The priests",
-    reference: "Ezekiel 42:13",
-  },
-  {
-    question: "What were the priests to eat in the sacred rooms?",
-    options: [
-      "The most holy offerings",
-      "Ordinary meals",
-      "Only bread",
-      "Only fruit",
-    ],
-    answer: "The most holy offerings",
-    reference: "Ezekiel 42:13",
-  },
-
-  {
-    question: "From which direction did the glory of the God of Israel return to the temple?",
+    question:
+      "Which direction does the glory of the God of Israel come from when returning to the temple?",
     options: [
       "The east",
       "The west",
@@ -1861,58 +1976,74 @@ const ezekielQuestions = [
       "The south",
     ],
     answer: "The east",
-    reference: "Ezekiel 43:1-2",
+    reference: "Ezekiel 43:2",
   },
   {
-    question: "What did the sound of God's coming resemble?",
+    question:
+      "To what is the sound of God's coming glory compared?",
     options: [
       "The roar of rushing waters",
-      "Thunder only",
+      "Thunder",
       "A trumpet",
-      "A great wind",
+      "The sound of many armies",
     ],
     answer: "The roar of rushing waters",
     reference: "Ezekiel 43:2",
   },
   {
-    question: "What happened to Ezekiel when the glory of the Lord entered the temple?",
+    question:
+      "Through which gate does the glory of the LORD enter the temple?",
     options: [
-      "He fell facedown",
-      "He ran outside",
-      "He shouted",
-      "He remained standing",
+      "The east gate",
+      "The north gate",
+      "The south gate",
+      "The inner west gate",
     ],
-    answer: "He fell facedown",
-    reference: "Ezekiel 43:3",
+    answer: "The east gate",
+    reference: "Ezekiel 43:4",
   },
   {
-    question: "What filled the temple?",
+    question:
+      "What fills the temple after God's glory enters?",
     options: [
-      "The glory of the Lord",
-      "Smoke only",
-      "Priests",
+      "The glory of the LORD",
+      "Smoke",
       "Fire",
+      "A cloud only",
     ],
-    answer: "The glory of the Lord",
+    answer: "The glory of the LORD",
     reference: "Ezekiel 43:5",
   },
-
   {
-    question: "Why was the outer east gate to remain shut?",
+    question:
+      "Why is the outer east gate to remain shut?",
     options: [
-      "The Lord had entered through it",
-      "It was damaged",
-      "Only kings could use it",
-      "It led outside Israel",
+      "Because the LORD, the God of Israel, entered through it",
+      "Because it belongs only to priests",
+      "Because it faces Babylon",
+      "Because it is damaged",
     ],
-    answer: "The Lord had entered through it",
+    answer: "Because the LORD, the God of Israel, entered through it",
     reference: "Ezekiel 44:2",
   },
   {
-    question: "Which priestly descendants were permitted to approach God for sanctuary service because they remained faithful?",
+    question:
+      "Who alone is permitted to sit in the east gateway to eat in the LORD's presence?",
+    options: [
+      "The prince",
+      "The high priest",
+      "The prophet",
+      "The king of Israel",
+    ],
+    answer: "The prince",
+    reference: "Ezekiel 44:3",
+  },
+  {
+    question:
+      "Which priestly descendants are singled out for remaining faithful when Israel went astray?",
     options: [
       "The sons of Zadok",
-      "The sons of Eli",
+      "The sons of Aaron generally",
       "The sons of Abiathar",
       "The sons of Korah",
     ],
@@ -1920,227 +2051,524 @@ const ezekielQuestions = [
     reference: "Ezekiel 44:15",
   },
   {
-    question: "What were priests to teach God's people to distinguish?",
+    question:
+      "What fabric are Zadokite priests forbidden to wear while ministering in the inner court?",
     options: [
-      "Between holy and common",
-      "Between rich and poor",
-      "Between king and citizen",
-      "Between Israel and Babylon",
+      "Wool",
+      "Linen",
+      "Silk",
+      "Goat hair",
     ],
-    answer: "Between holy and common",
+    answer: "Wool",
+    reference: "Ezekiel 44:17",
+  },
+  {
+    question:
+      "Why are the priests instructed to wear linen rather than wool?",
+    options: [
+      "So they do not perspire",
+      "Because wool is unclean",
+      "Because linen symbolizes mourning",
+      "Because wool was reserved for the prince",
+    ],
+    answer: "So they do not perspire",
+    reference: "Ezekiel 44:18",
+  },
+  {
+    question:
+      "What are priests forbidden to do with their hair?",
+    options: [
+      "Shave their heads or let their hair grow long",
+      "Cut it at all",
+      "Wear head coverings",
+      "Oil it",
+    ],
+    answer: "Shave their heads or let their hair grow long",
+    reference: "Ezekiel 44:20",
+  },
+  {
+    question:
+      "What alcoholic drink are priests forbidden to consume when entering the inner court?",
+    options: [
+      "Wine",
+      "Beer",
+      "Strong drink of any kind",
+      "Date wine",
+    ],
+    answer: "Wine",
+    reference: "Ezekiel 44:21",
+  },
+  {
+    question:
+      "What special responsibility do priests have regarding holiness?",
+    options: [
+      "Teach the difference between holy and common, clean and unclean",
+      "Guard the city walls",
+      "Judge foreign nations",
+      "Collect tribute",
+    ],
+    answer:
+      "Teach the difference between holy and common, clean and unclean",
     reference: "Ezekiel 44:23",
   },
-
   {
-    question: "What portion of the land was to be set apart as sacred?",
+    question:
+      "What inheritance do the priests receive according to the temple regulations?",
     options: [
-      "A special district for the Lord",
-      "The entire tribal territory of Judah",
-      "Only Jerusalem",
-      "A field near the temple",
+      "The LORD Himself is their inheritance",
+      "The temple lands",
+      "The city of Jerusalem",
+      "The first portion of every tribe",
     ],
-    answer: "A special district for the Lord",
+    answer: "The LORD Himself is their inheritance",
+    reference: "Ezekiel 44:28",
+  },
+  {
+    question:
+      "What firstfruits are to belong to the priests?",
+    options: [
+      "The best of all firstfruits and special gifts",
+      "Only grain",
+      "Only livestock",
+      "Only olive oil",
+    ],
+    answer: "The best of all firstfruits and special gifts",
+    reference: "Ezekiel 44:30",
+  },
+  {
+    question:
+      "What does Ezekiel say will happen to the people's dough when firstfruits are given to the priests?",
+    options: [
+      "A blessing will rest on the household",
+      "It will multiply sevenfold",
+      "It will never spoil",
+      "It will become holy",
+    ],
+    answer: "A blessing will rest on the household",
+    reference: "Ezekiel 44:30",
+  },
+  {
+    question:
+      "What sacred land allocation is described at the beginning of the next section?",
+    options: [
+      "A holy portion of the land set apart for the LORD",
+      "A new tribal territory for Levi",
+      "A royal estate for David",
+      "A field for the temple treasury",
+    ],
+    answer: "A holy portion of the land set apart for the LORD",
     reference: "Ezekiel 45:1",
   },
   {
-    question: "What command is given to Israel's princes concerning oppression?",
+    question:
+      "What behavior are Israel's princes commanded to stop?",
     options: [
-      "Stop dispossessing and oppressing the people",
-      "Increase taxes",
-      "Expand their estates",
-      "Strengthen the army",
+      "Violence and oppression",
+      "Foreign alliances",
+      "Temple building",
+      "Collecting taxes",
     ],
-    answer: "Stop dispossessing and oppressing the people",
+    answer: "Violence and oppression",
     reference: "Ezekiel 45:9",
   },
   {
-    question: "What standard was required in trade?",
+    question:
+      "What economic standards are princes commanded to use?",
     options: [
-      "Accurate scales and measures",
-      "Royal measures only",
-      "Foreign weights",
-      "Different measures for different people",
+      "Honest scales, ephah, and bath",
+      "Temple shekels only",
+      "Roman weights",
+      "One fixed measure for grain only",
     ],
-    answer: "Accurate scales and measures",
+    answer: "Honest scales, ephah, and bath",
     reference: "Ezekiel 45:10",
   },
-
   {
-    question: "On which days was the east gate of the inner court to be opened?",
+    question:
+      "What relation is established between an ephah and a bath?",
     options: [
-      "Sabbaths and New Moons",
+      "Each is one-tenth of a homer",
+      "The ephah is twice the bath",
+      "The bath is one-half of a homer",
+      "They are unrelated measures",
+    ],
+    answer: "Each is one-tenth of a homer",
+    reference: "Ezekiel 45:11",
+  },
+  {
+    question:
+      "What special responsibility belongs to the prince concerning offerings?",
+    options: [
+      "Providing burnt offerings, grain offerings, and drink offerings at appointed times",
+      "Entering the Most Holy Place",
+      "Teaching the Law",
+      "Choosing priests",
+    ],
+    answer:
+      "Providing burnt offerings, grain offerings, and drink offerings at appointed times",
+    reference: "Ezekiel 45:17",
+  },
+  {
+    question:
+      "On what day of the first month is the sanctuary to be purified with a bull?",
+    options: [
+      "The first day",
+      "The tenth day",
+      "The fourteenth day",
+      "The seventh day",
+    ],
+    answer: "The first day",
+    reference: "Ezekiel 45:18",
+  },
+  {
+    question:
+      "What festival begins on the fourteenth day of the first month?",
+    options: [
+      "Passover",
+      "Tabernacles",
+      "Weeks",
+      "Trumpets",
+    ],
+    answer: "Passover",
+    reference: "Ezekiel 45:21",
+  },
+  {
+    question:
+      "How many days is unleavened bread to be eaten during the festival described?",
+    options: ["Seven", "Eight", "Fourteen", "Three"],
+    answer: "Seven",
+    reference: "Ezekiel 45:21",
+  },
+  {
+    question:
+      "On what days is the inner east gate to be opened?",
+    options: [
+      "The Sabbath and New Moon",
       "Every day",
       "Passover only",
-      "Day of Atonement only",
+      "The Day of Atonement only",
     ],
-    answer: "Sabbaths and New Moons",
+    answer: "The Sabbath and New Moon",
     reference: "Ezekiel 46:1",
   },
   {
-    question: "How were worshipers instructed to leave after entering through one gate?",
+    question:
+      "What must worshipers do rather than exit through the same gate they entered?",
     options: [
-      "Through the opposite gate",
-      "Through the same gate",
-      "Through the east gate only",
-      "Through the priestly entrance",
+      "Leave through the opposite gate",
+      "Wait until sunset",
+      "Exit through the east gate only",
+      "Follow the prince",
     ],
-    answer: "Through the opposite gate",
+    answer: "Leave through the opposite gate",
     reference: "Ezekiel 46:9",
   },
-
   {
-    question: "From where did Ezekiel see water flowing in the temple vision?",
+    question:
+      "From where does the river in Ezekiel's final temple vision begin to flow?",
     options: [
-      "From beneath the temple threshold",
-      "From the Mount of Olives",
-      "From the altar",
-      "From a well in Jerusalem",
+      "From beneath the threshold of the temple toward the east",
+      "From Mount Zion toward the west",
+      "From beneath the altar toward the south",
+      "From the city gates toward the north",
     ],
-    answer: "From beneath the temple threshold",
+    answer: "From beneath the threshold of the temple toward the east",
     reference: "Ezekiel 47:1",
   },
   {
-    question: "In which direction did the temple river flow?",
+    question:
+      "On which side of the altar does the temple river initially pass?",
     options: [
-      "Eastward",
-      "Westward",
-      "Northward",
-      "Southward",
+      "South side",
+      "North side",
+      "East side",
+      "West side",
     ],
-    answer: "Eastward",
+    answer: "South side",
     reference: "Ezekiel 47:1",
   },
   {
-    question: "What happened to the river as the measuring man went farther from the temple?",
+    question:
+      "At the first measured distance, how deep is the river?",
     options: [
-      "It became progressively deeper",
-      "It became shallower",
-      "It dried up",
-      "It divided into twelve streams",
+      "Ankle-deep",
+      "Knee-deep",
+      "Waist-deep",
+      "Too deep to cross",
     ],
-    answer: "It became progressively deeper",
-    reference: "Ezekiel 47:3-5",
+    answer: "Ankle-deep",
+    reference: "Ezekiel 47:3",
   },
   {
-    question: "At what point did the water become too deep to cross on foot?",
+    question:
+      "At the second measured distance, how deep is the river?",
     options: [
-      "After the fourth measurement",
-      "After the first measurement",
-      "After the second measurement",
-      "After the third measurement",
+      "Knee-deep",
+      "Ankle-deep",
+      "Waist-deep",
+      "Too deep to cross",
     ],
-    answer: "After the fourth measurement",
-    reference: "Ezekiel 47:3-5",
+    answer: "Knee-deep",
+    reference: "Ezekiel 47:4",
   },
   {
-    question: "What happened where the river entered the Dead Sea?",
+    question:
+      "At the third measured distance, how deep is the river?",
     options: [
-      "The salty water became fresh",
-      "The river dried up",
-      "The sea became deeper",
-      "The fish disappeared",
+      "Waist-deep",
+      "Knee-deep",
+      "Chest-deep",
+      "Too deep to cross",
     ],
-    answer: "The salty water became fresh",
+    answer: "Waist-deep",
+    reference: "Ezekiel 47:4",
+  },
+  {
+    question:
+      "What happens after the fourth measurement?",
+    options: [
+      "The river becomes too deep to cross",
+      "The river divides",
+      "The river disappears underground",
+      "The water reaches only the chest",
+    ],
+    answer: "The river becomes too deep to cross",
+    reference: "Ezekiel 47:5",
+  },
+  {
+    question:
+      "What grows on both banks of the river?",
+    options: [
+      "Many trees",
+      "Vines",
+      "Cedars",
+      "Palm trees only",
+    ],
+    answer: "Many trees",
+    reference: "Ezekiel 47:7",
+  },
+  {
+    question:
+      "What happens when the river enters the Dead Sea region?",
+    options: [
+      "The salty water becomes fresh",
+      "The sea dries up",
+      "The sea divides",
+      "The water turns red",
+    ],
+    answer: "The salty water becomes fresh",
     reference: "Ezekiel 47:8",
   },
   {
-    question: "What became abundant wherever the river flowed?",
+    question:
+      "What happens to living creatures wherever the river flows?",
     options: [
-      "Living creatures and fish",
-      "Gold",
-      "Soldiers",
-      "Vineyards only",
+      "They live",
+      "They multiply sevenfold",
+      "They migrate toward Jerusalem",
+      "They become clean",
     ],
-    answer: "Living creatures and fish",
+    answer: "They live",
     reference: "Ezekiel 47:9",
   },
   {
-    question: "What grew on both banks of the river?",
+    question:
+      "Between which two locations will fishermen stand beside the restored waters?",
     options: [
-      "Fruit trees of every kind",
-      "Cedars only",
-      "Olive trees only",
-      "Palms only",
+      "En Gedi and En Eglaim",
+      "En Gedi and Jericho",
+      "En Eglaim and Zoar",
+      "Jericho and Jerusalem",
     ],
-    answer: "Fruit trees of every kind",
-    reference: "Ezekiel 47:12",
+    answer: "En Gedi and En Eglaim",
+    reference: "Ezekiel 47:10",
   },
   {
-    question: "How often would the trees along the river bear fruit?",
+    question:
+      "What will remain salty and not become fresh?",
+    options: [
+      "The swamps and marshes",
+      "The main sea",
+      "The temple pools",
+      "The river near the altar",
+    ],
+    answer: "The swamps and marshes",
+    reference: "Ezekiel 47:11",
+  },
+  {
+    question:
+      "How often will the fruit trees beside the river bear fruit?",
     options: [
       "Every month",
-      "Once a year",
       "Twice a year",
-      "Every Sabbath",
+      "Every season",
+      "Once a year",
     ],
     answer: "Every month",
     reference: "Ezekiel 47:12",
   },
   {
-    question: "What were the leaves of the river trees for?",
+    question:
+      "Why will the leaves of the riverbank trees not wither?",
+    options: [
+      "Because water flows to them from the sanctuary",
+      "Because they are supernatural trees",
+      "Because rainfall never stops",
+      "Because priests tend them",
+    ],
+    answer: "Because water flows to them from the sanctuary",
+    reference: "Ezekiel 47:12",
+  },
+  {
+    question:
+      "What purpose do the leaves of the trees serve?",
     options: [
       "Healing",
-      "Building",
-      "Sacrifice",
-      "Perfume",
+      "Food",
+      "Incense",
+      "Shade",
     ],
     answer: "Healing",
     reference: "Ezekiel 47:12",
   },
   {
-    question: "How were resident foreigners to be treated in the future division of the land?",
+    question:
+      "What purpose does the fruit of those trees serve?",
     options: [
-      "They were to receive an inheritance among Israel's tribes",
-      "They were to be expelled",
-      "They could live only in Jerusalem",
-      "They could not own land",
+      "Food",
+      "Sacrifice",
+      "Medicine",
+      "Temple decoration",
     ],
-    answer: "They were to receive an inheritance among Israel's tribes",
+    answer: "Food",
+    reference: "Ezekiel 47:12",
+  },
+  {
+    question:
+      "How are foreigners living among Israel to be treated in the future land distribution?",
+    options: [
+      "They are to receive inheritance among the tribes where they reside",
+      "They may live there but receive no inheritance",
+      "They must live outside tribal territories",
+      "They receive land only near Jerusalem",
+    ],
+    answer:
+      "They are to receive inheritance among the tribes where they reside",
     reference: "Ezekiel 47:22-23",
   },
-
   {
-    question: "How many gates does Ezekiel describe around the restored city?",
+    question:
+      "Which tribe is listed first in the northern tribal allotments?",
     options: [
-      "Twelve",
-      "Seven",
-      "Four",
-      "Twenty-four",
+      "Dan",
+      "Asher",
+      "Naphtali",
+      "Judah",
     ],
-    answer: "Twelve",
-    reference: "Ezekiel 48:30-35",
+    answer: "Dan",
+    reference: "Ezekiel 48:1",
   },
   {
-    question: "What were the city gates named after?",
+    question:
+      "Which tribe's territory lies immediately north of the sacred portion containing the sanctuary?",
+    options: [
+      "Judah",
+      "Benjamin",
+      "Levi",
+      "Reuben",
+    ],
+    answer: "Judah",
+    reference: "Ezekiel 48:7-8",
+  },
+  {
+    question:
+      "Which tribe's territory lies immediately south of the sacred portion?",
+    options: [
+      "Benjamin",
+      "Judah",
+      "Simeon",
+      "Reuben",
+    ],
+    answer: "Benjamin",
+    reference: "Ezekiel 48:23",
+  },
+  {
+    question:
+      "How many gates does the final city have?",
+    options: ["Twelve", "Four", "Seven", "Eight"],
+    answer: "Twelve",
+    reference: "Ezekiel 48:30-34",
+  },
+  {
+    question:
+      "What are the city's gates named after?",
     options: [
       "The tribes of Israel",
-      "The twelve months",
-      "The kings of Judah",
-      "The prophets",
+      "The apostles",
+      "The sons of David",
+      "The priests of Zadok",
     ],
     answer: "The tribes of Israel",
-    reference: "Ezekiel 48:31-34",
+    reference: "Ezekiel 48:31",
   },
   {
-    question: "What name is given to the restored city at the end of Ezekiel?",
+    question:
+      "Which three tribal gates are on the north side of the city?",
     options: [
-      "The Lord Is There",
-      "The City of David",
-      "New Jerusalem",
-      "The Holy Mountain",
+      "Reuben, Judah, and Levi",
+      "Joseph, Benjamin, and Dan",
+      "Simeon, Issachar, and Zebulun",
+      "Gad, Asher, and Naphtali",
     ],
-    answer: "The Lord Is There",
-    reference: "Ezekiel 48:35",
+    answer: "Reuben, Judah, and Levi",
+    reference: "Ezekiel 48:31",
   },
   {
-    question: "What central hope is expressed by the final name of the city?",
+    question:
+      "Which three tribal gates are on the east side?",
     options: [
-      "God's presence among His people",
-      "Israel's military power",
-      "The restoration of Solomon's wealth",
-      "The destruction of every foreign nation",
+      "Joseph, Benjamin, and Dan",
+      "Reuben, Judah, and Levi",
+      "Simeon, Issachar, and Zebulun",
+      "Gad, Asher, and Naphtali",
     ],
-    answer: "God's presence among His people",
+    answer: "Joseph, Benjamin, and Dan",
+    reference: "Ezekiel 48:32",
+  },
+  {
+    question:
+      "Which three tribal gates are on the south side?",
+    options: [
+      "Simeon, Issachar, and Zebulun",
+      "Joseph, Benjamin, and Dan",
+      "Reuben, Judah, and Levi",
+      "Gad, Asher, and Naphtali",
+    ],
+    answer: "Simeon, Issachar, and Zebulun",
+    reference: "Ezekiel 48:33",
+  },
+  {
+    question:
+      "Which three tribal gates are on the west side?",
+    options: [
+      "Gad, Asher, and Naphtali",
+      "Reuben, Judah, and Levi",
+      "Joseph, Benjamin, and Dan",
+      "Simeon, Issachar, and Zebulun",
+    ],
+    answer: "Gad, Asher, and Naphtali",
+    reference: "Ezekiel 48:34",
+  },
+  {
+    question:
+      "What final name is given to the city at the conclusion of Ezekiel?",
+    options: [
+      "The LORD Is There",
+      "The LORD Our Righteousness",
+      "Holy Jerusalem",
+      "City of Peace",
+    ],
+    answer: "The LORD Is There",
     reference: "Ezekiel 48:35",
   },
 ];

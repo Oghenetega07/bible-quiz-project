@@ -1,814 +1,994 @@
 const haggaiQuestions = [
   {
-    question: "During whose reign did the word of the Lord come through Haggai?",
+    question:
+      "In whose second year did the word of the LORD first come through Haggai?",
     options: [
       "Darius",
       "Cyrus",
-      "Xerxes",
       "Artaxerxes",
+      "Xerxes",
     ],
     answer: "Darius",
     reference: "Haggai 1:1",
   },
   {
-    question: "In which year of Darius did Haggai first receive the word of the Lord?",
+    question:
+      "In which month of Darius's second year did Haggai's first recorded message come?",
     options: [
-      "Second year",
-      "First year",
-      "Third year",
-      "Seventh year",
+      "The sixth month",
+      "The seventh month",
+      "The ninth month",
+      "The first month",
     ],
-    answer: "Second year",
+    answer: "The sixth month",
     reference: "Haggai 1:1",
   },
   {
-    question: "On what day did Haggai first receive the message?",
+    question:
+      "On which day of the sixth month did the first recorded word of the LORD come through Haggai?",
     options: [
-      "The first day of the sixth month",
-      "The tenth day of the first month",
-      "The twenty-fourth day of the ninth month",
-      "The seventh day of the seventh month",
+      "The first day",
+      "The twenty-first day",
+      "The twenty-fourth day",
+      "The tenth day",
     ],
-    answer: "The first day of the sixth month",
+    answer: "The first day",
     reference: "Haggai 1:1",
   },
   {
-    question: "To whom was Haggai's first message addressed?",
+    question:
+      "Who was governor of Judah when Haggai's first message came?",
     options: [
-      "Zerubbabel and Joshua",
-      "Ezra and Nehemiah",
-      "Darius and Cyrus",
-      "Joshua and Caleb",
+      "Zerubbabel son of Shealtiel",
+      "Joshua son of Jozadak",
+      "Ezra son of Seraiah",
+      "Nehemiah son of Hakaliah",
     ],
-    answer: "Zerubbabel and Joshua",
+    answer: "Zerubbabel son of Shealtiel",
     reference: "Haggai 1:1",
   },
   {
-    question: "Who was Zerubbabel's father?",
-    options: [
-      "Shealtiel",
-      "Jehozadak",
-      "Jozadak",
-      "Hilkiah",
-    ],
-    answer: "Shealtiel",
-    reference: "Haggai 1:1",
-  },
-  {
-    question: "What position did Zerubbabel hold?",
-    options: [
-      "Governor of Judah",
-      "High priest",
-      "King of Persia",
-      "Commander of the army",
-    ],
-    answer: "Governor of Judah",
-    reference: "Haggai 1:1",
-  },
-  {
-    question: "Who was Joshua's father?",
-    options: [
-      "Jehozadak",
-      "Shealtiel",
-      "Hilkiah",
-      "Ezra",
-    ],
-    answer: "Jehozadak",
-    reference: "Haggai 1:1",
-  },
-  {
-    question: "What position did Joshua hold?",
+    question:
+      "What office did Joshua son of Jozadak hold?",
     options: [
       "High priest",
       "Governor",
-      "King",
+      "Scribe",
       "Prophet",
     ],
     answer: "High priest",
     reference: "Haggai 1:1",
   },
   {
-    question: "What excuse were the people giving for not rebuilding the Lord's house?",
+    question:
+      "Through whom did the LORD's message come to Zerubbabel and Joshua?",
     options: [
-      "The time had not yet come",
-      "The king had forbidden it permanently",
-      "There were no materials",
-      "The priests opposed it",
+      "Haggai the prophet",
+      "Zechariah the prophet",
+      "Ezra the scribe",
+      "Malachi the prophet",
     ],
-    answer: "The time had not yet come",
+    answer: "Haggai the prophet",
+    reference: "Haggai 1:1",
+  },
+  {
+    question:
+      "What excuse were the people giving for not rebuilding the LORD's house?",
+    options: [
+      "The time had not yet come to rebuild it",
+      "They lacked permission from the king",
+      "They had no building materials",
+      "Their enemies had destroyed all their tools",
+    ],
+    answer: "The time had not yet come to rebuild it",
     reference: "Haggai 1:2",
   },
   {
-    question: "What contrast does God make between the people's houses and His own house?",
+    question:
+      "What contrast does Haggai make between the people's houses and the LORD's house?",
     options: [
-      "They lived in paneled houses while His house remained in ruins",
-      "They lived in tents while His house was complete",
-      "They lived in ruins while His house was decorated",
-      "They lived outside Judah while His house stood empty",
+      "They lived in paneled houses while the LORD's house remained in ruins",
+      "They lived in tents while the LORD's house was unfinished",
+      "They built palaces while the temple had no altar",
+      "They repaired their walls while the temple doors remained broken",
     ],
-    answer: "They lived in paneled houses while His house remained in ruins",
+    answer:
+      "They lived in paneled houses while the LORD's house remained in ruins",
     reference: "Haggai 1:4",
   },
   {
-    question: "What repeated command does God give the people concerning their situation?",
+    question:
+      "What repeated command does the LORD give the people concerning their situation?",
     options: [
       "Give careful thought to your ways",
-      "Prepare for battle",
-      "Leave Judah",
-      "Build the city wall first",
+      "Return to Jerusalem",
+      "Seek the LORD while He may be found",
+      "Remember the covenant",
     ],
     answer: "Give careful thought to your ways",
-    reference: "Haggai 1:5,7",
+    reference: "Haggai 1:5, 7",
   },
   {
-    question: "What had the people sown?",
+    question:
+      "What had the people sown in abundance but harvested only sparsely?",
     options: [
-      "Much",
-      "Little",
-      "Nothing",
-      "Only barley",
+      "Much seed",
+      "Barley",
+      "Wheat",
+      "Vineyards",
     ],
-    answer: "Much",
+    answer: "Much seed",
     reference: "Haggai 1:6",
   },
   {
-    question: "What had they harvested despite sowing much?",
-    options: [
-      "Little",
-      "Abundantly",
-      "Nothing at all",
-      "Exactly what they planted",
-    ],
-    answer: "Little",
-    reference: "Haggai 1:6",
-  },
-  {
-    question: "What happened when the people ate?",
+    question:
+      "What happened when the people ate?",
     options: [
       "They never had enough",
+      "Their food became bitter",
+      "Their food was taken away",
       "They became sick",
-      "They were fully satisfied",
-      "They stopped working",
     ],
     answer: "They never had enough",
     reference: "Haggai 1:6",
   },
   {
-    question: "What happened when the people drank?",
+    question:
+      "What happened when the people drank?",
     options: [
       "They never had their fill",
-      "They had too much",
+      "Their wine ran out immediately",
       "They became drunk",
-      "They had no water",
+      "Their water became bitter",
     ],
     answer: "They never had their fill",
     reference: "Haggai 1:6",
   },
   {
-    question: "What happened when they put on clothes?",
+    question:
+      "What happened despite the people putting on clothes?",
     options: [
       "They were not warm",
-      "They became too hot",
-      "The clothes tore",
-      "The clothes were stolen",
+      "The clothes wore out",
+      "The clothes were taken away",
+      "They remained ashamed",
     ],
     answer: "They were not warm",
     reference: "Haggai 1:6",
   },
   {
-    question: "To what is the wage earner's purse compared?",
+    question:
+      "To what is earning wages compared in Haggai's first message?",
     options: [
-      "A bag with holes",
-      "A sealed jar",
-      "A broken basket",
-      "A locked chest",
+      "Putting money into a bag with holes",
+      "Pouring water into broken jars",
+      "Sowing seed on rocks",
+      "Building a house on sand",
     ],
-    answer: "A bag with holes",
+    answer: "Putting money into a bag with holes",
     reference: "Haggai 1:6",
   },
   {
-    question: "Where does God tell the people to go for timber?",
+    question:
+      "After telling the people to consider their ways, where does God tell them to go?",
     options: [
-      "The mountains",
-      "Lebanon only",
-      "Egypt",
-      "The Jordan Valley",
+      "Up into the mountains",
+      "To Jerusalem's gates",
+      "Back to Babylon",
+      "To the Jordan Valley",
     ],
-    answer: "The mountains",
+    answer: "Up into the mountains",
     reference: "Haggai 1:8",
   },
   {
-    question: "What are the people told to bring down from the mountains?",
+    question:
+      "What are the people commanded to bring down from the mountains?",
     options: [
       "Timber",
       "Stone",
+      "Cedars",
       "Gold",
-      "Water",
     ],
     answer: "Timber",
     reference: "Haggai 1:8",
   },
   {
-    question: "Why does God tell the people to rebuild the house?",
+    question:
+      "What are the people commanded to do with the timber?",
     options: [
-      "So He may take pleasure in it and be honored",
-      "So Judah may become wealthy",
-      "So Darius may be pleased",
-      "So the city may become larger",
+      "Build the LORD's house",
+      "Repair Jerusalem's gates",
+      "Build houses for the priests",
+      "Strengthen the city wall",
     ],
-    answer: "So He may take pleasure in it and be honored",
+    answer: "Build the LORD's house",
     reference: "Haggai 1:8",
   },
   {
-    question: "What happened when the people expected much from their harvest?",
+    question:
+      "What two results does God say will come from rebuilding His house?",
+    options: [
+      "He will take pleasure in it and be honored",
+      "He will send a king and defeat their enemies",
+      "He will restore David's throne and expand Judah",
+      "He will make Jerusalem wealthy and powerful",
+    ],
+    answer: "He will take pleasure in it and be honored",
+    reference: "Haggai 1:8",
+  },
+  {
+    question:
+      "What happened to the much that the people expected?",
     options: [
       "It turned out to be little",
-      "It doubled",
       "It was stolen",
       "It was destroyed by enemies",
+      "It spoiled in storage",
     ],
     answer: "It turned out to be little",
     reference: "Haggai 1:9",
   },
   {
-    question: "What did God do to what the people brought home?",
+    question:
+      "What did God do to what the people brought home?",
     options: [
       "Blew it away",
-      "Multiplied it",
-      "Protected it",
-      "Gave it to the poor",
+      "Burned it",
+      "Allowed thieves to take it",
+      "Made it rot",
     ],
     answer: "Blew it away",
     reference: "Haggai 1:9",
   },
   {
-    question: "Why did God say He had frustrated the people's efforts?",
+    question:
+      "Why did God say He had blown away what the people brought home?",
     options: [
-      "His house remained in ruins while everyone was busy with their own house",
-      "They had stopped farming",
-      "They refused to pay taxes",
-      "They had no king",
+      "His house remained in ruins while everyone was busy with his own house",
+      "They had failed to offer sacrifices",
+      "They had married foreigners",
+      "They had refused to pay taxes",
     ],
-    answer: "His house remained in ruins while everyone was busy with their own house",
+    answer:
+      "His house remained in ruins while everyone was busy with his own house",
     reference: "Haggai 1:9",
   },
   {
-    question: "What did the heavens withhold because of the people's neglect?",
+    question:
+      "What did the heavens withhold because the LORD's house remained neglected?",
     options: [
       "Dew",
-      "Sunlight",
+      "Rain",
       "Snow",
-      "Wind",
+      "Clouds",
     ],
     answer: "Dew",
     reference: "Haggai 1:10",
   },
   {
-    question: "What did the earth withhold?",
+    question:
+      "What did the earth withhold?",
     options: [
       "Its crops",
-      "Its stones",
-      "Its rivers",
-      "Its trees",
+      "Its water",
+      "Its seed",
+      "Its livestock",
     ],
     answer: "Its crops",
     reference: "Haggai 1:10",
   },
   {
-    question: "What did God call for on the land?",
+    question:
+      "What did the LORD call for upon the land and mountains?",
     options: [
       "A drought",
-      "A flood",
       "A plague",
-      "An invasion",
+      "A flood",
+      "An invading army",
     ],
     answer: "A drought",
     reference: "Haggai 1:11",
   },
   {
-    question: "What areas did the drought affect?",
+    question:
+      "Which three agricultural products are specifically named among those affected by the drought?",
     options: [
-      "Fields, mountains, grain, new wine, olive oil, and produce",
-      "Only vineyards",
-      "Only grain fields",
-      "Only Jerusalem",
+      "Grain, new wine, and olive oil",
+      "Wheat, barley, and figs",
+      "Grapes, olives, and pomegranates",
+      "Grain, figs, and dates",
     ],
-    answer: "Fields, mountains, grain, new wine, olive oil, and produce",
+    answer: "Grain, new wine, and olive oil",
     reference: "Haggai 1:11",
   },
   {
-    question: "Whom else did the drought affect?",
+    question:
+      "Besides crops, what two living categories were affected by the drought?",
     options: [
-      "People, livestock, and the labor of their hands",
-      "Only priests",
-      "Only merchants",
-      "Only soldiers",
+      "People and livestock",
+      "Priests and farmers",
+      "Shepherds and servants",
+      "Children and animals",
     ],
-    answer: "People, livestock, and the labor of their hands",
+    answer: "People and livestock",
     reference: "Haggai 1:11",
   },
-
   {
-    question: "How did Zerubbabel, Joshua, and the remnant respond to Haggai's message?",
+    question:
+      "What else besides agricultural produce and living creatures was affected by the drought?",
     options: [
-      "They obeyed the voice of the Lord",
-      "They rejected it",
-      "They delayed again",
-      "They asked Darius for permission first",
+      "All the labor of their hands",
+      "Their houses",
+      "Their temple offerings",
+      "Their tools",
     ],
-    answer: "They obeyed the voice of the Lord",
+    answer: "All the labor of their hands",
+    reference: "Haggai 1:11",
+  },
+  {
+    question:
+      "Who obeyed the voice of the LORD after Haggai's message?",
+    options: [
+      "Zerubbabel, Joshua, and the whole remnant of the people",
+      "Zerubbabel and Joshua only",
+      "The priests only",
+      "The elders of Judah",
+    ],
+    answer: "Zerubbabel, Joshua, and the whole remnant of the people",
     reference: "Haggai 1:12",
   },
   {
-    question: "What attitude did the people develop toward the Lord?",
+    question:
+      "Why did the people obey Haggai's message?",
     options: [
-      "Fear",
-      "Anger",
-      "Indifference",
-      "Doubt",
+      "They recognized that the LORD their God had sent him",
+      "The king commanded them",
+      "Joshua confirmed the message",
+      "Their crops had completely failed",
     ],
-    answer: "Fear",
+    answer: "They recognized that the LORD their God had sent him",
     reference: "Haggai 1:12",
   },
   {
-    question: "What message did Haggai give after the people obeyed?",
+    question:
+      "What attitude toward the LORD followed the people's obedience?",
+    options: [
+      "They feared Him",
+      "They questioned Him",
+      "They rejoiced immediately",
+      "They asked for a sign",
+    ],
+    answer: "They feared Him",
+    reference: "Haggai 1:12",
+  },
+  {
+    question:
+      "How is Haggai described when he delivers God's brief encouragement?",
+    options: [
+      "The LORD's messenger",
+      "The servant of the LORD",
+      "The priest of Judah",
+      "The seer of Jerusalem",
+    ],
+    answer: "The LORD's messenger",
+    reference: "Haggai 1:13",
+  },
+  {
+    question:
+      "What short assurance did the LORD give the people after they obeyed?",
     options: [
       "I am with you",
-      "You will become wealthy",
-      "Your enemies are defeated",
-      "The temple is already complete",
+      "I will restore you",
+      "Do not fear",
+      "I have forgiven you",
     ],
     answer: "I am with you",
     reference: "Haggai 1:13",
   },
   {
-    question: "How is Haggai described when delivering God's message?",
+    question:
+      "Whose spirit did the LORD stir first in the description of renewed temple work?",
     options: [
-      "The Lord's messenger",
-      "The king's messenger",
-      "The high priest",
-      "The governor",
+      "Zerubbabel son of Shealtiel",
+      "Joshua son of Jozadak",
+      "Haggai",
+      "The elders",
     ],
-    answer: "The Lord's messenger",
-    reference: "Haggai 1:13",
-  },
-  {
-    question: "Whose spirit did the Lord stir up first among the leaders?",
-    options: [
-      "Zerubbabel's",
-      "Darius'",
-      "Haggai's only",
-      "Cyrus'",
-    ],
-    answer: "Zerubbabel's",
+    answer: "Zerubbabel son of Shealtiel",
     reference: "Haggai 1:14",
   },
   {
-    question: "Whose spirit did the Lord also stir up?",
+    question:
+      "Whose spirit did the LORD stir alongside Zerubbabel's?",
     options: [
-      "Joshua the high priest's",
-      "Darius' priest's",
+      "Joshua son of Jozadak",
+      "Haggai's",
+      "Darius's",
       "Ezra's",
-      "Nehemiah's",
     ],
-    answer: "Joshua the high priest's",
+    answer: "Joshua son of Jozadak",
     reference: "Haggai 1:14",
   },
   {
-    question: "Whose spirits were stirred in addition to the leaders?",
+    question:
+      "Whose spirits were stirred in addition to those of Zerubbabel and Joshua?",
     options: [
       "The whole remnant of the people",
-      "Only craftsmen",
-      "Only priests",
-      "Only elders",
+      "The priests only",
+      "The elders only",
+      "The temple workers only",
     ],
     answer: "The whole remnant of the people",
     reference: "Haggai 1:14",
   },
   {
-    question: "What did the people begin to do after their spirits were stirred?",
+    question:
+      "What did the stirred people begin to do?",
     options: [
-      "Work on the house of the Lord",
-      "Build their own homes",
-      "Prepare for war",
-      "Rebuild the city wall",
+      "Work on the house of the LORD Almighty",
+      "Repair Jerusalem's walls",
+      "Offer daily sacrifices",
+      "Clear the city of idols",
     ],
-    answer: "Work on the house of the Lord",
+    answer: "Work on the house of the LORD Almighty",
     reference: "Haggai 1:14",
   },
   {
-    question: "On what day did the people begin work on the temple?",
+    question:
+      "On which day of the sixth month did the people begin work on the LORD's house?",
     options: [
-      "The twenty-fourth day of the sixth month",
-      "The first day of the sixth month",
-      "The twenty-first day of the seventh month",
-      "The twenty-fourth day of the ninth month",
+      "The twenty-fourth day",
+      "The first day",
+      "The twenty-first day",
+      "The tenth day",
     ],
-    answer: "The twenty-fourth day of the sixth month",
+    answer: "The twenty-fourth day",
     reference: "Haggai 1:15",
   },
-
   {
-    question: "When did Haggai's next recorded message come?",
+    question:
+      "How many days passed between Haggai's first dated message and the beginning of temple work, counting by the dates given?",
     options: [
-      "The twenty-first day of the seventh month",
-      "The first day of the sixth month",
-      "The twenty-fourth day of the sixth month",
-      "The first day of the ninth month",
+      "Twenty-three days",
+      "Twenty-four days",
+      "Twenty-one days",
+      "Thirty days",
     ],
-    answer: "The twenty-first day of the seventh month",
+    answer: "Twenty-three days",
+    reference: "Haggai 1:1, 15",
+  },
+  {
+    question:
+      "In which month did Haggai's next recorded message come after work had begun?",
+    options: [
+      "The seventh month",
+      "The eighth month",
+      "The ninth month",
+      "The sixth month",
+    ],
+    answer: "The seventh month",
     reference: "Haggai 2:1",
   },
   {
-    question: "To whom was the second major encouragement addressed?",
+    question:
+      "On which day of the seventh month did the word of the LORD come again through Haggai?",
     options: [
-      "Zerubbabel, Joshua, and the remnant",
-      "Darius alone",
-      "The nations",
-      "The priests only",
+      "The twenty-first day",
+      "The twenty-fourth day",
+      "The first day",
+      "The fifteenth day",
     ],
-    answer: "Zerubbabel, Joshua, and the remnant",
+    answer: "The twenty-first day",
+    reference: "Haggai 2:1",
+  },
+  {
+    question:
+      "To whom was Haggai's second major encouragement directed?",
+    options: [
+      "Zerubbabel, Joshua, and the remnant of the people",
+      "Zerubbabel alone",
+      "Joshua and the priests",
+      "The elders of Jerusalem",
+    ],
+    answer: "Zerubbabel, Joshua, and the remnant of the people",
     reference: "Haggai 2:2",
   },
   {
-    question: "What question did God ask those who remembered the former temple?",
+    question:
+      "What comparison with the past does God ask the people to make concerning the temple?",
     options: [
-      "Who saw this house in its former glory?",
-      "Who destroyed this house?",
-      "Who built the first altar?",
-      "Who brought the gold?",
+      "Its present appearance compared with its former glory",
+      "Its size compared with Solomon's palace",
+      "Its altar compared with the tabernacle",
+      "Its priesthood compared with Aaron's",
     ],
-    answer: "Who saw this house in its former glory?",
+    answer: "Its present appearance compared with its former glory",
     reference: "Haggai 2:3",
   },
   {
-    question: "How did the present temple appear compared with the former one?",
+    question:
+      "What question is asked of those who had seen the former glory of the house?",
     options: [
-      "Like nothing in their eyes",
-      "Far greater already",
-      "Exactly the same",
-      "Completely finished",
+      "Who of you is left who saw this house in its former glory?",
+      "Who remembers Solomon?",
+      "Who saw the temple before the exile?",
+      "Who remembers the ark of the covenant?",
     ],
-    answer: "Like nothing in their eyes",
+    answer: "Who of you is left who saw this house in its former glory?",
     reference: "Haggai 2:3",
   },
   {
-    question: "What command does God give Zerubbabel despite the discouraging comparison?",
+    question:
+      "How does God characterize the rebuilt temple's present appearance in the eyes of those comparing it with the former house?",
     options: [
-      "Be strong",
-      "Leave Judah",
-      "Ask Darius for gold",
-      "Stop building",
+      "It seems like nothing",
+      "It appears incomplete",
+      "It is smaller but beautiful",
+      "It looks dishonorable",
     ],
-    answer: "Be strong",
+    answer: "It seems like nothing",
+    reference: "Haggai 2:3",
+  },
+  {
+    question:
+      "Who is first told to be strong in the LORD's encouragement?",
+    options: [
+      "Zerubbabel",
+      "Joshua",
+      "Haggai",
+      "The remnant",
+    ],
+    answer: "Zerubbabel",
     reference: "Haggai 2:4",
   },
   {
-    question: "What command is also given to Joshua?",
+    question:
+      "Who is the second individual specifically told to be strong?",
     options: [
-      "Be strong",
-      "Offer more sacrifices",
-      "Rebuild the altar",
-      "Return to Babylon",
+      "Joshua son of Jozadak",
+      "Haggai",
+      "Darius",
+      "Ezra",
     ],
-    answer: "Be strong",
+    answer: "Joshua son of Jozadak",
     reference: "Haggai 2:4",
   },
   {
-    question: "What command is given to all the people?",
+    question:
+      "Who are told collectively to be strong after Zerubbabel and Joshua?",
     options: [
-      "Be strong and work",
-      "Wait quietly",
-      "Prepare for exile",
-      "Build houses first",
+      "All the people of the land",
+      "All the priests",
+      "All the elders",
+      "All the builders",
     ],
-    answer: "Be strong and work",
+    answer: "All the people of the land",
     reference: "Haggai 2:4",
   },
   {
-    question: "Why can the people continue the work with courage?",
+    question:
+      "What are the people commanded to do immediately after being told to be strong?",
     options: [
-      "The Lord is with them",
-      "Darius has joined them",
-      "Their enemies are weak",
-      "They have abundant wealth",
+      "Work",
+      "Pray",
+      "Wait",
+      "Fast",
     ],
-    answer: "The Lord is with them",
+    answer: "Work",
     reference: "Haggai 2:4",
   },
   {
-    question: "What earlier covenant event does God remind the people of?",
+    question:
+      "What reason does the LORD give for the command to work?",
     options: [
-      "Their coming out of Egypt",
-      "The conquest of Jericho",
-      "David's coronation",
-      "The exile to Babylon",
+      "I am with you",
+      "The king supports you",
+      "The time is short",
+      "Your enemies are weak",
     ],
-    answer: "Their coming out of Egypt",
+    answer: "I am with you",
+    reference: "Haggai 2:4",
+  },
+  {
+    question:
+      "To what past event does God connect His present encouragement?",
+    options: [
+      "Israel's coming out of Egypt",
+      "The conquest of Canaan",
+      "The reign of David",
+      "The return from Babylon",
+    ],
+    answer: "Israel's coming out of Egypt",
     reference: "Haggai 2:5",
   },
   {
-    question: "What does God say remains among the people?",
+    question:
+      "What does God say remains among the people according to His covenant?",
     options: [
       "His Spirit",
-      "The ark",
-      "The pillar of fire",
-      "Manna",
+      "His glory",
+      "His law",
+      "His angel",
     ],
     answer: "His Spirit",
     reference: "Haggai 2:5",
   },
   {
-    question: "What command follows the reminder that God's Spirit remains with them?",
+    question:
+      "What command follows the assurance that God's Spirit remains among them?",
     options: [
       "Do not fear",
-      "Do not build",
+      "Do not stop working",
+      "Do not look back",
       "Do not leave Jerusalem",
-      "Do not speak",
     ],
     answer: "Do not fear",
     reference: "Haggai 2:5",
   },
-
   {
-    question: "What does God say He will shake once more?",
+    question:
+      "How soon does the LORD say He will once more shake creation?",
     options: [
-      "The heavens and the earth",
-      "Jerusalem only",
-      "Babylon only",
-      "The temple only",
+      "In a little while",
+      "After seventy years",
+      "At the end of the age",
+      "After the temple is completed",
     ],
-    answer: "The heavens and the earth",
+    answer: "In a little while",
     reference: "Haggai 2:6",
   },
   {
-    question: "What other parts of creation are included in the shaking?",
+    question:
+      "Which four parts of creation are specifically listed as being shaken?",
     options: [
-      "The sea and the dry land",
-      "The rivers only",
-      "The mountains only",
-      "The stars only",
+      "The heavens, the earth, the sea, and the dry land",
+      "The heavens, mountains, rivers, and nations",
+      "The earth, cities, kingdoms, and seas",
+      "The sky, mountains, valleys, and deserts",
     ],
-    answer: "The sea and the dry land",
+    answer: "The heavens, the earth, the sea, and the dry land",
     reference: "Haggai 2:6",
   },
   {
-    question: "What human groups will also be shaken?",
+    question:
+      "What will happen to all nations when God shakes creation?",
     options: [
-      "All nations",
-      "Judah only",
-      "Persia only",
-      "Babylon only",
+      "They will be shaken",
+      "They will gather at Jerusalem",
+      "They will flee",
+      "They will become servants of Judah",
     ],
-    answer: "All nations",
+    answer: "They will be shaken",
     reference: "Haggai 2:7",
   },
   {
-    question: "What will come as a result of the shaking of the nations?",
+    question:
+      "What will come from the nations so that the house may be filled with glory?",
     options: [
-      "Their treasures will come",
-      "Their armies will conquer Judah",
-      "Their kings will disappear",
-      "Their temples will move",
+      "Their treasures",
+      "Their armies",
+      "Their kings",
+      "Their sacrifices",
     ],
-    answer: "Their treasures will come",
+    answer: "Their treasures",
     reference: "Haggai 2:7",
   },
   {
-    question: "With what will God fill His house?",
+    question:
+      "With what does God say He will fill His house?",
     options: [
       "Glory",
-      "Weapons",
-      "Grain",
-      "Foreign idols",
+      "Gold",
+      "People",
+      "Sacrifices",
     ],
     answer: "Glory",
     reference: "Haggai 2:7",
   },
   {
-    question: "Who claims ownership of silver?",
+    question:
+      "What two precious metals does the LORD declare belong to Him?",
     options: [
-      "The Lord",
-      "Darius",
-      "Zerubbabel",
-      "The priests",
+      "Silver and gold",
+      "Gold and bronze",
+      "Silver and iron",
+      "Bronze and copper",
     ],
-    answer: "The Lord",
+    answer: "Silver and gold",
     reference: "Haggai 2:8",
   },
   {
-    question: "Who claims ownership of gold?",
+    question:
+      "How will the glory of the present house compare with the former house?",
     options: [
-      "The Lord",
-      "The king of Persia",
-      "The governor",
-      "The merchants",
+      "The glory of the present house will be greater",
+      "The former glory will remain greater",
+      "The two will be equal",
+      "The present house will have no glory",
     ],
-    answer: "The Lord",
-    reference: "Haggai 2:8",
-  },
-  {
-    question: "How will the glory of the present house compare with the former house?",
-    options: [
-      "It will be greater",
-      "It will be less",
-      "It will be equal",
-      "It will disappear",
-    ],
-    answer: "It will be greater",
+    answer: "The glory of the present house will be greater",
     reference: "Haggai 2:9",
   },
   {
-    question: "What does God promise to grant in this place?",
+    question:
+      "What does the LORD promise to grant in the place of the rebuilt house?",
     options: [
       "Peace",
-      "Military power",
-      "Royal wealth",
-      "Foreign alliances",
+      "Wealth",
+      "Victory",
+      "Long life",
     ],
     answer: "Peace",
     reference: "Haggai 2:9",
   },
-
   {
-    question: "On what day did another word of the Lord come to Haggai concerning ritual holiness?",
+    question:
+      "In which month did Haggai receive the message involving questions for the priests?",
     options: [
-      "The twenty-fourth day of the ninth month",
-      "The first day of the sixth month",
-      "The twenty-first day of the seventh month",
-      "The tenth day of the first month",
+      "The ninth month",
+      "The seventh month",
+      "The sixth month",
+      "The tenth month",
     ],
-    answer: "The twenty-fourth day of the ninth month",
+    answer: "The ninth month",
     reference: "Haggai 2:10",
   },
   {
-    question: "Whom did God tell Haggai to question about the law?",
+    question:
+      "On which day of the ninth month did the LORD give Haggai the message concerning ritual purity?",
+    options: [
+      "The twenty-fourth day",
+      "The twenty-first day",
+      "The first day",
+      "The fifteenth day",
+    ],
+    answer: "The twenty-fourth day",
+    reference: "Haggai 2:10",
+  },
+  {
+    question:
+      "Whom does the LORD tell Haggai to ask about the law?",
     options: [
       "The priests",
-      "The governor",
-      "The king",
-      "The merchants",
+      "The elders",
+      "The Levites",
+      "The scribes",
     ],
     answer: "The priests",
     reference: "Haggai 2:11",
   },
   {
-    question: "What was the first legal question about?",
+    question:
+      "What is the first ritual object in Haggai's question to the priests?",
     options: [
-      "Whether holiness could be transferred through contact",
-      "Whether sacrifices were required",
-      "Whether priests could marry",
-      "Whether the temple should be rebuilt",
+      "Consecrated meat carried in the fold of a garment",
+      "A holy vessel filled with oil",
+      "Bread from the altar",
+      "A priestly garment",
     ],
-    answer: "Whether holiness could be transferred through contact",
+    answer: "Consecrated meat carried in the fold of a garment",
     reference: "Haggai 2:12",
   },
   {
-    question: "What answer did the priests give about holy meat making other food holy through indirect contact?",
+    question:
+      "What does Haggai ask whether the garment carrying consecrated meat can make holy by contact?",
+    options: [
+      "Bread, stew, wine, olive oil, or other food",
+      "Only bread and wine",
+      "A person or an animal",
+      "An altar and its vessels",
+    ],
+    answer: "Bread, stew, wine, olive oil, or other food",
+    reference: "Haggai 2:12",
+  },
+  {
+    question:
+      "How do the priests answer the question about holiness being transferred through the garment?",
     options: [
       "No",
       "Yes",
-      "Only bread",
-      "Only wine",
+      "Only to food",
+      "Only to bread",
     ],
     answer: "No",
     reference: "Haggai 2:12",
   },
   {
-    question: "What was Haggai's second legal question about?",
+    question:
+      "What source of uncleanness is used in Haggai's second question to the priests?",
     options: [
-      "Contact with ceremonial uncleanness from a dead body",
-      "Eating unclean food",
-      "Working on the Sabbath",
-      "Entering the sanctuary",
+      "Contact with a dead body",
+      "Contact with an unclean animal",
+      "Eating forbidden food",
+      "Entering a pagan temple",
     ],
-    answer: "Contact with ceremonial uncleanness from a dead body",
+    answer: "Contact with a dead body",
     reference: "Haggai 2:13",
   },
   {
-    question: "What happens when someone ceremonially unclean touches food?",
+    question:
+      "If a person defiled by contact with a corpse touches food, what do the priests say happens?",
     options: [
-      "The food becomes unclean",
+      "The food becomes defiled",
       "The person becomes clean",
-      "The food becomes holy",
       "Nothing happens",
+      "The food becomes holy",
     ],
-    answer: "The food becomes unclean",
+    answer: "The food becomes defiled",
     reference: "Haggai 2:13",
   },
   {
-    question: "How does Haggai apply the priests' answers to the people?",
+    question:
+      "What conclusion does the LORD draw from the priests' answers?",
     options: [
-      "Their work and offerings had become unclean because of their condition",
-      "Their offerings automatically made them holy",
-      "Their poverty made them unclean",
-      "Their foreign rulers made them unclean",
+      "The people and the work of their hands are unclean before Him",
+      "The priests are unfit to serve",
+      "The temple itself is unclean",
+      "The sacrifices must stop",
     ],
-    answer: "Their work and offerings had become unclean because of their condition",
+    answer: "The people and the work of their hands are unclean before Him",
     reference: "Haggai 2:14",
   },
   {
-    question: "What does Haggai again tell the people to consider?",
+    question:
+      "How does God describe what the people offer before Him while they remain unclean?",
     options: [
-      "How things were before temple rebuilding resumed",
-      "How strong Babylon was",
-      "How much silver they owned",
-      "How many priests served",
+      "It is defiled",
+      "It is accepted reluctantly",
+      "It is incomplete",
+      "It is worthless because the altar is unfinished",
     ],
-    answer: "How things were before temple rebuilding resumed",
+    answer: "It is defiled",
+    reference: "Haggai 2:14",
+  },
+  {
+    question:
+      "From what point are the people again told to give careful thought?",
+    options: [
+      "From that day onward",
+      "From the beginning of the exile",
+      "From the first day of the sixth month",
+      "From the completion of the temple",
+    ],
+    answer: "From that day onward",
     reference: "Haggai 2:15",
   },
   {
-    question: "When someone expected twenty measures from a heap, how many were actually there?",
+    question:
+      "What construction stage are the people told to remember when considering their former condition?",
+    options: [
+      "Before one stone was laid on another in the LORD's temple",
+      "Before the altar was rebuilt",
+      "Before Jerusalem's walls were repaired",
+      "Before the foundation was measured",
+    ],
+    answer:
+      "Before one stone was laid on another in the LORD's temple",
+    reference: "Haggai 2:15",
+  },
+  {
+    question:
+      "When someone came expecting a heap of twenty measures, how many were actually there?",
     options: [
       "Ten",
       "Five",
       "Fifteen",
-      "Twenty-five",
+      "Twelve",
     ],
     answer: "Ten",
     reference: "Haggai 2:16",
   },
   {
-    question: "When someone expected fifty measures from the winepress, how many were actually there?",
+    question:
+      "When someone went to a wine vat expecting fifty measures, how many were actually there?",
     options: [
       "Twenty",
+      "Twenty-five",
       "Ten",
       "Thirty",
-      "Forty",
     ],
     answer: "Twenty",
     reference: "Haggai 2:16",
   },
   {
-    question: "What did God use to strike the people's work?",
+    question:
+      "Which three disasters does God say He used against the people's work?",
     options: [
       "Blight, mildew, and hail",
-      "Locusts only",
-      "Flood and fire",
-      "Foreign armies only",
+      "Drought, locusts, and fire",
+      "Famine, plague, and hail",
+      "Mildew, drought, and locusts",
     ],
     answer: "Blight, mildew, and hail",
     reference: "Haggai 2:17",
   },
   {
-    question: "How did the people respond to these earlier judgments?",
+    question:
+      "What did God strike with blight, mildew, and hail?",
     options: [
-      "They still did not return to God",
-      "They immediately repented",
-      "They left Judah",
-      "They rebuilt the temple at once",
+      "All the work of their hands",
+      "Only their vineyards",
+      "Their livestock",
+      "Their houses",
     ],
-    answer: "They still did not return to God",
+    answer: "All the work of their hands",
     reference: "Haggai 2:17",
   },
   {
-    question: "From what specific day does God tell the people to give careful thought?",
+    question:
+      "How did the people respond despite the agricultural judgments?",
     options: [
-      "The day the foundation of the Lord's temple was laid",
-      "The day Cyrus became king",
-      "The day Jerusalem fell",
-      "The day the altar was destroyed",
+      "They did not return to the LORD",
+      "They fasted",
+      "They rebuilt the altar",
+      "They asked the priests for help",
     ],
-    answer: "The day the foundation of the Lord's temple was laid",
+    answer: "They did not return to the LORD",
+    reference: "Haggai 2:17",
+  },
+  {
+    question:
+      "What date does Haggai emphasize again when telling the people to give careful thought?",
+    options: [
+      "The twenty-fourth day of the ninth month",
+      "The twenty-first day of the seventh month",
+      "The twenty-fourth day of the sixth month",
+      "The first day of the sixth month",
+    ],
+    answer: "The twenty-fourth day of the ninth month",
     reference: "Haggai 2:18",
   },
   {
-    question: "What question does God ask concerning the barn?",
+    question:
+      "What important temple event does Haggai associate with the twenty-fourth day of the ninth month?",
+    options: [
+      "The foundation of the LORD's temple was laid",
+      "The altar was dedicated",
+      "The temple was completed",
+      "The first sacrifice was offered",
+    ],
+    answer: "The foundation of the LORD's temple was laid",
+    reference: "Haggai 2:18",
+  },
+  {
+    question:
+      "What question does God ask concerning the seed at that point?",
     options: [
       "Is there yet any seed left in the barn?",
-      "Who owns the barn?",
-      "Why was the barn destroyed?",
-      "Who stored grain there?",
+      "Has the seed been planted?",
+      "Has the seed produced fruit?",
+      "Is the seed holy?",
     ],
     answer: "Is there yet any seed left in the barn?",
     reference: "Haggai 2:19",
   },
   {
-    question: "Which plants are named as not yet having borne fruit?",
+    question:
+      "Which four plants are specifically mentioned as having not yet borne fruit?",
     options: [
       "Vine, fig tree, pomegranate, and olive tree",
-      "Cedar, palm, fig, and grape",
-      "Wheat, barley, olive, and flax",
-      "Apple, date, fig, and almond",
+      "Vine, olive tree, almond, and fig tree",
+      "Fig tree, date palm, olive tree, and vine",
+      "Pomegranate, cedar, vine, and fig tree",
     ],
     answer: "Vine, fig tree, pomegranate, and olive tree",
     reference: "Haggai 2:19",
   },
   {
-    question: "What promise does God make from that day forward?",
+    question:
+      "What promise marks the turning point after the discussion of failed crops?",
     options: [
-      "I will bless you",
-      "I will send you into exile",
-      "I will destroy your crops",
-      "I will remove the temple",
+      "From this day on I will bless you",
+      "From this day you will prosper",
+      "From this day I will defeat your enemies",
+      "From this day the temple will be glorious",
     ],
-    answer: "I will bless you",
+    answer: "From this day on I will bless you",
     reference: "Haggai 2:19",
   },
-
   {
-    question: "How many times did the word of the Lord come to Haggai on the twenty-fourth day of the ninth month?",
+    question:
+      "How many times did the word of the LORD come to Haggai on the twenty-fourth day of the ninth month?",
     options: [
       "Twice",
       "Once",
@@ -816,272 +996,431 @@ const haggaiQuestions = [
       "Four times",
     ],
     answer: "Twice",
-    reference: "Haggai 2:10,20",
+    reference: "Haggai 2:10, 20",
   },
   {
-    question: "To whom was the final message specifically directed?",
+    question:
+      "To whom is Haggai specifically told to speak in the second message of the twenty-fourth day of the ninth month?",
     options: [
-      "Zerubbabel",
-      "Joshua",
-      "Darius",
+      "Zerubbabel governor of Judah",
+      "Joshua the high priest",
       "The priests",
+      "The whole remnant",
     ],
-    answer: "Zerubbabel",
+    answer: "Zerubbabel governor of Judah",
     reference: "Haggai 2:21",
   },
   {
-    question: "What does God again say He will shake?",
+    question:
+      "What does God again say He will shake in the message to Zerubbabel?",
     options: [
       "The heavens and the earth",
-      "Jerusalem only",
-      "The temple",
-      "The Persian palace",
+      "The sea and dry land",
+      "The nations and kingdoms only",
+      "Jerusalem and Babylon",
     ],
     answer: "The heavens and the earth",
     reference: "Haggai 2:21",
   },
   {
-    question: "What will God overturn?",
+    question:
+      "What political structures does God say He will overturn?",
     options: [
       "Royal thrones",
-      "The priesthood",
-      "The temple altar",
-      "Judah's government",
+      "Temple authorities",
+      "City councils",
+      "Priestly courts",
     ],
     answer: "Royal thrones",
     reference: "Haggai 2:22",
   },
   {
-    question: "What will God shatter?",
+    question:
+      "What does God say He will shatter?",
     options: [
       "The power of foreign kingdoms",
-      "The remnant of Judah",
-      "The temple",
-      "The priesthood",
+      "Jerusalem's enemies only",
+      "The walls of Babylon",
+      "The armies of Persia",
     ],
     answer: "The power of foreign kingdoms",
     reference: "Haggai 2:22",
   },
   {
-    question: "What military equipment will God overthrow?",
+    question:
+      "What military vehicles will God overthrow?",
     options: [
-      "Chariots and their drivers",
-      "Ships and sailors",
-      "Bows and arrows only",
-      "City walls",
+      "Chariots",
+      "Siege towers",
+      "War wagons",
+      "Carts",
     ],
-    answer: "Chariots and their drivers",
+    answer: "Chariots",
     reference: "Haggai 2:22",
   },
   {
-    question: "What will happen to horses and their riders?",
+    question:
+      "Who will be overthrown together with the chariots?",
+    options: [
+      "Their drivers",
+      "Their commanders",
+      "Their kings",
+      "Their archers",
+    ],
+    answer: "Their drivers",
+    reference: "Haggai 2:22",
+  },
+  {
+    question:
+      "What will happen to horses and their riders in the coming upheaval?",
     options: [
       "They will fall",
-      "They will flee to Judah",
-      "They will become stronger",
-      "They will be captured by Zerubbabel",
+      "They will flee",
+      "They will be captured",
+      "They will turn against Jerusalem",
     ],
     answer: "They will fall",
     reference: "Haggai 2:22",
   },
   {
-    question: "How will the riders fall?",
+    question:
+      "By whose sword will the warriors fall?",
     options: [
-      "By the sword of one another",
-      "By famine",
-      "By disease",
-      "By drowning",
+      "Each by the sword of his brother",
+      "By Judah's sword",
+      "By the sword of the LORD",
+      "By Babylon's sword",
     ],
-    answer: "By the sword of one another",
+    answer: "Each by the sword of his brother",
     reference: "Haggai 2:22",
   },
   {
-    question: "How does God address Zerubbabel in the final promise?",
+    question:
+      "How does the LORD describe Zerubbabel in the final verse?",
     options: [
       "My servant",
-      "My priest",
-      "My prophet",
-      "My king",
+      "My anointed",
+      "My prince",
+      "My chosen priest",
     ],
     answer: "My servant",
     reference: "Haggai 2:23",
   },
   {
-    question: "What object does God say He will make Zerubbabel like?",
+    question:
+      "To what personal royal object does God compare Zerubbabel?",
     options: [
       "A signet ring",
       "A crown",
-      "A sword",
-      "A pillar",
+      "A scepter",
+      "A seal on a scroll",
     ],
     answer: "A signet ring",
     reference: "Haggai 2:23",
   },
   {
-    question: "Why is Zerubbabel given the signet-ring image?",
+    question:
+      "What reason does the LORD give for making Zerubbabel like a signet ring?",
     options: [
-      "Because God has chosen him",
-      "Because he is high priest",
-      "Because Darius appointed him king",
-      "Because he rebuilt Jerusalem alone",
+      "He has chosen him",
+      "He is governor of Judah",
+      "He rebuilt the temple",
+      "He is descended from David",
     ],
-    answer: "Because God has chosen him",
+    answer: "He has chosen him",
     reference: "Haggai 2:23",
   },
-
   {
-    question: "What was the people's main misplaced priority at the beginning of Haggai?",
+    question:
+      "Which sequence correctly follows the dates of the four main dated stages in Haggai?",
     options: [
-      "Improving their own houses while neglecting God's house",
-      "Building the temple before their homes",
-      "Preparing for war instead of farming",
-      "Traveling instead of worshiping",
+      "Sixth month first day; sixth month twenty-fourth day; seventh month twenty-first day; ninth month twenty-fourth day",
+      "Sixth month first day; seventh month twenty-first day; sixth month twenty-fourth day; ninth month twenty-fourth day",
+      "Sixth month twenty-fourth day; sixth month first day; seventh month twenty-first day; ninth month twenty-fourth day",
+      "Sixth month first day; seventh month twenty-fourth day; ninth month twenty-first day; ninth month twenty-fourth day",
     ],
-    answer: "Improving their own houses while neglecting God's house",
-    reference: "Haggai 1:2-4",
+    answer:
+      "Sixth month first day; sixth month twenty-fourth day; seventh month twenty-first day; ninth month twenty-fourth day",
+    reference: "Haggai 1:1, 15; 2:1, 10",
   },
   {
-    question: "What connection does Haggai make between spiritual neglect and economic frustration?",
+    question:
+      "Which sequence correctly describes the people's economic frustration before rebuilding began?",
     options: [
-      "Their neglect of God's house accompanied poor results from their labor",
-      "Their poverty was caused only by foreign taxes",
-      "Their crops failed because they lacked skill",
-      "Their wealth increased despite disobedience",
+      "They sowed much but harvested little, ate without enough, drank without satisfaction, wore clothes without warmth, and earned wages for a bag with holes",
+      "They planted vineyards without wine, sowed grain without harvest, lost livestock, and lived without houses",
+      "They harvested much but lost it to enemies, drank no wine, lacked clothes, and paid heavy taxes",
+      "They sowed little, harvested nothing, went hungry, lost their clothes, and had no wages",
     ],
-    answer: "Their neglect of God's house accompanied poor results from their labor",
-    reference: "Haggai 1:5-11",
+    answer:
+      "They sowed much but harvested little, ate without enough, drank without satisfaction, wore clothes without warmth, and earned wages for a bag with holes",
+    reference: "Haggai 1:6",
   },
   {
-    question: "What changed after the people heard Haggai's first message?",
+    question:
+      "Which sequence correctly describes God's command for reversing the neglect of His house?",
     options: [
-      "They obeyed and began rebuilding",
-      "They fled Jerusalem",
-      "They replaced Zerubbabel",
-      "They stopped farming",
+      "Go up into the mountains, bring down timber, and build the house",
+      "Gather stones, cut cedar, and rebuild the altar",
+      "Go to Lebanon, bring cedar, and rebuild the temple",
+      "Gather the people, collect silver, and lay the foundation",
     ],
-    answer: "They obeyed and began rebuilding",
+    answer:
+      "Go up into the mountains, bring down timber, and build the house",
+    reference: "Haggai 1:8",
+  },
+  {
+    question:
+      "Which combination correctly explains the drought announced in Haggai's first chapter?",
+    options: [
+      "The heavens withheld dew, the earth withheld crops, and drought struck land, mountains, produce, people, livestock, and labor",
+      "Rain stopped, rivers dried, livestock died, and vineyards burned",
+      "Locusts destroyed crops while drought struck only the mountains",
+      "The earth withheld grain while enemies seized wine and oil",
+    ],
+    answer:
+      "The heavens withheld dew, the earth withheld crops, and drought struck land, mountains, produce, people, livestock, and labor",
+    reference: "Haggai 1:10-11",
+  },
+  {
+    question:
+      "Which sequence correctly follows the people's response to Haggai's first message?",
+    options: [
+      "They obeyed, feared the LORD, received the assurance 'I am with you,' had their spirits stirred, and began work",
+      "They feared, fasted, offered sacrifices, rebuilt the altar, and began work",
+      "They questioned Haggai, consulted the priests, received a sign, and began work",
+      "They obeyed, asked Darius for permission, gathered silver, and began work",
+    ],
+    answer:
+      "They obeyed, feared the LORD, received the assurance 'I am with you,' had their spirits stirred, and began work",
     reference: "Haggai 1:12-15",
   },
   {
-    question: "What role does God's presence play in Haggai's encouragement?",
+    question:
+      "Which three groups or individuals have their spirits specifically stirred by the LORD?",
     options: [
-      "It is the basis for courage and continued work",
-      "It removes the need to work",
-      "It guarantees immediate wealth",
-      "It replaces obedience",
+      "Zerubbabel, Joshua, and the whole remnant",
+      "Haggai, Zerubbabel, and Joshua",
+      "Joshua, the priests, and the Levites",
+      "Zerubbabel, the elders, and the builders",
     ],
-    answer: "It is the basis for courage and continued work",
-    reference: "Haggai 1:13, 2:4-5",
+    answer: "Zerubbabel, Joshua, and the whole remnant",
+    reference: "Haggai 1:14",
   },
   {
-    question: "Why should the people not despise the less impressive appearance of the new temple?",
+    question:
+      "Which sequence correctly follows God's encouragement regarding the apparently unimpressive temple?",
     options: [
-      "God promises its later glory will exceed the former glory",
-      "It will immediately look exactly like Solomon's temple",
-      "Darius will cover it entirely with gold",
-      "Its size will double overnight",
+      "Be strong, work, I am with you, My Spirit remains among you, do not fear",
+      "Be strong, pray, remember Egypt, wait for My Spirit, do not fear",
+      "Work, be strong, rebuild the altar, seek My glory, do not fear",
+      "Do not fear, be strong, gather silver, work, wait for glory",
     ],
-    answer: "God promises its later glory will exceed the former glory",
-    reference: "Haggai 2:3-9",
-  },
-  {
-    question: "What does God's ownership of silver and gold emphasize?",
-    options: [
-      "He is not limited by the people's material resources",
-      "The people should stop giving",
-      "Only gold can honor God",
-      "Persia owns the temple wealth",
-    ],
-    answer: "He is not limited by the people's material resources",
-    reference: "Haggai 2:8",
-  },
-  {
-    question: "What principle is illustrated by Haggai's questions to the priests?",
-    options: [
-      "Uncleanness spreads more readily than holiness through ordinary contact",
-      "Holiness spreads automatically to everything nearby",
-      "Ritual purity has no significance",
-      "Only priests can become unclean",
-    ],
-    answer: "Uncleanness spreads more readily than holiness through ordinary contact",
-    reference: "Haggai 2:11-14",
-  },
-  {
-    question: "What change does God announce after calling the people to reconsider their past hardship?",
-    options: [
-      "From that day onward He will bless them",
-      "He will end the rebuilding",
-      "He will send another drought",
-      "He will return them to Babylon",
-    ],
-    answer: "From that day onward He will bless them",
-    reference: "Haggai 2:15-19",
-  },
-  {
-    question: "What does the final promise to Zerubbabel suggest about his significance?",
-    options: [
-      "God has specially chosen him for His purposes",
-      "He will replace Joshua as priest",
-      "He will become king of Persia",
-      "He will conquer every nation personally",
-    ],
-    answer: "God has specially chosen him for His purposes",
-    reference: "Haggai 2:23",
-  },
-  {
-    question: "Which theme appears repeatedly throughout Haggai?",
-    options: [
-      "Carefully examine your priorities and respond obediently to God",
-      "Escape from Judah",
-      "Depend on foreign kings",
-      "Avoid rebuilding until prosperity returns",
-    ],
-    answer: "Carefully examine your priorities and respond obediently to God",
-    reference: "Haggai 1:5,7, 2:15,18",
-  },
-  {
-    question: "What contrast best describes the beginning and later part of Haggai?",
-    options: [
-      "Neglect and frustration give way to obedience, rebuilding, and promised blessing",
-      "Prosperity gives way to exile",
-      "Peace gives way to war",
-      "Temple completion gives way to abandonment",
-    ],
-    answer: "Neglect and frustration give way to obedience, rebuilding, and promised blessing",
-    reference: "Haggai 1:2-15, 2:19",
-  },
-  {
-    question: "What does the command to 'be strong and work' show about God's encouragement?",
-    options: [
-      "Divine presence supports active obedience rather than passivity",
-      "Faith removes the need for action",
-      "Only leaders are responsible for rebuilding",
-      "Human effort alone guarantees success",
-    ],
-    answer: "Divine presence supports active obedience rather than passivity",
+    answer:
+      "Be strong, work, I am with you, My Spirit remains among you, do not fear",
     reference: "Haggai 2:4-5",
   },
   {
-    question: "What larger picture is presented by God's promise to shake the nations?",
+    question:
+      "Which sequence correctly identifies those explicitly told to be strong?",
     options: [
-      "God rules beyond Judah and can overturn international powers",
-      "Persia controls all future events",
-      "Judah must conquer the nations itself",
-      "The temple has no connection to the nations",
+      "Zerubbabel, Joshua, and all the people of the land",
+      "Joshua, Haggai, and the priests",
+      "Zerubbabel, Haggai, and all the builders",
+      "The priests, Levites, and elders",
     ],
-    answer: "God rules beyond Judah and can overturn international powers",
-    reference: "Haggai 2:6-7,21-22",
+    answer: "Zerubbabel, Joshua, and all the people of the land",
+    reference: "Haggai 2:4",
   },
   {
-    question: "Which sequence best summarizes the book of Haggai?",
+    question:
+      "Which sequence correctly describes the scope of the coming shaking before God's house is filled with glory?",
     options: [
-      "Rebuke for neglect, obedient rebuilding, encouragement, promised glory, holiness lesson, blessing, and promise to Zerubbabel",
-      "Creation, flood, covenant, exodus, conquest",
-      "Exile, warfare, monarchy, temple destruction, famine",
-      "Calling, flight, storm, repentance, restoration",
+      "Heavens, earth, sea, dry land, and all nations",
+      "Earth, mountains, rivers, kingdoms, and Judah",
+      "Heavens, Jerusalem, Babylon, sea, and nations",
+      "Sea, rivers, mountains, valleys, and kingdoms",
     ],
-    answer: "Rebuke for neglect, obedient rebuilding, encouragement, promised glory, holiness lesson, blessing, and promise to Zerubbabel",
-    reference: "Haggai 1-2",
+    answer: "Heavens, earth, sea, dry land, and all nations",
+    reference: "Haggai 2:6-7",
+  },
+  {
+    question:
+      "Which statement correctly connects the nations' treasures, God's ownership, and the temple's future glory?",
+    options: [
+      "The nations' treasures will come, silver and gold belong to the LORD, and the latter glory of the house will exceed the former",
+      "Judah will seize foreign gold, use it to rebuild the temple, and equal Solomon's glory",
+      "Persia will provide silver and gold so that the temple becomes richer than Solomon's",
+      "The nations will bring sacrifices because Judah owns their silver and gold",
+    ],
+    answer:
+      "The nations' treasures will come, silver and gold belong to the LORD, and the latter glory of the house will exceed the former",
+    reference: "Haggai 2:7-9",
+  },
+  {
+    question:
+      "Which contrast is established by the priests' answers concerning ritual holiness and uncleanness?",
+    options: [
+      "Holiness is not transferred indirectly by the garment, but uncleanness from corpse contact is transmitted by touch",
+      "Both holiness and uncleanness transfer equally by touch",
+      "Holiness transfers by touch while uncleanness does not",
+      "Neither holiness nor uncleanness can affect food",
+    ],
+    answer:
+      "Holiness is not transferred indirectly by the garment, but uncleanness from corpse contact is transmitted by touch",
+    reference: "Haggai 2:12-13",
+  },
+  {
+    question:
+      "Which foods are included in the priests' first ruling concerning contact with a garment carrying holy meat?",
+    options: [
+      "Bread, stew, wine, olive oil, and other food",
+      "Bread, meat, grain, figs, and wine",
+      "Wine, grain, oil, meat, and fruit",
+      "Bread, fish, wine, oil, and vegetables",
+    ],
+    answer: "Bread, stew, wine, olive oil, and other food",
+    reference: "Haggai 2:12",
+  },
+  {
+    question:
+      "Which numerical contrast correctly describes the shortages remembered in the ninth-month message?",
+    options: [
+      "Expected twenty measures but found ten; expected fifty from the wine vat but found twenty",
+      "Expected twenty but found five; expected fifty but found ten",
+      "Expected fifty but found twenty; expected twenty but found fifteen",
+      "Expected thirty but found ten; expected fifty but found twenty-five",
+    ],
+    answer:
+      "Expected twenty measures but found ten; expected fifty from the wine vat but found twenty",
+    reference: "Haggai 2:16",
+  },
+  {
+    question:
+      "Which sequence correctly identifies God's previous agricultural judgments?",
+    options: [
+      "Blight, mildew, and hail",
+      "Drought, mildew, and locusts",
+      "Hail, famine, and fire",
+      "Blight, plague, and drought",
+    ],
+    answer: "Blight, mildew, and hail",
+    reference: "Haggai 2:17",
+  },
+  {
+    question:
+      "Which set of plants is mentioned immediately before God's promise to bless from that day onward?",
+    options: [
+      "Vine, fig tree, pomegranate, and olive tree",
+      "Fig tree, almond tree, vine, and olive tree",
+      "Vine, cedar, pomegranate, and date palm",
+      "Olive tree, fig tree, barley, and wheat",
+    ],
+    answer: "Vine, fig tree, pomegranate, and olive tree",
+    reference: "Haggai 2:19",
+  },
+  {
+    question:
+      "Which sequence correctly describes the political and military upheaval announced to Zerubbabel?",
+    options: [
+      "Royal thrones overturned, foreign kingdoms shattered, chariots and drivers overthrown, horses and riders fall, warriors fall by one another's swords",
+      "Foreign kings flee, armies surrender, chariots burn, horses are captured, and soldiers go into exile",
+      "Royal thrones collapse, Babylon burns, chariots are seized, and Judah's army conquers",
+      "Kingdoms tremble, soldiers flee, horses die, and foreign kings surrender",
+    ],
+    answer:
+      "Royal thrones overturned, foreign kingdoms shattered, chariots and drivers overthrown, horses and riders fall, warriors fall by one another's swords",
+    reference: "Haggai 2:22",
+  },
+  {
+    question:
+      "Which three descriptions are applied to Zerubbabel in Haggai's final message?",
+    options: [
+      "Governor of Judah, servant of the LORD, and chosen like a signet ring",
+      "High priest, servant of the LORD, and anointed king",
+      "Prince of Judah, prophet, and signet ring",
+      "Governor, priest, and builder of the temple",
+    ],
+    answer:
+      "Governor of Judah, servant of the LORD, and chosen like a signet ring",
+    reference: "Haggai 2:21, 23",
+  },
+  {
+    question:
+      "Which date in Haggai carries both a message about ritual uncleanness and a separate promise concerning Zerubbabel?",
+    options: [
+      "The twenty-fourth day of the ninth month",
+      "The twenty-first day of the seventh month",
+      "The twenty-fourth day of the sixth month",
+      "The first day of the sixth month",
+    ],
+    answer: "The twenty-fourth day of the ninth month",
+    reference: "Haggai 2:10, 20",
+  },
+  {
+    question:
+      "Which contrast best summarizes the movement between Haggai's first and later messages?",
+    options: [
+      "Neglect of God's house brought frustration and drought, while renewed obedience was followed by the promise of blessing",
+      "Foreign invasion brought poverty, while military victory brought prosperity",
+      "Temple sacrifices brought drought, while fasting brought blessing",
+      "Failure to obey Darius caused famine, while royal approval brought prosperity",
+    ],
+    answer:
+      "Neglect of God's house brought frustration and drought, while renewed obedience was followed by the promise of blessing",
+    reference: "Haggai 1:5-11; 2:18-19",
+  },
+  {
+    question:
+      "Which statement most accurately links the people's priorities to their agricultural hardship?",
+    options: [
+      "They pursued their own houses while God's house lay ruined, so God withheld dew and crops and called for drought",
+      "They refused to farm while rebuilding their houses, so their crops failed naturally",
+      "They spent their harvest on luxury and therefore had nothing for the temple",
+      "They neglected sacrifices, so foreign armies destroyed their fields",
+    ],
+    answer:
+      "They pursued their own houses while God's house lay ruined, so God withheld dew and crops and called for drought",
+    reference: "Haggai 1:4, 9-11",
+  },
+  {
+    question:
+      "Which statement accurately distinguishes the two temple-related perspectives in Haggai's second chapter?",
+    options: [
+      "Some remembered the former temple as more glorious, but God promised the glory of the present house would ultimately be greater",
+      "No one remembered the former temple, but God promised the new temple would equal it",
+      "The new temple already exceeded the former one, but the people failed to recognize it",
+      "The former temple was smaller, but God promised the new one would contain more gold",
+    ],
+    answer:
+      "Some remembered the former temple as more glorious, but God promised the glory of the present house would ultimately be greater",
+    reference: "Haggai 2:3, 9",
+  },
+  {
+    question:
+      "Which progression most accurately follows the ninth-month message?",
+    options: [
+      "Priests answer questions about holiness and uncleanness, the people are declared unclean, past shortages are recalled, previous judgments are mentioned, and blessing is promised",
+      "The people fast, priests purify the temple, shortages end, and blessing immediately follows",
+      "The priests confess sin, sacrifices resume, crops return, and Zerubbabel is crowned",
+      "The temple is completed, priests are questioned, foreign nations bring treasure, and peace is granted",
+    ],
+    answer:
+      "Priests answer questions about holiness and uncleanness, the people are declared unclean, past shortages are recalled, previous judgments are mentioned, and blessing is promised",
+    reference: "Haggai 2:10-19",
+  },
+  {
+    question:
+      "Which progression most accurately summarizes Haggai's entire book?",
+    options: [
+      "Temple neglect is rebuked, the people obey and rebuild, discouragement is answered with promised glory, impurity and past hardship are recalled, blessing and Zerubbabel's future significance are promised",
+      "Foreign invasion begins, Judah repents, the temple is destroyed, Zerubbabel becomes king, and Persia falls",
+      "The priests rebel, Haggai condemns them, the people leave Jerusalem, and the temple is rebuilt by foreigners",
+      "Darius orders construction, the people resist, Haggai performs signs, and Judah defeats its enemies",
+    ],
+    answer:
+      "Temple neglect is rebuked, the people obey and rebuild, discouragement is answered with promised glory, impurity and past hardship are recalled, blessing and Zerubbabel's future significance are promised",
+    reference: "Haggai 1:1-15; 2:1-23",
   },
 ];
 

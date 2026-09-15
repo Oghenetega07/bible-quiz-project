@@ -1,1251 +1,1591 @@
 const exodusQuestions = [
   {
-    question: "What happened to the Israelites in Egypt after Joseph and his generation had died?",
-    options: [
-      "They multiplied greatly",
-      "They returned to Canaan",
-      "They became rulers",
-      "They stopped having children"
-    ],
-    answer: "They multiplied greatly",
-    reference: "Exodus 1:6-7",
+    question:
+      "Which two Hebrew midwives are specifically named when Pharaoh ordered the killing of newborn Hebrew boys?",
+    options: ["Shiphrah and Puah", "Miriam and Puah", "Shiphrah and Jochebed", "Puah and Zipporah"],
+    answer: "Shiphrah and Puah",
+    reference: "Exodus 1:15",
   },
   {
-    question: "Why did the new king of Egypt begin to fear the Israelites?",
+    question:
+      "What reason did the Hebrew midwives give Pharaoh for allowing the male children to live?",
     options: [
-      "They had become very numerous and might join Egypt's enemies",
-      "They refused to pay taxes",
-      "They were building their own army",
-      "They wanted Pharaoh's throne"
+      "The Hebrew women were vigorous and gave birth before the midwives arrived",
+      "The Hebrew families hid the newborn boys",
+      "The midwives had received no notice of the births",
+      "The Egyptian guards refused to enter Hebrew homes",
     ],
-    answer: "They had become very numerous and might join Egypt's enemies",
-    reference: "Exodus 1:8-10",
+    answer:
+      "The Hebrew women were vigorous and gave birth before the midwives arrived",
+    reference: "Exodus 1:18-19",
   },
   {
-    question: "What did Pharaoh first command the Hebrew midwives to do with newborn Hebrew boys?",
+    question:
+      "What material was used to coat the basket in which Moses was placed among the reeds?",
     options: [
-      "Kill them",
-      "Send them to Canaan",
-      "Hide them",
-      "Give them to Egyptian families"
+      "Bitumen and pitch",
+      "Clay and resin",
+      "Tar and oil",
+      "Pitch and cedar resin",
     ],
-    answer: "Kill them",
-    reference: "Exodus 1:15-16",
-  },
-  {
-    question: "Why did the Hebrew midwives refuse to obey Pharaoh's command?",
-    options: [
-      "They feared God",
-      "They feared Moses",
-      "They wanted to protect Egypt",
-      "They were commanded by Pharaoh's daughter"
-    ],
-    answer: "They feared God",
-    reference: "Exodus 1:17",
-  },
-  {
-    question: "What did Moses' mother use to protect him when she could no longer hide him?",
-    options: [
-      "A basket coated with bitumen and pitch",
-      "A wooden box covered with cloth",
-      "A clay pot",
-      "A tent made from animal skins"
-    ],
-    answer: "A basket coated with bitumen and pitch",
+    answer: "Bitumen and pitch",
     reference: "Exodus 2:3",
   },
   {
-    question: "Where did Moses' mother place the basket containing him?",
+    question:
+      "Where did Pharaoh's daughter discover the basket containing Moses?",
     options: [
-      "Among the reeds by the bank of the Nile",
-      "Inside Pharaoh's palace",
-      "Under a bridge",
-      "Inside a cave"
+      "Among the reeds along the bank of the Nile",
+      "At the mouth of a canal",
+      "Near Pharaoh's palace garden",
+      "Beside a well outside the city",
     ],
-    answer: "Among the reeds by the bank of the Nile",
-    reference: "Exodus 2:3",
+    answer: "Among the reeds along the bank of the Nile",
+    reference: "Exodus 2:5",
   },
   {
-    question: "Who watched from a distance to see what would happen to Moses?",
-    options: [
-      "His sister",
-      "His mother",
-      "Aaron",
-      "Pharaoh's daughter"
-    ],
-    answer: "His sister",
-    reference: "Exodus 2:4",
+    question:
+      "What name did Moses give his first son because he said he had become a foreigner in a foreign land?",
+    options: ["Gershom", "Eliezer", "Nadab", "Hur"],
+    answer: "Gershom",
+    reference: "Exodus 2:22",
   },
   {
-    question: "What did Pharaoh's daughter recognize when she opened the basket?",
-    options: [
-      "A Hebrew baby",
-      "An Egyptian child",
-      "A servant's child",
-      "A royal child"
-    ],
-    answer: "A Hebrew baby",
-    reference: "Exodus 2:5-6",
-  },
-  {
-    question: "Who eventually nursed Moses after Pharaoh's daughter found him?",
-    options: [
-      "His own mother",
-      "Pharaoh's daughter",
-      "An Egyptian nurse",
-      "Miriam"
-    ],
-    answer: "His own mother",
-    reference: "Exodus 2:7-9",
-  },
-  {
-    question: "Why was Moses given his name?",
-    options: [
-      "Because he was drawn out of the water",
-      "Because he was born in Egypt",
-      "Because his mother prayed for him",
-      "Because Pharaoh named him after the Nile"
-    ],
-    answer: "Because he was drawn out of the water",
-    reference: "Exodus 2:10",
-  },
-  {
-    question: "What caused Moses to flee from Egypt?",
-    options: [
-      "He killed an Egyptian who was beating a Hebrew",
-      "Pharaoh ordered his arrest for refusing to work",
-      "He stole from Pharaoh",
-      "He led the Israelites in rebellion"
-    ],
-    answer: "He killed an Egyptian who was beating a Hebrew",
-    reference: "Exodus 2:11-15",
-  },
-  {
-    question: "Where did Moses flee after leaving Egypt?",
-    options: ["Midian", "Canaan", "Moab", "Edom"],
-    answer: "Midian",
-    reference: "Exodus 2:15",
-  },
-  {
-    question: "What was Moses doing when he encountered the burning bush?",
-    options: [
-      "Keeping the flock of Jethro",
-      "Traveling to Egypt",
-      "Searching for his brother",
-      "Building a house"
-    ],
-    answer: "Keeping the flock of Jethro",
+    question:
+      "At what mountain was Moses tending the flock of Jethro when he came to the burning bush?",
+    options: ["Horeb", "Sinai", "Nebo", "Carmel"],
+    answer: "Horeb",
     reference: "Exodus 3:1",
   },
   {
-    question: "Where did Moses encounter the burning bush?",
-    options: [
-      "Horeb, the mountain of God",
-      "Mount Sinai after leaving Egypt",
-      "The Jordan Valley",
-      "The plains of Moab"
-    ],
-    answer: "Horeb, the mountain of God",
-    reference: "Exodus 3:1-2",
-  },
-  {
-    question: "What made the burning bush unusual?",
-    options: [
-      "It was burning but was not consumed",
-      "It produced water instead of smoke",
-      "It moved across the mountain",
-      "It became a tree"
-    ],
-    answer: "It was burning but was not consumed",
-    reference: "Exodus 3:2-3",
-  },
-  {
-    question: "What did God tell Moses to remove because the place where he stood was holy?",
-    options: ["His sandals", "His robe", "His staff", "His belt"],
+    question:
+      "What did God tell Moses to remove because the place where he stood was holy ground?",
+    options: ["His sandals", "His cloak", "His staff", "His head covering"],
     answer: "His sandals",
     reference: "Exodus 3:5",
   },
   {
-    question: "What name did God reveal to Moses when Moses asked what he should tell Israel about who sent him?",
+    question:
+      "Which three patriarchs did God identify Himself with when speaking to Moses from the bush?",
     options: [
-      "I AM WHO I AM",
-      "The God of Moses",
-      "The God of Egypt",
-      "The Lord of Pharaoh"
+      "Abraham, Isaac, and Jacob",
+      "Abraham, Jacob, and Joseph",
+      "Isaac, Jacob, and Levi",
+      "Abraham, Isaac, and Joseph",
     ],
-    answer: "I AM WHO I AM",
-    reference: "Exodus 3:13-14",
+    answer: "Abraham, Isaac, and Jacob",
+    reference: "Exodus 3:6",
   },
   {
-    question: "What was Moses' first major concern when God called him to deliver Israel?",
+    question:
+      "What sign did God say would confirm to Moses that He had sent him?",
     options: [
-      "He questioned whether the Israelites would believe him",
-      "He wanted to become Pharaoh",
-      "He did not know where Egypt was",
-      "He refused to return to Midian"
+      "After bringing the people out of Egypt, they would worship God on that mountain",
+      "The Nile would turn to blood before Moses returned",
+      "Aaron would meet Moses at the mountain",
+      "Pharaoh would release Israel after the first sign",
     ],
-    answer: "He questioned whether the Israelites would believe him",
-    reference: "Exodus 4:1",
+    answer:
+      "After bringing the people out of Egypt, they would worship God on that mountain",
+    reference: "Exodus 3:12",
   },
   {
-    question: "What happened when Moses threw his staff onto the ground?",
+    question:
+      "What did God instruct the Israelite women to ask from their Egyptian neighbors before leaving Egypt?",
     options: [
-      "It became a serpent",
-      "It caught fire",
-      "It broke apart",
-      "It became water"
+      "Articles of silver and gold and clothing",
+      "Weapons and livestock",
+      "Bread, wine, and grain",
+      "Silver, bronze, and tents",
     ],
-    answer: "It became a serpent",
-    reference: "Exodus 4:2-4",
+    answer: "Articles of silver and gold and clothing",
+    reference: "Exodus 3:21-22",
   },
   {
-    question: "What happened to Moses' hand when he placed it inside his cloak as God commanded?",
-    options: [
-      "It became leprous",
-      "It became burned",
-      "It became invisible",
-      "It became paralyzed"
-    ],
-    answer: "It became leprous",
-    reference: "Exodus 4:6-7",
+    question:
+      "What did Moses' staff become when he threw it on the ground as a sign?",
+    options: ["A serpent", "A crocodile", "A rod of fire", "A branch"],
+    answer: "A serpent",
+    reference: "Exodus 4:2-3",
   },
   {
-    question: "Who did God appoint to speak for Moses because Moses said he was slow of speech?",
-    options: ["Aaron", "Miriam", "Joshua", "Hur"],
+    question:
+      "What happened when Moses put his hand inside his cloak as a second sign?",
+    options: [
+      "It became leprous like snow",
+      "It became paralyzed",
+      "It turned red like blood",
+      "It became covered with boils",
+    ],
+    answer: "It became leprous like snow",
+    reference: "Exodus 4:6",
+  },
+  {
+    question:
+      "What final sign was Moses told to perform if the people did not believe the first two signs?",
+    options: [
+      "Pour water from the Nile on dry ground, where it would become blood",
+      "Strike the ground so that dust became insects",
+      "Call fire from heaven",
+      "Turn his staff into a serpent before them",
+    ],
+    answer:
+      "Pour water from the Nile on dry ground, where it would become blood",
+    reference: "Exodus 4:9",
+  },
+  {
+    question:
+      "What reason did Moses give for resisting God's call after being given the signs?",
+    options: [
+      "He was slow of speech and tongue",
+      "He feared Pharaoh would recognize him",
+      "He had forgotten the Hebrew language",
+      "He had no authority over Israel",
+    ],
+    answer: "He was slow of speech and tongue",
+    reference: "Exodus 4:10",
+  },
+  {
+    question:
+      "Who did God appoint to speak on Moses' behalf?",
+    options: ["Aaron", "Hur", "Joshua", "Jethro"],
     answer: "Aaron",
-    reference: "Exodus 4:10-16",
+    reference: "Exodus 4:14-16",
   },
   {
-    question: "What did Moses carry in his hand when he returned toward Egypt?",
-    options: ["The staff of God", "A sword", "A scroll", "A rod of Aaron"],
-    answer: "The staff of God",
-    reference: "Exodus 4:20",
-  },
-  {
-    question: "What did Aaron do when he met Moses in the wilderness?",
-    options: [
-      "He kissed him",
-      "He challenged him",
-      "He gave him a new staff",
-      "He returned to Egypt alone"
-    ],
-    answer: "He kissed him",
+    question:
+      "Where did Aaron meet Moses after God told him to go into the wilderness?",
+    options: ["At the mountain of God", "At Midian", "At Goshen", "At the Nile"],
+    answer: "At the mountain of God",
     reference: "Exodus 4:27",
   },
   {
-    question: "What did Moses and Aaron tell Pharaoh that the Lord required Israel to do?",
+    question:
+      "What phrase did Pharaoh use when refusing Moses' first request to let Israel go?",
     options: [
-      "Go into the wilderness to hold a feast to Him",
-      "Build a palace",
-      "Fight against Egypt",
-      "Leave Egypt permanently without warning"
+      "Who is the LORD, that I should obey His voice?",
+      "Why should Egypt lose its servants?",
+      "Your God has no power in Egypt",
+      "I will not allow the Hebrews to sacrifice",
     ],
-    answer: "Go into the wilderness to hold a feast to Him",
-    reference: "Exodus 5:1",
+    answer: "Who is the LORD, that I should obey His voice?",
+    reference: "Exodus 5:2",
   },
   {
-    question: "How did Pharaoh respond to Moses and Aaron's request?",
+    question:
+      "What change did Pharaoh make to the Israelites' brickmaking after Moses first confronted him?",
     options: [
-      "He refused and increased the Israelites' burden",
-      "He immediately released Israel",
-      "He asked Moses to become his adviser",
-      "He allowed only the women to leave"
+      "They had to gather their own straw while maintaining the same quota",
+      "They had to make twice as many bricks",
+      "They lost all access to clay",
+      "They were forced to build at night",
     ],
-    answer: "He refused and increased the Israelites' burden",
-    reference: "Exodus 5:2-9",
+    answer:
+      "They had to gather their own straw while maintaining the same quota",
+    reference: "Exodus 5:7-8",
   },
   {
-    question: "What material did Pharaoh stop providing for the Israelites' brickmaking?",
-    options: ["Straw", "Clay", "Water", "Wood"],
-    answer: "Straw",
-    reference: "Exodus 5:7",
-  },
-  {
-    question: "What did Pharaoh require the Israelites to maintain even after removing their straw supply?",
+    question:
+      "Which three ancestors did God say had known Him as God Almighty, though His name the LORD had not been made known to them in the same way?",
     options: [
-      "The same number of bricks",
-      "The same number of workers",
-      "The same amount of straw",
-      "The same number of buildings"
+      "Abraham, Isaac, and Jacob",
+      "Abraham, Jacob, and Joseph",
+      "Isaac, Levi, and Joseph",
+      "Noah, Abraham, and Isaac",
     ],
-    answer: "The same number of bricks",
-    reference: "Exodus 5:8",
-  },
-  {
-    question: "What did God promise Moses concerning Pharaoh?",
-    options: [
-      "Pharaoh would eventually let Israel go",
-      "Pharaoh would immediately become righteous",
-      "Pharaoh would leave Egypt",
-      "Pharaoh would appoint Moses as governor"
-    ],
-    answer: "Pharaoh would eventually let Israel go",
-    reference: "Exodus 6:1",
-  },
-  {
-    question: "Which covenant name did God use when speaking of His relationship with Abraham, Isaac, and Jacob?",
-    options: ["God Almighty", "I AM", "Lord of Hosts", "King of Israel"],
-    answer: "God Almighty",
+    answer: "Abraham, Isaac, and Jacob",
     reference: "Exodus 6:2-3",
   },
   {
-    question: "What did God promise to do for Israel when He brought them out of Egypt?",
+    question:
+      "Which sons of Levi are named in the genealogy leading to Moses and Aaron?",
     options: [
-      "Take them as His people",
-      "Make them rulers over Egypt",
-      "Give them Pharaoh's palace",
-      "Make every Israelite wealthy"
+      "Gershon, Kohath, and Merari",
+      "Kohath, Amram, and Izhar",
+      "Gershon, Aaron, and Merari",
+      "Levi, Kohath, and Amram",
     ],
-    answer: "Take them as His people",
-    reference: "Exodus 6:6-8",
+    answer: "Gershon, Kohath, and Merari",
+    reference: "Exodus 6:16",
   },
   {
-    question: "What happened when Aaron's staff was thrown down before Pharaoh?",
+    question:
+      "How old were Moses and Aaron when they spoke to Pharaoh?",
     options: [
-      "It became a serpent",
-      "It became a tree",
-      "It turned to gold",
-      "It disappeared"
+      "Moses was 80 and Aaron was 83",
+      "Moses was 83 and Aaron was 80",
+      "Both were 80",
+      "Moses was 75 and Aaron was 78",
     ],
-    answer: "It became a serpent",
-    reference: "Exodus 7:8-10",
+    answer: "Moses was 80 and Aaron was 83",
+    reference: "Exodus 7:7",
   },
   {
-    question: "What happened when Aaron's serpent swallowed the serpents produced by the Egyptian magicians?",
+    question:
+      "What happened to Aaron's staff after the Egyptian magicians also turned their staffs into serpents?",
     options: [
-      "Aaron's staff swallowed theirs",
-      "All the serpents disappeared",
-      "Pharaoh's magicians surrendered",
-      "The staff became water"
+      "Aaron's staff swallowed their staffs",
+      "Aaron's staff returned to wood first",
+      "The Egyptian staffs became dust",
+      "Aaron's staff split into two serpents",
     ],
-    answer: "Aaron's staff swallowed theirs",
+    answer: "Aaron's staff swallowed their staffs",
     reference: "Exodus 7:10-12",
   },
   {
-    question: "What was the first plague sent upon Egypt?",
+    question:
+      "What happened to the fish in the Nile during the first plague?",
     options: [
-      "Water turned to blood",
-      "Frogs",
-      "Gnats",
-      "Darkness"
+      "They died, and the river stank",
+      "They swam into the canals",
+      "They became unclean but remained alive",
+      "They disappeared from the river",
     ],
-    answer: "Water turned to blood",
-    reference: "Exodus 7:14-21",
+    answer: "They died, and the river stank",
+    reference: "Exodus 7:20-21",
   },
   {
-    question: "What happened to the fish in the Nile during the first plague?",
-    options: [
-      "They died",
-      "They multiplied",
-      "They escaped into the desert",
-      "They became frogs"
-    ],
-    answer: "They died",
-    reference: "Exodus 7:18",
+    question:
+      "For how many days did the Nile remain affected before the next plague account begins?",
+    options: ["Seven days", "Three days", "Ten days", "Forty days"],
+    answer: "Seven days",
+    reference: "Exodus 7:25",
   },
   {
-    question: "What was the second plague?",
-    options: ["Frogs", "Locusts", "Boils", "Flies"],
-    answer: "Frogs",
-    reference: "Exodus 8:1-6",
-  },
-  {
-    question: "Where did the frogs enter during the second plague?",
+    question:
+      "Where did the frogs enter during the second plague?",
     options: [
-      "Houses, bedrooms, and ovens",
-      "Only the Nile",
-      "Only Pharaoh's palace",
-      "Only the fields"
+      "Houses, bedrooms, beds, ovens, and kneading bowls",
+      "Only fields and wells",
+      "Palaces and temples only",
+      "The Nile and irrigation canals only",
     ],
-    answer: "Houses, bedrooms, and ovens",
+    answer: "Houses, bedrooms, beds, ovens, and kneading bowls",
     reference: "Exodus 8:3",
   },
   {
-    question: "What did Pharaoh's magicians say when they could not reproduce the plague of gnats?",
+    question:
+      "What did Pharaoh ask Moses to do after the plague of frogs became severe?",
     options: [
-      "This is the finger of God",
-      "Moses has defeated us",
-      "Egypt must repent",
-      "The Nile has failed"
+      "Entreat the LORD to remove the frogs",
+      "Take Israel into the wilderness immediately",
+      "Remove the frogs by burning incense",
+      "Ask Aaron to stop using his staff",
     ],
-    answer: "This is the finger of God",
-    reference: "Exodus 8:16-19",
+    answer: "Entreat the LORD to remove the frogs",
+    reference: "Exodus 8:8",
   },
   {
-    question: "Which land was specifically protected from the plague of flies?",
-    options: ["Goshen", "Canaan", "Midian", "Moab"],
-    answer: "Goshen",
+    question:
+      "What did the Egyptian magicians say after failing to reproduce the plague involving dust?",
+    options: [
+      "This is the finger of God",
+      "The God of Israel is stronger than Ra",
+      "Moses has deceived Pharaoh",
+      "The Hebrews have hidden magic",
+    ],
+    answer: "This is the finger of God",
+    reference: "Exodus 8:18-19",
+  },
+  {
+    question:
+      "During which plague did God explicitly distinguish the land of Goshen so that the plague did not occur there?",
+    options: [
+      "The plague of flies",
+      "The plague of frogs",
+      "The plague of blood",
+      "The plague of darkness",
+    ],
+    answer: "The plague of flies",
     reference: "Exodus 8:22",
   },
   {
-    question: "What happened to Egypt's livestock during the plague sent against the animals?",
+    question:
+      "What restriction did Pharaoh first place on Israel when he agreed they could sacrifice?",
     options: [
-      "A great number died",
-      "They became diseased but survived",
-      "They were taken to Goshen",
-      "They were released into the wilderness"
+      "They must sacrifice within the land",
+      "They could go only one day's journey",
+      "Only the men could go",
+      "They could not take livestock",
     ],
-    answer: "A great number died",
-    reference: "Exodus 9:3-6",
+    answer: "They must sacrifice within the land",
+    reference: "Exodus 8:25",
   },
   {
-    question: "What did Moses and Aaron throw toward heaven to bring about the plague of boils?",
-    options: ["Handfuls of soot", "Dust", "Ashes from the altar", "Water"],
-    answer: "Handfuls of soot",
-    reference: "Exodus 9:8-10",
-  },
-  {
-    question: "What happened to the Egyptians who feared the word of the Lord before the hail came?",
+    question:
+      "Which animals are specifically named as being struck by the severe pestilence on Egyptian livestock?",
     options: [
-      "They brought their servants and livestock indoors",
-      "They fled to Canaan",
-      "They attacked Pharaoh",
-      "They hid in the Nile"
+      "Horses, donkeys, camels, cattle, and sheep",
+      "Cattle, goats, pigs, and horses",
+      "Camels, sheep, goats, and birds",
+      "Horses, cattle, oxen, and dogs",
     ],
-    answer: "They brought their servants and livestock indoors",
-    reference: "Exodus 9:19-20",
+    answer: "Horses, donkeys, camels, cattle, and sheep",
+    reference: "Exodus 9:3",
   },
   {
-    question: "What was unusual about the hailstorm in Egypt?",
+    question:
+      "What substance did Moses and Aaron throw toward heaven before the plague of boils?",
     options: [
-      "It was mixed with fire",
-      "It turned into water",
-      "It lasted for seven days",
-      "It fell only at night"
+      "Soot from a furnace",
+      "Dust from the ground",
+      "Ash from an altar",
+      "Powdered brick",
     ],
-    answer: "It was mixed with fire",
-    reference: "Exodus 9:23-24",
+    answer: "Soot from a furnace",
+    reference: "Exodus 9:8",
   },
   {
-    question: "What did the locusts consume?",
+    question:
+      "Why could the magicians not stand before Moses during the plague of boils?",
     options: [
-      "What was left of the plants after the hail",
-      "Only the grain stored in houses",
-      "Only the trees in Goshen",
-      "The livestock"
+      "The boils were on the magicians as well as all the Egyptians",
+      "They had fled from Pharaoh",
+      "They were struck blind",
+      "They had been imprisoned",
     ],
-    answer: "What was left of the plants after the hail",
-    reference: "Exodus 10:12-15",
+    answer:
+      "The boils were on the magicians as well as all the Egyptians",
+    reference: "Exodus 9:11",
   },
   {
-    question: "How did Pharaoh describe his sin after the plague of locusts?",
+    question:
+      "What crops were destroyed by the hail because they had already matured?",
     options: [
-      "I have sinned against the Lord your God and against you",
-      "I have sinned only against Egypt",
-      "I have done nothing wrong",
-      "I have sinned against Moses alone"
+      "Flax and barley",
+      "Wheat and spelt",
+      "Barley and wheat",
+      "Flax and spelt",
     ],
-    answer: "I have sinned against the Lord your God and against you",
-    reference: "Exodus 10:16",
+    answer: "Flax and barley",
+    reference: "Exodus 9:31",
   },
   {
-    question: "What was the ninth plague?",
-    options: ["Darkness", "Locusts", "Boils", "Hail"],
-    answer: "Darkness",
-    reference: "Exodus 10:21-22",
-  },
-  {
-    question: "How was the darkness in Egypt described?",
+    question:
+      "Which crops survived the hail because they had not yet grown up?",
     options: [
-      "A darkness that could be felt",
-      "A darkness lasting only one hour",
-      "A darkness caused by smoke",
-      "A darkness that covered Goshen too"
+      "Wheat and spelt",
+      "Barley and flax",
+      "Wheat and barley",
+      "Spelt and flax",
     ],
-    answer: "A darkness that could be felt",
-    reference: "Exodus 10:21",
+    answer: "Wheat and spelt",
+    reference: "Exodus 9:32",
   },
   {
-    question: "What did the Israelites have while Egypt was covered in darkness?",
-    options: ["Light", "Fire from heaven", "Torches from Pharaoh", "Sunlight from the desert"],
-    answer: "Light",
-    reference: "Exodus 10:23",
-  },
-  {
-    question: "What was Israel instructed to select for the Passover?",
+    question:
+      "From which direction did the wind blow that brought the locusts over Egypt?",
     options: [
-      "A male lamb or goat without blemish",
-      "A young bull without blemish",
-      "Two doves",
-      "A male calf"
+      "From the east",
+      "From the west",
+      "From the north",
+      "From the south",
     ],
-    answer: "A male lamb or goat without blemish",
-    reference: "Exodus 12:3-5",
+    answer: "From the east",
+    reference: "Exodus 10:13",
   },
   {
-    question: "On what kind of animal was the Passover blood placed?",
+    question:
+      "What wind removed the locusts from Egypt?",
     options: [
-      "The two doorposts and the lintel",
-      "The roof of the house",
-      "The floor",
-      "The altar outside the house"
+      "A strong west wind",
+      "A strong east wind",
+      "A north wind",
+      "A south wind",
     ],
-    answer: "The two doorposts and the lintel",
-    reference: "Exodus 12:7",
+    answer: "A strong west wind",
+    reference: "Exodus 10:19",
   },
   {
-    question: "What were the Israelites told to eat with the Passover lamb?",
+    question:
+      "How long did the plague of darkness last?",
+    options: ["Three days", "Seven days", "One day", "Ten days"],
+    answer: "Three days",
+    reference: "Exodus 10:22-23",
+  },
+  {
+    question:
+      "What limitation did Pharaoh place on Israel after the plague of darkness?",
+    options: [
+      "They could go, but their flocks and herds had to remain",
+      "Only the men could leave",
+      "They could go only one day's journey",
+      "They had to leave their children behind",
+    ],
+    answer:
+      "They could go, but their flocks and herds had to remain",
+    reference: "Exodus 10:24",
+  },
+  {
+    question:
+      "At approximately what time did Moses say the final plague would strike?",
+    options: ["About midnight", "At sunset", "At dawn", "At noon"],
+    answer: "About midnight",
+    reference: "Exodus 11:4",
+  },
+  {
+    question:
+      "What range of Egyptian firstborn did Moses say would die in the final plague?",
+    options: [
+      "From Pharaoh's firstborn to the firstborn of the female servant at the mill, including livestock",
+      "Only the firstborn sons of Egyptian households",
+      "From soldiers to priests, but not servants",
+      "Only firstborn males older than one year",
+    ],
+    answer:
+      "From Pharaoh's firstborn to the firstborn of the female servant at the mill, including livestock",
+    reference: "Exodus 11:5",
+  },
+  {
+    question:
+      "On which day of the month was each household to take a lamb for the Passover?",
+    options: [
+      "The tenth day",
+      "The first day",
+      "The fourteenth day",
+      "The seventh day",
+    ],
+    answer: "The tenth day",
+    reference: "Exodus 12:3",
+  },
+  {
+    question:
+      "On which day was the Passover lamb to be slaughtered?",
+    options: [
+      "The fourteenth day",
+      "The tenth day",
+      "The fifteenth day",
+      "The seventh day",
+    ],
+    answer: "The fourteenth day",
+    reference: "Exodus 12:6",
+  },
+  {
+    question:
+      "How was the Passover lamb to be prepared?",
+    options: [
+      "Roasted over fire, not boiled in water",
+      "Boiled with herbs",
+      "Baked in an oven",
+      "Roasted after being cut into pieces",
+    ],
+    answer: "Roasted over fire, not boiled in water",
+    reference: "Exodus 12:8-9",
+  },
+  {
+    question:
+      "With what was the Passover lamb to be eaten?",
     options: [
       "Unleavened bread and bitter herbs",
-      "Honey and fruit",
-      "Rice and herbs",
-      "Bread and wine"
+      "Leavened bread and herbs",
+      "Grain and wine",
+      "Unleavened bread and honey",
     ],
     answer: "Unleavened bread and bitter herbs",
     reference: "Exodus 12:8",
   },
   {
-    question: "What would happen when the Lord saw the blood on the houses of Israel?",
+    question:
+      "What were the Israelites to do with any Passover meat left until morning?",
     options: [
-      "He would pass over them",
-      "He would make the houses invisible",
-      "He would send angels inside",
-      "He would move the houses to Goshen"
+      "Burn it with fire",
+      "Bury it outside the camp",
+      "Give it to the Levites",
+      "Keep it for the next evening",
     ],
-    answer: "He would pass over them",
-    reference: "Exodus 12:13",
+    answer: "Burn it with fire",
+    reference: "Exodus 12:10",
   },
   {
-    question: "What happened to the firstborn of Egypt during the final plague?",
+    question:
+      "How were the Israelites instructed to eat the Passover meal?",
     options: [
-      "They died",
-      "They became servants",
-      "They fled Egypt",
-      "They became Israelites"
-    ],
-    answer: "They died",
-    reference: "Exodus 12:29-30",
-  },
-  {
-    question: "What did the Egyptians urge the Israelites to do after the death of the firstborn?",
-    options: [
-      "Leave the land quickly",
-      "Stay and rebuild Egypt",
-      "Fight Pharaoh",
-      "Return to Goshen"
-    ],
-    answer: "Leave the land quickly",
-    reference: "Exodus 12:31-33",
-  },
-  {
-    question: "Why did the Israelites leave Egypt with unleavened dough?",
-    options: [
-      "They were driven out and could not delay to prepare ordinary bread",
-      "They had no grain",
-      "Pharaoh banned yeast",
-      "God had not yet created bread"
+      "With belt fastened, sandals on, staff in hand, and in haste",
+      "Seated quietly with heads covered",
+      "Standing barefoot with staffs laid aside",
+      "With their doors open and lamps extinguished",
     ],
     answer:
-      "They were driven out and could not delay to prepare ordinary bread",
-    reference: "Exodus 12:34, 39",
+      "With belt fastened, sandals on, staff in hand, and in haste",
+    reference: "Exodus 12:11",
   },
   {
-    question: "What did Moses take with him when Israel left Egypt?",
+    question:
+      "How long were the Israelites said to have lived in Egypt before the exodus?",
     options: [
-      "Joseph's bones",
-      "Pharaoh's crown",
-      "The ark of the covenant",
-      "Aaron's staff"
+      "430 years",
+      "400 years",
+      "215 years",
+      "480 years",
     ],
-    answer: "Joseph's bones",
+    answer: "430 years",
+    reference: "Exodus 12:40-41",
+  },
+  {
+    question:
+      "Approximately how many Israelite men on foot left Egypt, besides women and children?",
+    options: [
+      "About six hundred thousand",
+      "About four hundred thousand",
+      "About seventy thousand",
+      "About one million",
+    ],
+    answer: "About six hundred thousand",
+    reference: "Exodus 12:37",
+  },
+  {
+    question:
+      "Why did God not lead Israel by the road through the land of the Philistines, although it was shorter?",
+    options: [
+      "He said the people might change their minds and return to Egypt when they faced war",
+      "The road was blocked by Pharaoh's army",
+      "The Philistines had destroyed the road",
+      "Moses did not know the route",
+    ],
+    answer:
+      "He said the people might change their minds and return to Egypt when they faced war",
+    reference: "Exodus 13:17",
+  },
+  {
+    question:
+      "Whose bones did Moses take with him when Israel left Egypt?",
+    options: ["Joseph's", "Jacob's", "Levi's", "Aaron's"],
+    answer: "Joseph's",
     reference: "Exodus 13:19",
   },
   {
-    question: "How did God guide Israel during their journey from Egypt?",
+    question:
+      "What guided Israel by day and by night after leaving Egypt?",
     options: [
       "A pillar of cloud by day and a pillar of fire by night",
-      "A star by day and a cloud by night",
-      "An angel carrying a torch",
-      "A river of light"
+      "An angel by day and a star by night",
+      "A cloud by day and lightning by night",
+      "A pillar of smoke by day and a torch by night",
     ],
-    answer: "A pillar of cloud by day and a pillar of fire by night",
+    answer:
+      "A pillar of cloud by day and a pillar of fire by night",
     reference: "Exodus 13:21-22",
   },
   {
-    question: "What did Pharaoh do after the Israelites had left Egypt?",
-    options: [
-      "He pursued them with his army",
-      "He blessed their journey",
-      "He sent them food",
-      "He closed the borders"
-    ],
-    answer: "He pursued them with his army",
-    reference: "Exodus 14:5-9",
+    question:
+      "How many chosen chariots did Pharaoh take when pursuing Israel?",
+    options: ["Six hundred", "Four hundred", "One thousand", "Three hundred"],
+    answer: "Six hundred",
+    reference: "Exodus 14:7",
   },
   {
-    question: "What did Moses tell the Israelites when they were afraid because Pharaoh's army was approaching?",
+    question:
+      "What happened to the pillar of cloud when the Egyptians approached Israel at the sea?",
     options: [
-      "The Lord would fight for them",
-      "They should attack Egypt",
-      "They should return immediately",
-      "They should hide in the mountains"
+      "It moved behind Israel, coming between the camps",
+      "It disappeared entirely",
+      "It moved ahead of the Egyptian army",
+      "It turned into a pillar of water",
     ],
-    answer: "The Lord would fight for them",
-    reference: "Exodus 14:13-14",
+    answer:
+      "It moved behind Israel, coming between the camps",
+    reference: "Exodus 14:19-20",
   },
   {
-    question: "What did Moses stretch out over the sea?",
-    options: ["His hand", "His staff only", "His robe", "His sword"],
-    answer: "His hand",
+    question:
+      "What kind of wind did God use to drive back the sea throughout the night?",
+    options: [
+      "A strong east wind",
+      "A strong west wind",
+      "A north wind",
+      "A south wind",
+    ],
+    answer: "A strong east wind",
     reference: "Exodus 14:21",
   },
   {
-    question: "What happened to the waters when Moses stretched out his hand?",
+    question:
+      "What happened to the wheels of the Egyptian chariots as they pursued Israel?",
     options: [
-      "They divided and Israel crossed on dry ground",
-      "They became blood",
-      "They rose over Egypt",
-      "They disappeared permanently"
+      "They became difficult to drive",
+      "They caught fire",
+      "They broke off immediately",
+      "They sank into the sand before reaching the sea",
     ],
-    answer: "They divided and Israel crossed on dry ground",
-    reference: "Exodus 14:21-22",
+    answer: "They became difficult to drive",
+    reference: "Exodus 14:25",
   },
   {
-    question: "What happened when the Egyptians pursued Israel into the sea?",
-    options: [
-      "The waters returned over them",
-      "They crossed safely",
-      "They joined Israel",
-      "They became trapped in the desert"
-    ],
-    answer: "The waters returned over them",
-    reference: "Exodus 14:26-28",
-  },
-  {
-    question: "What did Moses and the Israelites do after crossing the Red Sea?",
-    options: [
-      "They sang a song to the Lord",
-      "They built a city",
-      "They returned to Egypt",
-      "They immediately entered Canaan"
-    ],
-    answer: "They sang a song to the Lord",
-    reference: "Exodus 15:1",
-  },
-  {
-    question: "What did Miriam take in her hand after the Red Sea crossing?",
-    options: ["A tambourine", "A staff", "A sword", "A harp"],
-    answer: "A tambourine",
+    question:
+      "Who led the women with tambourines and dancing after the crossing of the sea?",
+    options: ["Miriam", "Zipporah", "Jochebed", "Elisheba"],
+    answer: "Miriam",
     reference: "Exodus 15:20",
   },
   {
-    question: "What was the first major problem Israel faced after entering the wilderness of Shur?",
-    options: [
-      "They found bitter water",
-      "They were attacked by Pharaoh",
-      "They ran out of clothing",
-      "They lost Moses"
-    ],
-    answer: "They found bitter water",
+    question:
+      "What was the name of the place where Israel found bitter water after traveling three days in the wilderness?",
+    options: ["Marah", "Elim", "Rephidim", "Sin"],
+    answer: "Marah",
     reference: "Exodus 15:22-23",
   },
   {
-    question: "What was the name of the place where Israel found bitter water?",
-    options: ["Marah", "Elim", "Rephidim", "Sinai"],
-    answer: "Marah",
-    reference: "Exodus 15:23",
-  },
-  {
-    question: "What did Moses throw into the bitter water to make it drinkable?",
-    options: ["A piece of wood", "Salt", "A stone", "His staff"],
-    answer: "A piece of wood",
-    reference: "Exodus 15:25",
-  },
-  {
-    question: "What food did God provide for Israel in the wilderness?",
-    options: ["Manna", "Quail only", "Bread from Egypt", "Dates"],
-    answer: "Manna",
-    reference: "Exodus 16:4, 15",
-  },
-  {
-    question: "What additional food did God provide in the evening?",
-    options: ["Quail", "Fish", "Locusts", "Goats"],
-    answer: "Quail",
-    reference: "Exodus 16:13",
-  },
-  {
-    question: "How much manna was each person instructed to gather?",
+    question:
+      "How many springs of water and palm trees were at Elim?",
     options: [
-      "An omer per person",
-      "A half ephah per person",
-      "A hin per person",
-      "A talent per person"
+      "Twelve springs and seventy palm trees",
+      "Seven springs and seventy palm trees",
+      "Twelve springs and forty palm trees",
+      "Seventy springs and twelve palm trees",
     ],
-    answer: "An omer per person",
+    answer: "Twelve springs and seventy palm trees",
+    reference: "Exodus 15:27",
+  },
+  {
+    question:
+      "In which wilderness did Israel first complain about lack of food after leaving Elim?",
+    options: [
+      "The Wilderness of Sin",
+      "The Wilderness of Shur",
+      "The Wilderness of Zin",
+      "The Wilderness of Paran",
+    ],
+    answer: "The Wilderness of Sin",
+    reference: "Exodus 16:1-3",
+  },
+  {
+    question:
+      "What quantity of manna was each person to gather daily?",
+    options: [
+      "One omer per person",
+      "One ephah per family",
+      "Two omers per person",
+      "Half an omer per household",
+    ],
+    answer: "One omer per person",
     reference: "Exodus 16:16",
   },
   {
-    question: "What happened when some Israelites kept manna until the next morning contrary to Moses' instruction?",
+    question:
+      "What happened to manna that was improperly kept until morning on ordinary days?",
     options: [
-      "It bred worms and became foul",
-      "It multiplied",
-      "It turned into bread",
-      "It disappeared"
+      "It bred worms and stank",
+      "It turned to dust",
+      "It became bitter",
+      "It hardened like stone",
     ],
-    answer: "It bred worms and became foul",
+    answer: "It bred worms and stank",
     reference: "Exodus 16:19-20",
   },
   {
-    question: "What was different about the manna gathered on the sixth day?",
+    question:
+      "How much manna were the Israelites told to gather on the sixth day?",
     options: [
-      "They gathered twice as much",
-      "It changed color",
-      "It tasted different",
-      "It could not be eaten"
+      "Twice the normal amount",
+      "Three times the normal amount",
+      "The same amount",
+      "Seven times the normal amount",
     ],
-    answer: "They gathered twice as much",
+    answer: "Twice the normal amount",
     reference: "Exodus 16:22",
   },
   {
-    question: "Why were the Israelites instructed not to gather manna on the seventh day?",
+    question:
+      "What was the manna compared to in appearance and taste?",
     options: [
-      "It was the Sabbath",
-      "The manna stopped permanently",
-      "They had enough food for a month",
-      "Moses forbade eating bread"
+      "Coriander seed, white, tasting like wafers made with honey",
+      "Mustard seed, yellow, tasting like bread",
+      "Barley grain, white, tasting like oil",
+      "Coriander seed, red, tasting like dates",
     ],
-    answer: "It was the Sabbath",
-    reference: "Exodus 16:23-26",
-  },
-  {
-    question: "What was the taste of manna compared to?",
-    options: [
-      "Wafers made with honey",
-      "Bread with oil",
-      "Dates and milk",
-      "Roasted grain"
-    ],
-    answer: "Wafers made with honey",
+    answer:
+      "Coriander seed, white, tasting like wafers made with honey",
     reference: "Exodus 16:31",
   },
   {
-    question: "What problem did Israel face at Rephidim?",
+    question:
+      "How much manna was kept as a memorial before the LORD?",
+    options: ["One omer", "One ephah", "Two omers", "One hin"],
+    answer: "One omer",
+    reference: "Exodus 16:32-34",
+  },
+  {
+    question:
+      "What names did Moses give the place where Israel quarreled and tested the LORD over water?",
     options: [
-      "There was no water for the people to drink",
-      "There was no food",
-      "The Egyptians attacked them",
-      "The cloud disappeared"
+      "Massah and Meribah",
+      "Marah and Elim",
+      "Rephidim and Horeb",
+      "Sin and Meribah",
     ],
-    answer: "There was no water for the people to drink",
-    reference: "Exodus 17:1",
+    answer: "Massah and Meribah",
+    reference: "Exodus 17:7",
   },
   {
-    question: "What came out of the rock at Horeb when Moses struck it?",
-    options: ["Water", "Oil", "Honey", "Blood"],
-    answer: "Water",
-    reference: "Exodus 17:5-6",
-  },
-  {
-    question: "Which nation attacked Israel at Rephidim?",
-    options: ["Amalek", "Moab", "Edom", "Midian"],
-    answer: "Amalek",
-    reference: "Exodus 17:8",
-  },
-  {
-    question: "What happened while Moses held up his hands during the battle against Amalek?",
+    question:
+      "Who held up Moses' hands during the battle against Amalek?",
     options: [
-      "Israel prevailed",
-      "Amalek immediately surrendered",
-      "The battle stopped",
-      "Moses became unable to speak"
+      "Aaron and Hur",
+      "Joshua and Aaron",
+      "Hur and Caleb",
+      "Aaron and Jethro",
     ],
-    answer: "Israel prevailed",
-    reference: "Exodus 17:11",
-  },
-  {
-    question: "Who helped support Moses' hands during the battle?",
-    options: ["Aaron and Hur", "Joshua and Aaron", "Hur and Joshua", "Aaron and Caleb"],
     answer: "Aaron and Hur",
-    reference: "Exodus 17:12",
+    reference: "Exodus 17:10-12",
   },
   {
-    question: "Who did Moses appoint to lead Israel's fighting men against Amalek?",
-    options: ["Joshua", "Aaron", "Hur", "Caleb"],
-    answer: "Joshua",
-    reference: "Exodus 17:9",
-  },
-  {
-    question: "What advice did Jethro give Moses about judging the people?",
+    question:
+      "What name did Moses give the altar built after Israel defeated Amalek?",
     options: [
-      "Appoint capable men over groups to help judge ordinary matters",
-      "Judge every case personally without help",
-      "Stop judging the people completely",
-      "Send all difficult cases to Pharaoh"
+      "The LORD Is My Banner",
+      "The LORD Will Provide",
+      "The LORD Is Peace",
+      "The LORD Who Heals",
     ],
-    answer:
-      "Appoint capable men over groups to help judge ordinary matters",
-    reference: "Exodus 18:17-26",
+    answer: "The LORD Is My Banner",
+    reference: "Exodus 17:15",
   },
   {
-    question: "What did Jethro recognize about God after hearing what He had done for Israel?",
-    options: [
-      "That the Lord was greater than all gods",
-      "That Egypt had been stronger",
-      "That Moses was a king",
-      "That Israel needed a new god"
-    ],
-    answer: "That the Lord was greater than all gods",
-    reference: "Exodus 18:8-12",
+    question:
+      "What was the name of Moses' second son, whose name reflected God's deliverance from Pharaoh?",
+    options: ["Eliezer", "Gershom", "Nadab", "Abihu"],
+    answer: "Eliezer",
+    reference: "Exodus 18:4",
   },
   {
-    question: "What did God tell Israel they would be if they obeyed His covenant?",
+    question:
+      "What judicial structure did Jethro advise Moses to establish?",
     options: [
-      "His treasured possession, a kingdom of priests, and a holy nation",
-      "The richest nation on earth",
-      "Rulers over Egypt",
-      "A nation without laws"
+      "Leaders over thousands, hundreds, fifties, and tens",
+      "Leaders over hundreds, twenties, and tens",
+      "Twelve tribal judges only",
+      "Seventy elders over the whole nation",
     ],
-    answer:
-      "His treasured possession, a kingdom of priests, and a holy nation",
+    answer: "Leaders over thousands, hundreds, fifties, and tens",
+    reference: "Exodus 18:21-22",
+  },
+  {
+    question:
+      "In which month after leaving Egypt did Israel arrive at the Wilderness of Sinai?",
+    options: [
+      "The third month",
+      "The second month",
+      "The first month",
+      "The seventh month",
+    ],
+    answer: "The third month",
+    reference: "Exodus 19:1",
+  },
+  {
+    question:
+      "What did God call Israel if they obeyed His covenant?",
+    options: [
+      "A kingdom of priests and a holy nation",
+      "A nation of prophets and judges",
+      "A royal army and holy people",
+      "A chosen tribe and priesthood",
+    ],
+    answer: "A kingdom of priests and a holy nation",
     reference: "Exodus 19:5-6",
   },
   {
-    question: "What did God instruct the Israelites to do before He appeared on Mount Sinai?",
+    question:
+      "What boundary rule was given regarding Mount Sinai before God descended on it?",
     options: [
-      "Consecrate themselves and wash their garments",
-      "Build an altar immediately",
-      "Leave the mountain",
-      "Fast for forty days"
+      "Anyone touching the mountain was to be put to death",
+      "Only priests could touch the mountain",
+      "Only elders could approach the base",
+      "Animals could approach but people could not",
     ],
-    answer: "Consecrate themselves and wash their garments",
+    answer: "Anyone touching the mountain was to be put to death",
+    reference: "Exodus 19:12-13",
+  },
+  {
+    question:
+      "On which day after consecration did God descend on Mount Sinai?",
+    options: [
+      "The third day",
+      "The seventh day",
+      "The second day",
+      "The first day",
+    ],
+    answer: "The third day",
     reference: "Exodus 19:10-11",
   },
   {
-    question: "What sound was heard when God descended upon Mount Sinai?",
-    options: ["A loud trumpet blast", "A great singing voice", "Thunder only", "A rushing river"],
-    answer: "A loud trumpet blast",
-    reference: "Exodus 19:16-19",
-  },
-  {
-    question: "What did the people see on Mount Sinai when God descended upon it?",
+    question:
+      "What natural phenomena accompanied God's descent on Mount Sinai?",
     options: [
-      "Smoke and fire",
-      "A river of water",
-      "A golden throne",
-      "A rainbow only"
-    ],
-    answer: "Smoke and fire",
-    reference: "Exodus 19:18",
-  },
-  {
-    question: "What is the first commandment given in Exodus concerning other gods?",
-    options: [
-      "You shall have no other gods before Me",
-      "You shall not make idols",
-      "You shall not take God's name in vain",
-      "You shall keep the Sabbath"
-    ],
-    answer: "You shall have no other gods before Me",
-    reference: "Exodus 20:3",
-  },
-  {
-    question: "What did God forbid Israel from making in connection with worship?",
-    options: ["Idols", "Altars", "Offerings", "Prayers"],
-    answer: "Idols",
-    reference: "Exodus 20:4",
-  },
-  {
-    question: "What day was Israel commanded to remember and keep holy?",
-    options: ["The Sabbath", "The first day", "The Passover", "The Day of Atonement"],
-    answer: "The Sabbath",
-    reference: "Exodus 20:8-11",
-  },
-  {
-    question: "What did the people do when they saw the thunder, lightning, trumpet sound, and smoking mountain?",
-    options: [
-      "They stood far away in fear",
-      "They climbed the mountain",
-      "They began eating",
-      "They demanded to see God"
-    ],
-    answer: "They stood far away in fear",
-    reference: "Exodus 20:18",
-  },
-  {
-    question: "What did the people ask Moses to do because they were afraid to hear God directly?",
-    options: [
-      "Speak to them instead of God speaking directly to them",
-      "Take them back to Egypt",
-      "Build a new altar",
-      "Ask Aaron to lead them"
+      "Thunder, lightning, a thick cloud, trumpet sound, smoke, and trembling",
+      "Rain, hail, and darkness only",
+      "Fire and an earthquake only",
+      "A whirlwind and a pillar of light",
     ],
     answer:
-      "Speak to them instead of God speaking directly to them",
-    reference: "Exodus 20:19",
+      "Thunder, lightning, a thick cloud, trumpet sound, smoke, and trembling",
+    reference: "Exodus 19:16-18",
   },
   {
-    question: "What did God instruct Moses to make for the altar instead of using hewn stones?",
+    question:
+      "What reason is given in the command against making carved images?",
     options: [
-      "An altar of earth or uncut stones",
-      "A golden altar",
-      "A silver altar",
-      "A wooden altar covered with iron"
+      "The LORD is a jealous God",
+      "Images were used only by Egypt",
+      "No craftsman could portray God accurately",
+      "Israel had no temples yet",
     ],
-    answer: "An altar of earth or uncut stones",
-    reference: "Exodus 20:24-25",
+    answer: "The LORD is a jealous God",
+    reference: "Exodus 20:4-5",
   },
   {
-    question: "What was the basic rule concerning a Hebrew servant's period of service?",
-    options: [
-      "He served six years and went free in the seventh",
-      "He served seven years and went free in the eighth",
-      "He served three years",
-      "He served until his master died"
-    ],
-    answer: "He served six years and went free in the seventh",
+    question:
+      "How many years of service were required of a Hebrew servant before he was to be released?",
+    options: ["Six years", "Seven years", "Three years", "Forty years"],
+    answer: "Six years",
     reference: "Exodus 21:2",
   },
   {
-    question: "What penalty was given for striking or cursing one's father or mother?",
-    options: ["Death", "A fine", "Seven years of service", "Exile"],
+    question:
+      "What was done to a servant who voluntarily chose to remain permanently with his master?",
+    options: [
+      "His ear was pierced with an awl at the door or doorpost",
+      "His hand was marked with a seal",
+      "His hair was cut before the judges",
+      "His foot was washed at the city gate",
+    ],
+    answer:
+      "His ear was pierced with an awl at the door or doorpost",
+    reference: "Exodus 21:5-6",
+  },
+  {
+    question:
+      "What penalty was prescribed for someone who struck or cursed his father or mother?",
+    options: ["Death", "Seven years of service", "A heavy fine", "Exile"],
     answer: "Death",
     reference: "Exodus 21:15, 17",
   },
   {
-    question: "What principle appears in Exodus concerning injury caused by an animal known to be dangerous?",
+    question:
+      "What compensation was required if an ox gored another person's ox to death?",
     options: [
-      "The owner could be held responsible if the animal was known to be dangerous",
-      "The animal alone was always responsible",
-      "No one could be held responsible",
-      "Only the injured person was responsible"
+      "The live ox was sold and its value divided, and the dead ox was also divided",
+      "The owner of the live ox paid double",
+      "The offending ox was immediately killed without compensation",
+      "The owner paid five oxen",
     ],
     answer:
-      "The owner could be held responsible if the animal was known to be dangerous",
-    reference: "Exodus 21:28-29",
+      "The live ox was sold and its value divided, and the dead ox was also divided",
+    reference: "Exodus 21:35",
   },
   {
-    question: "What was the punishment for stealing an ox and killing or selling it?",
+    question:
+      "How much restitution was required for stealing and slaughtering or selling an ox?",
     options: [
       "Five oxen for one ox",
-      "Two oxen for one ox",
+      "Four oxen for one ox",
+      "Double restitution",
       "Seven oxen for one ox",
-      "Ten oxen for one ox"
     ],
     answer: "Five oxen for one ox",
     reference: "Exodus 22:1",
   },
   {
-    question: "What did God command Israel concerning strangers?",
+    question:
+      "How much restitution was required for stealing and slaughtering or selling a sheep?",
     options: [
-      "They were not to oppress or mistreat them",
-      "They were to send them away",
-      "They were to make them slaves",
-      "They were not allowed to live among Israel"
+      "Four sheep for one sheep",
+      "Five sheep for one sheep",
+      "Double restitution",
+      "Seven sheep for one sheep",
     ],
-    answer: "They were not to oppress or mistreat them",
+    answer: "Four sheep for one sheep",
+    reference: "Exodus 22:1",
+  },
+  {
+    question:
+      "What command was given regarding a cloak taken as a pledge from a poor person?",
+    options: [
+      "It had to be returned by sunset",
+      "It could be kept for seven days",
+      "It had to be given to the priest",
+      "It could be sold if the debt was unpaid",
+    ],
+    answer: "It had to be returned by sunset",
+    reference: "Exodus 22:26-27",
+  },
+  {
+    question:
+      "What were Israelites forbidden to do to a foreigner living among them?",
+    options: [
+      "Mistreat or oppress them",
+      "Allow them to own livestock",
+      "Permit them to work on farms",
+      "Let them attend public gatherings",
+    ],
+    answer: "Mistreat or oppress them",
     reference: "Exodus 22:21",
   },
   {
-    question: "What did God command Israel to observe three times each year?",
-    options: [
-      "Three pilgrimage festivals",
-      "Three days of fasting",
-      "Three national elections",
-      "Three harvests"
-    ],
-    answer: "Three pilgrimage festivals",
+    question:
+      "How many annual pilgrimage festivals were Israelite males commanded to observe before the LORD?",
+    options: ["Three", "Seven", "Two", "Four"],
+    answer: "Three",
     reference: "Exodus 23:14-17",
   },
   {
-    question: "What did God promise to send before Israel to guard them on the journey?",
-    options: ["An angel", "A king", "A prophet", "A priest"],
-    answer: "An angel",
-    reference: "Exodus 23:20",
+    question:
+      "Which three annual festivals are specifically named?",
+    options: [
+      "Festival of Unleavened Bread, Festival of Harvest, and Festival of Ingathering",
+      "Passover, Trumpets, and Booths",
+      "Unleavened Bread, Atonement, and Weeks",
+      "Harvest, New Moon, and Jubilee",
+    ],
+    answer:
+      "Festival of Unleavened Bread, Festival of Harvest, and Festival of Ingathering",
+    reference: "Exodus 23:14-17",
   },
   {
-    question: "What did Moses sprinkle on the people when confirming the covenant?",
-    options: ["Blood", "Water", "Oil", "Ashes"],
-    answer: "Blood",
-    reference: "Exodus 24:6-8",
+    question:
+      "What warning was given concerning the angel God would send before Israel?",
+    options: [
+      "Do not rebel against him, because God's name is in him",
+      "Do not look directly at him",
+      "Do not ask him questions",
+      "Do not follow him at night",
+    ],
+    answer:
+      "Do not rebel against him, because God's name is in him",
+    reference: "Exodus 23:20-21",
   },
   {
-    question: "How long was Moses on Mount Sinai before receiving the stone tablets?",
-    options: ["Forty days and forty nights", "Seven days", "Thirty days", "Seventy days"],
+    question:
+      "How many elders of Israel went up with Moses, Aaron, Nadab, and Abihu toward God?",
+    options: ["Seventy", "Twelve", "Forty", "Twenty-four"],
+    answer: "Seventy",
+    reference: "Exodus 24:1, 9",
+  },
+  {
+    question:
+      "What did Moses sprinkle on the people after reading the Book of the Covenant?",
+    options: [
+      "Blood of the covenant",
+      "Water mixed with oil",
+      "Ashes from the altar",
+      "Blood and oil together",
+    ],
+    answer: "Blood of the covenant",
+    reference: "Exodus 24:7-8",
+  },
+  {
+    question:
+      "What appeared under God's feet when Moses and the elders saw the God of Israel?",
+    options: [
+      "Something like a pavement of sapphire, clear as the sky",
+      "A pavement of gold",
+      "A sea of glass mixed with fire",
+      "A cloud of emerald color",
+    ],
+    answer:
+      "Something like a pavement of sapphire, clear as the sky",
+    reference: "Exodus 24:10",
+  },
+  {
+    question:
+      "How long was Moses on the mountain after entering the cloud?",
+    options: [
+      "Forty days and forty nights",
+      "Seven days and seven nights",
+      "Thirty days",
+      "Seventy days",
+    ],
     answer: "Forty days and forty nights",
     reference: "Exodus 24:18",
   },
   {
-    question: "What material was placed inside the ark of the covenant?",
+    question:
+      "Which material was to cover the ark of the covenant inside and outside?",
+    options: ["Pure gold", "Bronze", "Silver", "Acacia resin"],
+    answer: "Pure gold",
+    reference: "Exodus 25:10-11",
+  },
+  {
+    question:
+      "What kind of wood was specified for constructing the ark?",
+    options: ["Acacia wood", "Cedar wood", "Olive wood", "Almond wood"],
+    answer: "Acacia wood",
+    reference: "Exodus 25:10",
+  },
+  {
+    question:
+      "How many rings of gold were attached to the ark for carrying it?",
+    options: ["Four", "Two", "Six", "Eight"],
+    answer: "Four",
+    reference: "Exodus 25:12",
+  },
+  {
+    question:
+      "What was placed inside the ark according to God's instruction?",
     options: [
-      "The testimony God gave Moses",
-      "Manna only",
-      "Aaron's staff only",
-      "The priestly garments"
+      "The testimony God would give Moses",
+      "The golden altar",
+      "Aaron's garments",
+      "The basin and incense",
     ],
-    answer: "The testimony God gave Moses",
+    answer: "The testimony God would give Moses",
     reference: "Exodus 25:16",
   },
   {
-    question: "What was placed above the ark of the covenant?",
-    options: [
-      "The mercy seat with cherubim",
-      "A golden crown",
-      "A lampstand",
-      "A table of bread"
-    ],
-    answer: "The mercy seat with cherubim",
-    reference: "Exodus 25:17-22",
-  },
-  {
-    question: "What was the purpose of the golden lampstand in the tabernacle?",
-    options: [
-      "To give light",
-      "To hold sacrifices",
-      "To store manna",
-      "To burn incense only"
-    ],
-    answer: "To give light",
-    reference: "Exodus 25:31-37",
-  },
-  {
-    question: "How many branches extended from the sides of the lampstand?",
-    options: ["Six", "Four", "Seven", "Twelve"],
+    question:
+      "How many branches extended from the sides of the lampstand?",
+    options: ["Six", "Seven", "Four", "Twelve"],
     answer: "Six",
     reference: "Exodus 25:32",
   },
   {
-    question: "What was placed on the table inside the tabernacle?",
+    question:
+      "What decorative shape was used repeatedly on the lampstand's cups?",
     options: [
-      "The bread of the Presence",
-      "The tablets of the covenant",
-      "The golden calf",
-      "The altar of burnt offering"
+      "Almond blossoms",
+      "Pomegranate blossoms",
+      "Olive leaves",
+      "Lily flowers",
     ],
-    answer: "The bread of the Presence",
-    reference: "Exodus 25:30",
+    answer: "Almond blossoms",
+    reference: "Exodus 25:33-34",
   },
   {
-    question: "What material was used for the curtains of the tabernacle?",
-    options: [
-      "Fine twined linen with blue, purple, and scarlet yarn",
-      "Gold and silver",
-      "Leather only",
-      "Wool only"
-    ],
-    answer:
-      "Fine twined linen with blue, purple, and scarlet yarn",
+    question:
+      "How many curtains of fine twisted linen were used for the inner tabernacle covering?",
+    options: ["Ten", "Eleven", "Twelve", "Seven"],
+    answer: "Ten",
     reference: "Exodus 26:1",
   },
   {
-    question: "What separated the Holy Place from the Most Holy Place?",
-    options: ["A veil", "A wall of stone", "A curtain of gold", "A wooden door"],
+    question:
+      "How many curtains made of goat hair were used as a tent over the tabernacle?",
+    options: ["Eleven", "Ten", "Twelve", "Seven"],
+    answer: "Eleven",
+    reference: "Exodus 26:7",
+  },
+  {
+    question:
+      "What separated the Holy Place from the Most Holy Place?",
+    options: [
+      "A veil",
+      "A bronze screen",
+      "A cedar wall",
+      "A golden curtain",
+    ],
     answer: "A veil",
     reference: "Exodus 26:31-33",
   },
   {
-    question: "What did the priests wear on their forehead as part of the holy garments?",
+    question:
+      "Where was the ark positioned in relation to the veil?",
     options: [
-      "A gold plate inscribed with 'Holy to the Lord'",
-      "A silver crown",
-      "A blue stone",
-      "A linen band"
+      "Behind the veil in the Most Holy Place",
+      "Directly in front of the entrance",
+      "Beside the lampstand",
+      "Outside the tabernacle",
     ],
-    answer: "A gold plate inscribed with 'Holy to the Lord'",
+    answer: "Behind the veil in the Most Holy Place",
+    reference: "Exodus 26:33-34",
+  },
+  {
+    question:
+      "What material was used to overlay the altar of burnt offering?",
+    options: ["Bronze", "Gold", "Silver", "Iron"],
+    answer: "Bronze",
+    reference: "Exodus 27:1-2",
+  },
+  {
+    question:
+      "What was used to make the oil for the lampstand?",
+    options: [
+      "Pure oil of pressed olives",
+      "Oil mixed with myrrh",
+      "Cedar oil",
+      "Sesame oil",
+    ],
+    answer: "Pure oil of pressed olives",
+    reference: "Exodus 27:20",
+  },
+  {
+    question:
+      "Which four garments are specifically named among Aaron's sacred garments?",
+    options: [
+      "Breastpiece, ephod, robe, and woven tunic",
+      "Ephod, crown, cloak, and sandals",
+      "Breastpiece, belt, trousers, and cloak",
+      "Robe, tunic, sandals, and veil",
+    ],
+    answer: "Breastpiece, ephod, robe, and woven tunic",
+    reference: "Exodus 28:4",
+  },
+  {
+    question:
+      "What two stones were mounted on the shoulders of the ephod with the names of Israel's sons engraved on them?",
+    options: [
+      "Onyx stones",
+      "Sapphire stones",
+      "Emerald stones",
+      "Jasper stones",
+    ],
+    answer: "Onyx stones",
+    reference: "Exodus 28:9-12",
+  },
+  {
+    question:
+      "How many precious stones were set in the breastpiece of judgment?",
+    options: ["Twelve", "Ten", "Seven", "Fourteen"],
+    answer: "Twelve",
+    reference: "Exodus 28:17-21",
+  },
+  {
+    question:
+      "What was placed inside the breastpiece of judgment?",
+    options: [
+      "The Urim and Thummim",
+      "The tablets of the covenant",
+      "The names of Moses and Aaron",
+      "Incense and oil",
+    ],
+    answer: "The Urim and Thummim",
+    reference: "Exodus 28:30",
+  },
+  {
+    question:
+      "What was written on the gold plate attached to Aaron's turban?",
+    options: [
+      "HOLY TO THE LORD",
+      "PRIEST OF ISRAEL",
+      "THE LORD IS ONE",
+      "AARON THE HIGH PRIEST",
+    ],
+    answer: "HOLY TO THE LORD",
     reference: "Exodus 28:36",
   },
   {
-    question: "How many stones were set in the breastpiece of judgment?",
-    options: ["Twelve", "Ten", "Seven", "Four"],
-    answer: "Twelve",
-    reference: "Exodus 28:15-21",
-  },
-  {
-    question: "What did the twelve stones on the breastpiece represent?",
+    question:
+      "What animals were required for the ordination of Aaron and his sons?",
     options: [
-      "The twelve tribes of Israel",
-      "The twelve plagues",
-      "The twelve apostles",
-      "The twelve months"
+      "One young bull and two rams without defect",
+      "Two bulls and one ram",
+      "One bull and seven lambs",
+      "Two goats and one bull",
     ],
-    answer: "The twelve tribes of Israel",
-    reference: "Exodus 28:21",
+    answer: "One young bull and two rams without defect",
+    reference: "Exodus 29:1",
   },
   {
-    question: "What were Aaron's sons to wear on their heads as part of their priestly garments?",
-    options: ["Turbans", "Crowns", "Helmets", "Veils"],
-    answer: "Turbans",
-    reference: "Exodus 28:40",
-  },
-  {
-    question: "What was the altar of incense made from?",
-    options: ["Acacia wood overlaid with gold", "Pure silver", "Stone", "Bronze only"],
-    answer: "Acacia wood overlaid with gold",
-    reference: "Exodus 30:1-3",
-  },
-  {
-    question: "How often was incense to be burned on the altar of incense?",
+    question:
+      "On which parts of Aaron and his sons was blood from the ordination ram placed?",
     options: [
-      "Morning and evening",
-      "Only on the Sabbath",
-      "Once a year",
-      "Every seven days"
+      "Right ear lobe, right thumb, and right big toe",
+      "Left ear lobe, right hand, and left foot",
+      "Forehead, right thumb, and right heel",
+      "Right ear, left thumb, and both feet",
     ],
-    answer: "Morning and evening",
-    reference: "Exodus 30:7-8",
+    answer: "Right ear lobe, right thumb, and right big toe",
+    reference: "Exodus 29:20",
   },
   {
-    question: "What was used for the anointing oil?",
+    question:
+      "How long did the priestly ordination ceremony last?",
+    options: ["Seven days", "Forty days", "Three days", "Ten days"],
+    answer: "Seven days",
+    reference: "Exodus 29:35",
+  },
+  {
+    question:
+      "What incense ingredients were specified for the sacred incense?",
     options: [
-      "A special mixture of spices and olive oil",
-      "Only olive oil",
-      "Animal blood",
-      "Water and myrrh"
+      "Stacte, onycha, galbanum, and pure frankincense",
+      "Myrrh, cinnamon, cassia, and frankincense",
+      "Stacte, myrrh, cinnamon, and olive oil",
+      "Galbanum, cedar, myrrh, and cassia",
     ],
-    answer: "A special mixture of spices and olive oil",
-    reference: "Exodus 30:22-25",
+    answer: "Stacte, onycha, galbanum, and pure frankincense",
+    reference: "Exodus 30:34",
   },
   {
-    question: "Who were specifically chosen by God to lead the craftsmanship of the tabernacle?",
+    question:
+      "What amount was each Israelite counted in the census required to give as atonement money?",
+    options: [
+      "Half a shekel",
+      "One shekel",
+      "Ten gerahs",
+      "One-quarter shekel",
+    ],
+    answer: "Half a shekel",
+    reference: "Exodus 30:13",
+  },
+  {
+    question:
+      "What were the main ingredients of the sacred anointing oil besides olive oil?",
+    options: [
+      "Liquid myrrh, fragrant cinnamon, fragrant cane, and cassia",
+      "Frankincense, myrrh, cinnamon, and salt",
+      "Myrrh, cedar, hyssop, and cassia",
+      "Cinnamon, galbanum, stacte, and myrrh",
+    ],
+    answer:
+      "Liquid myrrh, fragrant cinnamon, fragrant cane, and cassia",
+    reference: "Exodus 30:23-25",
+  },
+  {
+    question:
+      "Which two craftsmen were specifically appointed and empowered for the tabernacle work?",
     options: [
       "Bezalel and Oholiab",
-      "Aaron and Hur",
-      "Joshua and Caleb",
-      "Nadab and Abihu"
+      "Hur and Bezalel",
+      "Aaron and Oholiab",
+      "Bezalel and Ithamar",
     ],
     answer: "Bezalel and Oholiab",
     reference: "Exodus 31:1-6",
   },
   {
-    question: "What did God give Moses on Mount Sinai as the testimony?",
-    options: [
-      "Two tablets of the testimony",
-      "One scroll",
-      "Three golden tablets",
-      "A wooden staff"
-    ],
-    answer: "Two tablets of the testimony",
-    reference: "Exodus 31:18",
+    question:
+      "From which tribe was Bezalel?",
+    options: ["Judah", "Dan", "Levi", "Benjamin"],
+    answer: "Judah",
+    reference: "Exodus 31:2",
   },
   {
-    question: "What did the Israelites ask Aaron to make while Moses was on the mountain?",
-    options: ["A golden calf", "A golden ark", "A silver altar", "A bronze serpent"],
-    answer: "A golden calf",
-    reference: "Exodus 32:1-4",
+    question:
+      "From which tribe was Oholiab?",
+    options: ["Dan", "Judah", "Levi", "Ephraim"],
+    answer: "Dan",
+    reference: "Exodus 31:6",
   },
   {
-    question: "What did Aaron use to make the golden calf?",
+    question:
+      "What did Aaron ask the people to bring before making the golden calf?",
     options: [
-      "Gold earrings from the people",
-      "Gold from Pharaoh",
-      "Gold from the tabernacle",
-      "Gold from Midian"
+      "The gold earrings worn by their wives, sons, and daughters",
+      "Their silver jewelry",
+      "Gold taken from Egyptian idols",
+      "Bronze from their household utensils",
     ],
-    answer: "Gold earrings from the people",
-    reference: "Exodus 32:2-4",
+    answer:
+      "The gold earrings worn by their wives, sons, and daughters",
+    reference: "Exodus 32:2",
   },
   {
-    question: "What did Moses do when he saw the golden calf and the people's celebration?",
+    question:
+      "What did Aaron use to shape the golden calf?",
     options: [
-      "He threw down and broke the tablets",
-      "He joined the celebration",
-      "He returned quietly to the mountain",
-      "He built another altar"
+      "An engraving tool",
+      "A hammer only",
+      "A wooden mold",
+      "A furnace mold only",
     ],
-    answer: "He threw down and broke the tablets",
+    answer: "An engraving tool",
+    reference: "Exodus 32:4",
+  },
+  {
+    question:
+      "What did Moses do with the first stone tablets when he saw the calf and dancing?",
+    options: [
+      "He threw them down and broke them at the foot of the mountain",
+      "He hid them in his tent",
+      "He gave them to Joshua",
+      "He placed them before the golden calf",
+    ],
+    answer:
+      "He threw them down and broke them at the foot of the mountain",
     reference: "Exodus 32:19",
   },
   {
-    question: "What did Moses do to the golden calf after destroying it?",
+    question:
+      "What did Moses do with the golden calf?",
     options: [
       "He burned it, ground it to powder, scattered it on water, and made Israel drink it",
-      "He buried it",
-      "He melted it into new tablets",
-      "He sent it back to Egypt"
+      "He melted it and returned the gold to the people",
+      "He buried it under Mount Sinai",
+      "He broke it and gave the pieces to the Levites",
     ],
     answer:
       "He burned it, ground it to powder, scattered it on water, and made Israel drink it",
     reference: "Exodus 32:20",
   },
   {
-    question: "Who stood with Moses when he called for those who were on the Lord's side?",
-    options: ["The sons of Levi", "The sons of Judah", "The priests of Egypt", "The elders of Midian"],
-    answer: "The sons of Levi",
-    reference: "Exodus 32:26",
+    question:
+      "Approximately how many men were killed by the Levites after the golden calf incident?",
+    options: ["About three thousand", "About seven thousand", "About twelve thousand", "About six hundred"],
+    answer: "About three thousand",
+    reference: "Exodus 32:28",
   },
   {
-    question: "What did Moses ask God to show him after the golden calf incident?",
-    options: ["His ways and His glory", "The future of Egypt", "The promised land only", "The names of every Israelite"],
-    answer: "His ways and His glory",
-    reference: "Exodus 33:13, 18",
-  },
-  {
-    question: "Where did Moses meet with God after the tabernacle had been pitched outside the camp?",
-    options: ["At the tent of meeting", "At Pharaoh's palace", "At the Red Sea", "At Marah"],
-    answer: "At the tent of meeting",
-    reference: "Exodus 33:7-11",
-  },
-  {
-    question: "What happened to Moses' face after he came down from Mount Sinai?",
+    question:
+      "Where did Moses pitch the tent of meeting after the golden calf incident?",
     options: [
-      "It shone",
-      "It became covered with blood",
-      "It became invisible",
-      "It changed color"
+      "Outside the camp, some distance away",
+      "In the center of the camp",
+      "At the foot of Mount Sinai",
+      "Beside Aaron's tent",
     ],
-    answer: "It shone",
+    answer: "Outside the camp, some distance away",
+    reference: "Exodus 33:7",
+  },
+  {
+    question:
+      "Who remained at the tent of meeting when Moses returned to the camp?",
+    options: [
+      "Joshua son of Nun",
+      "Aaron",
+      "Hur",
+      "Caleb",
+    ],
+    answer: "Joshua son of Nun",
+    reference: "Exodus 33:11",
+  },
+  {
+    question:
+      "What did Moses ask God to show him after God promised His presence?",
+    options: [
+      "His glory",
+      "His throne",
+      "His face directly",
+      "The promised land",
+    ],
+    answer: "His glory",
+    reference: "Exodus 33:18",
+  },
+  {
+    question:
+      "Where did God place Moses while His glory passed by?",
+    options: [
+      "In a cleft of the rock",
+      "Inside the tent of meeting",
+      "Behind the altar",
+      "On the summit of Sinai",
+    ],
+    answer: "In a cleft of the rock",
+    reference: "Exodus 33:21-23",
+  },
+  {
+    question:
+      "What was Moses instructed to prepare before ascending Sinai again?",
+    options: [
+      "Two stone tablets like the first ones",
+      "A new wooden ark",
+      "A bronze altar",
+      "Twelve memorial stones",
+    ],
+    answer: "Two stone tablets like the first ones",
+    reference: "Exodus 34:1",
+  },
+  {
+    question:
+      "How long did Moses remain with the LORD during the renewal of the covenant?",
+    options: [
+      "Forty days and forty nights",
+      "Seven days",
+      "Thirty days",
+      "Seventy days",
+    ],
+    answer: "Forty days and forty nights",
+    reference: "Exodus 34:28",
+  },
+  {
+    question:
+      "What happened to Moses' face after speaking with the LORD?",
+    options: [
+      "The skin of his face shone",
+      "It became pale",
+      "It was covered by a cloud",
+      "It became red like fire",
+    ],
+    answer: "The skin of his face shone",
     reference: "Exodus 34:29",
   },
   {
-    question: "What did Moses do because the Israelites were afraid of his shining face?",
-    options: ["He put a veil over his face", "He washed his face", "He covered himself with a robe", "He left the camp"],
-    answer: "He put a veil over his face",
+    question:
+      "What did Moses place over his face after speaking to Israel?",
+    options: ["A veil", "A turban", "A priestly cloth", "A hood"],
+    answer: "A veil",
     reference: "Exodus 34:33-35",
   },
   {
-    question: "What did the Israelites bring for the construction of the tabernacle?",
+    question:
+      "What restriction was emphasized again before the people began contributing materials for the tabernacle?",
     options: [
-      "Freewill offerings",
-      "Taxes demanded by Moses",
-      "Spoils taken from Midian",
-      "Only gold from Egypt"
+      "No work was to be done on the Sabbath",
+      "No offerings could be brought at night",
+      "Only Levites could make contributions",
+      "No foreign material could be used",
     ],
-    answer: "Freewill offerings",
-    reference: "Exodus 35:4-9",
+    answer: "No work was to be done on the Sabbath",
+    reference: "Exodus 35:1-3",
   },
   {
-    question: "What happened when the people brought more materials than were needed for the tabernacle?",
+    question:
+      "What unusual Sabbath prohibition is specifically mentioned regarding fire?",
     options: [
-      "Moses commanded them to stop bringing offerings",
-      "The materials were thrown away",
-      "The people were punished",
-      "The materials were sent to Egypt"
+      "No fire was to be kindled in their dwellings",
+      "No altar fire was to burn",
+      "No cooking fire could be extinguished",
+      "No lamp could be lit in the tabernacle",
     ],
-    answer: "Moses commanded them to stop bringing offerings",
-    reference: "Exodus 36:4-7",
+    answer: "No fire was to be kindled in their dwellings",
+    reference: "Exodus 35:3",
   },
   {
-    question: "What was placed inside the Most Holy Place?",
+    question:
+      "Why did Moses eventually command the people to stop bringing offerings for the sanctuary?",
     options: [
-      "The ark of the testimony",
-      "The bronze altar",
-      "The laver",
-      "The table of bread"
-    ],
-    answer: "The ark of the testimony",
-    reference: "Exodus 40:20-21",
-  },
-  {
-    question: "What happened when Moses finished setting up the tabernacle?",
-    options: [
-      "The cloud covered the tent and the glory of the Lord filled it",
-      "Fire destroyed the tent",
-      "The Israelites immediately left Sinai",
-      "The ark disappeared"
+      "They had already brought more than enough for the work",
+      "The craftsmen requested only gold",
+      "The Sabbath had begun",
+      "The tabernacle had already been completed",
     ],
     answer:
-      "The cloud covered the tent and the glory of the Lord filled it",
+      "They had already brought more than enough for the work",
+    reference: "Exodus 36:5-7",
+  },
+  {
+    question:
+      "How many loops were made along the edge of each inner curtain set of the tabernacle?",
+    options: ["Fifty", "Forty", "Seventy", "Twelve"],
+    answer: "Fifty",
+    reference: "Exodus 36:11-12",
+  },
+  {
+    question:
+      "How many gold clasps were used to join the inner curtains so the tabernacle became one unit?",
+    options: ["Fifty", "Twenty", "Seventy", "One hundred"],
+    answer: "Fifty",
+    reference: "Exodus 36:13",
+  },
+  {
+    question:
+      "What figures were made at the two ends of the mercy seat?",
+    options: ["Two cherubim", "Two lions", "Two angels with swords", "Two oxen"],
+    answer: "Two cherubim",
+    reference: "Exodus 37:7-9",
+  },
+  {
+    question:
+      "What material was used to make the basin and its stand?",
+    options: [
+      "Bronze from the mirrors of the women who served at the entrance",
+      "Gold from the elders",
+      "Silver from the census offering",
+      "Bronze from Egyptian weapons",
+    ],
+    answer:
+      "Bronze from the mirrors of the women who served at the entrance",
+    reference: "Exodus 38:8",
+  },
+  {
+    question:
+      "What was done with the silver collected from the census?",
+    options: [
+      "It was used for the bases of the sanctuary and the hooks and bands of the posts",
+      "It was used to overlay the ark",
+      "It was used for the lampstand",
+      "It was melted into priestly ornaments",
+    ],
+    answer:
+      "It was used for the bases of the sanctuary and the hooks and bands of the posts",
+    reference: "Exodus 38:25-28",
+  },
+  {
+    question:
+      "How many men twenty years old and upward were counted in the census used for the sanctuary silver?",
+    options: [
+      "603,550",
+      "600,000",
+      "601,730",
+      "605,500",
+    ],
+    answer: "603,550",
+    reference: "Exodus 38:26",
+  },
+  {
+    question:
+      "What colors were used in making the ephod?",
+    options: [
+      "Gold, blue, purple, scarlet, and fine twisted linen",
+      "Gold, white, blue, and black",
+      "Blue, red, green, and silver",
+      "Purple, scarlet, white, and bronze",
+    ],
+    answer:
+      "Gold, blue, purple, scarlet, and fine twisted linen",
+    reference: "Exodus 39:2-3",
+  },
+  {
+    question:
+      "What decorative objects were attached around the hem of the high priest's robe?",
+    options: [
+      "Pomegranates and gold bells",
+      "Cherubim and bells",
+      "Almond blossoms and bells",
+      "Gold rings and pomegranates",
+    ],
+    answer: "Pomegranates and gold bells",
+    reference: "Exodus 39:24-26",
+  },
+  {
+    question:
+      "On what date was the tabernacle set up?",
+    options: [
+      "The first day of the first month of the second year",
+      "The first day of the seventh month of the first year",
+      "The fourteenth day of the first month of the second year",
+      "The tenth day of the first month of the second year",
+    ],
+    answer: "The first day of the first month of the second year",
+    reference: "Exodus 40:17",
+  },
+  {
+    question:
+      "What happened after Moses finished setting up the tabernacle?",
+    options: [
+      "The cloud covered the tent of meeting and the glory of the LORD filled the tabernacle",
+      "Fire descended and consumed the tabernacle",
+      "Aaron entered the Most Holy Place immediately",
+      "The people heard a trumpet from heaven",
+    ],
+    answer:
+      "The cloud covered the tent of meeting and the glory of the LORD filled the tabernacle",
     reference: "Exodus 40:34",
   },
   {
-    question: "What determined whether Israel would continue their journey after the tabernacle was completed?",
+    question:
+      "Why was Moses unable to enter the tent of meeting immediately after the tabernacle was completed?",
     options: [
-      "The movement or remaining of the cloud",
-      "Moses' personal decision",
-      "Aaron's command",
-      "The weather"
+      "The cloud rested on it and the glory of the LORD filled it",
+      "Aaron had not yet been ordained",
+      "The veil had not yet been hung",
+      "The altar had not yet been consecrated",
     ],
-    answer: "The movement or remaining of the cloud",
-    reference: "Exodus 40:36-38",
+    answer:
+      "The cloud rested on it and the glory of the LORD filled it",
+    reference: "Exodus 40:35",
+  },
+  {
+    question:
+      "What indicated to the Israelites when they should continue their journey?",
+    options: [
+      "The cloud lifting from above the tabernacle",
+      "The sounding of Aaron's trumpet",
+      "Moses raising his staff",
+      "The fire disappearing at night",
+    ],
+    answer: "The cloud lifting from above the tabernacle",
+    reference: "Exodus 40:36-37",
+  },
+  {
+    question:
+      "What was visible over the tabernacle by night throughout Israel's journeys?",
+    options: [
+      "Fire in the cloud",
+      "A star",
+      "Lightning",
+      "A golden light from the ark",
+    ],
+    answer: "Fire in the cloud",
+    reference: "Exodus 40:38",
   },
 ];
 
