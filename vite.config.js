@@ -11,6 +11,15 @@ export default defineConfig({
 
       workbox: {
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+
+        // Activate the new service worker immediately
+        skipWaiting: true,
+
+        // Let the new service worker control the app immediately
+        clientsClaim: true,
+
+        // Remove old cached files after updates
+        cleanupOutdatedCaches: true,
       },
 
       manifest: {
