@@ -1,81 +1,10 @@
-import { useEffect, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useState,
+} from "react";
+import publicDomainVerseNotes from "./data/publicDomainVerseNotes";
 import "./App.css";
-
-/* =========================
-   OLD TESTAMENT IMPORTS
-========================= */
-
-import genesisQuestions from "./data/oldtestament/genesis";
-import exodusQuestions from "./data/oldtestament/exodus";
-import leviticusQuestions from "./data/oldtestament/leviticus";
-import numbersQuestions from "./data/oldtestament/numbers";
-import deuteronomyQuestions from "./data/oldtestament/deuteronomy";
-import joshuaQuestions from "./data/oldtestament/joshua";
-import judgesQuestions from "./data/oldtestament/judges";
-import ruthQuestions from "./data/oldtestament/ruth";
-import firstSamuelQuestions from "./data/oldtestament/1Samuel";
-import secondSamuelQuestions from "./data/oldtestament/2Samuel";
-import firstKingsQuestions from "./data/oldtestament/1kings";
-import secondKingsQuestions from "./data/oldtestament/2kings";
-import firstChroniclesQuestions from "./data/oldtestament/1chronicles";
-import secondChroniclesQuestions from "./data/oldtestament/2chronicles";
-import ezraQuestions from "./data/oldtestament/ezra";
-import nehemiahQuestions from "./data/oldtestament/nehemiah";
-import estherQuestions from "./data/oldtestament/esther";
-import jobQuestions from "./data/oldtestament/job";
-import psalmsQuestions from "./data/oldtestament/psalms";
-import proverbsQuestions from "./data/oldtestament/proverbs";
-import ecclesiastesQuestions from "./data/oldtestament/ecclesiastes";
-import songOfSolomonQuestions from "./data/oldtestament/songofsolomon";
-import isaiahQuestions from "./data/oldtestament/isaiah";
-import jeremiahQuestions from "./data/oldtestament/jeremiah";
-import lamentationsQuestions from "./data/oldtestament/lamentations";
-import ezekielQuestions from "./data/oldtestament/ezekiel";
-import danielQuestions from "./data/oldtestament/daniel";
-import hoseaQuestions from "./data/oldtestament/hosea";
-import joelQuestions from "./data/oldtestament/joel";
-import amosQuestions from "./data/oldtestament/amos";
-import obadiahQuestions from "./data/oldtestament/obadiah";
-import jonahQuestions from "./data/oldtestament/jonah";
-import micahQuestions from "./data/oldtestament/micah";
-import nahumQuestions from "./data/oldtestament/nahum";
-import habakkukQuestions from "./data/oldtestament/habakkuk";
-import zephaniahQuestions from "./data/oldtestament/zephaniah";
-import haggaiQuestions from "./data/oldtestament/haggai";
-import zechariahQuestions from "./data/oldtestament/zechariah";
-import malachiQuestions from "./data/oldtestament/malachi";
-
-/* =========================
-   NEW TESTAMENT IMPORTS
-========================= */
-
-import matthewQuestions from "./data/newtestament/matthew";
-import markQuestions from "./data/newtestament/mark";
-import lukeQuestions from "./data/newtestament/luke";
-import johnQuestions from "./data/newtestament/john";
-import actsQuestions from "./data/newtestament/acts";
-import romansQuestions from "./data/newtestament/romans";
-import firstCorinthiansQuestions from "./data/newtestament/1corinthians";
-import secondCorinthiansQuestions from "./data/newtestament/2corinthians";
-import galatiansQuestions from "./data/newtestament/galatians";
-import ephesiansQuestions from "./data/newtestament/ephesians";
-import philippiansQuestions from "./data/newtestament/philippians";
-import colossiansQuestions from "./data/newtestament/colossians";
-import firstThessaloniansQuestions from "./data/newtestament/1thessalonians";
-import secondThessaloniansQuestions from "./data/newtestament/2thessalonians";
-import firstTimothyQuestions from "./data/newtestament/1timothy";
-import secondTimothyQuestions from "./data/newtestament/2timothy";
-import titusQuestions from "./data/newtestament/titus";
-import philemonQuestions from "./data/newtestament/philemon";
-import hebrewsQuestions from "./data/newtestament/hebrews";
-import jamesQuestions from "./data/newtestament/james";
-import firstPeterQuestions from "./data/newtestament/1peter";
-import secondPeterQuestions from "./data/newtestament/2peter";
-import firstJohnQuestions from "./data/newtestament/1john";
-import secondJohnQuestions from "./data/newtestament/2john";
-import thirdJohnQuestions from "./data/newtestament/3john";
-import judeQuestions from "./data/newtestament/jude";
-import revelationQuestions from "./data/newtestament/revelation";
 
 /* =========================
    BIBLE BOOKS
@@ -153,79 +82,18 @@ const newTestament = [
   "Revelation",
 ];
 
-/* =========================
-   QUESTION BANKS
-========================= */
+const questionBankLoaders = import.meta.glob(
+  "./data/**/*.js",
+  { import: "default" }
+);
 
-const questionBanks = {
-  Genesis: genesisQuestions,
-  Exodus: exodusQuestions,
-  Leviticus: leviticusQuestions,
-  Numbers: numbersQuestions,
-  Deuteronomy: deuteronomyQuestions,
-  Joshua: joshuaQuestions,
-  Judges: judgesQuestions,
-  Ruth: ruthQuestions,
-  "1 Samuel": firstSamuelQuestions,
-  "2 Samuel": secondSamuelQuestions,
-  "1 Kings": firstKingsQuestions,
-  "2 Kings": secondKingsQuestions,
-  "1 Chronicles": firstChroniclesQuestions,
-  "2 Chronicles": secondChroniclesQuestions,
-  Ezra: ezraQuestions,
-  Nehemiah: nehemiahQuestions,
-  Esther: estherQuestions,
-  Job: jobQuestions,
-  Psalms: psalmsQuestions,
-  Proverbs: proverbsQuestions,
-  Ecclesiastes: ecclesiastesQuestions,
-  "Song of Solomon": songOfSolomonQuestions,
-  Isaiah: isaiahQuestions,
-  Jeremiah: jeremiahQuestions,
-  Lamentations: lamentationsQuestions,
-  Ezekiel: ezekielQuestions,
-  Daniel: danielQuestions,
-  Hosea: hoseaQuestions,
-  Joel: joelQuestions,
-  Amos: amosQuestions,
-  Obadiah: obadiahQuestions,
-  Jonah: jonahQuestions,
-  Micah: micahQuestions,
-  Nahum: nahumQuestions,
-  Habakkuk: habakkukQuestions,
-  Zephaniah: zephaniahQuestions,
-  Haggai: haggaiQuestions,
-  Zechariah: zechariahQuestions,
-  Malachi: malachiQuestions,
+function getQuestionBankLoader(book) {
+  const fileName = book.toLowerCase().replaceAll(" ", "");
 
-  Matthew: matthewQuestions,
-  Mark: markQuestions,
-  Luke: lukeQuestions,
-  John: johnQuestions,
-  Acts: actsQuestions,
-  Romans: romansQuestions,
-  "1 Corinthians": firstCorinthiansQuestions,
-  "2 Corinthians": secondCorinthiansQuestions,
-  Galatians: galatiansQuestions,
-  Ephesians: ephesiansQuestions,
-  Philippians: philippiansQuestions,
-  Colossians: colossiansQuestions,
-  "1 Thessalonians": firstThessaloniansQuestions,
-  "2 Thessalonians": secondThessaloniansQuestions,
-  "1 Timothy": firstTimothyQuestions,
-  "2 Timothy": secondTimothyQuestions,
-  Titus: titusQuestions,
-  Philemon: philemonQuestions,
-  Hebrews: hebrewsQuestions,
-  James: jamesQuestions,
-  "1 Peter": firstPeterQuestions,
-  "2 Peter": secondPeterQuestions,
-  "1 John": firstJohnQuestions,
-  "2 John": secondJohnQuestions,
-  "3 John": thirdJohnQuestions,
-  Jude: judeQuestions,
-  Revelation: revelationQuestions,
-};
+  return Object.entries(questionBankLoaders).find(
+    ([path]) => path.toLowerCase().endsWith(`/${fileName}.js`)
+  )?.[1];
+}
 
 /* =========================
    SHUFFLE FUNCTION
@@ -248,33 +116,144 @@ function shuffleArray(items) {
   return shuffled;
 }
 
+function getDailyChallengeBook() {
+  const today = getTodayKey();
+  const dayNumber = Number(today.replaceAll("-", ""));
+  const allBooks = [...oldTestament, ...newTestament];
+
+  return allBooks[dayNumber % allBooks.length];
+}
+
+function getTodayKey() {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, "0");
+  const day = String(today.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
+function getTimeUntilTomorrow() {
+  const now = new Date();
+  const tomorrow = new Date(now);
+
+  tomorrow.setDate(now.getDate() + 1);
+  tomorrow.setHours(0, 0, 0, 0);
+
+  const totalMinutes = Math.max(
+    0,
+    Math.ceil((tomorrow - now) / 60000)
+  );
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+
+  return `${hours}h ${String(minutes).padStart(2, "0")}m`;
+}
+
 /* =========================
    APP
 ========================= */
 
 function App() {
   const [page, setPage] = useState("testaments");
-
-  const [selectedTestament, setSelectedTestament] =
-    useState("");
-
-  const [selectedBook, setSelectedBook] =
-    useState("");
-
-  const [questionCount, setQuestionCount] =
-    useState(null);
-
-  const [timeLimit, setTimeLimit] =
-    useState(null);
-
+  const [selectedTestament, setSelectedTestament] = useState("");
+  const [selectedBook, setSelectedBook] = useState("");
+  const [questionCount, setQuestionCount] = useState(null);
+  const [timeLimit, setTimeLimit] = useState(null);
   const [questions, setQuestions] = useState([]);
-
   const [answers, setAnswers] = useState([]);
-
-  const [currentQuestion, setCurrentQuestion] =
-    useState(0);
-
+  const [currentQuestion, setCurrentQuestion] = useState(0);
   const [timeLeft, setTimeLeft] = useState(0);
+  const [lockedQuestions, setLockedQuestions] = useState([]);
+  const [reviewingHistory, setReviewingHistory] = useState(false);
+  const [profile, setProfile] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem("bibleQuizProfile") || "null") || {
+        name: "Bible Student",
+        soundEnabled: false,
+      };
+    } catch {
+      return { name: "Bible Student", soundEnabled: false };
+    }
+  });
+  const [showCompletionAnimation, setShowCompletionAnimation] = useState(false);
+  const [isLoadingQuiz, setIsLoadingQuiz] = useState(false);
+  const [isDailyChallenge, setIsDailyChallenge] = useState(false);
+  const [dailyChallengeDate, setDailyChallengeDate] = useState(() =>
+    localStorage.getItem("bibleQuizDailyChallengeDate") || ""
+  );
+  const [timeUntilTomorrow, setTimeUntilTomorrow] = useState(
+    getTimeUntilTomorrow
+  );
+  const [quizHistory, setQuizHistory] = useState(() => {
+    try {
+      const savedHistory = localStorage.getItem("bibleQuizHistory");
+
+      return savedHistory ? JSON.parse(savedHistory) : [];
+    } catch (error) {
+      console.error("Could not load quiz history:", error);
+      return [];
+    }
+  });
+
+  const saveHistory = useCallback((history) => {
+    setQuizHistory(history);
+
+    try {
+      localStorage.setItem(
+        "bibleQuizHistory",
+        JSON.stringify(history)
+      );
+    } catch (error) {
+      console.error("Could not save quiz history:", error);
+    }
+  }, []);
+
+  function saveProfile(nextProfile) {
+    setProfile(nextProfile);
+    localStorage.setItem("bibleQuizProfile", JSON.stringify(nextProfile));
+  }
+
+  function openPage(nextPage) {
+    setPage(nextPage);
+    scrollToTop();
+  }
+
+  useEffect(() => {
+    const countdown = setInterval(() => {
+      setTimeUntilTomorrow(getTimeUntilTomorrow());
+    }, 60000);
+
+    return () => clearInterval(countdown);
+  }, []);
+
+  /* =========================
+     SCROLL HELPERS
+  ========================= */
+
+  const scrollToTop = useCallback(() => {
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, 50);
+  }, []);
+
+  function scrollToStartButton() {
+    setTimeout(() => {
+      const startButton = document.querySelector(
+        ".start-quiz-button"
+      );
+
+      if (startButton) {
+        startButton.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+      }
+    }, 100);
+  }
 
   /* =========================
      TESTAMENT
@@ -284,6 +263,7 @@ function App() {
     setSelectedTestament(testament);
     setSelectedBook("");
     setPage("books");
+    scrollToTop();
   }
 
   /* =========================
@@ -291,6 +271,7 @@ function App() {
   ========================= */
 
   function chooseBook(book) {
+    setIsDailyChallenge(false);
     setSelectedBook(book);
   }
 
@@ -298,6 +279,7 @@ function App() {
     setQuestionCount(null);
     setTimeLimit(null);
     setPage("setup");
+    scrollToTop();
   }
 
   /* =========================
@@ -313,37 +295,63 @@ function App() {
       setPage("testaments");
       setSelectedTestament("");
       setSelectedBook("");
+    } else if (page === "review") {
+      setPage(reviewingHistory ? "history" : "results");
+    } else if (page === "history") {
+      setPage("testaments");
     }
+
+    scrollToTop();
+  }
+
+  /* =========================
+     SETUP
+  ========================= */
+
+  function chooseTime(time) {
+    setTimeLimit(time);
+    scrollToStartButton();
   }
 
   /* =========================
      START QUIZ
   ========================= */
 
-  function startQuiz() {
+  async function startQuiz() {
     if (!questionCount || !timeLimit) {
       alert(
         "Please select the number of questions and time limit."
       );
-
       return;
     }
 
-    const bookQuestions =
-      questionBanks[selectedBook];
+    setReviewingHistory(false);
+    setIsLoadingQuiz(true);
 
-    if (
-      !bookQuestions ||
-      bookQuestions.length === 0
-    ) {
+    const questionBankLoader = getQuestionBankLoader(selectedBook);
+    let bookQuestions = null;
+
+    try {
+      bookQuestions = questionBankLoader
+        ? await questionBankLoader()
+        : null;
+    } catch (error) {
+      console.error("Could not load question bank:", error);
+      setIsLoadingQuiz(false);
+      alert(
+        "This question bank could not be loaded. Please try again."
+      );
+      return;
+    }
+
+    setIsLoadingQuiz(false);
+
+    if (!bookQuestions || bookQuestions.length === 0) {
       alert(
         "No questions are available for this book."
       );
-
       return;
     }
-
-    /* Randomize the questions */
 
     const shuffledQuestions =
       shuffleArray(bookQuestions);
@@ -357,14 +365,14 @@ function App() {
         )
       );
 
-    /* =========================
-       BALANCE ANSWER POSITIONS
+    /*
+      Balance the position of correct answers.
 
-       0 = A
-       1 = B
-       2 = C
-       3 = D
-    ========================= */
+      0 = A
+      1 = B
+      2 = C
+      3 = D
+    */
 
     const answerPositions = [];
 
@@ -379,10 +387,6 @@ function App() {
     const shuffledAnswerPositions =
       shuffleArray(answerPositions);
 
-    /* =========================
-       PREPARE QUESTIONS
-    ========================= */
-
     const preparedQuestions =
       chosenQuestions.map(
         (question, questionIndex) => {
@@ -394,11 +398,6 @@ function App() {
               (option) =>
                 option !== correctAnswer
             );
-
-          /*
-            Protect the quiz if a question
-            accidentally contains invalid options.
-          */
 
           if (
             question.options.length !== 4 ||
@@ -427,7 +426,6 @@ function App() {
             ];
 
           const newOptions = [];
-
           let wrongIndex = 0;
 
           for (
@@ -438,9 +436,7 @@ function App() {
             if (
               position === correctPosition
             ) {
-              newOptions.push(
-                correctAnswer
-              );
+              newOptions.push(correctAnswer);
             } else {
               newOptions.push(
                 shuffledWrongOptions[
@@ -467,6 +463,12 @@ function App() {
       ).fill(null)
     );
 
+    setLockedQuestions(
+      new Array(
+        preparedQuestions.length
+      ).fill(false)
+    );
+
     setCurrentQuestion(0);
 
     const minutes = parseInt(
@@ -475,29 +477,26 @@ function App() {
     );
 
     setTimeLeft(minutes * 60);
-
     setPage("questions");
+    scrollToTop();
   }
 
   /* =========================
      SELECT ANSWER
+
+     The user may change an answer while
+     still on the same question.
+
+     Once the user leaves an answered
+     question, that answer becomes locked.
   ========================= */
 
   function selectAnswer(answer) {
-    /*
-      Once an answer has been selected,
-      the user cannot change it.
-    */
-
-    if (
-      answers[currentQuestion] !== null
-    ) {
+    if (lockedQuestions[currentQuestion]) {
       return;
     }
 
-    const updatedAnswers = [
-      ...answers,
-    ];
+    const updatedAnswers = [...answers];
 
     updatedAnswers[currentQuestion] =
       answer;
@@ -505,11 +504,30 @@ function App() {
     setAnswers(updatedAnswers);
   }
 
+  function lockCurrentAnswer() {
+    if (
+      answers[currentQuestion] === null ||
+      lockedQuestions[currentQuestion]
+    ) {
+      return;
+    }
+
+    setLockedQuestions((previous) => {
+      const updated = [...previous];
+
+      updated[currentQuestion] = true;
+
+      return updated;
+    });
+  }
+
   /* =========================
      QUESTION NAVIGATION
   ========================= */
 
   function nextQuestion() {
+    lockCurrentAnswer();
+
     if (
       currentQuestion <
       questions.length - 1
@@ -517,20 +535,28 @@ function App() {
       setCurrentQuestion(
         (previous) => previous + 1
       );
+
+      scrollToTop();
     } else {
       finishQuiz();
     }
   }
 
   function previousQuestion() {
+    lockCurrentAnswer();
+
     if (currentQuestion > 0) {
       setCurrentQuestion(
         (previous) => previous - 1
       );
+
+      scrollToTop();
     }
   }
 
   function skipQuestion() {
+    lockCurrentAnswer();
+
     if (
       currentQuestion <
       questions.length - 1
@@ -538,20 +564,28 @@ function App() {
       setCurrentQuestion(
         (previous) => previous + 1
       );
+
+      scrollToTop();
     } else {
       finishQuiz();
     }
   }
 
-  function finishQuiz() {
-    setPage("results");
+  function goToQuestion(questionIndex) {
+    if (questionIndex === currentQuestion) {
+      return;
+    }
+
+    lockCurrentAnswer();
+    setCurrentQuestion(questionIndex);
+    scrollToTop();
   }
 
   /* =========================
      SCORE
   ========================= */
 
-  function calculateScore() {
+  const calculateScore = useCallback(() => {
     let total = 0;
 
     answers.forEach(
@@ -568,7 +602,99 @@ function App() {
     );
 
     return total;
-  }
+  }, [answers, questions]);
+
+  /* =========================
+     FINISH QUIZ
+  ========================= */
+
+  const finishQuiz = useCallback(() => {
+    if (questions.length === 0) {
+      return;
+    }
+
+    const score = calculateScore();
+
+    const quizPercentage = Math.round(
+      (score / questions.length) * 100
+    );
+
+    const historyItem = {
+      id: `${Date.now()}-${Math.random()}`,
+      book: selectedBook,
+      testament: selectedTestament,
+      isDailyChallenge,
+      dateKey: getTodayKey(),
+      score,
+      total: questions.length,
+      percentage: quizPercentage,
+      timeLimit,
+      date: new Date().toLocaleString(),
+      questions: questions.map(
+        (question, index) => ({
+          question: question.question,
+          options: question.options,
+          answer: question.answer,
+          reference:
+            question.reference || "",
+          userAnswer:
+            answers[index] || null,
+        })
+      ),
+    };
+
+    saveHistory([
+      historyItem,
+      ...quizHistory,
+    ]);
+
+    if (isDailyChallenge) {
+      setDailyChallengeDate(historyItem.dateKey);
+
+      try {
+        localStorage.setItem(
+          "bibleQuizDailyChallengeDate",
+          historyItem.dateKey
+        );
+      } catch (error) {
+        console.error(
+          "Could not save daily challenge status:",
+          error
+        );
+      }
+    }
+
+    if (isDailyChallenge) {
+      const previousDate = new Date();
+      previousDate.setDate(previousDate.getDate() - 1);
+      const previousKey = `${previousDate.getFullYear()}-${String(previousDate.getMonth() + 1).padStart(2, "0")}-${String(previousDate.getDate()).padStart(2, "0")}`;
+      const savedStreak = JSON.parse(localStorage.getItem("bibleQuizStreak") || "{}");
+      const nextStreak = {
+        current: savedStreak.lastDate === previousKey ? (savedStreak.current || 0) + 1 : 1,
+        lastDate: historyItem.dateKey,
+      };
+      localStorage.setItem("bibleQuizStreak", JSON.stringify(nextStreak));
+    }
+
+    setShowCompletionAnimation(true);
+    setTimeout(() => {
+      setShowCompletionAnimation(false);
+      setPage("results");
+      scrollToTop();
+    }, 650);
+  }, [
+    answers,
+    calculateScore,
+    isDailyChallenge,
+    questions,
+    quizHistory,
+    saveHistory,
+    scrollToTop,
+    selectedBook,
+    selectedTestament,
+    setShowCompletionAnimation,
+    timeLimit,
+  ]);
 
   /* =========================
      TIMER
@@ -610,6 +736,7 @@ function App() {
     page,
     timeLeft,
     questions.length,
+    finishQuiz,
   ]);
 
   function formatTime(seconds) {
@@ -636,16 +763,101 @@ function App() {
 
   function restartQuiz() {
     setPage("setup");
-
+    setReviewingHistory(false);
+    setIsDailyChallenge(false);
     setCurrentQuestion(0);
-
     setAnswers([]);
-
     setQuestions([]);
-
+    setLockedQuestions([]);
     setTimeLeft(0);
+    scrollToTop();
   }
 
+  function goHome() {
+    setPage("testaments");
+    setReviewingHistory(false);
+    setSelectedTestament("");
+    setSelectedBook("");
+    setQuestionCount(null);
+    setTimeLimit(null);
+    setIsDailyChallenge(false);
+    setCurrentQuestion(0);
+    setAnswers([]);
+    setQuestions([]);
+    setLockedQuestions([]);
+    setTimeLeft(0);
+    scrollToTop();
+  }
+
+  function goHome() {
+    setPage("testaments");
+    setSelectedTestament("");
+    setSelectedBook("");
+    setQuestionCount(null);
+    setTimeLimit(null);
+    setIsDailyChallenge(false);
+    setCurrentQuestion(0);
+    setAnswers([]);
+    setQuestions([]);
+    setLockedQuestions([]);
+    setTimeLeft(0);
+    scrollToTop();
+  }
+
+  /* =========================
+     HISTORY
+  ========================= */
+
+  function openHistory() {
+    setPage("history");
+    scrollToTop();
+  }
+
+  function viewHistoryAnswers(historyItem) {
+    setReviewingHistory(true);
+    setSelectedTestament(historyItem.testament);
+    setSelectedBook(historyItem.book);
+    setQuestions(historyItem.questions);
+    setAnswers(
+      historyItem.questions.map(
+        (question) => question.userAnswer
+      )
+    );
+    setLockedQuestions(
+      new Array(historyItem.questions.length).fill(true)
+    );
+    setCurrentQuestion(0);
+    setPage("review");
+    scrollToTop();
+  }
+
+  function startDailyChallenge() {
+    if (dailyChallengeDate === getTodayKey()) {
+      return;
+    }
+
+    const dailyBook = getDailyChallengeBook();
+
+    setIsDailyChallenge(true);
+    setSelectedTestament(
+      oldTestament.includes(dailyBook) ? "old" : "new"
+    );
+    setSelectedBook(dailyBook);
+    setQuestionCount(10);
+    setTimeLimit("5 Minutes");
+    setPage("setup");
+    scrollToTop();
+  }
+
+  function clearHistory() {
+    const shouldClear = window.confirm(
+      "Do you want to clear your quiz history?"
+    );
+
+    if (shouldClear) {
+      saveHistory([]);
+    }
+  }
   /* =========================
      CURRENT VALUES
   ========================= */
@@ -657,6 +869,55 @@ function App() {
 
   const currentQuizQuestion =
     questions[currentQuestion];
+
+  const verseEntries =
+    Object.entries(publicDomainVerseNotes);
+
+  function getVerseOfTheDay() {
+    if (verseEntries.length === 0) {
+      return {
+        reference: "",
+        text: "Your word is a lamp to my feet and a light to my path.",
+        explanation: "God’s Word gives guidance and wisdom.",
+      };
+    }
+
+    const today = new Date();
+    const dateKey = `${today.getFullYear()}-${String(
+      today.getMonth() + 1
+    ).padStart(2, "0")}-${String(
+      today.getDate()
+    ).padStart(2, "0")}`;
+
+    const seed = dateKey
+      .split("")
+      .reduce(
+        (total, character) =>
+          total + character.charCodeAt(0),
+        0
+      );
+
+    const index =
+      seed % verseEntries.length;
+
+    const [reference, verse] =
+      verseEntries[index];
+
+    return {
+      reference,
+      ...verse,
+    };
+  }
+
+  const dailyVerse = getVerseOfTheDay();
+
+  const verseInfo =
+    currentQuizQuestion &&
+    currentQuizQuestion.reference
+      ? publicDomainVerseNotes[
+          currentQuizQuestion.reference
+        ]
+      : null;
 
   const finalScore =
     calculateScore();
@@ -748,20 +1009,109 @@ function App() {
   const encouragement =
     getEncouragement();
 
+  const completedQuizCount = quizHistory.length;
+  const averagePercentage = completedQuizCount
+    ? Math.round(
+        quizHistory.reduce(
+          (total, item) => total + item.percentage,
+          0
+        ) / completedQuizCount
+      )
+    : 0;
+  const bestPercentage = completedQuizCount
+    ? Math.max(
+        ...quizHistory.map((item) => item.percentage)
+      )
+    : 0;
+  const studiedBookCount = new Set(
+    quizHistory.map((item) => item.book)
+  ).size;
+
+  const totalAnswered = quizHistory.reduce(
+    (total, item) => total + item.questions.filter((question) => question.userAnswer !== null).length,
+    0
+  );
+  const totalCorrect = quizHistory.reduce(
+    (total, item) => total + item.questions.filter((question) => question.userAnswer === question.answer).length,
+    0
+  );
+  const overallAccuracy = totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+  const dailyDates = [...new Set(quizHistory.filter((item) => item.isDailyChallenge).map((item) => item.dateKey))].sort().reverse();
+  let currentStreak = 0;
+  let streakCursor = new Date();
+  streakCursor.setHours(0, 0, 0, 0);
+  for (const dateKey of dailyDates) {
+    const expected = `${streakCursor.getFullYear()}-${String(streakCursor.getMonth() + 1).padStart(2, "0")}-${String(streakCursor.getDate()).padStart(2, "0")}`;
+    if (dateKey !== expected) {
+      if (currentStreak === 0 && dateKey === getTodayKey()) {
+        continue;
+      }
+      break;
+    }
+    currentStreak++;
+    streakCursor.setDate(streakCursor.getDate() - 1);
+  }
+  const badges = [
+    completedQuizCount >= 1 && "First Quiz",
+    bestPercentage === 100 && "Perfect Score",
+    completedQuizCount >= 5 && "Five Quizzes",
+    studiedBookCount >= 10 && "Ten Books",
+    currentStreak >= 3 && "Three-Day Streak",
+  ].filter(Boolean);
+  const bookAccuracy = Object.values(quizHistory.reduce((groups, item) => {
+    const group = groups[item.book] || { book: item.book, correct: 0, answered: 0 };
+    item.questions.forEach((question) => {
+      if (question.userAnswer !== null) {
+        group.answered++;
+        if (question.userAnswer === question.answer) group.correct++;
+      }
+    });
+    groups[item.book] = group;
+    return groups;
+  }, {})).sort((first, second) => second.answered - first.answered);
+  const streakData = JSON.parse(localStorage.getItem("bibleQuizStreak") || "{}");
+
   /* =========================
      WEBSITE
   ========================= */
 
   return (
     <div className="quiz-page">
+      <header className="site-header">
+        <div className="header-inner">
+          <button
+            type="button"
+            className="brand-button"
+            onClick={goHome}
+          >
+            BIBLE QUIZ
+          </button>
 
-      {/* HEADER */}
-
-      <header>
-        <h1>BIBLE QUIZ</h1>
+          <nav className="header-nav" aria-label="Main navigation">
+            <button type="button" onClick={goHome}>
+              Home
+            </button>
+            <button type="button" onClick={openHistory}>
+              History
+            </button>
+            <button type="button" onClick={startDailyChallenge}>
+              Daily Challenge
+            </button>
+            <button type="button" onClick={() => openPage("profile")}>
+              Profile
+            </button>
+          </nav>
+        </div>
       </header>
 
       <main className="selection-container">
+        {showCompletionAnimation && (
+          <div className="completion-overlay" role="status" aria-live="polite">
+            <div className="completion-burst">✦</div>
+            <strong>Quiz complete</strong>
+            <span>Your effort matters. Keep growing.</span>
+          </div>
+        )}
 
         {/* =====================
             TESTAMENT SELECTION
@@ -769,6 +1119,85 @@ function App() {
 
         {page === "testaments" && (
           <>
+            <section className="hero-panel" aria-label="Bible quiz introduction">
+              <div className="hero-copy">
+                <span className="eyebrow">BIBLE STUDY & MEMORIZATION</span>
+
+                <h2>
+                  Grow in faith with every question you answer.
+                </h2>
+
+                <p>
+                  Strengthen your knowledge of Scripture, build confidence in God’s Word, and return daily for a fresh challenge.
+                </p>
+
+                <div className="hero-actions">
+                  <button
+                    className="continue-button"
+                    onClick={startDailyChallenge}
+                  >
+                    Start Daily Challenge
+                  </button>
+
+                  <button
+                    className="secondary-button"
+                    onClick={openHistory}
+                  >
+                    View History
+                  </button>
+                </div>
+              </div>
+
+              <div className="hero-stats" aria-label="Quiz stats overview">
+                <div className="hero-stat">
+                  <strong>{completedQuizCount}</strong>
+                  <span>Quizzes</span>
+                </div>
+
+                <div className="hero-stat">
+                  <strong>{averagePercentage}%</strong>
+                  <span>Average</span>
+                </div>
+
+                <div className="hero-stat">
+                  <strong>{bestPercentage}%</strong>
+                  <span>Best</span>
+                </div>
+              </div>
+            </section>
+
+            <div className="featured-verse-card" aria-label="Verse of the day">
+              <span className="featured-verse-label">VERSE OF THE DAY</span>
+
+              <p className="featured-verse-text">
+                “{dailyVerse.text}”
+              </p>
+
+              <span className="featured-verse-reference">
+                {dailyVerse.reference}
+              </span>
+            </div>
+
+            <section className="feature-strip" aria-label="Features overview">
+              <div className="feature-card">
+                <span className="feature-icon">✦</span>
+                <h3>Daily Challenge</h3>
+                <p>Return each day for a new Bible quiz and keep your memory sharp.</p>
+              </div>
+
+              <div className="feature-card">
+                <span className="feature-icon">✞</span>
+                <h3>Scripture Reflection</h3>
+                <p>See the full verse and learn what it means after each answer.</p>
+              </div>
+
+              <div className="feature-card">
+                <span className="feature-icon">◎</span>
+                <h3>Progress Tracking</h3>
+                <p>Review your history and keep improving across every book you study.</p>
+              </div>
+            </section>
+
             <div className="selection-heading">
               <h2>
                 Choose a Testament
@@ -782,9 +1211,9 @@ function App() {
             </div>
 
             <div className="testament-cards">
-
               <button
                 className="testament-card"
+                aria-label="Choose Old Testament, 39 books"
                 onClick={() =>
                   chooseTestament("old")
                 }
@@ -804,6 +1233,7 @@ function App() {
 
               <button
                 className="testament-card"
+                aria-label="Choose New Testament, 27 books"
                 onClick={() =>
                   chooseTestament("new")
                 }
@@ -820,8 +1250,84 @@ function App() {
                   <p>27 Books</p>
                 </div>
               </button>
-
             </div>
+
+            <div className="history-home-section">
+              <button
+                className="daily-challenge-button"
+                onClick={startDailyChallenge}
+                disabled={dailyChallengeDate === getTodayKey()}
+              >
+                <span>
+                  {dailyChallengeDate === getTodayKey()
+                    ? "Daily Challenge Complete"
+                    : "Daily Challenge"}
+                </span>
+                <small>
+                  {dailyChallengeDate === getTodayKey()
+                    ? `New challenge in ${timeUntilTomorrow}`
+                    : `${getDailyChallengeBook()} · 10 questions · 5 minutes`}
+                </small>
+              </button>
+
+              <button
+                className="continue-button"
+                onClick={openHistory}
+              >
+                Quiz History
+              </button>
+            </div>
+
+            <section className="progress-dashboard" aria-label="Your progress">
+              <div className="dashboard-heading">
+                <span className="testament-label">YOUR PROGRESS</span>
+                <h3>Keep building your knowledge</h3>
+              </div>
+
+              <div className="dashboard-stats">
+                <div>
+                  <strong>{completedQuizCount}</strong>
+                  <span>Quizzes</span>
+                </div>
+                <div>
+                  <strong>{averagePercentage}%</strong>
+                  <span>Average</span>
+                </div>
+                <div>
+                  <strong>{bestPercentage}%</strong>
+                  <span>Best score</span>
+                </div>
+                <div>
+                  <strong>{studiedBookCount}</strong>
+                  <span>Books studied</span>
+                </div>
+                <div>
+                  <strong>{streakData.current || 0}</strong>
+                  <span>Daily streak</span>
+                </div>
+              </div>
+
+              <div className="dashboard-tools">
+                <button className="secondary-button" onClick={() => openPage("profile")}>View Profile</button>
+              </div>
+
+              <div className="accuracy-list">
+                <h4>Accuracy by book</h4>
+                {bookAccuracy.length === 0 ? (
+                  <p>Complete a quiz to see your accuracy by book.</p>
+                ) : bookAccuracy.slice(0, 6).map((item) => (
+                  <div className="accuracy-row" key={item.book}>
+                    <span>{item.book}</span>
+                    <strong>{item.answered ? Math.round((item.correct / item.answered) * 100) : 0}% · {item.answered} questions</strong>
+                  </div>
+                ))}
+              </div>
+
+              <div className="badge-row">
+                <h4>Achievements</h4>
+                {badges.length === 0 ? <p>Your first achievement is waiting.</p> : badges.map((badge) => <span key={badge}>{badge}</span>)}
+              </div>
+            </section>
           </>
         )}
 
@@ -839,7 +1345,6 @@ function App() {
             </button>
 
             <div className="selection-heading">
-
               <span className="testament-label">
                 {selectedTestament ===
                 "old"
@@ -856,11 +1361,9 @@ function App() {
                 want to take your quiz
                 from.
               </p>
-
             </div>
 
             <div className="books-grid">
-
               {books.map((book) => (
                 <button
                   key={book}
@@ -877,12 +1380,10 @@ function App() {
                   {book}
                 </button>
               ))}
-
             </div>
 
             {selectedBook && (
               <div className="book-selected-box">
-
                 <div className="selected-book-info">
                   <p>
                     You selected
@@ -901,7 +1402,6 @@ function App() {
                 >
                   Continue
                 </button>
-
               </div>
             )}
           </>
@@ -921,7 +1421,6 @@ function App() {
             </button>
 
             <div className="selection-heading">
-
               <span className="testament-label">
                 QUIZ
               </span>
@@ -934,15 +1433,10 @@ function App() {
                 Set up your quiz
                 before you begin.
               </p>
-
             </div>
 
             <div className="setup-card">
-
-              {/* NUMBER OF QUESTIONS */}
-
               <div className="setup-section">
-
                 <h3>
                   Number of Questions
                 </h3>
@@ -953,7 +1447,6 @@ function App() {
                 </p>
 
                 <div className="question-options">
-
                   {[
                     15,
                     20,
@@ -979,14 +1472,10 @@ function App() {
                       {number}
                     </button>
                   ))}
-
                 </div>
               </div>
 
-              {/* TIME */}
-
               <div className="setup-section">
-
                 <h3>
                   Time Limit
                 </h3>
@@ -997,7 +1486,6 @@ function App() {
                 </p>
 
                 <div className="time-options">
-
                   {[
                     "5 Minutes",
                     "10 Minutes",
@@ -1013,20 +1501,16 @@ function App() {
                           : "setup-option"
                       }
                       onClick={() =>
-                        setTimeLimit(time)
+                        chooseTime(time)
                       }
                     >
                       {time}
                     </button>
                   ))}
-
                 </div>
               </div>
 
-              {/* SUMMARY */}
-
               <div className="setup-summary">
-
                 <div>
                   <span>Book</span>
 
@@ -1054,16 +1538,17 @@ function App() {
                       "Not selected"}
                   </strong>
                 </div>
-
               </div>
 
               <button
                 className="start-quiz-button"
                 onClick={startQuiz}
+                disabled={isLoadingQuiz}
               >
-                Start Quiz
+                {isLoadingQuiz
+                  ? "Loading Questions..."
+                  : "Start Quiz"}
               </button>
-
             </div>
           </>
         )}
@@ -1075,11 +1560,7 @@ function App() {
         {page === "questions" &&
           currentQuizQuestion && (
             <div className="quiz-container">
-
-              {/* QUIZ TOP */}
-
               <div className="quiz-top">
-
                 <span>
                   {selectedBook}
                 </span>
@@ -1090,18 +1571,17 @@ function App() {
                   of {questions.length}
                 </span>
 
-                <span className="timer">
+                <span
+                  className="timer"
+                  aria-live="polite"
+                  aria-label={`Time remaining ${formatTime(timeLeft)}`}
+                >
                   {formatTime(timeLeft)}
                 </span>
-
               </div>
 
-              {/* PROGRESS */}
-
               <div className="progress-container">
-
                 <div className="progress-info">
-
                   <span>
                     Quiz Progress
                   </span>
@@ -1112,40 +1592,73 @@ function App() {
                     )}
                     %
                   </span>
-
                 </div>
 
-                <div className="progress-track">
-
+                <div
+                  className="progress-track"
+                  role="progressbar"
+                  aria-label="Quiz progress"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  aria-valuenow={Math.round(progress)}
+                >
                   <div
                     className="progress-fill"
                     style={{
                       width: `${progress}%`,
                     }}
                   ></div>
-
                 </div>
               </div>
 
-              {/* QUESTION CARD */}
+              <div
+                className="question-navigator"
+                aria-label="Question navigator"
+              >
+                <div className="question-navigator-header">
+                  <span>Questions</span>
+                  <span>
+                    {lockedQuestions.filter(Boolean).length} of {questions.length} answered
+                  </span>
+                </div>
 
-              <div className="quiz-card">
+                <div className="question-navigator-grid">
+                  {questions.map((question, index) => {
+                    const isCurrent = index === currentQuestion;
+                    const isLocked = lockedQuestions[index];
+                    const hasAnswer = answers[index] !== null;
 
+                    return (
+                      <button
+                        key={`${index}-${question.question}`}
+                        className={`question-number${isCurrent ? " current" : ""}${isLocked ? " completed" : ""}${hasAnswer && !isLocked ? " selected" : ""}`}
+                        onClick={() => goToQuestion(index)}
+                        aria-label={`Go to question ${index + 1}${isLocked ? ", answered" : ", unanswered"}`}
+                        aria-current={isCurrent ? "step" : undefined}
+                      >
+                        {index + 1}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div
+                className="quiz-card"
+                aria-labelledby="current-question"
+              >
                 <div className="question-label">
                   QUESTION{" "}
                   {currentQuestion + 1}
                 </div>
 
-                <h2>
+                <h2 id="current-question">
                   {
                     currentQuizQuestion.question
                   }
                 </h2>
 
-                {/* OPTIONS */}
-
                 <div className="options">
-
                   {currentQuizQuestion.options.map(
                     (option, index) => {
                       const selectedAnswer =
@@ -1153,55 +1666,34 @@ function App() {
                           currentQuestion
                         ];
 
-                      const hasAnswered =
-                        selectedAnswer !==
-                        null;
-
-                      const isCorrectOption =
-                        option ===
-                        currentQuizQuestion.answer;
-
-                      const isWrongSelectedOption =
-                        hasAnswered &&
+                      const isSelected =
                         selectedAnswer ===
-                          option &&
-                        !isCorrectOption;
+                        option;
 
-                      let optionClass =
-                        "";
-
-                      if (
-                        hasAnswered &&
-                        isCorrectOption
-                      ) {
-                        optionClass =
-                          "correct-answer";
-                      } else if (
-                        isWrongSelectedOption
-                      ) {
-                        optionClass =
-                          "wrong-answer";
-                      } else if (
-                        selectedAnswer ===
-                        option
-                      ) {
-                        optionClass =
-                          "selected";
-                      }
+                      const isLocked =
+                        lockedQuestions[
+                          currentQuestion
+                        ];
 
                       return (
                         <button
                           key={`${index}-${option}`}
                           className={
-                            optionClass
+                            isSelected
+                              ? "selected"
+                              : ""
                           }
+                          aria-pressed={isSelected}
+                          aria-label={`Answer ${String.fromCharCode(
+                            65 + index
+                          )}: ${option}`}
                           onClick={() =>
                             selectAnswer(
                               option
                             )
                           }
                           disabled={
-                            hasAnswered
+                            isLocked
                           }
                         >
                           <span className="option-letter">
@@ -1213,72 +1705,59 @@ function App() {
                           <span>
                             {option}
                           </span>
-
                         </button>
                       );
                     }
                   )}
-
                 </div>
 
-                {/* =====================
-                    WRONG ANSWER
-                ===================== */}
-
-                {answers[
+                {lockedQuestions[
                   currentQuestion
-                ] !== null &&
-                  answers[
-                    currentQuestion
-                  ] !==
-                    currentQuizQuestion.answer && (
-                    <div className="answer-feedback wrong-feedback">
+                ] && (
+                  <div className="answer-feedback">
+                    <p className="answer-locked-message">
+                      This answer is locked.
+                    </p>
 
-                      <strong>
-                        Correct answer:
-                      </strong>{" "}
+                    <p className="quiz-correct-answer">
+                      <strong>Correct answer:</strong>{" "}
+                      {currentQuizQuestion.answer}
+                    </p>
 
-                      {
-                        currentQuizQuestion.answer
-                      }
-
-                      {currentQuizQuestion.reference && (
-                        <>
-                          {" — "}
-
-                          <span className="answer-reference">
-                            {
-                              currentQuizQuestion.reference
-                            }
-                          </span>
-                        </>
+                    {answers[currentQuestion] !==
+                      currentQuizQuestion.answer &&
+                      verseInfo && (
+                        <p className="quiz-explanation">
+                          <strong>Why this is correct:</strong>{" "}
+                          {verseInfo.explanation}
+                        </p>
                       )}
 
-                    </div>
-                  )}
+                    {currentQuizQuestion.reference && (
+                      <p className="quiz-reference">
+                        <strong>Study reference:</strong>{" "}
+                        {currentQuizQuestion.reference}
+                      </p>
+                    )}
 
-                {/* =====================
-                    CORRECT ANSWER
-                ===================== */}
-
-                {answers[
-                  currentQuestion
-                ] !== null &&
-                  answers[
-                    currentQuestion
-                  ] ===
-                    currentQuizQuestion.answer && (
-                    <div className="answer-feedback correct-feedback">
-                      Correct answer.
-                    </div>
-                  )}
-
-                {/* =====================
-                    NAVIGATION
-                ===================== */}
+                    {verseInfo && (
+                      <div className="verse-box">
+                        <p className="verse-header">
+                          <strong>Verse text:</strong>
+                        </p>
+                        <p className="verse-text">
+                          {verseInfo.text}
+                        </p>
+                        <p className="verse-explanation">
+                          <strong>What it means:</strong>{" "}
+                          {verseInfo.explanation}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                )}
 
                 <div className="quiz-navigation">
-
                   <button
                     className="previous-button"
                     onClick={
@@ -1311,9 +1790,7 @@ function App() {
                       ? "Finish Quiz"
                       : "Next"}
                   </button>
-
                 </div>
-
               </div>
             </div>
           )}
@@ -1324,9 +1801,7 @@ function App() {
 
         {page === "results" && (
           <div className="quiz-container">
-
             <div className="result-card">
-
               <p className="result-small-title">
                 QUIZ COMPLETE
               </p>
@@ -1335,35 +1810,24 @@ function App() {
                 {selectedBook}
               </h2>
 
-              {/* SCORE */}
-
               <div className="score-display">
-
                 <div className="score-number">
-
                   {finalScore}
 
                   <span>
                     {" "}
                     / {questions.length}
                   </span>
-
                 </div>
 
                 <div className="percentage">
                   {percentage}%
                 </div>
-
               </div>
 
               <div className="result-divider"></div>
 
-              {/* =====================
-                  ENCOURAGEMENT
-              ===================== */}
-
               <div className="encouragement-box">
-
                 <p className="encouragement-label">
                   A WORD FOR YOU
                 </p>
@@ -1379,7 +1843,6 @@ function App() {
                 </p>
 
                 <div className="encouragement-scripture">
-
                   <p>
                     {
                       encouragement.verse
@@ -1391,25 +1854,329 @@ function App() {
                       encouragement.reference
                     }
                   </span>
-
                 </div>
-
               </div>
 
-              {/* RETAKE */}
+              <div className="result-actions">
+                <button
+                  className="continue-button"
+                  onClick={() => {
+                    setPage("review");
+                    scrollToTop();
+                  }}
+                >
+                  Review Answers
+                </button>
 
-              <button
-                className="start-quiz-button"
-                onClick={restartQuiz}
-              >
-                Take Quiz Again
-              </button>
+                <button
+                  className="start-quiz-button"
+                  onClick={restartQuiz}
+                >
+                  Retake Quiz
+                </button>
 
+                <button
+                  className="back-button"
+                  onClick={goHome}
+                >
+                  Go Home
+                </button>
+              </div>
             </div>
           </div>
         )}
 
+        {/* =====================
+            REVIEW ANSWERS
+        ===================== */}
+
+        {page === "review" && (
+          <div className="quiz-container">
+            <button
+              className="back-button"
+              onClick={goBack}
+            >
+              {reviewingHistory
+                ? "Back to History"
+                : "Back to Results"}
+            </button>
+
+            <div className="selection-heading">
+              <span className="testament-label">
+                REVIEW
+              </span>
+
+              <h2>
+                {selectedBook}
+              </h2>
+
+              <p>
+                Review your answers and
+                learn from the questions
+                you missed.
+              </p>
+            </div>
+
+            <div className="review-list">
+              {questions.map(
+                (question, index) => {
+                  const userAnswer =
+                    answers[index];
+
+                  const isCorrect =
+                    userAnswer ===
+                    question.answer;
+
+                  const wasSkipped =
+                    userAnswer === null;
+
+                  return (
+                    <div
+                      className="review-card"
+                      key={index}
+                    >
+                      <div className="question-label">
+                        QUESTION{" "}
+                        {index + 1}
+                      </div>
+
+                      <h3>
+                        {question.question}
+                      </h3>
+
+                      <p>
+                        <strong>
+                          Your answer:
+                        </strong>{" "}
+                        {wasSkipped
+                          ? "Not answered"
+                          : userAnswer}
+                      </p>
+
+                      <p>
+                        <strong>
+                          Correct answer:
+                        </strong>{" "}
+                        {question.answer}
+                      </p>
+
+                      {question.reference && (
+                        <p className="answer-reference">
+                          <strong>
+                            Reference:
+                          </strong>{" "}
+                          {
+                            question.reference
+                          }
+                        </p>
+                      )}
+
+                      {!isCorrect &&
+                        question.reference &&
+                        publicDomainVerseNotes[
+                          question.reference
+                        ] && (
+                          <div className="review-verse-box">
+                            <p>
+                              <strong>
+                                Why this answer is correct:
+                              </strong>{" "}
+                              {
+                                publicDomainVerseNotes[
+                                  question.reference
+                                ].explanation
+                              }
+                            </p>
+                          </div>
+                        )}
+
+                      {question.reference &&
+                        publicDomainVerseNotes[
+                          question.reference
+                        ] && (
+                          <div className="review-verse-box">
+                            <p>
+                              <strong>
+                                Full verse text:
+                              </strong>
+                            </p>
+                            <p>
+                              {
+                                publicDomainVerseNotes[
+                                  question.reference
+                                ].text
+                              }
+                            </p>
+                            <p>
+                              <strong>
+                                What it is talking about:
+                              </strong>{" "}
+                              {
+                                publicDomainVerseNotes[
+                                  question.reference
+                                ].explanation
+                              }
+                            </p>
+                          </div>
+                        )}
+
+                      <p
+                        className={
+                          isCorrect
+                            ? "review-correct"
+                            : "review-wrong"
+                        }
+                      >
+                        {isCorrect
+                          ? "Correct"
+                          : wasSkipped
+                            ? "Skipped"
+                            : "Wrong"}
+                      </p>
+                    </div>
+                  );
+                }
+              )}
+            </div>
+
+            <button
+              className="start-quiz-button"
+              onClick={restartQuiz}
+            >
+              Take Quiz Again
+            </button>
+          </div>
+        )}
+
+        {page === "profile" && (
+          <div className="quiz-container feature-page">
+            <button className="back-button" onClick={goHome}>Back Home</button>
+            <div className="selection-heading"><span className="testament-label">PROFILE</span><h2>Your Study Profile</h2><p>Track your growth on this device.</p></div>
+            <div className="profile-card"><label htmlFor="profile-name">Your name</label><input id="profile-name" value={profile.name} onChange={(event) => saveProfile({ ...profile, name: event.target.value })} /><label className="sound-toggle"><input type="checkbox" checked={profile.soundEnabled} onChange={(event) => saveProfile({ ...profile, soundEnabled: event.target.checked })} /> Enable quiz sounds</label></div>
+            <div className="dashboard-stats profile-stats"><div><strong>{completedQuizCount}</strong><span>Quizzes</span></div><div><strong>{totalAnswered}</strong><span>Answered</span></div><div><strong>{overallAccuracy}%</strong><span>Accuracy</span></div></div>
+            <div className="badge-row"><h4>Achievements</h4>{badges.length ? badges.map((badge) => <span key={badge}>{badge}</span>) : <p>Complete a quiz to unlock achievements.</p>}</div>
+          </div>
+        )}
+
+        {/* =====================
+            QUIZ HISTORY
+        ===================== */}
+
+        {page === "history" && (
+          <div className="quiz-container">
+            <button
+              className="back-button"
+              onClick={goBack}
+            >
+              Back
+            </button>
+
+            <div className="selection-heading">
+              <span className="testament-label">
+                HISTORY
+              </span>
+
+              <h2>
+                Quiz History
+              </h2>
+
+              <p>
+                Your completed Bible
+                quizzes are saved on
+                this device.
+              </p>
+            </div>
+
+            {quizHistory.length === 0 ? (
+              <div className="result-card">
+                <p>
+                  You have not completed
+                  any quizzes yet.
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="history-list">
+                  {quizHistory.map(
+                    (item) => (
+                      <div
+                        className="history-card"
+                        key={item.id}
+                      >
+                        <h3>
+                          {item.book}
+                        </h3>
+
+                        <p>
+                          <strong>
+                            Score:
+                          </strong>{" "}
+                          {item.score}/
+                          {item.total}
+                        </p>
+
+                        <p>
+                          <strong>
+                            Percentage:
+                          </strong>{" "}
+                          {item.percentage}%
+                        </p>
+
+                        <p>
+                          <strong>
+                            Questions:
+                          </strong>{" "}
+                          {item.total}
+                        </p>
+
+                        <p>
+                          <strong>
+                            Time:
+                          </strong>{" "}
+                          {item.timeLimit}
+                        </p>
+
+                        <p>
+                          <strong>
+                            Date:
+                          </strong>{" "}
+                          {item.date}
+                        </p>
+
+                        <p className="history-read-only">
+                          Completed quiz record
+                        </p>
+
+                        <button
+                          className="history-view-button"
+                          onClick={() => viewHistoryAnswers(item)}
+                        >
+                          View Answers
+                        </button>
+                      </div>
+                    )
+                  )}
+                </div>
+
+                <button
+                  className="back-button"
+                  onClick={clearHistory}
+                >
+                  Clear History
+                </button>
+              </>
+            )}
+          </div>
+        )}
+
       </main>
+
+      <footer className="site-footer">
+        <div className="footer-inner">
+          <p>Study the Word. Grow in faith. Keep learning.</p>
+          <span>Bible Quiz</span>
+        </div>
+      </footer>
     </div>
   );
 }
