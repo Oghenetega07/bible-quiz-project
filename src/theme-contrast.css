@@ -1,0 +1,32 @@
+.quiz-page.theme-light .site-header {
+  background: linear-gradient(135deg, var(--green-dark), var(--green));
+  border-bottom-color: var(--gold);
+}
+
+.quiz-page.theme-light .header-nav button {
+  color: #fffaf0;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 243, 196, 0.55);
+}
+
+.quiz-page.theme-light .header-nav button:hover {
+  color: #ffffff;
+  background: rgba(212, 175, 55, 0.24);
+}
+
+.quiz-page.theme-light .hero-copy,
+.quiz-page.theme-light .hero-copy p {
+  color: #fffaf0;
+}
+
+.quiz-page.theme-light .hero-copy h2 {
+  color: #fffdf7;
+}
+
+.quiz-page.theme-light .hero-stat strong {
+  color: #f1d36a;
+}
+
+.quiz-page.theme-light .hero-stat span {
+  color: #fffaf0;
+}
