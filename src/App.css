@@ -4,7 +4,7 @@ html{scroll-behavior:smooth}
 body{margin:0;font-family:Trebuchet MS,Segoe UI,sans-serif;background:var(--cream);color:var(--text)}
 button{-webkit-tap-highlight-color:transparent;font-family:inherit}
 button:focus-visible{outline:3px solid rgba(212,175,55,.35);outline-offset:3px}
-.quiz-page{min-height:100vh;background:radial-gradient(circle at 90% 5%,rgba(212,175,55,.11),transparent 25%),radial-gradient(circle at 5% 85%,rgba(23,63,53,.05),transparent 26%),linear-gradient(180deg,#faf8f3,#f2eee4)}
+.quiz-page{--green:#173f35;--green-dark:#102f28;--green-medium:#285345;--green-light:#edf3ef;--gold:#d4af37;--gold-dark:#9b750f;--gold-soft:#fff3c4;--gold-light:#fff9e7;--cream:#f5f1e8;--cream-light:#faf8f3;--white:#fff;--text:#202922;--muted:#747871;--border:#dfd9cd;--border-gold:#e0c76f;--shadow-small:0 5px 15px rgba(23,63,53,.06);--shadow:0 15px 38px rgba(23,63,53,.09);--shadow-large:0 22px 55px rgba(23,63,53,.12);min-height:100vh;background:radial-gradient(circle at 90% 5%,rgba(212,175,55,.11),transparent 25%),radial-gradient(circle at 5% 85%,rgba(23,63,53,.05),transparent 26%),linear-gradient(180deg,#faf8f3,#f2eee4);font-family:Trebuchet MS,Segoe UI,sans-serif;color:var(--text)}
 .site-header{width:100%;padding:18px 0;background:linear-gradient(135deg,var(--green-dark),var(--green));border-bottom:4px solid var(--gold);box-shadow:0 5px 22px #0000001f}
 .header-inner{width:min(1150px,92%);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand-button{background:transparent;border:none;color:var(--gold);font-size:22px;letter-spacing:3.5px;font-weight:800;cursor:pointer;padding:0}
